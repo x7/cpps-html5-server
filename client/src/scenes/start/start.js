@@ -1,6 +1,8 @@
 import Phaser from 'phaser';
 import { LoadingScene } from '../loading/loading.js'
 import { getSceneManager } from '../../main.js';
+import eventEmitter from '../../util/eventEmitter.js';
+import { startLoadingScene, switchScenes } from '../loading/loadingHelper.js';
 
 export class StartScene extends Phaser.Scene {
 	constructor() {
@@ -9,7 +11,7 @@ export class StartScene extends Phaser.Scene {
 	}
 
 	init(data) {
-		this.start = data.start ?? true
+		
 	}
 
 	preload() {
@@ -20,10 +22,6 @@ export class StartScene extends Phaser.Scene {
 	}
 
 	create() {
-		if(!this.start) {
-			return;
-		}
-
 		// brb_billboardShadow
 		this.add.image(645, 376, "brb-billboardShadow");
 
@@ -140,21 +138,18 @@ export class StartScene extends Phaser.Scene {
 		});
 
 		start_screen_mainButtonHover.on("pointerdown", () => {
-			this.sceneManager.start("LoadingScene", { currentScene: "StartScene", nextScene: "LoginScene" });
+			this.sceneManager.add({ sceneKey: "LoginScene", scene: null, autoStart: false });
+			startLoadingScene("StartScene", "Loading login");
+			switchScenes("LoginScene", 1);
 		});
 
 		start_screen_mainButton_2.on("pointerdown", () => {
-		    this.sceneManager.start("LoadingScene", { currentScene: "StartScene", nextScene: "RegisterScene" });
+			this.sceneManager.add({ sceneKey: "RegisterScene", scene: null, autoStart: false });
+			startLoadingScene("StartScene", "Loading register");
+			switchScenes("RegisterScene", 1);
 		});
-
-		this.sceneManager.add({
-			sceneKey: 'ErrorScene',
-			scene: null,
-			autoStart: false
-		});
-
-		this.sceneManager.launch('ErrorScene');
 
 		this.events.emit("scene-awake");
+		this.events.emit("sceneReady");
 	}
 }

@@ -12,7 +12,7 @@ export class ErrorScene extends Phaser.Scene {
 	}
 
     init(data) {
-        this.errorMessage = (data.message == null ? "    Incorrect username or password.\nNOTE: Passwords are CaSe Sensitive" : data.message);
+        this.errorMessage = (data.message == null ? "     Incorrect username or password.\nNOTE: Passwords are CaSe Sensitive" : data.message);
     }
 
 	create() {
@@ -52,9 +52,10 @@ export class ErrorScene extends Phaser.Scene {
 		// create button text
 		const buttonText = this.add.bitmapText(0, 0, "ArialNarrow", this.errorMessage);
 		buttonText.fontSize = 30;
-		buttonText.setOrigin(0.5, 0.5);
-		buttonText.setPosition(error_gui.x + error_gui.displayWidth / 2, error_gui.y + error_gui.displayHeight / 2 - 55);
+		buttonText.setOrigin(0.5, 0.0);
+		buttonText.setPosition(error_gui.x + error_gui.displayWidth / 2, error_gui.y + error_gui.displayHeight / 2 - 80);
 		buttonText.setTint("000000");
+		buttonText.setLineSpacing(5);
 
 
 		// interactives

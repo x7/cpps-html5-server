@@ -1,6 +1,8 @@
 import packetRegistry from "../packets/packetRegistry";
 import { getManager } from "../network";
-import { EventEmitter } from "../../util/eventEmitter";
+import eventEmitter from "../../util/eventEmitter";
+import { getSceneManager } from "../../main";
+import { switchScenes } from "../../scenes/loading/loadingHelper";
 
 export function onConnect(client) {
     console.log('Client is connected');
@@ -21,5 +23,10 @@ export function onConnect(client) {
     }
 
     console.log('Finished registering all packets');
-    EventEmitter.emit("loading:complete");
+
+    eventEmitter.emitEvent("loading:completed", () => {
+        getSceneManager().restart("LoadingScene", { text: "            Loading Start"});
+        getSceneManager().add({ sceneKey: 'StartScene', scene: null, autoStart: false });
+        switchScenes("StartScene", 1);
+    });
 }

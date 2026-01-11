@@ -1,3 +1,6 @@
+import { getSceneManager } from "../../main";
+import eventEmitter from "../../util/eventEmitter";
+
 // Will pick a random character to display the animations on
 // Todo add minecart animation
 export function pickRandomCharacter() {
@@ -35,4 +38,22 @@ export function pickRandomCharacter() {
     ]
 
     return characters[Math.floor(Math.random() * characters.length)];
+}
+
+export function startLoadingScene(currentScene, loadingText = "No text provided") {
+    const sceneManager = getSceneManager();
+
+    sceneManager.stop(currentScene);
+    sceneManager.start("LoadingScene", { "text": loadingText });
+}
+
+export function switchScenes(newScene, delay = 1) {
+    const sceneManager = getSceneManager();
+    
+    setTimeout(() => {
+        eventEmitter.emit("loading:completed", () => {
+            sceneManager.stop("LoadingScene");
+            sceneManager.start(newScene);
+        });
+    }, delay * 1000);
 }

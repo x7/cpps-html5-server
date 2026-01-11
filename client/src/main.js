@@ -5,6 +5,7 @@ import { GlobalAssetsScene } from './scenes/global/GlobalAssetsScene.js';
 import { RegisterScene } from './scenes/register/register.js';
 import { LoadingScene } from './scenes/loading/loading.js';
 import { TownScene } from './scenes/world/rooms/town/town.js';
+import { ErrorScene } from './scenes/error/error.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -14,7 +15,7 @@ const config = {
     resolution: window.devicePixelRatio || 1,
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
-    scene: [GlobalAssetsScene],
+    scene: [],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH
@@ -24,9 +25,9 @@ const config = {
 const game = new Phaser.Game(config);
 const sceneManager = new SceneManager(game);
 
-// game.events.once('ready', () => {
-//     connect();
-// });
+game.events.once('ready', () => {
+    connect();
+});
 
 export function getGameInstance() {
     return game;

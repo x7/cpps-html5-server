@@ -1,12 +1,6 @@
 import { getAnimation } from "../animations/animations";
 import * as animationKeys from "../animations/animationKeys";
 
-/*
-    for left right we can just check the X matches or is greater
-    for up and down we can just check the Y matches or is greater
-    for sidewards we need to calculate what X and Y to use
-*/
-
 export default class MovementManager {
     constructor(penguin) {
         this.penguin = penguin;
@@ -148,10 +142,10 @@ export default class MovementManager {
         const dy = goY - penguinY;
 
         const distance = Math.sqrt(dx * dx + dy * dy);
-        const threshold = 0.5; // You can adjust this value for more precision
+        const threshold = 0.5;
         if (distance < threshold) {
             console.log('Target reached');
-            return; // Stop the movement when target is close enough
+            return;
         }
 
         const normalizedDx = dx / distance;

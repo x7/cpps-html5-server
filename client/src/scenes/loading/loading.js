@@ -1,10 +1,7 @@
 import Phaser from 'phaser';
 import * as loadingHelper from './loadingHelper.js';
 import { getSceneManager } from '../../main.js';
-import { pickRandomNumber } from '../../util/util.js';
-import { EventEmitter } from '../../util/eventEmitter.js';
-
-// TODO FIX THE LOADING THING
+import eventEmitter from '../../util/eventEmitter.js';
 
 export class LoadingScene extends Phaser.Scene {
 	constructor() {
@@ -15,10 +12,12 @@ export class LoadingScene extends Phaser.Scene {
 	}
 
 	init(data) {
-		this.start = data.start;
-		this.progress = data.progress;
-		this.complete = data.complete;
 		this.text = data.text ?? "          No loading text";
+		eventEmitter.addEventOnce("loading:completed", (callback) => {
+			setTimeout(() => {
+				callback();
+			}, 1250);
+		});
 	}
 
 	preload() {
@@ -63,6 +62,26 @@ export class LoadingScene extends Phaser.Scene {
 		loading_random_text.text = this.text;
 		loading_random_text.fontSize = 18;
 
+		function updateProgress(progress) {
+			load_screen_mask.visible = true;
+			load_screen_mask.displayWidth = login_screen_background.displayWidth * progress;
+		}
+
+		let progress = 0;
+		const progressInterval = setInterval(() => {
+			if (progress >= 1) {
+				clearInterval(progressInterval);
+			} else {
+				if(progress >= 0.08) {
+					progress = 0;
+				}
+
+				progress += 0.01;
+				updateProgress(progress);
+				loading_random_text.text = this.text; // incase we update
+			}
+		}, 500); 
+
 		// Main character animation
         const mainCharacterArray = loadingHelper.pickRandomCharacter();
         for(const character of mainCharacterArray) {
@@ -73,30 +92,10 @@ export class LoadingScene extends Phaser.Scene {
             mainCharacter.play(character['animationName']);
 		}
 
-		if(typeof this.start != 'function') {
-			console.log("Loading argument start must be a function");
-			return;
-		}
-
-		if(typeof this.progress != 'function') {
-			console.log("Loading argument progress must be a function");
-			return;
-		}
-
-		if(typeof this.complete != 'function') {
-			console.log("Loading argument complete must be a function");
-			return;
-		}
-
-		EventEmitter.on("loading:progress", () => {
-			this.progress();
-		});
-
-		EventEmitter.on("loading:complete", () => {
-			this.complete();
-		});
-
 		this.events.emit("scene-awake");
-		this.start();
+	}
+
+	updateText(text) {
+		this.text = text;
 	}
 }

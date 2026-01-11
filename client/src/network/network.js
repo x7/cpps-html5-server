@@ -1,7 +1,6 @@
 import { Client } from '@stomp/stompjs';
 import { NetworkManager } from './networkManager';
 import { getSceneManager } from '../main';
-import { EventEmitter } from '../util/eventEmitter';
 
 let client = null;
 let clientManager = null;
@@ -14,39 +13,7 @@ export async function connect() {
         "autoStart": false,
     });
 
-    sceneManager.start("LoadingScene", {
-        "start": async () => {
-            // sceneManager.add({
-            //     "sceneKey": "StartScene",
-            //     "scene": null,
-            //     "autoStart": false,
-            // });
-
-            // const scene = sceneManager.get("StartScene");
-            // scene.load.on("complete", () => {
-            //     console.log('com[plete')
-            //     EventEmitter.emit("loading:complete")
-            // });
-
-            // sceneManager.start("StartScene", { "start": false });
-        },
-
-        "progress": () => {
-
-        },
-
-        "complete": () => {
-            console.log("completed");
-            sceneManager.stop("StartScene")
-            setTimeout(() => {
-                sceneManager.stop("LoadingScene");
-                sceneManager.start("StartScene", { "start": true });
-                console.log('loaded')
-            }, 2000);
-        },
-
-        "text": "      Loading websocket"
-    });
+    sceneManager.start("LoadingScene", { "text": "Connecting to websocket", });
 
     client = new Client({
         brokerURL: 'ws://localhost:8080/ws',

@@ -32,32 +32,10 @@ export class SceneManager {
     currentScene = null; // Current scene
     launchedScenes = new Set(); // List of active overlays that are called via launch (Contains a list of scenes)
 
-    // Game = Phaser game object
-    // Scene = the first scene when u register the phaser object
     constructor(game) {
         this.game = game;
     }
 
-    getCurrentScene() {
-        return this.currentScene;
-    }
-
-    // This only needs to be called ONCE in the inital scene to set the instance
-    setCurrentScene(scene) {
-        this.currentScene = scene;
-    }
-
-    getLaunchedScenes() {
-        return this.launchedScenes;
-    }
-
-    clearLaunchedScenes() {
-        this.launchedScenes.clear();
-    }
-
-    // Adds a new scene to the object (Has to be a scene key and scene class)
-    // All scenes should have the key set in the constructor if it doesnt then GGVP then u can pass one through
-    // PASS A KEY THROUGH IF U dont have the instance
     add({ sceneKey = null, scene, autoStart = false }) {
         if(this.get(sceneKey) != null) {
             console.log('Preventing duplication of scene key ' + sceneKey);
@@ -175,6 +153,15 @@ export class SceneManager {
         this.game.scene.resume(sceneId);
     }
 
+    restart(sceneId, data) {
+        const scene = this.get(sceneId);
+        if(scene == null) {
+            return;
+        }
+
+        scene.scene.restart(data);
+    }
+
     remove(sceneId) {
         const scene = this.get(sceneId);
         if(scene == null) {
@@ -192,5 +179,21 @@ export class SceneManager {
 
         console.log(`sceneid: ${sceneId} - ${this.game.scene.isActive(sceneId)}`)
         return this.game.scene.isActive(sceneId);
+    }
+
+    getCurrentScene() {
+        return this.currentScene;
+    }
+
+    setCurrentScene(scene) {
+        this.currentScene = scene;
+    }
+
+    getLaunchedScenes() {
+        return this.launchedScenes;
+    }
+
+    clearLaunchedScenes() {
+        this.launchedScenes.clear();
     }
 }
