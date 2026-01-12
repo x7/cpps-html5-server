@@ -1,6 +1,6 @@
 package org.awesome.database.operations;
 
-import org.awesome.no_idea_for_a_name_yet.PenguinData;
+import org.awesome.dto.PenguinData;
 import org.awesome.database.Database;
 
 import java.sql.Connection;

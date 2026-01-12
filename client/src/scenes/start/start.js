@@ -10,10 +10,6 @@ export class StartScene extends Phaser.Scene {
 		this.sceneManager = getSceneManager();
 	}
 
-	init(data) {
-		
-	}
-
 	preload() {
 	    this.load.image("brb-billboardShadow", "public/phaser/start/brb-billboardShadow.png");
 	    this.load.image("main-background", "public/phaser/start/brb-billboard.png");

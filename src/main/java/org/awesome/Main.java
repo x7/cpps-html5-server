@@ -14,14 +14,7 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.nio.file.Path;
 
-/*
-    7th january task
-    load all game data into a local cache before server starts up (preflight type task)
-    improve file helper
-    setup logger
-    setup config
-*/
-
+// aaaaaaaaaaaaaaaa this is rushed clean it up tomorrow
 @SpringBootApplication
 public class Main {
     public static Path root = Path.of("").toAbsolutePath().resolve("src").resolve("main").resolve("java").resolve("org").resolve("awesome");

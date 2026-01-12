@@ -8,7 +8,6 @@ export class ErrorScene extends Phaser.Scene {
 
 	preload() {
 		this.load.pack("app-pack", "public/phaser/error/app-pack.json");
-		this.load.bitmapFont("ArialNarrow", "public/phaser/fonts/ArialNarrow.png", "public/phaser/fonts/ArialNarrow.xml");
 	}
 
     init(data) {

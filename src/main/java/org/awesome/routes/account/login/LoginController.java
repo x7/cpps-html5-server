@@ -1,6 +1,6 @@
 package org.awesome.routes.account.login;
 
-import org.awesome.no_idea_for_a_name_yet.PenguinData;
+import org.awesome.dto.PenguinData;
 import org.awesome.database.operations.PenguinOperations;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,691 +1,929 @@
 import Phaser from 'phaser';
-import * as registerHelper from './registerHelper.js'
+import { updatePenguinColor, updateSelectedColor, registerPenguin, penguinColors, createInputCss, onUsernameInput, onPasswordInput, onSecondPasswordInput, onEmailInput } from './registerHelper.js';
+
+// Todo: Error prompts
 
 export class RegisterScene extends Phaser.Scene {
     constructor() {
         super("RegisterScene");
-
         this.username = null;
         this.password = null;
         this.confirmPassword = null;
         this.email = null;
-        this.penguinColor = "red"; // default is red
+        this.penguinColor = penguinColors.teal;
+		this.currentSelectedColor = null;
+		this.penguinColorDataTag = "penguin_color";
     }
 
     preload() {
         this.load.pack("create-pack", "public/phaser/register/create-pack.json");
+		this.load.bitmapFont("BurbankSmallBold", "public/phaser/fonts/BurbankSmallBold.png", "public/phaser/fonts/BurbankSmallBold.xml");
     }
 
-    create() {
-		this.events.once("shutdown", this.shutdown, this);
-	// create_module_mainBackgroundConfirmation
-	const gameCanvas = this.game.canvas;
-    const canvasRect = gameCanvas.getBoundingClientRect();
-
-	const create_module_mainBackgroundConfirmation = this.add.image(635, -4, "create", "create-module/mainBackgroundConfirmation");
-	create_module_mainBackgroundConfirmation.scaleX = 0.842354994900877;
-	create_module_mainBackgroundConfirmation.scaleY = 0.7043206072203547;
-	create_module_mainBackgroundConfirmation.setOrigin(0.5, 0);
-
-	// create_module_logo
-	const create_module_logo = this.add.image(-16, -31, "create", "create-module/logo");
-	create_module_logo.setOrigin(0, 0);
-
-	// create_module_paperdollAlternateOutline
-	const create_module_paperdollAlternateOutline = this.add.image(186, 119, "create", "create-module/paperdollOutline");
-	create_module_paperdollAlternateOutline.scaleX = 0.6727898389718864;
-	create_module_paperdollAlternateOutline.scaleY = 0.6468453557210952;
-	create_module_paperdollAlternateOutline.setOrigin(0, 0);
-
-	// create_module_chooseNameField
-	const create_module_chooseNameField = this.add.image(151, 545, "create", "create-module/chooseNameField");
-	create_module_chooseNameField.scaleX = 0.75;
-	create_module_chooseNameField.scaleY = 0.62;
-	create_module_chooseNameField.setOrigin(0, 0);
-
-	// create_penguin_name_text
-	const create_penguin_name_text = this.add.text(159, 514, "", {});
-	create_penguin_name_text.scaleX = 1.7925058706609729;
-	create_penguin_name_text.scaleY = 1.9039375826120126;
-	create_penguin_name_text.text = "Create Penguin Name:";
-	create_penguin_name_text.setStyle({ "baselineX": 1, "baselineY": 1, "color": "#6B6B6B", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "9.5px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
-
-	// create_penguin_name_bubble
-	const create_penguin_name_bubble = this.add.image(72, 517, "create", "create-module/largeProgressBubble");
-	create_penguin_name_bubble.scaleX = 0.6507266318022114;
-	create_penguin_name_bubble.scaleY = 0.6238994133768057;
-	create_penguin_name_bubble.setOrigin(0, 0);
-
-	// number_1_text
-	const number_1_text = this.add.text(88, 522, "", {});
-	number_1_text.scaleX = 2.4877054298732717;
-	number_1_text.scaleY = 2.7706885590922576;
-	number_1_text.text = "1.";
-	number_1_text.setStyle({ "align": "center", "color": "#FFFFFF", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "14px", "fontStyle": "bold", "stroke": "#FFFFFF", "resolution": 4 });
-
-	// name_information_text
-	const name_information_text = this.add.text(160, 617, "", {});
-	name_information_text.scaleX = 1.5487428237305858;
-	name_information_text.scaleY = 1.654471079768003;
-	name_information_text.text = "• 4 – 13 letters and numbers, up to 2 spaces  \n• Do not use your real name";
-	name_information_text.setStyle({ "color": "#7a7a7a", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "10px", "fontStyle": "bold", "stroke": "#7a7a7a", "resolution": 4 });
-	name_information_text.setLineSpacing(4);
-
-	// create_module_nextButton
-	const create_module_nextButton = this.add.image(1043, 628, "create", "create-module/nextButton");
-	create_module_nextButton.scaleX = 0.780598488392683;
-	create_module_nextButton.scaleY = 0.7819105828441584;
-	create_module_nextButton.setOrigin(0, 0);
-
-	// create_module_nextButtonArrow
-	const create_module_nextButtonArrow = this.add.image(1170, 638, "create", "create-module/nextButtonArrow");
-	create_module_nextButtonArrow.scaleX = 1.103943128561055;
-	create_module_nextButtonArrow.scaleY = 0.9105428465745466;
-	create_module_nextButtonArrow.setOrigin(0, 0);
-
-	// continue_text
-	const continue_text = this.add.text(1079, 625, "", {});
-	continue_text.scaleX = 1.2834301424909005;
-	continue_text.scaleY = 1.7094473842061118;
-	continue_text.text = "Next\n";
-	continue_text.setStyle({ "align": "center", "baselineX": 1, "baselineY": 1, "color": "#FFFFFF", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "20px", "fontStyle": "bold", "maxLines": 1, "stroke": "#0B5E9E", "strokeThickness": 2, "shadow.offsetY": 2, "shadow.color": "#00000055", "shadow.fill": true, "resolution": 4 });
-	continue_text.setPadding({"left":8,"top":4,"right":8,"bottom":4});
-
-	// create_module_largeProgressBubble
-	const create_module_largeProgressBubble = this.add.image(556, 62, "create", "create-module/largeProgressBubble");
-	create_module_largeProgressBubble.scaleX = 0.6507266318022114;
-	create_module_largeProgressBubble.scaleY = 0.6238994133768057;
-	create_module_largeProgressBubble.setOrigin(0, 0);
-
-	// create_module_swatchContentFill
-	const create_module_swatchContentFill = this.add.image(695, 99, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill.setOrigin(0, 0);
-	create_module_swatchContentFill.tintFill = true;
-	create_module_swatchContentFill.tintTopLeft = 40960;
-	create_module_swatchContentFill.tintTopRight = 40960;
-	create_module_swatchContentFill.tintBottomLeft = 40960;
-	create_module_swatchContentFill.tintBottomRight = 40960;
-
-	// create_module_swatchContentFill_1
-	const create_module_swatchContentFill_1 = this.add.image(756, 99, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_1.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_1.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_1.setOrigin(0, 0);
-	create_module_swatchContentFill_1.tintFill = true;
-	create_module_swatchContentFill_1.tintTopLeft = 16727972;
-	create_module_swatchContentFill_1.tintTopRight = 16727972;
-	create_module_swatchContentFill_1.tintBottomLeft = 16727972;
-	create_module_swatchContentFill_1.tintBottomRight = 16727972;
-
-	// create_module_swatchContentFill_2
-	const create_module_swatchContentFill_2 = this.add.image(817, 99, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_2.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_2.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_2.setOrigin(0, 0);
-	create_module_swatchContentFill_2.tintFill = true;
-	create_module_swatchContentFill_2.tintTopLeft = 3026478;
-	create_module_swatchContentFill_2.tintTopRight = 3026478;
-	create_module_swatchContentFill_2.tintBottomLeft = 3026478;
-	create_module_swatchContentFill_2.tintBottomRight = 3026478;
-
-	// create_module_swatchContentFill_3
-	const create_module_swatchContentFill_3 = this.add.image(878, 99, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_3.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_3.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_3.setOrigin(0, 0);
-	create_module_swatchContentFill_3.tintFill = true;
-	create_module_swatchContentFill_3.tintTopLeft = 14024704;
-	create_module_swatchContentFill_3.tintTopRight = 14024704;
-	create_module_swatchContentFill_3.tintBottomLeft = 14024704;
-	create_module_swatchContentFill_3.tintBottomRight = 14024704;
-
-	// create_module_swatchContentFill_4
-	const create_module_swatchContentFill_4 = this.add.image(939, 99, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_4.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_4.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_4.setOrigin(0, 0);
-	create_module_swatchContentFill_4.tintFill = true;
-	create_module_swatchContentFill_4.tintTopLeft = 16742912;
-	create_module_swatchContentFill_4.tintTopRight = 16742912;
-	create_module_swatchContentFill_4.tintBottomLeft = 16742912;
-	create_module_swatchContentFill_4.tintBottomRight = 16742912;
-
-	// create_module_swatchContentFill_5
-	const create_module_swatchContentFill_5 = this.add.image(1000, 99, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_5.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_5.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_5.setOrigin(0, 0);
-	create_module_swatchContentFill_5.tintFill = true;
-	create_module_swatchContentFill_5.tintTopLeft = 16765440;
-	create_module_swatchContentFill_5.tintTopRight = 16765440;
-	create_module_swatchContentFill_5.tintBottomLeft = 16765440;
-	create_module_swatchContentFill_5.tintBottomRight = 16765440;
-
-	// create_module_swatchContentFill_6
-	const create_module_swatchContentFill_6 = this.add.image(1061, 99, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_6.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_6.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_6.setOrigin(0, 0);
-	create_module_swatchContentFill_6.tintFill = true;
-	create_module_swatchContentFill_6.tintTopLeft = 7020454;
-	create_module_swatchContentFill_6.tintTopRight = 7020454;
-	create_module_swatchContentFill_6.tintBottomLeft = 7020454;
-	create_module_swatchContentFill_6.tintBottomRight = 7020454;
-
-	// create_module_swatchContentFill_8
-	const create_module_swatchContentFill_8 = this.add.image(1122, 99, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_8.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_8.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_8.setOrigin(0, 0);
-	create_module_swatchContentFill_8.tintFill = true;
-	create_module_swatchContentFill_8.tintTopLeft = 9132544;
-	create_module_swatchContentFill_8.tintTopRight = 9132544;
-	create_module_swatchContentFill_8.tintBottomLeft = 9132544;
-	create_module_swatchContentFill_8.tintBottomRight = 9132544;
-
-	// create_module_swatchContentFill_9
-	const create_module_swatchContentFill_9 = this.add.image(1183, 99, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_9.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_9.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_9.setOrigin(0, 0);
-	create_module_swatchContentFill_9.tintFill = true;
-	create_module_swatchContentFill_9.tintTopLeft = 16740207;
-	create_module_swatchContentFill_9.tintTopRight = 16740207;
-	create_module_swatchContentFill_9.tintBottomLeft = 16740207;
-	create_module_swatchContentFill_9.tintBottomRight = 16740207;
-
-	// create_module_swatchContentFill_10
-	const create_module_swatchContentFill_10 = this.add.image(634, 99, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_10.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_10.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_10.setOrigin(0, 0);
-	create_module_swatchContentFill_10.tintFill = true;
-	create_module_swatchContentFill_10.tintTopLeft = 667482;
-	create_module_swatchContentFill_10.tintTopRight = 667482;
-	create_module_swatchContentFill_10.tintBottomLeft = 667482;
-	create_module_swatchContentFill_10.tintBottomRight = 667482;
-
-	// create_module_swatchContentFill_11
-	const create_module_swatchContentFill_11 = this.add.image(664, 159, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_11.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_11.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_11.setOrigin(0, 0);
-	create_module_swatchContentFill_11.tintFill = true;
-	create_module_swatchContentFill_11.tintTopLeft = 25600;
-	create_module_swatchContentFill_11.tintTopRight = 25600;
-	create_module_swatchContentFill_11.tintBottomLeft = 25600;
-	create_module_swatchContentFill_11.tintBottomRight = 25600;
-
-	// create_module_swatchContentFill_12
-	const create_module_swatchContentFill_12 = this.add.image(725, 159, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_12.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_12.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_12.setOrigin(0, 0);
-	create_module_swatchContentFill_12.tintFill = true;
-	create_module_swatchContentFill_12.tintTopLeft = 44783;
-	create_module_swatchContentFill_12.tintTopRight = 44783;
-	create_module_swatchContentFill_12.tintBottomLeft = 44783;
-	create_module_swatchContentFill_12.tintBottomRight = 44783;
-
-	// create_module_swatchContentFill_13
-	const create_module_swatchContentFill_13 = this.add.image(786, 159, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_13.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_13.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_13.setOrigin(0, 0);
-	create_module_swatchContentFill_13.tintFill = true;
-	create_module_swatchContentFill_13.tintTopLeft = 8190976;
-	create_module_swatchContentFill_13.tintTopRight = 8190976;
-	create_module_swatchContentFill_13.tintBottomLeft = 8190976;
-	create_module_swatchContentFill_13.tintBottomRight = 8190976;
-
-	// create_module_swatchContentFill_14
-	const create_module_swatchContentFill_14 = this.add.image(847, 159, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_14.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_14.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_14.setOrigin(0, 0);
-	create_module_swatchContentFill_14.tintFill = true;
-	create_module_swatchContentFill_14.tintTopLeft = 42909;
-	create_module_swatchContentFill_14.tintTopRight = 42909;
-	create_module_swatchContentFill_14.tintBottomLeft = 42909;
-	create_module_swatchContentFill_14.tintBottomRight = 42909;
-
-	// create_module_swatchContentFill_15
-	const create_module_swatchContentFill_15 = this.add.image(908, 159, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_15.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_15.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_15.setOrigin(0, 0);
-	create_module_swatchContentFill_15.tintFill = true;
-	create_module_swatchContentFill_15.tintTopLeft = 16119260;
-	create_module_swatchContentFill_15.tintTopRight = 16119260;
-	create_module_swatchContentFill_15.tintBottomLeft = 16119260;
-	create_module_swatchContentFill_15.tintBottomRight = 16119260;
-
-	// create_module_swatchContentFill_16
-	const create_module_swatchContentFill_16 = this.add.image(969, 159, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_16.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_16.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_16.setOrigin(0, 0);
-	create_module_swatchContentFill_16.tintFill = true;
-	create_module_swatchContentFill_16.tintTopLeft = 8003389;
-	create_module_swatchContentFill_16.tintTopRight = 8003389;
-	create_module_swatchContentFill_16.tintBottomLeft = 8003389;
-	create_module_swatchContentFill_16.tintBottomRight = 8003389;
-
-	// create_module_swatchContentFill_17
-	const create_module_swatchContentFill_17 = this.add.image(1030, 159, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_17.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_17.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_17.setOrigin(0, 0);
-	create_module_swatchContentFill_17.tintFill = true;
-	create_module_swatchContentFill_17.tintTopLeft = 11771355;
-	create_module_swatchContentFill_17.tintTopRight = 11771355;
-	create_module_swatchContentFill_17.tintBottomLeft = 11771355;
-	create_module_swatchContentFill_17.tintBottomRight = 11771355;
-
-	// create_module_swatchContentFill_18
-	const create_module_swatchContentFill_18 = this.add.image(1091, 159, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_18.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_18.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_18.setOrigin(0, 0);
-	create_module_swatchContentFill_18.tintFill = true;
-	create_module_swatchContentFill_18.tintTopLeft = 16765404;
-	create_module_swatchContentFill_18.tintTopRight = 16765404;
-	create_module_swatchContentFill_18.tintBottomLeft = 16765404;
-	create_module_swatchContentFill_18.tintBottomRight = 16765404;
-
-	// create_module_swatchContentFill_19
-	const create_module_swatchContentFill_19 = this.add.image(1152, 159, "create", "create-module/swatchContentFill");
-	create_module_swatchContentFill_19.scaleX = 0.8345768673365528;
-	create_module_swatchContentFill_19.scaleY = 0.8397749370643428;
-	create_module_swatchContentFill_19.setOrigin(0, 0);
-	create_module_swatchContentFill_19.tintFill = true;
-	create_module_swatchContentFill_19.tintTopLeft = 14726537;
-	create_module_swatchContentFill_19.tintTopRight = 14726537;
-	create_module_swatchContentFill_19.tintBottomLeft = 14726537;
-	create_module_swatchContentFill_19.tintBottomRight = 14726537;
-
-	// choose_penguin_color_text
-	const choose_penguin_color_text = this.add.text(638, 65, "", {});
-	choose_penguin_color_text.scaleX = 1.7925058706609729;
-	choose_penguin_color_text.scaleY = 1.9039375826120126;
-	choose_penguin_color_text.text = "Choose Penguin Color:\n";
-	choose_penguin_color_text.setStyle({ "baselineX": 1, "baselineY": 1, "color": "#6B6B6B", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "12px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
-
-	// number_2_text_2
-	const number_2_text_2 = this.add.text(574, 68, "", {});
-	number_2_text_2.scaleX = 2.4877054298732717;
-	number_2_text_2.scaleY = 2.7706885590922576;
-	number_2_text_2.text = "2.\n";
-	number_2_text_2.setStyle({ "align": "center", "color": "#FFFFFF", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "14px", "fontStyle": "bold", "stroke": "#FFFFFF", "resolution": 4 });
-
-	// create_module_largeProgressBubble_1
-	const create_module_largeProgressBubble_1 = this.add.image(636, 221, "create", "create-module/largeProgressBubble");
-	create_module_largeProgressBubble_1.scaleX = 0.5507266318022114;
-	create_module_largeProgressBubble_1.scaleY = 0.5238994133768057;
-	create_module_largeProgressBubble_1.setOrigin(0, 0);
-
-	// number_3_text_3
-	const number_3_text_3 = this.add.text(650, 225, "", {});
-	number_3_text_3.scaleX = 2.3877054298732716;
-	number_3_text_3.scaleY = 2.470688559092258;
-	number_3_text_3.text = "3.\n";
-	number_3_text_3.setStyle({ "align": "center", "color": "#FFFFFF", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "14px", "fontStyle": "bold", "stroke": "#FFFFFF", "resolution": 10 });
-
-	// create_password_text
-	const create_password_text = this.add.text(724, 244, "", {});
-	create_password_text.scaleX = 1.7925058706609729;
-	create_password_text.scaleY = 1.9039375826120126;
-	create_password_text.text = "Create Password:";
-	create_password_text.setStyle({ "baselineX": 1, "baselineY": 1, "color": "#6B6B6B", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "9.5px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
-
-	// create_module_passwordField
-	const create_module_passwordField = this.add.image(711, 270, "create", "create-module/emailField");
-	create_module_passwordField.scaleX = 0.85;
-	create_module_passwordField.scaleY = 0.8;
-	create_module_passwordField.setOrigin(0, 0);
-
-	// create_module_repeatPasswordField_1
-	const create_module_repeatPasswordField_1 = this.add.image(711, 336, "create", "create-module/emailField");
-	create_module_repeatPasswordField_1.scaleX = 0.85;
-	create_module_repeatPasswordField_1.scaleY = 0.8;
-	create_module_repeatPasswordField_1.setOrigin(0, 0);
-
-	// email_address_information_text_1
-	const email_address_information_text_1 = this.add.text(720, 552, "", {});
-	email_address_information_text_1.scaleX = 1.8487428237305858;
-	email_address_information_text_1.scaleY = 1.654471079768003;
-	email_address_information_text_1.text = "• Club Penguin will send your parent\n   an email with an activation code.";
-	email_address_information_text_1.setStyle({ "color": "#7a7a7a", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "8px", "fontStyle": "bold", "stroke": "#7a7a7a", "resolution": 4 });
-	email_address_information_text_1.setLineSpacing(4);
-
-	// create_module_largeProgressBubble_2
-	const create_module_largeProgressBubble_2 = this.add.image(636, 445, "create", "create-module/largeProgressBubble");
-	create_module_largeProgressBubble_2.scaleX = 0.5507266318022114;
-	create_module_largeProgressBubble_2.scaleY = 0.5238994133768057;
-	create_module_largeProgressBubble_2.setOrigin(0, 0);
-
-	// create_email_address_text_1
-	const create_email_address_text_1 = this.add.text(724, 461, "", {});
-	create_email_address_text_1.scaleX = 1.6925058706609728;
-	create_email_address_text_1.scaleY = 1.8039375826120125;
-	create_email_address_text_1.text = "Email Address:\n";
-	create_email_address_text_1.setStyle({ "baselineX": 1, "baselineY": 1, "color": "#6B6B6B", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "9.5px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
-
-	// create_module_repeatPasswordField
-	const create_module_repeatPasswordField = this.add.image(711, 487, "create", "create-module/emailField");
-	create_module_repeatPasswordField.scaleX = 0.85;
-	create_module_repeatPasswordField.scaleY = 0.8;
-	create_module_repeatPasswordField.setOrigin(0, 0);
-
-	// number_4_text
-	const number_4_text = this.add.text(648, 445, "", {});
-	number_4_text.scaleX = 2.4877054298732717;
-	number_4_text.scaleY = 2.7706885590922576;
-	number_4_text.text = "4.\n";
-	number_4_text.setStyle({ "align": "center", "color": "#FFFFFF", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "14px", "fontStyle": "bold", "stroke": "#FFFFFF", "resolution": 4 });
-
-	// password_information_text
-	const password_information_text = this.add.text(724, 401, "", {});
-	password_information_text.scaleX = 1.8487428237305858;
-	password_information_text.scaleY = 1.654471079768003;
-	password_information_text.text = "• At least 8 characters, one number, one\n  uppercase letter and one special character.";
-	password_information_text.setStyle({ "color": "#7a7a7a", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "8px", "fontStyle": "bold", "stroke": "#7a7a7a", "resolution": 4 });
-	password_information_text.setLineSpacing(4);
-
-	// create_module_paperdollContentFill
-	const create_module_paperdollContentFill = this.add.image(185, 119, "create", "create-module/paperdollContentFill");
-	create_module_paperdollContentFill.scaleX = 0.6779770590428532;
-	create_module_paperdollContentFill.scaleY = 0.6482679658077646;
-	create_module_paperdollContentFill.setOrigin(0, 0);
-	create_module_paperdollContentFill.tintFill = true;
-	create_module_paperdollContentFill.tintTopLeft = 16449793;
-	create_module_paperdollContentFill.tintTopRight = 16449793;
-	create_module_paperdollContentFill.tintBottomLeft = 16449793;
-	create_module_paperdollContentFill.tintBottomRight = 16449793;
-
-	// create_penguin_display_text
-	const create_penguin_display_text = this.add.text(175, 559, "", {});
-	create_penguin_display_text.scaleX = 1.4945494276515807;
-	create_penguin_display_text.scaleY = 1.8598924079869041;
-	create_penguin_display_text.text = "Penguin Name";
-	create_penguin_display_text.setStyle({ "color": "#9c9c9cff", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "14px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
-
-	// email_address_display_text
-	const email_address_display_text = this.add.text(739, 500, "", {});
-	email_address_display_text.scaleX = 1.4945494276515807;
-	email_address_display_text.scaleY = 1.8598924079869041;
-	email_address_display_text.text = "Enter parent's email address";
-	email_address_display_text.setStyle({ "color": "#9c9c9cff", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "12px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
-
-	// enter_password_display_text
-	const enter_password_display_text = this.add.text(738, 282, "", {});
-	enter_password_display_text.scaleX = 1.4945494276515807;
-	enter_password_display_text.scaleY = 1.8598924079869041;
-	enter_password_display_text.text = "Enter password";
-	enter_password_display_text.setStyle({ "color": "#9c9c9cff", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "12px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
-
-	// enter_password_display_text_1
-	const enter_password_display_text_1 = this.add.text(738, 350, "", {});
-	enter_password_display_text_1.scaleX = 1.4945494276515807;
-	enter_password_display_text_1.scaleY = 1.8598924079869041;
-	enter_password_display_text_1.text = "Confirm Password";
-	enter_password_display_text_1.setStyle({ "color": "#9c9c9cff", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "12px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
-
-        // Creating text input methods
-        // Penguin username input
-        const penguinNameInputBox = document.createElement('input');
-        const imageWidth = create_module_chooseNameField.width * create_module_chooseNameField.scaleX;
-        const imageHeight = create_module_chooseNameField.height * create_module_chooseNameField.scaleY;
-        penguinNameInputBox.type = 'text';
-        penguinNameInputBox.id = 'penguinNameInput';
-        penguinNameInputBox.maxLength = 16;
-        penguinNameInputBox.style.position = 'absolute';
-        penguinNameInputBox.style.left = `${151 + 10}px`;
-        penguinNameInputBox.style.top = `${545 + 10}px`;
-        penguinNameInputBox.style.width = `${imageWidth - 20}px`;
-        penguinNameInputBox.style.height = `${imageHeight - 20}px`;
-        penguinNameInputBox.style.background = 'transparent';
-        penguinNameInputBox.style.border = 'none';
-        penguinNameInputBox.style.fontSize = '18px';
-        penguinNameInputBox.style.fontFamily = 'Arial, sans-serif';
-        penguinNameInputBox.style.color = '#000000';
-        penguinNameInputBox.style.padding = '5px';
-        penguinNameInputBox.style.outline = 'none';
-        penguinNameInputBox.style.textAlign = 'left';
-        penguinNameInputBox.style.left = `${canvasRect.left + 151 + 15}px`;
-        penguinNameInputBox.style.top = `${canvasRect.top + 545 + 10}px`;
-        document.body.appendChild(penguinNameInputBox);
-
-        // First password input
-        const passwordInputBox = document.createElement('input');
-        const passwordImageWidth = create_module_passwordField.width * create_module_passwordField.scaleX;
-        const passwordImageHeight = create_module_passwordField.height * create_module_passwordField.scaleY;
-        passwordInputBox.type = 'password';
-        passwordInputBox.id = 'passwordInput';
-        passwordInputBox.maxLength = 128;
-        passwordInputBox.style.position = 'absolute';
-        passwordInputBox.style.left = `${151 + 10}px`;
-        passwordInputBox.style.top = `${545 + 10}px`;
-        passwordInputBox.style.width = `${passwordImageWidth - 20}px`;
-        passwordInputBox.style.height = `${passwordImageHeight - 20}px`;
-        passwordInputBox.style.background = 'transparent';
-        passwordInputBox.style.border = 'none';
-        passwordInputBox.style.fontSize = '18px';
-        passwordInputBox.style.fontFamily = 'Arial, sans-serif';
-        passwordInputBox.style.color = '#000000';
-        passwordInputBox.style.padding = '5px';
-        passwordInputBox.style.outline = 'none';
-        passwordInputBox.style.textAlign = 'left';
-        passwordInputBox.style.left = `${canvasRect.left + 711 + 15}px`;
-        passwordInputBox.style.top = `${canvasRect.top + 270 + 10}px`;
-        document.body.appendChild(passwordInputBox);
-
-        // Confirm password input
-        const passwordConfirmInputBox = document.createElement('input');
-        const passwordConfirmImageWidth = create_module_repeatPasswordField_1.width * create_module_repeatPasswordField_1.scaleX;
-        const passwordConfirmImageHeight = create_module_repeatPasswordField_1.height * create_module_repeatPasswordField_1.scaleY;
-        passwordConfirmInputBox.type = 'password';
-        passwordConfirmInputBox.id = 'passwordConfirmInput';
-        passwordConfirmInputBox.maxLength = 128;
-        passwordConfirmInputBox.style.position = 'absolute';
-        passwordConfirmInputBox.style.left = `${151 + 10}px`;
-        passwordConfirmInputBox.style.top = `${545 + 10}px`;
-        passwordConfirmInputBox.style.width = `${passwordConfirmImageWidth - 20}px`;
-        passwordConfirmInputBox.style.height = `${passwordConfirmImageHeight - 20}px`;
-        passwordConfirmInputBox.style.background = 'transparent';
-        passwordConfirmInputBox.style.border = 'none';
-        passwordConfirmInputBox.style.fontSize = '18px';
-        passwordConfirmInputBox.style.fontFamily = 'Arial, sans-serif';
-        passwordConfirmInputBox.style.color = '#000000';
-        passwordConfirmInputBox.style.padding = '5px';
-        passwordConfirmInputBox.style.outline = 'none';
-        passwordConfirmInputBox.style.textAlign = 'left';
-        passwordConfirmInputBox.style.left = `${canvasRect.left + 711 + 15}px`;
-        passwordConfirmInputBox.style.top = `${canvasRect.top + 336 + 10}px`;
-        document.body.appendChild(passwordConfirmInputBox);
-
-        // Email input
-        const emailInput = document.createElement('input');
-        const emailImageWidth = create_module_repeatPasswordField.width * create_module_repeatPasswordField.scaleX;
-        const emailImageHeight = create_module_repeatPasswordField.height * create_module_repeatPasswordField.scaleY;
-        emailInput.type = 'text';
-        emailInput.id = 'emailInput';
-        emailInput.maxLength = 128;
-        emailInput.style.position = 'absolute';
-        emailInput.style.left = `${151 + 10}px`;
-        emailInput.style.top = `${545 + 10}px`;
-        emailInput.style.width = `${emailImageWidth - 20}px`;
-        emailInput.style.height = `${emailImageHeight - 20}px`;
-        emailInput.style.background = 'transparent';
-        emailInput.style.border = 'none';
-        emailInput.style.fontSize = '18px';
-        emailInput.style.fontFamily = 'Arial, sans-serif';
-        emailInput.style.color = '#000000';
-        emailInput.style.padding = '5px';
-        emailInput.style.outline = 'none';
-        emailInput.style.textAlign = 'left';
-        emailInput.style.left = `${canvasRect.left + 711 + 15}px`;
-        emailInput.style.top = `${canvasRect.top + 487 + 10}px`;
-        document.body.appendChild(emailInput);
-
-        // on click methods
-        // Dark blue color
-        create_module_swatchContentFill_10.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-			registerHelper.updatePenguinColor(create_module_swatchContentFill_10, create_module_paperdollContentFill);
-            this.penguinColor = "dark_blue";
-        });
-
-        // Green color
-        create_module_swatchContentFill.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-			registerHelper.updatePenguinColor(create_module_swatchContentFill, create_module_paperdollContentFill);
-            this.penguinColor = "green";
-        });
-
-        // Pink color
-        create_module_swatchContentFill_1.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-			registerHelper.updatePenguinColor(create_module_swatchContentFill_1, create_module_paperdollContentFill);
-            this.penguinColor = "pink";
-        });
-
-        // Black Color
-        create_module_swatchContentFill_2.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-			registerHelper.updatePenguinColor(create_module_swatchContentFill_2, create_module_paperdollContentFill);
-            this.penguinColor = "black";
-        });
-
-        // Red Color
-        create_module_swatchContentFill_3.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-			registerHelper.updatePenguinColor(create_module_swatchContentFill_3, create_module_paperdollContentFill);
-            this.penguinColor = "red";
-        });
-
-        // Orange Color
-        create_module_swatchContentFill_4.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_4, create_module_paperdollContentFill);
-            this.penguinColor = "orange";
-        });
-
-        // Yellow Color
-        create_module_swatchContentFill_5.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_5, create_module_paperdollContentFill);
-            this.penguinColor = "yellow";
-        });
-
-        // Purple Color
-        create_module_swatchContentFill_6.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_6, create_module_paperdollContentFill);
-            this.penguinColor = "purple";
-        });
-
-        // Brown Color
-        create_module_swatchContentFill_8.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_8, create_module_paperdollContentFill);
-            this.penguinColor = "brown";
-        });
-
-        // Light Pink Color
-        create_module_swatchContentFill_9.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_9, create_module_paperdollContentFill);
-            this.penguinColor = "light_pink";
-        });
-
-        // Dark Green Color
-        create_module_swatchContentFill_10.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_10, create_module_paperdollContentFill);
-            this.penguinColor = "dark_green";
-        });
-
-        // cyan Color
-        create_module_swatchContentFill_11.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_11, create_module_paperdollContentFill);
-            this.penguinColor = "cyan";
-        });
-
-        // Lime green color
-        create_module_swatchContentFill_12.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_12, create_module_paperdollContentFill);
-            this.penguinColor = "lime_green";
-        });
-
-        // Cyan color
-        create_module_swatchContentFill_13.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_13, create_module_paperdollContentFill);
-            this.penguinColor = "turquoise";
-        });
-
-        // beige color
-        create_module_swatchContentFill_14.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_14, create_module_paperdollContentFill);
-            this.penguinColor = "beige";
-        });
-
-        // Maroon
-        create_module_swatchContentFill_15.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_15, create_module_paperdollContentFill);
-            this.penguinColor = "maroon";
-        });
-
-        // Lavender
-        create_module_swatchContentFill_16.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_16, create_module_paperdollContentFill);
-            this.penguinColor = "lavender";
-        });
-
-        // Idk color
-        create_module_swatchContentFill_17.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_17, create_module_paperdollContentFill);
-            this.penguinColor = "light_pink";
-        });
-
-        // Biege
-        create_module_swatchContentFill_18.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_18, create_module_paperdollContentFill);
-            this.penguinColor = "biege";
-        });
-
-        create_module_swatchContentFill_19.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.updatePenguinColor(create_module_swatchContentFill_19, create_module_paperdollContentFill);
-            this.penguinColor = "fuck_knows";
-        });
-
-        // penguin username input
-        penguinNameInputBox.addEventListener("input", (event) => {
-			const input = registerHelper.handleInputEvent(event, create_penguin_display_text);
-			this.username = input;
-        });
-
-        // First password box input
-        passwordInputBox.addEventListener("input", (event) => {
-            const input = registerHelper.handleInputEvent(event, enter_password_display_text);
-			this.password = input;
-        });
-
-        // Confirm password input
-        passwordConfirmInputBox.addEventListener("input", (event) => {
-			const input = registerHelper.handleInputEvent(event, enter_password_display_text_1);
-			this.confirmPassword = input;
-        });
-
-        // Email input
-        emailInput.addEventListener("input", (event) => {
-			const input = registerHelper.handleInputEvent(event, email_address_display_text);
-			this.email = input;
-        });
-
-        // click next button (submit)
-        create_module_nextButton.setInteractive({ useHandCursor: true }).on("pointerdown", () => {
-            registerHelper.registerPenguin(this.username, this.password, this.email, this.penguinColor);
-        });
-
-        this.events.emit("scene-awake");
-    }
+	create() {
+		// register_main_background
+		const register_main_background = this.add.image(633, -7, "create", "create-module/mainBackgroundConfirmation");
+		register_main_background.scaleX = 0.842354994900877;
+		register_main_background.scaleY = 0.7043206072203547;
+		register_main_background.setOrigin(0.5, 0);
+
+		// register_club_penguin_logo
+		const register_club_penguin_logo = this.add.image(16, -3, "create", "create-module/logo");
+		register_club_penguin_logo.scaleX = 0.8270256365654004;
+		register_club_penguin_logo.scaleY = 0.7319500662489749;
+		register_club_penguin_logo.setOrigin(0, 0);
+
+		// register_penguin_body
+		const register_penguin_body = this.add.image(168, 189, "create", "create-module/paperdollOutline");
+		register_penguin_body.scaleX = 0.6378867510830845;
+		register_penguin_body.scaleY = 0.6186047069759965;
+		register_penguin_body.setOrigin(0, 0);
+
+		// register_choose_penguin_name_box
+		const register_choose_penguin_name_box = this.add.image(157, 568, "create", "create-module/chooseNameField");
+		register_choose_penguin_name_box.scaleX = 0.75;
+		register_choose_penguin_name_box.scaleY = 0.62;
+		register_choose_penguin_name_box.setOrigin(0, 0);
+
+		// register_create_penguin_name_text
+		const register_create_penguin_name_text = this.add.text(164, 539, "", {});
+		register_create_penguin_name_text.scaleX = 1.7925058706609729;
+		register_create_penguin_name_text.scaleY = 1.9039375826120126;
+		register_create_penguin_name_text.text = "Create Penguin Name:";
+		register_create_penguin_name_text.setStyle({ "baselineX": 1, "baselineY": 1, "color": "#6B6B6B", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "9.5px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
+
+		// register_create_penguin_bubble
+		const register_create_penguin_bubble = this.add.image(77, 521, "create", "create-module/largeProgressBubble");
+		register_create_penguin_bubble.scaleX = 0.6507266318022114;
+		register_create_penguin_bubble.scaleY = 0.6238994133768057;
+		register_create_penguin_bubble.setOrigin(0, 0);
+
+		// register_create_penguin_bubble_text
+		const register_create_penguin_bubble_text = this.add.text(93, 528, "", {});
+		register_create_penguin_bubble_text.scaleX = 2.4877054298732717;
+		register_create_penguin_bubble_text.scaleY = 2.7706885590922576;
+		register_create_penguin_bubble_text.text = "1.";
+		register_create_penguin_bubble_text.setStyle({ "align": "center", "color": "#FFFFFF", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "14px", "fontStyle": "bold", "stroke": "#FFFFFF", "resolution": 4 });
+
+		// register_choose_name_requirements_text
+		const register_choose_name_requirements_text = this.add.text(160, 636, "", {});
+		register_choose_name_requirements_text.scaleX = 1.5487428237305858;
+		register_choose_name_requirements_text.scaleY = 1.6566697119179672;
+		register_choose_name_requirements_text.text = "• 4 – 16 letters and numbers\n• Do not use your real name";
+		register_choose_name_requirements_text.setStyle({ "color": "#7a7a7a", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "10px", "fontStyle": "bold", "stroke": "#7a7a7a", "resolution": 4 });
+
+		// register_finish_login_button
+		const register_finish_login_button = this.add.image(1036, 626, "create", "create-module/nextButton");
+		register_finish_login_button.scaleX = 0.5921897725219171;
+		register_finish_login_button.scaleY = 0.7819105828441584;
+		register_finish_login_button.setOrigin(0, 0);
+
+		// create_module_nextButtonHover
+		const register_finish_login_button_hover = this.add.image(1036, 626, "create", "create-module/nextButtonHover");
+		register_finish_login_button_hover.scaleX = 0.5921897725219171;
+		register_finish_login_button_hover.scaleY = 0.7819105828441584;
+		register_finish_login_button_hover.setOrigin(0, 0);
+		register_finish_login_button_hover.visible = false;
+
+		// register_finish_login_button_arrow
+		const register_finish_login_button_arrow = this.add.image(1128, 639, "create", "create-module/nextButtonArrow");
+		register_finish_login_button_arrow.scaleX = 0.9950752732553921;
+		register_finish_login_button_arrow.scaleY = 0.8115965846131568;
+		register_finish_login_button_arrow.setOrigin(0, 0);
+
+		// register_finish_login_button_text
+		const register_finish_login_button_text = this.add.text(1036, 624, "", {});
+		register_finish_login_button_text.scaleX = 1.647632836484964;
+		register_finish_login_button_text.scaleY = 1.7094473842061118;
+		register_finish_login_button_text.text = "Next\n";
+		register_finish_login_button_text.setStyle({ "align": "center", "baselineX": 1, "baselineY": 1, "color": "#FFFFFF", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "20px", "fontStyle": "bold", "maxLines": 1, "stroke": "#0B5E9E", "strokeThickness": 2, "shadow.offsetY": 2, "shadow.color": "#00000055", "shadow.fill": true, "resolution": 4 });
+		register_finish_login_button_text.setPadding({"left":8,"top":4,"right":8,"bottom":4});
+
+		// register_choose_penguin_color_bubble
+		const register_choose_penguin_color_bubble = this.add.image(616, 49, "create", "create-module/largeProgressBubble");
+		register_choose_penguin_color_bubble.scaleX = 0.6507266318022114;
+		register_choose_penguin_color_bubble.scaleY = 0.6238994133768057;
+		register_choose_penguin_color_bubble.setOrigin(0, 0);
+
+		// register_penguin_color_teal
+		const register_penguin_color_teal = this.add.image(713, 98, "create", "create-module/swatchContentFill");
+		register_penguin_color_teal.scaleX = 0.8345768673365528;
+		register_penguin_color_teal.scaleY = 0.8397749370643428;
+		register_penguin_color_teal.setOrigin(0, 0);
+		register_penguin_color_teal.tintFill = true;
+		register_penguin_color_teal.tintTopLeft = 3065014;
+		register_penguin_color_teal.tintTopRight = 3065014;
+		register_penguin_color_teal.tintBottomLeft = 3065014;
+		register_penguin_color_teal.tintBottomRight = 3065014;
+		register_penguin_color_teal.setData(this.penguinColorDataTag, penguinColors.teal);
+
+		// register_choose_penguin_color_text
+		const register_choose_penguin_color_text = this.add.text(717, 70, "", {});
+		register_choose_penguin_color_text.scaleX = 1.2911088940826791;
+		register_choose_penguin_color_text.scaleY = 1.3911840253627448;
+		register_choose_penguin_color_text.text = "Choose Penguin Color:\n";
+		register_choose_penguin_color_text.setStyle({ "baselineX": 1, "baselineY": 1, "color": "#6B6B6B", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "12px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
+
+		// register_choose_penguin_color_bubble_text
+		const register_choose_penguin_color_bubble_text = this.add.text(634, 54, "", {});
+		register_choose_penguin_color_bubble_text.scaleX = 2.4877054298732717;
+		register_choose_penguin_color_bubble_text.scaleY = 2.7706885590922576;
+		register_choose_penguin_color_bubble_text.text = "2.\n";
+		register_choose_penguin_color_bubble_text.setStyle({ "align": "center", "color": "#FFFFFF", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "14px", "fontStyle": "bold", "stroke": "#FFFFFF", "resolution": 4 });
+
+		// register_create_password_bubble
+		const register_create_password_bubble = this.add.image(616, 240, "create", "create-module/largeProgressBubble");
+		register_create_password_bubble.scaleX = 0.6507266318022114;
+		register_create_password_bubble.scaleY = 0.6238994133768057;
+		register_create_password_bubble.setOrigin(0, 0);
+
+		// register_create_password_bubble_text
+		const register_create_password_bubble_text = this.add.text(634, 245, "", {});
+		register_create_password_bubble_text.scaleX = 2.4877054298732717;
+		register_create_password_bubble_text.scaleY = 2.7706885590922576;
+		register_create_password_bubble_text.text = "3.\n";
+		register_create_password_bubble_text.setStyle({ "align": "center", "color": "#FFFFFF", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "14px", "fontStyle": "bold", "stroke": "#FFFFFF", "resolution": 10 });
+
+		// register_create_password_text
+		const register_create_password_text = this.add.text(717, 257, "", {});
+		register_create_password_text.scaleX = 1.7925058706609729;
+		register_create_password_text.scaleY = 1.9039375826120126;
+		register_create_password_text.text = "Create Password:";
+		register_create_password_text.setStyle({ "baselineX": 1, "baselineY": 1, "color": "#6B6B6B", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "9.5px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
+
+		// register_create_password_first_box
+		const register_create_password_first_box = this.add.image(702, 286, "create", "create-module/emailField");
+		register_create_password_first_box.scaleX = 0.85;
+		register_create_password_first_box.scaleY = 0.8;
+		register_create_password_first_box.setOrigin(0, 0);
+
+		// register_create_password_second_box
+		const register_create_password_second_box = this.add.image(702, 349, "create", "create-module/emailField");
+		register_create_password_second_box.scaleX = 0.85;
+		register_create_password_second_box.scaleY = 0.8;
+		register_create_password_second_box.setOrigin(0, 0);
+
+		// register_email_under_text
+		const register_email_under_text = this.add.text(713, 572, "", {});
+		register_email_under_text.scaleX = 1.8487428237305858;
+		register_email_under_text.scaleY = 1.654471079768003;
+		register_email_under_text.text = "• Club Penguin will send your parent\n   an email with an activation code.";
+		register_email_under_text.setStyle({ "color": "#7a7a7a", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "8px", "fontStyle": "bold", "stroke": "#7a7a7a", "resolution": 4 });
+		register_email_under_text.setLineSpacing(4);
+
+		// register_email_bubble
+		const register_email_bubble = this.add.image(616, 445, "create", "create-module/largeProgressBubble");
+		register_email_bubble.scaleX = 0.6507266318022114;
+		register_email_bubble.scaleY = 0.6238994133768057;
+		register_email_bubble.setOrigin(0, 0);
+
+		// register_parents_email_address_text
+		const register_parents_email_address_text = this.add.text(717, 481, "", {});
+		register_parents_email_address_text.scaleX = 1.6925058706609728;
+		register_parents_email_address_text.scaleY = 1.8039375826120125;
+		register_parents_email_address_text.text = "Parent's Email Address:\n";
+		register_parents_email_address_text.setStyle({ "baselineX": 1, "baselineY": 1, "color": "#6B6B6B", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "9.5px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
+
+		// register_parents_email_box
+		const register_parents_email_box = this.add.image(704, 507, "create", "create-module/emailField");
+		register_parents_email_box.scaleX = 0.85;
+		register_parents_email_box.scaleY = 0.8;
+		register_parents_email_box.setOrigin(0, 0);
+
+		// register_parents_email_bubble_text
+		const register_parents_email_bubble_text = this.add.text(634, 452, "", {});
+		register_parents_email_bubble_text.scaleX = 2.4877054298732717;
+		register_parents_email_bubble_text.scaleY = 2.7706885590922576;
+		register_parents_email_bubble_text.text = "4.\n";
+		register_parents_email_bubble_text.setStyle({ "align": "center", "color": "#FFFFFF", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "14px", "fontStyle": "bold", "stroke": "#FFFFFF", "resolution": 4 });
+
+		// register_password_requirements_text
+		const register_password_requirements_text = this.add.text(713, 414, "", {});
+		register_password_requirements_text.scaleX = 1.8487428237305858;
+		register_password_requirements_text.scaleY = 1.654471079768003;
+		register_password_requirements_text.text = "• At least 8 characters, one number, one\n  uppercase letter and one special character.";
+		register_password_requirements_text.setStyle({ "color": "#7a7a7a", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "8px", "fontStyle": "bold", "stroke": "#7a7a7a", "resolution": 4 });
+		register_password_requirements_text.setLineSpacing(4);
+
+		// register_penguin_overlay_color
+		this.register_penguin_overlay_color = this.add.image(168, 189, "create", "create-module/paperdollContentFill");
+		this.register_penguin_overlay_color.name = "register_penguin_overlay_color";
+		this.register_penguin_overlay_color.scaleX = 0.6366517767866403;
+		this.register_penguin_overlay_color.scaleY = 0.6186047069759965;
+		this.register_penguin_overlay_color.setOrigin(0, 0);
+		this.register_penguin_overlay_color.tintFill = true;
+		this.register_penguin_overlay_color.tintTopLeft = 3065014;
+		this.register_penguin_overlay_color.tintTopRight = 3065014;
+		this.register_penguin_overlay_color.tintBottomLeft = 3065014;
+		this.register_penguin_overlay_color.tintBottomRight = 3065014;
+
+		// register_create_penguin_display_text
+		this.register_create_penguin_display_text = this.add.text(178, 583, "", {});
+		this.register_create_penguin_display_text.scaleX = 1.4945494276515807;
+		this.register_create_penguin_display_text.scaleY = 1.8598924079869041;
+		this.register_create_penguin_display_text.text = "Penguin Name";
+		this.register_create_penguin_display_text.setStyle({ "color": "#9c9c9cff", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "14px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
+
+		// register_email_address_display_text
+		this.register_email_address_display_text = this.add.text(722, 520, "", {});
+		this.register_email_address_display_text.scaleX = 1.4945494276515807;
+		this.register_email_address_display_text.scaleY = 1.8598924079869041;
+		this.register_email_address_display_text.text = "Enter parent's email address";
+		this.register_email_address_display_text.setStyle({ "color": "#9c9c9cff", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "12px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
+
+		// register_enter_password_display_text
+		this.register_enter_password_display_text = this.add.text(722, 300, "", {});
+		this.register_enter_password_display_text.scaleX = 1.4945494276515807;
+		this.register_enter_password_display_text.scaleY = 1.8598924079869041;
+		this.register_enter_password_display_text.text = "Enter password";
+		this.register_enter_password_display_text.setStyle({ "color": "#9c9c9cff", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "12px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
+
+		// register_reenter_password_display_text
+		this.register_reenter_password_display_text = this.add.text(722, 364, "", {});
+		this.register_reenter_password_display_text.scaleX = 1.4945494276515807;
+		this.register_reenter_password_display_text.scaleY = 1.8598924079869041;
+		this.register_reenter_password_display_text.text = "Confirm Password";
+		this.register_reenter_password_display_text.setStyle({ "color": "#9c9c9cff", "fontFamily": "Arial Rounded MT Bold, Nunito, Varela Round, sans-serif", "fontSize": "12px", "fontStyle": "bold", "stroke": "", "resolution": 4 });
+
+		// register_penguin_color_dark_blue
+		const register_penguin_color_dark_blue = this.add.image(778, 98, "create", "create-module/swatchContentFill");
+		register_penguin_color_dark_blue.scaleX = 0.8345768673365528;
+		register_penguin_color_dark_blue.scaleY = 0.8397749370643428;
+		register_penguin_color_dark_blue.setOrigin(0, 0);
+		register_penguin_color_dark_blue.tintFill = true;
+		register_penguin_color_dark_blue.tintTopLeft = 2047112;
+		register_penguin_color_dark_blue.tintTopRight = 2047112;
+		register_penguin_color_dark_blue.tintBottomLeft = 2047112;
+		register_penguin_color_dark_blue.tintBottomRight = 2047112;
+		register_penguin_color_dark_blue.setData(this.penguinColorDataTag, penguinColors.dark_blue);
+
+		// register_penguin_color_green
+		const register_penguin_color_green = this.add.image(843, 98, "create", "create-module/swatchContentFill");
+		register_penguin_color_green.scaleX = 0.8345768673365528;
+		register_penguin_color_green.scaleY = 0.8397749370643428;
+		register_penguin_color_green.setOrigin(0, 0);
+		register_penguin_color_green.tintFill = true;
+		register_penguin_color_green.tintTopLeft = 3066993;
+		register_penguin_color_green.tintTopRight = 3066993;
+		register_penguin_color_green.tintBottomLeft = 3066993;
+		register_penguin_color_green.tintBottomRight = 3066993;
+		register_penguin_color_green.setData(this.penguinColorDataTag, penguinColors.green);
+
+		// register_penguin_color_coral
+		const register_penguin_color_coral = this.add.image(908, 98, "create", "create-module/swatchContentFill");
+		register_penguin_color_coral.scaleX = 0.8345768673365528;
+		register_penguin_color_coral.scaleY = 0.8397749370643428;
+		register_penguin_color_coral.setOrigin(0, 0);
+		register_penguin_color_coral.tintFill = true;
+		register_penguin_color_coral.tintTopLeft = 16739179;
+		register_penguin_color_coral.tintTopRight = 16739179;
+		register_penguin_color_coral.tintBottomLeft = 16739179;
+		register_penguin_color_coral.tintBottomRight = 16739179;
+		register_penguin_color_coral.setData(this.penguinColorDataTag, penguinColors.coral);
+
+		// register_penguin_color_yellow
+		const register_penguin_color_yellow = this.add.image(973, 98, "create", "create-module/swatchContentFill");
+		register_penguin_color_yellow.scaleX = 0.8345768673365528;
+		register_penguin_color_yellow.scaleY = 0.8397749370643428;
+		register_penguin_color_yellow.setOrigin(0, 0);
+		register_penguin_color_yellow.tintFill = true;
+		register_penguin_color_yellow.tintTopLeft = 16767293;
+		register_penguin_color_yellow.tintTopRight = 16767293;
+		register_penguin_color_yellow.tintBottomLeft = 16767293;
+		register_penguin_color_yellow.tintBottomRight = 16767293;
+		register_penguin_color_yellow.setData(this.penguinColorDataTag, penguinColors.yellow);
+
+		// register_penguin_color_purple
+		const register_penguin_color_purple = this.add.image(1038, 98, "create", "create-module/swatchContentFill");
+		register_penguin_color_purple.scaleX = 0.8345768673365528;
+		register_penguin_color_purple.scaleY = 0.8397749370643428;
+		register_penguin_color_purple.setOrigin(0, 0);
+		register_penguin_color_purple.tintFill = true;
+		register_penguin_color_purple.tintTopLeft = 6966419;
+		register_penguin_color_purple.tintTopRight = 6966419;
+		register_penguin_color_purple.tintBottomLeft = 6966419;
+		register_penguin_color_purple.tintBottomRight = 6966419;
+		register_penguin_color_purple.setData(this.penguinColorDataTag, penguinColors.purple);
+
+		// register_penguin_color_dark_green
+		const register_penguin_color_dark_green = this.add.image(1103, 98, "create", "create-module/swatchContentFill");
+		register_penguin_color_dark_green.scaleX = 0.8345768673365528;
+		register_penguin_color_dark_green.scaleY = 0.8397749370643428;
+		register_penguin_color_dark_green.setOrigin(0, 0);
+		register_penguin_color_dark_green.tintFill = true;
+		register_penguin_color_dark_green.tintTopLeft = 1793568;
+		register_penguin_color_dark_green.tintTopRight = 1793568;
+		register_penguin_color_dark_green.tintBottomLeft = 1793568;
+		register_penguin_color_dark_green.tintBottomRight = 1793568;
+		register_penguin_color_dark_green.setData(this.penguinColorDataTag, penguinColors.dark_green);
+
+		// register_penguin_color_orange
+		const register_penguin_color_orange = this.add.image(713, 162, "create", "create-module/swatchContentFill");
+		register_penguin_color_orange.scaleX = 0.8345768673365528;
+		register_penguin_color_orange.scaleY = 0.8397749370643428;
+		register_penguin_color_orange.setOrigin(0, 0);
+		register_penguin_color_orange.tintFill = true;
+		register_penguin_color_orange.tintTopLeft = 16747586;
+		register_penguin_color_orange.tintTopRight = 16747586;
+		register_penguin_color_orange.tintBottomLeft = 16747586;
+		register_penguin_color_orange.tintBottomRight = 16747586;
+		register_penguin_color_orange.setData(this.penguinColorDataTag, penguinColors.orange);
+
+		// register_penguin_color_black
+		const register_penguin_color_black = this.add.image(778, 162, "create", "create-module/swatchContentFill");
+		register_penguin_color_black.scaleX = 0.8345768673365528;
+		register_penguin_color_black.scaleY = 0.8397749370643428;
+		register_penguin_color_black.setOrigin(0, 0);
+		register_penguin_color_black.tintFill = true;
+		register_penguin_color_black.tintTopLeft = 3026478;
+		register_penguin_color_black.tintTopRight = 3026478;
+		register_penguin_color_black.tintBottomLeft = 3026478;
+		register_penguin_color_black.tintBottomRight = 3026478;
+		register_penguin_color_black.setData(this.penguinColorDataTag, penguinColors.black);
+
+		// register_penguin_color_light_blue
+		const register_penguin_color_light_blue = this.add.image(843, 162, "create", "create-module/swatchContentFill");
+		register_penguin_color_light_blue.scaleX = 0.8345768673365528;
+		register_penguin_color_light_blue.scaleY = 0.8397749370643428;
+		register_penguin_color_light_blue.setOrigin(0, 0);
+		register_penguin_color_light_blue.tintFill = true;
+		register_penguin_color_light_blue.tintTopLeft = 3065087;
+		register_penguin_color_light_blue.tintTopRight = 3065087;
+		register_penguin_color_light_blue.tintBottomLeft = 3065087;
+		register_penguin_color_light_blue.tintBottomRight = 3065087;
+		register_penguin_color_light_blue.setData(this.penguinColorDataTag, penguinColors.light_blue);
+
+		// register_penguin_color_lime
+		const register_penguin_color_lime = this.add.image(908, 162, "create", "create-module/swatchContentFill");
+		register_penguin_color_lime.scaleX = 0.8345768673365528;
+		register_penguin_color_lime.scaleY = 0.8397749370643428;
+		register_penguin_color_lime.setOrigin(0, 0);
+		register_penguin_color_lime.tintFill = true;
+		register_penguin_color_lime.tintTopLeft = 8191744;
+		register_penguin_color_lime.tintTopRight = 8191744;
+		register_penguin_color_lime.tintBottomLeft = 8191744;
+		register_penguin_color_lime.tintBottomRight = 8191744;
+		register_penguin_color_lime.setData(this.penguinColorDataTag, penguinColors.lime);
+
+		// register_penguin_color_brown
+		const register_penguin_color_brown = this.add.image(973, 162, "create", "create-module/swatchContentFill");
+		register_penguin_color_brown.scaleX = 0.8345768673365528;
+		register_penguin_color_brown.scaleY = 0.8397749370643428;
+		register_penguin_color_brown.setOrigin(0, 0);
+		register_penguin_color_brown.tintFill = true;
+		register_penguin_color_brown.tintTopLeft = 9268799;
+		register_penguin_color_brown.tintTopRight = 9268799;
+		register_penguin_color_brown.tintBottomLeft = 9268799;
+		register_penguin_color_brown.tintBottomRight = 9268799;
+		register_penguin_color_brown.setData(this.penguinColorDataTag, penguinColors.brown);
+
+		// register_penguin_color_pink
+		const register_penguin_color_pink = this.add.image(1038, 162, "create", "create-module/swatchContentFill");
+		register_penguin_color_pink.scaleX = 0.8345768673365528;
+		register_penguin_color_pink.scaleY = 0.8397749370643428;
+		register_penguin_color_pink.setOrigin(0, 0);
+		register_penguin_color_pink.tintFill = true;
+		register_penguin_color_pink.tintTopLeft = 16736162;
+		register_penguin_color_pink.tintTopRight = 16736162;
+		register_penguin_color_pink.tintBottomLeft = 16736162;
+		register_penguin_color_pink.tintBottomRight = 16736162;
+		register_penguin_color_pink.setData(this.penguinColorDataTag, penguinColors.pink);
+
+		// register_penguin_color_red
+		const register_penguin_color_red = this.add.image(1103, 162, "create", "create-module/swatchContentFill");
+		register_penguin_color_red.scaleX = 0.8345768673365528;
+		register_penguin_color_red.scaleY = 0.8397749370643428;
+		register_penguin_color_red.setOrigin(0, 0);
+		register_penguin_color_red.tintFill = true;
+		register_penguin_color_red.tintTopLeft = 15022389;
+		register_penguin_color_red.tintTopRight = 15022389;
+		register_penguin_color_red.tintBottomLeft = 15022389;
+		register_penguin_color_red.tintBottomRight = 15022389;
+		register_penguin_color_red.setData(this.penguinColorDataTag, penguinColors.red);
+
+		// register_penguin_color_teal_not_selected_overlay
+		const register_penguin_color_teal_not_selected_overlay = this.add.image(712, 97, "create", "create-module/swatchOutline");
+		register_penguin_color_teal_not_selected_overlay.scaleX = 0.8591034413975879;
+		register_penguin_color_teal_not_selected_overlay.scaleY = 0.856933180792397;
+		register_penguin_color_teal_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_teal_not_selected_overlay.tintFill = true;
+		register_penguin_color_teal_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_teal_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_teal_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_teal_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_blue_not_selected_overlay
+		const register_penguin_color_dark_blue_not_selected_overlay = this.add.image(778, 98, "create", "create-module/swatchOutline");
+		register_penguin_color_dark_blue_not_selected_overlay.scaleX = 0.8354456763003091;
+		register_penguin_color_dark_blue_not_selected_overlay.scaleY = 0.8398088895446231;
+		register_penguin_color_dark_blue_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_dark_blue_not_selected_overlay.tintFill = true;
+		register_penguin_color_dark_blue_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_dark_blue_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_dark_blue_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_dark_blue_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_green_not_selected_overlay
+		const register_penguin_color_green_not_selected_overlay = this.add.image(842, 97, "create", "create-module/swatchOutline");
+		register_penguin_color_green_not_selected_overlay.scaleX = 0.8591034413975879;
+		register_penguin_color_green_not_selected_overlay.scaleY = 0.856933180792397;
+		register_penguin_color_green_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_green_not_selected_overlay.tintFill = true;
+		register_penguin_color_green_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_green_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_green_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_green_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_coral_not_selected_overlay
+		const register_penguin_color_coral_not_selected_overlay = this.add.image(907, 97, "create", "create-module/swatchOutline");
+		register_penguin_color_coral_not_selected_overlay.scaleX = 0.8591034413975879;
+		register_penguin_color_coral_not_selected_overlay.scaleY = 0.856933180792397;
+		register_penguin_color_coral_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_coral_not_selected_overlay.tintFill = true;
+		register_penguin_color_coral_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_coral_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_coral_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_coral_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_yellow_not_selected_overlay
+		const register_penguin_color_yellow_not_selected_overlay = this.add.image(972, 97, "create", "create-module/swatchOutline");
+		register_penguin_color_yellow_not_selected_overlay.scaleX = 0.8591034413975879;
+		register_penguin_color_yellow_not_selected_overlay.scaleY = 0.856933180792397;
+		register_penguin_color_yellow_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_yellow_not_selected_overlay.tintFill = true;
+		register_penguin_color_yellow_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_yellow_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_yellow_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_yellow_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_purple_not_selected_overlay
+		const register_penguin_color_purple_not_selected_overlay = this.add.image(1038, 98, "create", "create-module/swatchOutline");
+		register_penguin_color_purple_not_selected_overlay.scaleX = 0.8382221092546285;
+		register_penguin_color_purple_not_selected_overlay.scaleY = 0.8437424249603463;
+		register_penguin_color_purple_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_purple_not_selected_overlay.tintFill = true;
+		register_penguin_color_purple_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_purple_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_purple_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_purple_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_dark_green_not_selected_overlay
+		const register_penguin_color_dark_green_not_selected_overlay = this.add.image(1103, 98, "create", "create-module/swatchOutline");
+		register_penguin_color_dark_green_not_selected_overlay.scaleX = 0.8376081125208638;
+		register_penguin_color_dark_green_not_selected_overlay.scaleY = 0.8492329747082579;
+		register_penguin_color_dark_green_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_dark_green_not_selected_overlay.tintFill = true;
+		register_penguin_color_dark_green_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_dark_green_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_dark_green_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_dark_green_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_orange_not_selected_overlay
+		const register_penguin_color_orange_not_selected_overlay = this.add.image(712, 162, "create", "create-module/swatchOutline");
+		register_penguin_color_orange_not_selected_overlay.scaleX = 0.8591034413975879;
+		register_penguin_color_orange_not_selected_overlay.scaleY = 0.8440148490195766;
+		register_penguin_color_orange_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_orange_not_selected_overlay.tintFill = true;
+		register_penguin_color_orange_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_orange_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_orange_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_orange_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_black_not_selected_overlay
+		const register_penguin_color_black_not_selected_overlay = this.add.image(778, 162, "create", "create-module/swatchOutline");
+		register_penguin_color_black_not_selected_overlay.scaleX = 0.8332509727810387;
+		register_penguin_color_black_not_selected_overlay.scaleY = 0.8440148490195766;
+		register_penguin_color_black_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_black_not_selected_overlay.tintFill = true;
+		register_penguin_color_black_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_black_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_black_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_black_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_light_blue_not_selected_overlay
+		const register_penguin_color_light_blue_not_selected_overlay = this.add.image(843, 162, "create", "create-module/swatchOutline");
+		register_penguin_color_light_blue_not_selected_overlay.scaleX = 0.8287994823580699;
+		register_penguin_color_light_blue_not_selected_overlay.scaleY = 0.8440148490195766;
+		register_penguin_color_light_blue_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_light_blue_not_selected_overlay.tintFill = true;
+		register_penguin_color_light_blue_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_light_blue_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_light_blue_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_light_blue_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_lime_not_selected_overlay
+		const register_penguin_color_lime_not_selected_overlay = this.add.image(909, 162, "create", "create-module/swatchOutline");
+		register_penguin_color_lime_not_selected_overlay.scaleX = 0.8287994823580699;
+		register_penguin_color_lime_not_selected_overlay.scaleY = 0.8440148490195766;
+		register_penguin_color_lime_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_lime_not_selected_overlay.tintFill = true;
+		register_penguin_color_lime_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_lime_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_lime_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_lime_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_brown_not_selected_overlay
+		const register_penguin_color_brown_not_selected_overlay = this.add.image(973, 162, "create", "create-module/swatchOutline");
+		register_penguin_color_brown_not_selected_overlay.scaleX = 0.8234206148957577;
+		register_penguin_color_brown_not_selected_overlay.scaleY = 0.8440148490195766;
+		register_penguin_color_brown_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_brown_not_selected_overlay.tintFill = true;
+		register_penguin_color_brown_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_brown_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_brown_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_brown_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_pink_not_selected_overlay
+		const register_penguin_color_pink_not_selected_overlay = this.add.image(1038, 162, "create", "create-module/swatchOutline");
+		register_penguin_color_pink_not_selected_overlay.scaleX = 0.8234206148957577;
+		register_penguin_color_pink_not_selected_overlay.scaleY = 0.8440148490195766;
+		register_penguin_color_pink_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_pink_not_selected_overlay.tintFill = true;
+		register_penguin_color_pink_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_pink_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_pink_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_pink_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_red_not_selected_overlay
+		const register_penguin_color_red_not_selected_overlay = this.add.image(1104, 163, "create", "create-module/swatchOutline");
+		register_penguin_color_red_not_selected_overlay.scaleX = 0.8234206148957577;
+		register_penguin_color_red_not_selected_overlay.scaleY = 0.8220667164927843;
+		register_penguin_color_red_not_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_red_not_selected_overlay.tintFill = true;
+		register_penguin_color_red_not_selected_overlay.tintTopLeft = 0;
+		register_penguin_color_red_not_selected_overlay.tintTopRight = 0;
+		register_penguin_color_red_not_selected_overlay.tintBottomLeft = 0;
+		register_penguin_color_red_not_selected_overlay.tintBottomRight = 0;
+
+		// register_penguin_color_teal_selected_overlay
+		const register_penguin_color_teal_selected_overlay = this.add.image(712, 97, "create", "create-module/swatchSelected");
+		register_penguin_color_teal_selected_overlay.scaleX = 0.8517664006439605;
+		register_penguin_color_teal_selected_overlay.scaleY = 0.8440533587455629;
+		register_penguin_color_teal_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_teal_selected_overlay.visible = true;
+
+		// register_penguin_color_blue_selected_overlay
+		const register_penguin_color_dark_blue_selected_overlay = this.add.image(778, 98, "create", "create-module/swatchSelected");
+		register_penguin_color_dark_blue_selected_overlay.scaleX = 0.8354456763003091;
+		register_penguin_color_dark_blue_selected_overlay.scaleY = 0.8398088895446231;
+		register_penguin_color_dark_blue_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_dark_blue_selected_overlay.visible = false;
+
+		// register_penguin_color_green_selected_overlay
+		const register_penguin_color_green_selected_overlay = this.add.image(842, 97, "create", "create-module/swatchSelected");
+		register_penguin_color_green_selected_overlay.scaleX = 0.8420622665841403;
+		register_penguin_color_green_selected_overlay.scaleY = 0.8425738698217964;
+		register_penguin_color_green_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_green_selected_overlay.visible = false;
+
+		// register_penguin_color_coral_selected_overlay
+		const register_penguin_color_coral_selected_overlay = this.add.image(907, 97, "create", "create-module/swatchSelected");
+		register_penguin_color_coral_selected_overlay.scaleX = 0.8493544167552075;
+		register_penguin_color_coral_selected_overlay.scaleY = 0.8474461268955638;
+		register_penguin_color_coral_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_coral_selected_overlay.visible = false;
+
+		// register_penguin_color_yellow_selected_overlay
+		const register_penguin_color_yellow_selected_overlay = this.add.image(972, 97, "create", "create-module/swatchSelected");
+		register_penguin_color_yellow_selected_overlay.scaleX = 0.8493544167552075;
+		register_penguin_color_yellow_selected_overlay.scaleY = 0.8474461268955638;
+		register_penguin_color_yellow_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_yellow_selected_overlay.visible = false;
+
+		// register_penguin_color_purple_selected_overlay
+		const register_penguin_color_purple_selected_overlay = this.add.image(1038, 98, "create", "create-module/swatchSelected");
+		register_penguin_color_purple_selected_overlay.scaleX = 0.8332158188054465;
+		register_penguin_color_purple_selected_overlay.scaleY = 0.8317142339371845;
+		register_penguin_color_purple_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_purple_selected_overlay.visible = false;
+
+		// register_penguin_color_dark_green_selected_overlay
+		const register_penguin_color_dark_green_selected_overlay = this.add.image(1103, 98, "create", "create-module/swatchSelected");
+		register_penguin_color_dark_green_selected_overlay.scaleX = 0.82613177790062;
+		register_penguin_color_dark_green_selected_overlay.scaleY = 0.8317142339371845;
+		register_penguin_color_dark_green_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_dark_green_selected_overlay.visible = false;
+
+		// register_penguin_color_orange_selected_overlay
+		const register_penguin_color_orange_selected_overlay = this.add.image(712, 162, "create", "create-module/swatchSelected");
+		register_penguin_color_orange_selected_overlay.scaleX = 0.8431499251163271;
+		register_penguin_color_orange_selected_overlay.scaleY = 0.839838496227611;
+		register_penguin_color_orange_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_orange_selected_overlay.visible = false;
+
+		// register_penguin_color_black_selected_overlay
+		const register_penguin_color_black_selected_overlay = this.add.image(778, 162, "create", "create-module/swatchSelected");
+		register_penguin_color_black_selected_overlay.scaleX = 0.8350168830529625;
+		register_penguin_color_black_selected_overlay.scaleY = 0.839838496227611;
+		register_penguin_color_black_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_black_selected_overlay.visible = false;
+
+		// register_penguin_color_light_blue_selected_overlay
+		const register_penguin_color_light_blue_selected_overlay = this.add.image(843, 162, "create", "create-module/swatchSelected");
+		register_penguin_color_light_blue_selected_overlay.scaleX = 0.8236150038698904;
+		register_penguin_color_light_blue_selected_overlay.scaleY = 0.839838496227611;
+		register_penguin_color_light_blue_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_light_blue_selected_overlay.visible = false;
+
+		// register_penguin_color_lime_selected_overlay
+		const register_penguin_color_lime_selected_overlay = this.add.image(909, 162, "create", "create-module/swatchSelected");
+		register_penguin_color_lime_selected_overlay.scaleX = 0.8236150038698904;
+		register_penguin_color_lime_selected_overlay.scaleY = 0.839838496227611;
+		register_penguin_color_lime_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_lime_selected_overlay.visible = false;
+
+		// register_penguin_color_brown_selected_overlay
+		const register_penguin_color_brown_selected_overlay = this.add.image(973, 161, "create", "create-module/swatchSelected");
+		register_penguin_color_brown_selected_overlay.scaleX = 0.8135439677775654;
+		register_penguin_color_brown_selected_overlay.scaleY = 0.8502526259280397;
+		register_penguin_color_brown_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_brown_selected_overlay.visible = false;
+
+		// register_penguin_color_pink_selected_overlay
+		const register_penguin_color_pink_selected_overlay = this.add.image(1038, 162, "create", "create-module/swatchSelected");
+		register_penguin_color_pink_selected_overlay.scaleX = 0.8135439677775654;
+		register_penguin_color_pink_selected_overlay.scaleY = 0.8375142830234344;
+		register_penguin_color_pink_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_pink_selected_overlay.visible = false;
+
+		// register_penguin_color_red_selected_overlay
+		const register_penguin_color_red_selected_overlay = this.add.image(1104, 163, "create", "create-module/swatchSelected");
+		register_penguin_color_red_selected_overlay.scaleX = 0.8135439677775654;
+		register_penguin_color_red_selected_overlay.scaleY = 0.8177652768366382;
+		register_penguin_color_red_selected_overlay.setOrigin(0, 0);
+		register_penguin_color_red_selected_overlay.visible = false;
+
+		// register_penguin_name_error_bubble
+		const register_penguin_name_error_bubble = this.add.image(307, 494, "create", "create-module/errorBubble");
+		register_penguin_name_error_bubble.scaleX = 0.5341448617671243;
+		register_penguin_name_error_bubble.scaleY = 0.6571161645273013;
+		register_penguin_name_error_bubble.setOrigin(0.5, 0.17801);
+		register_penguin_name_error_bubble.visible = false;
+
+		// register_penguin_email_error_bubble
+		const register_penguin_email_error_bubble = this.add.image(846, 638, "create", "create-module/errorBubble");
+		register_penguin_email_error_bubble.scaleX = 0.5341448617671243;
+		register_penguin_email_error_bubble.scaleY = 0.6571161645273013;
+		register_penguin_email_error_bubble.setOrigin(0.5, 0.17801);
+		register_penguin_email_error_bubble.flipY = true;
+		register_penguin_email_error_bubble.visible = false;
+
+		// register_penguin_password_error_bubble
+		const register_penguin_password_error_bubble = this.add.image(849, 479, "create", "create-module/errorBubble");
+		register_penguin_password_error_bubble.scaleX = 0.5341448617671243;
+		register_penguin_password_error_bubble.scaleY = 0.6571161645273013;
+		register_penguin_password_error_bubble.setOrigin(0.5, 0.17801);
+		register_penguin_password_error_bubble.flipY = true;
+		register_penguin_password_error_bubble.visible = false;
+
+		// bitmaptext_1
+		const register_penguin_name_error_bubble_text = this.add.bitmapText(207, 508, "BurbankSmallBold", "Username is not valid");
+		register_penguin_name_error_bubble_text.scaleX = 0.6333024185274249;
+		register_penguin_name_error_bubble_text.scaleY = 0.7938425303038038;
+		register_penguin_name_error_bubble_text.tintTopLeft = 65536;
+		register_penguin_name_error_bubble_text.tintTopRight = 0;
+		register_penguin_name_error_bubble_text.tintBottomLeft = 0;
+		register_penguin_name_error_bubble_text.tintBottomRight = 393216;
+		register_penguin_name_error_bubble_text.text = "Username is not valid";
+		register_penguin_name_error_bubble_text.fontSize = 32;
+		register_penguin_name_error_bubble_text.visible = false;
+
+		// Dom elements start here
+		const inputPaddingX = 20;
+		const inputPaddingY = 10;
+
+		// Username input starts here
+		const usernameInputWidth = register_choose_penguin_name_box.displayWidth - (inputPaddingX * 2);
+		const usernameInputHeight = register_choose_penguin_name_box.displayHeight - (inputPaddingY * 2);
+		this.usernameInput = this.add.dom(register_choose_penguin_name_box.x + inputPaddingX + usernameInputWidth / 2,
+  			register_choose_penguin_name_box.y + inputPaddingY + usernameInputHeight / 2,
+  			"input",
+  			createInputCss(usernameInputWidth, usernameInputHeight)
+		);
+
+		this.usernameInput.setOrigin(0.5, 0.5);
+		this.usernameInput.node.id = "register_username_input";
+		this.usernameInput.node.type = "text";
+		this.usernameInput.node.autocomplete = "off";
+		this.usernameInput.node.spellcheck = false;
+		this.usernameInput.node.addEventListener("input", (value) => {
+			onUsernameInput(this, value);
+		});
+		// Username input ends here
+
+		// Password input starts here
+		const passwordInputWidth = register_create_password_first_box.displayWidth - (inputPaddingX * 2);
+		const passwordInputHeight = register_create_password_first_box.displayHeight - (inputPaddingY * 2);
+		this.passwordInput = this.add.dom(register_create_password_first_box.x + inputPaddingX + passwordInputWidth / 2,
+  			register_create_password_first_box.y + inputPaddingY + passwordInputHeight / 2,
+  			"input",
+  			createInputCss(passwordInputWidth, passwordInputHeight)
+		);
+
+		this.passwordInput.setOrigin(0.5, 0.5);
+		this.passwordInput.node.id = "register_password_input";
+		this.passwordInput.node.type = "password";
+		this.passwordInput.node.autocomplete = "off";
+		this.passwordInput.node.spellcheck = false;
+		this.passwordInput.node.addEventListener("input", (value) => {
+			onPasswordInput(this, value);
+		});
+		// Password input ends here
+
+		// Confirm password input starts here
+		const confirmPasswordInputWidth = register_create_password_second_box.displayWidth - (inputPaddingX * 2);
+		const confirmPasswordInputHeight = register_create_password_second_box.displayHeight - (inputPaddingY * 2);
+		this.confirmPasswordInput = this.add.dom(register_create_password_second_box.x + inputPaddingX + confirmPasswordInputWidth / 2,
+  			register_create_password_second_box.y + inputPaddingY + confirmPasswordInputHeight / 2,
+  			"input",
+  			createInputCss(confirmPasswordInputWidth, confirmPasswordInputHeight)
+		);
+
+		this.confirmPasswordInput.setOrigin(0.5, 0.5);
+		this.confirmPasswordInput.node.id = "register_confirm_password_input";
+		this.confirmPasswordInput.node.type = "password";
+		this.confirmPasswordInput.node.autocomplete = "off";
+		this.confirmPasswordInput.node.spellcheck = false;
+		this.confirmPasswordInput.node.addEventListener("input", (value) => {
+			onSecondPasswordInput(this, value);
+		});
+		// Confirm password input ends here
+
+		// Email input starts here
+		const emailInputWidth = register_parents_email_box.displayWidth - (inputPaddingX * 2);
+		const emailInputHeight = register_parents_email_box.displayHeight - (inputPaddingY * 2);
+		this.emailInput = this.add.dom(register_parents_email_box.x + inputPaddingX + emailInputWidth / 2,
+  			register_parents_email_box.y + inputPaddingY + emailInputHeight / 2,
+  			"input",
+  			createInputCss(emailInputWidth, emailInputHeight)
+		);
+
+		this.emailInput.setOrigin(0.5, 0.5);
+		this.emailInput.node.id = "register_email_input";
+		this.emailInput.node.type = "text";
+		this.emailInput.node.autocomplete = "off";
+		this.emailInput.node.spellcheck = false;
+		this.emailInput.node.addEventListener("input", (value) => {
+			onEmailInput(this, value);
+		});
+		// Email input ends here
+
+		// Dom elements end here
+
+		// Setting all interactives sprites starts here
+		register_finish_login_button.setInteractive({ useHandCursor: true });
+		register_finish_login_button_hover.setInteractive({ useHandCursor: true });
+		register_penguin_color_teal_not_selected_overlay.setInteractive({ useHandCursor: true });
+		register_penguin_color_dark_blue_not_selected_overlay.setInteractive({ useHandCursor: true });
+		register_penguin_color_green_not_selected_overlay.setInteractive({ useHandCursor: true });
+		register_penguin_color_coral_not_selected_overlay.setInteractive({ useHandCursor: true });
+		register_penguin_color_yellow_not_selected_overlay.setInteractive({ useHandCursor: true });
+		register_penguin_color_purple_not_selected_overlay.setInteractive({ useHandCursor: true });
+		register_penguin_color_dark_green_not_selected_overlay.setInteractive({ useHandCursor: true });
+		register_penguin_color_orange_not_selected_overlay.setInteractive({ useHandCursor: true });
+		register_penguin_color_black_not_selected_overlay.setInteractive({ useHandCursor: true });
+		register_penguin_color_light_blue_not_selected_overlay.setInteractive({ useHandCursor: true });
+		register_penguin_color_lime_not_selected_overlay.setInteractive({ useHandCursor: true });
+		register_penguin_color_brown_not_selected_overlay.setInteractive({ useHandCursor: true });
+		register_penguin_color_pink_not_selected_overlay.setInteractive({ useHandCursor: true });
+		register_penguin_color_red_not_selected_overlay.setInteractive({ useHandCursor: true });
+		// Setting all interactives sprites ends here
+
+		// All interactive events below here
+		// Register button events start here
+		register_finish_login_button.on("pointerover", () => {
+			register_finish_login_button.visible = false;
+			register_finish_login_button_hover.visible = true;
+		});
+
+		register_finish_login_button_hover.on("pointerout", () => {
+			register_finish_login_button.visible = true;
+			register_finish_login_button_hover.visible = false;
+		});
+
+		register_finish_login_button_hover.on("pointerdown", () => {
+			registerPenguin({
+				username: this.username,
+				password: this.password,
+				secondPassword: this.confirmPassword,
+				email: this.email,
+				penguinColor: this.penguinColor
+			});
+		});
+		// Register button events end here
+
+		// All color related events start here
+		// Teal
+		register_penguin_color_teal_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_teal_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_teal);
+			updateSelectedColor(this, register_penguin_color_teal_selected_overlay);
+		});
+
+		// Dark Blue
+		register_penguin_color_dark_blue_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_dark_blue_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_dark_blue);
+			updateSelectedColor(this, register_penguin_color_dark_blue_selected_overlay);
+		});
+
+		// Green
+		register_penguin_color_green_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_green_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_green);
+			updateSelectedColor(this, register_penguin_color_green_selected_overlay);
+		});
+
+		// Coral
+		register_penguin_color_coral_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_coral_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_coral);
+			updateSelectedColor(this, register_penguin_color_coral_selected_overlay);
+		});
+
+		// Yellow
+		register_penguin_color_yellow_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_yellow_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_yellow);
+			updateSelectedColor(this, register_penguin_color_yellow_selected_overlay);
+		});
+
+		// Purple
+		register_penguin_color_purple_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_purple_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_purple);
+			updateSelectedColor(this, register_penguin_color_purple_selected_overlay);
+		});
+
+		// Dark Green
+		register_penguin_color_dark_green_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_dark_green_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_dark_green);
+			updateSelectedColor(this, register_penguin_color_dark_green_selected_overlay);
+		});
+
+		// Orange
+		register_penguin_color_orange_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_orange_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_orange);
+			updateSelectedColor(this, register_penguin_color_orange_selected_overlay);
+		});
+
+		// Black
+		register_penguin_color_black_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_black_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_black);
+			updateSelectedColor(this, register_penguin_color_black_selected_overlay);
+		});
+
+		// Light Blue
+		register_penguin_color_light_blue_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_light_blue_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_light_blue);
+			updateSelectedColor(this, register_penguin_color_light_blue_selected_overlay);
+		});
+
+		// Lime
+		register_penguin_color_lime_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_lime_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_lime);
+			updateSelectedColor(this, register_penguin_color_lime_selected_overlay);
+		});
+
+		// Brown
+		register_penguin_color_brown_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_brown_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_brown);
+			updateSelectedColor(this, register_penguin_color_brown_selected_overlay);
+		});
+
+		// Pink
+		register_penguin_color_pink_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_pink_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_pink);
+			updateSelectedColor(this, register_penguin_color_pink_selected_overlay);
+		});
+
+		// Red
+		register_penguin_color_red_not_selected_overlay.on("pointerdown", () => {
+			register_penguin_color_red_selected_overlay.visible = true;
+			updatePenguinColor(this, register_penguin_color_red);
+			updateSelectedColor(this, register_penguin_color_red_selected_overlay);
+		});
+		// All color related events end here
+
+		// Some random extra stuff
+		this.currentSelectedColor = register_penguin_color_teal_selected_overlay;
+
+		// Emit event
+		this.events.once("shutdown", this.shutdown);
+		this.events.emit("scene-awake");
+	}
 
 	shutdown() {
-		document.getElementById("usernameInput")?.remove();
-		document.getElementById("passwordInput")?.remove();
-		document.getElementById("confirmPasswordInput")?.remove();
-		document.getElementById("emailInput")?.remove();
-	}
+		this.usernameInput.destroy();
+		this.passwordInput.destroy();
+		this.confirmPasswordInput.destroy();
+		this.emailInput.destroy();
+	}	
 }

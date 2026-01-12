@@ -15,7 +15,7 @@ const config = {
     resolution: window.devicePixelRatio || 1,
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
-    scene: [],
+    scene: [RegisterScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH
@@ -25,9 +25,9 @@ const config = {
 const game = new Phaser.Game(config);
 const sceneManager = new SceneManager(game);
 
-game.events.once('ready', () => {
-    connect();
-});
+// game.events.once('ready', () => {
+//     connect();
+// });
 
 export function getGameInstance() {
     return game;
