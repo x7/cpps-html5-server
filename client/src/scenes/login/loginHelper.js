@@ -29,3 +29,25 @@ function validateUsername() {
 function validatePassword() {
 
 }
+
+export function hideDomElements(scene) {
+    if(scene == null || scene.scene.key !== 'LoginScene') {
+        return;
+    }
+
+    scene.game.domContainer.style.display = 'none';
+}
+
+export function enableRememberMeBoxes(scene) {
+    if(scene == null || scene.scene.key !== 'LoginScene') {
+        return;
+    }
+
+    if(!scene.login_remember_me_computer_checkbox_ticked.visible) {
+        scene.login_remember_me_computer_checkbox_ticked.visible = true;
+    }
+
+    if(!scene.login_remember_password_checkbox_ticked.visible) {
+        scene.login_remember_password_checkbox_ticked.visible = true;
+    }
+}

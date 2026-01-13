@@ -16,7 +16,7 @@ export function returnSceneClass(sceneId) {
         "registerscene": RegisterScene,
         "loginscene": LoginScene,
         "loginshareddevicepromptscene": SharedDevicePrompt,
-        "loginsavepasswordprompt": LoginSavePasswordPrompt,
+        "loginsavepasswordpromptscene": LoginSavePasswordPrompt,
         "errorscene": ErrorScene,
         "townscene": TownScene
     };

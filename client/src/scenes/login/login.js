@@ -1,12 +1,7 @@
 import Phaser from 'phaser';
-import * as LoginHelper from './loginHelper.js'
 import { getSceneManager } from '../../main.js';
-import { SharedDevicePrompt } from './sharedDevicePrompt.js';
 
-// TODO: Fix menu close button not disappearing after exiting
-// TODO: Make cleaner and nicer visuals
-// TODO: Make the "warning images" loop every 5 seconds and update the text
-// TODO: Make input boxes disappear after opening a popup
+// Todo: After launching "SavePasswordPromptScene" hide the dom elements
 
 export class LoginScene extends Phaser.Scene {
 	constructor() {
@@ -16,6 +11,7 @@ export class LoginScene extends Phaser.Scene {
 		this.password = null;
 		this.rememberMeComputer = false;
 		this.rememberMyPassword = false;
+		this.getSceneManager.setCurrentScene(this);
 	}
 
 	preload() {
@@ -25,97 +21,104 @@ export class LoginScene extends Phaser.Scene {
 
 	async create() {
 		// login_forgot_password_hover
-		const login_forgot_password_hover = this.add.image(470, 445, "login_1", "login-screen/background");
-		login_forgot_password_hover.scaleX = 0.17738575664140924;
-		login_forgot_password_hover.scaleY = 0.04113613489932113;
+		const login_forgot_password_hover = this.add.image(483, 449, "login_1", "login-screen/background");
+		login_forgot_password_hover.scaleX = 0.18772368727813354;
+		login_forgot_password_hover.scaleY = 0.04491512637569104;
 		login_forgot_password_hover.setOrigin(0, 0);
 
 		// login_create_penguin_hover
-		const login_create_penguin_hover = this.add.image(419, 518, "login_1", "login-screen/background");
-		login_create_penguin_hover.scaleX = 0.23561130373350495;
-		login_create_penguin_hover.scaleY = 0.07885322743807904;
+		const login_create_penguin_hover = this.add.image(449, 514, "login_1", "login-screen/background");
+		login_create_penguin_hover.scaleX = 0.22994381193178415;
+		login_create_penguin_hover.scaleY = 0.07980033037610065;
 		login_create_penguin_hover.setOrigin(0, 0);
 
 		// login_back_button_hover
-		const login_back_button_hover = this.add.image(485, 627, "login_1", "login-screen/background");
-		login_back_button_hover.scaleX = 0.16036775873844764;
-		login_back_button_hover.scaleY = 0.04534935108295973;
+		const login_back_button_hover = this.add.image(482, 632, "login_1", "login-screen/background");
+		login_back_button_hover.scaleX = 0.18299011429148995;
+		login_back_button_hover.scaleY = 0.043801411820350585;
 		login_back_button_hover.setOrigin(0, 0);
 
 		// login_screen_background
-		const login_screen_background = this.add.image(-118, -59, "login_1", "login-screen/background");
+		const login_screen_background = this.add.image(-98, -59, "login_1", "login-screen/background");
 		login_screen_background.scaleX = 0.8929518243047326;
 		login_screen_background.scaleY = 0.7920449541509529;
 		login_screen_background.setOrigin(0, 0);
 
 		// login_back_button_hover_display
-		const login_back_button_hover_display = this.add.image(485, 627, "login_1", "login-screen/rules0002");
-		login_back_button_hover_display.scaleX = 0.39042922994539053;
-		login_back_button_hover_display.scaleY = 0.42829536537721885;
+		const login_back_button_hover_display = this.add.image(483, 633, "login_1", "login-screen/rules0002");
+		login_back_button_hover_display.scaleX = 0.45609842524235933;
+		login_back_button_hover_display.scaleY = 0.49546676719594707;
 		login_back_button_hover_display.setOrigin(0, 0);
 		login_back_button_hover_display.visible = false;
 
 		// login_keep_password_safe_note
-		const login_keep_password_safe_note = this.add.image(975, 467, "login_1", "login-screen/secret0001");
+		const login_keep_password_safe_note = this.add.image(993, 404, "login_1", "login-screen/secret0001");
 		login_keep_password_safe_note.scaleX = 0.7350136112818051;
 		login_keep_password_safe_note.scaleY = 0.783837155552982;
 		login_keep_password_safe_note.setOrigin(0.492188, 0.490588);
 
 		// login_create_penguin_hover_display
-		const login_create_penguin_hover_display = this.add.image(419, 518, "login_1", "login-screen/account0003");
-		login_create_penguin_hover_display.scaleX = 0.3974249394820731;
-		login_create_penguin_hover_display.scaleY = 0.4804830558182249;
+		const login_create_penguin_hover_display = this.add.image(442, 509, "login_1", "login-screen/account0003");
+		login_create_penguin_hover_display.scaleX = 0.4034389742543004;
+		login_create_penguin_hover_display.scaleY = 0.5157580411504724;
 		login_create_penguin_hover_display.setOrigin(0, 0);
 		login_create_penguin_hover_display.visible = false;
 
 		// login_forgot_password_hover_display
-		const login_forgot_password_hover_display = this.add.image(451, 441, "login_1", "login-screen/rules0002");
+		const login_forgot_password_hover_display = this.add.image(479, 449, "login_1", "login-screen/rules0002");
 		login_forgot_password_hover_display.scaleX = 0.46435806426292336;
 		login_forgot_password_hover_display.scaleY = 0.5114869893554509;
 		login_forgot_password_hover_display.setOrigin(0, 0);
 		login_forgot_password_hover_display.visible = false;
 
 		// login_login_button
-		const login_login_button = this.add.image(478, 349, "login_1", "login-screen/button");
+		const login_login_button = this.add.image(508, 343, "login_1", "login-screen/button");
 		login_login_button.scaleX = 0.7355284492801976;
 		login_login_button.scaleY = 0.6981858137293024;
 		login_login_button.setOrigin(0, 0);
 
 		// login_login_button_hover
-		const login_login_button_hover = this.add.image(478, 349, "login_1", "login-screen/learnButtonHover");
-		login_login_button_hover.scaleX = 1.224837163626711;
-		login_login_button_hover.scaleY = 1.202658483393554;
+		const login_login_button_hover = this.add.image(507, 343, "login_1", "login-screen/learnButtonHover");
+		login_login_button_hover.scaleX = 1.2331700562248973;
+		login_login_button_hover.scaleY = 1.2374915606625507;
 		login_login_button_hover.setOrigin(0, 0);
 		login_login_button_hover.visible = false;
 
+		// login_login_button_clicked
+		const login_login_button_clicked = this.add.image(510, 344, "login_1", "login-screen/buttonDown");
+		login_login_button_clicked.scaleX = 0.7287842174012629;
+		login_login_button_clicked.scaleY = 0.6944316733189014;
+		login_login_button_clicked.setOrigin(0, 0);
+		login_login_button_clicked.visible = false;
+
 		// login_remember_password_checkbox
-		const login_remember_password_checkbox = this.add.image(429, 285, "login_1", "login-screen/checkbox");
+		const login_remember_password_checkbox = this.add.image(450, 273, "login_1", "login-screen/checkbox");
 		login_remember_password_checkbox.scaleX = 0.8;
 		login_remember_password_checkbox.scaleY = 0.8;
 		login_remember_password_checkbox.setOrigin(0, 0);
 
 		// login_remember_me_computer_checkbox
-		const login_remember_me_computer_checkbox = this.add.image(429, 232, "login_1", "login-screen/checkbox");
+		const login_remember_me_computer_checkbox = this.add.image(450, 220, "login_1", "login-screen/checkbox");
 		login_remember_me_computer_checkbox.scaleX = 0.8;
 		login_remember_me_computer_checkbox.scaleY = 0.8;
 		login_remember_me_computer_checkbox.setOrigin(0, 0);
 
 		// login_remember_me_computer_checkbox_ticked
-		const login_remember_me_computer_checkbox_ticked = this.add.image(429, 232, "login_1", "login-screen/checkboxChecked");
-		login_remember_me_computer_checkbox_ticked.scaleX = 0.8;
-		login_remember_me_computer_checkbox_ticked.scaleY = 0.8;
-		login_remember_me_computer_checkbox_ticked.setOrigin(0, 0);
-		login_remember_me_computer_checkbox_ticked.visible = false;
+		this.login_remember_me_computer_checkbox_ticked = this.add.image(450, 220, "login_1", "login-screen/checkboxChecked");
+		this.login_remember_me_computer_checkbox_ticked.scaleX = 0.8;
+		this.login_remember_me_computer_checkbox_ticked.scaleY = 0.8;
+		this.login_remember_me_computer_checkbox_ticked.setOrigin(0, 0);
+		this.login_remember_me_computer_checkbox_ticked.visible = false;
 
 		// login_remember_password_checkbox_ticked
-		const login_remember_password_checkbox_ticked = this.add.image(429, 285, "login_1", "login-screen/checkboxChecked");
-		login_remember_password_checkbox_ticked.scaleX = 0.8;
-		login_remember_password_checkbox_ticked.scaleY = 0.8;
-		login_remember_password_checkbox_ticked.setOrigin(0, 0);
-		login_remember_password_checkbox_ticked.visible = false;
+		this.login_remember_password_checkbox_ticked = this.add.image(450, 273, "login_1", "login-screen/checkboxChecked");
+		this.login_remember_password_checkbox_ticked.scaleX = 0.8;
+		this.login_remember_password_checkbox_ticked.scaleY = 0.8;
+		this.login_remember_password_checkbox_ticked.setOrigin(0, 0);
+		this.login_remember_password_checkbox_ticked.visible = false;
 
 		// login_penguin_name_text
-		const login_penguin_name_text = this.add.bitmapText(352, 133, "ArialNarrow", "Penguin Name:");
+		const login_penguin_name_text = this.add.bitmapText(368, 126, "ArialNarrow", "Penguin Name:");
 		login_penguin_name_text.tintFill = true;
 		login_penguin_name_text.tintTopLeft = 0;
 		login_penguin_name_text.tintTopRight = 0;
@@ -125,7 +128,7 @@ export class LoginScene extends Phaser.Scene {
 		login_penguin_name_text.fontSize = 28;
 
 		// login_password_text
-		const login_password_text = this.add.bitmapText(399, 177, "ArialNarrow", "Password:");
+		const login_password_text = this.add.bitmapText(415, 170, "ArialNarrow", "Password:");
 		login_password_text.tintFill = true;
 		login_password_text.tintTopLeft = 0;
 		login_password_text.tintTopRight = 0;
@@ -135,7 +138,7 @@ export class LoginScene extends Phaser.Scene {
 		login_password_text.fontSize = 28;
 
 		// login_remember_me_computer_text
-		const login_remember_me_computer_text = this.add.bitmapText(478, 247, "ArialNarrow", "Remember me on this computer");
+		const login_remember_me_computer_text = this.add.bitmapText(499, 235, "ArialNarrow", "Remember me on this computer");
 		login_remember_me_computer_text.tintFill = true;
 		login_remember_me_computer_text.tintTopLeft = 0;
 		login_remember_me_computer_text.tintTopRight = 0;
@@ -145,7 +148,7 @@ export class LoginScene extends Phaser.Scene {
 		login_remember_me_computer_text.fontSize = 24;
 
 		// login_remember_my_password_text
-		const login_remember_my_password_text = this.add.bitmapText(478, 299, "ArialNarrow", "Remember my password");
+		const login_remember_my_password_text = this.add.bitmapText(499, 287, "ArialNarrow", "Remember my password");
 		login_remember_my_password_text.tintFill = true;
 		login_remember_my_password_text.tintTopLeft = 0;
 		login_remember_my_password_text.tintTopRight = 0;
@@ -155,17 +158,17 @@ export class LoginScene extends Phaser.Scene {
 		login_remember_my_password_text.fontSize = 24;
 
 		// login_forgot_your_password_text
-		const login_forgot_your_password_text = this.add.bitmapText(509, 449, "ArialNarrow", "Forgot your password?");
+		const login_forgot_your_password_text = this.add.bitmapText(547, 459, "ArialNarrow", "Forgot your password?");
 		login_forgot_your_password_text.tintFill = true;
 		login_forgot_your_password_text.tintTopLeft = 16777215;
 		login_forgot_your_password_text.tintTopRight = 16777215;
 		login_forgot_your_password_text.tintBottomLeft = 16777215;
 		login_forgot_your_password_text.tintBottomRight = 16777215;
 		login_forgot_your_password_text.text = "Forgot your password?";
-		login_forgot_your_password_text.fontSize = 24;
+		login_forgot_your_password_text.fontSize = 23;
 
 		// login_dont_have_a_penguin_text
-		const login_dont_have_a_penguin_text = this.add.bitmapText(513, 528, "ArialNarrow", "Don't have a penguin?");
+		const login_dont_have_a_penguin_text = this.add.bitmapText(550, 528, "ArialNarrow", "Don't have a penguin?");
 		login_dont_have_a_penguin_text.scaleX = 1.0225142005547325;
 		login_dont_have_a_penguin_text.tintTopLeft = 0;
 		login_dont_have_a_penguin_text.tintTopRight = 0;
@@ -175,21 +178,22 @@ export class LoginScene extends Phaser.Scene {
 		login_dont_have_a_penguin_text.fontSize = 23;
 
 		// login_create_free_account_text
-		const login_create_free_account_text = this.add.bitmapText(487, 557, "ArialNarrow", "Create a free account now");
+		const login_create_free_account_text = this.add.bitmapText(520, 557, "ArialNarrow", "Create a free account now");
 		login_create_free_account_text.scaleX = 1.1277772898018497;
 		login_create_free_account_text.scaleY = 0.9710239041489755;
 		login_create_free_account_text.text = "Create a free account now";
 		login_create_free_account_text.fontSize = 23;
 
 		// login_back_text
-		const login_back_text = this.add.bitmapText(581, 637, "ArialNarrow", "Back");
+		const login_back_text = this.add.bitmapText(588, 641, "ArialNarrow", "Back");
 		login_back_text.scaleX = 1.1277772898018497;
 		login_back_text.scaleY = 0.9710239041489755;
+		login_back_text.setOrigin(-0.5, 0);
 		login_back_text.text = "Back";
-		login_back_text.fontSize = 23;
+		login_back_text.fontSize = 26;
 
 		// login_login_text
-		const login_login_text = this.add.bitmapText(579, 372, "ArialNarrow", "Login");
+		const login_login_text = this.add.bitmapText(605, 365, "ArialNarrow", "Login");
 		login_login_text.tintFill = true;
 		login_login_text.tintTopLeft = 16777215;
 		login_login_text.tintTopRight = 16777215;
@@ -198,7 +202,7 @@ export class LoginScene extends Phaser.Scene {
 		login_login_text.text = "Login";
 		login_login_text.fontSize = 33;
 		
-		// input elements
+		// Dom elements start here
 		const inputStyle = `
 			width: 300px;
 			height: 42px;
@@ -206,20 +210,20 @@ export class LoginScene extends Phaser.Scene {
 			font-size: 22px;
 			border-radius: 0px;
 			border: 2px solid rgba(0,0,0,0.45);
-			font-family: 'Helvetica Neue', Roboto, Arial, sans-serif;
+			font-family: "Arial Rounded MT Bold", Nunito, "Varela Round", sans-serif;
 			background: #ffffff;
 			color: #000000;
 			outline: none;
 			box-shadow: none;
         `;
 
-		this.penguinInput = this.add.dom(360 + 610/2, 150, 'input', inputStyle);
+		this.penguinInput = this.add.dom(360 + 650/2, 140, 'input', inputStyle);
 		this.penguinInput.id = 'loginPenguinUsernameInput'
 		this.penguinInput.node.type = 'text';
 		this.penguinInput.node.autocomplete = 'off';
 		this.penguinInput.node.spellcheck = 'false';
 
-		this.passwordInput = this.add.dom(360 + 610/2, 200, 'input', inputStyle);
+		this.passwordInput = this.add.dom(360 + 650/2, 185, 'input', inputStyle);
 		this.passwordInput.id = 'loginPasswordInput'
 		this.passwordInput.node.type = 'password';
 		this.passwordInput.node.autocomplete = 'off';
@@ -227,8 +231,9 @@ export class LoginScene extends Phaser.Scene {
 		this.passwordInput.node.style.setProperty('-webkit-textfield-decoration-container', 'none');
 		this.passwordInput.node.style.setProperty('::-ms-reveal', 'display:none');
 		this.passwordInput.node.style.setProperty('::-ms-clear', 'display:none');
+		// Dom elements end here
 
-		// interactables
+		// Setting all interactives sprites starts here
 		login_forgot_password_hover.setInteractive({ useHandCursor: true });
 		login_create_penguin_hover.setInteractive({ useHandCursor: true });
 		login_back_button_hover.setInteractive({ useHandCursor: true });
@@ -239,10 +244,11 @@ export class LoginScene extends Phaser.Scene {
 		login_login_button_hover.setInteractive({ useHandCursor: true });
 		login_remember_password_checkbox.setInteractive({ useHandCursor: true });
 		login_remember_me_computer_checkbox.setInteractive({ useHandCursor: true });
-		login_remember_me_computer_checkbox_ticked.setInteractive({ useHandCursor: true });
-		login_remember_password_checkbox_ticked.setInteractive({ useHandCursor: true });
+		this.login_remember_me_computer_checkbox_ticked.setInteractive({ useHandCursor: true });
+		this.login_remember_password_checkbox_ticked.setInteractive({ useHandCursor: true });
+		// Setting all interactives sprites ends here
 
-		// events
+		// All interactive events start here
 		login_forgot_password_hover.on("pointerover", () => {
 			login_forgot_password_hover.visible = false;
 			login_forgot_password_hover_display.visible = true;
@@ -290,12 +296,12 @@ export class LoginScene extends Phaser.Scene {
 
 		login_remember_me_computer_checkbox.on("pointerdown", () => {
 			login_remember_me_computer_checkbox.visible = false;
-			login_remember_me_computer_checkbox_ticked.visible = true;
+			this.login_remember_me_computer_checkbox_ticked.visible = true;
 		});
 
-		login_remember_me_computer_checkbox_ticked.on("pointerdown", () => {
+		this.login_remember_me_computer_checkbox_ticked.on("pointerdown", () => {
 			login_remember_me_computer_checkbox.visible = true;
-			login_remember_me_computer_checkbox_ticked.visible = false;
+			this.login_remember_me_computer_checkbox_ticked.visible = false;
 		});
 
 		login_remember_password_checkbox.on("pointerdown", () => {
@@ -306,19 +312,21 @@ export class LoginScene extends Phaser.Scene {
 				autoStart: false
 			});
 
-			this.game.domContainer.style.display = 'none';
+			// this.game.domContainer.style.display = 'none';
 			this.getSceneManager.pause('LoginScene');
 			this.getSceneManager.launch('LoginSharedDevicePromptScene');
 		});
 
-		login_remember_password_checkbox_ticked.on("pointerdown", () => {
+		this.login_remember_password_checkbox_ticked.on("pointerdown", () => {
 			login_remember_password_checkbox.visible = true;
-			login_remember_password_checkbox_ticked.visible = false;
+			this.login_remember_password_checkbox_ticked.visible = false;
 		});
 
 		login_login_button_hover.on("pointerdown", () => {
-			// login
+			login_login_button_hover.setVisible = false;
+			login_login_button_clicked.visible = true;
 		});
+		// All interactive events end here
 
 		this.events.emit("scene-awake");
 		this.events.on('resume', this.resume, this);

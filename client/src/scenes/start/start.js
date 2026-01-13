@@ -16,6 +16,7 @@ export class StartScene extends Phaser.Scene {
 	    this.load.image("main-background", "public/phaser/start/brb-billboard.png");
 		this.load.pack("start-asset-pack", "public/phaser/start/start-pack.json");
 		this.load.bitmapFont("BurbankSmallBold", "public/phaser/fonts/BurbankSmallBold.png", "public/phaser/fonts/BurbankSmallBold.xml");
+		this.load.bitmapFont("CCComicCrazyBoldItalicShadow", "public/phaser/fonts/CCComicCrazyBoldItalicShadow.png", "public/phaser/fonts/CCComicCrazyBoldItalicShadow.xml")
 	}
 
 	create() {
@@ -27,7 +28,8 @@ export class StartScene extends Phaser.Scene {
 		start_home_screen_page.scaleX = 0.7103831664956932;
 		start_home_screen_page.scaleY = 0.5532347846363925;
 
-// start_blue_border
+
+		// start_blue_border
 		const start_blue_border = this.add.image(644, 412, "start", "start-screen/module");
 		start_blue_border.scaleX = 0.7114916168810541;
 		start_blue_border.scaleY = 0.7214354520934542;
@@ -66,6 +68,14 @@ export class StartScene extends Phaser.Scene {
 		start_login_button_clicked.setOrigin(0, 0);
 		start_login_button_clicked.visible = false;
 
+		// start_login_button_text
+		const start_login_button_text = this.add.bitmapText(820, 601, "CCComicCrazyBoldItalicShadow", "Login");
+		start_login_button_text.scaleX = 0.465155007065247;
+		start_login_button_text.scaleY = 0.4598527246831939;
+		start_login_button_text.text = "Login";
+		start_login_button_text.fontSize = 65;
+		start_login_button_text.letterSpacing = 3;
+
 		// start_login_button_yellow_penguin
 		const start_login_button_yellow_penguin = this.add.image(970, 529, "start", "start-screen/loginGraphic0001");
 		start_login_button_yellow_penguin.scaleX = 0.7219764473955269;
@@ -100,18 +110,11 @@ export class StartScene extends Phaser.Scene {
 		start_register_button_clicked.visible = false;
 
 		// start_create_penguin_button_text
-		const start_create_penguin_button_text = this.add.bitmapText(364, 600, "BurbankSmallBold", "Create a penguin");
+		const start_create_penguin_button_text = this.add.bitmapText(353, 605, "CCComicCrazyBoldItalicShadow", "Create a Penguin");
 		start_create_penguin_button_text.scaleX = 0.3449112490584968;
-		start_create_penguin_button_text.scaleY = 0.5143235996320015;
-		start_create_penguin_button_text.text = "Create a penguin";
-		start_create_penguin_button_text.fontSize = 72;
-
-		// start_login_button_text
-		const start_login_button_text = this.add.bitmapText(818, 596, "BurbankSmallBold", "Login");
-		start_login_button_text.scaleX = 0.565155007065247;
-		start_login_button_text.scaleY = 0.5598527246831939;
-		start_login_button_text.text = "Login";
-		start_login_button_text.fontSize = 72;
+		start_create_penguin_button_text.scaleY = 0.4143235996320015;
+		start_create_penguin_button_text.text = "Create a Penguin";
+		start_create_penguin_button_text.fontSize = 60;
 
 		// start_club_penguin_logo
 		const start_club_penguin_logo = this.add.image(646, 433, "start", "start-screen/logo");
