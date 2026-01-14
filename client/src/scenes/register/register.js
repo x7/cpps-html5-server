@@ -16,8 +16,8 @@ export class RegisterScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.pack("create-pack", "public/phaser/register/create-pack.json");
-		this.load.bitmapFont("BurbankSmallBold", "public/phaser/fonts/BurbankSmallBold.png", "public/phaser/fonts/BurbankSmallBold.xml");
+        this.load.pack("create-pack", "assets/register/create-pack.json");
+		this.load.bitmapFont("BurbankSmallBold", "assets/fonts/BurbankSmallBold.png", "assets/fonts/BurbankSmallBold.xml");
     }
 
 	create() {

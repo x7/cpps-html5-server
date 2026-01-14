@@ -7,7 +7,8 @@ export class ErrorScene extends Phaser.Scene {
 	}
 
 	preload() {
-		this.load.pack("app-pack", "public/phaser/error/app-pack.json");
+		this.load.pack("error", "assets/error/error-pack.json");
+		this.load.bitmapFont("ArialNarrow", "assets/fonts/ArialNarrow.png", "assets/fonts/ArialNarrow.xml")
 	}
 
     init(data) {
@@ -16,26 +17,26 @@ export class ErrorScene extends Phaser.Scene {
 
 	create() {
 		// error_gui
-		const error_gui = this.add.image(385, 218, "app_1", "app/error");
+		const error_gui = this.add.image(385, 218, "error", "app/error");
 		error_gui.scaleX = 0.6973949856334567;
 		error_gui.scaleY = 0.8485991286121775;
 		error_gui.setOrigin(0, 0);
 
 		// error_okay_button
-		const error_okay_button = this.add.image(549, 399, "app_1", "app/button");
+		const error_okay_button = this.add.image(549, 399, "error", "app/button");
 		error_okay_button.scaleX = 0.6615413590165267;
 		error_okay_button.scaleY = 0.6954831986522744;
 		error_okay_button.setOrigin(0, 0);
 
 		// error_okay_button_hover
-		const error_okay_button_hover = this.add.image(549, 399, "app_1", "app/buttonHover");
+		const error_okay_button_hover = this.add.image(549, 399, "error", "app/buttonHover");
 		error_okay_button_hover.scaleX = 0.6615413590165267;
 		error_okay_button_hover.scaleY = 0.6954831986522744;
 		error_okay_button_hover.setOrigin(0, 0);
 		error_okay_button_hover.visible = false;
 
 		// error_okay_button_clicked
-		const error_okay_button_clicked = this.add.image(549, 401, "app_1", "app/buttonDown");
+		const error_okay_button_clicked = this.add.image(549, 401, "error", "app/buttonDown");
 		error_okay_button_clicked.scaleX = 0.6615413590165267;
 		error_okay_button_clicked.scaleY = 0.6954831986522744;
 		error_okay_button_clicked.setOrigin(0, 0);

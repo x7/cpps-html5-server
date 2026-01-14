@@ -2,8 +2,8 @@ import { LoadingScene } from "./loading/loading.js";
 import { StartScene } from "./start/start.js";
 import { RegisterScene } from './register/register.js';
 import { LoginScene } from "./login/login.js";
-import { SharedDevicePrompt } from "./login/sharedDevicePrompt.js";
-import { LoginSavePasswordPrompt } from "./login/SavePasswordPrompt.js";
+import { SharedDevicePrompt } from "./login/components/sharedDevicePrompt.js";
+import { LoginSavePasswordPrompt } from "./login/components/savePasswordPrompt.js";
 import { ErrorScene } from "./error/error.js";
 import { TownScene } from "./world/rooms/town/town.js";
 

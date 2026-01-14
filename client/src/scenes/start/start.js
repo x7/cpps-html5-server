@@ -11,12 +11,12 @@ export class StartScene extends Phaser.Scene {
 	}
 
 	preload() {
-	    this.load.image("brb-billboardShadow", "public/phaser/start/brb-billboardShadow.png");
-		this.load.pack("login-pack", "public/phaser/login/login-pack.json");
-	    this.load.image("main-background", "public/phaser/start/brb-billboard.png");
-		this.load.pack("start-asset-pack", "public/phaser/start/start-pack.json");
-		this.load.bitmapFont("BurbankSmallBold", "public/phaser/fonts/BurbankSmallBold.png", "public/phaser/fonts/BurbankSmallBold.xml");
-		this.load.bitmapFont("CCComicCrazyBoldItalicShadow", "public/phaser/fonts/CCComicCrazyBoldItalicShadow.png", "public/phaser/fonts/CCComicCrazyBoldItalicShadow.xml")
+	    this.load.image("brb-billboardShadow", "assets/start/brb-billboardShadow.png");
+		this.load.pack("login-pack", "assets/login/login-pack.json");
+	    this.load.image("main-background", "assets/start/brb-billboard.png");
+		this.load.pack("start-asset-pack", "assets/start/start-pack.json");
+		this.load.bitmapFont("BurbankSmallBold", "assets/fonts/BurbankSmallBold.png", "assets/fonts/BurbankSmallBold.xml");
+		this.load.bitmapFont("CCComicCrazyBoldItalicShadow", "assets/fonts/CCComicCrazyBoldItalicShadow.png", "assets/fonts/CCComicCrazyBoldItalicShadow.xml")
 	}
 
 	create() {

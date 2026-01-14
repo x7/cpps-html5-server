@@ -21,9 +21,9 @@ export class LoadingScene extends Phaser.Scene {
 	}
 
 	preload() {
-		this.load.pack("load-pack", "public/phaser/loading/load-pack.json");
-        this.load.pack("login-pack", "public/phaser/login/login-pack.json");
-		this.load.bitmapFont("BurbankSmallBold", "public/phaser/fonts/BurbankSmallBold.png", "public/phaser/fonts/BurbankSmallBold.xml");
+		this.load.pack("load-pack", "assets/loading/load-pack.json");
+        this.load.pack("login-pack", "assets/login/login-pack.json");
+		this.load.bitmapFont("BurbankSmallBold", "assets/fonts/BurbankSmallBold.png", "assets/fonts/BurbankSmallBold.xml");
 	}
 
 	async create() {

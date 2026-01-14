@@ -8,8 +8,8 @@ export class GlobalAssetsScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.pack("penguin-pack", "public/phaser/penguin/penguin-pack.json");
-        this.load.pack("snowball-pack", "public/phaser/world/snowball/engine-pack.json")
+        this.load.pack("penguin-pack", "assets/penguin/penguin-pack.json");
+        this.load.pack("snowball-pack", "assets/world/snowball/snowball.json")
         this.load.json("penguin-animations", "src/animations/penguin.json");
     }
 

@@ -1,0 +1,24 @@
+{
+    "section1": {
+        "files": [
+            {
+                "type": "multiatlas",
+                "url": "public/assets/login/login.json",
+                "path": "public/assets/login/",
+                "key": "login_1"
+            },
+            {
+                "url": "public/assets/login/login-animations.json",
+                "type": "animation",
+                "key": "login-animations"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

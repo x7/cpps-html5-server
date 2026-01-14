@@ -15,8 +15,8 @@ export class LoginScene extends Phaser.Scene {
 	}
 
 	preload() {
-		this.load.pack("login-pack", "public/phaser/login/login-pack.json");
-		this.load.bitmapFont("ArialNarrow", "public/phaser/fonts/ArialNarrow.png", "public/phaser/fonts/ArialNarrow.xml")
+		this.load.pack("login-pack", "assets/login/login-pack.json");
+		this.load.bitmapFont("ArialNarrow", "assets/fonts/ArialNarrow.png", "assets/fonts/ArialNarrow.xml")
 	}
 
 	async create() {

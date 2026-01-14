@@ -19,13 +19,13 @@ export class TownScene extends Phaser.Scene {
 	}
 
 	preload() {
-		this.load.pack("town2013-pack", "public/phaser/world/rooms/town/town2013-pack.json");
-		this.load.audio("coffee_door_close", "public/phaser/world/rooms/town/town2013-coffeeclose.mp3");
-		this.load.audio("coffee_door_open", "public/phaser/world/rooms/town/town2013-coffeeopen.mp3");
-		this.load.audio("dance_club_close", "public/phaser/world/rooms/town/town2013-discoclose.mp3");
-		this.load.audio("dance_club_open", "public/phaser/world/rooms/town/town2013-discoopen.mp3");
-		this.load.audio("gift_shop_close", "public/phaser/world/rooms/town/town2013-shopclose.mp3");
-		this.load.audio("gift_shop_open", "public/phaser/world/rooms/town/town2013-shopopen.mp3");
+		this.load.pack("town2013-pack", "assets/world/rooms/town/town2013-pack.json");
+		this.load.audio("coffee_door_close", "assets/world/rooms/town/town2013-coffeeclose.mp3");
+		this.load.audio("coffee_door_open", "assets/world/rooms/town/town2013-coffeeopen.mp3");
+		this.load.audio("dance_club_close", "assets/world/rooms/town/town2013-discoclose.mp3");
+		this.load.audio("dance_club_open", "assets/world/rooms/town/town2013-discoopen.mp3");
+		this.load.audio("gift_shop_close", "assets/world/rooms/town/town2013-shopclose.mp3");
+		this.load.audio("gift_shop_open", "assets/world/rooms/town/town2013-shopopen.mp3");
 	}
 
 	create() {
