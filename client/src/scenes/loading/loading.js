@@ -12,7 +12,7 @@ export class LoadingScene extends Phaser.Scene {
 	}
 
 	init(data) {
-		this.text = data.text ?? "          No loading text";
+		this.text = data.text ?? "Loading Town";
 		eventEmitter.addEventOnce("loading:completed", (callback) => {
 			setTimeout(() => {
 				callback();
@@ -58,9 +58,14 @@ export class LoadingScene extends Phaser.Scene {
 		load_screen_mask.tintBottomRight = 16761134;
 		load_screen_mask.visible = false;
 
-		const loading_random_text = this.add.bitmapText(515, 431, "BurbankSmallBold", this.text);
+		const centerX = this.scale.width / 2;
+		const centerY = this.scale.height / 2;
+		const loading_random_text = this.add.bitmapText(centerX - 10, centerY + 70, "BurbankSmallBold", this.text);
 		loading_random_text.text = this.text;
 		loading_random_text.fontSize = 18;
+		loading_random_text.setOrigin(0.5, 0.0)
+		loading_random_text.setLineSpacing(5);
+		loading_random_text.setCenterAlign();
 
 		function updateProgress(progress) {
 			load_screen_mask.visible = true;

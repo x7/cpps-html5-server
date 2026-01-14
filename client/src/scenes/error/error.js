@@ -1,9 +1,11 @@
 import Phaser from "phaser";
+import { getSceneManager } from "../../main";
 
 export class ErrorScene extends Phaser.Scene {
 
 	constructor() {
 		super("ErrorScene");
+		this.sceneManager = getSceneManager();
 	}
 
 	preload() {
@@ -12,7 +14,7 @@ export class ErrorScene extends Phaser.Scene {
 	}
 
     init(data) {
-        this.errorMessage = (data.message == null ? "     Incorrect username or password.\nNOTE: Passwords are CaSe Sensitive" : data.message);
+        this.errorMessage = (data.message == null ? "No error message provided.\nPlease provide one." : data.message);
     }
 
 	create() {
@@ -56,6 +58,7 @@ export class ErrorScene extends Phaser.Scene {
 		buttonText.setPosition(error_gui.x + error_gui.displayWidth / 2, error_gui.y + error_gui.displayHeight / 2 - 80);
 		buttonText.setTint("000000");
 		buttonText.setLineSpacing(5);
+		buttonText.setCenterAlign();
 
 
 		// interactives
@@ -76,8 +79,7 @@ export class ErrorScene extends Phaser.Scene {
 		error_okay_button_hover.on("pointerdown", () => {
 			error_okay_button_hover.visible = false;
 			error_okay_button_clicked.visible = true;
-
-			// close scene
+			this.sceneManager.stop("ErrorScene");
 		});
 
 		this.events.emit("scene-awake");
