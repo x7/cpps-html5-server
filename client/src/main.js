@@ -1,17 +1,8 @@
 import Phaser from 'phaser';
-import { SceneManager } from './scenes/sceneManager.js';
-import { connect } from './network/network.js';
-import { GlobalAssetsScene } from './scenes/global/GlobalAssetsScene.js';
-import { RegisterScene } from './scenes/register/register.js';
-import { LoadingScene } from './scenes/loading/loading.js';
-import { TownScene } from './scenes/world/rooms/town/town.js';
-import { ErrorScene } from './scenes/error/error.js';
-import { StartScene } from './scenes/start/start.js';
-import { LoginScene } from './scenes/login/login.js';
-import { ServerSelectionScene } from './scenes/login/components/serverSelection.js';
-
-// dont connect websocket til we connect to the server
-// call the launch scene for the error and add text ourself if invalid logins etc
+import { SceneManager } from './game/scenes/sceneManager.js';
+import { onGameReady } from './events/gameReady.js';
+import { AssetManager } from './game/assets/assetManager.js';
+import { GameManager } from './game/gameManager.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -21,7 +12,7 @@ const config = {
     resolution: window.devicePixelRatio || 1,
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
-    scene: [LoadingScene],
+    scene: [],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH
@@ -29,16 +20,28 @@ const config = {
 };
 
 const game = new Phaser.Game(config);
+const gameManager = new GameManager(game);
 const sceneManager = new SceneManager(game);
+const assetManager = new AssetManager(game);
 
-// game.events.once('ready', () => {
-//     connect();
-// });
+// Use these for "in scenes"
+game.registry.set("gameManager", gameManager);
+game.registry.set("sceneManager", sceneManager);
+game.registry.set("assetManager", assetManager);
 
-export function getGameInstance() {
-    return game;
+// Use these outside scenes
+export function getGameManager() {
+    return gameManager;
 }
 
 export function getSceneManager() {
     return sceneManager;
 }
+
+export function getAssetManager() {
+    return assetManager;
+}
+
+game.events.once('ready', () => {
+    onGameReady();
+});

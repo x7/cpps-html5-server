@@ -1,5 +1,4 @@
-import { getSceneManager } from "../main";
-import { getGameInstance } from "../main";
+import { getGameManager, getSceneManager } from "../main";
 
 const animationKeys = {};
 
@@ -58,7 +57,7 @@ export function createAnimation({
 }
 
 export function animationExist(key) {
-    const game = getGameInstance();
+    const game = getGameManager().getGame();
     return game.anims.get(key) == undefined ? false : true;
 }
 

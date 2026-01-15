@@ -1,0 +1,345 @@
+import { getSceneManager } from '../../../main.js';
+import { BaseScene } from '../base/baseScene.js';
+
+// Todo: After launching "SavePasswordPromptScene" hide the dom elements
+
+export class LoginScene extends BaseScene {
+	constructor() {
+		super("LoginScene");
+		this.username = null;
+		this.password = null;
+		this.rememberMeComputer = false;
+		this.rememberMyPassword = false;
+	}
+
+	preload() {
+		this.load.pack("login-pack", "assets/login/login-pack.json");
+		this.load.bitmapFont("ArialNarrow", "assets/fonts/ArialNarrow.png", "assets/fonts/ArialNarrow.xml")
+	}
+
+	async create() {
+		this.sceneManager = getSceneManager();
+		this.sceneManager.setCurrentScene(this);
+
+		// login_forgot_password_hover
+		const login_forgot_password_hover = this.add.image(483, 449, "login_1", "login-screen/background");
+		login_forgot_password_hover.scaleX = 0.18772368727813354;
+		login_forgot_password_hover.scaleY = 0.04491512637569104;
+		login_forgot_password_hover.setOrigin(0, 0);
+
+		// login_create_penguin_hover
+		const login_create_penguin_hover = this.add.image(449, 514, "login_1", "login-screen/background");
+		login_create_penguin_hover.scaleX = 0.22994381193178415;
+		login_create_penguin_hover.scaleY = 0.07980033037610065;
+		login_create_penguin_hover.setOrigin(0, 0);
+
+		// login_back_button_hover
+		const login_back_button_hover = this.add.image(482, 632, "login_1", "login-screen/background");
+		login_back_button_hover.scaleX = 0.18299011429148995;
+		login_back_button_hover.scaleY = 0.043801411820350585;
+		login_back_button_hover.setOrigin(0, 0);
+
+		// login_screen_background
+		const login_screen_background = this.add.image(-98, -59, "login_1", "login-screen/background");
+		login_screen_background.scaleX = 0.8929518243047326;
+		login_screen_background.scaleY = 0.7920449541509529;
+		login_screen_background.setOrigin(0, 0);
+
+		// login_back_button_hover_display
+		const login_back_button_hover_display = this.add.image(483, 633, "login_1", "login-screen/rules0002");
+		login_back_button_hover_display.scaleX = 0.45609842524235933;
+		login_back_button_hover_display.scaleY = 0.49546676719594707;
+		login_back_button_hover_display.setOrigin(0, 0);
+		login_back_button_hover_display.visible = false;
+
+		// login_keep_password_safe_note
+		const login_keep_password_safe_note = this.add.image(993, 404, "login_1", "login-screen/secret0001");
+		login_keep_password_safe_note.scaleX = 0.7350136112818051;
+		login_keep_password_safe_note.scaleY = 0.783837155552982;
+		login_keep_password_safe_note.setOrigin(0.492188, 0.490588);
+
+		// login_create_penguin_hover_display
+		const login_create_penguin_hover_display = this.add.image(442, 509, "login_1", "login-screen/account0003");
+		login_create_penguin_hover_display.scaleX = 0.4034389742543004;
+		login_create_penguin_hover_display.scaleY = 0.5157580411504724;
+		login_create_penguin_hover_display.setOrigin(0, 0);
+		login_create_penguin_hover_display.visible = false;
+
+		// login_forgot_password_hover_display
+		const login_forgot_password_hover_display = this.add.image(479, 449, "login_1", "login-screen/rules0002");
+		login_forgot_password_hover_display.scaleX = 0.46435806426292336;
+		login_forgot_password_hover_display.scaleY = 0.5114869893554509;
+		login_forgot_password_hover_display.setOrigin(0, 0);
+		login_forgot_password_hover_display.visible = false;
+
+		// login_login_button
+		const login_login_button = this.add.image(508, 343, "login_1", "login-screen/button");
+		login_login_button.scaleX = 0.7355284492801976;
+		login_login_button.scaleY = 0.6981858137293024;
+		login_login_button.setOrigin(0, 0);
+
+		// login_login_button_hover
+		const login_login_button_hover = this.add.image(507, 343, "login_1", "login-screen/learnButtonHover");
+		login_login_button_hover.scaleX = 1.2331700562248973;
+		login_login_button_hover.scaleY = 1.2374915606625507;
+		login_login_button_hover.setOrigin(0, 0);
+		login_login_button_hover.visible = false;
+
+		// login_login_button_clicked
+		const login_login_button_clicked = this.add.image(510, 344, "login_1", "login-screen/buttonDown");
+		login_login_button_clicked.scaleX = 0.7287842174012629;
+		login_login_button_clicked.scaleY = 0.6944316733189014;
+		login_login_button_clicked.setOrigin(0, 0);
+		login_login_button_clicked.visible = false;
+
+		// login_remember_password_checkbox
+		const login_remember_password_checkbox = this.add.image(450, 273, "login_1", "login-screen/checkbox");
+		login_remember_password_checkbox.scaleX = 0.8;
+		login_remember_password_checkbox.scaleY = 0.8;
+		login_remember_password_checkbox.setOrigin(0, 0);
+
+		// login_remember_me_computer_checkbox
+		const login_remember_me_computer_checkbox = this.add.image(450, 220, "login_1", "login-screen/checkbox");
+		login_remember_me_computer_checkbox.scaleX = 0.8;
+		login_remember_me_computer_checkbox.scaleY = 0.8;
+		login_remember_me_computer_checkbox.setOrigin(0, 0);
+
+		// login_remember_me_computer_checkbox_ticked
+		this.login_remember_me_computer_checkbox_ticked = this.add.image(450, 220, "login_1", "login-screen/checkboxChecked");
+		this.login_remember_me_computer_checkbox_ticked.scaleX = 0.8;
+		this.login_remember_me_computer_checkbox_ticked.scaleY = 0.8;
+		this.login_remember_me_computer_checkbox_ticked.setOrigin(0, 0);
+		this.login_remember_me_computer_checkbox_ticked.visible = false;
+
+		// login_remember_password_checkbox_ticked
+		this.login_remember_password_checkbox_ticked = this.add.image(450, 273, "login_1", "login-screen/checkboxChecked");
+		this.login_remember_password_checkbox_ticked.scaleX = 0.8;
+		this.login_remember_password_checkbox_ticked.scaleY = 0.8;
+		this.login_remember_password_checkbox_ticked.setOrigin(0, 0);
+		this.login_remember_password_checkbox_ticked.visible = false;
+
+		// login_penguin_name_text
+		const login_penguin_name_text = this.add.bitmapText(368, 126, "ArialNarrow", "Penguin Name:");
+		login_penguin_name_text.tintFill = true;
+		login_penguin_name_text.tintTopLeft = 0;
+		login_penguin_name_text.tintTopRight = 0;
+		login_penguin_name_text.tintBottomLeft = 65536;
+		login_penguin_name_text.tintBottomRight = 0;
+		login_penguin_name_text.text = "Penguin Name:";
+		login_penguin_name_text.fontSize = 28;
+
+		// login_password_text
+		const login_password_text = this.add.bitmapText(415, 170, "ArialNarrow", "Password:");
+		login_password_text.tintFill = true;
+		login_password_text.tintTopLeft = 0;
+		login_password_text.tintTopRight = 0;
+		login_password_text.tintBottomLeft = 65536;
+		login_password_text.tintBottomRight = 0;
+		login_password_text.text = "Password:";
+		login_password_text.fontSize = 28;
+
+		// login_remember_me_computer_text
+		const login_remember_me_computer_text = this.add.bitmapText(499, 235, "ArialNarrow", "Remember me on this computer");
+		login_remember_me_computer_text.tintFill = true;
+		login_remember_me_computer_text.tintTopLeft = 0;
+		login_remember_me_computer_text.tintTopRight = 0;
+		login_remember_me_computer_text.tintBottomLeft = 65536;
+		login_remember_me_computer_text.tintBottomRight = 0;
+		login_remember_me_computer_text.text = "Remember me on this computer";
+		login_remember_me_computer_text.fontSize = 24;
+
+		// login_remember_my_password_text
+		const login_remember_my_password_text = this.add.bitmapText(499, 287, "ArialNarrow", "Remember my password");
+		login_remember_my_password_text.tintFill = true;
+		login_remember_my_password_text.tintTopLeft = 0;
+		login_remember_my_password_text.tintTopRight = 0;
+		login_remember_my_password_text.tintBottomLeft = 65536;
+		login_remember_my_password_text.tintBottomRight = 0;
+		login_remember_my_password_text.text = "Remember my password";
+		login_remember_my_password_text.fontSize = 24;
+
+		// login_forgot_your_password_text
+		const login_forgot_your_password_text = this.add.bitmapText(547, 459, "ArialNarrow", "Forgot your password?");
+		login_forgot_your_password_text.tintFill = true;
+		login_forgot_your_password_text.tintTopLeft = 16777215;
+		login_forgot_your_password_text.tintTopRight = 16777215;
+		login_forgot_your_password_text.tintBottomLeft = 16777215;
+		login_forgot_your_password_text.tintBottomRight = 16777215;
+		login_forgot_your_password_text.text = "Forgot your password?";
+		login_forgot_your_password_text.fontSize = 23;
+
+		// login_dont_have_a_penguin_text
+		const login_dont_have_a_penguin_text = this.add.bitmapText(550, 528, "ArialNarrow", "Don't have a penguin?");
+		login_dont_have_a_penguin_text.scaleX = 1.0225142005547325;
+		login_dont_have_a_penguin_text.tintTopLeft = 0;
+		login_dont_have_a_penguin_text.tintTopRight = 0;
+		login_dont_have_a_penguin_text.tintBottomLeft = 0;
+		login_dont_have_a_penguin_text.tintBottomRight = 0;
+		login_dont_have_a_penguin_text.text = "Don't have a penguin?";
+		login_dont_have_a_penguin_text.fontSize = 23;
+
+		// login_create_free_account_text
+		const login_create_free_account_text = this.add.bitmapText(520, 557, "ArialNarrow", "Create a free account now");
+		login_create_free_account_text.scaleX = 1.1277772898018497;
+		login_create_free_account_text.scaleY = 0.9710239041489755;
+		login_create_free_account_text.text = "Create a free account now";
+		login_create_free_account_text.fontSize = 23;
+
+		// login_back_text
+		const login_back_text = this.add.bitmapText(588, 641, "ArialNarrow", "Back");
+		login_back_text.scaleX = 1.1277772898018497;
+		login_back_text.scaleY = 0.9710239041489755;
+		login_back_text.setOrigin(-0.5, 0);
+		login_back_text.text = "Back";
+		login_back_text.fontSize = 26;
+
+		// login_login_text
+		const login_login_text = this.add.bitmapText(605, 365, "ArialNarrow", "Login");
+		login_login_text.tintFill = true;
+		login_login_text.tintTopLeft = 16777215;
+		login_login_text.tintTopRight = 16777215;
+		login_login_text.tintBottomLeft = 16777215;
+		login_login_text.tintBottomRight = 16777215;
+		login_login_text.text = "Login";
+		login_login_text.fontSize = 33;
+		
+		// Dom elements start here
+		const inputStyle = `
+			width: 300px;
+			height: 42px;
+			padding: 0 5px;
+			font-size: 22px;
+			border-radius: 0px;
+			border: 2px solid rgba(0,0,0,0.45);
+			font-family: "Arial Rounded MT Bold", Nunito, "Varela Round", sans-serif;
+			background: #ffffff;
+			color: #000000;
+			outline: none;
+			box-shadow: none;
+        `;
+
+		this.penguinInput = this.add.dom(360 + 650/2, 140, 'input', inputStyle);
+		this.penguinInput.id = 'loginPenguinUsernameInput'
+		this.penguinInput.node.type = 'text';
+		this.penguinInput.node.autocomplete = 'off';
+		this.penguinInput.node.spellcheck = 'false';
+
+		this.passwordInput = this.add.dom(360 + 650/2, 185, 'input', inputStyle);
+		this.passwordInput.id = 'loginPasswordInput'
+		this.passwordInput.node.type = 'password';
+		this.passwordInput.node.autocomplete = 'off';
+		this.passwordInput.node.style.webkitTextSecurity = 'disc';
+		this.passwordInput.node.style.setProperty('-webkit-textfield-decoration-container', 'none');
+		this.passwordInput.node.style.setProperty('::-ms-reveal', 'display:none');
+		this.passwordInput.node.style.setProperty('::-ms-clear', 'display:none');
+		// Dom elements end here
+
+		// Setting all interactives sprites starts here
+		login_forgot_password_hover.setInteractive({ useHandCursor: true });
+		login_create_penguin_hover.setInteractive({ useHandCursor: true });
+		login_back_button_hover.setInteractive({ useHandCursor: true });
+		login_back_button_hover_display.setInteractive({ useHandCursor: true });
+		login_create_penguin_hover_display.setInteractive({ useHandCursor: true });
+		login_forgot_password_hover_display.setInteractive({ useHandCursor: true });
+		login_login_button.setInteractive({ useHandCursor: true });
+		login_login_button_hover.setInteractive({ useHandCursor: true });
+		login_remember_password_checkbox.setInteractive({ useHandCursor: true });
+		login_remember_me_computer_checkbox.setInteractive({ useHandCursor: true });
+		this.login_remember_me_computer_checkbox_ticked.setInteractive({ useHandCursor: true });
+		this.login_remember_password_checkbox_ticked.setInteractive({ useHandCursor: true });
+		// Setting all interactives sprites ends here
+
+		// All interactive events start here
+		login_forgot_password_hover.on("pointerover", () => {
+			login_forgot_password_hover.visible = false;
+			login_forgot_password_hover_display.visible = true;
+		});
+
+		login_forgot_password_hover_display.on("pointerout", () => {
+			login_forgot_password_hover.visible = true;
+			login_forgot_password_hover_display.visible = false;
+		});
+
+		login_create_penguin_hover.on("pointerover", () => {
+			login_create_penguin_hover.visible = false;
+			login_create_penguin_hover_display.visible = true;
+		});
+
+		login_create_penguin_hover_display.on("pointerout", () => {
+			login_create_penguin_hover.visible = true;
+			login_create_penguin_hover_display.visible = false;
+		});
+
+		login_create_penguin_hover_display.on("pointerdown", () => {
+			this.sceneManager.start('LoadingScene', { 'nextScene': 'RegisterScene', 'currentScene': 'LoginScene' });
+			return;
+		});
+
+		login_back_button_hover.on("pointerover", () => {
+			login_back_button_hover.visible = false;
+			login_back_button_hover_display.visible = true;
+		});
+
+		login_back_button_hover_display.on("pointerout", () => {
+			login_back_button_hover.visible = true;
+			login_back_button_hover_display.visible = false;
+		});
+
+		login_login_button.on("pointerover", () => {
+			login_login_button.visible = false;
+			login_login_button_hover.visible = true;
+		});
+
+		login_login_button_hover.on("pointerout", () => {
+			login_login_button.visible = true;
+			login_login_button_hover.visible = false;
+		});
+
+		login_remember_me_computer_checkbox.on("pointerdown", () => {
+			login_remember_me_computer_checkbox.visible = false;
+			this.login_remember_me_computer_checkbox_ticked.visible = true;
+		});
+
+		this.login_remember_me_computer_checkbox_ticked.on("pointerdown", () => {
+			login_remember_me_computer_checkbox.visible = true;
+			this.login_remember_me_computer_checkbox_ticked.visible = false;
+		});
+
+		login_remember_password_checkbox.on("pointerdown", () => {
+			// Start "other scene"
+			this.sceneManager.add({
+				sceneKey: 'LoginSharedDevicePromptScene',
+				scene: null,
+				autoStart: false
+			});
+
+			// this.game.domContainer.style.display = 'none';
+			this.sceneManager.pause('LoginScene');
+			this.sceneManager.launch('LoginSharedDevicePromptScene');
+		});
+
+		this.login_remember_password_checkbox_ticked.on("pointerdown", () => {
+			login_remember_password_checkbox.visible = true;
+			this.login_remember_password_checkbox_ticked.visible = false;
+		});
+
+		login_login_button_hover.on("pointerdown", () => {
+			login_login_button_hover.setVisible = false;
+			login_login_button_clicked.visible = true;
+		});
+		// All interactive events end here
+
+		this.events.emit("scene-awake");
+		this.events.on('resume', this.resume, this);
+		this.events.once('shutdown', this.shutdown, this);
+	}
+
+	resume() {
+		this.game.domContainer.style.display = 'block';
+	}
+
+	shutdown() {
+		this.penguinInput.destroy();
+		this.passwordInput.destroy();
+	}
+}
