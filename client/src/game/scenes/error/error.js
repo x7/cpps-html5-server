@@ -1,24 +1,35 @@
-import { getSceneManager } from "../../../main";
 import { BaseScene } from "../base/baseScene";
+import { ASSET_TYPES } from '../../assets/assetTypes.js';
 
 export class ErrorScene extends BaseScene {
-
 	constructor() {
 		super("ErrorScene");
 	}
 
-	preload() {
-		this.load.pack("error", "assets/error/error-pack.json");
-		this.load.bitmapFont("ArialNarrow", "assets/fonts/ArialNarrow.png", "assets/fonts/ArialNarrow.xml")
+	init(data) {
+		this.sceneManager = this.getSceneManager();
+		this.assetManager = this.getAssetManager();
+		
+		this.errorMessage = (data.message == null ? "No error message provided.\nPlease provide one." : data.message);
 	}
 
-    init(data) {
-        this.errorMessage = (data.message == null ? "No error message provided.\nPlease provide one." : data.message);
-    }
+	preload() {
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.PACK,
+			name: "error",
+			paths: ["assets/error/error-pack.json"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.BITMAP_FONT,
+			name: "ArialNarrow",
+			paths: ["assets/fonts/ArialNarrow.png", "assets/fonts/ArialNarrow.xml"]
+		});
+	}
 
 	create() {
-		this.sceneManager = getSceneManager();
-
 		// error_gui
 		const error_gui = this.add.image(385, 218, "error", "app/error");
 		error_gui.scaleX = 0.6973949856334567;

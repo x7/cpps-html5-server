@@ -1,6 +1,7 @@
 import * as loadingHelper from './loadingHelper.js';
 import eventEmitter from '../../../util/eventEmitter.js';
 import { BaseScene } from '../base/baseScene.js';
+import { ASSET_TYPES } from '../../assets/assetTypes.js';
 
 export class LoadingScene extends BaseScene {
 	constructor() {
@@ -9,6 +10,10 @@ export class LoadingScene extends BaseScene {
 	}
 
 	init(data) {
+		this.sceneManager = this.getSceneManager();
+		this.assetManager = this.getAssetManager();
+		this.sceneManager.setCurrentScene(this);
+		
 		this.text = data.text ?? "No text provided\nPlease provide one";
 		eventEmitter.addEventOnce("loading:completed", (callback) => {
 			setTimeout(() => {
@@ -18,17 +23,31 @@ export class LoadingScene extends BaseScene {
 	}
 
 	preload() {
-		this.load.pack("load-pack", "assets/loading/load-pack.json");
-        this.load.pack("login-pack", "assets/login/login-pack.json");
-		this.load.bitmapFont("BurbankSmallBold", "assets/fonts/BurbankSmallBold.png", "assets/fonts/BurbankSmallBold.xml");
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.PACK,
+			name: "load",
+			paths: ["assets/loading/load-pack.json"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.PACK,
+			name: "login",
+			paths: ["assets/login/login-pack.json"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.BITMAP_FONT,
+			name: "BurbankSmallBold",
+			paths: ["assets/fonts/BurbankSmallBold.png", "assets/fonts/BurbankSmallBold.xml"]
+		});
 	}
 
-	async create() {
-		this.sceneManager = this.getSceneManager();
-		this.sceneManager.setCurrentScene(this);
-		
+	async create() {		
 		// login_screen_background
-		const login_screen_background = this.add.image(-54, -69, "login_1", "login-screen/background");
+		const login_screen_background = this.add.image(-54, -69, "login", "login-screen/background");
 		login_screen_background.scaleX = 0.8005228796833518;
 		login_screen_background.scaleY = 0.7697808237235164;
 		login_screen_background.setOrigin(0, 0);

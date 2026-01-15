@@ -4,6 +4,7 @@ import { RoomKeyPressed } from "../../../../inputs/roomKeyPressed";
 import MovementManager from "../../../../penguin/movementManager";
 import snowBallManager from "../../../../penguin/snowBallManager";
 import { BaseScene } from "../../../base/baseScene";
+import { ASSET_TYPES } from "../../../../assets/assetTypes";
 
 // Todo: Make the dance club opening more smooth
 // Todo: Make sound manager
@@ -18,14 +19,60 @@ export class TownScene extends BaseScene {
 		super("TownScene");
 	}
 
+	init() {
+		this.sceneManager = this.getSceneManager();
+		this.assetManager = this.getAssetManager();
+	}
+
 	preload() {
-		this.load.pack("town2013-pack", "assets/world/rooms/town/town2013-pack.json");
-		this.load.audio("coffee_door_close", "assets/world/rooms/town/town2013-coffeeclose.mp3");
-		this.load.audio("coffee_door_open", "assets/world/rooms/town/town2013-coffeeopen.mp3");
-		this.load.audio("dance_club_close", "assets/world/rooms/town/town2013-discoclose.mp3");
-		this.load.audio("dance_club_open", "assets/world/rooms/town/town2013-discoopen.mp3");
-		this.load.audio("gift_shop_close", "assets/world/rooms/town/town2013-shopclose.mp3");
-		this.load.audio("gift_shop_open", "assets/world/rooms/town/town2013-shopopen.mp3");
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.PACK,
+			name: "town",
+			paths: ["assets/world/rooms/town/town2013-pack.json"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.AUDIO,
+			name: "town_coffee_door_open",
+			paths: ["assets/world/rooms/town/town2013-coffeeopen.mp3"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.AUDIO,
+			name: "town_coffee_door_close",
+			paths: ["assets/world/rooms/town/town2013-coffeeclose.mp3"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.AUDIO,
+			name: "town_dance_club_open",
+			paths: ["assets/world/rooms/town/town2013-discoopen.mp3"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.AUDIO,
+			name: "town_dance_club_close",
+			paths: ["assets/world/rooms/town/town2013-discoclose.mp3"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.AUDIO,
+			name: "town_gift_shop_open",
+			paths: ["assets/world/rooms/town/town2013-shopopen.mp3"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.AUDIO,
+			name: "town_gift_shop_close",
+			paths: ["assets/world/rooms/town/town2013-shopclose.mp3"]
+		});
 	}
 
 	create() {
@@ -228,32 +275,32 @@ export class TownScene extends BaseScene {
 		town_gift_shop_door_closed.on("pointerover", () => {
 			town_gift_shop_door_closed.visible = false;
 			town_gift_shop_door_open.visible = true;
-			this.sound.play("gift_shop_open");
+			this.sound.play("town_gift_shop_open");
 		});
 
 		town_gift_shop_door_open.on("pointerout", () => {
 			town_gift_shop_door_closed.visible = true;
 			town_gift_shop_door_open.visible = false;
-			this.sound.play("gift_shop_close");
+			this.sound.play("town_gift_shop_close");
 		});
 
 		town_coffee_shop_door_closed.on("pointerover", () => {
 			town_coffee_shop_door_closed.visible = false;
 			town_coffee_shop_door_open.visible = true;
-			this.sound.play("coffee_door_open");
+			this.sound.play("town_coffee_door_open");
 		});
 
 		town_coffee_shop_door_open.on("pointerout", () => {
 			town_coffee_shop_door_closed.visible = true;
 			town_coffee_shop_door_open.visible = false;
-			this.sound.play("coffee_door_close");
+			this.sound.play("town_coffee_door_close");
 		});
 
 		town_dance_club_door_closed_trigger.on("pointerover", () => {
 			// retard didnt give me the animation for opening this door we will make it ourself
 			const doorOpeningSpeed = 2;
 			const stopY = 180;
-			this.sound.play("dance_club_open");
+			this.sound.play("town_dance_club_open");
 			// town_dance_club_front_stars.play("night_club_stars_animation");
 
 			this.open_dance_club_door_timer = this.time.addEvent({
@@ -278,7 +325,7 @@ export class TownScene extends BaseScene {
 
 		town_dance_club_door_closed_trigger.on("pointerout", () => {
 			town_dance_club_door_closed.setY(227);
-			this.sound.play("dance_club_close");
+			this.sound.play("town_dance_club_close");
 		});
 		// All interactive events ends here
 

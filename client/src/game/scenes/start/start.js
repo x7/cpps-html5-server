@@ -1,6 +1,6 @@
 // import { LoadingScene } from '../loading/loading.js'
-import { getSceneManager } from '../../../main.js';
 import { BaseScene } from '../base/baseScene.js';
+import { ASSET_TYPES } from '../../assets/assetTypes.js';
 // import eventEmitter from '../../util/eventEmitter.js';
 // import { startLoadingScene } from '../loading/loadingHelper.js';
 
@@ -9,18 +9,56 @@ export class StartScene extends BaseScene {
 		super("StartScene");
 	}
 
+	init() {
+		this.sceneManager = this.getSceneManager();
+		this.assetManager = this.getAssetManager();
+	}
+
 	preload() {
-	    this.load.image("brb-billboardShadow", "assets/start/brb-billboardShadow.png");
-		this.load.pack("login-pack", "assets/login/login-pack.json");
-	    this.load.image("main-background", "assets/start/brb-billboard.png");
-		this.load.pack("start-asset-pack", "assets/start/start-pack.json");
-		this.load.bitmapFont("BurbankSmallBold", "assets/fonts/BurbankSmallBold.png", "assets/fonts/BurbankSmallBold.xml");
-		this.load.bitmapFont("CCComicCrazyBoldItalicShadow", "assets/fonts/CCComicCrazyBoldItalicShadow.png", "assets/fonts/CCComicCrazyBoldItalicShadow.xml")
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.IMAGE,
+			name: "brb-billboardShadow",
+			paths: ["assets/start/brb-billboardShadow.png"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.PACK,
+			name: "login",
+			paths: ["assets/login/login-pack.json"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.IMAGE,
+			name: "main-background",
+			paths: ["assets/start/brb-billboard.png"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.PACK,
+			name: "start",
+			paths: ["assets/start/start-pack.json"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.BITMAP_FONT,
+			name: "BurbankSmallBold",
+			paths: ["assets/fonts/BurbankSmallBold.png", "assets/fonts/BurbankSmallBold.xml"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.BITMAP_FONT,
+			name: "CCComicCrazyBoldItalicShadow",
+			paths: ["assets/fonts/CCComicCrazyBoldItalicShadow.png", "assets/fonts/CCComicCrazyBoldItalicShadow.xml"]
+		});
 	}
 
 	create() {
-		this.sceneManager = getSceneManager();
-
 		// start_main_blue_background
 		this.add.image(645, 376, "brb-billboardShadow");
 
@@ -50,20 +88,20 @@ export class StartScene extends BaseScene {
 		start_create_penguin_underlay_hovered.visible = false;
 
 		// start_login_button
-		const start_login_button = this.add.image(725, 579, "login_1", "login-screen/button");
+		const start_login_button = this.add.image(725, 579, "login", "login-screen/button");
 		start_login_button.scaleX = 0.7828134930151831;
 		start_login_button.scaleY = 0.76522699025202;
 		start_login_button.setOrigin(0, 0);
 
 		// start_login_button_hover
-		const start_login_button_hover = this.add.image(725, 579, "login_1", "login-screen/buttonHover");
+		const start_login_button_hover = this.add.image(725, 579, "login", "login-screen/buttonHover");
 		start_login_button_hover.scaleX = 0.7828134930151831;
 		start_login_button_hover.scaleY = 0.76522699025202;
 		start_login_button_hover.setOrigin(0, 0);
 		start_login_button_hover.visible = false;
 
 		// start_login_button_clicked
-		const start_login_button_clicked = this.add.image(723, 577, "login_1", "login-screen/publicpromptbutton0002");
+		const start_login_button_clicked = this.add.image(723, 577, "login", "login-screen/publicpromptbutton0002");
 		start_login_button_clicked.scaleX = 1.071550239307725;
 		start_login_button_clicked.scaleY = 0.8928326840383549;
 		start_login_button_clicked.setOrigin(0, 0);
@@ -91,20 +129,20 @@ export class StartScene extends BaseScene {
 		start_login_button_yellow_penguin_hover.visible = false;
 
 		// start_register_button
-		const start_register_button = this.add.image(327, 579, "login_1", "login-screen/button");
+		const start_register_button = this.add.image(327, 579, "login", "login-screen/button");
 		start_register_button.scaleX = 0.7828134930151831;
 		start_register_button.scaleY = 0.76522699025202;
 		start_register_button.setOrigin(0, 0);
 
 		// start_register_button_hover
-		const start_register_button_hover = this.add.image(327, 579, "login_1", "login-screen/buttonHover");
+		const start_register_button_hover = this.add.image(327, 579, "login", "login-screen/buttonHover");
 		start_register_button_hover.scaleX = 0.7828134930151831;
 		start_register_button_hover.scaleY = 0.76522699025202;
 		start_register_button_hover.setOrigin(0, 0);
 		start_register_button_hover.visible = false;
 
 		// start_register_button_clicked
-		const start_register_button_clicked = this.add.image(325, 577, "login_1", "login-screen/publicpromptbutton0002");
+		const start_register_button_clicked = this.add.image(325, 577, "login", "login-screen/publicpromptbutton0002");
 		start_register_button_clicked.scaleX = 1.071550239307725;
 		start_register_button_clicked.scaleY = 0.8928326840383549;
 		start_register_button_clicked.setOrigin(0, 0);

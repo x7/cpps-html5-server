@@ -1,16 +1,38 @@
-import { getSceneManager } from "../../main";
 import { createAnimation } from "../../animations/animations";
 import { BaseScene } from "../base/baseScene";
+import { ASSET_TYPES } from "../../assets/assetTypes";
 
 export class GlobalAssetsScene extends BaseScene {
     constructor() {
         super("GlobalAssetsScene");
     }
 
+    init() {
+        this.sceneManager = this.getSceneManager();
+		this.assetManager = this.getAssetManager();
+    }
+
     preload() {
-        this.load.pack("penguin-pack", "assets/penguin/penguin-pack.json");
-        this.load.pack("snowball-pack", "assets/world/snowball/snowball.json")
-        this.load.json("penguin-animations", "src/animations/penguin.json");
+        this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.PACK,
+			name: "penguin-pack",
+			paths: ["assets/penguin/penguin-pack.json"]
+		});
+
+        this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.PACK,
+			name: "snowball-pack",
+			paths: ["assets/world/snowball/snowball.json"]
+		});
+
+        this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.JSON,
+			name: "penguin-animations",
+			paths: ["src/animations/penguin.json"]
+		});
     }
 
     create() {

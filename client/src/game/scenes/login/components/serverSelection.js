@@ -1,4 +1,5 @@
 import { BaseScene } from '../../base/baseScene';
+import { ASSET_TYPES } from '../../../assets/assetTypes';
 
 // TODO: Add more servers scene
 // TODO: Add redemption
@@ -8,32 +9,48 @@ export class ServerSelectionScene extends BaseScene {
 		super("ServerSelectionScene");
 	}
 
+	init() {
+		this.sceneManager = this.getSceneManager();
+		this.assetManager = this.getAssetManager();
+	}
+
 	preload() {
-	    this.load.pack("login-pack", "assets/login/login-pack.json");
-		this.load.bitmapFont("CCComicCrazyBoldItalicShadow", "assets/fonts/CCComicCrazyBoldItalicShadow.png", "assets/fonts/CCComicCrazyBoldItalicShadow.xml");
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.PACK,
+			name: "login",
+			paths: ["assets/login/login-pack.json"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.BITMAP_FONT,
+			name: "CCComicCrazyBoldItalicShadow",
+			paths: ["assets/fonts/CCComicCrazyBoldItalicShadow.png", "assets/fonts/CCComicCrazyBoldItalicShadow.xml"]
+		});
 	}
 
 	create() {
 		// server_selection_background
-		const server_selection_background = this.add.image(-11, -18, "login_1", "login-screen/background");
+		const server_selection_background = this.add.image(-11, -18, "login", "login-screen/background");
 		server_selection_background.scaleX = 0.7585468997218747;
 		server_selection_background.scaleY = 0.7048577006218386;
 		server_selection_background.setOrigin(0, 0);
 
 		// server_selection_unlock_items_button
-		const server_selection_unlock_items_button = this.add.image(1104, 13, "login_1", "login-screen/items0001");
+		const server_selection_unlock_items_button = this.add.image(1104, 13, "login", "login-screen/items0001");
 		server_selection_unlock_items_button.scaleX = 0.674904561750434;
 		server_selection_unlock_items_button.scaleY = 0.6733426260234598;
 		server_selection_unlock_items_button.setOrigin(0, 0);
 
 		// server_selection_more_servers_button
-		const server_selection_more_servers_button = this.add.image(980, 445, "login_1", "login-screen/more0001");
+		const server_selection_more_servers_button = this.add.image(980, 445, "login", "login-screen/more0001");
 		server_selection_more_servers_button.scaleX = 0.7202304140282709;
 		server_selection_more_servers_button.scaleY = 0.7910271882893434;
 		server_selection_more_servers_button.setOrigin(0.0379109, 0.243031);
 
 		// server_selection_chat_bubble
-		const server_selection_chat_bubble = this.add.image(849, 682, "login_1", "login-screen/chat");
+		const server_selection_chat_bubble = this.add.image(849, 682, "login", "login-screen/chat");
 		server_selection_chat_bubble.scaleX = 0.8840483584521954;
 		server_selection_chat_bubble.scaleY = 0.7750811606823352;
 		server_selection_chat_bubble.setOrigin(0, 0);
@@ -46,7 +63,7 @@ export class ServerSelectionScene extends BaseScene {
 		ultimate_safe_chat.setStyle({ "fontFamily": "Helvetica Neue, Arial, sans-serif", "fontSize": "12px", "resolution": 4 });
 
 		// login_screen_population
-		const login_screen_population = this.add.image(446, 682, "login_1", "login-screen/population");
+		const login_screen_population = this.add.image(446, 682, "login", "login-screen/population");
 		login_screen_population.scaleX = 0.8840483584521954;
 		login_screen_population.scaleY = 0.7750811606823352;
 		login_screen_population.setOrigin(0, 0);
@@ -59,7 +76,7 @@ export class ServerSelectionScene extends BaseScene {
 		among_of_penguins_online.setStyle({ "fontFamily": "Helvetica Neue, Arial, sans-serif", "fontSize": "12px", "resolution": 4 });
 
 		// login_screen_buddies
-		const login_screen_buddies = this.add.image(165, 682, "login_1", "login-screen/buddies");
+		const login_screen_buddies = this.add.image(165, 682, "login", "login-screen/buddies");
 		login_screen_buddies.scaleX = 0.8840483584521954;
 		login_screen_buddies.scaleY = 0.7750811606823352;
 		login_screen_buddies.setOrigin(0, 0);
@@ -72,13 +89,13 @@ export class ServerSelectionScene extends BaseScene {
 		buddies_online.setStyle({ "fontFamily": "Helvetica Neue, Arial, sans-serif", "fontSize": "12px", "resolution": 4 });
 
 		// server_selection_server_one_button
-		const server_selection_server_one_button = this.add.image(303, 116, "login_1", "login-screen/worldTile");
+		const server_selection_server_one_button = this.add.image(303, 116, "login", "login-screen/worldTile");
 		server_selection_server_one_button.scaleX = 0.7123591024225758;
 		server_selection_server_one_button.scaleY = 0.7611037088297073;
 		server_selection_server_one_button.setOrigin(0, 0);
 
 		// server_selection_server_one_hover
-		const server_selection_server_one_hover = this.add.image(304, 116, "login_1", "login-screen/worldTileSelect");
+		const server_selection_server_one_hover = this.add.image(304, 116, "login", "login-screen/worldTileSelect");
 		server_selection_server_one_hover.scaleX = 0.7123591024225758;
 		server_selection_server_one_hover.scaleY = 0.7611037088297073;
 		server_selection_server_one_hover.setOrigin(0, 0);
@@ -92,12 +109,12 @@ export class ServerSelectionScene extends BaseScene {
 		server_selection_server_one_name.setStyle({ "fontFamily": "Helvetica Neue, Arial, sans-serif", "fontSize": "12px", "resolution": 4 });
 
 		// server_selection_server_one_bar_2
-		const server_selection_server_one_bar_2 = this.add.image(715, 125, "login_1", "login-screen/populationOff");
+		const server_selection_server_one_bar_2 = this.add.image(715, 125, "login", "login-screen/populationOff");
 		server_selection_server_one_bar_2.scaleY = 0.935185118305838;
 		server_selection_server_one_bar_2.setOrigin(-0.176571, -0.122281);
 
 		// server_selection_server_one_bar_1
-		const server_selection_server_one_bar_1 = this.add.image(670, 123, "login_1", "login-screen/population");
+		const server_selection_server_one_bar_1 = this.add.image(670, 123, "login", "login-screen/population");
 		server_selection_server_one_bar_1.scaleX = 1.5699855458654939;
 		server_selection_server_one_bar_1.scaleY = 1.5315060459229999;
 		server_selection_server_one_bar_1.setOrigin(-0.176571, -0.122281);
@@ -110,17 +127,17 @@ export class ServerSelectionScene extends BaseScene {
 		server_selection_suggested_servers_text.fontSize = 72;
 
 		// server_selection_server_one_bar_3
-		const server_selection_server_one_bar_3 = this.add.image(759, 125, "login_1", "login-screen/populationOff");
+		const server_selection_server_one_bar_3 = this.add.image(759, 125, "login", "login-screen/populationOff");
 		server_selection_server_one_bar_3.scaleY = 0.935185118305838;
 		server_selection_server_one_bar_3.setOrigin(-0.176571, -0.122281);
 
 		// server_selection_server_one_bar_4
-		const server_selection_server_one_bar_4 = this.add.image(801, 125, "login_1", "login-screen/populationOff");
+		const server_selection_server_one_bar_4 = this.add.image(801, 125, "login", "login-screen/populationOff");
 		server_selection_server_one_bar_4.scaleY = 0.935185118305838;
 		server_selection_server_one_bar_4.setOrigin(-0.176571, -0.122281);
 
 		// server_selection_server_one_bar_5
-		const server_selection_server_one_bar_5 = this.add.image(843, 126, "login_1", "login-screen/populationOff");
+		const server_selection_server_one_bar_5 = this.add.image(843, 126, "login", "login-screen/populationOff");
 		server_selection_server_one_bar_5.scaleY = 0.935185118305838;
 		server_selection_server_one_bar_5.setOrigin(-0.176571, -0.122281);
 

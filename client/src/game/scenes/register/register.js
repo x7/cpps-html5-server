@@ -1,5 +1,6 @@
 import { updatePenguinColor, updateSelectedColor, registerPenguin, penguinColors, createInputCss, onUsernameInput, onPasswordInput, onSecondPasswordInput, onEmailInput } from './registerHelper.js';
 import { BaseScene } from '../base/baseScene.js';
+import { ASSET_TYPES } from '../../assets/assetTypes.js';
 
 // Todo: Error prompts
 
@@ -15,9 +16,25 @@ export class RegisterScene extends BaseScene {
 		this.penguinColorDataTag = "penguin_color";
     }
 
+	init() {
+		this.sceneManager = this.getSceneManager();
+		this.assetManager = this.getAssetManager();
+	}
+
     preload() {
-        this.load.pack("create-pack", "assets/register/create-pack.json");
-		this.load.bitmapFont("BurbankSmallBold", "assets/fonts/BurbankSmallBold.png", "assets/fonts/BurbankSmallBold.xml");
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.PACK,
+			name: "create",
+			paths: ["assets/register/create-pack.json"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.BITMAP_FONT,
+			name: "BurbankSmallBold",
+			paths: ["assets/fonts/BurbankSmallBold.png", "assets/fonts/BurbankSmallBold.xml"]
+		});
     }
 
 	create() {

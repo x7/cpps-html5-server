@@ -5,7 +5,7 @@
                 "type": "multiatlas",
                 "url": "public/assets/login/login.json",
                 "path": "public/assets/login/",
-                "key": "login_1"
+                "key": "login"
             },
             {
                 "url": "public/assets/login/login-animations.json",
