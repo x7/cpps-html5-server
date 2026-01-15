@@ -1,4 +1,4 @@
-import { getRandomWarning } from './savePasswordPromptHelper.js';
+import { showWarningImage, getWarningImages } from './savePasswordPromptHelper.js';
 import { enableRememberMeBoxes } from '../loginHelper.js';
 import { BaseScene } from '../../base/baseScene.js';
 import { ASSET_TYPES } from '../../../assets/assetTypes.js';
@@ -7,7 +7,7 @@ export class LoginSavePasswordPrompt extends BaseScene {
 
 	constructor() {
 		super("LoginSavePasswordPromptScene");
-        this.warningLoopInterval = 3000;
+        this.warningLoopInterval = 5;
 	}
 
     init() {
@@ -181,45 +181,45 @@ export class LoginSavePasswordPrompt extends BaseScene {
             this.sceneManager.resume('LoginScene');
         });
 
-        let randomWarning = getRandomWarning();
-        let randomWarningImage = this.add.image(randomWarning.image.x, randomWarning.image.y, randomWarning.image.image_parent, randomWarning.image.image_name);
-        randomWarningImage.scaleX = randomWarning.image.scaleX;
-        randomWarningImage.scaleY = randomWarning.image.scaleY;
-        randomWarningImage.setDepth(-1);
+        const totalWarningImages = Object.entries(getWarningImages()).length;
+        let imageIndex = 0;
+        let lastUsedImage = null;
+        let lastUsedText = null;
 
-        let randomWarningText = this.add.bitmapText(randomWarning.text.x, randomWarning.text.y, randomWarning.text.font, randomWarning.text.text);
-        randomWarningText.scaleX = randomWarning.text.scaleX;
-        randomWarningText.scaleY = randomWarning.text.scaleY;
-        randomWarningText.text = randomWarning.text.text;
-        randomWarningText.fontSize = randomWarning.text.fontSize;
-        randomWarningText.setTint(randomWarning.text.color);
+        this.warningImageInterval = this.time.addEvent({
+            delay: this.warningLoopInterval * 1000,
+            callback: () => {
+                if(lastUsedImage !== null) {
+                    lastUsedImage.destroy();
+                }
 
-        this.warningInterval = setInterval(() => {
-            randomWarningImage.destroy();
-            randomWarningText.destroy();
-            randomWarning = getRandomWarning();
-            
-            // Image
-            randomWarningImage = this.add.image(randomWarning.image.x, randomWarning.image.y, randomWarning.image.image_parent, randomWarning.image.image_name);
-            randomWarningImage.scaleX = randomWarning.image.scaleX;
-            randomWarningImage.scaleY = randomWarning.image.scaleY;
-            randomWarningImage.setDepth(-1);
+                if(lastUsedText !== null) {
+                    lastUsedText.destroy();
+                }
 
-            // Text
-            randomWarningText = this.add.bitmapText(randomWarning.text.x, randomWarning.text.y, randomWarning.text.font, randomWarning.text.text);
-            randomWarningText.scaleX = randomWarning.text.scaleX;
-            randomWarningText.scaleY = randomWarning.text.scaleY;
-            randomWarningText.text = randomWarning.text.text;
-            randomWarningText.fontSize = randomWarning.text.fontSize;
-            randomWarningText.setTint(randomWarning.text.color);
-        }, this.warningLoopInterval);
+                const {image, text} = showWarningImage(this, imageIndex);
+                lastUsedImage = image;
+                lastUsedText = text;
+
+                if(imageIndex === totalWarningImages - 1) {
+                    imageIndex = 0;
+                    return;
+                }
+
+                imageIndex = imageIndex + 1;
+            },
+            callbackScope: this,
+            loop: true,
+        });
+        
+        // Instantly start the loop
+        this.warningImageInterval.callback(this.warningImageInterval.callbackScope);
 
 		this.events.emit("scene-awake");
         this.events.once("shutdown", this.shutdown, this);
 	}
 
     shutdown() {
-        clearInterval(this.warningInterval);
-        this.warningInterval = null;
+        this.warningImageInterval.destroy();
     }
 }

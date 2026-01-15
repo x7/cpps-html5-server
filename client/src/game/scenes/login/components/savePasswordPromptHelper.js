@@ -1,4 +1,31 @@
-export function getRandomWarning() {
+export function showWarningImage(scene, index) {
+    const allWarningImages = getWarningImages();
+    const warningImage = allWarningImages[index];
+
+    const image = warningImage.image;
+    const text = warningImage.text;
+
+    // Image
+    const imageToDisplay = scene.add.image(image.x, image.y, image.image_parent, image.image_name);
+    imageToDisplay.scaleX = image.scaleX;
+    imageToDisplay.scaleY = image.scaleY;
+    imageToDisplay.setDepth(-1);
+
+    // Text
+    const textToDisplay = scene.add.bitmapText(text.x, text.y, text.font, text.text);
+    textToDisplay.scaleX = text.scaleX;
+    textToDisplay.scaleY = text.scaleY;
+    textToDisplay.text = text.text;
+    textToDisplay.fontSize = text.fontSize;
+    textToDisplay.setTint(text.color);
+
+    return {
+        "image": imageToDisplay,
+        "text": textToDisplay
+    }
+}
+
+export function getWarningImages() {
     // Image
     const imageX = 269;
     const imageY = 200;
@@ -15,7 +42,7 @@ export function getRandomWarning() {
     const warnings = [
         {
             "image": {
-                "image_parent": "login_1",
+                "image_parent": "login",
                 "image_name": "login-screen/carousel0",
                 "x": imageX,
                 "y": imageY,
@@ -35,7 +62,7 @@ export function getRandomWarning() {
         },
         {
             "image": {
-                "image_parent": "login_1",
+                "image_parent": "login",
                 "image_name": "login-screen/carousel1",
                 "x": imageX,
                 "y": imageY,
@@ -55,7 +82,7 @@ export function getRandomWarning() {
         },
         {
             "image": {
-                "image_parent": "login_1",
+                "image_parent": "login",
                 "image_name": "login-screen/carousel2",
                 "x": imageX,
                 "y": imageY,
@@ -75,5 +102,5 @@ export function getRandomWarning() {
         }
     ]
 
-    return warnings[Math.floor(Math.random() * warnings.length)]; 
+    return warnings;
 }
