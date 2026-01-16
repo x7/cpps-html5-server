@@ -90,7 +90,6 @@ export class AssetManager {
         this.game.textures.remove(name);
     }
 
-    // All loading assets start here
     loadAudio({ scene, name, paths }) {
         const audioPath = paths[0];
 
@@ -105,6 +104,12 @@ export class AssetManager {
             return;
         }
 
+        // const audio = scene.load.audio(name, audioPath);
+        // if(this.audios.has(name)) {
+        //     return;
+        // }
+
+        // this.audios.set(name, audio);
         scene.load.audio(name, audioPath);
     }
 

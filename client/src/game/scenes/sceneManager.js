@@ -1,3 +1,4 @@
+import Phaser from "phaser";
 import { returnSceneClass } from "./sceneUtil.js";
 
 /*
@@ -186,6 +187,10 @@ export class SceneManager {
     }
 
     setCurrentScene(scene) {
+        if(!(scene instanceof Phaser.Scene)) {
+            scene = this.get(scene);
+        }
+
         this.currentScene = scene;
     }
 

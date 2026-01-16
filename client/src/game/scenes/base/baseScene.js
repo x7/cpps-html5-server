@@ -14,4 +14,8 @@ export class BaseScene extends Phaser.Scene {
     getAssetManager() {
         return this.game.registry.get("assetManager");
     }
+
+    getAudioManager() {
+        return this.game.registry.get("audioManager");
+    }
 }

@@ -22,6 +22,8 @@ export class TownScene extends BaseScene {
 	init() {
 		this.sceneManager = this.getSceneManager();
 		this.assetManager = this.getAssetManager();
+		this.audioManager = this.getAudioManager();
+		this.sceneManager.setCurrentScene("TownScene");
 	}
 
 	preload() {
@@ -275,25 +277,27 @@ export class TownScene extends BaseScene {
 		town_gift_shop_door_closed.on("pointerover", () => {
 			town_gift_shop_door_closed.visible = false;
 			town_gift_shop_door_open.visible = true;
-			this.sound.play("town_gift_shop_open");
+			this.audioManager.play("town_gift_shop_open");
+			// this.sound.play("town_gift_shop_open");
 		});
 
 		town_gift_shop_door_open.on("pointerout", () => {
 			town_gift_shop_door_closed.visible = true;
 			town_gift_shop_door_open.visible = false;
-			this.sound.play("town_gift_shop_close");
+			this.audioManager.play("town_gift_shop_close");
+			// this.sound.play("town_gift_shop_close");
 		});
 
 		town_coffee_shop_door_closed.on("pointerover", () => {
 			town_coffee_shop_door_closed.visible = false;
 			town_coffee_shop_door_open.visible = true;
-			this.sound.play("town_coffee_door_open");
+			this.audioManager.play("town_coffee_door_open");
 		});
 
 		town_coffee_shop_door_open.on("pointerout", () => {
 			town_coffee_shop_door_closed.visible = true;
 			town_coffee_shop_door_open.visible = false;
-			this.sound.play("town_coffee_door_close");
+			this.audioManager.play("town_coffee_door_close");
 		});
 
 		town_dance_club_door_closed_trigger.on("pointerover", () => {
