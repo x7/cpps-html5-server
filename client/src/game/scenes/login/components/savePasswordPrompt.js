@@ -2,11 +2,11 @@ import { showWarningImage, getWarningImages } from './savePasswordPromptHelper.j
 import { enableRememberMeBoxes } from '../loginHelper.js';
 import { BaseScene } from '../../base/baseScene.js';
 import { ASSET_TYPES } from '../../../assets/assetTypes.js';
+import { SCENE_LOGIN_SHARED_PASSWORD } from '../../sceneNames.js';
 
 export class LoginSavePasswordPrompt extends BaseScene {
-
 	constructor() {
-		super("LoginSavePasswordPromptScene");
+		super(SCENE_LOGIN_SHARED_PASSWORD);
         this.warningLoopInterval = 5;
 	}
 
@@ -24,7 +24,7 @@ export class LoginSavePasswordPrompt extends BaseScene {
 		});
     }
 
-	create() {
+	createContent() {
 		// login_save_password_background_gui
 		const login_save_password_background_gui = this.add.image(210, 78, "login", "login-screen/warn");
 		login_save_password_background_gui.scaleX = 0.718656484232741;

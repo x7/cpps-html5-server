@@ -1,10 +1,11 @@
 import { hideDomElements } from '../loginHelper.js';
 import { ASSET_TYPES } from '../../../assets/assetTypes.js';
 import { BaseScene } from '../../base/baseScene.js';
+import { SCENE_LOGIN_SHARED_DEVICE } from '../../sceneNames.js';
 
 export class SharedDevicePrompt extends BaseScene {
 	constructor() {
-		super("LoginSharedDevicePromptScene");
+		super(SCENE_LOGIN_SHARED_DEVICE);
 	}
 
 	init() {

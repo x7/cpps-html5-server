@@ -1,12 +1,11 @@
-// import { LoadingScene } from '../loading/loading.js'
 import { BaseScene } from '../base/baseScene.js';
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
-// import eventEmitter from '../../util/eventEmitter.js';
-import { startLoadingScene } from '../loading/loadingHelper.js';
+import { displayLoading, removeLoading } from '../loading/loadingHelper.js';
+import { SCENE_LOGIN, SCENE_REGISTER, SCENE_START_SCREEN } from '../sceneNames.js';
 
 export class StartScene extends BaseScene {
 	constructor() {
-		super("StartScene");
+		super(SCENE_START_SCREEN);
 	}
 
 	init(data) {
@@ -15,7 +14,7 @@ export class StartScene extends BaseScene {
 		this.assetManager = this.getAssetManager();
 	}
 
-	preload() {
+	preloadContent() {
 		this.assetManager.load({
 			scene: this,
 			type: ASSET_TYPES.IMAGE,
@@ -249,16 +248,27 @@ export class StartScene extends BaseScene {
 		start_login_button_hover.on("pointerdown", () => {
 			start_login_button_hover.visible = false;
 			start_login_button_clicked.visible = true;
-			startLoadingScene("StartScene", "LoginScene", "Loading Login");
+			displayLoading(SCENE_START_SCREEN, "Loading Login");
+			removeLoading({
+				"currentScene": SCENE_START_SCREEN,
+				"goToScene": SCENE_LOGIN,
+				"goToSceneText": null,
+				"callback": null
+			});
 		});
 
 		start_register_button_hover.on("pointerdown", () => {
 			start_register_button_hover.visible = false;
 			start_register_button_clicked.visible = true;
-			startLoadingScene("RegisterScene", "Loading Register");
+			displayLoading(SCENE_START_SCREEN, "Loading Register");
+			removeLoading({
+				"currentScene": SCENE_START_SCREEN,
+				"goToScene": SCENE_REGISTER,
+				"goToSceneText": null,
+				"callback": null
+			});
 		});
 
 		this.events.emit("scene-awake");
-		this.events.emit("sceneReady");
 	}
 }

@@ -1,11 +1,12 @@
 import { BaseScene } from '../base/baseScene.js';
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
-import eventEmitter from '../../../util/eventEmitter.js';
-import { startLoadingScene } from '../loading/loadingHelper.js';
+import { login } from './loginHelper.js';
+import { SCENE_LOGIN, SCENE_REGISTER, SCENE_START_SCREEN } from '../sceneNames.js';
+import { displayLoading, removeLoading } from '../loading/loadingHelper.js';
 
 export class LoginScene extends BaseScene {
 	constructor() {
-		super("LoginScene");
+		super(SCENE_LOGIN);
 	}
 
 	init(data) {
@@ -18,7 +19,7 @@ export class LoginScene extends BaseScene {
 		this.rememberMyPassword = false;
 	}
 
-	preload() {
+	preloadContent() {
 		this.assetManager.load({
 			scene: this,
 			type: ASSET_TYPES.PACK,
@@ -248,6 +249,18 @@ export class LoginScene extends BaseScene {
 		this.passwordInput.node.style.setProperty('::-ms-clear', 'display:none');
 		// Dom elements end here
 
+		// Dom elements events start here
+		this.penguinInput.node.addEventListener("input", (event) => {
+			const input = event.target.value;
+			this.username = input;
+		});
+
+		this.passwordInput.node.addEventListener("input", (event) => {
+			const input = event.target.value;
+			this.password = input;
+		});
+		// Dom elements events end here
+
 		// Setting all interactives sprites starts here
 		login_forgot_password_hover.setInteractive({ useHandCursor: true });
 		login_create_penguin_hover.setInteractive({ useHandCursor: true });
@@ -285,8 +298,13 @@ export class LoginScene extends BaseScene {
 		});
 
 		login_create_penguin_hover_display.on("pointerdown", () => {
-			this.sceneManager.start('LoadingScene', { 'nextScene': 'RegisterScene', 'currentScene': 'LoginScene' });
-			return;
+			displayLoading(SCENE_LOGIN, "Loading Register");
+			removeLoading({
+				currentScene: SCENE_LOGIN,
+				goToScene: SCENE_REGISTER,
+				goToSceneText: null,
+				callback: null
+			});
 		});
 
 		login_back_button_hover.on("pointerover", () => {
@@ -300,7 +318,13 @@ export class LoginScene extends BaseScene {
 		});
 		
 		login_back_button_hover_display.on("pointerdown", () => {
-			startLoadingScene("LoginScene", "StartScene", "Loading Start");
+			displayLoading(SCENE_LOGIN, "Loading Start");
+			removeLoading({
+				currentScene: SCENE_LOGIN,
+				goToScene: SCENE_START_SCREEN,
+				goToSceneText: null,
+				callback: null
+			});
 		});
 
 		login_login_button.on("pointerover", () => {
@@ -324,14 +348,11 @@ export class LoginScene extends BaseScene {
 		});
 
 		login_remember_password_checkbox.on("pointerdown", () => {
-			// Start "other scene"
 			this.sceneManager.add({
-				sceneKey: 'LoginSharedDevicePromptScene',
-				scene: null,
-				autoStart: false
+				"sceneKey": 'LoginSharedDevicePromptScene',
+				"scene": null,
+				"autoStart": false
 			});
-
-			// this.game.domContainer.style.display = 'none';
 			this.sceneManager.pause('LoginScene');
 			this.sceneManager.launch('LoginSharedDevicePromptScene');
 		});
@@ -341,9 +362,10 @@ export class LoginScene extends BaseScene {
 			this.login_remember_password_checkbox_ticked.visible = false;
 		});
 
-		login_login_button_hover.on("pointerdown", () => {
+		login_login_button_hover.on("pointerdown", async () => {
 			login_login_button_hover.setVisible = false;
 			login_login_button_clicked.visible = true;
+			await login(this.username, this.password);
 		});
 		// All interactive events end here
 

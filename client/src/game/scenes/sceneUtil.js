@@ -1,3 +1,4 @@
+import { PreloadAssetsScene } from "./preload/PreloadAssetsScene.js";
 import { LoadingScene } from "./loading/loading.js";
 import { StartScene } from "./start/start.js";
 import { RegisterScene } from './register/register.js';
@@ -6,11 +7,13 @@ import { SharedDevicePrompt } from "./login/components/sharedDevicePrompt.js";
 import { LoginSavePasswordPrompt } from "./login/components/savePasswordPrompt.js";
 import { ErrorScene } from "./error/error.js";
 import { TownScene } from "./world/rooms/town/town.js";
+import { ServerSelectionScene } from "./login/components/serverSelection.js";
 
 export function returnSceneClass(sceneId) {
     sceneId = sceneId.toLowerCase();
 
     const scenes = {
+        "preloadassetsscene": PreloadAssetsScene,
         "loadingscene": LoadingScene,
         "startscene": StartScene,
         "registerscene": RegisterScene,
@@ -18,6 +21,7 @@ export function returnSceneClass(sceneId) {
         "loginshareddevicepromptscene": SharedDevicePrompt,
         "loginsavepasswordpromptscene": LoginSavePasswordPrompt,
         "errorscene": ErrorScene,
+        "serverselectionscene": ServerSelectionScene,
         "townscene": TownScene
     };
 

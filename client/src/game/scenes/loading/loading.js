@@ -1,11 +1,11 @@
 import { pickRandomCharacter, updateProgress } from './loadingHelper.js'
-import eventEmitter from '../../../util/eventEmitter.js';
 import { BaseScene } from '../base/baseScene.js';
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
+import { SCENE_LOADING } from '../sceneNames.js';
 
 export class LoadingScene extends BaseScene {
 	constructor() {
-		super("LoadingScene");
+		super(SCENE_LOADING);
 	}
 
 	init(data) {
@@ -14,16 +14,20 @@ export class LoadingScene extends BaseScene {
 		this.sceneManager.setCurrentScene(this);
 		this.progress = 0;
 		
-		this.text = data.text ?? "No text provided\nPlease provide one";
-		this.newScene = data.newScene ?? null;
-		eventEmitter.addEventOnce("loading:completed", (callback) => {
-			setTimeout(() => {
-				callback();
-			}, 1250);
-		});
+		if(data.text != null) {
+			this.text = data.text;
+		}
+
+		if(data.returnScene != null) {
+			this.returnScene = data.returnScene;
+		}
+
+		if(data.newScene != null) {
+			this.newScene = data.newScene;
+		}
 	}
 
-	preload() {
+	preloadContent() {
 		this.assetManager.load({
 			scene: this,
 			type: ASSET_TYPES.PACK,
@@ -53,7 +57,7 @@ export class LoadingScene extends BaseScene {
 		})
 	}
 
-	async create() {		
+	createContent() {		
 		// login_screen_background
 		this.login_screen_background = this.add.image(-54, -69, "login", "login-screen/background");
 		this.login_screen_background.scaleX = 0.8005228796833518;
@@ -87,15 +91,15 @@ export class LoadingScene extends BaseScene {
 
 		const centerX = this.scale.width / 2;
 		const centerY = this.scale.height / 2;
-		const loading_random_text = this.add.bitmapText(centerX - 10, centerY + 70, "BurbankSmallBold", this.text);
-		loading_random_text.text = this.text;
-		loading_random_text.fontSize = 18;
-		loading_random_text.setOrigin(0.5, 0.0)
-		loading_random_text.setLineSpacing(5);
-		loading_random_text.setCenterAlign();
+		this.loading_random_text = this.add.bitmapText(centerX - 10, centerY + 70, "BurbankSmallBold", this.text);
+		this.loading_random_text.text = this.text;
+		this.loading_random_text.fontSize = 18;
+		this.loading_random_text.setOrigin(0.5, 0.0)
+		this.loading_random_text.setLineSpacing(5);
+		this.loading_random_text.setCenterAlign();
 
 		this.progressInterval = this.time.addEvent({
-			delay: 500,
+			delay: 250,
 			callback: () => {
 				if(this.progress >= 1) {
 					this.time.removeEvent(this.progressInterval);
@@ -124,11 +128,10 @@ export class LoadingScene extends BaseScene {
 
 		this.events.once("shutdown", this.shutdown, this);
 		this.events.emit("scene-awake");
+	}
 
-		// Loading system
-		this.sceneManager.add({ sceneKey: this.newScene, scene: null, autoStart: false });
-		this.sceneManager.launch(this.newScene, { "loading": true });
-		this.sceneManager.sendToBack(this.newScene);
+	update() {
+		this.loading_random_text.text = this.text;
 	}
 
 	shutdown() {

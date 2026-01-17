@@ -5,6 +5,7 @@ import MovementManager from "../../../../penguin/movementManager";
 import snowBallManager from "../../../../penguin/snowBallManager";
 import { BaseScene } from "../../../base/baseScene";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { SCENE_ROOM_TOWN } from "../../../sceneNames";
 
 // Todo: Make the dance club opening more smooth
 // Todo: Make sound manager
@@ -14,9 +15,8 @@ import { ASSET_TYPES } from "../../../../assets/assetTypes";
 // Todo: Add night club lights + speaker animations
 
 export class TownScene extends BaseScene {
-
 	constructor() {
-		super("TownScene");
+		super(SCENE_ROOM_TOWN);
 	}
 
 	init() {
@@ -77,7 +77,7 @@ export class TownScene extends BaseScene {
 		});
 	}
 
-	create() {
+	createContent() {
 		// town_blue_sky
 		const town_blue_sky = this.add.image(-208, -81, "town", "town/sky");
 		town_blue_sky.setOrigin(0, 0);
@@ -333,21 +333,21 @@ export class TownScene extends BaseScene {
 		// All interactive events ends here
 
 		// Testing stuff ignore will be moved eventually
-		// this.a = new Penguin(this, "test", 600, 500);
-		// this.movementManager = new MovementManager(this.a);
-		// this.snowballManager = new snowBallManager(this, this.a);
-		// this.snowballManager.createSnowball()
-		// new RoomMouseMovemenet(this, this.a);
-		// new RoomKeyPressed(this, this.a)
+		this.a = new Penguin(this, "test", 600, 500);
+		this.movementManager = new MovementManager(this.a);
+		this.snowballManager = new snowBallManager(this, this.a);
+		this.snowballManager.createSnowball()
+		new RoomMouseMovemenet(this, this.a);
+		new RoomKeyPressed(this, this.a)
 
 		this.events.once("shutdown", this.shutdown, this);
 		this.events.emit("scene-awake");
 	}
 
-	// update() {
-	// 	this.movementManager.update();
-	// 	this.snowballManager.update();
-	// }
+	update() {
+		this.movementManager.update();
+		this.snowballManager.update();
+	}
 
 	shutdown() {
 		super.stopAllMusic();

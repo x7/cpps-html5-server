@@ -1,12 +1,14 @@
 import { BaseScene } from '../../base/baseScene';
 import { ASSET_TYPES } from '../../../assets/assetTypes';
+import { SCENE_ROOM_TOWN, SCENE_SERVER_SELECTION } from '../../sceneNames';
+import { displayLoading, removeLoading } from '../../loading/loadingHelper';
 
 // TODO: Add more servers scene
 // TODO: Add redemption
 
 export class ServerSelectionScene extends BaseScene {
 	constructor() {
-		super("ServerSelectionScene");
+		super(SCENE_SERVER_SELECTION);
 	}
 
 	init() {
@@ -30,7 +32,7 @@ export class ServerSelectionScene extends BaseScene {
 		});
 	}
 
-	create() {
+	createContent() {
 		// server_selection_background
 		const server_selection_background = this.add.image(-11, -18, "login", "login-screen/background");
 		server_selection_background.scaleX = 0.7585468997218747;
@@ -160,7 +162,13 @@ export class ServerSelectionScene extends BaseScene {
 		});
 
 		server_selection_server_one_hover.on("pointerdown", () => {
-			// join server or whatever shit im gonna add
+			displayLoading(SCENE_SERVER_SELECTION, "Loading Town");
+			removeLoading({
+				"currentScene": SCENE_SERVER_SELECTION,
+				"goToScene": SCENE_ROOM_TOWN,
+				"goToSceneText": null,
+				"callback": null
+			});
 		});
 		// All interactive events end here
 

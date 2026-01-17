@@ -1,5 +1,6 @@
 import Phaser from "phaser";
 import { returnSceneClass } from "./sceneUtil.js";
+import { SCENE_LOADING } from "./sceneNames.js";
 
 export class SceneManager {
     game = null;
@@ -24,7 +25,7 @@ export class SceneManager {
             scene = sceneClass;
         }
 
-        this.game.scene.add((sceneKey == null ? null : sceneKey), scene, autoStart)
+        this.game.scene.add((sceneKey == null ? null : sceneKey), scene, autoStart);
     }
 
     get(sceneId) {
@@ -39,37 +40,41 @@ export class SceneManager {
     start(sceneId, data = {}) {
         let scene = this.get(sceneId);
         if(scene == null) {
-            this.add({
-                sceneKey: sceneId,
-                scene: null,
-                autoStart: false
-            });
-
-            scene = this.get(sceneId);
-            if(scene == null) {
-                return;
-            }
-        }
-
-        const isActive = this.isActive(sceneId);
-        if(isActive && this.currentScene.scene.key == sceneId) {
+            console.log("yay " + sceneId)
             return;
         }
 
-        if(this.launchedScenes.size != 0) {
+        const isActive = this.isActive(sceneId);
+        if(isActive && this.currentScene?.scene.key === sceneId) {
+            return;
+        }
+
+        if(this.launchedScenes.size !== 0) {
             for(const launchedScene of this.launchedScenes) {
                 const sceneKey = launchedScene.scene.key;
+                if(sceneKey === SCENE_LOADING) {
+                    console.log("didnt stop")
+                    continue;
+                }
+
                 this.stop(sceneKey);
             }
         }
 
-        this.stop(this.currentScene.scene.key);
+        if(this.currentScene != null && this.currentScene.scene.key !== SCENE_LOADING) {
+            this.stop(this.currentScene.scene.key);
+        }
+
         this.game.scene.start(sceneId, data);
-        this.currentScene = scene;
+        this.currentScene = this.get(sceneId);
+        console.log("woooo " + sceneId)
     }
 
     switch(sceneId, data = {}) {
-        this.stop(this.currentScene.scene.key);
+        if(this.currentScene != null) {
+            this.stop(this.currentScene.scene.key);
+        }
+        
         this.start(sceneId, data);
     }
 
@@ -166,6 +171,15 @@ export class SceneManager {
         }
 
         return this.game.scene.isActive(sceneId);
+    }
+
+    sendToTop(sceneId) {
+        const scene = this.get(sceneId);
+        if(scene == null) {
+            return;
+        }
+
+        this.game.scene.bringToTop(sceneId);
     }
 
     sendToBack(sceneId) {

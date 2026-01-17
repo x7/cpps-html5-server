@@ -1,24 +1,26 @@
 import { updatePenguinColor, updateSelectedColor, registerPenguin, penguinColors, createInputCss, onUsernameInput, onPasswordInput, onSecondPasswordInput, onEmailInput } from './registerHelper.js';
 import { BaseScene } from '../base/baseScene.js';
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
+import { SCENE_REGISTER } from '../sceneNames.js';
 
 // Todo: Error prompts
 
 export class RegisterScene extends BaseScene {
     constructor() {
-        super("RegisterScene");
-        this.username = null;
+        super(SCENE_REGISTER);
+    }
+
+	init(data) {
+		super.init(data);
+		this.sceneManager = this.getSceneManager();
+		this.assetManager = this.getAssetManager();
+		this.username = null;
         this.password = null;
         this.confirmPassword = null;
         this.email = null;
         this.penguinColor = penguinColors.teal;
 		this.currentSelectedColor = null;
 		this.penguinColorDataTag = "penguin_color";
-    }
-
-	init() {
-		this.sceneManager = this.getSceneManager();
-		this.assetManager = this.getAssetManager();
 	}
 
     preload() {
@@ -37,7 +39,7 @@ export class RegisterScene extends BaseScene {
 		});
     }
 
-	create() {
+	createContent() {
 		// register_main_background
 		const register_main_background = this.add.image(633, -7, "create", "create-module/mainBackgroundConfirmation");
 		register_main_background.scaleX = 0.842354994900877;

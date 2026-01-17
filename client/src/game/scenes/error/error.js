@@ -1,15 +1,16 @@
 import { BaseScene } from "../base/baseScene";
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
+import { removeError } from "./errorHelper.js";
+import { SCENE_ERROR } from "../sceneNames.js";
 
 export class ErrorScene extends BaseScene {
 	constructor() {
-		super("ErrorScene");
+		super(SCENE_ERROR);
 	}
 
 	init(data) {
 		this.sceneManager = this.getSceneManager();
 		this.assetManager = this.getAssetManager();
-		
 		this.errorMessage = (data.message == null ? "No error message provided.\nPlease provide one." : data.message);
 	}
 
@@ -29,7 +30,7 @@ export class ErrorScene extends BaseScene {
 		});
 	}
 
-	create() {
+	createContent() {
 		// error_gui
 		const error_gui = this.add.image(385, 218, "error", "app/error");
 		error_gui.scaleX = 0.6973949856334567;
@@ -72,7 +73,6 @@ export class ErrorScene extends BaseScene {
 		buttonText.setLineSpacing(5);
 		buttonText.setCenterAlign();
 
-
 		// interactives
 		error_okay_button.setInteractive({ useHandCursor: true });
 		error_okay_button_hover.setInteractive({ useHandCursor: true });
@@ -91,7 +91,7 @@ export class ErrorScene extends BaseScene {
 		error_okay_button_hover.on("pointerdown", () => {
 			error_okay_button_hover.visible = false;
 			error_okay_button_clicked.visible = true;
-			this.sceneManager.stop("ErrorScene");
+			removeError();
 		});
 
 		this.events.emit("scene-awake");

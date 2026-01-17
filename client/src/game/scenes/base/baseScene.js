@@ -1,5 +1,5 @@
 import Phaser from "phaser";
-import eventEmitter from "../../../util/eventEmitter";
+import { removeLoading } from "../loading/loadingHelper";
 
 export class BaseScene extends Phaser.Scene {
     constructor(key) {
@@ -17,20 +17,27 @@ export class BaseScene extends Phaser.Scene {
         this.getSceneManager().setCurrentScene(this);
     }
 
-    createContent() {
-        this.create();
+    preloadContent() {
+        this.preload()
     }
 
-    create() {
+    preload() {
+        this.preloadContent();
+    }
+
+    async createContent() {
+        await this.create();
+    }
+
+    async create() {
         this.createContent();
 
         if(this.loading) {
-            eventEmitter.emit("loading:completed", () => {
-                this.sceneManager.stop("LoadingScene");
-                this.cameras.main.setAlpha(1);
-                this.input.enabled = true;
-            });
+            this.input.enabled = true;
+            this.cameras.main.setAlpha(1); // fuck this method -1hr
         }
+
+        this.events.emit('sceneReady');
     }
 
     getGameManager() {

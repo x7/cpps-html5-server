@@ -22,7 +22,7 @@ export default class snowBallManager {
 
     // creating a new snowball objective
     createSnowball() {
-        const snowball = this.scene.add.sprite(500, 500, "engine", "engine/snowball0001");
+        const snowball = this.scene.add.sprite(500, 500, "snowball", "engine/snowball0001");
         snowball.setScale(0.72)
     }
 
