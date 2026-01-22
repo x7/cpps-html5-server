@@ -1,0 +1,7 @@
+{
+  "blizzard": {
+    "display_name": "Blizzard",
+    "safe_chat_only": false,
+    "max_players": 360
+  }
+}
