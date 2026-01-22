@@ -33,7 +33,7 @@ export class TownScene extends BaseScene {
 		}
 	}
 
-	preload() {
+	preloadContent() {
 		this.assetManager.load({
 			scene: this,
 			type: ASSET_TYPES.PACK,

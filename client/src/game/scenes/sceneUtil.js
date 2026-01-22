@@ -8,6 +8,7 @@ import { LoginSavePasswordPrompt } from "./login/components/savePasswordPrompt.j
 import { ErrorScene } from "./error/error.js";
 import { TownScene } from "./world/rooms/town/town.js";
 import { ServerSelectionScene } from "./login/components/serverSelection.js";
+import { MapScene } from "./interfaces/map.js";
 
 export function returnSceneClass(sceneId) {
     sceneId = sceneId.toLowerCase();
@@ -22,7 +23,8 @@ export function returnSceneClass(sceneId) {
         "loginsavepasswordpromptscene": LoginSavePasswordPrompt,
         "errorscene": ErrorScene,
         "serverselectionscene": ServerSelectionScene,
-        "townscene": TownScene
+        "townscene": TownScene,
+        "mapscene": MapScene,
     };
 
     const scene = scenes[sceneId];

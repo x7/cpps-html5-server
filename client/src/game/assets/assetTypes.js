@@ -8,7 +8,7 @@ export const ASSET_TYPES = Object.freeze({
 });
 
 export const ALLOWED_ASSET_EXTENSIONS = Object.freeze({
-    "FONT": ["woff2", "woff", "tff", "otf", "eot", "svg"],
+    "FONT": ["woff2", "woff", "tff", "ttf", "otf", "eot", "svg"],
     "BITMAP_FONT": ["png", "jpeg", "jpeg", "xml", "json", "fnt"],
     "JSON": ["json"],
     "AUDIO": ["mp3", "ogg", "wav", "m4a", "webm", "opus", "aac", "flac"],

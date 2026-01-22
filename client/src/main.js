@@ -8,6 +8,7 @@ import { ServerSelectionScene } from './game/scenes/login/components/serverSelec
 import { PreloadAssetsScene } from './game/scenes/preload/PreloadAssetsScene.js';
 import { LoginScene } from './game/scenes/login/login.js';
 import { TownScene } from './game/scenes/world/rooms/town/town.js';
+import { MapScene } from './game/scenes/interfaces/map.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -17,7 +18,8 @@ const config = {
     resolution: window.devicePixelRatio || 1,
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
-    scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
+    // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
+    scene: [MapScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH

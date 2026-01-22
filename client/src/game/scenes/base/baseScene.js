@@ -40,7 +40,8 @@ export class BaseScene extends Phaser.Scene {
             this.cameras.main.setAlpha(1); // fuck this method -1hr
         }
 
-        this.events.emit('sceneReady');
+        this.events.emit("scene-awake");
+        this.events.emit("sceneReady");
     }
 
     getGameManager() {
