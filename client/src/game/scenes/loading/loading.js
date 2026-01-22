@@ -11,7 +11,6 @@ export class LoadingScene extends BaseScene {
 	init(data) {
 		this.sceneManager = this.getSceneManager();
 		this.assetManager = this.getAssetManager();
-		this.sceneManager.setCurrentScene(this);
 		this.progress = 0;
 		
 		if(data.text != null) {

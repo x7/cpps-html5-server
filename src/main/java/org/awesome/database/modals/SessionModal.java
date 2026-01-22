@@ -15,9 +15,9 @@ public class SessionModal {
         String sql = """
             CREATE TABLE IF NOT EXISTS sessions (
                 id SERIAL PRIMARY KEY,
-                penguin_id TEXT NOT NULL,
+                user_id TEXT NOT NULL,
                 username TEXT NOT NULL,
-                session_id TEXT NOT NULL
+                refresh_token TEXT NOT NULL
             );
         """;
 
@@ -33,7 +33,7 @@ public class SessionModal {
 
     public static boolean createSession(String penguinId, String username, String session) {
         String sql = """
-            INSERT INTO sessions (penguin_id, username, session_id)
+            INSERT INTO sessions (user_id, username, refresh_token)
             VALUES (?, ?, ?);
         """;
 

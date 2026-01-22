@@ -3,7 +3,9 @@ import { getManager } from "./network";
 // All network listeners here
 import { onConnect } from "./connection/connect";
 import { onDisconnect } from "./connection/disconnect";
-import { onStompError, onWebSocketError } from "./connection/error";
+import { onStompError } from "./connection/error";
+import { onWebsocketClose } from "./connection/websocketClose";
+import { onWebsocketError } from "./connection/websocketError";
 
 export function registerAllNetworkListeners() {
     const client = getManager().getClient();
@@ -11,5 +13,6 @@ export function registerAllNetworkListeners() {
     client.onConnect = onConnect;
     client.onDisconnect = onDisconnect;
     client.onStompError = onStompError;
-    client.onWebSocketError = onWebSocketError;
+    client.onWebSocketClose = onWebsocketClose;
+    client.onWebSocketError = onWebsocketError;
 }

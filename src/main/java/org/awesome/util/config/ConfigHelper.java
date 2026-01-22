@@ -48,7 +48,8 @@ public class ConfigHelper {
             +     "\"username\":\"\","
             +     "\"password\":\"\","
             +     "\"database_name\":\"\""
-            +   "}"
+            +   "},"
+            +   "\"jwt_secret\":\"\""
             + "},"
             + "\"production\":{"
             +   "\"logging\":{"
@@ -65,11 +66,10 @@ public class ConfigHelper {
             +     "\"username\":\"\","
             +     "\"password\":\"\","
             +     "\"database_name\":\"\""
-            +   "}"
+            +   "},"
+            +   "\"jwt_secret\":\"\""
             + "}"
             + "}";
-
-
 
     // done
     public static boolean create() {

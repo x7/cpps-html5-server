@@ -17,6 +17,9 @@ dependencies {
     implementation("org.postgresql:postgresql:42.7.8")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.17.2")
     implementation("io.github.classgraph:classgraph:4.8.181")
+    implementation("io.jsonwebtoken:jjwt-api:0.13.0")
+    runtimeOnly("io.jsonwebtoken:jjwt-impl:0.13.0")
+    runtimeOnly("io.jsonwebtoken:jjwt-jackson:0.13.0")
 }
 
 tasks.test {

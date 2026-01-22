@@ -1,3 +1,5 @@
+import { ClientPenguin } from "../../game/penguin/clientPenguin";
+
 // creates a packet to send to the server
 export function createPacket(name, data) {
     if(typeof name != 'string') {
@@ -10,5 +12,27 @@ export function createPacket(name, data) {
         return;
     }
 
+    const clientPenguin = ClientPenguin.getClient();
+    const username = clientPenguin.getUsername();
+    const id = clientPenguin.getId();
+    const token = clientPenguin.getToken();
+    
+    data["penguin"] = { "username": username, "id": id }
+    data["token"] = token;
+
     return JSON.stringify({ name, data });
+}
+
+export function parsePacket(packet) {
+    if(typeof packet != 'string') {
+        console.log("Invalid packet type. Cannot parse packet");
+        return;
+    }
+
+    try {
+        return JSON.parse(packet);
+    } catch (error) {
+        console.log(error)
+        return;
+    }
 }

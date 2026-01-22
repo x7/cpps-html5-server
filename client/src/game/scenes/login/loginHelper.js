@@ -1,3 +1,6 @@
+import { connect, getManager } from "../../../network/network.js";
+import { CLIENT_CONNECTION_DISCONNECTED } from "../../../network/topics.js";
+import { ClientPenguin } from "../../penguin/clientPenguin.js";
 import { displayError } from "../error/errorHelper";
 import { LOGIN_NO_USERNAME_PROVIDED, LOGIN_NO_PASSWORD_PROVIDED, LOGIN_INVALID_USERNAME_LENGTH, LOGIN_INVALID_PASSWORD_LENGTH, FAILED_TO_CONNECT_TO_SERVER } from "../error/errorTypes";
 import { displayLoading, removeLoading } from '../loading/loadingHelper.js';
@@ -6,14 +9,12 @@ import { SCENE_LOGIN, SCENE_SERVER_SELECTION } from "../sceneNames.js";
 export async function login(username, password) {
     const validUsername = validateUsername(username);
     if(validUsername != true) {
-        alert("hi")
         displayError(validUsername);
         return;
     }
 
     const validPassword = validatePassword(password);
     if(validPassword != true) {
-        alert("hi1")
         displayError(validPassword);
         return;
     }
@@ -32,25 +33,43 @@ export async function login(username, password) {
             })
         });
 
-        if(request.status === 200) {
+        const response = await request.json();
+
+        if(request.status !== 200) {
             removeLoading({
                 "currentScene": SCENE_LOGIN,
-                "goToScene": SCENE_SERVER_SELECTION,
-                "goToSceneText": "Loading Server Selection",
-                "callback": null
+                "goToScene": null,
+                "goToSceneText": null,
+                "callback": () => {
+                    displayError(FAILED_TO_CONNECT_TO_SERVER);
+                }
             });
             return;
         }
 
+        console.log(response);
+        const token = response.data.access_token;
+        const refreshToken = response.data.refresh_token;
+        const expirationDate = response.data.expire_data;
+
+        await connect(username);
+
+        const networkManager = getManager();
+        const connection = networkManager.getClient();
+        const penguinClient = ClientPenguin.createClient(username, connection);
+        networkManager.subscribe(CLIENT_CONNECTION_DISCONNECTED);
+        penguinClient.setToken(token);
+        penguinClient.setRefreshToken(refreshToken);
+        penguinClient.setTokenExpireDate(expirationDate);
+
         removeLoading({
             "currentScene": SCENE_LOGIN,
-            "goToScene": null,
-            "goToSceneText": null,
-            "callback": () => {
-                displayError(FAILED_TO_CONNECT_TO_SERVER);
-            }
+            "goToScene": SCENE_SERVER_SELECTION,
+            "goToSceneText": "Loading Server Selection",
+            "callback": null
         });
     } catch (error) {
+        console.log(error)
         removeLoading({
             "currentScene": SCENE_LOGIN,
             "goToScene": null,
@@ -79,9 +98,9 @@ function validatePassword(password) {
         return LOGIN_NO_PASSWORD_PROVIDED;
     }
 
-    if(password.length < 8 || password.length > 128) {
-        return LOGIN_INVALID_PASSWORD_LENGTH;
-    }
+    // if(password.length < 8 || password.length > 128) {
+    //     return LOGIN_INVALID_PASSWORD_LENGTH;
+    // }
 
     return true;
 }

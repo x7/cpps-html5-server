@@ -10,7 +10,7 @@ export function displayError(key) {
         errors = gameManager.getGame().cache.json.get("error-json");
     }
 
-    let errorMessage = errors[key] || "No error message found";
+    let errorMessage = "No error message found";
 
     sceneManager.pause(sceneManager.getCurrentScene().scene.key);
     sceneManager.add({

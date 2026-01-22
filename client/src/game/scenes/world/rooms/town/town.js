@@ -1,4 +1,3 @@
-import Penguin from "../../../../penguin/penguin";
 import { RoomMouseMovemenet } from "../../../../inputs/roomMouseMovement";
 import { RoomKeyPressed } from "../../../../inputs/roomKeyPressed";
 import MovementManager from "../../../../penguin/movementManager";
@@ -6,6 +5,10 @@ import snowBallManager from "../../../../penguin/snowBallManager";
 import { BaseScene } from "../../../base/baseScene";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { SCENE_ROOM_TOWN } from "../../../sceneNames";
+import { ClientPenguin } from "../../../../penguin/clientPenguin";
+import { TOWN_COFFEE_SHOP_DOOR_CLOSE, TOWN_COFFEE_SHOP_DOOR_OPEN, TOWN_DANCE_CLUB_DOOR_CLOSE, TOWN_DANCE_CLUB_DOOR_OPEN, TOWN_GIFT_SHOP_DOOR_CLOSE, TOWN_GIFT_SHOP_DOOR_OPEN } from "../../../../audio/audioConstants";
+import { getManager } from "../../../../../network/network";
+import { SERVER_VERIFY_PACKET } from "../../../../../network/topics";
 
 // Todo: Make the dance club opening more smooth
 // Todo: Make sound manager
@@ -19,11 +22,15 @@ export class TownScene extends BaseScene {
 		super(SCENE_ROOM_TOWN);
 	}
 
-	init() {
+	init(data) {
 		this.sceneManager = this.getSceneManager();
 		this.assetManager = this.getAssetManager();
 		this.audioManager = this.getAudioManager();
 		this.sceneManager.setCurrentScene("TownScene");
+
+		if(data.players) {
+			this.players = data.players;
+		}
 	}
 
 	preload() {
@@ -277,34 +284,34 @@ export class TownScene extends BaseScene {
 		town_gift_shop_door_closed.on("pointerover", () => {
 			town_gift_shop_door_closed.visible = false;
 			town_gift_shop_door_open.visible = true;
-			this.audioManager.play("town_gift_shop_open");
+			this.audioManager.play(TOWN_GIFT_SHOP_DOOR_OPEN);
 			// this.sound.play("town_gift_shop_open");
 		});
 
 		town_gift_shop_door_open.on("pointerout", () => {
 			town_gift_shop_door_closed.visible = true;
 			town_gift_shop_door_open.visible = false;
-			this.audioManager.play("town_gift_shop_close");
+			this.audioManager.play(TOWN_GIFT_SHOP_DOOR_CLOSE);
 			// this.sound.play("town_gift_shop_close");
 		});
 
 		town_coffee_shop_door_closed.on("pointerover", () => {
 			town_coffee_shop_door_closed.visible = false;
 			town_coffee_shop_door_open.visible = true;
-			this.audioManager.play("town_coffee_door_open");
+			this.audioManager.play(TOWN_COFFEE_SHOP_DOOR_OPEN);
 		});
 
 		town_coffee_shop_door_open.on("pointerout", () => {
 			town_coffee_shop_door_closed.visible = true;
 			town_coffee_shop_door_open.visible = false;
-			this.audioManager.play("town_coffee_door_close");
+			this.audioManager.play(TOWN_COFFEE_SHOP_DOOR_CLOSE);
 		});
 
 		town_dance_club_door_closed_trigger.on("pointerover", () => {
 			// retard didnt give me the animation for opening this door we will make it ourself
 			const doorOpeningSpeed = 2;
 			const stopY = 180;
-			this.audioManager.play("town_dance_club_open");
+			this.audioManager.play(TOWN_DANCE_CLUB_DOOR_OPEN);
 
 			this.open_dance_club_door_timer = this.time.addEvent({
 				delay: 10,
@@ -328,17 +335,48 @@ export class TownScene extends BaseScene {
 
 		town_dance_club_door_closed_trigger.on("pointerout", () => {
 			town_dance_club_door_closed.setY(227);
-			this.audioManager.play("town_dance_club_close");
+			this.audioManager.play(TOWN_DANCE_CLUB_DOOR_CLOSE);
 		});
 		// All interactive events ends here
 
-		// Testing stuff ignore will be moved eventually
-		this.a = new Penguin(this, "test", 600, 500);
-		this.movementManager = new MovementManager(this.a);
-		this.snowballManager = new snowBallManager(this, this.a);
-		this.snowballManager.createSnowball()
-		new RoomMouseMovemenet(this, this.a);
-		new RoomKeyPressed(this, this.a)
+		// ALL TESTING MULTIPLAYER BELOW HERE
+		const client = ClientPenguin.getClient();
+		this.movementManager = new MovementManager(client);
+		this.snowballManager = new snowBallManager(this, client);
+		this.snowballManager.createSnowball();
+		new RoomMouseMovemenet(this, client);
+		new RoomKeyPressed(this, client);
+
+
+		// TEMP SOLUTION 
+		this.chatInput = this.add.dom(400, 560).createFromHTML(`
+			<div style="width: 700px; background: rgba(0,0,0,0.8); padding: 15px; border-radius: 8px;">
+				<div id="chat-display" style="height: 100px; overflow-y: auto; margin-bottom: 10px; color: white; font-size: 14px; font-family: Arial;"></div>
+				<input type="text" id="chat-field" placeholder="Type a message..." 
+					style="width: 580px; padding: 8px; border: none; border-radius: 4px; margin-right: 8px; font-size: 14px;">
+				<button id="send-btn" 
+					style="padding: 8px 20px; background: #3498db; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; font-weight: bold;">
+					Send
+				</button>
+			</div>
+		`);
+
+		const inputField = document.getElementById('chat-field');
+		const sendBtn = document.getElementById('send-btn');
+		const chatDisplay = document.getElementById('chat-display');
+
+
+		sendBtn.addEventListener('click', () => {
+			const value = inputField.value.trim();
+			if(value === "" || value === null) {
+				alert("null")
+				return;
+			} 
+
+			const manager = getManager();
+			client.sendChat(value);
+			manager.send(SERVER_VERIFY_PACKET, { "packet_type": "player_chat", "text": value });
+		});
 
 		this.events.once("shutdown", this.shutdown, this);
 		this.events.emit("scene-awake");

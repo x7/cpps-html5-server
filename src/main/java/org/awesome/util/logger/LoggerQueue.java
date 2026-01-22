@@ -1,6 +1,6 @@
 package org.awesome.util.logger;
 
-import org.apache.juli.logging.Log;
+import org.awesome.enums.LoggerType;
 
 public class LoggerQueue {
     private final String message;

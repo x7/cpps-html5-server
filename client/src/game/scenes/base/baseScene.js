@@ -1,5 +1,6 @@
 import Phaser from "phaser";
 import { removeLoading } from "../loading/loadingHelper";
+import { SCENE_LOADING } from "../sceneNames";
 
 export class BaseScene extends Phaser.Scene {
     constructor(key) {
@@ -14,7 +15,9 @@ export class BaseScene extends Phaser.Scene {
 		    this.input.enabled = false;
         }
 
-        this.getSceneManager().setCurrentScene(this);
+        if(this.scene.key !== SCENE_LOADING) {
+            this.getSceneManager().setCurrentScene(this);
+        }
     }
 
     preloadContent() {

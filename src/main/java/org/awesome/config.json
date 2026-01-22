@@ -14,7 +14,8 @@
       "username" : "postgres",
       "password" : "Catlol123!!",
       "database_name" : "club_penguin_html"
-    }
+    },
+    "jwt_secret" : "/0DnhN2/vKiwL4AwUwUYppnnVBsxB6PqFuRsMz+19+M="
   },
   "production" : {
     "logging" : {
@@ -26,11 +27,12 @@
       "database" : true
     },
     "database" : {
-      "host" : "localhost",
-      "port" : 5432,
-      "username" : "postgres",
-      "password" : "Catlol123!!",
-      "database_name" : "club_penguin_html"
-    }
+      "host" : "",
+      "port" : "",
+      "username" : "",
+      "password" : "",
+      "database_name" : ""
+    },
+    "jwt_secret" : ""
   }
 }

@@ -1,17 +1,12 @@
 package org.awesome.util.logger;
 
-import org.apache.catalina.util.TimeBucketCounterBase;
-import org.apache.juli.logging.Log;
+import org.awesome.enums.LoggerType;
 import org.awesome.util.constants.Colors;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.sql.Time;
-import java.time.LocalTime;
 import java.util.Arrays;
-import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.stream.Stream;
 
 import static java.util.Arrays.stream;
 

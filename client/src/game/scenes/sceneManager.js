@@ -134,6 +134,7 @@ export class SceneManager {
             return;
         }
 
+        console.log(sceneId)
         this.game.scene.pause(sceneId);
     }
 
@@ -203,6 +204,7 @@ export class SceneManager {
             }
         }
 
+        console.log(scene)
         this.currentScene = scene;
     }
 

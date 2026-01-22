@@ -82,19 +82,22 @@ export class PreloadAssetsScene extends BaseScene {
             }
         }
 
-        displayLoading(SCENE_PRELOAD_ASSETS, "Loading Assets");
+        // this.sceneManager.add({ sceneKey: "ServerSelectionScene", scene: null, autoStart: false });
+        this.sceneManager.start("LoginScene")
 
-        this.removeLoading = this.time.addEvent({
-            delay: 1250,
-            callback: () => {
-                removeLoading({
-                    "currentScene": SCENE_PRELOAD_ASSETS,
-                    "goToScene": SCENE_START_SCREEN,
-                    "goToSceneText": "Loading Start",
-                    "callback": null
-                });
-                this.time.removeEvent(this.removeLoading);
-            }
-        })
+        // displayLoading(SCENE_PRELOAD_ASSETS, "Loading Assets");
+
+        // this.removeLoading = this.time.addEvent({
+        //     delay: 1250,
+        //     callback: () => {
+        //         removeLoading({
+        //             "currentScene": SCENE_PRELOAD_ASSETS,
+        //             "goToScene": SCENE_START_SCREEN,
+        //             "goToSceneText": "Loading Start",
+        //             "callback": null
+        //         });
+        //         this.time.removeEvent(this.removeLoading);
+        //     }
+        // })
     }
 }

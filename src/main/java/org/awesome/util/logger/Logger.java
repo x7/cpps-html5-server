@@ -12,17 +12,12 @@ package org.awesome.util.logger;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import org.awesome.util.JsonUtil;
+import org.awesome.enums.LoggerType;
 import org.awesome.util.TimeHelper;
-import org.awesome.util.config.Config;
 import org.awesome.util.config.ConfigHelper;
-import org.awesome.util.constants.Colors;
 import org.awesome.util.file.FileHelper;
 import org.jspecify.annotations.Nullable;
-import org.slf4j.LoggerFactory;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;

@@ -6,7 +6,7 @@ import { registerPackets } from "./packets/registerPackets";
 export class NetworkManager {
     isNetworkListenersRegister = false; // Are the network listeners registered
     isPacketsRegistered = false; // Are the packets setup
-    subscribedListeners = new Set(); // Subscribed events of the client
+    subscribedListeners = new Map(); // Subscribed events of the client
 
     constructor(client) {
         this.client = client;
@@ -25,7 +25,7 @@ export class NetworkManager {
     subscribe(topic) {
         const listenerExist = this.subscribedListeners.has(topic);
         if(listenerExist) {
-            console.log('Client is already subscribed to this event');
+            console.log('Client is already subscribed to this event ' + topic);
             return;
         }
 
@@ -35,8 +35,8 @@ export class NetworkManager {
             return;
         }
 
-        this.client.subscribe(topic, packetCallback)
-        this.subscribedListeners.add(topic);
+        const subscription = this.client.subscribe(topic, packetCallback)
+        this.subscribedListeners.set(topic, subscription);
         console.log('subscribed to ' + topic)
     }
 
@@ -51,13 +51,16 @@ export class NetworkManager {
             return;
         }
 
-        this.client.unsubscribe(topic);
+        const subscription = this.subscribedListeners.get(topic);
+        subscription.unsubscribe();
         this.subscribedListeners.delete(topic);
+        console.log(`Unsubscribed from ${topic}`);
     }
 
     /*
         this will send data to a topic
         todo: make it easy to get this topic so we dont type it manualy out all the time
+        this is sending packets
     */
     send(topic, data) {
         if(!this.isConnected()) {
@@ -109,7 +112,6 @@ export class NetworkManager {
         this.client.deactivate();
     }
 
-    
     /*
         returns wether the client is connected or not
     */

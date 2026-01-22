@@ -2,6 +2,11 @@ import { BaseScene } from '../../base/baseScene';
 import { ASSET_TYPES } from '../../../assets/assetTypes';
 import { SCENE_ROOM_TOWN, SCENE_SERVER_SELECTION } from '../../sceneNames';
 import { displayLoading, removeLoading } from '../../loading/loadingHelper';
+import { connect, getManager } from '../../../../network/network';
+import { CLIENT_ADD_PLAYER, CLIENT_CHAT, CLIENT_DISCONNECT, CLIENT_PLAY_ANIMATION, CLIENT_STOP_ANIMATION, CLIENT_TEST } from '../../../../network/topics';
+import packetRegistry from '../../../../network/packets/packetRegistry';
+import { ClientPenguin } from '../../../penguin/clientPenguin';
+import { sendJoinRoomPacket } from '../../../../network/packets/world/joinRoomPacket';
 
 // TODO: Add more servers scene
 // TODO: Add redemption
@@ -14,6 +19,7 @@ export class ServerSelectionScene extends BaseScene {
 	init() {
 		this.sceneManager = this.getSceneManager();
 		this.assetManager = this.getAssetManager();
+		this.sceneManager.setCurrentScene(this)
 	}
 
 	preload() {
@@ -161,14 +167,32 @@ export class ServerSelectionScene extends BaseScene {
 			server_selection_server_one_hover.visible = false;
 		});
 
-		server_selection_server_one_hover.on("pointerdown", () => {
-			displayLoading(SCENE_SERVER_SELECTION, "Loading Town");
-			removeLoading({
-				"currentScene": SCENE_SERVER_SELECTION,
-				"goToScene": SCENE_ROOM_TOWN,
-				"goToSceneText": null,
-				"callback": null
-			});
+		server_selection_server_one_hover.on("pointerdown", async () => {
+			// first we connect to the websocket once connected we send packets
+			displayLoading(SCENE_SERVER_SELECTION, "Connecting to websocket");
+			// send packet
+			const networkManager = getManager();
+			if(networkManager == null) {
+				console.log("null");
+				return;
+			}
+
+			sendJoinRoomPacket("town")
+			// networkManager.send(SERVER_VERIFY_PACKET, { "type"room_id": "town" })
+			// networkManager.send(SERVER_TEST, { "room_id": "town" });
+			networkManager.subscribe(CLIENT_CHAT);
+			networkManager.subscribe(CLIENT_TEST);
+			networkManager.subscribe(CLIENT_ADD_PLAYER);
+			networkManager.subscribe(CLIENT_PLAY_ANIMATION)
+			networkManager.subscribe(CLIENT_STOP_ANIMATION);
+			networkManager.subscribe(CLIENT_DISCONNECT);
+			// displayLoading(SCENE_SERVER_SELECTION, "Loading Town");
+			// removeLoading({
+			// 	"currentScene": SCENE_SERVER_SELECTION,
+			// 	"goToScene": SCENE_ROOM_TOWN,
+			// 	"goToSceneText": null,
+			// 	"callback": null
+			// });
 		});
 		// All interactive events end here
 

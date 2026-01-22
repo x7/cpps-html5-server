@@ -24,7 +24,7 @@ export function displayLoading(currentScene, text) {
     isLoadingRunning = true;
 }
 
-export function removeLoading({ currentScene, goToScene = null, goToSceneText, callback = null }) {
+export function removeLoading({ currentScene, goToScene = null, goToSceneText, goToSceneData = {}, callback = null }) {
     const sceneManager = getSceneManager();
     const waitDelay = 0.5 * 1000;
     
@@ -50,7 +50,10 @@ export function removeLoading({ currentScene, goToScene = null, goToSceneText, c
     sceneManager.add({ sceneKey: goToScene, scene: null, autoStart: false });
     
     setTimeout(() => {
-        sceneManager.start(goToScene, { "loading": true });
+        const data = goToSceneData;
+        data["loading"] = true;
+
+        sceneManager.start(goToScene, data);
         const scene = getSceneManager().getCurrentScene();
         scene.events.on("sceneReady", () => {
             sceneManager.sendToTop(goToScene);

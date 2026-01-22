@@ -1,7 +1,6 @@
 import packetRegistry from "../packets/packetRegistry";
 import { getManager } from "../network";
 import eventEmitter from "../../util/eventEmitter";
-import { getSceneManager } from "../../main";
 
 export function onConnect(client) {
     console.log('Client is connected');
@@ -15,17 +14,6 @@ export function onConnect(client) {
         return;
     }
 
-    for(const packet of packets) {
-        const packetTopic = packet[0];
-        const packetCallBack = packet[1];
-        clientManager.subscribe(packetTopic, packetCallBack);
-    }
-
     console.log('Finished registering all packets');
-
-    eventEmitter.emitEvent("loading:completed", () => {
-        getSceneManager().restart("LoadingScene", { text: "            Loading Start"});
-        getSceneManager().add({ sceneKey: 'StartScene', scene: null, autoStart: false });
-        // switchScenes("StartScene", 1);
-    });
+    eventEmitter.emit("websocket_connected");
 }

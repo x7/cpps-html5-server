@@ -1,13 +1,13 @@
 package org.awesome.dto;
 
 public class PenguinData {
-    private final String id;
+    private final int id;
     private final String username;
     private final String password;
     private final String email;
     private final String penguinColor;
 
-    public PenguinData(String id, String username, String password, String email, String penguinColor) {
+    public PenguinData(int id, String username, String password, String email, String penguinColor) {
         this.id = id;
         this.username = username;
         this.password = password;
@@ -15,7 +15,7 @@ public class PenguinData {
         this.penguinColor = penguinColor;
     }
 
-    public String getId() {
+    public int getId() {
         return this.id;
     }
 

@@ -1,27 +1,33 @@
 import { Client } from '@stomp/stompjs';
 import { NetworkManager } from './networkManager';
-import { getSceneManager } from '../main';
+import eventEmitter from '../util/eventEmitter';
 
 let client = null;
 let clientManager = null;
 
-export async function connect() {
-    const sceneManager = getSceneManager();
-    sceneManager.add({
-        "sceneKey": "LoadingScene",
-        "scene": null,
-        "autoStart": false,
+export async function connect(username) {
+    return new Promise((resolve, reject) => {
+        client = new Client({
+            brokerURL: 'ws://localhost:8080/ws',
+            reconnectDelay: 0,
+            connectHeaders: {
+                "username": username
+            },
+            // debug: (str) => console.log("[STOMP]", str),
+            // onWebSocketError: (evt) => console.log("[WS] error", evt),
+        });
+
+        clientManager = new NetworkManager(client);
+        clientManager.activate();
+
+        eventEmitter.on("websocket_connected", () => {
+            resolve();
+        });
+
+        eventEmitter.on("websocket_failed", () => {
+            reject();
+        }); 
     });
-
-    sceneManager.start("LoadingScene", { "text": "Connecting to websocket", });
-
-    client = new Client({
-        brokerURL: 'ws://localhost:8080/ws',
-        reconnectDelay: 5000,
-    });
-
-    clientManager = new NetworkManager(client);
-    clientManager.activate();
 }
 
 export function getManager() {

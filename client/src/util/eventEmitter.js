@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 
-class EventEmitter extends Phaser.Events.EventEmitter {
+export class EventEmitter extends Phaser.Events.EventEmitter {
     constructor() {
         super();
     }

@@ -4,6 +4,10 @@ import { onGameReady } from './events/gameReady.js';
 import { AssetManager } from './game/assets/assetManager.js';
 import { GameManager } from './game/gameManager.js';
 import { AudioManager } from './game/audio/audioManager.js';
+import { ServerSelectionScene } from './game/scenes/login/components/serverSelection.js';
+import { PreloadAssetsScene } from './game/scenes/preload/PreloadAssetsScene.js';
+import { LoginScene } from './game/scenes/login/login.js';
+import { TownScene } from './game/scenes/world/rooms/town/town.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -13,7 +17,7 @@ const config = {
     resolution: window.devicePixelRatio || 1,
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
-    scene: [],
+    scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH
@@ -49,6 +53,6 @@ export function getAudioManager() {
     return audioManager;
 }
 
-game.events.once('ready', () => {
-    onGameReady();
-});
+// game.events.once('ready', () => {
+//     onGameReady();
+// });

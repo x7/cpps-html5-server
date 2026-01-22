@@ -1,10 +1,12 @@
 import { getAnimation } from "../../animations/animations";
 import * as animationKeys from "../../animations/animationKeys";
+import { getManager } from "../../network/network";
+import { sendMovementPacket } from "../../network/packets/penguin/movementPacket";
+import { CLIENT_STOP_ANIMATION, SERVER_VERIFY_PACKET } from "../../network/topics";
 
 export default class MovementManager {
     constructor(penguin) {
         this.penguin = penguin;
-        this.penguinContainer = this.penguin.penguinContainer;
         this.moving = false;
         this.animationPlaying = false;
         this.pose = null;
@@ -33,10 +35,13 @@ export default class MovementManager {
 
         this.pose = this.pose.toLowerCase();
 
-        if(Math.abs(this.penguinContainer.x - this.x) < this.threshold && Math.abs(this.penguinContainer.y - this.y) < this.threshold) {
+        if(Math.abs(this.penguin.getX() - this.x) < this.threshold && Math.abs(this.penguin.getY() - this.y) < this.threshold) {
             this.moving = false;
             this.animationPlaying = false;
             this.penguin.stopAnimation();
+            this.penguin.setPose(this.pose);
+            const nw = getManager();
+            nw.send(SERVER_VERIFY_PACKET, { "packet_type": CLIENT_STOP_ANIMATION });
             return;
         }
 
@@ -135,8 +140,8 @@ export default class MovementManager {
     }
 
     calculateMovement(goX, goY) {
-        const penguinX = this.penguin.getX();
-        const penguinY = this.penguin.getY();
+        let penguinX = this.penguin.getX();
+        let penguinY = this.penguin.getY();
 
         const dx = goX - penguinX;
         const dy = goY - penguinY;
@@ -154,7 +159,11 @@ export default class MovementManager {
         const xSpeed = normalizedDx * this.speed;
         const ySpeed = normalizedDy * this.speed;
 
-        this.penguinContainer.x += xSpeed;
-        this.penguinContainer.y += ySpeed;
+        penguinX += xSpeed;
+        penguinY += ySpeed;
+
+        this.penguin.setX(penguinX);
+        this.penguin.setY(penguinY);
+        sendMovementPacket(penguinX, penguinY);
     }
 }

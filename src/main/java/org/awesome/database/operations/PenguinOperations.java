@@ -25,7 +25,7 @@ public class PenguinOperations {
                     return null;
                 }
 
-                String id = resultSet.getString(1);
+                int id = Integer.parseInt(resultSet.getString(1));
                 String penguinUsername = resultSet.getString(2);
                 String password = resultSet.getString(3);
                 String email = resultSet.getString(4);

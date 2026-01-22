@@ -2,17 +2,16 @@ package org.awesome;
 
 import org.awesome.preflight.ConfigCheck;
 import org.awesome.preflight.DatabaseCheck;
-import org.awesome.util.config.Config;
-import org.awesome.util.config.ConfigHelper;
-import org.awesome.util.logger.Logger;
-import org.awesome.util.logger.LoggerType;
-import org.awesome.util.logger.LoggerUtil;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
 import java.nio.file.Path;
+
+/*
+    room manager is setup
+    disconnect websockets (server sided) is setup
+    verification packet before routing to smthing else is setup
+*/
 
 // aaaaaaaaaaaaaaaa this is rushed clean it up tomorrow
 @SpringBootApplication
@@ -23,10 +22,12 @@ public class Main {
     public static void main(String[] args) {
         // first check config
         ConfigCheck.checkConfig();
-//
+
         // second check database
         DatabaseCheck.checkDatabase();
-//
+
+        // third load all game data
+
         // start application
         startSpringApplication(args);
     }
