@@ -12,6 +12,7 @@ import { MapScene } from './game/scenes/interfaces/map.js';
 import { SnowFortsScene } from './game/scenes/world/rooms/snowforts/snowforts.js';
 import { DocksScene } from './game/scenes/world/rooms/docks/docks.js';
 import { BeachScene } from './game/scenes/world/rooms/beach/beach.js';
+import { LighthouseScene } from './game/scenes/world/rooms/lighthouse/lighthouse.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -22,7 +23,7 @@ const config = {
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
-    scene: [BeachScene],
+    scene: [LighthouseScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH
