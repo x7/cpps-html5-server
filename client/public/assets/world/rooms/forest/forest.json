@@ -1,0 +1,892 @@
+{
+	"textures": [
+		{
+			"image": "forest-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2047,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "forest_main_floor.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1847,
+						"h": 1072
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1847,
+						"h": 1072
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1847,
+						"h": 1072
+					}
+				},
+				{
+					"filename": "forest_bottom_left.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1506,
+						"h": 677
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1506,
+						"h": 677
+					},
+					"frame": {
+						"x": 1,
+						"y": 1075,
+						"w": 1506,
+						"h": 677
+					}
+				},
+				{
+					"filename": "forest_stairs_to_cove.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 489,
+						"h": 494
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 489,
+						"h": 494
+					},
+					"frame": {
+						"x": 1509,
+						"y": 1075,
+						"w": 489,
+						"h": 494
+					}
+				},
+				{
+					"filename": "forest_double_middle_tree.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 429,
+						"h": 295
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 429,
+						"h": 295
+					},
+					"frame": {
+						"x": 1509,
+						"y": 1571,
+						"w": 429,
+						"h": 295
+					}
+				},
+				{
+					"filename": "forest_stairs_to_cove_sign.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 83,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 83,
+						"h": 96
+					},
+					"frame": {
+						"x": 1940,
+						"y": 1571,
+						"w": 83,
+						"h": 96
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 20,
+						"w": 193,
+						"h": 206
+					},
+					"frame": {
+						"x": 1850,
+						"y": 1,
+						"w": 193,
+						"h": 206
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 24,
+						"w": 196,
+						"h": 202
+					},
+					"frame": {
+						"x": 1850,
+						"y": 209,
+						"w": 196,
+						"h": 202
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 24,
+						"w": 196,
+						"h": 202
+					},
+					"frame": {
+						"x": 1850,
+						"y": 413,
+						"w": 196,
+						"h": 202
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 28,
+						"w": 196,
+						"h": 198
+					},
+					"frame": {
+						"x": 1850,
+						"y": 617,
+						"w": 196,
+						"h": 198
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 28,
+						"w": 196,
+						"h": 198
+					},
+					"frame": {
+						"x": 1850,
+						"y": 817,
+						"w": 196,
+						"h": 198
+					}
+				},
+				{
+					"filename": "forest_middle_right.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 541,
+						"h": 248
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 541,
+						"h": 248
+					},
+					"frame": {
+						"x": 1,
+						"y": 1754,
+						"w": 541,
+						"h": 248
+					}
+				},
+				{
+					"filename": "forest_random_tree.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 368,
+						"h": 159
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 368,
+						"h": 159
+					},
+					"frame": {
+						"x": 544,
+						"y": 1754,
+						"w": 368,
+						"h": 159
+					}
+				},
+				{
+					"filename": "forest_cave_entrance.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 341,
+						"h": 254
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 341,
+						"h": 254
+					},
+					"frame": {
+						"x": 914,
+						"y": 1754,
+						"w": 341,
+						"h": 254
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 30,
+						"w": 201,
+						"h": 196
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1754,
+						"w": 201,
+						"h": 196
+					}
+				},
+				{
+					"filename": "forest_tree_stomp.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 194,
+						"h": 101
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 194,
+						"h": 101
+					},
+					"frame": {
+						"x": 544,
+						"y": 1915,
+						"w": 194,
+						"h": 101
+					}
+				},
+				{
+					"filename": "forest_fat_tree_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 131,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 131,
+						"h": 128
+					},
+					"frame": {
+						"x": 740,
+						"y": 1915,
+						"w": 131,
+						"h": 128
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 179,
+						"y": 51,
+						"w": 173,
+						"h": 175
+					},
+					"frame": {
+						"x": 1460,
+						"y": 1868,
+						"w": 173,
+						"h": 175
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 179,
+						"y": 51,
+						"w": 173,
+						"h": 175
+					},
+					"frame": {
+						"x": 1460,
+						"y": 1868,
+						"w": 173,
+						"h": 175
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 143,
+						"y": 47,
+						"w": 169,
+						"h": 179
+					},
+					"frame": {
+						"x": 1635,
+						"y": 1868,
+						"w": 169,
+						"h": 179
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 161,
+						"y": 49,
+						"w": 168,
+						"h": 177
+					},
+					"frame": {
+						"x": 1806,
+						"y": 1868,
+						"w": 168,
+						"h": 177
+					}
+				}
+			]
+		},
+		{
+			"image": "forest-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 961,
+				"h": 829
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "forest_big_tree.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 223,
+						"h": 454
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 223,
+						"h": 454
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 223,
+						"h": 454
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 34,
+						"w": 206,
+						"h": 192
+					},
+					"frame": {
+						"x": 1,
+						"y": 457,
+						"w": 206,
+						"h": 192
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 34,
+						"w": 206,
+						"h": 192
+					},
+					"frame": {
+						"x": 1,
+						"y": 457,
+						"w": 206,
+						"h": 192
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 166,
+						"y": 49,
+						"w": 168,
+						"h": 177
+					},
+					"frame": {
+						"x": 1,
+						"y": 651,
+						"w": 168,
+						"h": 177
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 32,
+						"w": 204,
+						"h": 194
+					},
+					"frame": {
+						"x": 226,
+						"y": 1,
+						"w": 204,
+						"h": 194
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 32,
+						"w": 204,
+						"h": 194
+					},
+					"frame": {
+						"x": 226,
+						"y": 197,
+						"w": 204,
+						"h": 194
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 31,
+						"w": 203,
+						"h": 195
+					},
+					"frame": {
+						"x": 432,
+						"y": 1,
+						"w": 203,
+						"h": 195
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 31,
+						"w": 203,
+						"h": 195
+					},
+					"frame": {
+						"x": 432,
+						"y": 1,
+						"w": 203,
+						"h": 195
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 30,
+						"w": 201,
+						"h": 196
+					},
+					"frame": {
+						"x": 637,
+						"y": 1,
+						"w": 201,
+						"h": 196
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 30,
+						"w": 199,
+						"h": 196
+					},
+					"frame": {
+						"x": 432,
+						"y": 198,
+						"w": 199,
+						"h": 196
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 30,
+						"w": 199,
+						"h": 196
+					},
+					"frame": {
+						"x": 432,
+						"y": 198,
+						"w": 199,
+						"h": 196
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 60,
+						"y": 40,
+						"w": 199,
+						"h": 186
+					},
+					"frame": {
+						"x": 633,
+						"y": 199,
+						"w": 199,
+						"h": 186
+					}
+				},
+				{
+					"filename": "forest_middle_tree.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 126,
+						"h": 143
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 126,
+						"h": 143
+					},
+					"frame": {
+						"x": 834,
+						"y": 199,
+						"w": 126,
+						"h": 143
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 63,
+						"y": 41,
+						"w": 199,
+						"h": 185
+					},
+					"frame": {
+						"x": 226,
+						"y": 393,
+						"w": 199,
+						"h": 185
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 80,
+						"y": 45,
+						"w": 194,
+						"h": 181
+					},
+					"frame": {
+						"x": 427,
+						"y": 396,
+						"w": 194,
+						"h": 181
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 45,
+						"w": 191,
+						"h": 181
+					},
+					"frame": {
+						"x": 209,
+						"y": 580,
+						"w": 191,
+						"h": 181
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 101,
+						"y": 45,
+						"w": 186,
+						"h": 181
+					},
+					"frame": {
+						"x": 402,
+						"y": 580,
+						"w": 186,
+						"h": 181
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 112,
+						"y": 45,
+						"w": 182,
+						"h": 181
+					},
+					"frame": {
+						"x": 590,
+						"y": 579,
+						"w": 182,
+						"h": 181
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 122,
+						"y": 45,
+						"w": 178,
+						"h": 181
+					},
+					"frame": {
+						"x": 623,
+						"y": 396,
+						"w": 178,
+						"h": 181
+					}
+				},
+				{
+					"filename": "forest_hidden_room_rock0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 136,
+						"y": 46,
+						"w": 172,
+						"h": 180
+					},
+					"frame": {
+						"x": 774,
+						"y": 579,
+						"w": 172,
+						"h": 180
+					}
+				},
+				{
+					"filename": "forest_fat_tree.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 127,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 127,
+						"h": 137
+					},
+					"frame": {
+						"x": 803,
+						"y": 387,
+						"w": 127,
+						"h": 137
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:931a306da9c0ac36c7d0f20afd207f68:c61252215e54acc4724217504e6519f4:d1f15f4e35f977c36a901c00444b2001$"
+	}
+}
