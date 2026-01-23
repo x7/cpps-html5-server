@@ -23,7 +23,7 @@ export class LighthouseScene extends BaseScene {
     }
 
     createContent() {
-// lighthouse_main_png
+        // lighthouse_main_png
 		const lighthouse_main_png = this.add.image(629, 367, "lighthouse", "lighthouse_main.png");
 		lighthouse_main_png.scaleX = 0.8398893808492912;
 		lighthouse_main_png.scaleY = 0.7509587916341159;

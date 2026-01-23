@@ -1,0 +1,1512 @@
+{
+	"textures": [
+		{
+			"image": "beacon-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2022,
+				"h": 1932
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "beacon_sky.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1622,
+						"h": 660
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1622,
+						"h": 660
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1622,
+						"h": 660
+					}
+				},
+				{
+					"filename": "beacon_poole.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 329,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 329,
+						"h": 15
+					},
+					"frame": {
+						"x": 1625,
+						"y": 1,
+						"w": 329,
+						"h": 15
+					}
+				},
+				{
+					"filename": "beacon_arm.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 12,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 12,
+						"h": 70
+					},
+					"frame": {
+						"x": 1956,
+						"y": 1,
+						"w": 12,
+						"h": 70
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1625,
+						"y": 18,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1625,
+						"y": 18,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1625,
+						"y": 18,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 89,
+						"h": 143
+					},
+					"frame": {
+						"x": 1927,
+						"y": 73,
+						"w": 89,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 89,
+						"h": 143
+					},
+					"frame": {
+						"x": 1927,
+						"y": 218,
+						"w": 89,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 160
+					},
+					"frame": {
+						"x": 1927,
+						"y": 363,
+						"w": 82,
+						"h": 160
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 160
+					},
+					"frame": {
+						"x": 1927,
+						"y": 363,
+						"w": 82,
+						"h": 160
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 160
+					},
+					"frame": {
+						"x": 1927,
+						"y": 363,
+						"w": 82,
+						"h": 160
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 160
+					},
+					"frame": {
+						"x": 1927,
+						"y": 363,
+						"w": 82,
+						"h": 160
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 160
+					},
+					"frame": {
+						"x": 1927,
+						"y": 363,
+						"w": 82,
+						"h": 160
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 160
+					},
+					"frame": {
+						"x": 1927,
+						"y": 363,
+						"w": 82,
+						"h": 160
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 160
+					},
+					"frame": {
+						"x": 1927,
+						"y": 363,
+						"w": 82,
+						"h": 160
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1625,
+						"y": 432,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1625,
+						"y": 432,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1625,
+						"y": 432,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 160
+					},
+					"frame": {
+						"x": 1927,
+						"y": 525,
+						"w": 82,
+						"h": 160
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1625,
+						"y": 639,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1625,
+						"y": 639,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1625,
+						"y": 639,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 160
+					},
+					"frame": {
+						"x": 1927,
+						"y": 687,
+						"w": 82,
+						"h": 160
+					}
+				},
+				{
+					"filename": "beacon_water.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1564,
+						"h": 554
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1564,
+						"h": 554
+					},
+					"frame": {
+						"x": 1,
+						"y": 663,
+						"w": 1564,
+						"h": 554
+					}
+				},
+				{
+					"filename": "beacon_under_layer.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1487,
+						"h": 712
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1487,
+						"h": 712
+					},
+					"frame": {
+						"x": 1,
+						"y": 1219,
+						"w": 1487,
+						"h": 712
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1567,
+						"y": 846,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1567,
+						"y": 846,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1567,
+						"y": 846,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_downstairs_rail.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 144,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 144,
+						"h": 199
+					},
+					"frame": {
+						"x": 1869,
+						"y": 849,
+						"w": 144,
+						"h": 199
+					}
+				},
+				{
+					"filename": "beacon_wooden_box.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 142,
+						"h": 94
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 142,
+						"h": 94
+					},
+					"frame": {
+						"x": 1869,
+						"y": 1050,
+						"w": 142,
+						"h": 94
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1053,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1053,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_launch_pad_open0018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 205
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1053,
+						"w": 300,
+						"h": 205
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 107,
+						"h": 143
+					},
+					"frame": {
+						"x": 1869,
+						"y": 1146,
+						"w": 107,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_launch_pad.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 171
+					},
+					"frame": {
+						"x": 1490,
+						"y": 1260,
+						"w": 300,
+						"h": 171
+					}
+				},
+				{
+					"filename": "beacon_downstairs.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 194,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 194,
+						"h": 135
+					},
+					"frame": {
+						"x": 1792,
+						"y": 1291,
+						"w": 194,
+						"h": 135
+					}
+				},
+				{
+					"filename": "beacon_downstairs_hovered0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 194,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 194,
+						"h": 135
+					},
+					"frame": {
+						"x": 1792,
+						"y": 1291,
+						"w": 194,
+						"h": 135
+					}
+				},
+				{
+					"filename": "beacon_downstairs_hovered0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 194,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 194,
+						"h": 135
+					},
+					"frame": {
+						"x": 1792,
+						"y": 1428,
+						"w": 194,
+						"h": 135
+					}
+				},
+				{
+					"filename": "beacon_telescope.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 174,
+						"h": 187
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 174,
+						"h": 187
+					},
+					"frame": {
+						"x": 1490,
+						"y": 1433,
+						"w": 174,
+						"h": 187
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 107,
+						"h": 143
+					},
+					"frame": {
+						"x": 1666,
+						"y": 1433,
+						"w": 107,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 160
+					},
+					"frame": {
+						"x": 1490,
+						"y": 1622,
+						"w": 82,
+						"h": 160
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 96,
+						"h": 143
+					},
+					"frame": {
+						"x": 1490,
+						"y": 1784,
+						"w": 96,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 82,
+						"h": 149
+					},
+					"frame": {
+						"x": 1574,
+						"y": 1622,
+						"w": 82,
+						"h": 149
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 82,
+						"h": 149
+					},
+					"frame": {
+						"x": 1588,
+						"y": 1773,
+						"w": 82,
+						"h": 149
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 96,
+						"h": 143
+					},
+					"frame": {
+						"x": 1658,
+						"y": 1622,
+						"w": 96,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_grid.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 34
+					},
+					"frame": {
+						"x": 1666,
+						"y": 1578,
+						"w": 79,
+						"h": 34
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 82,
+						"h": 143
+					},
+					"frame": {
+						"x": 1672,
+						"y": 1767,
+						"w": 82,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 82,
+						"h": 143
+					},
+					"frame": {
+						"x": 1672,
+						"y": 1767,
+						"w": 82,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 82,
+						"h": 143
+					},
+					"frame": {
+						"x": 1672,
+						"y": 1767,
+						"w": 82,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 82,
+						"h": 143
+					},
+					"frame": {
+						"x": 1672,
+						"y": 1767,
+						"w": 82,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 82,
+						"h": 143
+					},
+					"frame": {
+						"x": 1672,
+						"y": 1767,
+						"w": 82,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 82,
+						"h": 143
+					},
+					"frame": {
+						"x": 1672,
+						"y": 1767,
+						"w": 82,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 82,
+						"h": 143
+					},
+					"frame": {
+						"x": 1775,
+						"y": 1565,
+						"w": 82,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 82,
+						"h": 143
+					},
+					"frame": {
+						"x": 1756,
+						"y": 1710,
+						"w": 82,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 82,
+						"h": 143
+					},
+					"frame": {
+						"x": 1840,
+						"y": 1710,
+						"w": 82,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 82,
+						"h": 143
+					},
+					"frame": {
+						"x": 1859,
+						"y": 1565,
+						"w": 82,
+						"h": 143
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 142
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 142
+					},
+					"frame": {
+						"x": 1943,
+						"y": 1565,
+						"w": 78,
+						"h": 142
+					}
+				},
+				{
+					"filename": "beacon_toggle_switch0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 107,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 82,
+						"h": 143
+					},
+					"frame": {
+						"x": 1924,
+						"y": 1710,
+						"w": 82,
+						"h": 143
+					}
+				}
+			]
+		},
+		{
+			"image": "beacon-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1958,
+				"h": 1763
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "beacon_floor_light_off.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1300,
+						"h": 589
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1300,
+						"h": 589
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1300,
+						"h": 589
+					}
+				},
+				{
+					"filename": "beacon_floor_light_on0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1300,
+						"h": 589
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1300,
+						"h": 589
+					},
+					"frame": {
+						"x": 1,
+						"y": 592,
+						"w": 1300,
+						"h": 589
+					}
+				},
+				{
+					"filename": "beacon_bottom_railing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1318,
+						"h": 325
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1318,
+						"h": 325
+					},
+					"frame": {
+						"x": 1,
+						"y": 1183,
+						"w": 1318,
+						"h": 325
+					}
+				},
+				{
+					"filename": "beacon_inside.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 654,
+						"h": 519
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 654,
+						"h": 519
+					},
+					"frame": {
+						"x": 1303,
+						"y": 1,
+						"w": 654,
+						"h": 519
+					}
+				},
+				{
+					"filename": "beacon_light_off.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 602,
+						"h": 403
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 602,
+						"h": 403
+					},
+					"frame": {
+						"x": 1303,
+						"y": 522,
+						"w": 602,
+						"h": 403
+					}
+				},
+				{
+					"filename": "beacon_light_ono.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 602,
+						"h": 403
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 602,
+						"h": 403
+					},
+					"frame": {
+						"x": 1321,
+						"y": 927,
+						"w": 602,
+						"h": 403
+					}
+				},
+				{
+					"filename": "beacon_railing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 982,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 982,
+						"h": 199
+					},
+					"frame": {
+						"x": 1,
+						"y": 1510,
+						"w": 982,
+						"h": 199
+					}
+				},
+				{
+					"filename": "beacon_roof.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 759,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 759,
+						"h": 252
+					},
+					"frame": {
+						"x": 985,
+						"y": 1510,
+						"w": 759,
+						"h": 252
+					}
+				}
+			]
+		},
+		{
+			"image": "beacon-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1302,
+				"h": 591
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "beacon_floor_light_on0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1300,
+						"h": 589
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1300,
+						"h": 589
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1300,
+						"h": 589
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:d791d30ab1f39d3d297cf83be86216c7:8c0579277aec352ea61a255dfbe55bf2:63084432eb181d237027740380d40adc$"
+	}
+}
