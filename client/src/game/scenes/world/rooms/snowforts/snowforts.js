@@ -147,27 +147,27 @@ export class SnowFortsScene extends BaseScene {
 
 		// Animations start here
 		createAnimation({
-			scene: this,
-			logicalAnimationKey: "snowforts_bottom_flag",
-			phaserAnimationKey: "snowforts_bottom_flag_play",
-			textureKey: "snowforts",
-			framePrefix: "snowforts_orange_flag_castle_flag",
-			frames: ["0001", "0002", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "0010", "0011", "0012", "0013", "0014", "0015", "0016"],
-			framesExtension: ".png",
-			frameRate: 24,
-			repeat: -1
+			"scene": this,
+			"logicalAnimationKey": "snowforts_bottom_flag",
+			"phaserAnimationKey": "snowforts_bottom_flag_play",
+			"textureKey": "snowforts",
+			"framePrefix": "snowforts_orange_flag_castle_flag",
+			"frames": ["0001", "0002", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "0010", "0011", "0012", "0013", "0014", "0015", "0016"],
+			"framesExtension": ".png",
+			"frameRate": 24,
+			"repeat": -1
 		});
 
 		createAnimation({
-			scene: this,
-			logicalAnimationKey: "snowforts_top_flag",
-			phaserAnimationKey: "snowforts_top_flag_play",
-			textureKey: "snowforts",
-			framePrefix: "snowforts_black_flag_castle_yay",
-			frames: ["0001", "0002", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "0010", "0011", "0012", "0013", "0014", "0015", "0016"],
-			framesExtension: ".png",
-			frameRate: 24,
-			repeat: -1
+			"scene": this,
+			"logicalAnimationKey": "snowforts_top_flag",
+			"phaserAnimationKey": "snowforts_top_flag_play",
+			"textureKey": "snowforts",
+			"framePrefix": "snowforts_black_flag_castle_yay",
+			"frames": ["0001", "0002", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "0010", "0011", "0012", "0013", "0014", "0015", "0016"],
+			"framesExtension": ".png",
+			"frameRate": 24,
+			"repeat": -1
 		});
 
 		snowforts_orange_flag_castle_flag0001_png.play("snowforts_bottom_flag_play");

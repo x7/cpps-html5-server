@@ -1,0 +1,8970 @@
+{
+	"textures": [
+		{
+			"image": "beach-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2047,
+				"h": 2038
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "beach_main_floor.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1572,
+						"h": 926
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1569,
+						"h": 926
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1569,
+						"h": 926
+					}
+				},
+				{
+					"filename": "beach_water.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1732,
+						"h": 737
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1732,
+						"h": 737
+					},
+					"frame": {
+						"x": 1,
+						"y": 929,
+						"w": 1732,
+						"h": 737
+					}
+				},
+				{
+					"filename": "beach_background_clouds.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1564,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1564,
+						"h": 242
+					},
+					"frame": {
+						"x": 1,
+						"y": 1668,
+						"w": 1564,
+						"h": 242
+					}
+				},
+				{
+					"filename": "beach_right_side_tree.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 411,
+						"h": 344
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 411,
+						"h": 344
+					},
+					"frame": {
+						"x": 1572,
+						"y": 1,
+						"w": 411,
+						"h": 344
+					}
+				},
+				{
+					"filename": "beach_debris.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 393,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 393,
+						"h": 227
+					},
+					"frame": {
+						"x": 1572,
+						"y": 347,
+						"w": 393,
+						"h": 227
+					}
+				},
+				{
+					"filename": "beach_right_lower_ledge.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 398,
+						"h": 174
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 398,
+						"h": 174
+					},
+					"frame": {
+						"x": 1572,
+						"y": 576,
+						"w": 398,
+						"h": 174
+					}
+				},
+				{
+					"filename": "beach_mountains.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 410,
+						"h": 120
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 410,
+						"h": 120
+					},
+					"frame": {
+						"x": 1,
+						"y": 1912,
+						"w": 410,
+						"h": 120
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_flag.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 180,
+						"h": 203
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 203
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1668,
+						"w": 180,
+						"h": 203
+					}
+				},
+				{
+					"filename": "beach_left_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 106,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 106,
+						"h": 125
+					},
+					"frame": {
+						"x": 413,
+						"y": 1912,
+						"w": 106,
+						"h": 125
+					}
+				},
+				{
+					"filename": "beach_sand_castle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 182,
+						"h": 124
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 182,
+						"h": 124
+					},
+					"frame": {
+						"x": 1572,
+						"y": 752,
+						"w": 182,
+						"h": 124
+					}
+				},
+				{
+					"filename": "beach_sunbrella_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 188,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 188,
+						"h": 192
+					},
+					"frame": {
+						"x": 1756,
+						"y": 752,
+						"w": 188,
+						"h": 192
+					}
+				},
+				{
+					"filename": "beach_green_bucket0190.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 72,
+						"w": 118,
+						"h": 49
+					},
+					"frame": {
+						"x": 1572,
+						"y": 878,
+						"w": 118,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 8,
+						"w": 79,
+						"h": 112
+					},
+					"frame": {
+						"x": 1967,
+						"y": 347,
+						"w": 79,
+						"h": 112
+					}
+				},
+				{
+					"filename": "beach_green_bucket0088.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 8,
+						"w": 79,
+						"h": 112
+					},
+					"frame": {
+						"x": 1967,
+						"y": 347,
+						"w": 79,
+						"h": 112
+					}
+				},
+				{
+					"filename": "beach_green_bucket0146.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 8,
+						"w": 79,
+						"h": 112
+					},
+					"frame": {
+						"x": 1967,
+						"y": 461,
+						"w": 79,
+						"h": 112
+					}
+				},
+				{
+					"filename": "beach_green_bucket0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 120,
+						"h": 107
+					},
+					"frame": {
+						"x": 521,
+						"y": 1912,
+						"w": 120,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0071.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 120,
+						"h": 107
+					},
+					"frame": {
+						"x": 521,
+						"y": 1912,
+						"w": 120,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0129.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 120,
+						"h": 107
+					},
+					"frame": {
+						"x": 643,
+						"y": 1912,
+						"w": 120,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 15,
+						"w": 119,
+						"h": 105
+					},
+					"frame": {
+						"x": 765,
+						"y": 1912,
+						"w": 119,
+						"h": 105
+					}
+				},
+				{
+					"filename": "beach_green_bucket0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 15,
+						"w": 119,
+						"h": 105
+					},
+					"frame": {
+						"x": 765,
+						"y": 1912,
+						"w": 119,
+						"h": 105
+					}
+				},
+				{
+					"filename": "beach_green_bucket0070.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 15,
+						"w": 119,
+						"h": 105
+					},
+					"frame": {
+						"x": 765,
+						"y": 1912,
+						"w": 119,
+						"h": 105
+					}
+				},
+				{
+					"filename": "beach_green_bucket0072.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 15,
+						"w": 119,
+						"h": 105
+					},
+					"frame": {
+						"x": 765,
+						"y": 1912,
+						"w": 119,
+						"h": 105
+					}
+				},
+				{
+					"filename": "beach_green_bucket0128.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 15,
+						"w": 119,
+						"h": 105
+					},
+					"frame": {
+						"x": 886,
+						"y": 1912,
+						"w": 119,
+						"h": 105
+					}
+				},
+				{
+					"filename": "beach_green_bucket0130.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 15,
+						"w": 119,
+						"h": 105
+					},
+					"frame": {
+						"x": 886,
+						"y": 1912,
+						"w": 119,
+						"h": 105
+					}
+				},
+				{
+					"filename": "beach_light_house_door0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 122,
+						"h": 179
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 18,
+						"w": 83,
+						"h": 160
+					},
+					"frame": {
+						"x": 1735,
+						"y": 946,
+						"w": 83,
+						"h": 160
+					}
+				},
+				{
+					"filename": "beach_light_house_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 122,
+						"h": 179
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 18,
+						"w": 82,
+						"h": 154
+					},
+					"frame": {
+						"x": 1735,
+						"y": 1108,
+						"w": 82,
+						"h": 154
+					}
+				},
+				{
+					"filename": "beach_green_bucket0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 16,
+						"w": 118,
+						"h": 104
+					},
+					"frame": {
+						"x": 1007,
+						"y": 1912,
+						"w": 118,
+						"h": 104
+					}
+				},
+				{
+					"filename": "beach_green_bucket0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 20,
+						"w": 118,
+						"h": 100
+					},
+					"frame": {
+						"x": 1820,
+						"y": 946,
+						"w": 118,
+						"h": 100
+					}
+				},
+				{
+					"filename": "beach_green_bucket0238.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 162,
+						"h": 54
+					},
+					"frame": {
+						"x": 1127,
+						"y": 1912,
+						"w": 162,
+						"h": 54
+					}
+				},
+				{
+					"filename": "beach_green_bucket0239.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 162,
+						"h": 54
+					},
+					"frame": {
+						"x": 1127,
+						"y": 1912,
+						"w": 162,
+						"h": 54
+					}
+				},
+				{
+					"filename": "beach_green_bucket0220.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 55,
+						"w": 134,
+						"h": 69
+					},
+					"frame": {
+						"x": 1127,
+						"y": 1968,
+						"w": 134,
+						"h": 69
+					}
+				},
+				{
+					"filename": "beach_green_bucket0236.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 157,
+						"h": 54
+					},
+					"frame": {
+						"x": 1291,
+						"y": 1912,
+						"w": 157,
+						"h": 54
+					}
+				},
+				{
+					"filename": "beach_green_bucket0237.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 157,
+						"h": 54
+					},
+					"frame": {
+						"x": 1291,
+						"y": 1912,
+						"w": 157,
+						"h": 54
+					}
+				},
+				{
+					"filename": "beach_green_bucket0234.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 152,
+						"h": 55
+					},
+					"frame": {
+						"x": 1263,
+						"y": 1968,
+						"w": 152,
+						"h": 55
+					}
+				},
+				{
+					"filename": "beach_green_bucket0235.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 152,
+						"h": 55
+					},
+					"frame": {
+						"x": 1263,
+						"y": 1968,
+						"w": 152,
+						"h": 55
+					}
+				},
+				{
+					"filename": "beach_green_bucket0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 11,
+						"w": 105,
+						"h": 109
+					},
+					"frame": {
+						"x": 1735,
+						"y": 1264,
+						"w": 105,
+						"h": 109
+					}
+				},
+				{
+					"filename": "beach_green_bucket0086.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 11,
+						"w": 105,
+						"h": 109
+					},
+					"frame": {
+						"x": 1735,
+						"y": 1264,
+						"w": 105,
+						"h": 109
+					}
+				},
+				{
+					"filename": "beach_green_bucket0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 24,
+						"w": 117,
+						"h": 96
+					},
+					"frame": {
+						"x": 1735,
+						"y": 1375,
+						"w": 117,
+						"h": 96
+					}
+				},
+				{
+					"filename": "beach_green_bucket0073.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 24,
+						"w": 117,
+						"h": 96
+					},
+					"frame": {
+						"x": 1735,
+						"y": 1375,
+						"w": 117,
+						"h": 96
+					}
+				},
+				{
+					"filename": "beach_green_bucket0131.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 24,
+						"w": 117,
+						"h": 96
+					},
+					"frame": {
+						"x": 1735,
+						"y": 1473,
+						"w": 117,
+						"h": 96
+					}
+				},
+				{
+					"filename": "beach_green_bucket0069.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 27,
+						"w": 118,
+						"h": 93
+					},
+					"frame": {
+						"x": 1735,
+						"y": 1571,
+						"w": 118,
+						"h": 93
+					}
+				},
+				{
+					"filename": "beach_green_bucket0127.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 27,
+						"w": 118,
+						"h": 93
+					},
+					"frame": {
+						"x": 1749,
+						"y": 1666,
+						"w": 118,
+						"h": 93
+					}
+				},
+				{
+					"filename": "beach_green_bucket0219.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 40,
+						"w": 128,
+						"h": 84
+					},
+					"frame": {
+						"x": 1749,
+						"y": 1761,
+						"w": 128,
+						"h": 84
+					}
+				},
+				{
+					"filename": "beach_green_bucket0232.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 146,
+						"h": 54
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1873,
+						"w": 146,
+						"h": 54
+					}
+				},
+				{
+					"filename": "beach_green_bucket0233.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 146,
+						"h": 54
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1873,
+						"w": 146,
+						"h": 54
+					}
+				},
+				{
+					"filename": "beach_green_bucket0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 68,
+						"h": 110
+					},
+					"frame": {
+						"x": 1972,
+						"y": 575,
+						"w": 68,
+						"h": 110
+					}
+				},
+				{
+					"filename": "beach_green_bucket0089.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 68,
+						"h": 110
+					},
+					"frame": {
+						"x": 1972,
+						"y": 575,
+						"w": 68,
+						"h": 110
+					}
+				},
+				{
+					"filename": "beach_green_bucket0223.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 64,
+						"w": 140,
+						"h": 59
+					},
+					"frame": {
+						"x": 1820,
+						"y": 1048,
+						"w": 140,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0215.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 37,
+						"w": 114,
+						"h": 87
+					},
+					"frame": {
+						"x": 1819,
+						"y": 1109,
+						"w": 114,
+						"h": 87
+					}
+				},
+				{
+					"filename": "beach_green_bucket0224.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 63,
+						"w": 138,
+						"h": 61
+					},
+					"frame": {
+						"x": 1819,
+						"y": 1198,
+						"w": 138,
+						"h": 61
+					}
+				},
+				{
+					"filename": "beach_green_bucket0068.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 38,
+						"w": 117,
+						"h": 82
+					},
+					"frame": {
+						"x": 1842,
+						"y": 1261,
+						"w": 117,
+						"h": 82
+					}
+				},
+				{
+					"filename": "beach_green_bucket0266.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 48,
+						"h": 120
+					},
+					"frame": {
+						"x": 1985,
+						"y": 1,
+						"w": 48,
+						"h": 120
+					}
+				},
+				{
+					"filename": "beach_green_bucket0267.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 48,
+						"h": 120
+					},
+					"frame": {
+						"x": 1985,
+						"y": 123,
+						"w": 48,
+						"h": 120
+					}
+				},
+				{
+					"filename": "beach_green_bucket0066.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 111,
+						"h": 59
+					},
+					"frame": {
+						"x": 1450,
+						"y": 1912,
+						"w": 111,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0230.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 144,
+						"h": 51
+					},
+					"frame": {
+						"x": 1563,
+						"y": 1929,
+						"w": 144,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0231.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 144,
+						"h": 51
+					},
+					"frame": {
+						"x": 1563,
+						"y": 1929,
+						"w": 144,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0126.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 38,
+						"w": 117,
+						"h": 82
+					},
+					"frame": {
+						"x": 1854,
+						"y": 1345,
+						"w": 117,
+						"h": 82
+					}
+				},
+				{
+					"filename": "beach_green_bucket0225.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 63,
+						"w": 137,
+						"h": 61
+					},
+					"frame": {
+						"x": 1854,
+						"y": 1429,
+						"w": 137,
+						"h": 61
+					}
+				},
+				{
+					"filename": "beach_green_bucket0226.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 63,
+						"w": 135,
+						"h": 61
+					},
+					"frame": {
+						"x": 1854,
+						"y": 1492,
+						"w": 135,
+						"h": 61
+					}
+				},
+				{
+					"filename": "beach_green_bucket0227.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 63,
+						"w": 135,
+						"h": 61
+					},
+					"frame": {
+						"x": 1855,
+						"y": 1555,
+						"w": 135,
+						"h": 61
+					}
+				},
+				{
+					"filename": "beach_green_bucket0228.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 63,
+						"w": 135,
+						"h": 61
+					},
+					"frame": {
+						"x": 1855,
+						"y": 1555,
+						"w": 135,
+						"h": 61
+					}
+				},
+				{
+					"filename": "beach_green_bucket0229.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 63,
+						"w": 135,
+						"h": 61
+					},
+					"frame": {
+						"x": 1855,
+						"y": 1555,
+						"w": 135,
+						"h": 61
+					}
+				},
+				{
+					"filename": "beach_green_bucket0189.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 75,
+						"w": 119,
+						"h": 46
+					},
+					"frame": {
+						"x": 1855,
+						"y": 1618,
+						"w": 119,
+						"h": 46
+					}
+				},
+				{
+					"filename": "beach_sunbrella_chair_arm.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 73,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 73,
+						"h": 100
+					},
+					"frame": {
+						"x": 1973,
+						"y": 687,
+						"w": 73,
+						"h": 100
+					}
+				},
+				{
+					"filename": "beach_green_bucket0222.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 65,
+						"w": 139,
+						"h": 58
+					},
+					"frame": {
+						"x": 1869,
+						"y": 1666,
+						"w": 139,
+						"h": 58
+					}
+				},
+				{
+					"filename": "beach_green_bucket0221.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 66,
+						"w": 137,
+						"h": 57
+					},
+					"frame": {
+						"x": 1417,
+						"y": 1973,
+						"w": 137,
+						"h": 57
+					}
+				},
+				{
+					"filename": "beach_green_bucket0187.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 73,
+						"w": 118,
+						"h": 48
+					},
+					"frame": {
+						"x": 1556,
+						"y": 1982,
+						"w": 118,
+						"h": 48
+					}
+				},
+				{
+					"filename": "beach_green_bucket0147.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 68,
+						"h": 110
+					},
+					"frame": {
+						"x": 1946,
+						"y": 789,
+						"w": 68,
+						"h": 110
+					}
+				},
+				{
+					"filename": "beach_green_bucket0188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 77,
+						"w": 120,
+						"h": 44
+					},
+					"frame": {
+						"x": 1749,
+						"y": 1847,
+						"w": 120,
+						"h": 44
+					}
+				},
+				{
+					"filename": "beach_green_bucket0268.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 48,
+						"h": 120
+					},
+					"frame": {
+						"x": 1879,
+						"y": 1726,
+						"w": 48,
+						"h": 120
+					}
+				},
+				{
+					"filename": "beach_green_bucket0269.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 48,
+						"h": 120
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1726,
+						"w": 48,
+						"h": 120
+					}
+				},
+				{
+					"filename": "beach_green_bucket0270.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 48,
+						"h": 120
+					},
+					"frame": {
+						"x": 1979,
+						"y": 1726,
+						"w": 48,
+						"h": 120
+					}
+				},
+				{
+					"filename": "beach_green_bucket0186.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0191.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0192.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0193.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0194.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0195.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0196.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0197.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0198.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0199.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0200.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0201.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0202.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0203.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0204.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0205.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0206.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0207.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0208.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0209.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0210.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0211.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0212.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 70,
+						"w": 116,
+						"h": 51
+					},
+					"frame": {
+						"x": 1871,
+						"y": 1848,
+						"w": 116,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 55,
+						"h": 60
+					},
+					"frame": {
+						"x": 1991,
+						"y": 1492,
+						"w": 55,
+						"h": 60
+					}
+				},
+				{
+					"filename": "beach_green_bucket0062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 81,
+						"h": 50
+					},
+					"frame": {
+						"x": 1946,
+						"y": 901,
+						"w": 81,
+						"h": 50
+					}
+				},
+				{
+					"filename": "beach_green_bucket0065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 106,
+						"h": 49
+					},
+					"frame": {
+						"x": 1940,
+						"y": 953,
+						"w": 106,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 24,
+						"w": 62,
+						"h": 96
+					},
+					"frame": {
+						"x": 1962,
+						"y": 1004,
+						"w": 62,
+						"h": 96
+					}
+				},
+				{
+					"filename": "beach_green_bucket0302.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 70,
+						"w": 52,
+						"h": 50
+					},
+					"frame": {
+						"x": 1992,
+						"y": 1554,
+						"w": 52,
+						"h": 50
+					}
+				},
+				{
+					"filename": "beach_green_bucket0063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 91,
+						"h": 50
+					},
+					"frame": {
+						"x": 1715,
+						"y": 1893,
+						"w": 91,
+						"h": 50
+					}
+				},
+				{
+					"filename": "beach_green_bucket0121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 91,
+						"h": 50
+					},
+					"frame": {
+						"x": 1709,
+						"y": 1945,
+						"w": 91,
+						"h": 50
+					}
+				},
+				{
+					"filename": "beach_green_bucket0265.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 1,
+						"w": 48,
+						"h": 119
+					},
+					"frame": {
+						"x": 1808,
+						"y": 1893,
+						"w": 48,
+						"h": 119
+					}
+				},
+				{
+					"filename": "beach_green_bucket0264.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 2,
+						"w": 48,
+						"h": 118
+					},
+					"frame": {
+						"x": 1858,
+						"y": 1901,
+						"w": 48,
+						"h": 118
+					}
+				},
+				{
+					"filename": "beach_green_bucket0262.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 48,
+						"h": 117
+					},
+					"frame": {
+						"x": 1908,
+						"y": 1901,
+						"w": 48,
+						"h": 117
+					}
+				},
+				{
+					"filename": "beach_green_bucket0263.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 48,
+						"h": 117
+					},
+					"frame": {
+						"x": 1958,
+						"y": 1901,
+						"w": 48,
+						"h": 117
+					}
+				},
+				{
+					"filename": "beach_green_bucket0255.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 59,
+						"w": 65,
+						"h": 61
+					},
+					"frame": {
+						"x": 1935,
+						"y": 1109,
+						"w": 65,
+						"h": 61
+					}
+				},
+				{
+					"filename": "beach_green_bucket0251.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 72,
+						"h": 49
+					},
+					"frame": {
+						"x": 1959,
+						"y": 1172,
+						"w": 72,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0252.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 72,
+						"h": 49
+					},
+					"frame": {
+						"x": 1961,
+						"y": 1223,
+						"w": 72,
+						"h": 49
+					}
+				}
+			]
+		},
+		{
+			"image": "beach-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1822,
+				"h": 2042
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "beach_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1560,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1560,
+						"h": 210
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1560,
+						"h": 210
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 377
+					},
+					"frame": {
+						"x": 1,
+						"y": 213,
+						"w": 787,
+						"h": 377
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 377
+					},
+					"frame": {
+						"x": 1,
+						"y": 592,
+						"w": 787,
+						"h": 377
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 377
+					},
+					"frame": {
+						"x": 1,
+						"y": 971,
+						"w": 787,
+						"h": 377
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 377
+					},
+					"frame": {
+						"x": 1,
+						"y": 1350,
+						"w": 787,
+						"h": 377
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 377
+					},
+					"frame": {
+						"x": 790,
+						"y": 213,
+						"w": 787,
+						"h": 377
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 377
+					},
+					"frame": {
+						"x": 790,
+						"y": 592,
+						"w": 787,
+						"h": 377
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 377
+					},
+					"frame": {
+						"x": 790,
+						"y": 971,
+						"w": 787,
+						"h": 377
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0066.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 377
+					},
+					"frame": {
+						"x": 790,
+						"y": 1350,
+						"w": 787,
+						"h": 377
+					}
+				},
+				{
+					"filename": "beach_green_bucket0144.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 11,
+						"w": 105,
+						"h": 109
+					},
+					"frame": {
+						"x": 1,
+						"y": 1729,
+						"w": 105,
+						"h": 109
+					}
+				},
+				{
+					"filename": "beach_green_bucket0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 25,
+						"w": 116,
+						"h": 95
+					},
+					"frame": {
+						"x": 1563,
+						"y": 1,
+						"w": 116,
+						"h": 95
+					}
+				},
+				{
+					"filename": "beach_green_bucket0218.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 30,
+						"w": 115,
+						"h": 94
+					},
+					"frame": {
+						"x": 108,
+						"y": 1729,
+						"w": 115,
+						"h": 94
+					}
+				},
+				{
+					"filename": "beach_green_bucket0217.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 27,
+						"w": 111,
+						"h": 97
+					},
+					"frame": {
+						"x": 1563,
+						"y": 98,
+						"w": 111,
+						"h": 97
+					}
+				},
+				{
+					"filename": "beach_green_bucket0216.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 29,
+						"w": 112,
+						"h": 95
+					},
+					"frame": {
+						"x": 1681,
+						"y": 1,
+						"w": 112,
+						"h": 95
+					}
+				},
+				{
+					"filename": "beach_green_bucket0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 94,
+						"h": 110
+					},
+					"frame": {
+						"x": 1,
+						"y": 1840,
+						"w": 94,
+						"h": 110
+					}
+				},
+				{
+					"filename": "beach_green_bucket0087.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 94,
+						"h": 110
+					},
+					"frame": {
+						"x": 1,
+						"y": 1840,
+						"w": 94,
+						"h": 110
+					}
+				},
+				{
+					"filename": "beach_green_bucket0182.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 29,
+						"w": 84,
+						"h": 89
+					},
+					"frame": {
+						"x": 1,
+						"y": 1952,
+						"w": 84,
+						"h": 89
+					}
+				},
+				{
+					"filename": "beach_green_bucket0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 22,
+						"w": 106,
+						"h": 98
+					},
+					"frame": {
+						"x": 1676,
+						"y": 98,
+						"w": 106,
+						"h": 98
+					}
+				},
+				{
+					"filename": "beach_green_bucket0085.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 22,
+						"w": 106,
+						"h": 98
+					},
+					"frame": {
+						"x": 1676,
+						"y": 98,
+						"w": 106,
+						"h": 98
+					}
+				},
+				{
+					"filename": "beach_green_bucket0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 30,
+						"w": 112,
+						"h": 90
+					},
+					"frame": {
+						"x": 225,
+						"y": 1729,
+						"w": 112,
+						"h": 90
+					}
+				},
+				{
+					"filename": "beach_green_bucket0214.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 45,
+						"w": 117,
+						"h": 79
+					},
+					"frame": {
+						"x": 339,
+						"y": 1729,
+						"w": 117,
+						"h": 79
+					}
+				},
+				{
+					"filename": "beach_wood.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 117,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 117,
+						"h": 77
+					},
+					"frame": {
+						"x": 458,
+						"y": 1729,
+						"w": 117,
+						"h": 77
+					}
+				},
+				{
+					"filename": "beach_green_bucket0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 38,
+						"w": 114,
+						"h": 82
+					},
+					"frame": {
+						"x": 577,
+						"y": 1729,
+						"w": 114,
+						"h": 82
+					}
+				},
+				{
+					"filename": "beach_green_bucket0074.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 38,
+						"w": 114,
+						"h": 82
+					},
+					"frame": {
+						"x": 577,
+						"y": 1729,
+						"w": 114,
+						"h": 82
+					}
+				},
+				{
+					"filename": "beach_green_bucket0132.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 38,
+						"w": 114,
+						"h": 82
+					},
+					"frame": {
+						"x": 693,
+						"y": 1729,
+						"w": 114,
+						"h": 82
+					}
+				},
+				{
+					"filename": "beach_green_bucket0145.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 94,
+						"h": 110
+					},
+					"frame": {
+						"x": 1579,
+						"y": 197,
+						"w": 94,
+						"h": 110
+					}
+				},
+				{
+					"filename": "beach_green_bucket0143.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 22,
+						"w": 106,
+						"h": 98
+					},
+					"frame": {
+						"x": 1675,
+						"y": 198,
+						"w": 106,
+						"h": 98
+					}
+				},
+				{
+					"filename": "beach_green_bucket0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 35,
+						"w": 106,
+						"h": 85
+					},
+					"frame": {
+						"x": 809,
+						"y": 1729,
+						"w": 106,
+						"h": 85
+					}
+				},
+				{
+					"filename": "beach_green_bucket0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 33,
+						"w": 102,
+						"h": 87
+					},
+					"frame": {
+						"x": 917,
+						"y": 1729,
+						"w": 102,
+						"h": 87
+					}
+				},
+				{
+					"filename": "beach_green_bucket0084.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 33,
+						"w": 102,
+						"h": 87
+					},
+					"frame": {
+						"x": 917,
+						"y": 1729,
+						"w": 102,
+						"h": 87
+					}
+				},
+				{
+					"filename": "beach_green_bucket0142.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 33,
+						"w": 102,
+						"h": 87
+					},
+					"frame": {
+						"x": 1021,
+						"y": 1729,
+						"w": 102,
+						"h": 87
+					}
+				},
+				{
+					"filename": "beach_green_bucket0183.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 38,
+						"w": 106,
+						"h": 80
+					},
+					"frame": {
+						"x": 1125,
+						"y": 1729,
+						"w": 106,
+						"h": 80
+					}
+				},
+				{
+					"filename": "beach_green_bucket0067.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 50,
+						"w": 115,
+						"h": 70
+					},
+					"frame": {
+						"x": 1233,
+						"y": 1729,
+						"w": 115,
+						"h": 70
+					}
+				},
+				{
+					"filename": "beach_green_bucket0125.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 50,
+						"w": 115,
+						"h": 70
+					},
+					"frame": {
+						"x": 1350,
+						"y": 1729,
+						"w": 115,
+						"h": 70
+					}
+				},
+				{
+					"filename": "beach_green_bucket0184.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 46,
+						"w": 112,
+						"h": 72
+					},
+					"frame": {
+						"x": 1467,
+						"y": 1729,
+						"w": 112,
+						"h": 72
+					}
+				},
+				{
+					"filename": "beach_green_bucket0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 40,
+						"w": 97,
+						"h": 80
+					},
+					"frame": {
+						"x": 1579,
+						"y": 309,
+						"w": 97,
+						"h": 80
+					}
+				},
+				{
+					"filename": "beach_green_bucket0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 43,
+						"w": 98,
+						"h": 77
+					},
+					"frame": {
+						"x": 1579,
+						"y": 391,
+						"w": 98,
+						"h": 77
+					}
+				},
+				{
+					"filename": "beach_green_bucket0083.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 43,
+						"w": 98,
+						"h": 77
+					},
+					"frame": {
+						"x": 1579,
+						"y": 391,
+						"w": 98,
+						"h": 77
+					}
+				},
+				{
+					"filename": "beach_green_bucket0141.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 43,
+						"w": 98,
+						"h": 77
+					},
+					"frame": {
+						"x": 1579,
+						"y": 470,
+						"w": 98,
+						"h": 77
+					}
+				},
+				{
+					"filename": "beach_green_bucket0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 100,
+						"h": 76
+					},
+					"frame": {
+						"x": 1579,
+						"y": 549,
+						"w": 100,
+						"h": 76
+					}
+				},
+				{
+					"filename": "beach_green_bucket0079.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 100,
+						"h": 76
+					},
+					"frame": {
+						"x": 1579,
+						"y": 549,
+						"w": 100,
+						"h": 76
+					}
+				},
+				{
+					"filename": "beach_green_bucket0137.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 100,
+						"h": 76
+					},
+					"frame": {
+						"x": 1579,
+						"y": 627,
+						"w": 100,
+						"h": 76
+					}
+				},
+				{
+					"filename": "beach_green_bucket0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 105,
+						"h": 75
+					},
+					"frame": {
+						"x": 1579,
+						"y": 705,
+						"w": 105,
+						"h": 75
+					}
+				},
+				{
+					"filename": "beach_green_bucket0078.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 105,
+						"h": 75
+					},
+					"frame": {
+						"x": 1579,
+						"y": 705,
+						"w": 105,
+						"h": 75
+					}
+				},
+				{
+					"filename": "beach_green_bucket0136.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 105,
+						"h": 75
+					},
+					"frame": {
+						"x": 1579,
+						"y": 782,
+						"w": 105,
+						"h": 75
+					}
+				},
+				{
+					"filename": "beach_green_bucket0213.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 57,
+						"w": 117,
+						"h": 67
+					},
+					"frame": {
+						"x": 1579,
+						"y": 859,
+						"w": 117,
+						"h": 67
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_text_english.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 65
+					},
+					"frame": {
+						"x": 1579,
+						"y": 928,
+						"w": 115,
+						"h": 65
+					}
+				},
+				{
+					"filename": "beach_green_bucket0185.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 57,
+						"w": 117,
+						"h": 61
+					},
+					"frame": {
+						"x": 1579,
+						"y": 995,
+						"w": 117,
+						"h": 61
+					}
+				},
+				{
+					"filename": "beach_green_bucket0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 55,
+						"w": 111,
+						"h": 65
+					},
+					"frame": {
+						"x": 1579,
+						"y": 1058,
+						"w": 111,
+						"h": 65
+					}
+				},
+				{
+					"filename": "beach_green_bucket0075.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 55,
+						"w": 111,
+						"h": 65
+					},
+					"frame": {
+						"x": 1579,
+						"y": 1058,
+						"w": 111,
+						"h": 65
+					}
+				},
+				{
+					"filename": "beach_green_bucket0133.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 55,
+						"w": 111,
+						"h": 65
+					},
+					"frame": {
+						"x": 1579,
+						"y": 1125,
+						"w": 111,
+						"h": 65
+					}
+				},
+				{
+					"filename": "beach_green_bucket0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 110,
+						"h": 65
+					},
+					"frame": {
+						"x": 1579,
+						"y": 1192,
+						"w": 110,
+						"h": 65
+					}
+				},
+				{
+					"filename": "beach_green_bucket0076.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 110,
+						"h": 65
+					},
+					"frame": {
+						"x": 1579,
+						"y": 1192,
+						"w": 110,
+						"h": 65
+					}
+				},
+				{
+					"filename": "beach_green_bucket0134.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 110,
+						"h": 65
+					},
+					"frame": {
+						"x": 1579,
+						"y": 1259,
+						"w": 110,
+						"h": 65
+					}
+				},
+				{
+					"filename": "beach_green_bucket0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 1579,
+						"y": 1326,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "beach_green_bucket0077.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 1579,
+						"y": 1326,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "beach_green_bucket0135.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 1579,
+						"y": 1393,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "beach_green_bucket0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 12,
+						"w": 62,
+						"h": 108
+					},
+					"frame": {
+						"x": 1579,
+						"y": 1460,
+						"w": 62,
+						"h": 108
+					}
+				},
+				{
+					"filename": "beach_green_bucket0090.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 12,
+						"w": 62,
+						"h": 108
+					},
+					"frame": {
+						"x": 1579,
+						"y": 1460,
+						"w": 62,
+						"h": 108
+					}
+				},
+				{
+					"filename": "beach_green_bucket0148.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 12,
+						"w": 62,
+						"h": 108
+					},
+					"frame": {
+						"x": 1579,
+						"y": 1570,
+						"w": 62,
+						"h": 108
+					}
+				},
+				{
+					"filename": "beach_green_bucket0261.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 6,
+						"w": 48,
+						"h": 114
+					},
+					"frame": {
+						"x": 1643,
+						"y": 1460,
+						"w": 48,
+						"h": 114
+					}
+				},
+				{
+					"filename": "beach_green_bucket0181.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 27,
+						"w": 70,
+						"h": 91
+					},
+					"frame": {
+						"x": 1678,
+						"y": 298,
+						"w": 70,
+						"h": 91
+					}
+				},
+				{
+					"filename": "beach_green_bucket0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1679,
+						"y": 391,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0091.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1679,
+						"y": 391,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0271.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 9,
+						"w": 48,
+						"h": 111
+					},
+					"frame": {
+						"x": 1643,
+						"y": 1576,
+						"w": 48,
+						"h": 111
+					}
+				},
+				{
+					"filename": "beach_green_bucket0250.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 71,
+						"h": 49
+					},
+					"frame": {
+						"x": 1750,
+						"y": 298,
+						"w": 71,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1581,
+						"y": 1680,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0095.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1581,
+						"y": 1680,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0260.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 48,
+						"h": 110
+					},
+					"frame": {
+						"x": 1643,
+						"y": 1689,
+						"w": 48,
+						"h": 110
+					}
+				},
+				{
+					"filename": "beach_green_bucket0124.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 111,
+						"h": 59
+					},
+					"frame": {
+						"x": 108,
+						"y": 1825,
+						"w": 111,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 54,
+						"w": 95,
+						"h": 66
+					},
+					"frame": {
+						"x": 97,
+						"y": 1886,
+						"w": 95,
+						"h": 66
+					}
+				},
+				{
+					"filename": "beach_green_bucket0082.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 54,
+						"w": 95,
+						"h": 66
+					},
+					"frame": {
+						"x": 97,
+						"y": 1886,
+						"w": 95,
+						"h": 66
+					}
+				},
+				{
+					"filename": "beach_green_bucket0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 33,
+						"w": 64,
+						"h": 87
+					},
+					"frame": {
+						"x": 87,
+						"y": 1954,
+						"w": 64,
+						"h": 87
+					}
+				},
+				{
+					"filename": "beach_green_bucket0109.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 33,
+						"w": 64,
+						"h": 87
+					},
+					"frame": {
+						"x": 153,
+						"y": 1954,
+						"w": 64,
+						"h": 87
+					}
+				},
+				{
+					"filename": "beach_green_bucket0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1681,
+						"y": 500,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0096.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1681,
+						"y": 500,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0167.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 33,
+						"w": 64,
+						"h": 87
+					},
+					"frame": {
+						"x": 1681,
+						"y": 609,
+						"w": 64,
+						"h": 87
+					}
+				},
+				{
+					"filename": "beach_green_bucket0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1686,
+						"y": 698,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 81,
+						"h": 50
+					},
+					"frame": {
+						"x": 1686,
+						"y": 807,
+						"w": 81,
+						"h": 50
+					}
+				},
+				{
+					"filename": "beach_green_bucket0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 47,
+						"w": 86,
+						"h": 73
+					},
+					"frame": {
+						"x": 1698,
+						"y": 859,
+						"w": 86,
+						"h": 73
+					}
+				},
+				{
+					"filename": "beach_green_bucket0123.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 106,
+						"h": 49
+					},
+					"frame": {
+						"x": 1696,
+						"y": 934,
+						"w": 106,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0140.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 54,
+						"w": 95,
+						"h": 66
+					},
+					"frame": {
+						"x": 1698,
+						"y": 985,
+						"w": 95,
+						"h": 66
+					}
+				},
+				{
+					"filename": "beach_green_bucket0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1741,
+						"y": 391,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1743,
+						"y": 500,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 49,
+						"w": 74,
+						"h": 71
+					},
+					"frame": {
+						"x": 1747,
+						"y": 609,
+						"w": 74,
+						"h": 71
+					}
+				},
+				{
+					"filename": "beach_green_bucket0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1748,
+						"y": 682,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1748,
+						"y": 682,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1748,
+						"y": 682,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1748,
+						"y": 682,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1748,
+						"y": 682,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1748,
+						"y": 682,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0097.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1058,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0098.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1754,
+						"y": 1053,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0099.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1687,
+						"y": 1326,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1693,
+						"y": 1435,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0101.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1693,
+						"y": 1435,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0102.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1693,
+						"y": 1435,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0103.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1693,
+						"y": 1435,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0104.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1693,
+						"y": 1435,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0105.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1693,
+						"y": 1435,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0149.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1693,
+						"y": 1544,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0153.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1693,
+						"y": 1653,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 45,
+						"w": 66,
+						"h": 75
+					},
+					"frame": {
+						"x": 1755,
+						"y": 1162,
+						"w": 66,
+						"h": 75
+					}
+				},
+				{
+					"filename": "beach_green_bucket0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 18,
+						"w": 61,
+						"h": 102
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1167,
+						"w": 61,
+						"h": 102
+					}
+				},
+				{
+					"filename": "beach_green_bucket0110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 45,
+						"w": 66,
+						"h": 75
+					},
+					"frame": {
+						"x": 1755,
+						"y": 1239,
+						"w": 66,
+						"h": 75
+					}
+				},
+				{
+					"filename": "beach_green_bucket0253.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 72,
+						"h": 49
+					},
+					"frame": {
+						"x": 1749,
+						"y": 1316,
+						"w": 72,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0168.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 45,
+						"w": 66,
+						"h": 75
+					},
+					"frame": {
+						"x": 1755,
+						"y": 1367,
+						"w": 66,
+						"h": 75
+					}
+				},
+				{
+					"filename": "beach_green_bucket0154.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1755,
+						"y": 1444,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0155.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1755,
+						"y": 1553,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0156.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 1755,
+						"y": 1662,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 100,
+						"h": 49
+					},
+					"frame": {
+						"x": 339,
+						"y": 1810,
+						"w": 100,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 100,
+						"h": 49
+					},
+					"frame": {
+						"x": 1233,
+						"y": 1801,
+						"w": 100,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 94,
+						"h": 63
+					},
+					"frame": {
+						"x": 1335,
+						"y": 1801,
+						"w": 94,
+						"h": 63
+					}
+				},
+				{
+					"filename": "beach_green_bucket0080.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 94,
+						"h": 63
+					},
+					"frame": {
+						"x": 1335,
+						"y": 1801,
+						"w": 94,
+						"h": 63
+					}
+				},
+				{
+					"filename": "beach_green_bucket0138.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 94,
+						"h": 63
+					},
+					"frame": {
+						"x": 1431,
+						"y": 1803,
+						"w": 94,
+						"h": 63
+					}
+				},
+				{
+					"filename": "beach_green_bucket0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 16,
+						"w": 57,
+						"h": 104
+					},
+					"frame": {
+						"x": 1527,
+						"y": 1803,
+						"w": 57,
+						"h": 104
+					}
+				},
+				{
+					"filename": "beach_green_bucket0092.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 16,
+						"w": 57,
+						"h": 104
+					},
+					"frame": {
+						"x": 1527,
+						"y": 1803,
+						"w": 57,
+						"h": 104
+					}
+				},
+				{
+					"filename": "beach_green_bucket0180.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 30,
+						"w": 55,
+						"h": 88
+					},
+					"frame": {
+						"x": 1586,
+						"y": 1789,
+						"w": 55,
+						"h": 88
+					}
+				},
+				{
+					"filename": "beach_green_bucket0150.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 16,
+						"w": 57,
+						"h": 104
+					},
+					"frame": {
+						"x": 1643,
+						"y": 1801,
+						"w": 57,
+						"h": 104
+					}
+				},
+				{
+					"filename": "beach_green_bucket0259.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 17,
+						"w": 48,
+						"h": 103
+					},
+					"frame": {
+						"x": 1702,
+						"y": 1762,
+						"w": 48,
+						"h": 103
+					}
+				},
+				{
+					"filename": "beach_green_bucket0178.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 55,
+						"w": 69,
+						"h": 63
+					},
+					"frame": {
+						"x": 1752,
+						"y": 1771,
+						"w": 69,
+						"h": 63
+					}
+				},
+				{
+					"filename": "beach_green_bucket0301.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 69,
+						"w": 51,
+						"h": 51
+					},
+					"frame": {
+						"x": 1691,
+						"y": 1271,
+						"w": 51,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 94,
+						"h": 49
+					},
+					"frame": {
+						"x": 1125,
+						"y": 1811,
+						"w": 94,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0081.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 94,
+						"h": 49
+					},
+					"frame": {
+						"x": 1125,
+						"y": 1811,
+						"w": 94,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 68,
+						"h": 60
+					},
+					"frame": {
+						"x": 1752,
+						"y": 1836,
+						"w": 68,
+						"h": 60
+					}
+				},
+				{
+					"filename": "beach_green_bucket0272.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 19,
+						"w": 48,
+						"h": 101
+					},
+					"frame": {
+						"x": 1702,
+						"y": 1867,
+						"w": 48,
+						"h": 101
+					}
+				},
+				{
+					"filename": "beach_green_bucket0179.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 40,
+						"w": 62,
+						"h": 78
+					},
+					"frame": {
+						"x": 1752,
+						"y": 1898,
+						"w": 62,
+						"h": 78
+					}
+				},
+				{
+					"filename": "beach_green_bucket0139.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 94,
+						"h": 49
+					},
+					"frame": {
+						"x": 225,
+						"y": 1821,
+						"w": 94,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0288.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 48,
+						"h": 60
+					},
+					"frame": {
+						"x": 194,
+						"y": 1886,
+						"w": 48,
+						"h": 60
+					}
+				},
+				{
+					"filename": "beach_handle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 75,
+						"h": 69
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 75,
+						"h": 69
+					},
+					"frame": {
+						"x": 244,
+						"y": 1872,
+						"w": 75,
+						"h": 69
+					}
+				},
+				{
+					"filename": "beach_green_bucket0108.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 24,
+						"w": 62,
+						"h": 96
+					},
+					"frame": {
+						"x": 321,
+						"y": 1861,
+						"w": 62,
+						"h": 96
+					}
+				},
+				{
+					"filename": "beach_green_bucket0157.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 385,
+						"y": 1861,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0273.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 30,
+						"w": 48,
+						"h": 90
+					},
+					"frame": {
+						"x": 219,
+						"y": 1948,
+						"w": 48,
+						"h": 90
+					}
+				},
+				{
+					"filename": "beach_green_bucket0257.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 35,
+						"w": 50,
+						"h": 85
+					},
+					"frame": {
+						"x": 269,
+						"y": 1943,
+						"w": 50,
+						"h": 85
+					}
+				},
+				{
+					"filename": "beach_green_bucket0256.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 47,
+						"w": 58,
+						"h": 73
+					},
+					"frame": {
+						"x": 321,
+						"y": 1959,
+						"w": 58,
+						"h": 73
+					}
+				},
+				{
+					"filename": "beach_green_bucket0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 53,
+						"w": 64,
+						"h": 67
+					},
+					"frame": {
+						"x": 381,
+						"y": 1970,
+						"w": 64,
+						"h": 67
+					}
+				},
+				{
+					"filename": "beach_green_bucket0158.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 447,
+						"y": 1866,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0159.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 447,
+						"y": 1866,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0160.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 447,
+						"y": 1866,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0161.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 447,
+						"y": 1866,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0162.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 447,
+						"y": 1866,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0163.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 13,
+						"w": 60,
+						"h": 107
+					},
+					"frame": {
+						"x": 447,
+						"y": 1866,
+						"w": 60,
+						"h": 107
+					}
+				},
+				{
+					"filename": "beach_green_bucket0111.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 68,
+						"h": 60
+					},
+					"frame": {
+						"x": 447,
+						"y": 1975,
+						"w": 68,
+						"h": 60
+					}
+				},
+				{
+					"filename": "beach_green_bucket0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 15,
+						"w": 60,
+						"h": 105
+					},
+					"frame": {
+						"x": 509,
+						"y": 1868,
+						"w": 60,
+						"h": 105
+					}
+				},
+				{
+					"filename": "beach_green_bucket0169.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 68,
+						"h": 60
+					},
+					"frame": {
+						"x": 517,
+						"y": 1975,
+						"w": 68,
+						"h": 60
+					}
+				},
+				{
+					"filename": "beach_green_bucket0106.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 15,
+						"w": 60,
+						"h": 105
+					},
+					"frame": {
+						"x": 571,
+						"y": 1868,
+						"w": 60,
+						"h": 105
+					}
+				},
+				{
+					"filename": "beach_green_bucket0164.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 15,
+						"w": 60,
+						"h": 105
+					},
+					"frame": {
+						"x": 633,
+						"y": 1813,
+						"w": 60,
+						"h": 105
+					}
+				},
+				{
+					"filename": "beach_green_bucket0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 14,
+						"w": 58,
+						"h": 106
+					},
+					"frame": {
+						"x": 695,
+						"y": 1813,
+						"w": 58,
+						"h": 106
+					}
+				},
+				{
+					"filename": "beach_green_bucket0094.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 14,
+						"w": 58,
+						"h": 106
+					},
+					"frame": {
+						"x": 695,
+						"y": 1813,
+						"w": 58,
+						"h": 106
+					}
+				},
+				{
+					"filename": "beach_green_bucket0258.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 25,
+						"w": 48,
+						"h": 95
+					},
+					"frame": {
+						"x": 755,
+						"y": 1813,
+						"w": 48,
+						"h": 95
+					}
+				},
+				{
+					"filename": "beach_green_bucket0166.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 24,
+						"w": 62,
+						"h": 96
+					},
+					"frame": {
+						"x": 805,
+						"y": 1816,
+						"w": 62,
+						"h": 96
+					}
+				},
+				{
+					"filename": "beach_green_bucket0152.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 14,
+						"w": 58,
+						"h": 106
+					},
+					"frame": {
+						"x": 633,
+						"y": 1920,
+						"w": 58,
+						"h": 106
+					}
+				},
+				{
+					"filename": "beach_green_bucket0107.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 18,
+						"w": 61,
+						"h": 102
+					},
+					"frame": {
+						"x": 693,
+						"y": 1921,
+						"w": 61,
+						"h": 102
+					}
+				},
+				{
+					"filename": "beach_green_bucket0165.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 18,
+						"w": 61,
+						"h": 102
+					},
+					"frame": {
+						"x": 869,
+						"y": 1818,
+						"w": 61,
+						"h": 102
+					}
+				},
+				{
+					"filename": "beach_green_bucket0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 16,
+						"w": 58,
+						"h": 104
+					},
+					"frame": {
+						"x": 932,
+						"y": 1818,
+						"w": 58,
+						"h": 104
+					}
+				},
+				{
+					"filename": "beach_green_bucket0093.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 16,
+						"w": 58,
+						"h": 104
+					},
+					"frame": {
+						"x": 932,
+						"y": 1818,
+						"w": 58,
+						"h": 104
+					}
+				},
+				{
+					"filename": "beach_green_bucket0151.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 16,
+						"w": 58,
+						"h": 104
+					},
+					"frame": {
+						"x": 992,
+						"y": 1818,
+						"w": 58,
+						"h": 104
+					}
+				},
+				{
+					"filename": "beach_green_bucket0274.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 40,
+						"w": 48,
+						"h": 80
+					},
+					"frame": {
+						"x": 1052,
+						"y": 1818,
+						"w": 48,
+						"h": 80
+					}
+				},
+				{
+					"filename": "beach_green_bucket0278.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 62,
+						"w": 48,
+						"h": 58
+					},
+					"frame": {
+						"x": 509,
+						"y": 1808,
+						"w": 48,
+						"h": 58
+					}
+				},
+				{
+					"filename": "beach_green_bucket0057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 51
+					},
+					"frame": {
+						"x": 559,
+						"y": 1813,
+						"w": 70,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0277.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 64,
+						"w": 48,
+						"h": 56
+					},
+					"frame": {
+						"x": 458,
+						"y": 1808,
+						"w": 48,
+						"h": 56
+					}
+				},
+				{
+					"filename": "beach_green_bucket0115.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 51
+					},
+					"frame": {
+						"x": 1102,
+						"y": 1862,
+						"w": 70,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0173.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 51
+					},
+					"frame": {
+						"x": 1174,
+						"y": 1862,
+						"w": 70,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1246,
+						"y": 1852,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1866,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1866,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1866,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0240.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1866,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0241.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1866,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0242.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1866,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0243.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1866,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0244.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1866,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0245.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1866,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0246.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1866,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0247.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1866,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0248.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1866,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0249.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1866,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1246,
+						"y": 1903,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1917,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0275.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 50,
+						"w": 48,
+						"h": 70
+					},
+					"frame": {
+						"x": 1052,
+						"y": 1900,
+						"w": 48,
+						"h": 70
+					}
+				},
+				{
+					"filename": "beach_green_bucket0059.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1102,
+						"y": 1915,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0112.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1174,
+						"y": 1915,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0113.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1246,
+						"y": 1954,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0118.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1246,
+						"y": 1954,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0119.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1246,
+						"y": 1954,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0114.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1968,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0289.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 48,
+						"h": 60
+					},
+					"frame": {
+						"x": 1769,
+						"y": 791,
+						"w": 48,
+						"h": 60
+					}
+				},
+				{
+					"filename": "beach_green_bucket0303.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 69,
+						"w": 51,
+						"h": 51
+					},
+					"frame": {
+						"x": 1586,
+						"y": 1879,
+						"w": 51,
+						"h": 51
+					}
+				},
+				{
+					"filename": "beach_green_bucket0116.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1390,
+						"y": 1868,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0117.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1390,
+						"y": 1919,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0170.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1390,
+						"y": 1970,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0293.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 48,
+						"h": 60
+					},
+					"frame": {
+						"x": 1462,
+						"y": 1868,
+						"w": 48,
+						"h": 60
+					}
+				},
+				{
+					"filename": "beach_green_bucket0276.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 1462,
+						"y": 1930,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0279.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 1462,
+						"y": 1930,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0287.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 1462,
+						"y": 1930,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0171.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1512,
+						"y": 1909,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0176.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1512,
+						"y": 1909,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0172.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1512,
+						"y": 1960,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0280.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 1584,
+						"y": 1932,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0281.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 1584,
+						"y": 1932,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0282.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 1584,
+						"y": 1932,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0283.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 1584,
+						"y": 1932,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0284.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 1584,
+						"y": 1932,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0285.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 1584,
+						"y": 1932,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0286.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 1584,
+						"y": 1932,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0174.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1102,
+						"y": 1966,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0175.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1174,
+						"y": 1966,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 68,
+						"w": 50,
+						"h": 52
+					},
+					"frame": {
+						"x": 1639,
+						"y": 1907,
+						"w": 50,
+						"h": 52
+					}
+				},
+				{
+					"filename": "beach_green_bucket0300.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 68,
+						"w": 50,
+						"h": 52
+					},
+					"frame": {
+						"x": 1634,
+						"y": 1961,
+						"w": 50,
+						"h": 52
+					}
+				},
+				{
+					"filename": "beach_green_bucket0304.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 68,
+						"w": 50,
+						"h": 52
+					},
+					"frame": {
+						"x": 1634,
+						"y": 1961,
+						"w": 50,
+						"h": 52
+					}
+				},
+				{
+					"filename": "beach_green_bucket0290.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 1686,
+						"y": 1970,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0177.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1736,
+						"y": 1978,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0254.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 71,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 756,
+						"y": 1914,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "beach_green_bucket0291.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 756,
+						"y": 1965,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0292.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 806,
+						"y": 1965,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0294.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 856,
+						"y": 1922,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0296.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 62,
+						"w": 48,
+						"h": 58
+					},
+					"frame": {
+						"x": 856,
+						"y": 1983,
+						"w": 48,
+						"h": 58
+					}
+				},
+				{
+					"filename": "beach_green_bucket0295.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 61,
+						"w": 48,
+						"h": 59
+					},
+					"frame": {
+						"x": 906,
+						"y": 1924,
+						"w": 48,
+						"h": 59
+					}
+				},
+				{
+					"filename": "beach_green_bucket0298.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 64,
+						"w": 48,
+						"h": 56
+					},
+					"frame": {
+						"x": 906,
+						"y": 1985,
+						"w": 48,
+						"h": 56
+					}
+				},
+				{
+					"filename": "beach_green_bucket0297.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 63,
+						"w": 48,
+						"h": 57
+					},
+					"frame": {
+						"x": 956,
+						"y": 1924,
+						"w": 48,
+						"h": 57
+					}
+				},
+				{
+					"filename": "beach_green_bucket0299.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 166,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 66,
+						"w": 48,
+						"h": 54
+					},
+					"frame": {
+						"x": 956,
+						"y": 1983,
+						"w": 48,
+						"h": 54
+					}
+				}
+			]
+		},
+		{
+			"image": "beach-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1578,
+				"h": 1893
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "beach_rockhopper_migrator_ship0067.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 377
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 787,
+						"h": 377
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0068.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 377
+					},
+					"frame": {
+						"x": 790,
+						"y": 1,
+						"w": 787,
+						"h": 377
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0069.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 377
+					},
+					"frame": {
+						"x": 1,
+						"y": 380,
+						"w": 787,
+						"h": 377
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0070.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 377
+					},
+					"frame": {
+						"x": 790,
+						"y": 380,
+						"w": 787,
+						"h": 377
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0071.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 377
+					},
+					"frame": {
+						"x": 1,
+						"y": 759,
+						"w": 787,
+						"h": 377
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 759,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1137,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1138,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1516,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1515,
+						"w": 787,
+						"h": 376
+					}
+				}
+			]
+		},
+		{
+			"image": "beach-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1578,
+				"h": 1890
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "beach_rockhopper_migrator_ship0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 379,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 379,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 757,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 757,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1135,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1513,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1135,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 376
+					}
+				}
+			]
+		},
+		{
+			"image": "beach-4.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1578,
+				"h": 1890
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "beach_rockhopper_migrator_ship0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 379,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 379,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 757,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 757,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1135,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1513,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1135,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 376
+					}
+				}
+			]
+		},
+		{
+			"image": "beach-5.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1578,
+				"h": 1890
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "beach_rockhopper_migrator_ship0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 379,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 379,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 757,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 757,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1135,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1513,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0059.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1135,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 376
+					}
+				}
+			]
+		},
+		{
+			"image": "beach-6.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1578,
+				"h": 1890
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "beach_rockhopper_migrator_ship0061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 379,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 379,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 757,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0072.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 757,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0073.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1135,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0074.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1513,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0075.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1135,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0076.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 376
+					}
+				}
+			]
+		},
+		{
+			"image": "beach-7.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1578,
+				"h": 1890
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "beach_rockhopper_migrator_ship0077.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0078.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0079.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 379,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0080.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 379,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0081.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 757,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0082.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 757,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0083.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1135,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0084.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 1,
+						"y": 1513,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0085.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 787,
+						"h": 376
+					},
+					"frame": {
+						"x": 790,
+						"y": 1135,
+						"w": 787,
+						"h": 376
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0090.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0091.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0092.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0093.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0094.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0095.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0096.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0097.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0098.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0099.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1513,
+						"w": 787,
+						"h": 375
+					}
+				}
+			]
+		},
+		{
+			"image": "beach-8.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1578,
+				"h": 1885
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "beach_rockhopper_migrator_ship0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0089.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 1,
+						"y": 378,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 378,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 1,
+						"y": 755,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 1,
+						"y": 755,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 755,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 755,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 755,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 755,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 755,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 755,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 755,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 755,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 755,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 755,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 755,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0086.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 1,
+						"y": 1132,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0087.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 1,
+						"y": 1509,
+						"w": 787,
+						"h": 375
+					}
+				},
+				{
+					"filename": "beach_rockhopper_migrator_ship0088.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 787,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 787,
+						"h": 375
+					},
+					"frame": {
+						"x": 790,
+						"y": 1132,
+						"w": 787,
+						"h": 375
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:d17fdcbfd22f4350f83e4d0280c10e64:cf237f434a16fcc10d1fba95e0b7b5a1:8f4f8f6483b33911c390d85e1b686285$"
+	}
+}
