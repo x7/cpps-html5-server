@@ -1,0 +1,1385 @@
+{
+	"textures": [
+		{
+			"image": "snowforts.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2031,
+				"h": 1728
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "snowforts_base_layout.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1765,
+						"h": 888
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 0,
+						"w": 1754,
+						"h": 888
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1754,
+						"h": 888
+					}
+				},
+				{
+					"filename": "snowforts_mountains_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1622,
+						"h": 350
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1622,
+						"h": 350
+					},
+					"frame": {
+						"x": 1,
+						"y": 891,
+						"w": 1622,
+						"h": 350
+					}
+				},
+				{
+					"filename": "snowforts_clock_tower.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 475,
+						"h": 431
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 475,
+						"h": 431
+					},
+					"frame": {
+						"x": 1,
+						"y": 1243,
+						"w": 475,
+						"h": 431
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 375,
+						"h": 457
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 375,
+						"h": 457
+					},
+					"frame": {
+						"x": 478,
+						"y": 1243,
+						"w": 375,
+						"h": 457
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_extra.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 304,
+						"h": 239
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 304,
+						"h": 239
+					},
+					"frame": {
+						"x": 855,
+						"y": 1243,
+						"w": 304,
+						"h": 239
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 269,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 269,
+						"h": 265
+					},
+					"frame": {
+						"x": 1757,
+						"y": 1,
+						"w": 269,
+						"h": 265
+					}
+				},
+				{
+					"filename": "snowforts_club_penguin_text0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 391,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 391,
+						"h": 110
+					},
+					"frame": {
+						"x": 1161,
+						"y": 1243,
+						"w": 391,
+						"h": 110
+					}
+				},
+				{
+					"filename": "snowforts_club_penguin_text0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 391,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 383,
+						"h": 106
+					},
+					"frame": {
+						"x": 1161,
+						"y": 1355,
+						"w": 383,
+						"h": 106
+					}
+				},
+				{
+					"filename": "snowforts_penguin_snowman.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 224
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 224
+					},
+					"frame": {
+						"x": 1757,
+						"y": 268,
+						"w": 186,
+						"h": 224
+					}
+				},
+				{
+					"filename": "snowforts_top_castle_part_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 206,
+						"h": 203
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 206,
+						"h": 203
+					},
+					"frame": {
+						"x": 855,
+						"y": 1484,
+						"w": 206,
+						"h": 203
+					}
+				},
+				{
+					"filename": "snowforts_club_penguin_text0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 391,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 11,
+						"w": 383,
+						"h": 100
+					},
+					"frame": {
+						"x": 1161,
+						"y": 1463,
+						"w": 383,
+						"h": 100
+					}
+				},
+				{
+					"filename": "snowforts_club_penguin_text0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 391,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 9,
+						"w": 383,
+						"h": 102
+					},
+					"frame": {
+						"x": 1063,
+						"y": 1565,
+						"w": 383,
+						"h": 102
+					}
+				},
+				{
+					"filename": "snowforts_target0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 162,
+						"h": 200
+					},
+					"frame": {
+						"x": 1757,
+						"y": 494,
+						"w": 162,
+						"h": 200
+					}
+				},
+				{
+					"filename": "snowforts_target0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 45,
+						"w": 184,
+						"h": 155
+					},
+					"frame": {
+						"x": 1757,
+						"y": 696,
+						"w": 184,
+						"h": 155
+					}
+				},
+				{
+					"filename": "snowforts_target0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 22,
+						"w": 148,
+						"h": 166
+					},
+					"frame": {
+						"x": 1625,
+						"y": 891,
+						"w": 148,
+						"h": 166
+					}
+				},
+				{
+					"filename": "snowforts_target0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 38,
+						"w": 141,
+						"h": 150
+					},
+					"frame": {
+						"x": 1625,
+						"y": 1059,
+						"w": 141,
+						"h": 150
+					}
+				},
+				{
+					"filename": "snowforts_target0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 61,
+						"w": 192,
+						"h": 134
+					},
+					"frame": {
+						"x": 1775,
+						"y": 853,
+						"w": 192,
+						"h": 134
+					}
+				},
+				{
+					"filename": "snowforts_target0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 97,
+						"w": 192,
+						"h": 103
+					},
+					"frame": {
+						"x": 1775,
+						"y": 989,
+						"w": 192,
+						"h": 103
+					}
+				},
+				{
+					"filename": "snowforts_target0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 145,
+						"w": 164,
+						"h": 127
+					},
+					"frame": {
+						"x": 1768,
+						"y": 1094,
+						"w": 164,
+						"h": 127
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 0,
+						"w": 85,
+						"h": 61
+					},
+					"frame": {
+						"x": 1945,
+						"y": 268,
+						"w": 85,
+						"h": 61
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 90,
+						"h": 58
+					},
+					"frame": {
+						"x": 1063,
+						"y": 1669,
+						"w": 90,
+						"h": 58
+					}
+				},
+				{
+					"filename": "snowforts_clock_tower_behind_wheel.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 116
+					},
+					"frame": {
+						"x": 1448,
+						"y": 1565,
+						"w": 116,
+						"h": 116
+					}
+				},
+				{
+					"filename": "snowforts_club_penguin_text0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 391,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 9,
+						"w": 364,
+						"h": 101
+					},
+					"frame": {
+						"x": 1625,
+						"y": 1223,
+						"w": 364,
+						"h": 101
+					}
+				},
+				{
+					"filename": "snowforts_club_penguin_text0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 391,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 14,
+						"w": 383,
+						"h": 97
+					},
+					"frame": {
+						"x": 1554,
+						"y": 1326,
+						"w": 383,
+						"h": 97
+					}
+				},
+				{
+					"filename": "snowforts_target0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 117,
+						"w": 192,
+						"h": 83
+					},
+					"frame": {
+						"x": 1546,
+						"y": 1425,
+						"w": 192,
+						"h": 83
+					}
+				},
+				{
+					"filename": "snowforts_target0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 130,
+						"w": 175,
+						"h": 87
+					},
+					"frame": {
+						"x": 1740,
+						"y": 1425,
+						"w": 175,
+						"h": 87
+					}
+				},
+				{
+					"filename": "snowforts_top_castle_part_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 129
+					},
+					"frame": {
+						"x": 1566,
+						"y": 1510,
+						"w": 110,
+						"h": 129
+					}
+				},
+				{
+					"filename": "snowforts_target0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 92,
+						"w": 132,
+						"h": 106
+					},
+					"frame": {
+						"x": 1678,
+						"y": 1514,
+						"w": 132,
+						"h": 106
+					}
+				},
+				{
+					"filename": "snowforts_target0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 135,
+						"w": 147,
+						"h": 88
+					},
+					"frame": {
+						"x": 1812,
+						"y": 1514,
+						"w": 147,
+						"h": 88
+					}
+				},
+				{
+					"filename": "snowforts_top_castle_part.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 73,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 73,
+						"h": 87
+					},
+					"frame": {
+						"x": 1945,
+						"y": 331,
+						"w": 73,
+						"h": 87
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 94,
+						"h": 65
+					},
+					"frame": {
+						"x": 1063,
+						"y": 1484,
+						"w": 94,
+						"h": 65
+					}
+				},
+				{
+					"filename": "snowforts_target0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 118,
+						"w": 131,
+						"h": 74
+					},
+					"frame": {
+						"x": 1566,
+						"y": 1641,
+						"w": 131,
+						"h": 74
+					}
+				},
+				{
+					"filename": "snowforts_clock_tower_right_wheel.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 42,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 42,
+						"h": 116
+					},
+					"frame": {
+						"x": 1934,
+						"y": 1094,
+						"w": 42,
+						"h": 116
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_extra_top.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 105,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 105,
+						"h": 62
+					},
+					"frame": {
+						"x": 1699,
+						"y": 1622,
+						"w": 105,
+						"h": 62
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 0,
+						"w": 92,
+						"h": 56
+					},
+					"frame": {
+						"x": 1155,
+						"y": 1669,
+						"w": 92,
+						"h": 56
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 8,
+						"w": 58,
+						"h": 41
+					},
+					"frame": {
+						"x": 1699,
+						"y": 1686,
+						"w": 58,
+						"h": 41
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 0,
+						"w": 92,
+						"h": 55
+					},
+					"frame": {
+						"x": 1249,
+						"y": 1669,
+						"w": 92,
+						"h": 55
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 0,
+						"w": 92,
+						"h": 55
+					},
+					"frame": {
+						"x": 1343,
+						"y": 1669,
+						"w": 92,
+						"h": 55
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 8,
+						"w": 69,
+						"h": 37
+					},
+					"frame": {
+						"x": 1554,
+						"y": 1243,
+						"w": 69,
+						"h": 37
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 9,
+						"w": 69,
+						"h": 36
+					},
+					"frame": {
+						"x": 1554,
+						"y": 1282,
+						"w": 69,
+						"h": 36
+					}
+				},
+				{
+					"filename": "snowforts_orange_black_flag_extra_top.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 83,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 83,
+						"h": 67
+					},
+					"frame": {
+						"x": 1945,
+						"y": 420,
+						"w": 83,
+						"h": 67
+					}
+				},
+				{
+					"filename": "snowforts_clock_tower_left_wheel.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 41,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 41,
+						"h": 84
+					},
+					"frame": {
+						"x": 1939,
+						"y": 1326,
+						"w": 41,
+						"h": 84
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 98,
+						"h": 61
+					},
+					"frame": {
+						"x": 1812,
+						"y": 1604,
+						"w": 98,
+						"h": 61
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 93,
+						"h": 60
+					},
+					"frame": {
+						"x": 1806,
+						"y": 1667,
+						"w": 93,
+						"h": 60
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 75,
+						"h": 36
+					},
+					"frame": {
+						"x": 1,
+						"y": 1676,
+						"w": 75,
+						"h": 36
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 72,
+						"h": 36
+					},
+					"frame": {
+						"x": 78,
+						"y": 1676,
+						"w": 72,
+						"h": 36
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 72,
+						"h": 36
+					},
+					"frame": {
+						"x": 152,
+						"y": 1676,
+						"w": 72,
+						"h": 36
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 0,
+						"w": 78,
+						"h": 65
+					},
+					"frame": {
+						"x": 1912,
+						"y": 1604,
+						"w": 78,
+						"h": 65
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 93,
+						"h": 53
+					},
+					"frame": {
+						"x": 1901,
+						"y": 1671,
+						"w": 93,
+						"h": 53
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 70,
+						"h": 36
+					},
+					"frame": {
+						"x": 226,
+						"y": 1676,
+						"w": 70,
+						"h": 36
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 70,
+						"h": 37
+					},
+					"frame": {
+						"x": 298,
+						"y": 1676,
+						"w": 70,
+						"h": 37
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 9,
+						"w": 69,
+						"h": 36
+					},
+					"frame": {
+						"x": 370,
+						"y": 1676,
+						"w": 69,
+						"h": 36
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 5,
+						"w": 67,
+						"h": 43
+					},
+					"frame": {
+						"x": 1437,
+						"y": 1683,
+						"w": 67,
+						"h": 43
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 84,
+						"h": 61
+					},
+					"frame": {
+						"x": 1945,
+						"y": 489,
+						"w": 84,
+						"h": 61
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 94,
+						"h": 61
+					},
+					"frame": {
+						"x": 1921,
+						"y": 552,
+						"w": 94,
+						"h": 61
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 93,
+						"h": 52
+					},
+					"frame": {
+						"x": 1921,
+						"y": 615,
+						"w": 93,
+						"h": 52
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 0,
+						"w": 81,
+						"h": 63
+					},
+					"frame": {
+						"x": 1943,
+						"y": 669,
+						"w": 81,
+						"h": 63
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 0,
+						"w": 81,
+						"h": 62
+					},
+					"frame": {
+						"x": 1943,
+						"y": 734,
+						"w": 81,
+						"h": 62
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 0,
+						"w": 54,
+						"h": 53
+					},
+					"frame": {
+						"x": 1943,
+						"y": 798,
+						"w": 54,
+						"h": 53
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 9,
+						"w": 69,
+						"h": 36
+					},
+					"frame": {
+						"x": 855,
+						"y": 1689,
+						"w": 69,
+						"h": 36
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 68,
+						"h": 37
+					},
+					"frame": {
+						"x": 926,
+						"y": 1689,
+						"w": 68,
+						"h": 37
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 2,
+						"w": 60,
+						"h": 48
+					},
+					"frame": {
+						"x": 1969,
+						"y": 853,
+						"w": 60,
+						"h": 48
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 5,
+						"w": 58,
+						"h": 46
+					},
+					"frame": {
+						"x": 1969,
+						"y": 903,
+						"w": 58,
+						"h": 46
+					}
+				},
+				{
+					"filename": "snowforts_orange_flag_castle_flag0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 0,
+						"w": 92,
+						"h": 53
+					},
+					"frame": {
+						"x": 1917,
+						"y": 1425,
+						"w": 92,
+						"h": 53
+					}
+				},
+				{
+					"filename": "snowforts_black_flag_castle_yay0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 9,
+						"w": 62,
+						"h": 39
+					},
+					"frame": {
+						"x": 1961,
+						"y": 1480,
+						"w": 62,
+						"h": 39
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:c576715cf0e2a594abf261590059944d:b8323738f2178e1ce85c476fe1839ac7:bf4c1aca0b4c0c0e698d0bb807dcfdd6$"
+	}
+}

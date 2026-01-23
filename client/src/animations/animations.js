@@ -2,6 +2,19 @@ import { getGameManager, getSceneManager } from "../main";
 
 const animationKeys = {};
 
+/*
+    scene - scene you are creating it in
+    logicalAnimationKey -
+    phaserAnimationKey - The key that will you play it by (snowforts_flag_play)
+    textureKey - key of the json pack its in (snowforts)
+    framePrefix - prefix of the animation pngs (snowforts_orange_flag_castle_flag)
+    frames - list of frames [ { } ]
+    frame_ranges - if the animation uses ; in it
+    frame_ranges_start - start of it
+    frame_ranges_end - end of it
+    framerate - fps u want
+    repeat - if u want it to repeat (-1 for infinite)
+*/
 export function createAnimation({
     scene,
     logicalAnimationKey,
@@ -9,9 +22,10 @@ export function createAnimation({
     textureKey,
     framePrefix,
     frames,
-    frame_ranges,
-    frame_ranges_start,
-    frame_ranges_end,
+    framesExtension = null,
+    frame_ranges = false,
+    frame_ranges_start = 0,
+    frame_ranges_end = 0,
     frameRate,
     repeat
 }) {
@@ -30,7 +44,12 @@ export function createAnimation({
     }
 
     frames = frames.map((number) => {
-        return { "key": textureKey, frame: `${framePrefix}${number}` };
+        let frame = { "key": textureKey, frame: `${framePrefix}${number}` };
+        if(framesExtension) {
+            frame.frame = `${frame.frame}${framesExtension}`;
+        }
+
+        return frame;
     });
 
     scene.anims.create({

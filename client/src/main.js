@@ -9,6 +9,7 @@ import { PreloadAssetsScene } from './game/scenes/preload/PreloadAssetsScene.js'
 import { LoginScene } from './game/scenes/login/login.js';
 import { TownScene } from './game/scenes/world/rooms/town/town.js';
 import { MapScene } from './game/scenes/interfaces/map.js';
+import { SnowFortsScene } from './game/scenes/world/rooms/snowforts/snowforts.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -19,7 +20,7 @@ const config = {
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
-    scene: [MapScene],
+    scene: [SnowFortsScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH
