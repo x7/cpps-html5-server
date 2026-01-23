@@ -33,39 +33,39 @@ export class IcebergScene extends BaseScene {
 
         // Animations start here
         createAnimation({
-            scene: this,
-            logicalAnimationKey: "iceberg_aqua_grabber_idle_animation",
-            phaserAnimationKey: "iceberg_aqua_grabber_idle_animation_play",
-            textureKey: "iceberg",
-            framePrefix: "iceberg_aqua_grabber",
-            frames: Array.from({ length: 81 }, (_, i) => String(i + 1).padStart(4, "0")),
-            framesExtension: ".png",
-            frameRate: 24,
-            repeat: 0
+            "scene": this,
+            "logicalAnimationKey": "iceberg_aqua_grabber_idle_animation",
+            "phaserAnimationKey": "iceberg_aqua_grabber_idle_animation_play",
+            "textureKey": "iceberg",
+            "framePrefix": "iceberg_aqua_grabber",
+            "frames": Array.from({ length: 81 }, (_, i) => String(i + 1).padStart(4, "0")),
+            "framesExtension": ".png",
+            "frameRate": 24,
+            "repeat": 0
         });
 
         createAnimation({
-            scene: this,
-            logicalAnimationKey: "iceberg_aqua_grabber_open_animation",
-            phaserAnimationKey: "iceberg_aqua_grabber_open_animation_play",
-            textureKey: "iceberg",
-            framePrefix: "iceberg_aqua_grabber",
-            frames: Array.from({ length: 268 }, (_, i) => String(i + 82).padStart(4, "0")),
-            framesExtension: ".png",
-            frameRate: 24,
-            repeat: 0
+            "scene": this,
+            "logicalAnimationKey": "iceberg_aqua_grabber_open_animation",
+            "phaserAnimationKey": "iceberg_aqua_grabber_open_animation_play",
+            "textureKey": "iceberg",
+            "framePrefix": "iceberg_aqua_grabber",
+            "frames": Array.from({ length: 268 }, (_, i) => String(i + 82).padStart(4, "0")),
+            "framesExtension": ".png",
+            "frameRate": 24,
+            "repeat": 0
         });
 
         createAnimation({
-            scene: this,
-            logicalAnimationKey: "iceberg_aqua_grabber_close_animation",
-            phaserAnimationKey: "iceberg_aqua_grabber_close_animation_play",
-            textureKey: "iceberg",
-            framePrefix: "iceberg_aqua_grabber",
-            frames: Array.from({ length: 151 }, (_, i) => String(i + 350).padStart(4, "0")),
-            framesExtension: ".png",
-            frameRate: 24,
-            repeat: 0
+            "scene": this,
+            "logicalAnimationKey": "iceberg_aqua_grabber_close_animation",
+            "phaserAnimationKey": "iceberg_aqua_grabber_close_animation_play",
+            "textureKey": "iceberg",
+            "framePrefix": "iceberg_aqua_grabber",
+            "frames": Array.from({ length: 151 }, (_, i) => String(i + 350).padStart(4, "0")),
+            "framesExtension": ".png",
+            "frameRate": 24,
+            "repeat": 0
         });
 
         iceberg_aqua_grabber0001_png.play("iceberg_aqua_grabber_idle_animation_play");

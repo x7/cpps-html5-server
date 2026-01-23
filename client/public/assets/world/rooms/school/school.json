@@ -1,0 +1,661 @@
+{
+	"textures": [
+		{
+			"image": "school-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1986,
+				"h": 2007
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "school_bottom_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1706,
+						"h": 1011
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1706,
+						"h": 1011
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1706,
+						"h": 1011
+					}
+				},
+				{
+					"filename": "school_main_floor.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1602,
+						"h": 993
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1601,
+						"h": 992
+					},
+					"frame": {
+						"x": 1,
+						"y": 1014,
+						"w": 1601,
+						"h": 992
+					}
+				},
+				{
+					"filename": "school_middle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 381,
+						"h": 726
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 381,
+						"h": 726
+					},
+					"frame": {
+						"x": 1604,
+						"y": 1014,
+						"w": 381,
+						"h": 726
+					}
+				},
+				{
+					"filename": "school_buurger_icon0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 156
+					},
+					"frame": {
+						"x": 1709,
+						"y": 1,
+						"w": 226,
+						"h": 156
+					}
+				},
+				{
+					"filename": "school_buurger_icon0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 156
+					},
+					"frame": {
+						"x": 1709,
+						"y": 159,
+						"w": 226,
+						"h": 156
+					}
+				},
+				{
+					"filename": "school_buurger_icon0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 156
+					},
+					"frame": {
+						"x": 1709,
+						"y": 317,
+						"w": 226,
+						"h": 156
+					}
+				},
+				{
+					"filename": "school_table_left_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 203,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 203,
+						"h": 110
+					},
+					"frame": {
+						"x": 1709,
+						"y": 475,
+						"w": 203,
+						"h": 110
+					}
+				},
+				{
+					"filename": "school_right_side_bottom_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 196,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 196,
+						"h": 156
+					},
+					"frame": {
+						"x": 1709,
+						"y": 587,
+						"w": 196,
+						"h": 156
+					}
+				},
+				{
+					"filename": "school_right_side_chair.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 146,
+						"h": 172
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 146,
+						"h": 171
+					},
+					"frame": {
+						"x": 1709,
+						"y": 745,
+						"w": 146,
+						"h": 171
+					}
+				},
+				{
+					"filename": "school_table_left_top_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 137
+					},
+					"frame": {
+						"x": 1857,
+						"y": 745,
+						"w": 123,
+						"h": 137
+					}
+				},
+				{
+					"filename": "school_table_top.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 86,
+						"h": 111
+					},
+					"frame": {
+						"x": 1857,
+						"y": 884,
+						"w": 86,
+						"h": 111
+					}
+				}
+			]
+		},
+		{
+			"image": "school-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1709,
+				"h": 1658
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "school_door.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1707,
+						"h": 883
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 1707,
+						"h": 882
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1707,
+						"h": 882
+					}
+				},
+				{
+					"filename": "school_right_side_floor0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 552,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 552,
+						"h": 385
+					},
+					"frame": {
+						"x": 1,
+						"y": 885,
+						"w": 552,
+						"h": 385
+					}
+				},
+				{
+					"filename": "school_right_side_floor0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 552,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 552,
+						"h": 385
+					},
+					"frame": {
+						"x": 1,
+						"y": 1272,
+						"w": 552,
+						"h": 385
+					}
+				},
+				{
+					"filename": "school_right_side_floor0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 552,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 552,
+						"h": 385
+					},
+					"frame": {
+						"x": 555,
+						"y": 885,
+						"w": 552,
+						"h": 385
+					}
+				},
+				{
+					"filename": "school_right_side_floor0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 552,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 552,
+						"h": 385
+					},
+					"frame": {
+						"x": 555,
+						"y": 1272,
+						"w": 552,
+						"h": 385
+					}
+				},
+				{
+					"filename": "school_table_left.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 263,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 263,
+						"h": 111
+					},
+					"frame": {
+						"x": 1109,
+						"y": 885,
+						"w": 263,
+						"h": 111
+					}
+				},
+				{
+					"filename": "school_food_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 248,
+						"h": 201
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 248,
+						"h": 201
+					},
+					"frame": {
+						"x": 1374,
+						"y": 885,
+						"w": 248,
+						"h": 201
+					}
+				},
+				{
+					"filename": "school_right_side_stairs.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 159
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 159
+					},
+					"frame": {
+						"x": 1624,
+						"y": 885,
+						"w": 80,
+						"h": 159
+					}
+				},
+				{
+					"filename": "school_microphone.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 72,
+						"h": 99
+					},
+					"frame": {
+						"x": 1624,
+						"y": 1046,
+						"w": 72,
+						"h": 99
+					}
+				},
+				{
+					"filename": "school_pencil.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 9,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 9,
+						"h": 40
+					},
+					"frame": {
+						"x": 1698,
+						"y": 1046,
+						"w": 9,
+						"h": 40
+					}
+				},
+				{
+					"filename": "school_table_left_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 228,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 228,
+						"h": 127
+					},
+					"frame": {
+						"x": 1109,
+						"y": 998,
+						"w": 228,
+						"h": 127
+					}
+				},
+				{
+					"filename": "school_buurger_icon0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 156
+					},
+					"frame": {
+						"x": 1339,
+						"y": 1088,
+						"w": 226,
+						"h": 156
+					}
+				},
+				{
+					"filename": "school_buurger_icon0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 156
+					},
+					"frame": {
+						"x": 1109,
+						"y": 1127,
+						"w": 226,
+						"h": 156
+					}
+				},
+				{
+					"filename": "school_buurger_icon0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 156
+					},
+					"frame": {
+						"x": 1337,
+						"y": 1246,
+						"w": 226,
+						"h": 156
+					}
+				},
+				{
+					"filename": "school_buurger_icon0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 156
+					},
+					"frame": {
+						"x": 1109,
+						"y": 1285,
+						"w": 226,
+						"h": 156
+					}
+				},
+				{
+					"filename": "school_right_side_top_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 183,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 183,
+						"h": 153
+					},
+					"frame": {
+						"x": 1109,
+						"y": 1443,
+						"w": 183,
+						"h": 153
+					}
+				},
+				{
+					"filename": "school_table_left_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 162,
+						"h": 146
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 162,
+						"h": 145
+					},
+					"frame": {
+						"x": 1294,
+						"y": 1443,
+						"w": 162,
+						"h": 145
+					}
+				},
+				{
+					"filename": "school_food_railing.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 219,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 219,
+						"h": 116
+					},
+					"frame": {
+						"x": 1458,
+						"y": 1404,
+						"w": 219,
+						"h": 116
+					}
+				},
+				{
+					"filename": "school_table_top_left.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 217,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 217,
+						"h": 126
+					},
+					"frame": {
+						"x": 1458,
+						"y": 1522,
+						"w": 217,
+						"h": 126
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:294493aa52f022662ac13072fea46011:60029f8d1c8457303506658178d86ab5:5d5c435a05cc96170b97209413d1bb7f$"
+	}
+}
