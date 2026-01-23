@@ -1,0 +1,2803 @@
+{
+	"textures": [
+		{
+			"image": "docks-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2037,
+				"h": 2041
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "docks_main.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1832,
+						"h": 943
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1735,
+						"h": 943
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1735,
+						"h": 943
+					}
+				},
+				{
+					"filename": "docks_stairs.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 292,
+						"h": 280
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 292,
+						"h": 280
+					},
+					"frame": {
+						"x": 1738,
+						"y": 1,
+						"w": 292,
+						"h": 280
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0068.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 283,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 508,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 508,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 508,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 508,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 508,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0059.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 508,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0067.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 508,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0066.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 223
+					},
+					"frame": {
+						"x": 1738,
+						"y": 733,
+						"w": 288,
+						"h": 223
+					}
+				},
+				{
+					"filename": "docks_surf_board_buy_interface.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1502,
+						"h": 1025
+					},
+					"spriteSourceSize": {
+						"x": 238,
+						"y": 0,
+						"w": 1260,
+						"h": 1022
+					},
+					"frame": {
+						"x": 1,
+						"y": 946,
+						"w": 1260,
+						"h": 1022
+					}
+				},
+				{
+					"filename": "docks_frozen_right_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 380,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 380,
+						"h": 272
+					},
+					"frame": {
+						"x": 1263,
+						"y": 946,
+						"w": 380,
+						"h": 272
+					}
+				},
+				{
+					"filename": "docks_random_stick.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 146
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 146
+					},
+					"frame": {
+						"x": 1645,
+						"y": 946,
+						"w": 79,
+						"h": 146
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1726,
+						"y": 958,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1726,
+						"y": 958,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1726,
+						"y": 958,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1726,
+						"y": 958,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1726,
+						"y": 958,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0075.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1726,
+						"y": 958,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0076.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1726,
+						"y": 958,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0077.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1726,
+						"y": 958,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0078.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1726,
+						"y": 958,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0079.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1726,
+						"y": 958,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0080.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1726,
+						"y": 958,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1645,
+						"y": 1182,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1645,
+						"y": 1182,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1645,
+						"y": 1182,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0073.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1645,
+						"y": 1182,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0074.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1645,
+						"y": 1182,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_left_side_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 85,
+						"h": 124
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 85,
+						"h": 124
+					},
+					"frame": {
+						"x": 1935,
+						"y": 1182,
+						"w": 85,
+						"h": 124
+					}
+				},
+				{
+					"filename": "docks_lampost.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 126
+					},
+					"frame": {
+						"x": 1935,
+						"y": 1308,
+						"w": 80,
+						"h": 126
+					}
+				},
+				{
+					"filename": "docks_deck_board.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 570,
+						"h": 515
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 515
+					},
+					"frame": {
+						"x": 1263,
+						"y": 1406,
+						"w": 570,
+						"h": 515
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 58,
+						"w": 210,
+						"h": 170
+					},
+					"frame": {
+						"x": 1263,
+						"y": 1220,
+						"w": 210,
+						"h": 170
+					}
+				},
+				{
+					"filename": "docks_buy_surf_board0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 103,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 103,
+						"h": 100
+					},
+					"frame": {
+						"x": 1475,
+						"y": 1220,
+						"w": 103,
+						"h": 100
+					}
+				},
+				{
+					"filename": "docks_buy_surf_board0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 103,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 2,
+						"w": 99,
+						"h": 82
+					},
+					"frame": {
+						"x": 1475,
+						"y": 1322,
+						"w": 99,
+						"h": 82
+					}
+				},
+				{
+					"filename": "docks_buy_surf_board.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 97,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 97,
+						"h": 80
+					},
+					"frame": {
+						"x": 1835,
+						"y": 1406,
+						"w": 97,
+						"h": 80
+					}
+				},
+				{
+					"filename": "docks_buy_surf_board0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 103,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 101,
+						"h": 86
+					},
+					"frame": {
+						"x": 1934,
+						"y": 1436,
+						"w": 101,
+						"h": 86
+					}
+				},
+				{
+					"filename": "docks_surf_board_sale.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 201,
+						"h": 214
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 201,
+						"h": 214
+					},
+					"frame": {
+						"x": 1835,
+						"y": 1524,
+						"w": 201,
+						"h": 214
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 32,
+						"w": 200,
+						"h": 196
+					},
+					"frame": {
+						"x": 1835,
+						"y": 1740,
+						"w": 200,
+						"h": 196
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 114,
+						"w": 264,
+						"h": 114
+					},
+					"frame": {
+						"x": 1263,
+						"y": 1923,
+						"w": 264,
+						"h": 114
+					}
+				},
+				{
+					"filename": "docks_bench.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 249,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 249,
+						"h": 117
+					},
+					"frame": {
+						"x": 1529,
+						"y": 1923,
+						"w": 249,
+						"h": 117
+					}
+				},
+				{
+					"filename": "docks_buy_surf_board0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 103,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 103,
+						"h": 88
+					},
+					"frame": {
+						"x": 1780,
+						"y": 1938,
+						"w": 103,
+						"h": 88
+					}
+				}
+			]
+		},
+		{
+			"image": "docks-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1958,
+				"h": 1109
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "docks_main_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1622,
+						"h": 380
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1622,
+						"h": 380
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1622,
+						"h": 380
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 1,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 1,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0070.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 1,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0071.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 1,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0072.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 1,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0069.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 1625,
+						"y": 225,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_pink_surfboard.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 884,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 884,
+						"h": 273
+					},
+					"frame": {
+						"x": 1,
+						"y": 383,
+						"w": 884,
+						"h": 273
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 887,
+						"y": 383,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 887,
+						"y": 383,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 887,
+						"y": 383,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 887,
+						"y": 383,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 887,
+						"y": 383,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 887,
+						"y": 383,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 887,
+						"y": 383,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 887,
+						"y": 383,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 887,
+						"y": 383,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 887,
+						"y": 383,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_hydro_hopper0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 227
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 288,
+						"h": 222
+					},
+					"frame": {
+						"x": 887,
+						"y": 383,
+						"w": 288,
+						"h": 222
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 13,
+						"w": 190,
+						"h": 215
+					},
+					"frame": {
+						"x": 1177,
+						"y": 383,
+						"w": 190,
+						"h": 215
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 2,
+						"w": 179,
+						"h": 226
+					},
+					"frame": {
+						"x": 1369,
+						"y": 383,
+						"w": 179,
+						"h": 226
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 0,
+						"w": 179,
+						"h": 214
+					},
+					"frame": {
+						"x": 1177,
+						"y": 600,
+						"w": 179,
+						"h": 214
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 2,
+						"w": 179,
+						"h": 204
+					},
+					"frame": {
+						"x": 887,
+						"y": 607,
+						"w": 179,
+						"h": 204
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 11,
+						"w": 179,
+						"h": 192
+					},
+					"frame": {
+						"x": 1550,
+						"y": 449,
+						"w": 179,
+						"h": 192
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 27,
+						"w": 179,
+						"h": 179
+					},
+					"frame": {
+						"x": 1358,
+						"y": 611,
+						"w": 179,
+						"h": 179
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 50,
+						"w": 179,
+						"h": 178
+					},
+					"frame": {
+						"x": 1731,
+						"y": 449,
+						"w": 179,
+						"h": 178
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 52,
+						"w": 179,
+						"h": 176
+					},
+					"frame": {
+						"x": 1731,
+						"y": 629,
+						"w": 179,
+						"h": 176
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 52,
+						"w": 179,
+						"h": 176
+					},
+					"frame": {
+						"x": 1539,
+						"y": 643,
+						"w": 179,
+						"h": 176
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 58,
+						"w": 179,
+						"h": 170
+					},
+					"frame": {
+						"x": 1358,
+						"y": 792,
+						"w": 179,
+						"h": 170
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 59,
+						"w": 179,
+						"h": 169
+					},
+					"frame": {
+						"x": 1720,
+						"y": 807,
+						"w": 179,
+						"h": 169
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 48,
+						"w": 179,
+						"h": 166
+					},
+					"frame": {
+						"x": 1539,
+						"y": 821,
+						"w": 179,
+						"h": 166
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 101,
+						"w": 237,
+						"h": 127
+					},
+					"frame": {
+						"x": 1720,
+						"y": 978,
+						"w": 237,
+						"h": 127
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 95,
+						"w": 223,
+						"h": 133
+					},
+					"frame": {
+						"x": 1,
+						"y": 658,
+						"w": 223,
+						"h": 133
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 89,
+						"w": 208,
+						"h": 139
+					},
+					"frame": {
+						"x": 226,
+						"y": 658,
+						"w": 208,
+						"h": 139
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 67,
+						"w": 179,
+						"h": 161
+					},
+					"frame": {
+						"x": 1,
+						"y": 793,
+						"w": 179,
+						"h": 161
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 69,
+						"w": 179,
+						"h": 159
+					},
+					"frame": {
+						"x": 436,
+						"y": 658,
+						"w": 179,
+						"h": 159
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 92,
+						"w": 200,
+						"h": 136
+					},
+					"frame": {
+						"x": 182,
+						"y": 799,
+						"w": 200,
+						"h": 136
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 76,
+						"w": 179,
+						"h": 152
+					},
+					"frame": {
+						"x": 617,
+						"y": 658,
+						"w": 179,
+						"h": 152
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 76,
+						"w": 179,
+						"h": 152
+					},
+					"frame": {
+						"x": 617,
+						"y": 658,
+						"w": 179,
+						"h": 152
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 76,
+						"w": 179,
+						"h": 152
+					},
+					"frame": {
+						"x": 617,
+						"y": 658,
+						"w": 179,
+						"h": 152
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 77,
+						"w": 179,
+						"h": 151
+					},
+					"frame": {
+						"x": 617,
+						"y": 812,
+						"w": 179,
+						"h": 151
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 78,
+						"w": 179,
+						"h": 150
+					},
+					"frame": {
+						"x": 384,
+						"y": 819,
+						"w": 179,
+						"h": 150
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 94,
+						"w": 198,
+						"h": 134
+					},
+					"frame": {
+						"x": 182,
+						"y": 937,
+						"w": 198,
+						"h": 134
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 80,
+						"w": 179,
+						"h": 148
+					},
+					"frame": {
+						"x": 1,
+						"y": 956,
+						"w": 179,
+						"h": 148
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 80,
+						"w": 179,
+						"h": 148
+					},
+					"frame": {
+						"x": 798,
+						"y": 813,
+						"w": 179,
+						"h": 148
+					}
+				},
+				{
+					"filename": "docks_right_side_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 190,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 190,
+						"h": 139
+					},
+					"frame": {
+						"x": 979,
+						"y": 813,
+						"w": 190,
+						"h": 139
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 83,
+						"w": 182,
+						"h": 145
+					},
+					"frame": {
+						"x": 1171,
+						"y": 816,
+						"w": 182,
+						"h": 145
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 82,
+						"w": 179,
+						"h": 146
+					},
+					"frame": {
+						"x": 979,
+						"y": 954,
+						"w": 179,
+						"h": 146
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 83,
+						"w": 179,
+						"h": 145
+					},
+					"frame": {
+						"x": 798,
+						"y": 963,
+						"w": 179,
+						"h": 145
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 83,
+						"w": 179,
+						"h": 145
+					},
+					"frame": {
+						"x": 1160,
+						"y": 963,
+						"w": 179,
+						"h": 145
+					}
+				},
+				{
+					"filename": "docks_bouncy_circles0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 264,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 87,
+						"w": 184,
+						"h": 141
+					},
+					"frame": {
+						"x": 1341,
+						"y": 964,
+						"w": 184,
+						"h": 141
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:4074e1a64b0bb41d5d7bc6a35e84b169:e88da1ecda58f03560622d6cdcc90973:d1096fc95968bee025ce5bca720f83db$"
+	}
+}
