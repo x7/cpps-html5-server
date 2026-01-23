@@ -1,0 +1,8284 @@
+{
+	"textures": [
+		{
+			"image": "danceclub-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2047,
+				"h": 2025
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "danceclub_main_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1765,
+						"h": 1200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1765,
+						"h": 1200
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1765,
+						"h": 1200
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 904,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 904,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 904,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 904,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 904,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 904,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 904,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 904,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 904,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 904,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 904,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 904,
+						"y": 1203,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_town_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 157,
+						"h": 401
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 24,
+						"w": 146,
+						"h": 363
+					},
+					"frame": {
+						"x": 1768,
+						"y": 1,
+						"w": 146,
+						"h": 363
+					}
+				},
+				{
+					"filename": "danceclub_upstairs_door0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 215,
+						"h": 298
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 32,
+						"w": 174,
+						"h": 246
+					},
+					"frame": {
+						"x": 1768,
+						"y": 366,
+						"w": 174,
+						"h": 246
+					}
+				},
+				{
+					"filename": "danceclub_unground_entrance0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 185
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 185
+					},
+					"frame": {
+						"x": 1916,
+						"y": 1,
+						"w": 130,
+						"h": 185
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0048.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 81,
+						"h": 122
+					},
+					"frame": {
+						"x": 1916,
+						"y": 188,
+						"w": 81,
+						"h": 122
+					}
+				},
+				{
+					"filename": "danceclub_sound_studio_small_floor.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 23
+					},
+					"frame": {
+						"x": 1916,
+						"y": 312,
+						"w": 116,
+						"h": 23
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0201.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 15,
+						"w": 47,
+						"h": 105
+					},
+					"frame": {
+						"x": 1999,
+						"y": 188,
+						"w": 47,
+						"h": 105
+					}
+				},
+				{
+					"filename": "danceclub_unground_entrance0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 195,
+						"h": 197
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 195,
+						"h": 197
+					},
+					"frame": {
+						"x": 1768,
+						"y": 614,
+						"w": 195,
+						"h": 197
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 81,
+						"h": 120
+					},
+					"frame": {
+						"x": 1944,
+						"y": 337,
+						"w": 81,
+						"h": 120
+					}
+				},
+				{
+					"filename": "danceclub_left_bottom_speaker0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 1944,
+						"y": 459,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_left_bottom_speaker0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 1944,
+						"y": 459,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_left_bottom_speaker0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 1944,
+						"y": 459,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_left_bottom_speaker0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 1944,
+						"y": 459,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_left_bottom_speaker0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 1944,
+						"y": 459,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_left_bottom_speaker0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 1944,
+						"y": 459,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_left_bottom_speaker0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 1944,
+						"y": 459,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_left_bottom_speaker0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 1944,
+						"y": 459,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_left_bottom_speaker0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 1944,
+						"y": 459,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_left_bottom_speaker0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 1944,
+						"y": 459,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_left_bottom_speaker_bpx.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 126,
+						"h": 185
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 126,
+						"h": 185
+					},
+					"frame": {
+						"x": 1768,
+						"y": 813,
+						"w": 126,
+						"h": 185
+					}
+				},
+				{
+					"filename": "danceclub_left_side_top_railing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 87,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 87,
+						"h": 75
+					},
+					"frame": {
+						"x": 1768,
+						"y": 1000,
+						"w": 87,
+						"h": 75
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 81,
+						"h": 105
+					},
+					"frame": {
+						"x": 1768,
+						"y": 1077,
+						"w": 81,
+						"h": 105
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0197.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 0,
+						"w": 52,
+						"h": 118
+					},
+					"frame": {
+						"x": 1807,
+						"y": 1184,
+						"w": 52,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 81,
+						"h": 105
+					},
+					"frame": {
+						"x": 1857,
+						"y": 1000,
+						"w": 81,
+						"h": 105
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 4,
+						"w": 77,
+						"h": 103
+					},
+					"frame": {
+						"x": 1896,
+						"y": 813,
+						"w": 77,
+						"h": 103
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 4,
+						"w": 77,
+						"h": 103
+					},
+					"frame": {
+						"x": 1896,
+						"y": 813,
+						"w": 77,
+						"h": 103
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 4,
+						"w": 77,
+						"h": 103
+					},
+					"frame": {
+						"x": 1896,
+						"y": 813,
+						"w": 77,
+						"h": 103
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 4,
+						"w": 77,
+						"h": 103
+					},
+					"frame": {
+						"x": 1896,
+						"y": 813,
+						"w": 77,
+						"h": 103
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 4,
+						"w": 77,
+						"h": 103
+					},
+					"frame": {
+						"x": 1896,
+						"y": 813,
+						"w": 77,
+						"h": 103
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 4,
+						"w": 77,
+						"h": 103
+					},
+					"frame": {
+						"x": 1896,
+						"y": 813,
+						"w": 77,
+						"h": 103
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 4,
+						"w": 77,
+						"h": 103
+					},
+					"frame": {
+						"x": 1896,
+						"y": 813,
+						"w": 77,
+						"h": 103
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 4,
+						"w": 77,
+						"h": 103
+					},
+					"frame": {
+						"x": 1896,
+						"y": 813,
+						"w": 77,
+						"h": 103
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 4,
+						"w": 77,
+						"h": 103
+					},
+					"frame": {
+						"x": 1896,
+						"y": 813,
+						"w": 77,
+						"h": 103
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 4,
+						"w": 77,
+						"h": 103
+					},
+					"frame": {
+						"x": 1896,
+						"y": 813,
+						"w": 77,
+						"h": 103
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 4,
+						"w": 77,
+						"h": 103
+					},
+					"frame": {
+						"x": 1896,
+						"y": 813,
+						"w": 77,
+						"h": 103
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 4,
+						"w": 77,
+						"h": 103
+					},
+					"frame": {
+						"x": 1896,
+						"y": 813,
+						"w": 77,
+						"h": 103
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1896,
+						"y": 918,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0194.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 3,
+						"w": 60,
+						"h": 116
+					},
+					"frame": {
+						"x": 1965,
+						"y": 579,
+						"w": 60,
+						"h": 116
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 22,
+						"w": 81,
+						"h": 100
+					},
+					"frame": {
+						"x": 1965,
+						"y": 697,
+						"w": 81,
+						"h": 100
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0193.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 12,
+						"w": 57,
+						"h": 107
+					},
+					"frame": {
+						"x": 1975,
+						"y": 799,
+						"w": 57,
+						"h": 107
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0207.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 74,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1851,
+						"y": 1107,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0208.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 74,
+						"w": 70,
+						"h": 49
+					},
+					"frame": {
+						"x": 1851,
+						"y": 1107,
+						"w": 70,
+						"h": 49
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0195.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 3,
+						"w": 51,
+						"h": 116
+					},
+					"frame": {
+						"x": 1807,
+						"y": 1304,
+						"w": 51,
+						"h": 116
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0199.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 51,
+						"h": 115
+					},
+					"frame": {
+						"x": 1807,
+						"y": 1422,
+						"w": 51,
+						"h": 115
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0200.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 6,
+						"w": 51,
+						"h": 113
+					},
+					"frame": {
+						"x": 1807,
+						"y": 1539,
+						"w": 51,
+						"h": 113
+					}
+				},
+				{
+					"filename": "danceclub_railing_right_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 74,
+						"h": 96
+					},
+					"frame": {
+						"x": 1807,
+						"y": 1654,
+						"w": 74,
+						"h": 96
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 27,
+						"w": 81,
+						"h": 95
+					},
+					"frame": {
+						"x": 1807,
+						"y": 1752,
+						"w": 81,
+						"h": 95
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 36,
+						"w": 81,
+						"h": 86
+					},
+					"frame": {
+						"x": 1807,
+						"y": 1849,
+						"w": 81,
+						"h": 86
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1807,
+						"y": 1937,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_top_left_speaker0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 53,
+						"h": 93
+					},
+					"frame": {
+						"x": 1860,
+						"y": 1304,
+						"w": 53,
+						"h": 93
+					}
+				},
+				{
+					"filename": "danceclub_top_left_speaker0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 53,
+						"h": 93
+					},
+					"frame": {
+						"x": 1860,
+						"y": 1304,
+						"w": 53,
+						"h": 93
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1158,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_top_left_speaker0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 53,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 52,
+						"h": 92
+					},
+					"frame": {
+						"x": 1940,
+						"y": 1000,
+						"w": 52,
+						"h": 92
+					}
+				},
+				{
+					"filename": "danceclub_top_left_speaker0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 53,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 52,
+						"h": 92
+					},
+					"frame": {
+						"x": 1940,
+						"y": 1000,
+						"w": 52,
+						"h": 92
+					}
+				},
+				{
+					"filename": "danceclub_top_left_speaker0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 53,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 52,
+						"h": 92
+					},
+					"frame": {
+						"x": 1940,
+						"y": 1000,
+						"w": 52,
+						"h": 92
+					}
+				},
+				{
+					"filename": "danceclub_top_left_speaker0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 53,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 52,
+						"h": 92
+					},
+					"frame": {
+						"x": 1940,
+						"y": 1000,
+						"w": 52,
+						"h": 92
+					}
+				},
+				{
+					"filename": "danceclub_top_left_speaker0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 53,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 52,
+						"h": 92
+					},
+					"frame": {
+						"x": 1940,
+						"y": 1000,
+						"w": 52,
+						"h": 92
+					}
+				},
+				{
+					"filename": "danceclub_top_left_speaker0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 53,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 52,
+						"h": 92
+					},
+					"frame": {
+						"x": 1940,
+						"y": 1000,
+						"w": 52,
+						"h": 92
+					}
+				},
+				{
+					"filename": "danceclub_top_left_speaker0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 53,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 52,
+						"h": 92
+					},
+					"frame": {
+						"x": 1940,
+						"y": 1000,
+						"w": 52,
+						"h": 92
+					}
+				},
+				{
+					"filename": "danceclub_top_left_speaker0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 53,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 52,
+						"h": 92
+					},
+					"frame": {
+						"x": 1940,
+						"y": 1000,
+						"w": 52,
+						"h": 92
+					}
+				},
+				{
+					"filename": "danceclub_top_left_speaker0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 53,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 52,
+						"h": 92
+					},
+					"frame": {
+						"x": 1940,
+						"y": 1000,
+						"w": 52,
+						"h": 92
+					}
+				},
+				{
+					"filename": "danceclub_top_left_speaker0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 53,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 52,
+						"h": 92
+					},
+					"frame": {
+						"x": 1940,
+						"y": 1000,
+						"w": 52,
+						"h": 92
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0204.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 47,
+						"w": 57,
+						"h": 76
+					},
+					"frame": {
+						"x": 1979,
+						"y": 908,
+						"w": 57,
+						"h": 76
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0206.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 71,
+						"w": 68,
+						"h": 52
+					},
+					"frame": {
+						"x": 1940,
+						"y": 1094,
+						"w": 68,
+						"h": 52
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0190.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 48,
+						"w": 49,
+						"h": 74
+					},
+					"frame": {
+						"x": 1994,
+						"y": 986,
+						"w": 49,
+						"h": 74
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0074.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0077.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0086.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0089.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0098.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0101.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 70,
+						"w": 66,
+						"h": 53
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1240,
+						"w": 66,
+						"h": 53
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1860,
+						"y": 1399,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1915,
+						"y": 1295,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0125.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0126.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0127.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0128.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0129.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0130.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0131.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0132.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0133.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0134.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0135.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0136.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0137.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0138.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0139.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0140.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0141.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0142.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0143.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0144.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0145.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0146.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0147.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0148.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0149.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0150.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0151.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0152.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0153.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0154.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0155.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0156.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0157.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0158.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0159.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0160.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0161.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0162.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0163.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0164.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0165.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0166.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0167.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0168.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0169.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0170.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0171.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0172.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0173.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0174.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0175.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0176.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0177.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0178.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0179.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0180.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0181.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0182.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0183.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0184.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0185.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 72,
+						"w": 61,
+						"h": 51
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1240,
+						"w": 61,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1944,
+						"y": 1148,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1860,
+						"y": 1481,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1860,
+						"y": 1563,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1883,
+						"y": 1645,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1943,
+						"y": 1377,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1943,
+						"y": 1459,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1943,
+						"y": 1541,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1727,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 55,
+						"w": 57,
+						"h": 68
+					},
+					"frame": {
+						"x": 1966,
+						"y": 1623,
+						"w": 57,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 55,
+						"w": 57,
+						"h": 68
+					},
+					"frame": {
+						"x": 1966,
+						"y": 1623,
+						"w": 57,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 55,
+						"w": 57,
+						"h": 68
+					},
+					"frame": {
+						"x": 1966,
+						"y": 1623,
+						"w": 57,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 55,
+						"w": 57,
+						"h": 68
+					},
+					"frame": {
+						"x": 1966,
+						"y": 1623,
+						"w": 57,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 55,
+						"w": 57,
+						"h": 68
+					},
+					"frame": {
+						"x": 1966,
+						"y": 1623,
+						"w": 57,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0069.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 55,
+						"w": 57,
+						"h": 68
+					},
+					"frame": {
+						"x": 1966,
+						"y": 1623,
+						"w": 57,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0081.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 55,
+						"w": 57,
+						"h": 68
+					},
+					"frame": {
+						"x": 1966,
+						"y": 1623,
+						"w": 57,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0093.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 55,
+						"w": 57,
+						"h": 68
+					},
+					"frame": {
+						"x": 1966,
+						"y": 1623,
+						"w": 57,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0105.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 55,
+						"w": 57,
+						"h": 68
+					},
+					"frame": {
+						"x": 1966,
+						"y": 1623,
+						"w": 57,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1809,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0066.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0073.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0078.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0085.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0090.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0097.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0102.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1891,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 56,
+						"w": 60,
+						"h": 67
+					},
+					"frame": {
+						"x": 1955,
+						"y": 1891,
+						"w": 60,
+						"h": 67
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 56,
+						"w": 60,
+						"h": 67
+					},
+					"frame": {
+						"x": 1955,
+						"y": 1891,
+						"w": 60,
+						"h": 67
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 56,
+						"w": 60,
+						"h": 67
+					},
+					"frame": {
+						"x": 1955,
+						"y": 1891,
+						"w": 60,
+						"h": 67
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 56,
+						"w": 60,
+						"h": 67
+					},
+					"frame": {
+						"x": 1955,
+						"y": 1891,
+						"w": 60,
+						"h": 67
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 56,
+						"w": 60,
+						"h": 67
+					},
+					"frame": {
+						"x": 1955,
+						"y": 1891,
+						"w": 60,
+						"h": 67
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0070.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 56,
+						"w": 60,
+						"h": 67
+					},
+					"frame": {
+						"x": 1955,
+						"y": 1891,
+						"w": 60,
+						"h": 67
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0082.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 56,
+						"w": 60,
+						"h": 67
+					},
+					"frame": {
+						"x": 1955,
+						"y": 1891,
+						"w": 60,
+						"h": 67
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0094.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 56,
+						"w": 60,
+						"h": 67
+					},
+					"frame": {
+						"x": 1955,
+						"y": 1891,
+						"w": 60,
+						"h": 67
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0106.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 56,
+						"w": 60,
+						"h": 67
+					},
+					"frame": {
+						"x": 1955,
+						"y": 1891,
+						"w": 60,
+						"h": 67
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0214.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 56,
+						"w": 60,
+						"h": 67
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1949,
+						"w": 60,
+						"h": 67
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0216.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 59,
+						"w": 59,
+						"h": 64
+					},
+					"frame": {
+						"x": 1952,
+						"y": 1960,
+						"w": 59,
+						"h": 64
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0213.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 56,
+						"w": 59,
+						"h": 67
+					},
+					"frame": {
+						"x": 1973,
+						"y": 1693,
+						"w": 59,
+						"h": 67
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 59,
+						"w": 57,
+						"h": 64
+					},
+					"frame": {
+						"x": 1973,
+						"y": 1762,
+						"w": 57,
+						"h": 64
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 59,
+						"w": 57,
+						"h": 64
+					},
+					"frame": {
+						"x": 1973,
+						"y": 1762,
+						"w": 57,
+						"h": 64
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 59,
+						"w": 57,
+						"h": 64
+					},
+					"frame": {
+						"x": 1973,
+						"y": 1762,
+						"w": 57,
+						"h": 64
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 59,
+						"w": 57,
+						"h": 64
+					},
+					"frame": {
+						"x": 1973,
+						"y": 1762,
+						"w": 57,
+						"h": 64
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 59,
+						"w": 57,
+						"h": 64
+					},
+					"frame": {
+						"x": 1973,
+						"y": 1762,
+						"w": 57,
+						"h": 64
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0072.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 59,
+						"w": 57,
+						"h": 64
+					},
+					"frame": {
+						"x": 1973,
+						"y": 1762,
+						"w": 57,
+						"h": 64
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0084.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 59,
+						"w": 57,
+						"h": 64
+					},
+					"frame": {
+						"x": 1973,
+						"y": 1762,
+						"w": 57,
+						"h": 64
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0096.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 59,
+						"w": 57,
+						"h": 64
+					},
+					"frame": {
+						"x": 1973,
+						"y": 1762,
+						"w": 57,
+						"h": 64
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0212.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 63,
+						"w": 59,
+						"h": 60
+					},
+					"frame": {
+						"x": 1973,
+						"y": 1828,
+						"w": 59,
+						"h": 60
+					}
+				}
+			]
+		},
+		{
+			"image": "danceclub-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1873,
+				"h": 1993
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "danceclub_lights.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1871,
+						"h": 979
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1871,
+						"h": 979
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1871,
+						"h": 979
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 982,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0026.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 982,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0027.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 982,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0028.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 982,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0029.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 982,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0030.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 982,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0031.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 982,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0032.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 982,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0033.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 982,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0034.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 982,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0035.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 982,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_dance_floor0036.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 901,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 901,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 982,
+						"w": 901,
+						"h": 819
+					}
+				},
+				{
+					"filename": "danceclub_upstairs_entrance.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 466,
+						"h": 525
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 466,
+						"h": 519
+					},
+					"frame": {
+						"x": 904,
+						"y": 982,
+						"w": 466,
+						"h": 519
+					}
+				},
+				{
+					"filename": "danceclub_bottom_left_couch.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 318,
+						"h": 395
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 318,
+						"h": 395
+					},
+					"frame": {
+						"x": 1372,
+						"y": 982,
+						"w": 318,
+						"h": 395
+					}
+				},
+				{
+					"filename": "danceclub_top_railings.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 537,
+						"h": 235
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 537,
+						"h": 235
+					},
+					"frame": {
+						"x": 904,
+						"y": 1503,
+						"w": 537,
+						"h": 235
+					}
+				},
+				{
+					"filename": "danceclub_sound_studio.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 372,
+						"h": 168
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 372,
+						"h": 168
+					},
+					"frame": {
+						"x": 1,
+						"y": 1803,
+						"w": 372,
+						"h": 168
+					}
+				},
+				{
+					"filename": "danceclub_upstairs_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 215,
+						"h": 298
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 32,
+						"w": 174,
+						"h": 246
+					},
+					"frame": {
+						"x": 1692,
+						"y": 982,
+						"w": 174,
+						"h": 246
+					}
+				},
+				{
+					"filename": "danceclub_sound_studio_top.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 347,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 347,
+						"h": 62
+					},
+					"frame": {
+						"x": 375,
+						"y": 1803,
+						"w": 347,
+						"h": 62
+					}
+				},
+				{
+					"filename": "danceclub_sound_studio_music_disc0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 283,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 283,
+						"h": 35
+					},
+					"frame": {
+						"x": 904,
+						"y": 1740,
+						"w": 283,
+						"h": 35
+					}
+				},
+				{
+					"filename": "danceclub_sound_studio_music_disc0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 283,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 283,
+						"h": 35
+					},
+					"frame": {
+						"x": 904,
+						"y": 1740,
+						"w": 283,
+						"h": 35
+					}
+				},
+				{
+					"filename": "danceclub_sound_studio_music_disc0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 283,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 283,
+						"h": 35
+					},
+					"frame": {
+						"x": 1372,
+						"y": 1379,
+						"w": 283,
+						"h": 35
+					}
+				},
+				{
+					"filename": "danceclub_sound_studio_music_disc0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 283,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 283,
+						"h": 35
+					},
+					"frame": {
+						"x": 1372,
+						"y": 1379,
+						"w": 283,
+						"h": 35
+					}
+				},
+				{
+					"filename": "danceclub_sound_studio_music_disc0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 283,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 283,
+						"h": 35
+					},
+					"frame": {
+						"x": 375,
+						"y": 1867,
+						"w": 283,
+						"h": 35
+					}
+				},
+				{
+					"filename": "danceclub_sound_studio_music_disc0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 283,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 283,
+						"h": 35
+					},
+					"frame": {
+						"x": 375,
+						"y": 1867,
+						"w": 283,
+						"h": 35
+					}
+				},
+				{
+					"filename": "danceclub_dance_contest_signup_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 156,
+						"h": 144
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 156,
+						"h": 144
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1230,
+						"w": 156,
+						"h": 144
+					}
+				},
+				{
+					"filename": "danceclub_dance_contest_signup.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 114,
+						"h": 262
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 114,
+						"h": 262
+					},
+					"frame": {
+						"x": 1443,
+						"y": 1416,
+						"w": 114,
+						"h": 262
+					}
+				},
+				{
+					"filename": "danceclub_right_side_railing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 109,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 109,
+						"h": 88
+					},
+					"frame": {
+						"x": 375,
+						"y": 1904,
+						"w": 109,
+						"h": 88
+					}
+				},
+				{
+					"filename": "danceclub_bottom_left_railing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 102,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 135
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1416,
+						"w": 102,
+						"h": 135
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 109
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1553,
+						"w": 100,
+						"h": 109
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 109
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1553,
+						"w": 100,
+						"h": 109
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 109
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1553,
+						"w": 100,
+						"h": 109
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 109
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1553,
+						"w": 100,
+						"h": 109
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 109
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1553,
+						"w": 100,
+						"h": 109
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 109
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1553,
+						"w": 100,
+						"h": 109
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 109
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1553,
+						"w": 100,
+						"h": 109
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 109
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1553,
+						"w": 100,
+						"h": 109
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 109
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1553,
+						"w": 100,
+						"h": 109
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 109
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1553,
+						"w": 100,
+						"h": 109
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 109
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1553,
+						"w": 100,
+						"h": 109
+					}
+				},
+				{
+					"filename": "danceclub_green_penguin_dancing0024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 109
+					},
+					"frame": {
+						"x": 1559,
+						"y": 1553,
+						"w": 100,
+						"h": 109
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0191.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 36,
+						"w": 45,
+						"h": 85
+					},
+					"frame": {
+						"x": 1372,
+						"y": 1416,
+						"w": 45,
+						"h": 85
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 37,
+						"w": 81,
+						"h": 85
+					},
+					"frame": {
+						"x": 486,
+						"y": 1904,
+						"w": 81,
+						"h": 85
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 41,
+						"w": 81,
+						"h": 81
+					},
+					"frame": {
+						"x": 569,
+						"y": 1904,
+						"w": 81,
+						"h": 81
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 81,
+						"h": 115
+					},
+					"frame": {
+						"x": 724,
+						"y": 1803,
+						"w": 81,
+						"h": 115
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 81,
+						"h": 115
+					},
+					"frame": {
+						"x": 807,
+						"y": 1803,
+						"w": 81,
+						"h": 115
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 81,
+						"h": 113
+					},
+					"frame": {
+						"x": 1443,
+						"y": 1680,
+						"w": 81,
+						"h": 113
+					}
+				},
+				{
+					"filename": "danceclub_bottom_right_speaker0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 121
+					},
+					"frame": {
+						"x": 1526,
+						"y": 1680,
+						"w": 72,
+						"h": 121
+					}
+				},
+				{
+					"filename": "danceclub_bottom_right_speaker0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 121
+					},
+					"frame": {
+						"x": 1526,
+						"y": 1680,
+						"w": 72,
+						"h": 121
+					}
+				},
+				{
+					"filename": "danceclub_left_bottom_speaker0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 121
+					},
+					"frame": {
+						"x": 1600,
+						"y": 1664,
+						"w": 72,
+						"h": 121
+					}
+				},
+				{
+					"filename": "danceclub_left_bottom_speaker0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 121
+					},
+					"frame": {
+						"x": 1600,
+						"y": 1664,
+						"w": 72,
+						"h": 121
+					}
+				},
+				{
+					"filename": "danceclub_bottom_right_speaker0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 890,
+						"y": 1803,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_bottom_right_speaker0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 890,
+						"y": 1803,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_bottom_right_speaker0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 890,
+						"y": 1803,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_bottom_right_speaker0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 890,
+						"y": 1803,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_bottom_right_speaker0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 890,
+						"y": 1803,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_bottom_right_speaker0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 890,
+						"y": 1803,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_bottom_right_speaker0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 890,
+						"y": 1803,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_bottom_right_speaker0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 890,
+						"y": 1803,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_bottom_right_speaker0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 890,
+						"y": 1803,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_bottom_right_speaker0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 69,
+						"h": 118
+					},
+					"frame": {
+						"x": 890,
+						"y": 1803,
+						"w": 69,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 81,
+						"h": 111
+					},
+					"frame": {
+						"x": 961,
+						"y": 1777,
+						"w": 81,
+						"h": 111
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 13,
+						"w": 81,
+						"h": 109
+					},
+					"frame": {
+						"x": 1044,
+						"y": 1777,
+						"w": 81,
+						"h": 109
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 81,
+						"h": 105
+					},
+					"frame": {
+						"x": 1127,
+						"y": 1777,
+						"w": 81,
+						"h": 105
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 23,
+						"w": 81,
+						"h": 99
+					},
+					"frame": {
+						"x": 1210,
+						"y": 1740,
+						"w": 81,
+						"h": 99
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 24,
+						"w": 81,
+						"h": 98
+					},
+					"frame": {
+						"x": 1293,
+						"y": 1740,
+						"w": 81,
+						"h": 98
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0198.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 0,
+						"w": 53,
+						"h": 118
+					},
+					"frame": {
+						"x": 1376,
+						"y": 1740,
+						"w": 53,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 26,
+						"w": 81,
+						"h": 96
+					},
+					"frame": {
+						"x": 1431,
+						"y": 1795,
+						"w": 81,
+						"h": 96
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 26,
+						"w": 81,
+						"h": 96
+					},
+					"frame": {
+						"x": 1431,
+						"y": 1795,
+						"w": 81,
+						"h": 96
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 26,
+						"w": 81,
+						"h": 96
+					},
+					"frame": {
+						"x": 1431,
+						"y": 1795,
+						"w": 81,
+						"h": 96
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 26,
+						"w": 81,
+						"h": 96
+					},
+					"frame": {
+						"x": 1431,
+						"y": 1795,
+						"w": 81,
+						"h": 96
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 26,
+						"w": 81,
+						"h": 96
+					},
+					"frame": {
+						"x": 1514,
+						"y": 1803,
+						"w": 81,
+						"h": 96
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 27,
+						"w": 81,
+						"h": 95
+					},
+					"frame": {
+						"x": 1210,
+						"y": 1841,
+						"w": 81,
+						"h": 95
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 24,
+						"w": 81,
+						"h": 98
+					},
+					"frame": {
+						"x": 1293,
+						"y": 1840,
+						"w": 81,
+						"h": 98
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 27,
+						"w": 81,
+						"h": 95
+					},
+					"frame": {
+						"x": 1127,
+						"y": 1884,
+						"w": 81,
+						"h": 95
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 30,
+						"w": 81,
+						"h": 92
+					},
+					"frame": {
+						"x": 1044,
+						"y": 1888,
+						"w": 81,
+						"h": 92
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 26,
+						"w": 81,
+						"h": 96
+					},
+					"frame": {
+						"x": 961,
+						"y": 1890,
+						"w": 81,
+						"h": 96
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 26,
+						"w": 81,
+						"h": 96
+					},
+					"frame": {
+						"x": 961,
+						"y": 1890,
+						"w": 81,
+						"h": 96
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0205.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 69,
+						"w": 64,
+						"h": 54
+					},
+					"frame": {
+						"x": 1210,
+						"y": 1938,
+						"w": 64,
+						"h": 54
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0209.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 71,
+						"w": 67,
+						"h": 52
+					},
+					"frame": {
+						"x": 1276,
+						"y": 1940,
+						"w": 67,
+						"h": 52
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0196.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 0,
+						"w": 52,
+						"h": 118
+					},
+					"frame": {
+						"x": 1376,
+						"y": 1860,
+						"w": 52,
+						"h": 118
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 28,
+						"w": 81,
+						"h": 94
+					},
+					"frame": {
+						"x": 1430,
+						"y": 1893,
+						"w": 81,
+						"h": 94
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1513,
+						"y": 1901,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0192.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 22,
+						"w": 50,
+						"h": 98
+					},
+					"frame": {
+						"x": 1661,
+						"y": 1553,
+						"w": 50,
+						"h": 98
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0202.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 25,
+						"w": 43,
+						"h": 96
+					},
+					"frame": {
+						"x": 1674,
+						"y": 1653,
+						"w": 43,
+						"h": 96
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 55,
+						"w": 60,
+						"h": 68
+					},
+					"frame": {
+						"x": 660,
+						"y": 1867,
+						"w": 60,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 55,
+						"w": 60,
+						"h": 68
+					},
+					"frame": {
+						"x": 660,
+						"y": 1867,
+						"w": 60,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 55,
+						"w": 60,
+						"h": 68
+					},
+					"frame": {
+						"x": 660,
+						"y": 1867,
+						"w": 60,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 55,
+						"w": 60,
+						"h": 68
+					},
+					"frame": {
+						"x": 660,
+						"y": 1867,
+						"w": 60,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0059.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 55,
+						"w": 60,
+						"h": 68
+					},
+					"frame": {
+						"x": 660,
+						"y": 1867,
+						"w": 60,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0071.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 55,
+						"w": 60,
+						"h": 68
+					},
+					"frame": {
+						"x": 660,
+						"y": 1867,
+						"w": 60,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0083.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 55,
+						"w": 60,
+						"h": 68
+					},
+					"frame": {
+						"x": 660,
+						"y": 1867,
+						"w": 60,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0095.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 55,
+						"w": 60,
+						"h": 68
+					},
+					"frame": {
+						"x": 660,
+						"y": 1867,
+						"w": 60,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0107.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 55,
+						"w": 60,
+						"h": 68
+					},
+					"frame": {
+						"x": 660,
+						"y": 1867,
+						"w": 60,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0210.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 68,
+						"w": 63,
+						"h": 55
+					},
+					"frame": {
+						"x": 652,
+						"y": 1937,
+						"w": 63,
+						"h": 55
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 89,
+						"w": 84,
+						"h": 34
+					},
+					"frame": {
+						"x": 722,
+						"y": 1920,
+						"w": 84,
+						"h": 34
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0075.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0076.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0087.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0088.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0099.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 72,
+						"w": 69,
+						"h": 51
+					},
+					"frame": {
+						"x": 808,
+						"y": 1920,
+						"w": 69,
+						"h": 51
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0108.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0109.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0111.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0112.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0113.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0114.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0115.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0116.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0117.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0118.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0119.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0123.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0124.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0186.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0187.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 63,
+						"h": 56
+					},
+					"frame": {
+						"x": 879,
+						"y": 1923,
+						"w": 63,
+						"h": 56
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1600,
+						"y": 1787,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1597,
+						"y": 1869,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1376,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1775,
+						"y": 1376,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1663,
+						"y": 1458,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1746,
+						"y": 1458,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1713,
+						"y": 1540,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1719,
+						"y": 1622,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1719,
+						"y": 1704,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1683,
+						"y": 1786,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0203.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 39,
+						"w": 47,
+						"h": 82
+					},
+					"frame": {
+						"x": 1766,
+						"y": 1786,
+						"w": 47,
+						"h": 82
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0215.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 55,
+						"w": 60,
+						"h": 68
+					},
+					"frame": {
+						"x": 1796,
+						"y": 1540,
+						"w": 60,
+						"h": 68
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 62,
+						"w": 57,
+						"h": 61
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1610,
+						"w": 57,
+						"h": 61
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 62,
+						"w": 57,
+						"h": 61
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1610,
+						"w": 57,
+						"h": 61
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 62,
+						"w": 57,
+						"h": 61
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1610,
+						"w": 57,
+						"h": 61
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 62,
+						"w": 57,
+						"h": 61
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1610,
+						"w": 57,
+						"h": 61
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 62,
+						"w": 57,
+						"h": 61
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1610,
+						"w": 57,
+						"h": 61
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0068.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 62,
+						"w": 57,
+						"h": 61
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1610,
+						"w": 57,
+						"h": 61
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0080.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 62,
+						"w": 57,
+						"h": 61
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1610,
+						"w": 57,
+						"h": 61
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0092.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 62,
+						"w": 57,
+						"h": 61
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1610,
+						"w": 57,
+						"h": 61
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0104.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 62,
+						"w": 57,
+						"h": 61
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1610,
+						"w": 57,
+						"h": 61
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 65,
+						"w": 60,
+						"h": 58
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1673,
+						"w": 60,
+						"h": 58
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 65,
+						"w": 60,
+						"h": 58
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1673,
+						"w": 60,
+						"h": 58
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 65,
+						"w": 60,
+						"h": 58
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1673,
+						"w": 60,
+						"h": 58
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 65,
+						"w": 60,
+						"h": 58
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1673,
+						"w": 60,
+						"h": 58
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 65,
+						"w": 60,
+						"h": 58
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1673,
+						"w": 60,
+						"h": 58
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0067.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 65,
+						"w": 60,
+						"h": 58
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1673,
+						"w": 60,
+						"h": 58
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0079.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 65,
+						"w": 60,
+						"h": 58
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1673,
+						"w": 60,
+						"h": 58
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0091.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 65,
+						"w": 60,
+						"h": 58
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1673,
+						"w": 60,
+						"h": 58
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0103.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 65,
+						"w": 60,
+						"h": 58
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1673,
+						"w": 60,
+						"h": 58
+					}
+				},
+				{
+					"filename": "danceclub_contest_signup_paper_pencils0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 81,
+						"h": 80
+					},
+					"frame": {
+						"x": 1683,
+						"y": 1868,
+						"w": 81,
+						"h": 80
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0211.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 65,
+						"w": 60,
+						"h": 58
+					},
+					"frame": {
+						"x": 1766,
+						"y": 1870,
+						"w": 60,
+						"h": 58
+					}
+				},
+				{
+					"filename": "danceclub_green_puffle0189.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 69,
+						"w": 63,
+						"h": 54
+					},
+					"frame": {
+						"x": 1766,
+						"y": 1930,
+						"w": 63,
+						"h": 54
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:93b70d643c5f4a41a6f1a880cc5c09f9:94eb672d89e40dd552ff0b4048d3d754:7d6d5e05417bbe17eb07a05c37e15972$"
+	}
+}

@@ -20,6 +20,7 @@ import { IcebergScene } from './game/scenes/world/rooms/iceberg/iceberg.js';
 import { PuffleWildScene } from './game/scenes/world/rooms/puffleWild/puffleWild.js';
 import { SchoolScene } from './game/scenes/world/rooms/school/school.js';
 import { GiftshopScene } from './game/scenes/world/rooms/giftshop/giftshop.js';
+import { DanceclubScene } from './game/scenes/world/rooms/danceclub/danceclub.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -30,7 +31,7 @@ const config = {
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
-    scene: [GiftshopScene],
+    scene: [DanceclubScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH
