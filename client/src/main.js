@@ -14,6 +14,7 @@ import { DocksScene } from './game/scenes/world/rooms/docks/docks.js';
 import { BeachScene } from './game/scenes/world/rooms/beach/beach.js';
 import { LighthouseScene } from './game/scenes/world/rooms/lighthouse/lighthouse.js';
 import { BeaconScene } from './game/scenes/world/rooms/beacon/beacon.js';
+import { PlazaScene } from './game/scenes/world/rooms/plaza/plaza.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -24,7 +25,7 @@ const config = {
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
-    scene: [BeaconScene],
+    scene: [PlazaScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH
