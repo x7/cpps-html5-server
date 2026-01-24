@@ -1,0 +1,304 @@
+{
+	"textures": [
+		{
+			"image": "underwater-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1833,
+				"h": 1948
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "underwater_bottom.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1664,
+						"h": 1040
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1664,
+						"h": 1040
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1664,
+						"h": 1040
+					}
+				},
+				{
+					"filename": "underwater_main.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1560,
+						"h": 904
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1560,
+						"h": 904
+					},
+					"frame": {
+						"x": 1,
+						"y": 1043,
+						"w": 1560,
+						"h": 904
+					}
+				},
+				{
+					"filename": "underwater_bottom_left_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 269,
+						"h": 283
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 269,
+						"h": 283
+					},
+					"frame": {
+						"x": 1563,
+						"y": 1043,
+						"w": 269,
+						"h": 283
+					}
+				},
+				{
+					"filename": "underwater_wheel.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 149
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 149
+					},
+					"frame": {
+						"x": 1667,
+						"y": 1,
+						"w": 149,
+						"h": 149
+					}
+				},
+				{
+					"filename": "underwater_part_one.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 224,
+						"h": 195
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 224,
+						"h": 195
+					},
+					"frame": {
+						"x": 1563,
+						"y": 1328,
+						"w": 224,
+						"h": 195
+					}
+				},
+				{
+					"filename": "underwater_sea_weed.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 99,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 99,
+						"h": 97
+					},
+					"frame": {
+						"x": 1667,
+						"y": 152,
+						"w": 99,
+						"h": 97
+					}
+				},
+				{
+					"filename": "underwater_clam.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 43
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 50,
+						"h": 43
+					},
+					"frame": {
+						"x": 1768,
+						"y": 152,
+						"w": 50,
+						"h": 43
+					}
+				},
+				{
+					"filename": "underwater_see_weed.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 99,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 99,
+						"h": 74
+					},
+					"frame": {
+						"x": 1667,
+						"y": 251,
+						"w": 99,
+						"h": 74
+					}
+				},
+				{
+					"filename": "underwater_anvil.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 173
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 173
+					},
+					"frame": {
+						"x": 1563,
+						"y": 1525,
+						"w": 170,
+						"h": 173
+					}
+				},
+				{
+					"filename": "underwater_part_two.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 168,
+						"h": 170
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 168,
+						"h": 170
+					},
+					"frame": {
+						"x": 1563,
+						"y": 1700,
+						"w": 168,
+						"h": 170
+					}
+				}
+			]
+		},
+		{
+			"image": "underwater-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1634,
+				"h": 1180
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "underwater_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1560,
+						"h": 260
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1560,
+						"h": 260
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1560,
+						"h": 260
+					}
+				},
+				{
+					"filename": "underwater_tower.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 983,
+						"h": 916
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 983,
+						"h": 916
+					},
+					"frame": {
+						"x": 1,
+						"y": 263,
+						"w": 983,
+						"h": 916
+					}
+				},
+				{
+					"filename": "underwater_left_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 647,
+						"h": 387
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 647,
+						"h": 387
+					},
+					"frame": {
+						"x": 986,
+						"y": 263,
+						"w": 647,
+						"h": 387
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:48d71983dafbed8ef8e0bb23f2ad708f:22d83ab67eabd0e225095adaa3ee057b:09ab0c7f8b3f99f9ac85a8f2d36c2feb$"
+	}
+}

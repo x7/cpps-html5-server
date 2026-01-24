@@ -24,6 +24,7 @@ import { DanceclubScene } from './game/scenes/world/rooms/danceclub/danceclub.js
 import { InterfaceScene } from './game/scenes/interfaces/interface.js';
 import { SkihillScene } from './game/scenes/world/rooms/skihill/skihill.js';
 import { BoilerRoomScene } from './game/scenes/world/rooms/boilerroom/boilerroom.js';
+import { UnderwaterScene } from './game/scenes/world/rooms/underwater/underwater.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -34,7 +35,7 @@ const config = {
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
-    scene: [BoilerRoomScene],
+    scene: [UnderwaterScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH
