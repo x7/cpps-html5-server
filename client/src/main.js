@@ -26,6 +26,7 @@ import { SkihillScene } from './game/scenes/world/rooms/skihill/skihill.js';
 import { BoilerRoomScene } from './game/scenes/world/rooms/boilerroom/boilerroom.js';
 import { UnderwaterScene } from './game/scenes/world/rooms/underwater/underwater.js';
 import { SkiVillageScene } from './game/scenes/world/rooms/skivillage/skivillage.js';
+import { DojoScene } from './game/scenes/world/rooms/dojo/dojo.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -36,7 +37,7 @@ const config = {
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
-    scene: [SkiVillageScene],
+    scene: [DojoScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH
