@@ -1,0 +1,587 @@
+{
+	"textures": [
+		{
+			"image": "interface.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1515,
+				"h": 200
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "interface_moderator_icon_hover.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 130
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 8,
+						"w": 116,
+						"h": 114
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 116,
+						"h": 114
+					}
+				},
+				{
+					"filename": "interface_top_chat.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 260,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 260,
+						"h": 82
+					},
+					"frame": {
+						"x": 1,
+						"y": 117,
+						"w": 260,
+						"h": 82
+					}
+				},
+				{
+					"filename": "interface_map0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 112,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 112,
+						"h": 112
+					},
+					"frame": {
+						"x": 119,
+						"y": 1,
+						"w": 112,
+						"h": 112
+					}
+				},
+				{
+					"filename": "interface_moderator_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 108,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 108,
+						"h": 107
+					},
+					"frame": {
+						"x": 233,
+						"y": 1,
+						"w": 108,
+						"h": 107
+					}
+				},
+				{
+					"filename": "interface_newspaper_icon0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 90,
+						"h": 83
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 90,
+						"h": 83
+					},
+					"frame": {
+						"x": 263,
+						"y": 110,
+						"w": 90,
+						"h": 83
+					}
+				},
+				{
+					"filename": "interface_map0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 112,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 88,
+						"h": 104
+					},
+					"frame": {
+						"x": 343,
+						"y": 1,
+						"w": 88,
+						"h": 104
+					}
+				},
+				{
+					"filename": "interface_main_interface_bar.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1144,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1144,
+						"h": 90
+					},
+					"frame": {
+						"x": 355,
+						"y": 107,
+						"w": 1144,
+						"h": 90
+					}
+				},
+				{
+					"filename": "interface_mail_icon0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 90,
+						"h": 98
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 90,
+						"h": 98
+					},
+					"frame": {
+						"x": 433,
+						"y": 1,
+						"w": 90,
+						"h": 98
+					}
+				},
+				{
+					"filename": "interface_newspaper_icon0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 90,
+						"h": 83
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 90,
+						"h": 83
+					},
+					"frame": {
+						"x": 525,
+						"y": 1,
+						"w": 90,
+						"h": 83
+					}
+				},
+				{
+					"filename": "interface_mail_icon0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 90,
+						"h": 98
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 25,
+						"w": 90,
+						"h": 73
+					},
+					"frame": {
+						"x": 617,
+						"y": 1,
+						"w": 90,
+						"h": 73
+					}
+				},
+				{
+					"filename": "interface_chat_bubble_icon0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 30,
+						"h": 29
+					},
+					"frame": {
+						"x": 617,
+						"y": 76,
+						"w": 30,
+						"h": 29
+					}
+				},
+				{
+					"filename": "inteface_snowball_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 28
+					},
+					"frame": {
+						"x": 649,
+						"y": 76,
+						"w": 29,
+						"h": 28
+					}
+				},
+				{
+					"filename": "interface_main_interface_button0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 56
+					},
+					"frame": {
+						"x": 709,
+						"y": 1,
+						"w": 56,
+						"h": 56
+					}
+				},
+				{
+					"filename": "interface_chat_drop_down.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 208,
+						"h": 44
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 208,
+						"h": 44
+					},
+					"frame": {
+						"x": 709,
+						"y": 59,
+						"w": 208,
+						"h": 44
+					}
+				},
+				{
+					"filename": "interface_main_interface_button0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 56
+					},
+					"frame": {
+						"x": 767,
+						"y": 1,
+						"w": 56,
+						"h": 56
+					}
+				},
+				{
+					"filename": "interface_chat00010001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 571,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 54
+					},
+					"frame": {
+						"x": 825,
+						"y": 1,
+						"w": 571,
+						"h": 54
+					}
+				},
+				{
+					"filename": "interface_yellow_title.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 44
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 44
+					},
+					"frame": {
+						"x": 919,
+						"y": 57,
+						"w": 176,
+						"h": 44
+					}
+				},
+				{
+					"filename": "interface_bottom_chat.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 260,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 260,
+						"h": 40
+					},
+					"frame": {
+						"x": 1097,
+						"y": 57,
+						"w": 260,
+						"h": 40
+					}
+				},
+				{
+					"filename": "interface_dance_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 33,
+						"h": 38
+					},
+					"frame": {
+						"x": 1359,
+						"y": 57,
+						"w": 33,
+						"h": 38
+					}
+				},
+				{
+					"filename": "interface_player_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 30,
+						"h": 35
+					},
+					"frame": {
+						"x": 1394,
+						"y": 57,
+						"w": 30,
+						"h": 35
+					}
+				},
+				{
+					"filename": "interface_settings_icono.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 33,
+						"h": 34
+					},
+					"frame": {
+						"x": 1398,
+						"y": 1,
+						"w": 33,
+						"h": 34
+					}
+				},
+				{
+					"filename": "interface_igloo_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 33
+					},
+					"frame": {
+						"x": 1426,
+						"y": 37,
+						"w": 32,
+						"h": 33
+					}
+				},
+				{
+					"filename": "interface_friends_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 1426,
+						"y": 72,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "interface_blue_puffle_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 36,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 36,
+						"h": 31
+					},
+					"frame": {
+						"x": 1433,
+						"y": 1,
+						"w": 36,
+						"h": 31
+					}
+				},
+				{
+					"filename": "interface_emojis_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 31,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 31,
+						"h": 31
+					},
+					"frame": {
+						"x": 1471,
+						"y": 1,
+						"w": 31,
+						"h": 31
+					}
+				},
+				{
+					"filename": "interface_send_chat_icon0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 30
+					},
+					"frame": {
+						"x": 1460,
+						"y": 34,
+						"w": 26,
+						"h": 30
+					}
+				},
+				{
+					"filename": "interface_send_chat_icon0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 30
+					},
+					"frame": {
+						"x": 1488,
+						"y": 34,
+						"w": 26,
+						"h": 30
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:48309fddca8165aa5e667ba028fed28a:d7b6912104ee649804f4a5092824c938:8141c0d8370228a8661c55b8bcf20981$"
+	}
+}

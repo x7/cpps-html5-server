@@ -29,9 +29,11 @@ export class Room {
                 manager.unsubscribe(CLIENT_TEST);
             }
 
+            console.log(scene)
             player.createPenguin(scene, x, y);
             player.setX(x);
             player.setY(y);
+            scene.scene.launch("InterfaceScene");
         }, 3000);
     }
 

@@ -347,44 +347,19 @@ export class TownScene extends BaseScene {
 		new RoomMouseMovemenet(this, client);
 		new RoomKeyPressed(this, client);
 
-
-		// TEMP SOLUTION 
-		this.chatInput = this.add.dom(400, 560).createFromHTML(`
-			<div style="width: 700px; background: rgba(0,0,0,0.8); padding: 15px; border-radius: 8px;">
-				<div id="chat-display" style="height: 100px; overflow-y: auto; margin-bottom: 10px; color: white; font-size: 14px; font-family: Arial;"></div>
-				<input type="text" id="chat-field" placeholder="Type a message..." 
-					style="width: 580px; padding: 8px; border: none; border-radius: 4px; margin-right: 8px; font-size: 14px;">
-				<button id="send-btn" 
-					style="padding: 8px 20px; background: #3498db; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; font-weight: bold;">
-					Send
-				</button>
-			</div>
-		`);
-
-		const inputField = document.getElementById('chat-field');
-		const sendBtn = document.getElementById('send-btn');
-		const chatDisplay = document.getElementById('chat-display');
-
-
-		sendBtn.addEventListener('click', () => {
-			const value = inputField.value.trim();
-			if(value === "" || value === null) {
-				alert("null")
-				return;
-			} 
-
-			const manager = getManager();
-			client.sendChat(value);
-			manager.send(SERVER_VERIFY_PACKET, { "packet_type": "player_chat", "text": value });
-		});
-
 		this.events.once("shutdown", this.shutdown, this);
 		this.events.emit("scene-awake");
+		this.s = false;
 	}
 
 	update() {
 		this.movementManager.update();
 		this.snowballManager.update();
+		if(!this.s) {
+			this.sceneManager.launch("InterfaceScene");
+			this.sceneManager.sendToTop("InterfaceScene");
+			this.s = true;
+		}
 	}
 
 	shutdown() {

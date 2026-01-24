@@ -11,5 +11,3 @@ export const SCENE_SERVER_SELECTION = "ServerSelectionScene";
 export const SCENE_ROOM_TOWN = "TownScene";
 export const SCENE_MAP = "MapScene";
 // Scene names end here
-
-// тшппук

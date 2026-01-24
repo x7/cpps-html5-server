@@ -33,7 +33,7 @@ export class BaseScene extends Phaser.Scene {
     }
 
     async create() {
-        this.createContent();
+        await this.createContent();
 
         if(this.loading) {
             this.input.enabled = true;

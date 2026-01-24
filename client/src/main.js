@@ -21,6 +21,7 @@ import { PuffleWildScene } from './game/scenes/world/rooms/puffleWild/puffleWild
 import { SchoolScene } from './game/scenes/world/rooms/school/school.js';
 import { GiftshopScene } from './game/scenes/world/rooms/giftshop/giftshop.js';
 import { DanceclubScene } from './game/scenes/world/rooms/danceclub/danceclub.js';
+import { InterfaceScene } from './game/scenes/interfaces/interface.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -31,7 +32,7 @@ const config = {
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
-    scene: [DanceclubScene],
+    scene: [PreloadAssetsScene, LoginScene, TownScene, InterfaceScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH

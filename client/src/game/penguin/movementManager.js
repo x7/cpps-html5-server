@@ -3,6 +3,7 @@ import * as animationKeys from "../../animations/animationKeys";
 import { getManager } from "../../network/network";
 import { sendMovementPacket } from "../../network/packets/penguin/movementPacket";
 import { CLIENT_STOP_ANIMATION, SERVER_VERIFY_PACKET } from "../../network/topics";
+import { PACKET_STOP_ANIMATION } from "../../network/types/packetTypes";
 
 export default class MovementManager {
     constructor(penguin) {
@@ -41,7 +42,7 @@ export default class MovementManager {
             this.penguin.stopAnimation();
             this.penguin.setPose(this.pose);
             const nw = getManager();
-            nw.send(SERVER_VERIFY_PACKET, { "packet_type": CLIENT_STOP_ANIMATION });
+            nw.send(SERVER_VERIFY_PACKET, { "packet_type": PACKET_STOP_ANIMATION });
             return;
         }
 

@@ -1,7 +1,8 @@
 package org.awesome.websocket.packets;
 
 import org.awesome.websocket.packets.player.MovementPacket;
-import org.awesome.websocket.packets.world.AddPlayerPacket;
+import org.awesome.websocket.packets.player.PlayAnimationPacket;
+import org.awesome.websocket.packets.player.StopAnimationPacket;
 import org.awesome.websocket.packets.world.JoinRoomPacket;
 import org.awesome.websocket.packets.world.PlayerChatPacket;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
@@ -30,6 +31,8 @@ public class PacketRegistry {
         registeredPackets.put(PacketTypes.JOIN_ROOM.getPacketName(), new JoinRoomPacket());
         registeredPackets.put(PacketTypes.MOVEMENT.getPacketName(), new MovementPacket());
         registeredPackets.put(PacketTypes.PLAYER_CHAT.getPacketName(), new PlayerChatPacket());
+        registeredPackets.put(PacketTypes.PLAY_ANIMATION.getPacketName(), new PlayAnimationPacket());
+        registeredPackets.put(PacketTypes.STOP_ANIMATION.getPacketName(), new StopAnimationPacket());
         arePacketsRegistered = true;
     }
 }
