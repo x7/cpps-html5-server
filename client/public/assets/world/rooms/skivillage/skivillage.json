@@ -1,0 +1,7941 @@
+{
+	"textures": [
+		{
+			"image": "skivillage-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2047,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "skivillage_epf_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1754,
+						"h": 710
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1754,
+						"h": 710
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1754,
+						"h": 710
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 286,
+						"h": 305
+					},
+					"frame": {
+						"x": 1757,
+						"y": 1,
+						"w": 286,
+						"h": 305
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 278,
+						"h": 300
+					},
+					"frame": {
+						"x": 1757,
+						"y": 308,
+						"w": 278,
+						"h": 300
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 270,
+						"h": 295
+					},
+					"frame": {
+						"x": 1757,
+						"y": 610,
+						"w": 270,
+						"h": 295
+					}
+				},
+				{
+					"filename": "skivillage_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1750,
+						"h": 364
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1750,
+						"h": 364
+					},
+					"frame": {
+						"x": 1,
+						"y": 713,
+						"w": 1750,
+						"h": 364
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 293,
+						"h": 311
+					},
+					"frame": {
+						"x": 1753,
+						"y": 907,
+						"w": 293,
+						"h": 311
+					}
+				},
+				{
+					"filename": "ski_village_main.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1362,
+						"h": 780
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1362,
+						"h": 780
+					},
+					"frame": {
+						"x": 1,
+						"y": 1220,
+						"w": 1362,
+						"h": 780
+					}
+				},
+				{
+					"filename": "Symbol 1820022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 233,
+						"h": 139
+					},
+					"frame": {
+						"x": 1,
+						"y": 1079,
+						"w": 233,
+						"h": 139
+					}
+				},
+				{
+					"filename": "Symbol 1820023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 233,
+						"h": 139
+					},
+					"frame": {
+						"x": 236,
+						"y": 1079,
+						"w": 233,
+						"h": 139
+					}
+				},
+				{
+					"filename": "Symbol 1820024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 233,
+						"h": 139
+					},
+					"frame": {
+						"x": 471,
+						"y": 1079,
+						"w": 233,
+						"h": 139
+					}
+				},
+				{
+					"filename": "Symbol 1820025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 233,
+						"h": 139
+					},
+					"frame": {
+						"x": 706,
+						"y": 1079,
+						"w": 233,
+						"h": 139
+					}
+				},
+				{
+					"filename": "Symbol 1820007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 225,
+						"h": 139
+					},
+					"frame": {
+						"x": 941,
+						"y": 1079,
+						"w": 225,
+						"h": 139
+					}
+				},
+				{
+					"filename": "Symbol 1820008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 225,
+						"h": 139
+					},
+					"frame": {
+						"x": 1168,
+						"y": 1079,
+						"w": 225,
+						"h": 139
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 356,
+						"h": 353
+					},
+					"frame": {
+						"x": 1395,
+						"y": 1079,
+						"w": 356,
+						"h": 353
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0090.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0091.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0092.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0093.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0094.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0095.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0096.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0097.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0098.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0099.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0101.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0102.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0103.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0104.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0105.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0106.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0107.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0108.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0109.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0111.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0112.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0113.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0114.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0115.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0116.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0117.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0118.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0119.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0123.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0124.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0125.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0126.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0127.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0128.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0129.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0130.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0131.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0132.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0133.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0134.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0135.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0136.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0137.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0138.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0139.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0140.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0141.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0142.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0143.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0144.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0145.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0146.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0147.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0148.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0149.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0150.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0151.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0152.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0153.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0154.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0155.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0156.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0157.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0158.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0159.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0160.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0161.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0162.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0163.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0164.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0165.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0166.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0167.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0168.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0169.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0170.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0171.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0172.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0173.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0174.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0175.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0176.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0177.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0178.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0179.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0180.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0181.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0182.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0183.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0184.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0185.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0186.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0187.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0189.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0190.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0191.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0192.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0193.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0194.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0195.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0196.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0197.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0198.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0199.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0200.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0201.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0202.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0203.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0204.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0205.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0206.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0207.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0208.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0209.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0210.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 20,
+						"h": 21
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1220,
+						"w": 20,
+						"h": 21
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0089.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 673,
+						"h": 501
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1434,
+						"w": 673,
+						"h": 501
+					}
+				},
+				{
+					"filename": "skivillage_epf_text0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 249,
+						"h": 131
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 6,
+						"w": 236,
+						"h": 110
+					},
+					"frame": {
+						"x": 1365,
+						"y": 1937,
+						"w": 236,
+						"h": 110
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 150,
+						"h": 211
+					},
+					"frame": {
+						"x": 1753,
+						"y": 1220,
+						"w": 150,
+						"h": 211
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 6,
+						"w": 141,
+						"h": 178
+					},
+					"frame": {
+						"x": 1905,
+						"y": 1220,
+						"w": 141,
+						"h": 178
+					}
+				},
+				{
+					"filename": "skivillage_epf_text0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 249,
+						"h": 131
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 236,
+						"h": 109
+					},
+					"frame": {
+						"x": 1603,
+						"y": 1937,
+						"w": 236,
+						"h": 109
+					}
+				},
+				{
+					"filename": "skivillage_arrow.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 85
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 76,
+						"h": 85
+					},
+					"frame": {
+						"x": 1841,
+						"y": 1937,
+						"w": 76,
+						"h": 85
+					}
+				},
+				{
+					"filename": "skivillage_rope.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 99,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 99,
+						"h": 62
+					},
+					"frame": {
+						"x": 1919,
+						"y": 1937,
+						"w": 99,
+						"h": 62
+					}
+				}
+			]
+		},
+		{
+			"image": "skivillage-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2045,
+				"h": 2045
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "skivillage_bottom_trees.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1687,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1687,
+						"h": 318
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1687,
+						"h": 318
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 347,
+						"h": 348
+					},
+					"frame": {
+						"x": 1690,
+						"y": 1,
+						"w": 347,
+						"h": 348
+					}
+				},
+				{
+					"filename": "skivillage_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 782,
+						"h": 689
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 782,
+						"h": 689
+					},
+					"frame": {
+						"x": 1,
+						"y": 321,
+						"w": 782,
+						"h": 689
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0087.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 673,
+						"h": 485
+					},
+					"frame": {
+						"x": 785,
+						"y": 321,
+						"w": 673,
+						"h": 485
+					}
+				},
+				{
+					"filename": "Symbol 1820055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 0,
+						"w": 228,
+						"h": 147
+					},
+					"frame": {
+						"x": 1460,
+						"y": 321,
+						"w": 228,
+						"h": 147
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0075.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 583,
+						"h": 455
+					},
+					"frame": {
+						"x": 1460,
+						"y": 470,
+						"w": 583,
+						"h": 455
+					}
+				},
+				{
+					"filename": "skivillage_epf_text0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 249,
+						"h": 131
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 220,
+						"h": 117
+					},
+					"frame": {
+						"x": 1690,
+						"y": 351,
+						"w": 220,
+						"h": 117
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0088.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 672,
+						"h": 491
+					},
+					"frame": {
+						"x": 785,
+						"y": 808,
+						"w": 672,
+						"h": 491
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0074.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 574,
+						"h": 451
+					},
+					"frame": {
+						"x": 1459,
+						"y": 927,
+						"w": 574,
+						"h": 451
+					}
+				},
+				{
+					"filename": "skivillage_right_side_arrow.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 92,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 92,
+						"h": 78
+					},
+					"frame": {
+						"x": 1912,
+						"y": 351,
+						"w": 92,
+						"h": 78
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0086.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 662,
+						"h": 484
+					},
+					"frame": {
+						"x": 1,
+						"y": 1012,
+						"w": 662,
+						"h": 484
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 122,
+						"y": 91,
+						"w": 117,
+						"h": 183
+					},
+					"frame": {
+						"x": 665,
+						"y": 1012,
+						"w": 117,
+						"h": 183
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 28,
+						"w": 117,
+						"h": 178
+					},
+					"frame": {
+						"x": 665,
+						"y": 1197,
+						"w": 117,
+						"h": 178
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0085.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 658,
+						"h": 483
+					},
+					"frame": {
+						"x": 784,
+						"y": 1301,
+						"w": 658,
+						"h": 483
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 34,
+						"w": 117,
+						"h": 178
+					},
+					"frame": {
+						"x": 665,
+						"y": 1377,
+						"w": 117,
+						"h": 178
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0077.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 600,
+						"h": 462
+					},
+					"frame": {
+						"x": 1444,
+						"y": 1380,
+						"w": 600,
+						"h": 462
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 135,
+						"h": 200
+					},
+					"frame": {
+						"x": 1,
+						"y": 1844,
+						"w": 135,
+						"h": 200
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 340,
+						"h": 343
+					},
+					"frame": {
+						"x": 1,
+						"y": 1498,
+						"w": 340,
+						"h": 343
+					}
+				},
+				{
+					"filename": "ski_village_seats0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 439,
+						"h": 314
+					},
+					"frame": {
+						"x": 343,
+						"y": 1557,
+						"w": 439,
+						"h": 314
+					}
+				},
+				{
+					"filename": "skivillage_epf_text0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 249,
+						"h": 131
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 0,
+						"w": 198,
+						"h": 120
+					},
+					"frame": {
+						"x": 138,
+						"y": 1843,
+						"w": 198,
+						"h": 120
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 215,
+						"h": 256
+					},
+					"frame": {
+						"x": 784,
+						"y": 1786,
+						"w": 215,
+						"h": 256
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 127,
+						"h": 194
+					},
+					"frame": {
+						"x": 1001,
+						"y": 1844,
+						"w": 127,
+						"h": 194
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 207,
+						"h": 250
+					},
+					"frame": {
+						"x": 1130,
+						"y": 1786,
+						"w": 207,
+						"h": 250
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 119,
+						"h": 189
+					},
+					"frame": {
+						"x": 1339,
+						"y": 1844,
+						"w": 119,
+						"h": 189
+					}
+				},
+				{
+					"filename": "Symbol 1820001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 0,
+						"w": 225,
+						"h": 149
+					},
+					"frame": {
+						"x": 338,
+						"y": 1873,
+						"w": 225,
+						"h": 149
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 148,
+						"h": 178
+					},
+					"frame": {
+						"x": 1460,
+						"y": 1844,
+						"w": 148,
+						"h": 178
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 17,
+						"w": 127,
+						"h": 178
+					},
+					"frame": {
+						"x": 1610,
+						"y": 1844,
+						"w": 127,
+						"h": 178
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 23,
+						"w": 120,
+						"h": 178
+					},
+					"frame": {
+						"x": 1739,
+						"y": 1844,
+						"w": 120,
+						"h": 178
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 50,
+						"y": 40,
+						"w": 117,
+						"h": 178
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1844,
+						"w": 117,
+						"h": 178
+					}
+				},
+				{
+					"filename": "ski_village_lodge_door0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 136
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 0,
+						"w": 77,
+						"h": 136
+					},
+					"frame": {
+						"x": 565,
+						"y": 1873,
+						"w": 77,
+						"h": 136
+					}
+				},
+				{
+					"filename": "ski_village_lodge_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 136
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 86,
+						"h": 121
+					},
+					"frame": {
+						"x": 644,
+						"y": 1873,
+						"w": 86,
+						"h": 121
+					}
+				}
+			]
+		},
+		{
+			"image": "skivillage-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2047,
+				"h": 2047
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "skivillage_seat_going_up_and_down0084.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 650,
+						"h": 480
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 650,
+						"h": 480
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0083.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 645,
+						"h": 477
+					},
+					"frame": {
+						"x": 653,
+						"y": 1,
+						"w": 645,
+						"h": 477
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0082.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 640,
+						"h": 477
+					},
+					"frame": {
+						"x": 1300,
+						"y": 1,
+						"w": 640,
+						"h": 477
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0081.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 636,
+						"h": 476
+					},
+					"frame": {
+						"x": 653,
+						"y": 480,
+						"w": 636,
+						"h": 476
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0080.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 627,
+						"h": 472
+					},
+					"frame": {
+						"x": 1,
+						"y": 483,
+						"w": 627,
+						"h": 472
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0079.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 618,
+						"h": 469
+					},
+					"frame": {
+						"x": 1,
+						"y": 957,
+						"w": 618,
+						"h": 469
+					}
+				},
+				{
+					"filename": "skivillage_seats0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 614,
+						"h": 362
+					},
+					"frame": {
+						"x": 1291,
+						"y": 480,
+						"w": 614,
+						"h": 362
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 12,
+						"w": 134,
+						"h": 177
+					},
+					"frame": {
+						"x": 1907,
+						"y": 480,
+						"w": 134,
+						"h": 177
+					}
+				},
+				{
+					"filename": "ski_village_epf_door_open.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 124,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 210
+					},
+					"frame": {
+						"x": 1907,
+						"y": 659,
+						"w": 124,
+						"h": 210
+					}
+				},
+				{
+					"filename": "skivillage_seats0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 7,
+						"w": 614,
+						"h": 361
+					},
+					"frame": {
+						"x": 1291,
+						"y": 844,
+						"w": 614,
+						"h": 361
+					}
+				},
+				{
+					"filename": "ski_village_epf_door.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 124,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 205
+					},
+					"frame": {
+						"x": 1907,
+						"y": 871,
+						"w": 124,
+						"h": 205
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 57,
+						"y": 45,
+						"w": 117,
+						"h": 178
+					},
+					"frame": {
+						"x": 1907,
+						"y": 1078,
+						"w": 117,
+						"h": 178
+					}
+				},
+				{
+					"filename": "skivillage_seats0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 614,
+						"h": 361
+					},
+					"frame": {
+						"x": 621,
+						"y": 958,
+						"w": 614,
+						"h": 361
+					}
+				},
+				{
+					"filename": "skivillage_seats0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 614,
+						"h": 360
+					},
+					"frame": {
+						"x": 1237,
+						"y": 1207,
+						"w": 614,
+						"h": 360
+					}
+				},
+				{
+					"filename": "skivillage_seats0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 14,
+						"w": 614,
+						"h": 360
+					},
+					"frame": {
+						"x": 621,
+						"y": 1321,
+						"w": 614,
+						"h": 360
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 373,
+						"h": 362
+					},
+					"frame": {
+						"x": 1,
+						"y": 1683,
+						"w": 373,
+						"h": 362
+					}
+				},
+				{
+					"filename": "Symbol 2990002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 240,
+						"h": 349
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 240,
+						"h": 349
+					},
+					"frame": {
+						"x": 376,
+						"y": 1428,
+						"w": 240,
+						"h": 349
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 231,
+						"h": 267
+					},
+					"frame": {
+						"x": 376,
+						"y": 1779,
+						"w": 231,
+						"h": 267
+					}
+				},
+				{
+					"filename": "skivillage_seats0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 12,
+						"w": 613,
+						"h": 361
+					},
+					"frame": {
+						"x": 618,
+						"y": 1683,
+						"w": 613,
+						"h": 361
+					}
+				},
+				{
+					"filename": "skivillage_seats0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 8,
+						"w": 613,
+						"h": 361
+					},
+					"frame": {
+						"x": 1233,
+						"y": 1683,
+						"w": 613,
+						"h": 361
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 198,
+						"h": 244
+					},
+					"frame": {
+						"x": 1848,
+						"y": 1569,
+						"w": 198,
+						"h": 244
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 190,
+						"h": 238
+					},
+					"frame": {
+						"x": 1853,
+						"y": 1258,
+						"w": 190,
+						"h": 238
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 173,
+						"h": 227
+					},
+					"frame": {
+						"x": 1848,
+						"y": 1815,
+						"w": 173,
+						"h": 227
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 182,
+						"h": 233
+					},
+					"frame": {
+						"x": 1,
+						"y": 1428,
+						"w": 182,
+						"h": 233
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 165,
+						"h": 221
+					},
+					"frame": {
+						"x": 185,
+						"y": 1428,
+						"w": 165,
+						"h": 221
+					}
+				}
+			]
+		},
+		{
+			"image": "skivillage-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2046
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "skivillage_seats0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 10,
+						"w": 614,
+						"h": 360
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 614,
+						"h": 360
+					}
+				},
+				{
+					"filename": "skivillage_seats0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 5,
+						"w": 613,
+						"h": 361
+					},
+					"frame": {
+						"x": 617,
+						"y": 1,
+						"w": 613,
+						"h": 361
+					}
+				},
+				{
+					"filename": "skivillage_seats0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 4,
+						"w": 613,
+						"h": 361
+					},
+					"frame": {
+						"x": 1,
+						"y": 363,
+						"w": 613,
+						"h": 361
+					}
+				},
+				{
+					"filename": "skivillage_seats0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 1,
+						"w": 613,
+						"h": 361
+					},
+					"frame": {
+						"x": 1232,
+						"y": 1,
+						"w": 613,
+						"h": 361
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 158,
+						"h": 216
+					},
+					"frame": {
+						"x": 1847,
+						"y": 1,
+						"w": 158,
+						"h": 216
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 143,
+						"h": 205
+					},
+					"frame": {
+						"x": 1847,
+						"y": 219,
+						"w": 143,
+						"h": 205
+					}
+				},
+				{
+					"filename": "skivillage_seats0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 18,
+						"w": 613,
+						"h": 360
+					},
+					"frame": {
+						"x": 616,
+						"y": 364,
+						"w": 613,
+						"h": 360
+					}
+				},
+				{
+					"filename": "skivillage_seats0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 15,
+						"w": 613,
+						"h": 360
+					},
+					"frame": {
+						"x": 1231,
+						"y": 364,
+						"w": 613,
+						"h": 360
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 64,
+						"y": 51,
+						"w": 117,
+						"h": 178
+					},
+					"frame": {
+						"x": 1846,
+						"y": 426,
+						"w": 117,
+						"h": 178
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 78,
+						"y": 62,
+						"w": 117,
+						"h": 178
+					},
+					"frame": {
+						"x": 1846,
+						"y": 606,
+						"w": 117,
+						"h": 178
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0078.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 609,
+						"h": 465
+					},
+					"frame": {
+						"x": 1,
+						"y": 786,
+						"w": 609,
+						"h": 465
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0076.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 592,
+						"h": 458
+					},
+					"frame": {
+						"x": 1,
+						"y": 1253,
+						"w": 592,
+						"h": 458
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 324,
+						"h": 332
+					},
+					"frame": {
+						"x": 1,
+						"y": 1713,
+						"w": 324,
+						"h": 332
+					}
+				},
+				{
+					"filename": "Symbol 2990001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 240,
+						"h": 349
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 13,
+						"w": 225,
+						"h": 330
+					},
+					"frame": {
+						"x": 327,
+						"y": 1713,
+						"w": 225,
+						"h": 330
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 316,
+						"h": 327
+					},
+					"frame": {
+						"x": 554,
+						"y": 1713,
+						"w": 316,
+						"h": 327
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0073.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 565,
+						"h": 447
+					},
+					"frame": {
+						"x": 595,
+						"y": 1253,
+						"w": 565,
+						"h": 447
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 332,
+						"h": 338
+					},
+					"frame": {
+						"x": 872,
+						"y": 1702,
+						"w": 332,
+						"h": 338
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0072.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 556,
+						"h": 444
+					},
+					"frame": {
+						"x": 612,
+						"y": 786,
+						"w": 556,
+						"h": 444
+					}
+				},
+				{
+					"filename": "skivillage_seats0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 11,
+						"w": 613,
+						"h": 360
+					},
+					"frame": {
+						"x": 1206,
+						"y": 726,
+						"w": 613,
+						"h": 360
+					}
+				},
+				{
+					"filename": "Symbol 1820002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 2,
+						"w": 226,
+						"h": 147
+					},
+					"frame": {
+						"x": 1821,
+						"y": 786,
+						"w": 226,
+						"h": 147
+					}
+				},
+				{
+					"filename": "Symbol 1820003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 5,
+						"w": 226,
+						"h": 144
+					},
+					"frame": {
+						"x": 1821,
+						"y": 935,
+						"w": 226,
+						"h": 144
+					}
+				},
+				{
+					"filename": "Symbol 1820032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 143
+					},
+					"frame": {
+						"x": 1821,
+						"y": 1081,
+						"w": 226,
+						"h": 143
+					}
+				},
+				{
+					"filename": "skivillage_seats0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 24,
+						"w": 613,
+						"h": 359
+					},
+					"frame": {
+						"x": 1206,
+						"y": 1088,
+						"w": 613,
+						"h": 359
+					}
+				},
+				{
+					"filename": "Symbol 1820017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 141
+					},
+					"frame": {
+						"x": 1821,
+						"y": 1226,
+						"w": 226,
+						"h": 141
+					}
+				},
+				{
+					"filename": "Symbol 1820018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 141
+					},
+					"frame": {
+						"x": 1821,
+						"y": 1369,
+						"w": 226,
+						"h": 141
+					}
+				},
+				{
+					"filename": "skivillage_seats0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 41,
+						"y": 22,
+						"w": 613,
+						"h": 359
+					},
+					"frame": {
+						"x": 1206,
+						"y": 1449,
+						"w": 613,
+						"h": 359
+					}
+				},
+				{
+					"filename": "Symbol 1820033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 141
+					},
+					"frame": {
+						"x": 1821,
+						"y": 1512,
+						"w": 226,
+						"h": 141
+					}
+				},
+				{
+					"filename": "Symbol 1820047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 141
+					},
+					"frame": {
+						"x": 1821,
+						"y": 1655,
+						"w": 226,
+						"h": 141
+					}
+				},
+				{
+					"filename": "Symbol 1820048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 141
+					},
+					"frame": {
+						"x": 1821,
+						"y": 1798,
+						"w": 226,
+						"h": 141
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 86,
+						"y": 68,
+						"w": 117,
+						"h": 178
+					},
+					"frame": {
+						"x": 1206,
+						"y": 1810,
+						"w": 117,
+						"h": 178
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 100,
+						"y": 79,
+						"w": 117,
+						"h": 178
+					},
+					"frame": {
+						"x": 1325,
+						"y": 1810,
+						"w": 117,
+						"h": 178
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 107,
+						"y": 85,
+						"w": 117,
+						"h": 178
+					},
+					"frame": {
+						"x": 1444,
+						"y": 1810,
+						"w": 117,
+						"h": 178
+					}
+				},
+				{
+					"filename": "skivillage_epf_text0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 249,
+						"h": 131
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 249,
+						"h": 116
+					},
+					"frame": {
+						"x": 1563,
+						"y": 1810,
+						"w": 249,
+						"h": 116
+					}
+				},
+				{
+					"filename": "skivillage_epf_text0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 249,
+						"h": 131
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 7,
+						"w": 238,
+						"h": 115
+					},
+					"frame": {
+						"x": 1563,
+						"y": 1928,
+						"w": 238,
+						"h": 115
+					}
+				}
+			]
+		},
+		{
+			"image": "skivillage-4.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2044,
+				"h": 2002
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "skivillage_seats0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 21,
+						"w": 613,
+						"h": 359
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 613,
+						"h": 359
+					}
+				},
+				{
+					"filename": "skivillage_seats0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 20,
+						"w": 613,
+						"h": 359
+					},
+					"frame": {
+						"x": 616,
+						"y": 1,
+						"w": 613,
+						"h": 359
+					}
+				},
+				{
+					"filename": "skivillage_seats0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 17,
+						"w": 613,
+						"h": 359
+					},
+					"frame": {
+						"x": 1231,
+						"y": 1,
+						"w": 613,
+						"h": 359
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 71,
+						"y": 57,
+						"w": 117,
+						"h": 177
+					},
+					"frame": {
+						"x": 1846,
+						"y": 1,
+						"w": 117,
+						"h": 177
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 93,
+						"y": 74,
+						"w": 117,
+						"h": 177
+					},
+					"frame": {
+						"x": 1846,
+						"y": 180,
+						"w": 117,
+						"h": 177
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 115,
+						"y": 91,
+						"w": 117,
+						"h": 177
+					},
+					"frame": {
+						"x": 1846,
+						"y": 359,
+						"w": 117,
+						"h": 177
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0071.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 548,
+						"h": 440
+					},
+					"frame": {
+						"x": 1,
+						"y": 538,
+						"w": 548,
+						"h": 440
+					}
+				},
+				{
+					"filename": "Symbol 1820058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 0,
+						"w": 225,
+						"h": 148
+					},
+					"frame": {
+						"x": 1,
+						"y": 362,
+						"w": 225,
+						"h": 148
+					}
+				},
+				{
+					"filename": "Symbol 1820053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 236,
+						"h": 147
+					},
+					"frame": {
+						"x": 228,
+						"y": 362,
+						"w": 236,
+						"h": 147
+					}
+				},
+				{
+					"filename": "Symbol 1820054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 235,
+						"h": 147
+					},
+					"frame": {
+						"x": 466,
+						"y": 362,
+						"w": 235,
+						"h": 147
+					}
+				},
+				{
+					"filename": "skivillage_seats0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 55,
+						"y": 31,
+						"w": 613,
+						"h": 358
+					},
+					"frame": {
+						"x": 703,
+						"y": 362,
+						"w": 613,
+						"h": 358
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0068.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 522,
+						"h": 429
+					},
+					"frame": {
+						"x": 1318,
+						"y": 362,
+						"w": 522,
+						"h": 429
+					}
+				},
+				{
+					"filename": "skivillage_seats0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 50,
+						"y": 28,
+						"w": 613,
+						"h": 358
+					},
+					"frame": {
+						"x": 551,
+						"y": 722,
+						"w": 613,
+						"h": 358
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0070.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 539,
+						"h": 437
+					},
+					"frame": {
+						"x": 1,
+						"y": 980,
+						"w": 539,
+						"h": 437
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0069.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 530,
+						"h": 433
+					},
+					"frame": {
+						"x": 1,
+						"y": 1419,
+						"w": 530,
+						"h": 433
+					}
+				},
+				{
+					"filename": "Symbol 1820056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 0,
+						"w": 225,
+						"h": 147
+					},
+					"frame": {
+						"x": 1,
+						"y": 1854,
+						"w": 225,
+						"h": 147
+					}
+				},
+				{
+					"filename": "Symbol 1820057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 1,
+						"w": 225,
+						"h": 146
+					},
+					"frame": {
+						"x": 228,
+						"y": 1854,
+						"w": 225,
+						"h": 146
+					}
+				},
+				{
+					"filename": "Symbol 1820052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 236,
+						"h": 145
+					},
+					"frame": {
+						"x": 455,
+						"y": 1854,
+						"w": 236,
+						"h": 145
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0067.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 513,
+						"h": 426
+					},
+					"frame": {
+						"x": 533,
+						"y": 1419,
+						"w": 513,
+						"h": 426
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 309,
+						"h": 322
+					},
+					"frame": {
+						"x": 542,
+						"y": 1082,
+						"w": 309,
+						"h": 322
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 301,
+						"h": 317
+					},
+					"frame": {
+						"x": 853,
+						"y": 1082,
+						"w": 301,
+						"h": 317
+					}
+				},
+				{
+					"filename": "Symbol 1820028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 225,
+						"h": 143
+					},
+					"frame": {
+						"x": 693,
+						"y": 1847,
+						"w": 225,
+						"h": 143
+					}
+				},
+				{
+					"filename": "Symbol 1820029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 225,
+						"h": 143
+					},
+					"frame": {
+						"x": 920,
+						"y": 1847,
+						"w": 225,
+						"h": 143
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0066.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 505,
+						"h": 422
+					},
+					"frame": {
+						"x": 1048,
+						"y": 1401,
+						"w": 505,
+						"h": 422
+					}
+				},
+				{
+					"filename": "ski_village_seats0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 440,
+						"h": 314
+					},
+					"frame": {
+						"x": 1156,
+						"y": 1082,
+						"w": 440,
+						"h": 314
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 255,
+						"h": 284
+					},
+					"frame": {
+						"x": 1166,
+						"y": 793,
+						"w": 255,
+						"h": 284
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 488,
+						"h": 415
+					},
+					"frame": {
+						"x": 1555,
+						"y": 1398,
+						"w": 488,
+						"h": 415
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0059.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 444,
+						"h": 395
+					},
+					"frame": {
+						"x": 1598,
+						"y": 793,
+						"w": 444,
+						"h": 395
+					}
+				},
+				{
+					"filename": "Symbol 1820027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 7,
+						"w": 227,
+						"h": 142
+					},
+					"frame": {
+						"x": 1598,
+						"y": 1190,
+						"w": 227,
+						"h": 142
+					}
+				},
+				{
+					"filename": "Symbol 1820015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 225,
+						"h": 141
+					},
+					"frame": {
+						"x": 1147,
+						"y": 1825,
+						"w": 225,
+						"h": 141
+					}
+				},
+				{
+					"filename": "Symbol 1820016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 225,
+						"h": 141
+					},
+					"frame": {
+						"x": 1374,
+						"y": 1825,
+						"w": 225,
+						"h": 141
+					}
+				},
+				{
+					"filename": "Symbol 1820030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 225,
+						"h": 141
+					},
+					"frame": {
+						"x": 1601,
+						"y": 1815,
+						"w": 225,
+						"h": 141
+					}
+				}
+			]
+		},
+		{
+			"image": "skivillage-5.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2035,
+				"h": 2044
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "skivillage_seats0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 27,
+						"w": 613,
+						"h": 358
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 613,
+						"h": 358
+					}
+				},
+				{
+					"filename": "skivillage_seats0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 25,
+						"w": 612,
+						"h": 359
+					},
+					"frame": {
+						"x": 616,
+						"y": 1,
+						"w": 612,
+						"h": 359
+					}
+				},
+				{
+					"filename": "skivillage_seats0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 63,
+						"y": 35,
+						"w": 612,
+						"h": 358
+					},
+					"frame": {
+						"x": 1,
+						"y": 361,
+						"w": 612,
+						"h": 358
+					}
+				},
+				{
+					"filename": "skivillage_seats0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 32,
+						"w": 612,
+						"h": 358
+					},
+					"frame": {
+						"x": 1230,
+						"y": 1,
+						"w": 612,
+						"h": 358
+					}
+				},
+				{
+					"filename": "skivillage_seats0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 53,
+						"y": 30,
+						"w": 612,
+						"h": 358
+					},
+					"frame": {
+						"x": 1230,
+						"y": 361,
+						"w": 612,
+						"h": 358
+					}
+				},
+				{
+					"filename": "skivillage_seats0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 82,
+						"y": 46,
+						"w": 612,
+						"h": 357
+					},
+					"frame": {
+						"x": 615,
+						"y": 362,
+						"w": 612,
+						"h": 357
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 496,
+						"h": 418
+					},
+					"frame": {
+						"x": 1,
+						"y": 721,
+						"w": 496,
+						"h": 418
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 479,
+						"h": 411
+					},
+					"frame": {
+						"x": 1,
+						"y": 1141,
+						"w": 479,
+						"h": 411
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 470,
+						"h": 407
+					},
+					"frame": {
+						"x": 1,
+						"y": 1554,
+						"w": 470,
+						"h": 407
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 461,
+						"h": 403
+					},
+					"frame": {
+						"x": 473,
+						"y": 1554,
+						"w": 461,
+						"h": 403
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 453,
+						"h": 399
+					},
+					"frame": {
+						"x": 482,
+						"y": 1141,
+						"w": 453,
+						"h": 399
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 435,
+						"h": 391
+					},
+					"frame": {
+						"x": 499,
+						"y": 721,
+						"w": 435,
+						"h": 391
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 426,
+						"h": 387
+					},
+					"frame": {
+						"x": 936,
+						"y": 721,
+						"w": 426,
+						"h": 387
+					}
+				},
+				{
+					"filename": "skivillage_seats0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 75,
+						"y": 42,
+						"w": 612,
+						"h": 357
+					},
+					"frame": {
+						"x": 1364,
+						"y": 721,
+						"w": 612,
+						"h": 357
+					}
+				},
+				{
+					"filename": "skivillage_seats0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 72,
+						"y": 41,
+						"w": 612,
+						"h": 357
+					},
+					"frame": {
+						"x": 1364,
+						"y": 1080,
+						"w": 612,
+						"h": 357
+					}
+				},
+				{
+					"filename": "ski_village_seats0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 425,
+						"h": 314
+					},
+					"frame": {
+						"x": 937,
+						"y": 1110,
+						"w": 425,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 0,
+						"w": 424,
+						"h": 314
+					},
+					"frame": {
+						"x": 937,
+						"y": 1426,
+						"w": 424,
+						"h": 314
+					}
+				},
+				{
+					"filename": "skivillage_puffle_wild_entrance.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 220,
+						"h": 301
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 220,
+						"h": 301
+					},
+					"frame": {
+						"x": 936,
+						"y": 1742,
+						"w": 220,
+						"h": 301
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 262,
+						"h": 289
+					},
+					"frame": {
+						"x": 1158,
+						"y": 1742,
+						"w": 262,
+						"h": 289
+					}
+				},
+				{
+					"filename": "skivillage_seats0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 70,
+						"y": 39,
+						"w": 612,
+						"h": 357
+					},
+					"frame": {
+						"x": 1422,
+						"y": 1439,
+						"w": 612,
+						"h": 357
+					}
+				},
+				{
+					"filename": "Symbol 1820031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 225,
+						"h": 141
+					},
+					"frame": {
+						"x": 1422,
+						"y": 1798,
+						"w": 225,
+						"h": 141
+					}
+				},
+				{
+					"filename": "Symbol 1820045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 225,
+						"h": 141
+					},
+					"frame": {
+						"x": 1649,
+						"y": 1798,
+						"w": 225,
+						"h": 141
+					}
+				}
+			]
+		},
+		{
+			"image": "skivillage-6.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1996,
+				"h": 2040
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "skivillage_seats0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 67,
+						"y": 38,
+						"w": 612,
+						"h": 357
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 612,
+						"h": 357
+					}
+				},
+				{
+					"filename": "skivillage_seats0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 65,
+						"y": 37,
+						"w": 612,
+						"h": 357
+					},
+					"frame": {
+						"x": 615,
+						"y": 1,
+						"w": 612,
+						"h": 357
+					}
+				},
+				{
+					"filename": "skivillage_seats0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 60,
+						"y": 34,
+						"w": 612,
+						"h": 357
+					},
+					"frame": {
+						"x": 1229,
+						"y": 1,
+						"w": 612,
+						"h": 357
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 417,
+						"h": 383
+					},
+					"frame": {
+						"x": 1,
+						"y": 360,
+						"w": 417,
+						"h": 383
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 408,
+						"h": 379
+					},
+					"frame": {
+						"x": 1,
+						"y": 745,
+						"w": 408,
+						"h": 379
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 400,
+						"h": 375
+					},
+					"frame": {
+						"x": 1,
+						"y": 1126,
+						"w": 400,
+						"h": 375
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 391,
+						"h": 371
+					},
+					"frame": {
+						"x": 1,
+						"y": 1503,
+						"w": 391,
+						"h": 371
+					}
+				},
+				{
+					"filename": "Symbol 1820046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 225,
+						"h": 141
+					},
+					"frame": {
+						"x": 1,
+						"y": 1876,
+						"w": 225,
+						"h": 141
+					}
+				},
+				{
+					"filename": "Symbol 1820051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 8,
+						"w": 233,
+						"h": 140
+					},
+					"frame": {
+						"x": 228,
+						"y": 1876,
+						"w": 233,
+						"h": 140
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 382,
+						"h": 366
+					},
+					"frame": {
+						"x": 394,
+						"y": 1503,
+						"w": 382,
+						"h": 366
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 364,
+						"h": 357
+					},
+					"frame": {
+						"x": 403,
+						"y": 1126,
+						"w": 364,
+						"h": 357
+					}
+				},
+				{
+					"filename": "skivillage_seats0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 52,
+						"w": 612,
+						"h": 356
+					},
+					"frame": {
+						"x": 411,
+						"y": 745,
+						"w": 612,
+						"h": 356
+					}
+				},
+				{
+					"filename": "skivillage_seats0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 84,
+						"y": 48,
+						"w": 612,
+						"h": 356
+					},
+					"frame": {
+						"x": 420,
+						"y": 360,
+						"w": 612,
+						"h": 356
+					}
+				},
+				{
+					"filename": "Symbol 1820050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 8,
+						"w": 232,
+						"h": 140
+					},
+					"frame": {
+						"x": 463,
+						"y": 1871,
+						"w": 232,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 7,
+						"w": 230,
+						"h": 140
+					},
+					"frame": {
+						"x": 697,
+						"y": 1871,
+						"w": 230,
+						"h": 140
+					}
+				},
+				{
+					"filename": "skivillage_seats0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 45,
+						"w": 612,
+						"h": 356
+					},
+					"frame": {
+						"x": 769,
+						"y": 1103,
+						"w": 612,
+						"h": 356
+					}
+				},
+				{
+					"filename": "skivillage_seats0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 44,
+						"w": 612,
+						"h": 356
+					},
+					"frame": {
+						"x": 1025,
+						"y": 718,
+						"w": 612,
+						"h": 356
+					}
+				},
+				{
+					"filename": "skivillage_seats0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 49,
+						"w": 611,
+						"h": 356
+					},
+					"frame": {
+						"x": 1034,
+						"y": 360,
+						"w": 611,
+						"h": 356
+					}
+				},
+				{
+					"filename": "skivillage_seats0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 96,
+						"y": 55,
+						"w": 612,
+						"h": 355
+					},
+					"frame": {
+						"x": 1383,
+						"y": 1076,
+						"w": 612,
+						"h": 355
+					}
+				},
+				{
+					"filename": "skivillage_seats0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 51,
+						"w": 612,
+						"h": 355
+					},
+					"frame": {
+						"x": 1383,
+						"y": 1433,
+						"w": 612,
+						"h": 355
+					}
+				},
+				{
+					"filename": "ski_village_seats0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 439,
+						"h": 314
+					},
+					"frame": {
+						"x": 929,
+						"y": 1461,
+						"w": 439,
+						"h": 314
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 223,
+						"h": 262
+					},
+					"frame": {
+						"x": 929,
+						"y": 1777,
+						"w": 223,
+						"h": 262
+					}
+				},
+				{
+					"filename": "Symbol 1820004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 140
+					},
+					"frame": {
+						"x": 1154,
+						"y": 1777,
+						"w": 226,
+						"h": 140
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 247,
+						"h": 278
+					},
+					"frame": {
+						"x": 1639,
+						"y": 718,
+						"w": 247,
+						"h": 278
+					}
+				},
+				{
+					"filename": "skivillage_seat_going_up_and_down0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 91,
+						"w": 239,
+						"h": 273
+					},
+					"frame": {
+						"x": 1647,
+						"y": 360,
+						"w": 239,
+						"h": 273
+					}
+				},
+				{
+					"filename": "Symbol 1820021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 229,
+						"h": 140
+					},
+					"frame": {
+						"x": 1382,
+						"y": 1790,
+						"w": 229,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 228,
+						"h": 140
+					},
+					"frame": {
+						"x": 1613,
+						"y": 1790,
+						"w": 228,
+						"h": 140
+					}
+				}
+			]
+		},
+		{
+			"image": "skivillage-7.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1989,
+				"h": 2037
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "skivillage_seats0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 99,
+						"y": 56,
+						"w": 611,
+						"h": 355
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 611,
+						"h": 355
+					}
+				},
+				{
+					"filename": "skivillage_seats0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 710,
+						"h": 411
+					},
+					"spriteSourceSize": {
+						"x": 94,
+						"y": 54,
+						"w": 611,
+						"h": 355
+					},
+					"frame": {
+						"x": 1,
+						"y": 358,
+						"w": 611,
+						"h": 355
+					}
+				},
+				{
+					"filename": "ski_village_seats0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 439,
+						"h": 313
+					},
+					"frame": {
+						"x": 1,
+						"y": 715,
+						"w": 439,
+						"h": 313
+					}
+				},
+				{
+					"filename": "ski_village_seats0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 439,
+						"h": 313
+					},
+					"frame": {
+						"x": 442,
+						"y": 715,
+						"w": 439,
+						"h": 313
+					}
+				},
+				{
+					"filename": "ski_village_seats0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 614,
+						"y": 1,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 614,
+						"y": 1,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 614,
+						"y": 1,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 614,
+						"y": 1,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 614,
+						"y": 1,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 614,
+						"y": 1,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 614,
+						"y": 1,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 614,
+						"y": 1,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 614,
+						"y": 1,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 614,
+						"y": 1,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 614,
+						"y": 1,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 614,
+						"y": 317,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 883,
+						"y": 633,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 1054,
+						"y": 1,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 1054,
+						"y": 317,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 883,
+						"y": 949,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 1,
+						"y": 1030,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 441,
+						"y": 1030,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 881,
+						"y": 1265,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 438,
+						"h": 314
+					},
+					"frame": {
+						"x": 1,
+						"y": 1346,
+						"w": 438,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 437,
+						"h": 314
+					},
+					"frame": {
+						"x": 441,
+						"y": 1346,
+						"w": 437,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 437,
+						"h": 314
+					},
+					"frame": {
+						"x": 1321,
+						"y": 1265,
+						"w": 437,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 437,
+						"h": 314
+					},
+					"frame": {
+						"x": 1323,
+						"y": 633,
+						"w": 437,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 438,
+						"h": 313
+					},
+					"frame": {
+						"x": 1323,
+						"y": 949,
+						"w": 438,
+						"h": 313
+					}
+				},
+				{
+					"filename": "ski_village_seats0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 437,
+						"h": 314
+					},
+					"frame": {
+						"x": 1494,
+						"y": 1,
+						"w": 437,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 437,
+						"h": 314
+					},
+					"frame": {
+						"x": 1494,
+						"y": 317,
+						"w": 437,
+						"h": 314
+					}
+				},
+				{
+					"filename": "Symbol 1820005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 140
+					},
+					"frame": {
+						"x": 1762,
+						"y": 633,
+						"w": 226,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 140
+					},
+					"frame": {
+						"x": 1762,
+						"y": 775,
+						"w": 226,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 140
+					},
+					"frame": {
+						"x": 1760,
+						"y": 1264,
+						"w": 226,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 7,
+						"w": 225,
+						"h": 140
+					},
+					"frame": {
+						"x": 1763,
+						"y": 917,
+						"w": 225,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 7,
+						"w": 225,
+						"h": 140
+					},
+					"frame": {
+						"x": 1763,
+						"y": 1059,
+						"w": 225,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 140
+					},
+					"frame": {
+						"x": 1760,
+						"y": 1406,
+						"w": 226,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 140
+					},
+					"frame": {
+						"x": 1760,
+						"y": 1548,
+						"w": 226,
+						"h": 140
+					}
+				},
+				{
+					"filename": "ski_village_seats0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 436,
+						"h": 314
+					},
+					"frame": {
+						"x": 880,
+						"y": 1581,
+						"w": 436,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 435,
+						"h": 314
+					},
+					"frame": {
+						"x": 1318,
+						"y": 1581,
+						"w": 435,
+						"h": 314
+					}
+				},
+				{
+					"filename": "Symbol 1820036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 140
+					},
+					"frame": {
+						"x": 1755,
+						"y": 1690,
+						"w": 226,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 226,
+						"h": 140
+					},
+					"frame": {
+						"x": 1755,
+						"y": 1832,
+						"w": 226,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 225,
+						"h": 140
+					},
+					"frame": {
+						"x": 1,
+						"y": 1662,
+						"w": 225,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 225,
+						"h": 140
+					},
+					"frame": {
+						"x": 228,
+						"y": 1662,
+						"w": 225,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 7,
+						"w": 225,
+						"h": 140
+					},
+					"frame": {
+						"x": 455,
+						"y": 1662,
+						"w": 225,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 7,
+						"w": 225,
+						"h": 140
+					},
+					"frame": {
+						"x": 1,
+						"y": 1804,
+						"w": 225,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 225,
+						"h": 140
+					},
+					"frame": {
+						"x": 228,
+						"y": 1804,
+						"w": 225,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 225,
+						"h": 140
+					},
+					"frame": {
+						"x": 455,
+						"y": 1804,
+						"w": 225,
+						"h": 140
+					}
+				},
+				{
+					"filename": "Symbol 1820009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 225,
+						"h": 139
+					},
+					"frame": {
+						"x": 682,
+						"y": 1897,
+						"w": 225,
+						"h": 139
+					}
+				},
+				{
+					"filename": "Symbol 1820010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 225,
+						"h": 139
+					},
+					"frame": {
+						"x": 909,
+						"y": 1897,
+						"w": 225,
+						"h": 139
+					}
+				},
+				{
+					"filename": "Symbol 1820037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 225,
+						"h": 139
+					},
+					"frame": {
+						"x": 1136,
+						"y": 1897,
+						"w": 225,
+						"h": 139
+					}
+				}
+			]
+		},
+		{
+			"image": "skivillage-8.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 883,
+				"h": 1264
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ski_village_seats0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 0,
+						"w": 433,
+						"h": 314
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 433,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 0,
+						"w": 433,
+						"h": 314
+					},
+					"frame": {
+						"x": 436,
+						"y": 1,
+						"w": 433,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 432,
+						"h": 314
+					},
+					"frame": {
+						"x": 1,
+						"y": 317,
+						"w": 432,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 0,
+						"w": 431,
+						"h": 314
+					},
+					"frame": {
+						"x": 435,
+						"y": 317,
+						"w": 431,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 0,
+						"w": 429,
+						"h": 314
+					},
+					"frame": {
+						"x": 1,
+						"y": 633,
+						"w": 429,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 0,
+						"w": 428,
+						"h": 314
+					},
+					"frame": {
+						"x": 432,
+						"y": 633,
+						"w": 428,
+						"h": 314
+					}
+				},
+				{
+					"filename": "ski_village_seats0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 0,
+						"w": 427,
+						"h": 314
+					},
+					"frame": {
+						"x": 1,
+						"y": 949,
+						"w": 427,
+						"h": 314
+					}
+				},
+				{
+					"filename": "Symbol 1820038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 225,
+						"h": 139
+					},
+					"frame": {
+						"x": 430,
+						"y": 949,
+						"w": 225,
+						"h": 139
+					}
+				},
+				{
+					"filename": "Symbol 1820039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 225,
+						"h": 139
+					},
+					"frame": {
+						"x": 657,
+						"y": 949,
+						"w": 225,
+						"h": 139
+					}
+				},
+				{
+					"filename": "Symbol 1820040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 244,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 225,
+						"h": 139
+					},
+					"frame": {
+						"x": 430,
+						"y": 1090,
+						"w": 225,
+						"h": 139
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:4f4407e688fda02d3f8b86c19528f24f:20b112bc74e812af7110cfbf364ec136:89825136a66b7b0f3a70de182e3e29e2$"
+	}
+}
