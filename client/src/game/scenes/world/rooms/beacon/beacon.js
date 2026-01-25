@@ -1,5 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { BEACON_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 // TODO: Launch pad hover effect little buggy
@@ -12,20 +13,27 @@ export class BeaconScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+        this.audioManager = this.getAudioManager();
         this.beaconLightOn = true;
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "beacon",
-            paths: ["assets/world/rooms/beacon/beacon-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "beacon",
+            "paths": ["assets/world/rooms/beacon/beacon-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": BEACON_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/beacon/beacon_music.json"]
         });
     }
 
     createContent() {
-
 		// beacon_sky_png
 		this.add.image(711, 119, "beacon", "beacon_sky.png");
 
@@ -210,5 +218,7 @@ export class BeaconScene extends BaseScene {
             beacon_light_off_png.visible = false;
         });
         // All interactive events end here
+
+        this.audioManager.play(BEACON_ROOM_MUSIC);
     }
 }

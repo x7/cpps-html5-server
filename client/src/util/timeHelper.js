@@ -2,6 +2,10 @@ export function getCurrentDay(timezone) {
     const day = new Date(new Date().toLocaleString("en-US", { timeZone: timezone })).getDay().toString();
 
     switch(day) {
+        case "0": {
+            return "Sunday";
+        }
+
         case "1": {
             return "Monday";
         }
@@ -24,10 +28,6 @@ export function getCurrentDay(timezone) {
 
         case "6": {
             return "Saturday";
-        }
-
-        case "7": {
-            return "Sunday"
         }
     }
 }

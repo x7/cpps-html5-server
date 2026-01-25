@@ -6,7 +6,7 @@ import { BaseScene } from "../../../base/baseScene";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { SCENE_ROOM_TOWN } from "../../../sceneNames";
 import { ClientPenguin } from "../../../../penguin/clientPenguin";
-import { TOWN_COFFEE_SHOP_DOOR_CLOSE, TOWN_COFFEE_SHOP_DOOR_OPEN, TOWN_DANCE_CLUB_DOOR_CLOSE, TOWN_DANCE_CLUB_DOOR_OPEN, TOWN_GIFT_SHOP_DOOR_CLOSE, TOWN_GIFT_SHOP_DOOR_OPEN } from "../../../../audio/audioConstants";
+import { TOWN_ROOM_COFFEE_SHOP_DOOR_CLOSE, TOWN_ROOM_COFFEE_SHOP_DOOR_OPEN, TOWN_ROOM_DANCE_CLUB_DOOR_CLOSE, TOWN_ROOM_DANCE_CLUB_DOOR_OPEN, TOWN_ROOM_GIFT_SHOP_DOOR_CLOSE, TOWN_ROOM_GIFT_SHOP_DOOR_OPEN, TOWN_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { getManager } from "../../../../../network/network";
 import { SERVER_VERIFY_PACKET } from "../../../../../network/topics";
 
@@ -81,6 +81,13 @@ export class TownScene extends BaseScene {
 			type: ASSET_TYPES.AUDIO,
 			name: "town_gift_shop_close",
 			paths: ["assets/world/rooms/town/town2013-shopclose.mp3"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.AUDIO,
+			name: TOWN_MUSIC,
+			paths: ["assets/world/rooms/town/town_music.mp3"]
 		});
 	}
 
@@ -340,21 +347,22 @@ export class TownScene extends BaseScene {
 		// All interactive events ends here
 
 		// ALL TESTING MULTIPLAYER BELOW HERE
-		const client = ClientPenguin.getClient();
-		this.movementManager = new MovementManager(client);
-		this.snowballManager = new snowBallManager(this, client);
-		this.snowballManager.createSnowball();
-		new RoomMouseMovemenet(this, client);
-		new RoomKeyPressed(this, client);
+		// const client = ClientPenguin.getClient();
+		// this.movementManager = new MovementManager(client);
+		// this.snowballManager = new snowBallManager(this, client);
+		// this.snowballManager.createSnowball();
+		// new RoomMouseMovemenet(this, client);
+		// new RoomKeyPressed(this, client);
 
+		this.audioManager.play(TOWN_MUSIC);
 		this.events.once("shutdown", this.shutdown, this);
 		this.events.emit("scene-awake");
 		this.s = false;
 	}
 
 	update() {
-		this.movementManager.update();
-		this.snowballManager.update();
+		// this.movementManager.update();
+		// this.snowballManager.update();
 		if(!this.s) {
 			this.sceneManager.launch("InterfaceScene");
 			this.sceneManager.sendToTop("InterfaceScene");

@@ -1,5 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { ICE_BERG_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 export class IcebergScene extends BaseScene {
@@ -9,14 +10,22 @@ export class IcebergScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+        this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "iceberg",
-            paths: ["assets/world/rooms/iceberg/iceberg-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "iceberg",
+            "paths": ["assets/world/rooms/iceberg/iceberg-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": ICE_BERG_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/iceberg/iceberg_music.json"]
         });
     }
 
@@ -85,5 +94,7 @@ export class IcebergScene extends BaseScene {
             iceberg_aqua_grabber0001_png.play("iceberg_aqua_grabber_close_animation_play");
         });
         // All interactive events end here
+
+        this.audioManager.play(ICE_BERG_ROOM_MUSIC);
     }
 }

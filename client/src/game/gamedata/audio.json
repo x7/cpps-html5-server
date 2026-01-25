@@ -64,5 +64,203 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "town_music": {
+        "key": "town_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_village_room_music": {
+        "key": "ski_village_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "snow_forts_room_music": {
+        "key": "snow_forts_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_hill_room_music": {
+        "key": "ski_hill_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "school_room_music": {
+        "key": "school_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "puffle_wild_room_music": {
+        "key": "puffle_wild_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "plaza_room_music": {
+        "key": "plaza_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "light_house_room_music": {
+        "key": "light_house_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ice_berg_room_music": {
+        "key": "ice_berg_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "gift_shop_room_music": {
+        "key": "gift_shop_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "dojo_room_music": {
+        "key": "dojo_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "dojo_fire_room_music": {
+        "key": "dojo_fire_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "dojo_water_room_music": {
+        "key": "dojo_water_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "docks_room_music": {
+        "key": "docks_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "dance_club_room_music": {
+        "key": "dance_club_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "boiler_room_music": {
+        "key": "boiler_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "beacon_room_music": {
+        "key": "beacon_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "beach_room_music": {
+        "key": "beach_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }

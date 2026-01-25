@@ -1,5 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { GIFT_SHOP_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 export class GiftshopScene extends BaseScene {
@@ -9,14 +10,22 @@ export class GiftshopScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+        this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "giftshop",
-            paths: ["assets/world/rooms/giftshop/giftshop-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "giftshop",
+            "paths": ["assets/world/rooms/giftshop/giftshop-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": GIFT_SHOP_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/giftshop/giftshop_music.mp3"]
         });
     }
 
@@ -187,5 +196,7 @@ export class GiftshopScene extends BaseScene {
             giftshop_door0002_png.visible = false;
         });
         // All interactive events emd here
+
+        this.audioManager.play(GIFT_SHOP_ROOM_MUSIC);
     }
 }

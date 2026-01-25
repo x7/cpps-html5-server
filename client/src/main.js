@@ -28,17 +28,18 @@ import { UnderwaterScene } from './game/scenes/world/rooms/underwater/underwater
 import { SkiVillageScene } from './game/scenes/world/rooms/skivillage/skivillage.js';
 import { DojoScene } from './game/scenes/world/rooms/dojo/dojo.js';
 import { FireDojoScene } from './game/scenes/world/rooms/dojo/fire/firedojo.js';
+import { WaterDojoScene } from './game/scenes/world/rooms/dojo/water/waterdojo.js';
 
 const config = {
     type: Phaser.AUTO,
     parent: 'game',
-    width: 1280,
-    height: 720,
+    width: 1520,
+    height: 960,
     resolution: window.devicePixelRatio || 1,
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
-    scene: [FireDojoScene],
+    scene: [PreloadAssetsScene, SnowFortsScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH

@@ -1,4 +1,5 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { SKI_HILL_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 // TODO: add missing animations
@@ -10,6 +11,7 @@ export class SkihillScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+		this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
@@ -19,10 +21,16 @@ export class SkihillScene extends BaseScene {
             name: "skihill",
             paths: ["assets/world/rooms/skihill/skihill-pack.json"]
         });
+
+		this.assetManager.load({
+            scene: this,
+            type: ASSET_TYPES.AUDIO,
+            name: SKI_HILL_ROOM_MUSIC,
+            paths: ["assets/world/rooms/skihill/skihill_music.mp3"]
+        });
     }
 
     createContent() {
-
 		// skihill_sky_png
 		const skihill_sky_png = this.add.image(640, 58, "skihill", "skihill_sky.png");
 		skihill_sky_png.scaleX = 0.7527151893627061;
@@ -90,5 +98,7 @@ export class SkihillScene extends BaseScene {
 		const skihill_blue_arrow_snow_png = this.add.image(422, 477, "skihill", "skihill_blue_arrow_snow.png");
 		skihill_blue_arrow_snow_png.scaleX = 0.8124531843274214;
 		skihill_blue_arrow_snow_png.scaleY = 0.8078284099990185;
+
+		this.audioManager.play(SKI_HILL_ROOM_MUSIC);
     }
 }

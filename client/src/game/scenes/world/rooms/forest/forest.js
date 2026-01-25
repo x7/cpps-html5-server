@@ -1,4 +1,5 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { FOREST_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 export class ForestScene extends BaseScene {
@@ -8,14 +9,22 @@ export class ForestScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+		this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "beacon",
-            paths: ["assets/world/rooms/forest/forest-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "beacon",
+            "paths": ["assets/world/rooms/forest/forest-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": FOREST_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/forest/forest_music.mp3"]
         });
     }
 
@@ -47,5 +56,7 @@ export class ForestScene extends BaseScene {
 		const forest_double_middle_tree_png = this.add.image(534, 406, "forest", "forest_double_middle_tree.png");
 		forest_double_middle_tree_png.scaleX = 0.7885145301713943;
 		forest_double_middle_tree_png.scaleY = 0.7745561885816865;
+
+		this.audioManager.play(FOREST_ROOM_MUSIC);
     }
 }

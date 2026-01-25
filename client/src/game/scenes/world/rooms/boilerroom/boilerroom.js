@@ -1,5 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { BOILER_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 export class BoilerRoomScene extends BaseScene {
@@ -9,14 +10,22 @@ export class BoilerRoomScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+        this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "boilerroom",
-            paths: ["assets/world/rooms/boilerroom/boilerroom-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "boilerroom",
+            "paths": ["assets/world/rooms/boilerroom/boilerroom-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": BOILER_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/boilerroom/boilerroom_music.mp3"]
         });
     }
 
@@ -136,5 +145,7 @@ export class BoilerRoomScene extends BaseScene {
             boiler_room_draw0001_png.play("boiler_room_close_newspaper_animation_play");
         });
         // All interactive events end here
+
+        this.audioManager.play(BOILER_ROOM_MUSIC);
     }
 }

@@ -1,5 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { BEACH_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 export class BeachScene extends BaseScene {
@@ -9,14 +10,22 @@ export class BeachScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+		this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "beach",
-            paths: ["assets/world/rooms/beach/beach-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "beach",
+            "paths": ["assets/world/rooms/beach/beach-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": BEACH_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/beach/beach-pack.json"]
         });
     }
 
@@ -150,5 +159,6 @@ export class BeachScene extends BaseScene {
         });
         // All interactive events end here
 
+		this.audioManager.play(BEACH_ROOM_MUSIC);
     }
 }

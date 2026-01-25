@@ -1,5 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { PLAZA_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 export class PlazaScene extends BaseScene {
@@ -9,14 +10,22 @@ export class PlazaScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+        this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "beacon",
-            paths: ["assets/world/rooms/plaza/plaza-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "plaza",
+            "paths": ["assets/world/rooms/plaza/plaza-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": PLAZA_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/plaza/plaza_music.mp3"]
         });
     }
 
@@ -264,5 +273,7 @@ export class PlazaScene extends BaseScene {
             plaza_underground_door_png.play("plaza_underground_well_close_animation_play");
         });
         // All interactive events end here
+
+        this.audioManager.play(PLAZA_ROOM_MUSIC);
     }
 }

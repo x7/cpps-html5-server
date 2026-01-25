@@ -1,5 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { LIGHT_HOUSE_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 // TODO: Get instruments thing in the right side buy shit idk
@@ -11,14 +12,22 @@ export class LighthouseScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+        this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "lighthouse",
-            paths: ["assets/world/rooms/lighthouse/lighthouse-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "lighthouse",
+            "paths": ["assets/world/rooms/lighthouse/lighthouse-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": LIGHT_HOUSE_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/lighthouse/lighthouse_music.mp3"]
         });
     }
 
@@ -196,5 +205,7 @@ export class LighthouseScene extends BaseScene {
             console.log("to beacon noob");
         });
         // All interactive events end here
+
+        this.audioManager.play(LIGHT_HOUSE_ROOM_MUSIC);
     }
 }

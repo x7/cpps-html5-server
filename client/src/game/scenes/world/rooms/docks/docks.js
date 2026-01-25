@@ -1,5 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { DOCKS_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 export class DocksScene extends BaseScene {
@@ -9,14 +10,22 @@ export class DocksScene extends BaseScene {
 
     init() {
         this.assetManager = this.getAssetManager();
+		this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "docks",
-            paths: ["assets/world/rooms/docks/docks-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "docks",
+            "paths": ["assets/world/rooms/docks/docks-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": DOCKS_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/docks/docks_music.mp3"]
         });
     }
 
@@ -157,5 +166,7 @@ export class DocksScene extends BaseScene {
             console.log("Buy!!!!!!!!!!")
         });
         // All interactive events ends here
+
+		this.audioManager.play(DOCKS_ROOM_MUSIC);
     }
 }

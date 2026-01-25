@@ -2,6 +2,7 @@ import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { BaseScene } from "../../../base/baseScene";
 import { getClockTowerDay, getClockTowerTime } from "./snowfortsHelper";
 import { createAnimation } from "../../../../../animations/animations";
+import { SNOW_FORTS_ROOM_MUSIC } from "../../../../audio/audioConstants";
 
 export class SnowFortsScene extends BaseScene {
     constructor() {
@@ -10,29 +11,37 @@ export class SnowFortsScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+		this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "snowforts",
-            paths: ["assets/world/rooms/snowforts/snowforts-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "snowforts",
+            "paths": ["assets/world/rooms/snowforts/snowforts-pack.json"]
         });
 
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.BITMAP_FONT,
-            name: "StopwatchItalic",
-            paths: ["assets/fonts/StopwatchItalic.png", "assets/fonts/StopwatchItalic.xml"]
-        })
+            "scene": this,
+            "type": ASSET_TYPES.BITMAP_FONT,
+            "name": "StopwatchItalic",
+            "paths": ["assets/fonts/StopwatchItalic.png", "assets/fonts/StopwatchItalic.xml"]
+        });
 
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.BITMAP_FONT,
-            name: "CCComicCrazyW00BoldItalic",
-            paths: ["assets/fonts/CCComicCrazyW00BoldItalic.png", "assets/fonts/CCComicCrazyW00BoldItalic.xml"]
-        })
+            "scene": this,
+            "type": ASSET_TYPES.BITMAP_FONT,
+            "name": "CCComicCrazyW00BoldItalic",
+            "paths": ["assets/fonts/CCComicCrazyW00BoldItalic.png", "assets/fonts/CCComicCrazyW00BoldItalic.xml"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": SNOW_FORTS_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/snowforts/snowforts_music.mp3"]
+        });
     }
 
     createContent() {
@@ -173,6 +182,8 @@ export class SnowFortsScene extends BaseScene {
 		snowforts_orange_flag_castle_flag0001_png.play("snowforts_bottom_flag_play");
 		snowforts_black_flag_castle_yay0001_png.play("snowforts_top_flag_play");
 		// Animations end here
+
+		this.audioManager.play(SNOW_FORTS_ROOM_MUSIC);
     }
 
 	update() {

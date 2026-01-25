@@ -44,9 +44,9 @@ export class AudioManager {
             return;
         }
 
+        console.log(audio)
         audio.play();
         this.musicPlaying.set(key, audio);
-
         // auto remove after completed
         audio.once("complete", () => {
             this.stop(key);

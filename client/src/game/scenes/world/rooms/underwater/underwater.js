@@ -1,4 +1,5 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { UNDERWATER_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 export class UnderwaterScene extends BaseScene {
@@ -8,19 +9,27 @@ export class UnderwaterScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+		this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "underwater",
-            paths: ["assets/world/rooms/underwater/underwater-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "underwater",
+            "paths": ["assets/world/rooms/underwater/underwater-pack.json"]
         });
+
+		this.assetManager.load({
+			"scene": this,
+			"type": ASSET_TYPES.AUDIO,
+			"name": UNDERWATER_ROOM_MUSIC,
+			"paths": ["assets/world/rooms/underwater/underwater_music.mp3"]
+		});
     }
 
     createContent() {
-// underwater_background_png
+		// underwater_background_png
 		const underwater_background_png = this.add.image(663, 42, "underwater", "underwater_background.png");
 		underwater_background_png.scaleX = 0.8708603656776539;
 
@@ -73,5 +82,7 @@ export class UnderwaterScene extends BaseScene {
 
 		// underwater_sea_weed_png
 		this.add.image(1236, 335, "underwater", "underwater_sea_weed.png");
+
+		this.audioManager.play(UNDERWATER_ROOM_MUSIC);
     }
 }

@@ -1,5 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { DOJO_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 // TODO: Fix fire door bugging out on hover events
@@ -12,14 +13,22 @@ export class DojoScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+		this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "dojo",
-            paths: ["assets/world/rooms/dojo/dojo-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "dojo",
+            "paths": ["assets/world/rooms/dojo/dojo-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": DOJO_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/dojo/dojo_music.mp3"]
         });
     }
 
@@ -308,5 +317,7 @@ export class DojoScene extends BaseScene {
             dojo_card_jistu_mat0002_png_1.visible = false;
         });
         // All interactive events end here
+
+		this.audioManager.play(DOJO_ROOM_MUSIC);
     }
 }

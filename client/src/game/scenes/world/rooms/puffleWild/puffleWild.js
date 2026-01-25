@@ -1,5 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { PUFFLE_WILD_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 // TODO: Light affects at the topo
@@ -13,14 +14,22 @@ export class PuffleWildScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+		this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "pufflewild",
-            paths: ["assets/world/rooms/puffleWild/pufflewild-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "pufflewild",
+            "paths": ["assets/world/rooms/puffleWild/pufflewild-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": PUFFLE_WILD_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/puffleWild/pufflewild_music.mp3"]
         });
     }
 
@@ -141,5 +150,7 @@ export class PuffleWildScene extends BaseScene {
 
         pufflewild_puffle_in_bush0001_png.play("pufflewild_puffle_in_bush_animation_play");
         // Animations end here
+
+		this.audioManager.play(PUFFLE_WILD_ROOM_MUSIC);
     }
 }

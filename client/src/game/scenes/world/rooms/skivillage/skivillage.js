@@ -1,5 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { SKI_VILLAGE_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 // TODO: Fix animations (1)
@@ -12,6 +13,7 @@ export class SkiVillageScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+        this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
@@ -20,6 +22,13 @@ export class SkiVillageScene extends BaseScene {
             type: ASSET_TYPES.PACK,
             name: "skivillage",
             paths: ["assets/world/rooms/skivillage/skivillage-pack.json"]
+        });
+
+        this.assetManager.load({
+            scene: this,
+            type: ASSET_TYPES.AUDIO,
+            name: SKI_VILLAGE_ROOM_MUSIC,
+            paths: ["assets/world/rooms/skivillage/ski_village_room_music.mp3"]
         });
     }
 
@@ -203,5 +212,7 @@ export class SkiVillageScene extends BaseScene {
             ski_village_epf_door_open_png.visible = false;
         });
         // All interactive events end here
+
+        this.audioManager.play(SKI_VILLAGE_ROOM_MUSIC);
     }
 }

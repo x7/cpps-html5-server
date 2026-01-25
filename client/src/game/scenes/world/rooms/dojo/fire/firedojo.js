@@ -1,4 +1,5 @@
 import { ASSET_TYPES } from "../../../../../assets/assetTypes";
+import { DOJO_FIRE_ROOM_MUSIC } from "../../../../../audio/audioConstants";
 import { BaseScene } from "../../../../base/baseScene";
 
 // TODO: Redesign this entirely
@@ -11,14 +12,22 @@ export class FireDojoScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+		this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "firedojo",
-            paths: ["assets/world/rooms/dojo/firedojo/firedojo-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "firedojo",
+            "paths": ["assets/world/rooms/dojo/firedojo/firedojo-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": DOJO_FIRE_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/dojo/firedojo/firedojo_music.mp3"]
         });
     }
 
@@ -123,5 +132,7 @@ export class FireDojoScene extends BaseScene {
 		const fire_dojo_text_png = this.add.image(617, 113, "fire_dojo", "fire_dojo_text.png");
 		fire_dojo_text_png.scaleX = 0.8970337205823306;
 		fire_dojo_text_png.scaleY = 0.6485757821288265;
+
+		this.audioManager.play(DOJO_FIRE_ROOM_MUSIC);
     }
 }

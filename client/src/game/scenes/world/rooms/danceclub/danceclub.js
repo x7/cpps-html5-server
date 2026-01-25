@@ -1,5 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
+import { DANCE_CLUB_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 export class DanceclubScene extends BaseScene {
@@ -9,19 +10,27 @@ export class DanceclubScene extends BaseScene {
 
     init(data) {
         this.assetManager = this.getAssetManager();
+        this.audioManager = this.getAudioManager();
     }
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "danceclub",
-            paths: ["assets/world/rooms/danceclub/danceclub-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "danceclub",
+            "paths": ["assets/world/rooms/danceclub/danceclub-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": DANCE_CLUB_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/danceclub/danceclub_music.mp3"]
         });
     }
 
     createContent() {
-// danceclub_dance_floor0001_png
+        // danceclub_dance_floor0001_png
 		const danceclub_dance_floor0001_png = this.add.sprite(577, 723, "danceclub", "danceclub_dance_floor0001.png");
 		danceclub_dance_floor0001_png.scaleX = 0.7808491730657305;
 		danceclub_dance_floor0001_png.scaleY = 0.8081338770557172;
@@ -252,5 +261,7 @@ export class DanceclubScene extends BaseScene {
             danceclub_bottom_right_speaker0001_png.play("danceclub_bottom_right_speaker_animation_play");
         });
         // All interactive events end here
+
+        this.audioManager.play(DANCE_CLUB_ROOM_MUSIC);
     }
 }
