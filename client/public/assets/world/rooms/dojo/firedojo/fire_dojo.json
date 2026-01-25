@@ -1,0 +1,1187 @@
+{
+	"textures": [
+		{
+			"image": "fire_dojo-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1980,
+				"h": 2047
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "fire_dojo_base.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1564,
+						"h": 944
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1564,
+						"h": 944
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1564,
+						"h": 944
+					}
+				},
+				{
+					"filename": "fire_dojo_statues0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1564,
+						"h": 739
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1564,
+						"h": 739
+					},
+					"frame": {
+						"x": 1,
+						"y": 947,
+						"w": 1564,
+						"h": 739
+					}
+				},
+				{
+					"filename": "fire_dojo_bottom_part_lava_outline.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1560,
+						"h": 224
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1560,
+						"h": 224
+					},
+					"frame": {
+						"x": 1,
+						"y": 1688,
+						"w": 1560,
+						"h": 224
+					}
+				},
+				{
+					"filename": "fire_dojo_left_lava.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 312,
+						"h": 191
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 312,
+						"h": 191
+					},
+					"frame": {
+						"x": 1563,
+						"y": 1688,
+						"w": 312,
+						"h": 191
+					}
+				},
+				{
+					"filename": "fire_dojo_bottom_left_mat.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 739,
+						"h": 893
+					},
+					"spriteSourceSize": {
+						"x": 376,
+						"y": 726,
+						"w": 357,
+						"h": 165
+					},
+					"frame": {
+						"x": 1563,
+						"y": 1881,
+						"w": 357,
+						"h": 165
+					}
+				},
+				{
+					"filename": "fire_dojo_top_left_mat0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 351,
+						"h": 124
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 351,
+						"h": 124
+					},
+					"frame": {
+						"x": 1,
+						"y": 1914,
+						"w": 351,
+						"h": 124
+					}
+				},
+				{
+					"filename": "fire_dojo_top_left_mat0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 351,
+						"h": 124
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 336,
+						"h": 120
+					},
+					"frame": {
+						"x": 354,
+						"y": 1914,
+						"w": 336,
+						"h": 120
+					}
+				},
+				{
+					"filename": "fire_dojo_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 205,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 205,
+						"h": 62
+					},
+					"frame": {
+						"x": 692,
+						"y": 1914,
+						"w": 205,
+						"h": 62
+					}
+				},
+				{
+					"filename": "fire_dojo_stairs_fences.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 165,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 165,
+						"h": 80
+					},
+					"frame": {
+						"x": 899,
+						"y": 1914,
+						"w": 165,
+						"h": 80
+					}
+				},
+				{
+					"filename": "fire_dojo_sensi_seat.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 138,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 138,
+						"h": 65
+					},
+					"frame": {
+						"x": 692,
+						"y": 1978,
+						"w": 138,
+						"h": 65
+					}
+				},
+				{
+					"filename": "fire_dojo_small_latern.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 62
+					},
+					"frame": {
+						"x": 832,
+						"y": 1978,
+						"w": 48,
+						"h": 62
+					}
+				},
+				{
+					"filename": "fire_dojo_text.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 132,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 67
+					},
+					"frame": {
+						"x": 1066,
+						"y": 1914,
+						"w": 132,
+						"h": 67
+					}
+				},
+				{
+					"filename": "fire_dojo_flower_pot.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 94
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 94
+					},
+					"frame": {
+						"x": 1200,
+						"y": 1914,
+						"w": 79,
+						"h": 94
+					}
+				},
+				{
+					"filename": "fire_dojo_fire_bottle_down.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 59,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 59,
+						"h": 46
+					},
+					"frame": {
+						"x": 1066,
+						"y": 1983,
+						"w": 59,
+						"h": 46
+					}
+				},
+				{
+					"filename": "fire_dojo_latern.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 73,
+						"h": 98
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 73,
+						"h": 98
+					},
+					"frame": {
+						"x": 1281,
+						"y": 1914,
+						"w": 73,
+						"h": 98
+					}
+				},
+				{
+					"filename": "fire_dojo_bottom_part_lava_outline_left_line.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 97
+					},
+					"frame": {
+						"x": 1356,
+						"y": 1914,
+						"w": 18,
+						"h": 97
+					}
+				},
+				{
+					"filename": "fire_dojo_bottom_part_lava_outline_right_line.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 97
+					},
+					"frame": {
+						"x": 1376,
+						"y": 1914,
+						"w": 18,
+						"h": 97
+					}
+				},
+				{
+					"filename": "fire_dojo_big_latern0008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 205,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 205,
+						"h": 393
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1,
+						"w": 205,
+						"h": 393
+					}
+				},
+				{
+					"filename": "fire_dojo_big_latern0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 205,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 21,
+						"w": 205,
+						"h": 372
+					},
+					"frame": {
+						"x": 1567,
+						"y": 396,
+						"w": 205,
+						"h": 372
+					}
+				},
+				{
+					"filename": "fire_dojo_big_latern0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 205,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 43,
+						"w": 205,
+						"h": 350
+					},
+					"frame": {
+						"x": 1567,
+						"y": 770,
+						"w": 205,
+						"h": 350
+					}
+				},
+				{
+					"filename": "fire_dojo_big_latern0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 205,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 62,
+						"w": 205,
+						"h": 331
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1122,
+						"w": 205,
+						"h": 331
+					}
+				},
+				{
+					"filename": "fire_dojo_bottom_right_mat0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 369,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 369,
+						"h": 169
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1455,
+						"w": 369,
+						"h": 169
+					}
+				},
+				{
+					"filename": "fire_dojo_big_latern0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 205,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 70,
+						"w": 205,
+						"h": 323
+					},
+					"frame": {
+						"x": 1774,
+						"y": 1,
+						"w": 205,
+						"h": 323
+					}
+				},
+				{
+					"filename": "fire_dojo_big_latern0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 205,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 77,
+						"w": 205,
+						"h": 316
+					},
+					"frame": {
+						"x": 1774,
+						"y": 326,
+						"w": 205,
+						"h": 316
+					}
+				},
+				{
+					"filename": "fire_dojo_big_latern0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 205,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 78,
+						"w": 205,
+						"h": 315
+					},
+					"frame": {
+						"x": 1774,
+						"y": 644,
+						"w": 205,
+						"h": 315
+					}
+				},
+				{
+					"filename": "fire_dojo_big_latern0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 205,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 95,
+						"w": 205,
+						"h": 298
+					},
+					"frame": {
+						"x": 1774,
+						"y": 961,
+						"w": 205,
+						"h": 298
+					}
+				},
+				{
+					"filename": "fire_dojo_cage.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 205,
+						"h": 182
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 205,
+						"h": 182
+					},
+					"frame": {
+						"x": 1774,
+						"y": 1261,
+						"w": 205,
+						"h": 182
+					}
+				}
+			]
+		},
+		{
+			"image": "fire_dojo-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1988,
+				"h": 2012
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "fire_dojo_sky.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1623,
+						"h": 370
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1623,
+						"h": 370
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1623,
+						"h": 370
+					}
+				},
+				{
+					"filename": "fire_dojo_bottom_right_mat0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 369,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 3,
+						"w": 356,
+						"h": 164
+					},
+					"frame": {
+						"x": 1626,
+						"y": 1,
+						"w": 356,
+						"h": 164
+					}
+				},
+				{
+					"filename": "fire_dojo_right_lava.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 309,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 309,
+						"h": 192
+					},
+					"frame": {
+						"x": 1626,
+						"y": 167,
+						"w": 309,
+						"h": 192
+					}
+				},
+				{
+					"filename": "fire_dojo_pipe.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 293,
+						"h": 237
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 293,
+						"h": 237
+					},
+					"frame": {
+						"x": 1626,
+						"y": 361,
+						"w": 293,
+						"h": 237
+					}
+				},
+				{
+					"filename": "fire_dojo_statues0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1564,
+						"h": 739
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1564,
+						"h": 739
+					},
+					"frame": {
+						"x": 1,
+						"y": 373,
+						"w": 1564,
+						"h": 739
+					}
+				},
+				{
+					"filename": "fire_dojo_statues0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1564,
+						"h": 739
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1564,
+						"h": 739
+					},
+					"frame": {
+						"x": 1,
+						"y": 1114,
+						"w": 1564,
+						"h": 739
+					}
+				},
+				{
+					"filename": "fire_dojo_stairs.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 545,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 545,
+						"h": 156
+					},
+					"frame": {
+						"x": 1,
+						"y": 1855,
+						"w": 545,
+						"h": 156
+					}
+				},
+				{
+					"filename": "fire_dojo_sensi_hoouose0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 249,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 6,
+						"w": 246,
+						"h": 241
+					},
+					"frame": {
+						"x": 1567,
+						"y": 600,
+						"w": 246,
+						"h": 241
+					}
+				},
+				{
+					"filename": "fire_dojo_instructions0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 175,
+						"h": 172
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 172,
+						"h": 168
+					},
+					"frame": {
+						"x": 1815,
+						"y": 600,
+						"w": 172,
+						"h": 168
+					}
+				},
+				{
+					"filename": "fire_dojo_instructions0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 175,
+						"h": 172
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 172,
+						"h": 168
+					},
+					"frame": {
+						"x": 1815,
+						"y": 600,
+						"w": 172,
+						"h": 168
+					}
+				},
+				{
+					"filename": "fire_dojo_instructions0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 175,
+						"h": 172
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 172,
+						"h": 168
+					},
+					"frame": {
+						"x": 1815,
+						"y": 770,
+						"w": 172,
+						"h": 168
+					}
+				},
+				{
+					"filename": "fire_dojo_big_latern0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 205,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 107,
+						"w": 205,
+						"h": 286
+					},
+					"frame": {
+						"x": 1567,
+						"y": 843,
+						"w": 205,
+						"h": 286
+					}
+				},
+				{
+					"filename": "fire_dojo_big_latern0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 205,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 112,
+						"w": 205,
+						"h": 281
+					},
+					"frame": {
+						"x": 1774,
+						"y": 940,
+						"w": 205,
+						"h": 281
+					}
+				},
+				{
+					"filename": "fire_dojo_legend_paper0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 177,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 174,
+						"h": 168
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1131,
+						"w": 174,
+						"h": 168
+					}
+				},
+				{
+					"filename": "fire_dojo_legend_paper0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 177,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 174,
+						"h": 168
+					},
+					"frame": {
+						"x": 1743,
+						"y": 1223,
+						"w": 174,
+						"h": 168
+					}
+				},
+				{
+					"filename": "fire_dojo_legend_paper0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 177,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 174,
+						"h": 168
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1301,
+						"w": 174,
+						"h": 168
+					}
+				},
+				{
+					"filename": "fire_dojo_legend_paper0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 177,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 174,
+						"h": 168
+					},
+					"frame": {
+						"x": 1743,
+						"y": 1393,
+						"w": 174,
+						"h": 168
+					}
+				},
+				{
+					"filename": "fire_dojo_legend_paper0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 177,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 174,
+						"h": 168
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1471,
+						"w": 174,
+						"h": 168
+					}
+				},
+				{
+					"filename": "fire_dojo_legend_paper0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 177,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 174,
+						"h": 168
+					},
+					"frame": {
+						"x": 1743,
+						"y": 1563,
+						"w": 174,
+						"h": 168
+					}
+				},
+				{
+					"filename": "fire_dojo_instructions0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 175,
+						"h": 172
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 172,
+						"h": 168
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1641,
+						"w": 172,
+						"h": 168
+					}
+				},
+				{
+					"filename": "fire_dojo_instructions0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 175,
+						"h": 172
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 172,
+						"h": 168
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1811,
+						"w": 172,
+						"h": 168
+					}
+				},
+				{
+					"filename": "fire_dojo_instructions0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 175,
+						"h": 172
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 172,
+						"h": 168
+					},
+					"frame": {
+						"x": 1741,
+						"y": 1733,
+						"w": 172,
+						"h": 168
+					}
+				}
+			]
+		},
+		{
+			"image": "fire_dojo-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1566,
+				"h": 1980
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "fire_dojo_statues0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1564,
+						"h": 739
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1564,
+						"h": 739
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1564,
+						"h": 739
+					}
+				},
+				{
+					"filename": "fire_dojo_statues0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1564,
+						"h": 739
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1564,
+						"h": 739
+					},
+					"frame": {
+						"x": 1,
+						"y": 742,
+						"w": 1564,
+						"h": 739
+					}
+				},
+				{
+					"filename": "fire_dojo_bottom_part.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1564,
+						"h": 496
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1564,
+						"h": 496
+					},
+					"frame": {
+						"x": 1,
+						"y": 1483,
+						"w": 1564,
+						"h": 496
+					}
+				}
+			]
+		},
+		{
+			"image": "fire_dojo-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1566,
+				"h": 1449
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "fire_dojo_statues0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1564,
+						"h": 739
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1564,
+						"h": 739
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1564,
+						"h": 739
+					}
+				},
+				{
+					"filename": "fire_dojo_mountains.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1564,
+						"h": 706
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1564,
+						"h": 706
+					},
+					"frame": {
+						"x": 1,
+						"y": 742,
+						"w": 1564,
+						"h": 706
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:3c3845c61e69f96b1b29f991899b89e2:fdef30b341c9f628b93464171ec4c0fb:67c1f9b3d2e1a903e5672e915cb31d2d$"
+	}
+}
