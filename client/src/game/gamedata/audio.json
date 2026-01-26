@@ -339,5 +339,49 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "ski_village_room_ski_village_door_open": {
+        "key": "ski_village_room_ski_village_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_village_room_ski_village_door_close": {
+        "key": "ski_village_room_ski_village_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_village_room_epf_door_open": {
+        "key": "ski_village_room_epf_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_village_room_epf_door_close": {
+        "key": "ski_village_room_epf_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }

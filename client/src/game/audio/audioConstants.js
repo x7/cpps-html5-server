@@ -18,6 +18,10 @@ export const SNOW_FORTS_ROOM_MUSIC = "snow_forts_room_music";
 
 // Ski Village room audio starts here
 export const SKI_VILLAGE_ROOM_MUSIC = "ski_village_room_music";
+export const SKI_VILLAGE_ROOM_SKI_LODGE_DOOR_OPEN = "ski_village_room_ski_lodge_door_open";
+export const SKI_VILLAGE_ROOM_SKI_LODGE_DOOR_CLOSE = "ski_village_room_ski_lodge_door_close";
+export const SKI_VILLAGE_ROOM_EPF_DOOR_OPEN = "ski_village_room_epf_door_open";
+export const SKI_VILLAGE_ROOM_EPF_DOOR_CLOSE = "ski_village_room_epf_door_close";
 // Ski Village room audio ends here
 
 // Ski Hill room audio starts here
