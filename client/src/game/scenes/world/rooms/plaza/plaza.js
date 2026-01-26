@@ -30,134 +30,136 @@ export class PlazaScene extends BaseScene {
     }
 
     createContent() {
-
-		// plaza_sky_png
-		const plaza_sky_png = this.add.image(649, 118, "plaza", "plaza_sky.png");
-		plaza_sky_png.scaleX = 0.866196899107259;
-		plaza_sky_png.scaleY = 0.9512974171275344;
+        // plaza_sky_png
+		const plaza_sky_png = this.add.image(716, 87, "plaza", "plaza_sky.png");
+		plaza_sky_png.scaleX = 0.9982228920870307;
+		plaza_sky_png.scaleY = 1.1666968570750087;
 
 		// plaza_main_background_png
-		const plaza_main_background_png = this.add.image(651, 459, "plaza", "plaza_main_background.png");
-		plaza_main_background_png.scaleX = 0.8234270839425257;
-		plaza_main_background_png.scaleY = 0.7885969412015126;
+		const plaza_main_background_png = this.add.image(-130, 115, "plaza", "plaza_main_background.png");
+		plaza_main_background_png.scaleX = 0.9923768666057723;
+		plaza_main_background_png.scaleY = 1.1621760421090446;
+		plaza_main_background_png.setOrigin(0, 0);
 
 		// plaza_park_tower0001_png
-		const plaza_park_tower0001_png = this.add.image(175, 294, "plaza", "plaza_park_tower0001.png");
-		plaza_park_tower0001_png.scaleX = 0.7731677116136404;
-		plaza_park_tower0001_png.scaleY = 0.6546549935999003;
+		const plaza_park_tower0001_png = this.add.image(163, 361, "plaza", "plaza_park_tower0001.png");
+		plaza_park_tower0001_png.scaleX = 0.9609596954890374;
+		plaza_park_tower0001_png.scaleY = 0.7397304783197567;
 
 		// plaza_shops_png
-		const plaza_shops_png = this.add.image(674, 276, "plaza", "plaza_shops.png");
-		plaza_shops_png.scaleX = 0.762071488284151;
-		plaza_shops_png.scaleY = 0.7178557582572045;
+		const plaza_shops_png = this.add.image(782, 327, "plaza", "plaza_shops.png");
+		plaza_shops_png.scaleX = 0.9675524343224674;
+		plaza_shops_png.scaleY = 0.9602046578154335;
 
 		// plaza_puffle_berry_mall_wall_png
-		const plaza_puffle_berry_mall_wall_png = this.add.image(783, 255, "plaza", "plaza_puffle_berry_mall_wall.png");
-		plaza_puffle_berry_mall_wall_png.scaleX = 0.7586191668311087;
-		plaza_puffle_berry_mall_wall_png.scaleY = 0.6902443017238041;
+		const plaza_puffle_berry_mall_wall_png = this.add.image(921, 299, "plaza", "plaza_puffle_berry_mall_wall.png");
+		plaza_puffle_berry_mall_wall_png.scaleX = 0.9696429132114572;
+		plaza_puffle_berry_mall_wall_png.scaleY = 0.9414280911169803;
 
 		// plaza_mall_door0001_png
-		const plaza_mall_door0001_png = this.add.image(789, 331, "plaza", "plaza_mall_door0001.png");
-		plaza_mall_door0001_png.scaleX = 0.7400249733654839;
-		plaza_mall_door0001_png.scaleY = 0.6792779132968871;
+		const plaza_mall_door0001_png = this.add.image(928, 398, "plaza", "plaza_mall_door0001.png");
+		plaza_mall_door0001_png.scaleX = 0.9613526645238123;
+		plaza_mall_door0001_png.scaleY = 1.00317853852403;
 
 		// plaza_flag_pole_png
-		const plaza_flag_pole_png = this.add.image(677, 100, "plaza", "plaza_flag_pole.png");
-		plaza_flag_pole_png.scaleX = 0.943212800350139;
-		plaza_flag_pole_png.scaleY = 0.6378602439212424;
+		const plaza_flag_pole_png = this.add.image(762, 91, "plaza", "plaza_flag_pole.png");
+		plaza_flag_pole_png.scaleX = 1.3577579000410323;
+		plaza_flag_pole_png.scaleY = 0.9157917966406792;
 
 		// plaza_flag_left0001_png
-		const plaza_flag_left0001_png = this.add.sprite(701, 89, "plaza", "plaza_flag_left0001.png");
+		const plaza_flag_left0001_png = this.add.sprite(787, 81, "plaza", "plaza_flag_left0001.png");
+		plaza_flag_left0001_png.scaleX = 0.8442693028290237;
+		plaza_flag_left0001_png.scaleY = 0.7630716486464258;
 
 		// plaza_right_pole_png
-		const plaza_right_pole_png = this.add.image(929, 95, "plaza", "plaza_right_pole.png");
-		plaza_right_pole_png.scaleX = 0.8213670845642599;
-		plaza_right_pole_png.scaleY = 0.7801506702882304;
+		const plaza_right_pole_png = this.add.image(1061, 89, "plaza", "plaza_right_pole.png");
+		plaza_right_pole_png.scaleX = 1.3782836157168727;
+		plaza_right_pole_png.scaleY = 0.8461297124601583;
 
 		// plaza_flag_right0001_png
-		const plaza_flag_right0001_png = this.add.sprite(953, 94, "plaza", "plaza_flag_right0001.png");
+		const plaza_flag_right0001_png = this.add.sprite(1085, 88, "plaza", "plaza_flag_right0001.png");
+		plaza_flag_right0001_png.scaleX = 0.8442693028290237;
+		plaza_flag_right0001_png.scaleY = 0.7630716486464258;
 
 		// plaza_left_side_tree_png
-		const plaza_left_side_tree_png = this.add.image(82, 593, "plaza", "plaza_left_side_tree.png");
-		plaza_left_side_tree_png.scaleX = 0.8626102041875087;
-		plaza_left_side_tree_png.scaleY = 0.8664474471571797;
-
-		// plaza_right_side_tre_png
-		this.add.image(1221, 718, "plaza", "plaza_right_side_tre.png");
+		const plaza_left_side_tree_png = this.add.image(53, 842, "plaza", "plaza_left_side_tree.png");
+		plaza_left_side_tree_png.scaleX = 0.938495891823824;
+		plaza_left_side_tree_png.scaleY = 0.9320356401941057;
 
 		// plaza_pizza_shop_door0001_png
-		const plaza_pizza_shop_door0001_png = this.add.image(1019, 340, "plaza", "plaza_pizza_shop_door0001.png");
-		plaza_pizza_shop_door0001_png.scaleX = 0.7557343716765533;
-		plaza_pizza_shop_door0001_png.scaleY = 0.7136581841193501;
+		const plaza_pizza_shop_door0001_png = this.add.image(1221, 412, "plaza", "plaza_pizza_shop_door0001.png");
+		plaza_pizza_shop_door0001_png.scaleX = 0.9449561112101815;
+		plaza_pizza_shop_door0001_png.scaleY = 1.013302273693885;
 
 		// plaza_pizza_text_png
-		const plaza_pizza_text_png = this.add.image(1037, 244, "plaza", "plaza_pizza_text.png");
-		plaza_pizza_text_png.scaleX = 0.7933290176117571;
-		plaza_pizza_text_png.scaleY = 0.7100706114587162;
+		const plaza_pizza_text_png = this.add.image(1248, 292, "plaza", "plaza_pizza_text.png");
+		plaza_pizza_text_png.scaleX = 0.9555118122845913;
+		plaza_pizza_text_png.scaleY = 0.9764278983063226;
 
 		// plaza_mall_text_png
-		const plaza_mall_text_png = this.add.image(793, 98, "plaza", "plaza_mall_text.png");
-		plaza_mall_text_png.scaleX = 0.6661959887582997;
-		plaza_mall_text_png.scaleY = 0.7891853764710802;
+		const plaza_mall_text_png = this.add.image(932, 93, "plaza", "plaza_mall_text.png");
+		plaza_mall_text_png.scaleX = 0.950296390792287;
+		plaza_mall_text_png.scaleY = 0.8961547482232987;
 
 		// plaza_puffle_hotel_text_png
-		const plaza_puffle_hotel_text_png = this.add.image(491, 144, "plaza", "plaza_puffle_hotel_text.png");
-		plaza_puffle_hotel_text_png.scaleX = 0.7600595838995324;
-		plaza_puffle_hotel_text_png.scaleY = 0.6658043801046107;
+		const plaza_puffle_hotel_text_png = this.add.image(549, 154, "plaza", "plaza_puffle_hotel_text.png");
+		plaza_puffle_hotel_text_png.scaleX = 0.9330859388354946;
+		plaza_puffle_hotel_text_png.scaleY = 0.9148031041298177;
 
 		// plaza_puffle_hotel_door0001_png
-		const plaza_puffle_hotel_door0001_png = this.add.image(575, 331, "plaza", "plaza_puffle_hotel_door0001.png");
-		plaza_puffle_hotel_door0001_png.scaleX = 0.8622577526824471;
-		plaza_puffle_hotel_door0001_png.scaleY = 0.7486370490404299;
+		const plaza_puffle_hotel_door0001_png = this.add.image(663, 403, "plaza", "plaza_puffle_hotel_door0001.png");
+		plaza_puffle_hotel_door0001_png.scaleX = 0.87434473129851;
+		plaza_puffle_hotel_door0001_png.scaleY = 1.006923573217672;
+		plaza_puffle_hotel_door0001_png.angle = 2;
 
 		// plaza_puffle_hotel_door0002_png
-		const plaza_puffle_hotel_door0002_png = this.add.image(575, 331, "plaza", "plaza_puffle_hotel_door0002.png");
-		plaza_puffle_hotel_door0002_png.scaleX = 0.8622577526824471;
-		plaza_puffle_hotel_door0002_png.scaleY = 0.7486370490404299;
+		const plaza_puffle_hotel_door0002_png = this.add.image(568, 298, "plaza", "plaza_puffle_hotel_door0002.png");
+		plaza_puffle_hotel_door0002_png.scaleX = 0.5866500729166357;
+		plaza_puffle_hotel_door0002_png.scaleY = 0.46527247818253115;
 		plaza_puffle_hotel_door0002_png.visible = false;
 
-		// plaza_puffle_hotel_front_png
-		const plaza_puffle_hotel_front_png = this.add.image(567, 309, "plaza", "plaza_puffle_hotel_front.png");
-		plaza_puffle_hotel_front_png.scaleX = 0.739862379233522;
-		plaza_puffle_hotel_front_png.scaleY = 0.7279274907416562;
-
 		// plaza_pet_shop_door0001_png
-		const plaza_pet_shop_door0001_png = this.add.image(388, 357, "plaza", "plaza_pet_shop_door0001.png");
-		plaza_pet_shop_door0001_png.scaleX = 0.7035733871874337;
-		plaza_pet_shop_door0001_png.scaleY = 0.6787849861854823;
+		const plaza_pet_shop_door0001_png = this.add.image(410, 423, "plaza", "plaza_pet_shop_door0001.png");
+		plaza_pet_shop_door0001_png.scaleX = 1.001132851130645;
+		plaza_pet_shop_door0001_png.scaleY = 1.121252500105973;
 
 		// plaza_pet_shop_door0002_png
-		const plaza_pet_shop_door0002_png = this.add.image(396, 357, "plaza", "plaza_pet_shop_door0002.png");
-		plaza_pet_shop_door0002_png.scaleX = 0.7035733871874337;
-		plaza_pet_shop_door0002_png.scaleY = 0.6787849861854823;
+		const plaza_pet_shop_door0002_png = this.add.image(410, 423, "plaza", "plaza_pet_shop_door0002.png");
+		plaza_pet_shop_door0002_png.scaleX = 1.001132851130645;
+		plaza_pet_shop_door0002_png.scaleY = 1.121252500105973;
 		plaza_pet_shop_door0002_png.visible = false;
 
 		// plaza_pet_shop_front_png
-		const plaza_pet_shop_front_png = this.add.image(386, 249, "plaza", "plaza_pet_shop_front.png");
-		plaza_pet_shop_front_png.scaleX = 0.6849064318240295;
-		plaza_pet_shop_front_png.scaleY = 0.6780484724994561;
+		const plaza_pet_shop_front_png = this.add.image(410, 288, "plaza", "plaza_pet_shop_front.png");
+		plaza_pet_shop_front_png.scaleX = 0.9229875738389257;
+		plaza_pet_shop_front_png.scaleY = 0.9063592705272285;
+
+		// plaza_puffle_hotel_front_png
+		const plaza_puffle_hotel_front_png = this.add.image(650, 372, "plaza", "plaza_puffle_hotel_front.png");
+		plaza_puffle_hotel_front_png.scaleX = 0.874477116919654;
+		plaza_puffle_hotel_front_png.scaleY = 0.9612319347642855;
 
 		// plaza_pet_shop_text_png
-		const plaza_pet_shop_text_png = this.add.image(372, 252, "plaza", "plaza_pet_shop_text.png");
-		plaza_pet_shop_text_png.scaleX = 0.7390819904197071;
-		plaza_pet_shop_text_png.scaleY = 0.8683650685856568;
+		const plaza_pet_shop_text_png = this.add.image(394, 314, "plaza", "plaza_pet_shop_text.png");
+		plaza_pet_shop_text_png.scaleX = 1.0241992135000602;
+		plaza_pet_shop_text_png.scaleY = 0.9646549840649263;
 
 		// plaza_mall_door0002_png
-		const plaza_mall_door0002_png = this.add.image(789, 331, "plaza", "plaza_mall_door0002.png");
-		plaza_mall_door0002_png.scaleX = 0.7400249733654839;
-		plaza_mall_door0002_png.scaleY = 0.6792779132968871;
+		const plaza_mall_door0002_png = this.add.image(782, 298, "plaza", "plaza_mall_door0002.png");
+		plaza_mall_door0002_png.scaleX = 0.5118579561616498;
+		plaza_mall_door0002_png.scaleY = 0.4095148455734794;
 		plaza_mall_door0002_png.visible = false;
 
 		// plaza_pizza_shop_door0002_png
-		const plaza_pizza_shop_door0002_png = this.add.image(1019, 340, "plaza", "plaza_pizza_shop_door0002.png");
-		plaza_pizza_shop_door0002_png.scaleX = 0.7557343716765533;
-		plaza_pizza_shop_door0002_png.scaleY = 0.7136581841193501;
+		const plaza_pizza_shop_door0002_png = this.add.image(1221, 412, "plaza", "plaza_pizza_shop_door0002.png");
+		plaza_pizza_shop_door0002_png.scaleX = 0.9449561112101815;
+		plaza_pizza_shop_door0002_png.scaleY = 1.013302273693885;
 		plaza_pizza_shop_door0002_png.visible = false;
 
-        // plaza_underground_door_png
-		const plaza_underground_door_png = this.add.sprite(477, 400, "plaza", "plaza_underground_door0001.png");
-		plaza_underground_door_png.scaleX = 0.8551738797057651;
-		plaza_underground_door_png.scaleY = 0.6697521097169279;
+		// plaza_underground_door_png
+		const plaza_underground_door_png = this.add.sprite(525, 493, "plaza", "plaza_underground_door0001.png");
+		plaza_underground_door_png.scaleX = 1.062600097429365;
+		plaza_underground_door_png.scaleY = 0.9322432415619236;
 
         // Animations start here
         createAnimation({
