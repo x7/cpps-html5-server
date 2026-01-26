@@ -5,7 +5,7 @@ import { BaseScene } from "../../../base/baseScene";
 
 export class DanceclubScene extends BaseScene {
     constructor() {
-        super("DanceclubScene");
+        super("DanceClubScene");
     }
 
     init(data) {
@@ -31,43 +31,52 @@ export class DanceclubScene extends BaseScene {
 
     createContent() {
         // danceclub_dance_floor0001_png
-		const danceclub_dance_floor0001_png = this.add.sprite(577, 723, "danceclub", "danceclub_dance_floor0001.png");
-		danceclub_dance_floor0001_png.scaleX = 0.7808491730657305;
-		danceclub_dance_floor0001_png.scaleY = 0.8081338770557172;
+		const danceclub_dance_floor0001_png = this.add.sprite(709, 885, "danceclub", "danceclub_dance_floor0001.png");
+		danceclub_dance_floor0001_png.scaleX = 0.9009585112642639;
+		danceclub_dance_floor0001_png.scaleY = 0.9698731025407039;
+
+		// danceclub_town_door0001_png
+		const danceclub_town_door0001_png = this.add.image(210, 366, "danceclub", "danceclub_town_door0001.png");
+		danceclub_town_door0001_png.scaleX = 0.8747037961197944;
+		danceclub_town_door0001_png.scaleY = 1.0390493591352845;
 
 		// danceclub_main_background_png
-		const danceclub_main_background_png = this.add.image(616, 390, "danceclub", "danceclub_main_background.png");
-		danceclub_main_background_png.scaleX = 0.7853708974074973;
-		danceclub_main_background_png.scaleY = 0.7924951382145382;
+		const danceclub_main_background_png = this.add.image(-50, -107, "danceclub", "danceclub_main_background.png");
+		danceclub_main_background_png.scaleX = 0.9053063850229959;
+		danceclub_main_background_png.scaleY = 0.9787574859418197;
+		danceclub_main_background_png.setOrigin(0, 0);
 
 		// danceclub_upstairs_door0001_png
 		const danceclub_upstairs_door0001_png = this.add.image(1094, 268, "danceclub", "danceclub_upstairs_door0001.png");
 		danceclub_upstairs_door0001_png.scaleX = 0.768370331790812;
 		danceclub_upstairs_door0001_png.scaleY = 0.7990971692356373;
+		danceclub_upstairs_door0001_png.visible = false;
 
 		// danceclub_railing_right_side_png
-		const danceclub_railing_right_side_png = this.add.image(347, 262, "danceclub", "danceclub_railing_right_side.png");
-		danceclub_railing_right_side_png.scaleX = 0.8477412582937142;
-		danceclub_railing_right_side_png.scaleY = 0.8548200219946321;
+		const danceclub_railing_right_side_png = this.add.image(441, 331, "danceclub", "danceclub_railing_right_side.png");
+		danceclub_railing_right_side_png.scaleX = 1.0942252769353578;
+		danceclub_railing_right_side_png.scaleY = 0.9987322042779724;
 
 		// danceclub_left_bottom_speaker_bpx_png
-		const danceclub_left_bottom_speaker_bpx_png = this.add.image(288, 285, "danceclub", "danceclub_left_bottom_speaker_bpx.png");
-		danceclub_left_bottom_speaker_bpx_png.scaleX = 0.74458258257099;
-		danceclub_left_bottom_speaker_bpx_png.scaleY = 0.7358683880765934;
+		const danceclub_left_bottom_speaker_bpx_png = this.add.image(373, 342, "danceclub", "danceclub_left_bottom_speaker_bpx.png");
+		danceclub_left_bottom_speaker_bpx_png.scaleX = 0.9771959652850684;
+		danceclub_left_bottom_speaker_bpx_png.scaleY = 0.9843933266277761;
 
 		// danceclub_left_side_top_railing_png
-		this.add.image(246, 349, "danceclub", "danceclub_left_side_top_railing.png");
+		const danceclub_left_side_top_railing_png = this.add.image(246, 349, "danceclub", "danceclub_left_side_top_railing.png");
+		danceclub_left_side_top_railing_png.visible = false;
 
 		// danceclub_railing_right_side_png_1
 		const danceclub_railing_right_side_png_1 = this.add.image(779, 268, "danceclub", "danceclub_railing_right_side.png");
 		danceclub_railing_right_side_png_1.scaleX = 0.8477412582937142;
 		danceclub_railing_right_side_png_1.scaleY = 0.8548200219946321;
 		danceclub_railing_right_side_png_1.flipX = true;
+		danceclub_railing_right_side_png_1.visible = false;
 
 		// danceclub_unground_entrance0001_png
-		const danceclub_unground_entrance0001_png = this.add.image(842, 265, "danceclub", "danceclub_unground_entrance0001.png");
-		danceclub_unground_entrance0001_png.scaleX = 0.8201017487678772;
-		danceclub_unground_entrance0001_png.scaleY = 0.8108660152854972;
+		const danceclub_unground_entrance0001_png = this.add.image(1004, 317, "danceclub", "danceclub_unground_entrance0001.png");
+		danceclub_unground_entrance0001_png.scaleX = 0.9447800622134415;
+		danceclub_unground_entrance0001_png.scaleY = 1.0142906247448638;
 
 		// danceclub_unground_entrance0002_png
 		const danceclub_unground_entrance0002_png = this.add.image(823, 270, "danceclub", "danceclub_unground_entrance0002.png");
@@ -76,73 +85,74 @@ export class DanceclubScene extends BaseScene {
 		danceclub_unground_entrance0002_png.visible = false;
 
 		// danceclub_sound_studio_png
-		const danceclub_sound_studio_png = this.add.image(570, 324, "danceclub", "danceclub_sound_studio.png");
-		danceclub_sound_studio_png.scaleX = 0.7820694503549172;
-		danceclub_sound_studio_png.scaleY = 0.7249639165366389;
+		const danceclub_sound_studio_png = this.add.image(696, 394, "danceclub", "danceclub_sound_studio.png");
+		danceclub_sound_studio_png.scaleX = 0.9310852366825809;
+		danceclub_sound_studio_png.scaleY = 0.911569501272237;
 
 		// danceclub_sound_studio_small_floor_png
-		const danceclub_sound_studio_small_floor_png = this.add.image(571, 299, "danceclub", "danceclub_sound_studio_small_floor.png");
-		danceclub_sound_studio_small_floor_png.scaleX = 0.8840706100815396;
-		danceclub_sound_studio_small_floor_png.scaleY = 0.8473000665484134;
+		const danceclub_sound_studio_small_floor_png = this.add.image(693, 366, "danceclub", "danceclub_sound_studio_small_floor.png");
+		danceclub_sound_studio_small_floor_png.scaleX = 1.0535443209387254;
+		danceclub_sound_studio_small_floor_png.scaleY = 1.1947952522846803;
 
 		// danceclub_sound_studio_top_png
-		const danceclub_sound_studio_top_png = this.add.image(567, 294, "danceclub", "danceclub_sound_studio_top.png");
-		danceclub_sound_studio_top_png.scaleX = 0.7814118373909569;
-		danceclub_sound_studio_top_png.scaleY = 0.9216226273650396;
+		const danceclub_sound_studio_top_png = this.add.image(691, 357, "danceclub", "danceclub_sound_studio_top.png");
+		danceclub_sound_studio_top_png.scaleX = 0.9428957415427648;
+		danceclub_sound_studio_top_png.scaleY = 0.9561268857597519;
 
 		// danceclub_green_puffle0001_png
-		const danceclub_green_puffle0001_png = this.add.sprite(855, 164, "danceclub", "danceclub_green_puffle0001.png");
-		danceclub_green_puffle0001_png.scaleX = 0.8133355298335223;
-		danceclub_green_puffle0001_png.scaleY = 0.8200074984789738;
+		const danceclub_green_puffle0001_png = this.add.sprite(1011, 196, "danceclub", "danceclub_green_puffle0001.png");
+		danceclub_green_puffle0001_png.scaleX = 1.0004423251731371;
+		danceclub_green_puffle0001_png.scaleY = 0.9821093951253981;
 
 		// danceclub_dance_contest_signup_table_png
-		const danceclub_dance_contest_signup_table_png = this.add.image(930, 349, "danceclub", "danceclub_dance_contest_signup_table.png");
-		danceclub_dance_contest_signup_table_png.scaleX = 0.8033882629387311;
-		danceclub_dance_contest_signup_table_png.scaleY = 0.6935069297995489;
+		const danceclub_dance_contest_signup_table_png = this.add.image(1103, 433, "danceclub", "danceclub_dance_contest_signup_table.png");
+		danceclub_dance_contest_signup_table_png.scaleX = 0.8971162675328774;
+		danceclub_dance_contest_signup_table_png.scaleY = 1.1084367974640368;
 
 		// danceclub_bottom_left_couch_png
-		const danceclub_bottom_left_couch_png = this.add.image(113, 603, "danceclub", "danceclub_bottom_left_couch.png");
-		danceclub_bottom_left_couch_png.scaleX = 0.9196766555915186;
-		danceclub_bottom_left_couch_png.scaleY = 0.8532815128618215;
+		const danceclub_bottom_left_couch_png = this.add.image(174, 760, "danceclub", "danceclub_bottom_left_couch.png");
+		danceclub_bottom_left_couch_png.scaleX = 1.0217538402979924;
+		danceclub_bottom_left_couch_png.scaleY = 1.0883350846943038;
 
 		// danceclub_dance_contest_signup_png
-		const danceclub_dance_contest_signup_png = this.add.image(963, 252, "danceclub", "danceclub_dance_contest_signup.png");
-		danceclub_dance_contest_signup_png.scaleX = 0.8307294990280105;
-		danceclub_dance_contest_signup_png.scaleY = 0.7564726407096254;
+		const danceclub_dance_contest_signup_png = this.add.image(1134, 275, "danceclub", "danceclub_dance_contest_signup.png");
+		danceclub_dance_contest_signup_png.scaleX = 1.1258415271136748;
+		danceclub_dance_contest_signup_png.scaleY = 1.1157181485820509;
 		danceclub_dance_contest_signup_png.angle = -5;
 
 		// danceclub_bottom_right_speaker0001_png
-		const danceclub_bottom_right_speaker0001_png = this.add.sprite(832, 273, "danceclub", "danceclub_bottom_right_speaker0001.png");
-		danceclub_bottom_right_speaker0001_png.scaleX = 0.788227851571086;
-		danceclub_bottom_right_speaker0001_png.scaleY = 0.7328334657805443;
+		const danceclub_bottom_right_speaker0001_png = this.add.sprite(993, 325, "danceclub", "danceclub_bottom_right_speaker0001.png");
+		danceclub_bottom_right_speaker0001_png.scaleX = 1.1420120944242962;
+		danceclub_bottom_right_speaker0001_png.scaleY = 0.9813609972235328;
 
 		// danceclub_left_bottom_speaker0001_png
-		const danceclub_left_bottom_speaker0001_png = this.add.sprite(296, 291, "danceclub", "danceclub_left_bottom_speaker0001.png");
-		danceclub_left_bottom_speaker0001_png.scaleX = 0.7146985800749458;
-		danceclub_left_bottom_speaker0001_png.scaleY = 0.698752414577191;
+		const danceclub_left_bottom_speaker0001_png = this.add.sprite(383, 349, "danceclub", "danceclub_left_bottom_speaker0001.png");
+		danceclub_left_bottom_speaker0001_png.scaleX = 1.0053695544648633;
+		danceclub_left_bottom_speaker0001_png.scaleY = 0.938941908833967;
 
 		// danceclub_left_bottom_speaker0001_png_1
 		const danceclub_left_bottom_speaker0001_png_1 = this.add.sprite(255, 62, "danceclub", "danceclub_left_bottom_speaker0001.png");
 		danceclub_left_bottom_speaker0001_png_1.scaleX = 0.573994024016248;
 		danceclub_left_bottom_speaker0001_png_1.scaleY = 0.5626009278874076;
+		danceclub_left_bottom_speaker0001_png_1.visible = false;
 
 		// danceclub_upstairs_door0002_png
-		const danceclub_upstairs_door0002_png = this.add.image(1100, 269, "danceclub", "danceclub_upstairs_door0002.png");
-		danceclub_upstairs_door0002_png.scaleX = 0.7167272266852993;
-		danceclub_upstairs_door0002_png.scaleY = 0.798033968642066;
+		const danceclub_upstairs_door0002_png = this.add.image(1301, 325, "danceclub", "danceclub_upstairs_door0002.png");
+		danceclub_upstairs_door0002_png.scaleX = 0.8829717390252741;
+		danceclub_upstairs_door0002_png.scaleY = 1.006040199697122;
 
 		// danceclub_upstairs_entrance_png
-		const danceclub_upstairs_entrance_png = this.add.image(1057, 199, "danceclub", "danceclub_upstairs_entrance.png");
-		danceclub_upstairs_entrance_png.scaleX = 0.7167272266852993;
-		danceclub_upstairs_entrance_png.scaleY = 0.7608869358457979;
+		const danceclub_upstairs_entrance_png = this.add.image(1249, 240, "danceclub", "danceclub_upstairs_entrance.png");
+		danceclub_upstairs_entrance_png.scaleX = 0.8726917390649486;
+		danceclub_upstairs_entrance_png.scaleY = 1.0247854494728579;
 
 		// danceclub_contest_signup_paper_pencils0001_png
-		const danceclub_contest_signup_paper_pencils0001_png = this.add.sprite(922, 323, "danceclub", "danceclub_contest_signup_paper_pencils0001.png");
-		danceclub_contest_signup_paper_pencils0001_png.scaleX = 0.6355054911678092;
-		danceclub_contest_signup_paper_pencils0001_png.scaleY = 0.5722917913908123;
+		const danceclub_contest_signup_paper_pencils0001_png = this.add.sprite(1084, 384, "danceclub", "danceclub_contest_signup_paper_pencils0001.png");
+		danceclub_contest_signup_paper_pencils0001_png.scaleX = 0.9360987075088671;
+		danceclub_contest_signup_paper_pencils0001_png.scaleY = 0.9361858602713252;
 
 		// danceclub_right_side_railing_png
-		const danceclub_right_side_railing_png = this.add.image(953, 395, "danceclub", "danceclub_right_side_railing.png");
+		const danceclub_right_side_railing_png = this.add.image(1124, 492, "danceclub", "danceclub_right_side_railing.png");
 		danceclub_right_side_railing_png.scaleX = 1.0023430426575806;
 		danceclub_right_side_railing_png.scaleY = 0.8099631340552891;
 
@@ -150,6 +160,12 @@ export class DanceclubScene extends BaseScene {
 		const danceclub_bottom_right_speaker0001_png_1 = this.add.sprite(876, 51, "danceclub", "danceclub_bottom_right_speaker0001.png");
 		danceclub_bottom_right_speaker0001_png_1.scaleX = 0.4551570301098177;
 		danceclub_bottom_right_speaker0001_png_1.scaleY = 0.49349854327660236;
+		danceclub_bottom_right_speaker0001_png_1.visible = false;
+
+		// danceclub_lights_png
+		const danceclub_lights_png = this.add.image(726, 353, "danceclub", "danceclub_lights.png");
+		danceclub_lights_png.scaleX = 0.896281530343336;
+		danceclub_lights_png.scaleY = 1.5862322997171228;
 
         // Animations start here
         createAnimation({
