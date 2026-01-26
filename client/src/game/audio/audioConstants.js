@@ -74,6 +74,10 @@ export const DANCE_CLUB_ROOM_MUSIC = "dance_club_room_music";
 
 // Boiler Room audio starts here
 export const BOILER_ROOM_MUSIC = "boiler_room_music";
+export const BOILER_ROOM_DOOR_OPEN = "boiler_room_door_open";
+export const BOILER_ROOM_DOOR_CLOSE = "boiler_room_door_close";
+export const BOILER_ROOM_DRAWER_OPEN = "boiler_room_drawer_open";
+export const BOILER_ROOM_DRAWER_CLOSE = "boiler_room_drawer_close";
 // Boiler Room audio ends here
 
 // Beacon Room audio starts here

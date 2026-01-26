@@ -284,5 +284,49 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "boiler_room_door_open": {
+        "key": "boiler_room_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "boiler_room_door_close": {
+        "key": "boiler_room_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "boiler_room_drawer_open": {
+        "key": "boiler_room_drawer_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "boiler_room_drawer_close": {
+        "key": "boiler_room_drawer_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }
