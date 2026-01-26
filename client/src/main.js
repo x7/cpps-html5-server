@@ -39,7 +39,7 @@ const config = {
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
-    scene: [PreloadAssetsScene, TownScene],
+    scene: [PreloadAssetsScene, BeachScene],
     scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH

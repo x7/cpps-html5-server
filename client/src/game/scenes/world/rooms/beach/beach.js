@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
-import { BEACH_ROOM_MUSIC } from "../../../../audio/audioConstants";
+import { BEACH_ROOM_LIGHTHOUSE_DOOR_CLOSE, BEACH_ROOM_LIGHTHOUSE_DOOR_OPEN, BEACH_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
+
+// TODO: Add green bucket sounds
 
 export class BeachScene extends BaseScene {
     constructor() {
@@ -25,89 +27,108 @@ export class BeachScene extends BaseScene {
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": BEACH_ROOM_MUSIC,
-            "paths": ["assets/world/rooms/beach/beach-pack.json"]
+            "paths": ["assets/world/rooms/beach/beach_music.mp3"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": BEACH_ROOM_LIGHTHOUSE_DOOR_OPEN,
+            "paths": ["assets/world/rooms/beach/beach2013-dooropen.mp3"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": BEACH_ROOM_LIGHTHOUSE_DOOR_CLOSE,
+            "paths": ["assets/world/rooms/beach/beach2013-doorclose.mp3"]
         });
     }
 
     createContent() {
 		// beach_background_png
-		const beach_background_png = this.add.image(702, 111, "beach", "beach_background.png");
+		const beach_background_png = this.add.image(773, 117, "beach", "beach_background.png");
+		beach_background_png.scaleX = 1.1469691133278472;
 		beach_background_png.scaleY = 1.781668969161465;
 
 		// beach_background_clouds_png
-		const beach_background_clouds_png = this.add.image(659, 112, "beach", "beach_background_clouds.png");
-		beach_background_clouds_png.scaleX = 0.8638674121138664;
-		beach_background_clouds_png.scaleY = 0.811011410949104;
+		const beach_background_clouds_png = this.add.image(763, 160, "beach", "beach_background_clouds.png");
+		beach_background_clouds_png.scaleX = 0.993620930829786;
+		beach_background_clouds_png.scaleY = 1.3232399233345262;
 
 		// beach_water_png
-		const beach_water_png = this.add.image(603, 456, "beach", "beach_water.png");
-		beach_water_png.scaleX = 0.8404494369469437;
-		beach_water_png.scaleY = 0.771159063004316;
+		const beach_water_png = this.add.image(-136, 230, "beach", "beach_water.png");
+		beach_water_png.scaleX = 0.9931020532325403;
+		beach_water_png.scaleY = 1.0107935036331477;
+		beach_water_png.setOrigin(0, 0);
 
 		// beach_rockhopper_migrator_ship0001_png
-		const beach_rockhopper_migrator_ship0001_png = this.add.sprite(342, 129, "beach", "beach_rockhopper_migrator_ship0001.png");
-		beach_rockhopper_migrator_ship0001_png.scaleX = 0.7026785091610885;
-		beach_rockhopper_migrator_ship0001_png.scaleY = 0.7768826840286751;
+		const beach_rockhopper_migrator_ship0001_png = this.add.sprite(415, 173, "beach", "beach_rockhopper_migrator_ship0001.png");
+		beach_rockhopper_migrator_ship0001_png.scaleX = 0.9246441120731139;
+		beach_rockhopper_migrator_ship0001_png.scaleY = 1.079138656266888;
 
 		// beach_mountains_png
-		this.add.image(1143, 101, "beach", "beach_mountains.png");
+		const beach_mountains_png = this.add.image(1320, 123, "beach", "beach_mountains.png");
+		beach_mountains_png.scaleX = 0.9306300060101699;
+		beach_mountains_png.scaleY = 1.1286294407166402;
 
 		// beach_main_floor_png
-		const beach_main_floor_png = this.add.image(668, 334, "beach", "beach_main_floor.png");
-		beach_main_floor_png.scaleX = 0.8048298460298482;
-		beach_main_floor_png.scaleY = 0.78210724271909;
+		const beach_main_floor_png = this.add.image(20, -22, "beach", "beach_main_floor.png");
+		beach_main_floor_png.setOrigin(0, 0);
 
 		// beach_debris_png
-		const beach_debris_png = this.add.image(223, 486, "beach", "beach_debris.png");
-		beach_debris_png.scaleX = 0.7372507302071106;
-		beach_debris_png.scaleY = 0.7320812624935679;
+		const beach_debris_png = this.add.image(243, 635, "beach", "beach_debris.png");
+		beach_debris_png.scaleX = 0.9973278516239773;
+		beach_debris_png.scaleY = 1.0337830890666655;
 
 		// beach_light_house_door0001_png
-		const beach_light_house_door0001_png = this.add.image(336, 223, "beach", "beach_light_house_door0001.png");
-		beach_light_house_door0001_png.scaleX = 0.854417369422246;
-		beach_light_house_door0001_png.scaleY = 0.7900510512556265;
+		const beach_light_house_door0001_png = this.add.image(394, 307, "beach", "beach_light_house_door0001.png");
+		beach_light_house_door0001_png.scaleX = 1.0072261085967595;
+		beach_light_house_door0001_png.scaleY = 0.985384023524362;
 
 		// beach_light_house_door0002_png
-		const beach_light_house_door0002_png = this.add.image(336, 223, "beach", "beach_light_house_door0002.png");
-		beach_light_house_door0002_png.scaleX = 0.854417369422246;
-		beach_light_house_door0002_png.scaleY = 0.7900510512556265;
+		const beach_light_house_door0002_png = this.add.image(394, 307, "beach", "beach_light_house_door0002.png");
+		beach_light_house_door0002_png.scaleX = 1.0072261085967595;
+		beach_light_house_door0002_png.scaleY = 0.985384023524362;
 		beach_light_house_door0002_png.visible = false;
 
 		// beach_handle_png
-		const beach_handle_png = this.add.image(326, 298, "beach", "beach_handle.png");
-		beach_handle_png.scaleX = 0.8213840904737156;
-		beach_handle_png.scaleY = 0.7381571876709452;
+		const beach_handle_png = this.add.image(382, 403, "beach", "beach_handle.png");
+		beach_handle_png.scaleX = 1.0658649908621685;
+		beach_handle_png.scaleY = 0.9362029377019738;
 
 		// beach_right_side_tree_png
-		const beach_right_side_tree_png = this.add.image(1126, 326, "beach", "beach_right_side_tree.png");
-		beach_right_side_tree_png.scaleX = 0.8909121784735838;
-		beach_right_side_tree_png.scaleY = 0.8955961559202424;
+		const beach_right_side_tree_png = this.add.image(1378, 427, "beach", "beach_right_side_tree.png");
+		beach_right_side_tree_png.scaleX = 1.0703246076656712;
+		beach_right_side_tree_png.scaleY = 1.0071305610735295;
 
 		// beach_left_chair_png
-		const beach_left_chair_png = this.add.image(692, 404, "beach", "beach_left_chair.png");
-		beach_left_chair_png.scaleX = 0.8311521050574451;
-		beach_left_chair_png.scaleY = 0.848608241263256;
+		const beach_left_chair_png = this.add.image(835, 531, "beach", "beach_left_chair.png");
+		beach_left_chair_png.scaleX = 0.998961725864967;
+		beach_left_chair_png.scaleY = 1.052818960980209;
 
 		// beach_sunbrella_chair_png
-		const beach_sunbrella_chair_png = this.add.image(842, 344, "beach", "beach_sunbrella_chair.png");
-		beach_sunbrella_chair_png.scaleX = 0.8311521050574451;
-		beach_sunbrella_chair_png.scaleY = 0.848608241263256;
+		const beach_sunbrella_chair_png = this.add.image(1013, 453, "beach", "beach_sunbrella_chair.png");
+		beach_sunbrella_chair_png.scaleX = 0.998961725864967;
+		beach_sunbrella_chair_png.scaleY = 1.052818960980209;
 
 		// beach_sunbrella_chair_arm_png
-		const beach_sunbrella_chair_arm_png = this.add.image(786, 391, "beach", "beach_sunbrella_chair_arm.png");
-		beach_sunbrella_chair_arm_png.scaleX = 0.8311521050574451;
-		beach_sunbrella_chair_arm_png.scaleY = 0.848608241263256;
+		const beach_sunbrella_chair_arm_png = this.add.image(943, 507, "beach", "beach_sunbrella_chair_arm.png");
+		beach_sunbrella_chair_arm_png.scaleX = 0.9222789389850943;
+		beach_sunbrella_chair_arm_png.scaleY = 1.0079129949320513;
 
 		// beach_green_bucket0001_png
-		const beach_green_bucket = this.add.sprite(888, 436, "beach", "beach_green_bucket0001.png");
+		const beach_green_bucket = this.add.sprite(1061, 586, "beach", "beach_green_bucket0001.png");
 
 		// beach_sand_castle_png
-		const beach_sand_castle_png = this.add.image(644, 518, "beach", "beach_sand_castle.png");
-		beach_sand_castle_png.scaleX = 0.8285354218150622;
-		beach_sand_castle_png.scaleY = 0.7869728913360116;
+		const beach_sand_castle_png = this.add.image(773, 683, "beach", "beach_sand_castle.png");
+		beach_sand_castle_png.scaleX = 0.9945447508904232;
+		beach_sand_castle_png.scaleY = 1.0597168661052654;
 
 		// beach_right_lower_ledge_png
-		this.add.image(1135, 446, "beach", "beach_right_lower_ledge.png");
+		const beach_right_lower_ledge_png = this.add.image(1351, 598, "beach", "beach_right_lower_ledge.png");
+		beach_right_lower_ledge_png.scaleX = 1.1130646404568485;
+		beach_right_lower_ledge_png.scaleY = 1.235393419120074;
 
         // Animations start here
         createAnimation({
@@ -147,11 +168,13 @@ export class BeachScene extends BaseScene {
         beach_light_house_door0001_png.on("pointerover", () => {
             beach_light_house_door0001_png.visible = false;
             beach_light_house_door0002_png.visible = true;
+			this.audioManager.play(BEACH_ROOM_LIGHTHOUSE_DOOR_OPEN);
         });
 
         beach_light_house_door0002_png.on("pointerout", () => {
             beach_light_house_door0001_png.visible = true;
             beach_light_house_door0002_png.visible = false;
+			this.audioManager.play(BEACH_ROOM_LIGHTHOUSE_DOOR_CLOSE);
         });
 
         beach_green_bucket.on("pointerover", () => {

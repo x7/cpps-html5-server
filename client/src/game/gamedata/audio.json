@@ -262,5 +262,27 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "beach_room_lighthouse_door_open": {
+        "key": "beach_room_lighthouse_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "beach_room_lighthouse_door_close": {
+        "key": "beach_room_lighthouse_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }

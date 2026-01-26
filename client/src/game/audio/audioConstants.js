@@ -82,4 +82,6 @@ export const BEACON_ROOM_MUSIC = "beacon_room_music";
 
 // Beach Room audio starts here
 export const BEACH_ROOM_MUSIC = "beach_room_music";
+export const BEACH_ROOM_LIGHTHOUSE_DOOR_OPEN = "beach_room_lighthouse_door_open";
+export const BEACH_ROOM_LIGHTHOUSE_DOOR_CLOSE = "beach_room_lighthouse_door_close";
 // Beach Room audio ends here
