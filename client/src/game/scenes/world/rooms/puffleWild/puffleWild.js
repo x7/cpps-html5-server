@@ -34,7 +34,7 @@ export class PuffleWildScene extends BaseScene {
     }
 
     createContent() {
-				// pufflewild_main_background_png
+		// pufflewild_main_background_png
 		const pufflewild_main_background_png = this.add.image(-296, -271, "pufflewild", "pufflewild_main_background.png");
 		pufflewild_main_background_png.scaleX = 0.8945419785409258;
 		pufflewild_main_background_png.scaleY = 1.017872258921152;
@@ -47,7 +47,7 @@ export class PuffleWildScene extends BaseScene {
 		pufflewild_top_left_bush_png.visible = false;
 
 		// pufflewild_right_side_walk_pattern_png
-		const pufflewild_right_side_walk_pattern_png = this.add.image(1150, 119, "pufflewild", "pufflewild_right_side_walk_pattern.png");
+		const pufflewild_right_side_walk_pattern_png = this.add.image(1163, 113, "pufflewild", "pufflewild_right_side_walk_pattern.png");
 		pufflewild_right_side_walk_pattern_png.scaleX = 0.9244233564328059;
 		pufflewild_right_side_walk_pattern_png.scaleY = 0.9378236072377969;
 
