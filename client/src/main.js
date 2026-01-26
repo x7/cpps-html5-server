@@ -29,6 +29,7 @@ import { SkiVillageScene } from './game/scenes/world/rooms/skivillage/skivillage
 import { DojoScene } from './game/scenes/world/rooms/dojo/dojo.js';
 import { FireDojoScene } from './game/scenes/world/rooms/dojo/fire/firedojo.js';
 import { WaterDojoScene } from './game/scenes/world/rooms/dojo/water/waterdojo.js';
+import { StartScene } from './game/scenes/start/start.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -39,7 +40,7 @@ const config = {
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
-    scene: [PreloadAssetsScene, GiftshopScene],
+    scene: [PreloadAssetsScene, StartScene],
     scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH
