@@ -5,7 +5,7 @@ import { BaseScene } from "../../../base/baseScene";
 
 export class IcebergScene extends BaseScene {
     constructor() {
-        super("IcebergScene");
+        super("IceBergScene");
     }
 
     init(data) {
@@ -31,14 +31,13 @@ export class IcebergScene extends BaseScene {
 
     createContent() {
         // iceberg_main_png
-		const iceberg_main_png = this.add.image(697, 385, "iceberg", "iceberg_main.png");
-		iceberg_main_png.scaleX = 0.8918589084293643;
-		iceberg_main_png.scaleY = 0.886745378814203;
+		const iceberg_main_png = this.add.image(-10, 0, "iceberg", "iceberg_main.png");
+		iceberg_main_png.setOrigin(0, 0);
 
 		// iceberg_aqua_grabber0001_png
-		const iceberg_aqua_grabber0001_png = this.add.sprite(1087, 243, "iceberg", "iceberg_aqua_grabber0001.png");
-		iceberg_aqua_grabber0001_png.scaleX = 0.771839440661447;
-		iceberg_aqua_grabber0001_png.scaleY = 0.7682014976837884;
+		const iceberg_aqua_grabber0001_png = this.add.sprite(1235, 339, "iceberg", "iceberg_aqua_grabber0001.png");
+		iceberg_aqua_grabber0001_png.scaleX = 0.8992307752135668;
+		iceberg_aqua_grabber0001_png.scaleY = 0.8910482709811908;
 
         // Animations start here
         createAnimation({
