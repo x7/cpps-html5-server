@@ -328,5 +328,16 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "docks_room_bouncy_circles": {
+        "key": "docks_room_bouncy_circles",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }

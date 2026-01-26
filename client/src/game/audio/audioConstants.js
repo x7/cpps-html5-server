@@ -66,6 +66,7 @@ export const DOJO_WATER_ROOM_MUSIC = "dojo_water_room_music";
 
 // Docks audio starts here
 export const DOCKS_ROOM_MUSIC = "docks_room_music";
+export const DOCKS_ROOM_BOUNCY_CIRCLES = "docks_room_bouncy_circles";
 // Docks audio ends here
 
 // Dance Club audio starts here

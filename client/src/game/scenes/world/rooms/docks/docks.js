@@ -1,6 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
-import { DOCKS_ROOM_MUSIC } from "../../../../audio/audioConstants";
+import { DOCKS_ROOM_BOUNCY_CIRCLES, DOCKS_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
 
 export class DocksScene extends BaseScene {
@@ -27,73 +27,89 @@ export class DocksScene extends BaseScene {
             "name": DOCKS_ROOM_MUSIC,
             "paths": ["assets/world/rooms/docks/docks_music.mp3"]
         });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": DOCKS_ROOM_BOUNCY_CIRCLES,
+            "paths": ["assets/world/rooms/docks/dock2013-tubes.mp3"]
+        });
     }
 
     createContent() {
-        // docks_main_background_png
-		this.add.image(600, 86, "docks", "docks_main_background.png");
+		// docks_main_background_png
+		const docks_main_background_png = this.add.image(741, 117, "docks", "docks_main_background.png");
+		docks_main_background_png.scaleX = 1.0124038953450232;
+		docks_main_background_png.scaleY = 1.1699199091683639;
 
 		// docks_main_png
-		const docks_main_png = this.add.image(719, 388, "docks", "docks_main.png");
-		docks_main_png.scaleX = 0.8053615407895159;
-		docks_main_png.scaleY = 0.7999501229039983;
+		const docks_main_png = this.add.image(-25, 30, "docks", "docks_main.png");
+		docks_main_png.scaleX = 0.9737051414804503;
+		docks_main_png.scaleY = 0.9884389522891749;
+		docks_main_png.setOrigin(0, 0);
 
 		// docks_bench_png
-		const docks_bench_png = this.add.image(791, 253, "docks", "docks_bench.png");
-		docks_bench_png.scaleX = 0.7651843502217699;
-		docks_bench_png.scaleY = 0.782764713265158;
+		const docks_bench_png = this.add.image(940, 330, "docks", "docks_bench.png");
+		docks_bench_png.scaleX = 0.7225244291851599;
+		docks_bench_png.scaleY = 0.963019855890167;
 
 		// docks_frozen_right_side_png
-		this.add.image(1244, 369, "docks", "docks_frozen_right_side.png");
+		const docks_frozen_right_side_png = this.add.image(1481, 512, "docks", "docks_frozen_right_side.png");
+		docks_frozen_right_side_png.scaleX = 1.0987685856923155;
+		docks_frozen_right_side_png.scaleY = 1.0340967529708107;
 
 		// docks_pink_surfboard_png
-		const docks_pink_surfboard_png = this.add.image(1016, 511, "docks", "docks_pink_surfboard.png");
-		docks_pink_surfboard_png.scaleX = 0.8447368074285148;
+		const docks_pink_surfboard_png = this.add.image(1223, 665, "docks", "docks_pink_surfboard.png");
+		docks_pink_surfboard_png.scaleX = 0.959256029284872;
 		docks_pink_surfboard_png.scaleY = 0.9261652676946989;
 
 		// docks_surf_board_sale_png
-		this.add.image(643, 476, "docks", "docks_surf_board_sale.png");
+		this.add.image(806, 633, "docks", "docks_surf_board_sale.png");
 
 		// docks_buy_surf_board_png
-		const docks_buy_surf_board_png = this.add.sprite(615, 476, "docks", "docks_buy_surf_board.png");
-		docks_buy_surf_board_png.scaleX = 0.6407468822393549;
-		docks_buy_surf_board_png.scaleY = 0.6570891140204647;
+		const docks_buy_surf_board_png = this.add.sprite(777, 631, "docks", "docks_buy_surf_board.png");
+		docks_buy_surf_board_png.scaleX = 0.6920965595273212;
+		docks_buy_surf_board_png.scaleY = 0.8338788371388933;
 
 		// docks_stairs_png
-		this.add.image(327, 352, "docks", "docks_stairs.png");
+		const docks_stairs_png = this.add.image(423, 478, "docks", "docks_stairs.png");
+		docks_stairs_png.scaleX = 1.1873409581787242;
+		docks_stairs_png.scaleY = 1.1482171785705582;
 
 		// docks_lampost_png
-		this.add.image(488, 339, "docks", "docks_lampost.png");
+		const docks_lampost_png = this.add.image(558, 464, "docks", "docks_lampost.png");
+		docks_lampost_png.scaleX = 1.2824485690103873;
+		docks_lampost_png.scaleY = 1.305629426638525;
 
 		// docks_hydro_hopper0001_png
-		const docks_hydro_hopper0001_png = this.add.sprite(138, 501, "docks", "docks_hydro_hopper0001.png");
-		docks_hydro_hopper0001_png.scaleX = 0.9587573495778954;
-		docks_hydro_hopper0001_png.scaleY = 0.885516905407915;
+		const docks_hydro_hopper0001_png = this.add.sprite(194, 645, "docks", "docks_hydro_hopper0001.png");
+		docks_hydro_hopper0001_png.scaleX = 1.1530051512062083;
+		docks_hydro_hopper0001_png.scaleY = 1.092112535850837;
 
 		// docks_deck_board_png
-		const docks_deck_board_png = this.add.image(196, 482, "docks", "docks_deck_board.png");
-		docks_deck_board_png.scaleX = 0.974911452831468;
-		docks_deck_board_png.scaleY = 0.8369897540194782;
+		const docks_deck_board_png = this.add.image(275, 617, "docks", "docks_deck_board.png");
+		docks_deck_board_png.scaleX = 0.9906023400653966;
+		docks_deck_board_png.scaleY = 1.0394387001499181;
+
+		// docks_bouncy_circles0001_png
+		const docks_bouncy_circles0001_png = this.add.sprite(572, 678, "docks", "docks_bouncy_circles0001.png");
+		docks_bouncy_circles0001_png.scaleX = 0.9893160264392027;
+		docks_bouncy_circles0001_png.scaleY = 0.9667309758275568;
 
 		// docks_random_stick_png
-		const docks_random_stick_png = this.add.image(288, 664, "docks", "docks_random_stick.png");
-		docks_random_stick_png.scaleX = 0.9829755280944651;
-		docks_random_stick_png.scaleY = 0.8217022175163736;
+		const docks_random_stick_png = this.add.image(343, 823, "docks", "docks_random_stick.png");
+		docks_random_stick_png.scaleX = 1.2022791734090184;
+		docks_random_stick_png.scaleY = 1.0052508727404124;
 
 		// docks_right_side_chair_png
-		const docks_right_side_chair_png = this.add.image(199, 241, "docks", "docks_right_side_chair.png");
+		const docks_right_side_chair_png = this.add.image(221, 330, "docks", "docks_right_side_chair.png");
 		docks_right_side_chair_png.scaleX = 0.9059397327441412;
 		docks_right_side_chair_png.scaleY = 0.7585583243832948;
 
 		// docks_left_side_chair_png
-		const docks_left_side_chair_png = this.add.image(144, 270, "docks", "docks_left_side_chair.png");
+		const docks_left_side_chair_png = this.add.image(166, 359, "docks", "docks_left_side_chair.png");
 		docks_left_side_chair_png.scaleX = 0.8823557579528026;
 		docks_left_side_chair_png.scaleY = 0.652412431045195;
-
-		// docks_bouncy_circles0001_png
-		const docks_bouncy_circles0001_png = this.add.sprite(466, 534, "docks", "docks_bouncy_circles0001.png");
-		docks_bouncy_circles0001_png.scaleX = 0.8417347118896823;
-		docks_bouncy_circles0001_png.scaleY = 0.8342740166473169;
 
         // Animations start here
         createAnimation({
@@ -152,6 +168,7 @@ export class DocksScene extends BaseScene {
         // All interactive events start here
         docks_bouncy_circles0001_png.on("pointerover", () => {
             docks_bouncy_circles0001_png.play("docks_bouncy_things_play");
+			this.audioManager.play(DOCKS_ROOM_BOUNCY_CIRCLES);
         });
 
         docks_buy_surf_board_png.on("pointerover", () => {
