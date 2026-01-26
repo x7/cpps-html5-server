@@ -58,6 +58,12 @@ export const FOREST_ROOM_MUSIC = "forest_room_music";
 
 // Dojo audio starts here
 export const DOJO_ROOM_MUSIC = "dojo_room_music";
+export const DOJO_ROOM_FIRE_DOOR_OPEN = "dojo_room_fire_door_open";
+export const DOJO_ROOM_FIRE_DOOR_CLOSE = "dojo_room_fire_door_close";
+export const DOJO_ROOM_WATER_DOOR_OPEN = "dojo_room_water_door_open";
+export const DOJO_ROOM_WATER_DOOR_CLOSE = "dojo_room_water_door_close";
+export const DOJO_ROOM_SNOW_DOOR_OPEN = "dojo_room_snow_door_open";
+export const DOJO_ROOM_SNOW_DOOR_CLOSE = "dojo_room_snow_door_close";
 // Dojo room audio ends here
 
 // Dojo Fire audio starts here

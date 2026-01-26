@@ -383,5 +383,71 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "dojo_room_fire_door_open": {
+        "key": "dojo_room_fire_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "dojo_room_fire_door_close": {
+        "key": "dojo_room_fire_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "dojo_room_water_door_open": {
+        "key": "dojo_room_water_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "dojo_room_water_door_close": {
+        "key": "dojo_room_water_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "dojo_room_snow_door_open": {
+        "key": "dojo_room_snow_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "dojo_room_snow_door_close": {
+        "key": "dojo_room_snow_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }
