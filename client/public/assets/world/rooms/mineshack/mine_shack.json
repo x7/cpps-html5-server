@@ -1,0 +1,976 @@
+{
+	"textures": [
+		{
+			"image": "mine_shack-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1917,
+				"h": 2012
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "mine_shack_floor.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1915,
+						"h": 1064
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1915,
+						"h": 1064
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1915,
+						"h": 1064
+					}
+				},
+				{
+					"filename": "mine_shack_dojo.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1856,
+						"h": 424
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1856,
+						"h": 424
+					},
+					"frame": {
+						"x": 1,
+						"y": 1067,
+						"w": 1856,
+						"h": 424
+					}
+				},
+				{
+					"filename": "mine_shack_fish_wall_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 620,
+						"h": 518
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 620,
+						"h": 518
+					},
+					"frame": {
+						"x": 1,
+						"y": 1493,
+						"w": 620,
+						"h": 518
+					}
+				},
+				{
+					"filename": "mine_shack_mine_text0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 105,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 4,
+						"w": 56,
+						"h": 25
+					},
+					"frame": {
+						"x": 1859,
+						"y": 1067,
+						"w": 56,
+						"h": 25
+					}
+				},
+				{
+					"filename": "mine_shack_mine_text0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 105,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 4,
+						"w": 56,
+						"h": 25
+					},
+					"frame": {
+						"x": 1859,
+						"y": 1067,
+						"w": 56,
+						"h": 25
+					}
+				},
+				{
+					"filename": "mine_shack_mine_text0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 105,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 4,
+						"w": 55,
+						"h": 25
+					},
+					"frame": {
+						"x": 1859,
+						"y": 1094,
+						"w": 55,
+						"h": 25
+					}
+				},
+				{
+					"filename": "mine_shack_mine_text0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 105,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 4,
+						"w": 55,
+						"h": 25
+					},
+					"frame": {
+						"x": 1859,
+						"y": 1094,
+						"w": 55,
+						"h": 25
+					}
+				},
+				{
+					"filename": "mine_shack_mine_text0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 105,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 4,
+						"w": 55,
+						"h": 25
+					},
+					"frame": {
+						"x": 1859,
+						"y": 1094,
+						"w": 55,
+						"h": 25
+					}
+				},
+				{
+					"filename": "mine_shack_ball.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 53,
+						"h": 53
+					},
+					"frame": {
+						"x": 1859,
+						"y": 1121,
+						"w": 53,
+						"h": 53
+					}
+				},
+				{
+					"filename": "mine_shack_latern.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 50,
+						"h": 72
+					},
+					"frame": {
+						"x": 1859,
+						"y": 1176,
+						"w": 50,
+						"h": 72
+					}
+				},
+				{
+					"filename": "mine_shack_carrot.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 45,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 45,
+						"h": 59
+					},
+					"frame": {
+						"x": 1859,
+						"y": 1250,
+						"w": 45,
+						"h": 59
+					}
+				},
+				{
+					"filename": "mine_shack_pole.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 42,
+						"h": 356
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 42,
+						"h": 355
+					},
+					"frame": {
+						"x": 1859,
+						"y": 1311,
+						"w": 42,
+						"h": 355
+					}
+				},
+				{
+					"filename": "mine_shack_fish_wall.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 299,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 299,
+						"h": 252
+					},
+					"frame": {
+						"x": 623,
+						"y": 1668,
+						"w": 299,
+						"h": 252
+					}
+				},
+				{
+					"filename": "mine_shack_rock.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 119,
+						"h": 81
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 119,
+						"h": 81
+					},
+					"frame": {
+						"x": 623,
+						"y": 1922,
+						"w": 119,
+						"h": 81
+					}
+				},
+				{
+					"filename": "mine_shack_blue_pole_right.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 165
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 35,
+						"h": 165
+					},
+					"frame": {
+						"x": 623,
+						"y": 1493,
+						"w": 35,
+						"h": 165
+					}
+				},
+				{
+					"filename": "mine_shack_guitar.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 141,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 141,
+						"h": 80
+					},
+					"frame": {
+						"x": 744,
+						"y": 1922,
+						"w": 141,
+						"h": 80
+					}
+				},
+				{
+					"filename": "mine_shack_red_flag0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 95,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 0,
+						"w": 83,
+						"h": 76
+					},
+					"frame": {
+						"x": 887,
+						"y": 1922,
+						"w": 83,
+						"h": 76
+					}
+				},
+				{
+					"filename": "mine_shack_school_door0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 162,
+						"h": 149
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 162,
+						"h": 146
+					},
+					"frame": {
+						"x": 660,
+						"y": 1493,
+						"w": 162,
+						"h": 146
+					}
+				},
+				{
+					"filename": "mine_shack_tree_right_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 184,
+						"h": 218
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 184,
+						"h": 218
+					},
+					"frame": {
+						"x": 924,
+						"y": 1668,
+						"w": 184,
+						"h": 218
+					}
+				},
+				{
+					"filename": "mine_shack_net.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 246,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 246,
+						"h": 122
+					},
+					"frame": {
+						"x": 972,
+						"y": 1888,
+						"w": 246,
+						"h": 122
+					}
+				},
+				{
+					"filename": "mine_shack_stand.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 345,
+						"h": 190
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 345,
+						"h": 190
+					},
+					"frame": {
+						"x": 1110,
+						"y": 1668,
+						"w": 345,
+						"h": 190
+					}
+				},
+				{
+					"filename": "mine_shack_blue_pole_left.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 20,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 20,
+						"h": 135
+					},
+					"frame": {
+						"x": 1220,
+						"y": 1860,
+						"w": 20,
+						"h": 135
+					}
+				},
+				{
+					"filename": "mine_shack_cave_door0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 88,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 88,
+						"h": 116
+					},
+					"frame": {
+						"x": 1242,
+						"y": 1860,
+						"w": 88,
+						"h": 116
+					}
+				},
+				{
+					"filename": "mine_shack_mine_text0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 105,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 90,
+						"h": 29
+					},
+					"frame": {
+						"x": 1242,
+						"y": 1978,
+						"w": 90,
+						"h": 29
+					}
+				},
+				{
+					"filename": "mine_shack_cave_door0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 88,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 83,
+						"h": 116
+					},
+					"frame": {
+						"x": 1332,
+						"y": 1860,
+						"w": 83,
+						"h": 116
+					}
+				},
+				{
+					"filename": "mine_shack_school_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 162,
+						"h": 149
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 14,
+						"w": 112,
+						"h": 111
+					},
+					"frame": {
+						"x": 1417,
+						"y": 1860,
+						"w": 112,
+						"h": 111
+					}
+				},
+				{
+					"filename": "mine_shack_coffee_mug.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 40,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 40,
+						"h": 38
+					},
+					"frame": {
+						"x": 1417,
+						"y": 1973,
+						"w": 40,
+						"h": 38
+					}
+				},
+				{
+					"filename": "mine_shack_rails.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 119,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 119,
+						"h": 181
+					},
+					"frame": {
+						"x": 1457,
+						"y": 1668,
+						"w": 119,
+						"h": 181
+					}
+				},
+				{
+					"filename": "mine_shack_school_indoor.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 104,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 104,
+						"h": 109
+					},
+					"frame": {
+						"x": 1531,
+						"y": 1851,
+						"w": 104,
+						"h": 109
+					}
+				},
+				{
+					"filename": "mine_shack_red_flag0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 95,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 1,
+						"w": 86,
+						"h": 75
+					},
+					"frame": {
+						"x": 824,
+						"y": 1493,
+						"w": 86,
+						"h": 75
+					}
+				},
+				{
+					"filename": "mine_shack_red_flag0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 95,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 0,
+						"w": 79,
+						"h": 75
+					},
+					"frame": {
+						"x": 824,
+						"y": 1570,
+						"w": 79,
+						"h": 75
+					}
+				},
+				{
+					"filename": "mine_shack_red_flag0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 95,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 2,
+						"w": 92,
+						"h": 74
+					},
+					"frame": {
+						"x": 905,
+						"y": 1570,
+						"w": 92,
+						"h": 74
+					}
+				},
+				{
+					"filename": "mine_shack_red_flag0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 95,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 2,
+						"w": 90,
+						"h": 74
+					},
+					"frame": {
+						"x": 912,
+						"y": 1493,
+						"w": 90,
+						"h": 74
+					}
+				},
+				{
+					"filename": "mine_shack_red_flag0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 95,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 84,
+						"h": 74
+					},
+					"frame": {
+						"x": 999,
+						"y": 1569,
+						"w": 84,
+						"h": 74
+					}
+				},
+				{
+					"filename": "mine_shack_red_flag0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 95,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 94,
+						"h": 73
+					},
+					"frame": {
+						"x": 1004,
+						"y": 1493,
+						"w": 94,
+						"h": 73
+					}
+				},
+				{
+					"filename": "mine_shack_red_flag0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 95,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 95,
+						"h": 72
+					},
+					"frame": {
+						"x": 1085,
+						"y": 1568,
+						"w": 95,
+						"h": 72
+					}
+				},
+				{
+					"filename": "mine_shack_red_flag0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 95,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 93,
+						"h": 72
+					},
+					"frame": {
+						"x": 1100,
+						"y": 1493,
+						"w": 93,
+						"h": 72
+					}
+				},
+				{
+					"filename": "mine_shack_red_flag0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 95,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 87,
+						"h": 72
+					},
+					"frame": {
+						"x": 1182,
+						"y": 1567,
+						"w": 87,
+						"h": 72
+					}
+				},
+				{
+					"filename": "mine_shack_red_flag0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 95,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 95,
+						"h": 71
+					},
+					"frame": {
+						"x": 1195,
+						"y": 1493,
+						"w": 95,
+						"h": 71
+					}
+				},
+				{
+					"filename": "mine_shack_red_flag0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 95,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 91,
+						"h": 71
+					},
+					"frame": {
+						"x": 1271,
+						"y": 1566,
+						"w": 91,
+						"h": 71
+					}
+				},
+				{
+					"filename": "mine_shack_bucket.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 69,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 69,
+						"h": 70
+					},
+					"frame": {
+						"x": 1292,
+						"y": 1493,
+						"w": 69,
+						"h": 70
+					}
+				},
+				{
+					"filename": "mine_shack_blue_book.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 69,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 69,
+						"h": 62
+					},
+					"frame": {
+						"x": 1363,
+						"y": 1493,
+						"w": 69,
+						"h": 62
+					}
+				}
+			]
+		},
+		{
+			"image": "mine_shack-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1283,
+				"h": 1611
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "mine_shack_cpu_text.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 974,
+						"h": 948
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 974,
+						"h": 948
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 974,
+						"h": 948
+					}
+				},
+				{
+					"filename": "mine_shack_school.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 726,
+						"h": 636
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 726,
+						"h": 636
+					},
+					"frame": {
+						"x": 1,
+						"y": 951,
+						"w": 726,
+						"h": 636
+					}
+				},
+				{
+					"filename": "mine_shack_tree.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 553,
+						"h": 659
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 553,
+						"h": 659
+					},
+					"frame": {
+						"x": 729,
+						"y": 951,
+						"w": 553,
+						"h": 659
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:0e230823ca6f454f2849b6e5a9e90da1:4ae771a0841363cfe7a8e4ee2b45c7de:80e2c92d8fb14dadd308c75faf1c9b11$"
+	}
+}

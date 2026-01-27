@@ -104,3 +104,11 @@ export const BEACH_ROOM_LIGHTHOUSE_DOOR_CLOSE = "beach_room_lighthouse_door_clos
 // Cove Room audio starts here
 export const COVE_ROOM_MUSIC = "cove_room_music";
 // Cove Room audio ends here
+
+// Mine Shack Room audio starts here
+export const MINE_SHACK_ROOM_MUSIC = "mine_shack_room_music";
+export const MINE_SHACK_ROOM_DOOR_OPEN = "mine_shack_room_door_open";
+export const MINE_SHACK_ROOM_DOOR_CLOSE = "mine_shack_room_door_close";
+export const MINE_SHACK_ROOM_MINE_LIGHT_ON = "mine_shack_room_mine_light_on";
+export const MINE_SHACK_ROOM_MINE_LIGHT_OFF = "mine_shack_room_mine_light_off";
+// Mine Shack Room audio ends here
