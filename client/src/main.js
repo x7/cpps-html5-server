@@ -30,6 +30,7 @@ import { DojoScene } from './game/scenes/world/rooms/dojo/dojo.js';
 import { FireDojoScene } from './game/scenes/world/rooms/dojo/fire/firedojo.js';
 import { WaterDojoScene } from './game/scenes/world/rooms/dojo/water/waterdojo.js';
 import { StartScene } from './game/scenes/start/start.js';
+import { ErrorScene } from './game/scenes/error/error.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -40,7 +41,7 @@ const config = {
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
-    scene: [PreloadAssetsScene, StartScene],
+    scene: [PreloadAssetsScene, ErrorScene],
     scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH

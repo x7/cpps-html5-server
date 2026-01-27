@@ -32,21 +32,21 @@ export class ErrorScene extends BaseScene {
 
 	createContent() {
 		// error_gui
-		const error_gui = this.add.image(385, 218, "error", "app/error");
-		error_gui.scaleX = 0.6973949856334567;
-		error_gui.scaleY = 0.8485991286121775;
-		error_gui.setOrigin(0, 0);
+		const error_gui = this.add.image(88, 51, "error", "app/error");
+		error_gui.scaleX = 0.8477412343159033;
+		error_gui.scaleY = 1.1155659700223062;
+		error_gui.setOrigin(-0.5, -0.5);
 
 		// error_okay_button
-		const error_okay_button = this.add.image(549, 399, "error", "app/button");
-		error_okay_button.scaleX = 0.6615413590165267;
-		error_okay_button.scaleY = 0.6954831986522744;
+		const error_okay_button = this.add.image(624, 492, "error", "app/button");
+		error_okay_button.scaleX = 0.7953929265542756;
+		error_okay_button.scaleY = 0.7911391779848883;
 		error_okay_button.setOrigin(0, 0);
 
 		// error_okay_button_hover
-		const error_okay_button_hover = this.add.image(549, 399, "error", "app/buttonHover");
-		error_okay_button_hover.scaleX = 0.6615413590165267;
-		error_okay_button_hover.scaleY = 0.6954831986522744;
+		const error_okay_button_hover = this.add.image(624, 492, "error", "app/buttonHover");
+		error_okay_button_hover.scaleX = 0.7953929265542756;
+		error_okay_button_hover.scaleY = 0.7911391779848883;
 		error_okay_button_hover.setOrigin(0, 0);
 		error_okay_button_hover.visible = false;
 
@@ -58,17 +58,18 @@ export class ErrorScene extends BaseScene {
 		error_okay_button_clicked.visible = false;
 
 		// error_okay_button_text
-		const error_okay_button_text = this.add.bitmapText(635, 420, "ArialNarrow", "Okay");
-		error_okay_button_text.scaleX = 1.0957633309862733;
-		error_okay_button_text.scaleY = 1.0564417388819753;
+		const error_okay_button_text = this.add.bitmapText(726, 514, "ArialNarrow", "Okay");
+		error_okay_button_text.scaleX = 1.427758075467004;
+		error_okay_button_text.scaleY = 1.3000653035379415;
 		error_okay_button_text.text = "Okay";
 		error_okay_button_text.fontSize = 32;
 
 		// create button text
+		const bounds = error_gui.getBounds();
 		const buttonText = this.add.bitmapText(0, 0, "ArialNarrow", this.errorMessage);
-		buttonText.fontSize = 30;
-		buttonText.setOrigin(0.5, 0.0);
-		buttonText.setPosition(error_gui.x + error_gui.displayWidth / 2, error_gui.y + error_gui.displayHeight / 2 - 80);
+		buttonText.fontSize = 40;
+		buttonText.setOrigin(0.5, 0);
+		buttonText.setPosition(bounds.centerX, bounds.centerY - 115);
 		buttonText.setTint("000000");
 		buttonText.setLineSpacing(5);
 		buttonText.setCenterAlign();

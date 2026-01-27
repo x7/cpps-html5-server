@@ -89,15 +89,15 @@ export class StartScene extends BaseScene {
 		start_create_penguin_underlay_hovered.visible = false;
 
 		// start_login_button
-		const start_login_button = this.add.image(828, 755, "login", "login-screen/button");
-		start_login_button.scaleX = 1.2021885210846146;
-		start_login_button.scaleY = 1.1766304439897213;
+		const start_login_button = this.add.image(858, 755, "login", "login-screen/button");
+		start_login_button.scaleX = 1.1502188521084615;
+		start_login_button.scaleY = 1.1366304439897212;
 		start_login_button.setOrigin(0, 0);
 
 		// start_login_button_hover
-		const start_login_button_hover = this.add.image(828, 755, "login", "login-screen/buttonHover");
-		start_login_button_hover.scaleX = 1.2021885210846146;
-		start_login_button_hover.scaleY = 1.1766304439897213;
+		const start_login_button_hover = this.add.image(858, 755, "login", "login-screen/buttonHover");
+		start_login_button_hover.scaleX = 1.1502188521084615;
+		start_login_button_hover.scaleY = 1.1366304439897212;
 		start_login_button_hover.setOrigin(0, 0);
 		start_login_button_hover.visible = false;
 
@@ -109,7 +109,7 @@ export class StartScene extends BaseScene {
 		start_login_button_clicked.visible = false;
 
 		// start_login_button_text
-		const start_login_button_text = this.add.bitmapText(978, 790, "CCComicCrazyBoldItalicShadow", "Login");
+		const start_login_button_text = this.add.bitmapText(997, 788, "CCComicCrazyBoldItalicShadow", "Login");
 		start_login_button_text.scaleX = 0.7;
 		start_login_button_text.scaleY = 0.6598527246831939;
 		start_login_button_text.text = "Login";
@@ -117,22 +117,22 @@ export class StartScene extends BaseScene {
 		start_login_button_text.letterSpacing = 3;
 
 		// start_login_button_yellow_penguin
-		const start_login_button_yellow_penguin = this.add.image(1196, 672, "start", "start-screen/loginGraphic0001");
-		start_login_button_yellow_penguin.scaleX = 1.1602276462097116;
-		start_login_button_yellow_penguin.scaleY = 1.1186662119431967;
+		const start_login_button_yellow_penguin = this.add.image(1218, 689, "start", "start-screen/loginGraphic0001");
+		start_login_button_yellow_penguin.scaleX = 1.0409005180477484;
+		start_login_button_yellow_penguin.scaleY = 1.0394809824885978;
 		start_login_button_yellow_penguin.setOrigin(0, 0);
 
 		// start_login_button_yellow_penguin_hover
-		const start_login_button_yellow_penguin_hover = this.add.image(1202, 681, "start", "start-screen/loginGraphic0002");
-		start_login_button_yellow_penguin_hover.scaleX = 1.1706868399914743;
-		start_login_button_yellow_penguin_hover.scaleY = 1.1142956808496538;
+		const start_login_button_yellow_penguin_hover = this.add.image(1218, 689, "start", "start-screen/loginGraphic0002");
+		start_login_button_yellow_penguin_hover.scaleX = 1.0409005180477484;
+		start_login_button_yellow_penguin_hover.scaleY = 1.0394809824885978;
 		start_login_button_yellow_penguin_hover.setOrigin(0, 0);
 		start_login_button_yellow_penguin_hover.visible = false;
 
 		// start_register_button
 		const start_register_button = this.add.image(322, 755, "login", "login-screen/button");
-		start_register_button.scaleX = 1.2021885210846146;
-		start_register_button.scaleY = 1.1766304439897213;
+		start_register_button.scaleX = 1.1502188521084615;
+		start_register_button.scaleY = 1.1366304439897212;
 		start_register_button.setOrigin(0, 0);
 
 		// start_register_button_hover
@@ -150,8 +150,8 @@ export class StartScene extends BaseScene {
 		start_register_button_clicked.visible = false;
 
 		// start_create_penguin_button_text
-		const start_create_penguin_button_text = this.add.bitmapText(359, 797, "CCComicCrazyBoldItalicShadow", "Create a Penguin");
-		start_create_penguin_button_text.scaleX = 0.55;
+		const start_create_penguin_button_text = this.add.bitmapText(370, 795, "CCComicCrazyBoldItalicShadow", "Create a Penguin");
+		start_create_penguin_button_text.scaleX = 0.48;
 		start_create_penguin_button_text.scaleY = 0.6143235996320014;
 		start_create_penguin_button_text.text = "Create a Penguin";
 		start_create_penguin_button_text.fontSize = 60;
