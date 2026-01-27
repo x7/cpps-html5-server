@@ -12,6 +12,7 @@ export class LoadingScene extends BaseScene {
 		this.sceneManager = this.getSceneManager();
 		this.assetManager = this.getAssetManager();
 		this.progress = 0;
+		this.text = "No loading message provided"
 		
 		if(data.text != null) {
 			this.text = data.text;
@@ -58,44 +59,52 @@ export class LoadingScene extends BaseScene {
 
 	createContent() {		
 		// login_screen_background
-		this.login_screen_background = this.add.image(-54, -69, "login", "login-screen/background");
-		this.login_screen_background.scaleX = 0.8005228796833518;
-		this.login_screen_background.scaleY = 0.7697808237235164;
-		this.login_screen_background.setOrigin(0, 0);
+		const login_screen_background = this.add.image(-35, -20, "login", "login-screen/background");
+		login_screen_background.scaleX = 0.91822095603599;
+		login_screen_background.scaleY = 0.9307085567300964;
+		login_screen_background.setOrigin(0, 0);
 
 		// load_screen_background
-		const load_screen_background = this.add.image(548, 393, "load", "load-screen/background");
-		load_screen_background.scaleX = 0.6043379501487305;
-		load_screen_background.scaleY = 0.6244561279852182;
+		const load_screen_background = this.add.image(653, 502, "load", "load-screen/background");
+		load_screen_background.scaleX = 0.7;
+		load_screen_background.scaleY = 0.8;
 		load_screen_background.setOrigin(0, 0);
 
 		// load_screen_spinner0001
-		const load_screen_spinner0001 = this.add.sprite(554, 400, "load", "load-screen/spinner0001");
-		load_screen_spinner0001.scaleX = 0.5116844663233825;
-		load_screen_spinner0001.scaleY = 0.529299740149275;
+		const load_screen_spinner0001 = this.add.sprite(659, 509, "load", "load-screen/spinner0001");
+		load_screen_spinner0001.scaleX = 0.6426046833060873;
+		load_screen_spinner0001.scaleY = 0.7090060693349223;
 		load_screen_spinner0001.setOrigin(0, 0);
 		load_screen_spinner0001.play("load-spinner-animation");
 
 		// load_screen_mask
-		this.load_screen_mask = this.add.image(581, 402, "load", "load-screen/mask");
-		this.load_screen_mask.scaleX = 0.6037870622124922;
-		this.load_screen_mask.scaleY = 0.7291006632874022;
-		this.load_screen_mask.setOrigin(0, 0);
-		this.load_screen_mask.tintFill = true;
-		this.load_screen_mask.tintTopLeft = 16761134;
-		this.load_screen_mask.tintTopRight = 16761134;
-		this.load_screen_mask.tintBottomLeft = 16761134;
-		this.load_screen_mask.tintBottomRight = 16761134;
-		this.load_screen_mask.visible = false;
+		const load_screen_mask = this.add.sprite(691, 514, "load", "load-screen/mask");
+		load_screen_mask.scaleX = 0.6788731834515179;
+		load_screen_mask.scaleY = 0.9448333658041439;
+		load_screen_mask.setOrigin(0, 0);
+		load_screen_mask.visible = false;
+		load_screen_mask.tintFill = true;
+		load_screen_mask.tintTopLeft = 16761134;
+		load_screen_mask.tintTopRight = 16761134;
+		load_screen_mask.tintBottomLeft = 16761134;
+		load_screen_mask.tintBottomRight = 16761134;
 
-		const centerX = this.scale.width / 2;
-		const centerY = this.scale.height / 2;
-		this.loading_random_text = this.add.bitmapText(centerX - 10, centerY + 70, "BurbankSmallBold", this.text);
-		this.loading_random_text.text = this.text;
-		this.loading_random_text.fontSize = 18;
-		this.loading_random_text.setOrigin(0.5, 0.0)
-		this.loading_random_text.setLineSpacing(5);
-		this.loading_random_text.setCenterAlign();
+		// loading_random_text
+		const bounds = load_screen_mask.getBounds();
+		const loading_random_text = this.add.bitmapText(bounds.centerX, bounds.centerY + 30, "BurbankSmallBold", this.text);
+		loading_random_text.scaleX = 1.0251222621528076;
+		loading_random_text.scaleY = 1.1359024394507538;
+		loading_random_text.text = this.text;
+		loading_random_text.fontSize = 20;
+		loading_random_text.setOrigin(0.5, 0.0)
+		loading_random_text.setLineSpacing(5);
+		loading_random_text.setCenterAlign();
+
+		// Setting global instances starts here
+		this.login_screen_background = login_screen_background;
+		this.load_screen_mask = load_screen_mask;
+		this.loading_random_text = loading_random_text;
+		// Setting global instances ends here
 
 		this.progressInterval = this.time.addEvent({
 			delay: 250,

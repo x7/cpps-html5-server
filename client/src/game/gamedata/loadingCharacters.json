@@ -2,17 +2,17 @@
     "pizza_guy": {
         "mainSpriteName": "load-screen/pizzatoss0001",
         "animationName": "load-pizzatoss-animation",
-        "x": 513,
-        "y": 4,
-        "scaleX": 0.6056892634898927,
-        "scaleY": 0.6700680230368443
+        "x": 620,
+        "y": 50,
+        "scaleX": 0.7056892634898927,
+        "scaleY": 0.7700680230368443
     },
     "snow_shovel_guy": {
         "mainSpriteName": "load-screen/snowshovel0001",
         "animationName": "load-snowshovel-animation",
-        "x": 542,
-        "y": 165,
-        "scaleX": 0.5046644549177679,
-        "scaleY": 0.557562204996745
+        "x": 650,
+        "y": 250,
+        "scaleX": 0.5546644549177679,
+        "scaleY": 0.607562204996745
     }
 }
