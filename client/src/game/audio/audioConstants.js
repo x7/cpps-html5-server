@@ -100,3 +100,7 @@ export const BEACH_ROOM_MUSIC = "beach_room_music";
 export const BEACH_ROOM_LIGHTHOUSE_DOOR_OPEN = "beach_room_lighthouse_door_open";
 export const BEACH_ROOM_LIGHTHOUSE_DOOR_CLOSE = "beach_room_lighthouse_door_close";
 // Beach Room audio ends here
+
+// Cove Room audio starts here
+export const COVE_ROOM_MUSIC = "cove_room_music";
+// Cove Room audio ends here
