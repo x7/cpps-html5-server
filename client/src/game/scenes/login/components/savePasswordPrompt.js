@@ -26,91 +26,91 @@ export class LoginSavePasswordPrompt extends BaseScene {
 
 	createContent() {
 		// login_save_password_background_gui
-		const login_save_password_background_gui = this.add.image(210, 78, "login", "login-screen/warn");
-		login_save_password_background_gui.scaleX = 0.718656484232741;
-		login_save_password_background_gui.scaleY = 0.6458724011667826;
+		const login_save_password_background_gui = this.add.image(206, 127, "login", "login-screen/warn");
+		login_save_password_background_gui.scaleX = 0.972656358219807;
+		login_save_password_background_gui.scaleY = 0.842584334675681;
 		login_save_password_background_gui.setOrigin(0, 0);
 
 		// login_save_password_exit_button
-		const login_save_password_exit_button = this.add.image(1000, 104, "login", "login-screen/closeButton");
-		login_save_password_exit_button.scaleX = 0.6465140210955824;
-		login_save_password_exit_button.scaleY = 0.67916261000179;
+		const login_save_password_exit_button = this.add.image(1255, 153, "login", "login-screen/closeButton");
+		login_save_password_exit_button.scaleX = 0.9985073690921258;
+		login_save_password_exit_button.scaleY = 1.0064519825596057;
 		login_save_password_exit_button.setOrigin(0, 0);
 
 		// login_save_password_warning_text
-		const login_save_password_warning_text = this.add.bitmapText(288, 118, "BurbankSmallBold", "If you save your password here, anyone who uses this\ncomputer could access your account.");
-		login_save_password_warning_text.scaleX = 1.0513310794326511;
-		login_save_password_warning_text.scaleY = 1.0705376885654603;
+		const login_save_password_warning_text = this.add.bitmapText(322, 162, "BurbankSmallBold", "If you save your password here, anyone who uses this\ncomputer could access your account.");
+		login_save_password_warning_text.scaleX = 1.3178779364290758;
+		login_save_password_warning_text.scaleY = 1.4738023138103065;
 		login_save_password_warning_text.text = "If you save your password here, anyone who uses this\ncomputer could access your account.";
 		login_save_password_warning_text.fontSize = 26;
 
 		// login_save_password_save_password_button
-		const login_save_password_save_password_button = this.add.image(288, 524, "login", "login-screen/publicpromptbutton0001");
-		login_save_password_save_password_button.scaleX = 0.7548025348131256;
-		login_save_password_save_password_button.scaleY = 0.7441638975677048;
+		const login_save_password_save_password_button = this.add.image(331, 694, "login", "login-screen/publicpromptbutton0001");
+		login_save_password_save_password_button.scaleX = 1.0923562963385764;
+		login_save_password_save_password_button.scaleY = 1.1410290142906796;
 		login_save_password_save_password_button.setOrigin(0, 0);
 
 		// login_save_password_dont_save_password_button
-		const login_save_password_dont_save_password_button = this.add.image(548, 524, "login", "login-screen/publicpromptbutton0001");
-		login_save_password_dont_save_password_button.scaleX = 0.7548025348131256;
-		login_save_password_dont_save_password_button.scaleY = 0.7441638975677048;
+		const login_save_password_dont_save_password_button = this.add.image(704, 694, "login", "login-screen/publicpromptbutton0001");
+		login_save_password_dont_save_password_button.scaleX = 1.0923562963385764;
+		login_save_password_dont_save_password_button.scaleY = 1.1410290142906796;
 		login_save_password_dont_save_password_button.setOrigin(0, 0);
 
 		// login_save_password_learn_more_button
-		const login_save_password_learn_more_button = this.add.image(847, 542, "login", "login-screen/publicpromptbutton0001");
-		login_save_password_learn_more_button.scaleX = 0.5430784050813093;
-		login_save_password_learn_more_button.scaleY = 0.45608937830351015;
+		const login_save_password_learn_more_button = this.add.image(1054, 711, "login", "login-screen/publicpromptbutton0001");
+		login_save_password_learn_more_button.scaleX = 0.7780157557432849;
+		login_save_password_learn_more_button.scaleY = 0.8350722534314228;
 		login_save_password_learn_more_button.setOrigin(0, 0);
 
 		// login_save_password_save_password_button_hover
-		const login_save_password_save_password_button_hover = this.add.image(288, 524, "login", "login-screen/learnButtonHover");
-		login_save_password_save_password_button_hover.scaleX = 0.912589370217293;
-		login_save_password_save_password_button_hover.scaleY = 1.1040157390874816;
+		const login_save_password_save_password_button_hover = this.add.image(331, 694, "login", "login-screen/publicpromptbutton0002");
+		login_save_password_save_password_button_hover.scaleX = 1.0923562963385764;
+		login_save_password_save_password_button_hover.scaleY = 1.1410290142906796;
 		login_save_password_save_password_button_hover.setOrigin(0, 0);
 		login_save_password_save_password_button_hover.visible = false;
 
 		// login_save_password_dont_save_password_button_hover
-		const login_save_password_dont_save_password_button_hover = this.add.image(548, 524, "login", "login-screen/learnButtonHover");
-		login_save_password_dont_save_password_button_hover.scaleX = 0.912589370217293;
-		login_save_password_dont_save_password_button_hover.scaleY = 1.1040157390874816;
+		const login_save_password_dont_save_password_button_hover = this.add.image(704, 694, "login", "login-screen/publicpromptbutton0002");
+		login_save_password_dont_save_password_button_hover.scaleX = 1.0923562963385764;
+		login_save_password_dont_save_password_button_hover.scaleY = 1.1410290142906796;
 		login_save_password_dont_save_password_button_hover.setOrigin(0, 0);
 		login_save_password_dont_save_password_button_hover.visible = false;
 
 		// login_save_password_learn_more_button_hover
-		const login_save_password_learn_more_button_hover = this.add.image(847, 542, "login", "login-screen/learnButtonHover");
-		login_save_password_learn_more_button_hover.scaleX = 0.653920704600741;
-		login_save_password_learn_more_button_hover.scaleY = 0.7128298286441427;
+		const login_save_password_learn_more_button_hover = this.add.image(1054, 711, "login", "login-screen/publicpromptbutton0002");
+		login_save_password_learn_more_button_hover.scaleX = 0.7780157557432849;
+		login_save_password_learn_more_button_hover.scaleY = 0.8350722534314228;
 		login_save_password_learn_more_button_hover.setOrigin(0, 0);
 		login_save_password_learn_more_button_hover.visible = false;
 
 		// login_save_password_save_password_text
-		const login_save_password_save_password_text = this.add.bitmapText(317, 547, "BurbankSmallBold", "Save Password");
-		login_save_password_save_password_text.scaleX = 0.9757192145029956;
-		login_save_password_save_password_text.scaleY = 1.228486742083282;
+		const login_save_password_save_password_text = this.add.bitmapText(357, 725, "BurbankSmallBold", "Save Password");
+		login_save_password_save_password_text.scaleX = 1.6430386634219252;
+		login_save_password_save_password_text.scaleY = 2.150240600629912;
 		login_save_password_save_password_text.text = "Save Password";
 		login_save_password_save_password_text.fontSize = 20;
 
 		// login_save_password_dont_save_password_text
-		const login_save_password_dont_save_password_text = this.add.bitmapText(599, 535, "BurbankSmallBold", "Don't Save\n Password");
-		login_save_password_dont_save_password_text.scaleX = 1.051657796085224;
-		login_save_password_dont_save_password_text.scaleY = 1.1689209937574048;
+		const login_save_password_dont_save_password_text = this.add.bitmapText(760, 714, "BurbankSmallBold", "Don't Save\n Password");
+		login_save_password_dont_save_password_text.scaleX = 1.731842936474108;
+		login_save_password_dont_save_password_text.scaleY = 1.610576783957704;
 		login_save_password_dont_save_password_text.text = "Don't Save\n Password";
 		login_save_password_dont_save_password_text.fontSize = 20;
 
 		// login_save_password_learn_more_text
-		const login_save_password_learn_more_text = this.add.bitmapText(868, 554, "BurbankSmallBold", "Learn More");
-		login_save_password_learn_more_text.scaleX = 0.9584914705454524;
-		login_save_password_learn_more_text.scaleY = 0.9795840888647462;
+		const login_save_password_learn_more_text = this.add.bitmapText(1095, 733, "BurbankSmallBold", "Learn More");
+		login_save_password_learn_more_text.scaleX = 1.2076005281156443;
+		login_save_password_learn_more_text.scaleY = 1.632911948932445;
 		login_save_password_learn_more_text.text = "Learn More";
 		login_save_password_learn_more_text.fontSize = 20;
 
 		// login_save_password_exit_button_hover
-		const login_save_password_exit_button_hover = this.add.image(1024, 130, "login", "login-screen/moreserversclose0002");
-		login_save_password_exit_button_hover.scaleX = 0.7939596363645354;
-		login_save_password_exit_button_hover.scaleY = 0.817451681584833;
-        login_save_password_exit_button_hover.visible = false;
+		const login_save_password_exit_button_hover = this.add.image(1293, 192, "login", "login-screen/moreserversclose0002");
+		login_save_password_exit_button_hover.scaleX = 1.1815823740163782;
+		login_save_password_exit_button_hover.scaleY = 1.2071175311940898;
+		login_save_password_exit_button_hover.visible = false;
 
-        // interactive
+        // Setting all interactives sprites starts here
         login_save_password_save_password_button.setInteractive({ useHandCursor: true });
         login_save_password_save_password_button_hover.setInteractive({ useHandCursor: true });
         login_save_password_dont_save_password_button.setInteractive({ useHandCursor: true });
@@ -119,8 +119,9 @@ export class LoginSavePasswordPrompt extends BaseScene {
         login_save_password_learn_more_button_hover.setInteractive({ useHandCursor: true });
         login_save_password_exit_button.setInteractive({ useHandCursor: true });
         login_save_password_exit_button_hover.setInteractive({ useHandCursor: true });
+        // Setting all interactives sprites ends here
 
-        // events
+        // All interactive events start here
         login_save_password_save_password_button.on("pointerover", () => {
             login_save_password_save_password_button.visible = false;
             login_save_password_save_password_button_hover.visible = true;
@@ -180,6 +181,7 @@ export class LoginSavePasswordPrompt extends BaseScene {
             this.sceneManager.stop('LoginSavePasswordPromptScene');
             this.sceneManager.resume('LoginScene');
         });
+        // All interactive events end here
 
         const totalWarningImages = Object.entries(getWarningImages()).length;
         let imageIndex = 0;

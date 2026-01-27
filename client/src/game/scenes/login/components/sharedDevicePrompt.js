@@ -23,53 +23,53 @@ export class SharedDevicePrompt extends BaseScene {
 	}
 
 	create() {
-	// login_shared_device_background
-		const login_shared_device_background = this.add.image(38, 45, "login", "login-screen/itembg4");
-		login_shared_device_background.scaleX = 0.8150498575626238;
-		login_shared_device_background.scaleY = 1.024858964161464;
+		// login_shared_device_background
+		const login_shared_device_background = this.add.image(-37, 87, "login", "login-screen/itembg4");
+		login_shared_device_background.scaleX = 1.0529225673113631;
+		login_shared_device_background.scaleY = 1.2645247416470615;
 		login_shared_device_background.setOrigin(-0.5, -0.5);
 
 		// login_shared_device_no_button
-		const login_shared_device_no_button = this.add.image(695, 414, "login", "login-screen/publicpromptbutton0001");
-		login_shared_device_no_button.scaleX = 0.6936608167846001;
-		login_shared_device_no_button.scaleY = 0.7247912756884711;
+		const login_shared_device_no_button = this.add.image(840, 555, "login", "login-screen/learnButton");
+		login_shared_device_no_button.scaleX = 0.9009751228615204;
+		login_shared_device_no_button.scaleY = 1.275523782595144;
 		login_shared_device_no_button.setOrigin(0, 0);
 
 		// login_shared_device_yes_button
-		const login_shared_device_yes_button = this.add.image(452, 413, "login", "login-screen/publicpromptbutton0001");
-		login_shared_device_yes_button.scaleX = 0.6936608167846001;
-		login_shared_device_yes_button.scaleY = 0.7247912756884711;
+		const login_shared_device_yes_button = this.add.image(529, 555, "login", "login-screen/learnButton");
+		login_shared_device_yes_button.scaleX = 0.9009751228615204;
+		login_shared_device_yes_button.scaleY = 1.275523782595144;
 		login_shared_device_yes_button.setOrigin(0, 0);
 
-		// login_shared_device_yes_button_hover
-		const login_shared_device_yes_button_hover = this.add.image(452, 413, "login", "login-screen/publicpromptbutton0002");
-		login_shared_device_yes_button_hover.scaleX = 0.6936608167846001;
-		login_shared_device_yes_button_hover.scaleY = 0.7247912756884711;
-		login_shared_device_yes_button_hover.setOrigin(0, 0);
-		login_shared_device_yes_button_hover.visible = false;
-
 		// login_shared_device_no_button_hover
-		const login_shared_device_no_button_hover = this.add.image(695, 414, "login", "login-screen/saveButtonHover");
-		login_shared_device_no_button_hover.scaleX = 0.566368078776814;
-		login_shared_device_no_button_hover.scaleY = 0.6368496203711478;
+		const login_shared_device_no_button_hover = this.add.image(841, 556, "login", "login-screen/learnButtonHover");
+		login_shared_device_no_button_hover.scaleX = 0.9009751228615204;
+		login_shared_device_no_button_hover.scaleY = 1.275523782595144;
 		login_shared_device_no_button_hover.setOrigin(0, 0);
 		login_shared_device_no_button_hover.visible = false;
 
 		// login_shared_device_wait_people_text
-		const login_shared_device_wait_people_text = this.add.bitmapText(489, 254, "BurbankSmallBold", "                WAIT!\nDo other people use this\n            computer?");
-		login_shared_device_wait_people_text.scaleX = 0.9254240814270847;
-		login_shared_device_wait_people_text.scaleY = 0.9066980328033849;
+		const login_shared_device_wait_people_text = this.add.bitmapText(573, 348, "BurbankSmallBold", "                WAIT!\nDo other people use this\n            computer?");
+		login_shared_device_wait_people_text.scaleX = 1.074251717005933;
+		login_shared_device_wait_people_text.scaleY = 1.1516731758506966;
 		login_shared_device_wait_people_text.text = "                WAIT!\nDo other people use this\n            computer?";
 		login_shared_device_wait_people_text.fontSize = 32;
 		login_shared_device_wait_people_text.letterSpacing = 1;
 
+		// login_shared_device_yes_button_hover
+		const login_shared_device_yes_button_hover = this.add.image(530, 555, "login", "login-screen/learnButtonHover");
+		login_shared_device_yes_button_hover.scaleX = 0.9009751228615204;
+		login_shared_device_yes_button_hover.scaleY = 1.275523782595144;
+		login_shared_device_yes_button_hover.setOrigin(0, 0);
+		login_shared_device_yes_button_hover.visible = false;
+
 		// login_shared_device_yes_button_text
-		const login_shared_device_yes_button_text = this.add.bitmapText(514, 428, "BurbankSmallBold", "Yes");
+		const login_shared_device_yes_button_text = this.add.bitmapText(597, 577, "BurbankSmallBold", "Yes");
 		login_shared_device_yes_button_text.text = "Yes";
 		login_shared_device_yes_button_text.fontSize = 36;
 
 		// login_shared_device_no_button_text
-		const login_shared_device_no_button_text = this.add.bitmapText(768, 429, "BurbankSmallBold", "No");
+		const login_shared_device_no_button_text = this.add.bitmapText(921, 576, "BurbankSmallBold", "No");
 		login_shared_device_no_button_text.text = "No";
 		login_shared_device_no_button_text.fontSize = 36;
 

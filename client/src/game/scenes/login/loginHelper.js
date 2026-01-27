@@ -19,6 +19,7 @@ export async function login(username, password) {
         return;
     }
 
+    
     displayLoading(SCENE_LOGIN, `Logging in as ${username}`);
 
     try {

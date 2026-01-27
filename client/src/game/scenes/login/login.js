@@ -1,6 +1,6 @@
 import { BaseScene } from '../base/baseScene.js';
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
-import { login } from './loginHelper.js';
+import { hideDomElements, login } from './loginHelper.js';
 import { SCENE_LOGIN, SCENE_REGISTER, SCENE_START_SCREEN } from '../sceneNames.js';
 import { displayLoading, removeLoading } from '../loading/loadingHelper.js';
 
@@ -37,104 +37,106 @@ export class LoginScene extends BaseScene {
 
 	async createContent() {
 		// login_forgot_password_hover
-		const login_forgot_password_hover = this.add.image(483, 449, "login", "login-screen/background");
-		login_forgot_password_hover.scaleX = 0.18772368727813354;
-		login_forgot_password_hover.scaleY = 0.04491512637569104;
+		const login_forgot_password_hover = this.add.image(588, 610, "login", "login-screen/background");
+		login_forgot_password_hover.scaleX = 0.2113536761173771;
+		login_forgot_password_hover.scaleY = 0.06486862419527441;
 		login_forgot_password_hover.setOrigin(0, 0);
 
 		// login_create_penguin_hover
-		const login_create_penguin_hover = this.add.image(449, 514, "login", "login-screen/background");
-		login_create_penguin_hover.scaleX = 0.22994381193178415;
-		login_create_penguin_hover.scaleY = 0.07980033037610065;
+		const login_create_penguin_hover = this.add.image(542, 706, "login", "login-screen/background");
+		login_create_penguin_hover.scaleX = 0.26990066253322303;
+		login_create_penguin_hover.scaleY = 0.09623164289465366;
 		login_create_penguin_hover.setOrigin(0, 0);
 
 		// login_back_button_hover
-		const login_back_button_hover = this.add.image(482, 632, "login", "login-screen/background");
-		login_back_button_hover.scaleX = 0.18299011429148995;
-		login_back_button_hover.scaleY = 0.043801411820350585;
+		const login_back_button_hover = this.add.image(606, 850, "login", "login-screen/background");
+		login_back_button_hover.scaleX = 0.19732195125169272;
+		login_back_button_hover.scaleY = 0.05934418952142533;
 		login_back_button_hover.setOrigin(0, 0);
 
 		// login_screen_background
-		const login_screen_background = this.add.image(-98, -59, "login", "login-screen/background");
-		login_screen_background.scaleX = 0.8929518243047326;
-		login_screen_background.scaleY = 0.7920449541509529;
+		const login_screen_background = this.add.image(-32, -21, "login", "login-screen/background");
+		login_screen_background.scaleX = 0.9126762350732655;
+		login_screen_background.scaleY = 0.9245221499361267;
 		login_screen_background.setOrigin(0, 0);
 
 		// login_back_button_hover_display
-		const login_back_button_hover_display = this.add.image(483, 633, "login", "login-screen/rules0002");
-		login_back_button_hover_display.scaleX = 0.45609842524235933;
-		login_back_button_hover_display.scaleY = 0.49546676719594707;
+		const login_back_button_hover_display = this.add.image(583, 846, "login", "login-screen/account0001");
+		login_back_button_hover_display.scaleX = 0.3875402965450471;
+		login_back_button_hover_display.scaleY = 0.3739456724686127;
 		login_back_button_hover_display.setOrigin(0, 0);
 		login_back_button_hover_display.visible = false;
 
 		// login_keep_password_safe_note
-		const login_keep_password_safe_note = this.add.image(993, 404, "login", "login-screen/secret0001");
-		login_keep_password_safe_note.scaleX = 0.7350136112818051;
-		login_keep_password_safe_note.scaleY = 0.783837155552982;
+		const login_keep_password_safe_note = this.add.image(1217, 559, "login", "login-screen/secret0001");
+		login_keep_password_safe_note.scaleX = 0.8818197552959005;
+		login_keep_password_safe_note.scaleY = 0.8975777543978966;
 		login_keep_password_safe_note.setOrigin(0.492188, 0.490588);
 
 		// login_create_penguin_hover_display
-		const login_create_penguin_hover_display = this.add.image(442, 509, "login", "login-screen/account0003");
-		login_create_penguin_hover_display.scaleX = 0.4034389742543004;
-		login_create_penguin_hover_display.scaleY = 0.5157580411504724;
+		const login_create_penguin_hover_display = this.add.image(527, 704, "login", "login-screen/account0001");
+		login_create_penguin_hover_display.scaleX = 0.47728164554186425;
+		login_create_penguin_hover_display.scaleY = 0.5864731292925616;
 		login_create_penguin_hover_display.setOrigin(0, 0);
 		login_create_penguin_hover_display.visible = false;
 
 		// login_forgot_password_hover_display
-		const login_forgot_password_hover_display = this.add.image(479, 449, "login", "login-screen/rules0002");
-		login_forgot_password_hover_display.scaleX = 0.46435806426292336;
-		login_forgot_password_hover_display.scaleY = 0.5114869893554509;
+		const login_forgot_password_hover_display = this.add.image(550, 610, "login", "login-screen/account0001");
+		login_forgot_password_hover_display.scaleX = 0.452032754718954;
+		login_forgot_password_hover_display.scaleY = 0.39902531566654004;
 		login_forgot_password_hover_display.setOrigin(0, 0);
 		login_forgot_password_hover_display.visible = false;
 
 		// login_login_button
-		const login_login_button = this.add.image(508, 343, "login", "login-screen/button");
-		login_login_button.scaleX = 0.7355284492801976;
-		login_login_button.scaleY = 0.6981858137293024;
+		const login_login_button = this.add.image(607, 474, "login", "login-screen/button");
+		login_login_button.scaleX = 0.8903200395717945;
+		login_login_button.scaleY = 0.9507586237590265;
 		login_login_button.setOrigin(0, 0);
 
 		// login_login_button_hover
-		const login_login_button_hover = this.add.image(507, 343, "login", "login-screen/learnButtonHover");
-		login_login_button_hover.scaleX = 1.2331700562248973;
-		login_login_button_hover.scaleY = 1.2374915606625507;
+		const login_login_button_hover = this.add.image(607, 474, "login", "login-screen/buttonHover");
+		login_login_button_hover.scaleX = 0.8903200395717945;
+		login_login_button_hover.scaleY = 0.9507586237590265;
 		login_login_button_hover.setOrigin(0, 0);
 		login_login_button_hover.visible = false;
 
 		// login_login_button_clicked
-		const login_login_button_clicked = this.add.image(510, 344, "login", "login-screen/buttonDown");
-		login_login_button_clicked.scaleX = 0.7287842174012629;
-		login_login_button_clicked.scaleY = 0.6944316733189014;
+		const login_login_button_clicked = this.add.image(607, 474, "login", "login-screen/buttonDown");
+		login_login_button_clicked.scaleX = 0.8903200395717945;
+		login_login_button_clicked.scaleY = 0.9507586237590265;
 		login_login_button_clicked.setOrigin(0, 0);
 		login_login_button_clicked.visible = false;
 
 		// login_remember_password_checkbox
-		const login_remember_password_checkbox = this.add.image(450, 273, "login", "login-screen/checkbox");
-		login_remember_password_checkbox.scaleX = 0.8;
-		login_remember_password_checkbox.scaleY = 0.8;
+		const login_remember_password_checkbox = this.add.image(521, 377, "login", "login-screen/checkbox");
+		login_remember_password_checkbox.scaleX = 1.0790002080934058;
+		login_remember_password_checkbox.scaleY = 1.0392083038701059;
 		login_remember_password_checkbox.setOrigin(0, 0);
 
 		// login_remember_me_computer_checkbox
-		const login_remember_me_computer_checkbox = this.add.image(450, 220, "login", "login-screen/checkbox");
-		login_remember_me_computer_checkbox.scaleX = 0.8;
-		login_remember_me_computer_checkbox.scaleY = 0.8;
+		const login_remember_me_computer_checkbox = this.add.image(521, 310, "login", "login-screen/checkbox");
+		login_remember_me_computer_checkbox.scaleX = 1.0790002080934058;
+		login_remember_me_computer_checkbox.scaleY = 1.0392083038701059;
 		login_remember_me_computer_checkbox.setOrigin(0, 0);
 
 		// login_remember_me_computer_checkbox_ticked
-		this.login_remember_me_computer_checkbox_ticked = this.add.image(450, 220, "login", "login-screen/checkboxChecked");
-		this.login_remember_me_computer_checkbox_ticked.scaleX = 0.8;
-		this.login_remember_me_computer_checkbox_ticked.scaleY = 0.8;
-		this.login_remember_me_computer_checkbox_ticked.setOrigin(0, 0);
-		this.login_remember_me_computer_checkbox_ticked.visible = false;
+		const login_remember_me_computer_checkbox_ticked = this.add.image(521, 310, "login", "login-screen/checkboxChecked");
+		login_remember_me_computer_checkbox_ticked.scaleX = 1.0790002080934058;
+		login_remember_me_computer_checkbox_ticked.scaleY = 1.0392083038701059;
+		login_remember_me_computer_checkbox_ticked.setOrigin(0, 0);
+		login_remember_me_computer_checkbox_ticked.visible = false;
 
 		// login_remember_password_checkbox_ticked
-		this.login_remember_password_checkbox_ticked = this.add.image(450, 273, "login", "login-screen/checkboxChecked");
-		this.login_remember_password_checkbox_ticked.scaleX = 0.8;
-		this.login_remember_password_checkbox_ticked.scaleY = 0.8;
-		this.login_remember_password_checkbox_ticked.setOrigin(0, 0);
-		this.login_remember_password_checkbox_ticked.visible = false;
+		const login_remember_password_checkbox_ticked = this.add.image(521, 377, "login", "login-screen/checkboxChecked");
+		login_remember_password_checkbox_ticked.scaleX = 1.0790002080934058;
+		login_remember_password_checkbox_ticked.scaleY = 1.0392083038701059;
+		login_remember_password_checkbox_ticked.setOrigin(0, 0);
+		login_remember_password_checkbox_ticked.visible = false;
 
 		// login_penguin_name_text
-		const login_penguin_name_text = this.add.bitmapText(368, 126, "ArialNarrow", "Penguin Name:");
+		const login_penguin_name_text = this.add.bitmapText(387, 146, "ArialNarrow", "Penguin Name:");
+		login_penguin_name_text.scaleX = 1.4486571177026133;
+		login_penguin_name_text.scaleY = 1.5039007923811938;
 		login_penguin_name_text.tintFill = true;
 		login_penguin_name_text.tintTopLeft = 0;
 		login_penguin_name_text.tintTopRight = 0;
@@ -144,7 +146,9 @@ export class LoginScene extends BaseScene {
 		login_penguin_name_text.fontSize = 28;
 
 		// login_password_text
-		const login_password_text = this.add.bitmapText(415, 170, "ArialNarrow", "Password:");
+		const login_password_text = this.add.bitmapText(459, 229, "ArialNarrow", "Password:");
+		login_password_text.scaleX = 1.4486571177026133;
+		login_password_text.scaleY = 1.5039007923811938;
 		login_password_text.tintFill = true;
 		login_password_text.tintTopLeft = 0;
 		login_password_text.tintTopRight = 0;
@@ -154,7 +158,9 @@ export class LoginScene extends BaseScene {
 		login_password_text.fontSize = 28;
 
 		// login_remember_me_computer_text
-		const login_remember_me_computer_text = this.add.bitmapText(499, 235, "ArialNarrow", "Remember me on this computer");
+		const login_remember_me_computer_text = this.add.bitmapText(591, 326, "ArialNarrow", "Remember me on this computer");
+		login_remember_me_computer_text.scaleX = 1.4486571177026133;
+		login_remember_me_computer_text.scaleY = 1.5039007923811938;
 		login_remember_me_computer_text.tintFill = true;
 		login_remember_me_computer_text.tintTopLeft = 0;
 		login_remember_me_computer_text.tintTopRight = 0;
@@ -164,7 +170,9 @@ export class LoginScene extends BaseScene {
 		login_remember_me_computer_text.fontSize = 24;
 
 		// login_remember_my_password_text
-		const login_remember_my_password_text = this.add.bitmapText(499, 287, "ArialNarrow", "Remember my password");
+		const login_remember_my_password_text = this.add.bitmapText(591, 391, "ArialNarrow", "Remember my password");
+		login_remember_my_password_text.scaleX = 1.4486571177026133;
+		login_remember_my_password_text.scaleY = 1.5039007923811938;
 		login_remember_my_password_text.tintFill = true;
 		login_remember_my_password_text.tintTopLeft = 0;
 		login_remember_my_password_text.tintTopRight = 0;
@@ -174,7 +182,9 @@ export class LoginScene extends BaseScene {
 		login_remember_my_password_text.fontSize = 24;
 
 		// login_forgot_your_password_text
-		const login_forgot_your_password_text = this.add.bitmapText(547, 459, "ArialNarrow", "Forgot your password?");
+		const login_forgot_your_password_text = this.add.bitmapText(627, 623, "ArialNarrow", "Forgot your password?");
+		login_forgot_your_password_text.scaleX = 1.4676691378317765;
+		login_forgot_your_password_text.scaleY = 1.5665332229636384;
 		login_forgot_your_password_text.tintFill = true;
 		login_forgot_your_password_text.tintTopLeft = 16777215;
 		login_forgot_your_password_text.tintTopRight = 16777215;
@@ -184,8 +194,9 @@ export class LoginScene extends BaseScene {
 		login_forgot_your_password_text.fontSize = 23;
 
 		// login_dont_have_a_penguin_text
-		const login_dont_have_a_penguin_text = this.add.bitmapText(550, 528, "ArialNarrow", "Don't have a penguin?");
-		login_dont_have_a_penguin_text.scaleX = 1.0225142005547325;
+		const login_dont_have_a_penguin_text = this.add.bitmapText(647, 718, "ArialNarrow", "Don't have a penguin?");
+		login_dont_have_a_penguin_text.scaleX = 1.2335951820280002;
+		login_dont_have_a_penguin_text.scaleY = 1.3665332229636384;
 		login_dont_have_a_penguin_text.tintTopLeft = 0;
 		login_dont_have_a_penguin_text.tintTopRight = 0;
 		login_dont_have_a_penguin_text.tintBottomLeft = 0;
@@ -194,22 +205,24 @@ export class LoginScene extends BaseScene {
 		login_dont_have_a_penguin_text.fontSize = 23;
 
 		// login_create_free_account_text
-		const login_create_free_account_text = this.add.bitmapText(520, 557, "ArialNarrow", "Create a free account now");
-		login_create_free_account_text.scaleX = 1.1277772898018497;
-		login_create_free_account_text.scaleY = 0.9710239041489755;
+		const login_create_free_account_text = this.add.bitmapText(614, 749, "ArialNarrow", "Create a free account now");
+		login_create_free_account_text.scaleX = 1.433595182028;
+		login_create_free_account_text.scaleY = 1.5665332229636384;
 		login_create_free_account_text.text = "Create a free account now";
 		login_create_free_account_text.fontSize = 23;
 
 		// login_back_text
-		const login_back_text = this.add.bitmapText(588, 641, "ArialNarrow", "Back");
-		login_back_text.scaleX = 1.1277772898018497;
-		login_back_text.scaleY = 0.9710239041489755;
+		const login_back_text = this.add.bitmapText(706, 859, "ArialNarrow", "Back");
+		login_back_text.scaleX = 1.3062100006425357;
+		login_back_text.scaleY = 1.3596581013993316;
 		login_back_text.setOrigin(-0.5, 0);
 		login_back_text.text = "Back";
 		login_back_text.fontSize = 26;
 
 		// login_login_text
-		const login_login_text = this.add.bitmapText(605, 365, "ArialNarrow", "Login");
+		const login_login_text = this.add.bitmapText(718, 500, "ArialNarrow", "Login");
+		login_login_text.scaleX = 1.488476887705402;
+		login_login_text.scaleY = 1.3571840703979463;
 		login_login_text.tintFill = true;
 		login_login_text.tintTopLeft = 16777215;
 		login_login_text.tintTopRight = 16777215;
@@ -220,12 +233,13 @@ export class LoginScene extends BaseScene {
 		
 		// Dom elements start here
 		const inputStyle = `
-			width: 300px;
-			height: 42px;
-			padding: 0 5px;
-			font-size: 22px;
+			width: 400px;
+			height: 65px;
+			font-size: 35px;
 			border-radius: 0px;
-			border: 2px solid rgba(0,0,0,0.45);
+			border: 4px solid rgba(0,0,0,0.45);
+			box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.25), inset 0 2px 0 rgba(0, 0, 0, 0.25);
+			padding: 0 5px;
 			font-family: "Arial Rounded MT Bold", Nunito, "Varela Round", sans-serif;
 			background: #ffffff;
 			color: #000000;
@@ -233,17 +247,17 @@ export class LoginScene extends BaseScene {
 			box-shadow: none;
         `;
 
-		this.penguinInput = this.add.dom(360 + 650/2, 140, 'input', inputStyle);
+		this.penguinInput = this.add.dom(500 + 650/2, 170, 'input', inputStyle);
 		this.penguinInput.id = 'loginPenguinUsernameInput'
 		this.penguinInput.node.type = 'text';
 		this.penguinInput.node.autocomplete = 'off';
-		this.penguinInput.node.spellcheck = 'false';
+		this.penguinInput.node.spellcheck = false;
+		this.penguinInput.node.maxLength = 16;
 
-		this.passwordInput = this.add.dom(360 + 650/2, 185, 'input', inputStyle);
+		this.passwordInput = this.add.dom(500 + 650/2, 250, 'input', inputStyle);
 		this.passwordInput.id = 'loginPasswordInput'
-		this.passwordInput.node.type = 'password';
+		this.passwordInput.node.type = 'text';
 		this.passwordInput.node.autocomplete = 'off';
-		this.passwordInput.node.style.webkitTextSecurity = 'disc';
 		this.passwordInput.node.style.setProperty('-webkit-textfield-decoration-container', 'none');
 		this.passwordInput.node.style.setProperty('::-ms-reveal', 'display:none');
 		this.passwordInput.node.style.setProperty('::-ms-clear', 'display:none');
@@ -255,11 +269,26 @@ export class LoginScene extends BaseScene {
 			this.username = input;
 		});
 
+		this.hiddenPassword = "";
 		this.passwordInput.node.addEventListener("input", (event) => {
 			const input = event.target.value;
+			if(input.length < this.hiddenPassword.length) {
+				this.hiddenPassword = this.hiddenPassword.slice(0, input.length);
+			}
+
+			if(input.length > this.hiddenPassword.length) {
+				this.hiddenPassword += "*".repeat(input.length - this.hiddenPassword.length);
+			}
+
 			this.password = input;
+			this.passwordInput.node.value = this.hiddenPassword;
 		});
 		// Dom elements events end here
+
+		// Setting global instances start here
+		this.login_remember_me_computer_checkbox_ticked = login_remember_me_computer_checkbox_ticked;
+		this.login_remember_password_checkbox_ticked = login_remember_password_checkbox_ticked;
+		// Setting global instances end here
 
 		// Setting all interactives sprites starts here
 		login_forgot_password_hover.setInteractive({ useHandCursor: true });
@@ -365,6 +394,7 @@ export class LoginScene extends BaseScene {
 		login_login_button_hover.on("pointerdown", async () => {
 			login_login_button_hover.setVisible = false;
 			login_login_button_clicked.visible = true;
+			hideDomElements(this);
 			await login(this.username, this.password);
 		});
 		// All interactive events end here

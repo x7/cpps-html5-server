@@ -31,34 +31,35 @@ export class ErrorScene extends BaseScene {
 	}
 
 	createContent() {
+		
 		// error_gui
-		const error_gui = this.add.image(88, 51, "error", "app/error");
+		const error_gui = this.add.image(125, 114, "error", "app/error");
 		error_gui.scaleX = 0.8477412343159033;
 		error_gui.scaleY = 1.1155659700223062;
 		error_gui.setOrigin(-0.5, -0.5);
 
 		// error_okay_button
-		const error_okay_button = this.add.image(624, 492, "error", "app/button");
+		const error_okay_button = this.add.image(661, 555, "error", "app/button");
 		error_okay_button.scaleX = 0.7953929265542756;
 		error_okay_button.scaleY = 0.7911391779848883;
 		error_okay_button.setOrigin(0, 0);
 
 		// error_okay_button_hover
-		const error_okay_button_hover = this.add.image(624, 492, "error", "app/buttonHover");
+		const error_okay_button_hover = this.add.image(661, 555, "error", "app/buttonHover");
 		error_okay_button_hover.scaleX = 0.7953929265542756;
 		error_okay_button_hover.scaleY = 0.7911391779848883;
 		error_okay_button_hover.setOrigin(0, 0);
 		error_okay_button_hover.visible = false;
 
 		// error_okay_button_clicked
-		const error_okay_button_clicked = this.add.image(549, 401, "error", "app/buttonDown");
+		const error_okay_button_clicked = this.add.image(586, 464, "error", "app/buttonDown");
 		error_okay_button_clicked.scaleX = 0.6615413590165267;
 		error_okay_button_clicked.scaleY = 0.6954831986522744;
 		error_okay_button_clicked.setOrigin(0, 0);
 		error_okay_button_clicked.visible = false;
 
 		// error_okay_button_text
-		const error_okay_button_text = this.add.bitmapText(726, 514, "ArialNarrow", "Okay");
+		const error_okay_button_text = this.add.bitmapText(763, 577, "ArialNarrow", "Okay");
 		error_okay_button_text.scaleX = 1.427758075467004;
 		error_okay_button_text.scaleY = 1.3000653035379415;
 		error_okay_button_text.text = "Okay";

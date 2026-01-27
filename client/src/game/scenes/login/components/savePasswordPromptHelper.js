@@ -27,17 +27,17 @@ export function showWarningImage(scene, index) {
 
 export function getWarningImages() {
     // Image
-    const imageX = 269;
-    const imageY = 200;
-    const imageScaleX = 0.7106714957345415;
-    const imageScaleY = 0.6119120825117418;
+    const imageX = 305;
+    const imageY = 253;
+    const imageScaleX = 0.9447648119667182;
+    const imageScaleY = 0.8595724450105905;
 
     // Text
-    const textX = 305;
-    const textY = 215;
+    const textX = 320;
+    const textY = 296;
     const textScaleX = 1.0585856215070626;
     const textScaleY = 1.0993152667516197;
-    const textFontSize = 28;
+    const textFontSize = 36;
 
     const warnings = [
         {
