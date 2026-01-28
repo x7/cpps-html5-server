@@ -3,15 +3,16 @@ import { BaseScene } from "../../../base/baseScene";
 import { getClockTowerDay, getClockTowerTime } from "./snowfortsHelper";
 import { createAnimation } from "../../../../../animations/animations";
 import { SNOW_FORTS_ROOM_MUSIC } from "../../../../audio/audioConstants";
+import { SCENE_ROOM_SNOW_FORTS } from "../../../sceneNames";
+import { RoomScene } from "../RoomScene";
 
-export class SnowFortsScene extends BaseScene {
+export class SnowFortsScene extends RoomScene {
     constructor() {
-        super("SnowFortsScene");
+        super(SCENE_ROOM_SNOW_FORTS);
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-		this.audioManager = this.getAudioManager();
+		super.init(data);
     }
 
     preloadContent() {
@@ -195,9 +196,12 @@ export class SnowFortsScene extends BaseScene {
 		// Animations end here
 
 		this.audioManager.play(SNOW_FORTS_ROOM_MUSIC);
+		super.createContent(this);
     }
 
 	update() {
+		super.update();
+
 		const time = getClockTowerTime();
 		if(time !== this.snowforts_clock_tower_time_text.text) {
 			this.snowforts_clock_tower_time_text.text = time;

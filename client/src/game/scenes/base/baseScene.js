@@ -1,5 +1,4 @@
 import Phaser from "phaser";
-import { removeLoading } from "../loading/loadingHelper";
 import { SCENE_LOADING } from "../sceneNames";
 
 export class BaseScene extends Phaser.Scene {
@@ -7,7 +6,12 @@ export class BaseScene extends Phaser.Scene {
         super(key)
     }
 
-    init(data) {
+    init(data = {}) {
+        this.gameManager = this.game.registry.get("gameManager");
+        this.sceneManager = this.game.registry.get("sceneManager");
+        this.assetManager = this.game.registry.get("assetManager");
+        this.audioManager = this.game.registry.get("audioManager");
+
         if(data.loading) {
             this.loading = true;
             this.newScene = data.newScene ?? null;
@@ -16,12 +20,12 @@ export class BaseScene extends Phaser.Scene {
         }
 
         if(this.scene.key !== SCENE_LOADING) {
-            this.getSceneManager().setCurrentScene(this);
+            this.sceneManager.setCurrentScene(this);
         }
     }
 
     preloadContent() {
-        this.preload()
+        
     }
 
     preload() {
@@ -29,7 +33,7 @@ export class BaseScene extends Phaser.Scene {
     }
 
     async createContent() {
-        await this.create();
+        
     }
 
     async create() {
@@ -37,30 +41,10 @@ export class BaseScene extends Phaser.Scene {
 
         if(this.loading) {
             this.input.enabled = true;
-            this.cameras.main.setAlpha(1); // fuck this method -1hr
+            this.cameras.main.setAlpha(1);
         }
 
         this.events.emit("scene-awake");
         this.events.emit("sceneReady");
-    }
-
-    getGameManager() {
-        return this.game.registry.get("gameManager");
-    }
-
-    getSceneManager() {
-        return this.game.registry.get("sceneManager");
-    }
-
-    getAssetManager() {
-        return this.game.registry.get("assetManager");
-    }
-
-    getAudioManager() {
-        return this.game.registry.get("audioManager");
-    }
-
-    stopAllMusic() {
-        this.getAudioManager().stopAllMusic();
     }
 }

@@ -25,7 +25,7 @@ public class JoinRoomPacket implements PacketHandler {
         // Room
         Room room = RoomManager.getRoom(roomId);
         if(room == null) {
-            RoomManager.addRoom(roomId, 100);
+            RoomManager.addRoom(roomId);
             room = RoomManager.getRoom(roomId);
         }
 
@@ -53,12 +53,15 @@ public class JoinRoomPacket implements PacketHandler {
         response.put("success", true);
 
         Map<String, Object> returnData = new HashMap<>();
-        returnData.put("x", 500);
-        returnData.put("y", 500);
+        returnData.put("room", room.getRoomName());
+        returnData.put("roomDisplayName", room.getDisplayName());
+        returnData.put("x", room.getSpawnX());
+        returnData.put("y", room.getSpawnY());
         returnData.put("penguin", data.get("penguin"));
         returnData.put("users", players.stream().filter(player1 -> !player1.getUsername().equals(penguinData.get("username"))));
         response.put("data", returnData);
 
-        messagingTemplate.convertAndSend("/client/join_room", Optional.of(response));
+        System.out.println("sent join room packet for " + penguinData.get("username"));
+        messagingTemplate.convertAndSendToUser(penguinData.get("username").toString(),"/queue/join_room", response);
     }
 }

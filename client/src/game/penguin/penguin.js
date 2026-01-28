@@ -33,19 +33,29 @@ export class Penguin {
         }
         
         this.penguinContainer = scene.add.container(x, y);
-        this.body = scene.add.sprite(0, 0, "penguin", "penguin/body/0");
-        this.overlay = scene.add.sprite(0, 0, "penguin", "penguin/overlay/0");
-        
+        this.body = scene.physics.add.sprite(0, 0, "penguin", "penguin/body/0");
+        this.overlay = scene.physics.add.sprite(0, 0, "penguin", "penguin/overlay/0");
+
+        // Making the hitbox smaller
+        this.body.setSize(95, 85, true);
+        this.body.setOffset(50, 35);
+        this.overlay.setSize(95, 85, true);
+        this.overlay.setOffset(50, 35);
+
+        // Collision checks
+        this.body.setCollideWorldBounds(true);
+        this.overlay.setCollideWorldBounds(true);
+
         this.body.setTint(0xff0000);
-        this.body.setScale(0.72);
-        this.overlay.setScale(0.72);
+        this.body.setScale(0.87);
+        this.overlay.setScale(0.87);
         
         this.penguinContainer.add(this.body);
         this.penguinContainer.add(this.overlay);
         
         this.playersUsername = this.scene.add.text(0, 20, this.username)
         this.playersUsername.setFontFamily("Arial");
-        this.playersUsername.setFontSize(18);
+        this.playersUsername.setFontSize(22);
         this.playersUsername.setFontStyle("bold");
         this.playersUsername.setColor("#000000");
         this.playersUsername.setOrigin(0.5, 0);
@@ -309,7 +319,7 @@ export class Penguin {
         // this.state = "idle";
     }
 
-    setCurrentPose() {
+    setCurrentPose(pose) {
 
     }
 

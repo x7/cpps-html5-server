@@ -4,22 +4,23 @@ import { getManager } from "../../network/network";
 import { sendMovementPacket } from "../../network/packets/penguin/movementPacket";
 import { CLIENT_STOP_ANIMATION, SERVER_VERIFY_PACKET } from "../../network/topics";
 import { PACKET_STOP_ANIMATION } from "../../network/types/packetTypes";
+import { ClientPenguin } from "./clientPenguin";
 
 export default class MovementManager {
-    constructor(penguin) {
-        this.penguin = penguin;
+    constructor() {
         this.moving = false;
         this.animationPlaying = false;
         this.pose = null;
         this.x = null;
         this.y = null;
-        this.speed = 1;
+        this.speed = 1.5;
         this.threshold = 0.5;
         this.xSpeed = null;
         this.ySpeed = null;
     }
 
-    moveTo(pose, x, y) {
+    moveTo(penguin, pose, x, y) {
+        this.penguin = penguin;
         this.penguin.stopAnimation();
         this.pose = pose;
         this.x = x;
@@ -27,10 +28,14 @@ export default class MovementManager {
         this.moving = true;
         this.animationPlaying = false;
         this.calculateMovement(this.x, this.y)
+        
+        if(this.penguin instanceof ClientPenguin) {
+            sendMovementPacket(x, y, this.pose);
+        }
     }
 
     update() {
-        if(!this.moving) {
+        if(!this.moving || this.penguin.getPenguinContainer() == null) {
             return;
         }
 
@@ -150,7 +155,6 @@ export default class MovementManager {
         const distance = Math.sqrt(dx * dx + dy * dy);
         const threshold = 0.5;
         if (distance < threshold) {
-            console.log('Target reached');
             return;
         }
 
@@ -165,6 +169,5 @@ export default class MovementManager {
 
         this.penguin.setX(penguinX);
         this.penguin.setY(penguinY);
-        sendMovementPacket(penguinX, penguinY);
     }
 }

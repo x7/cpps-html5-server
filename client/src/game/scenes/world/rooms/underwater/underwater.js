@@ -1,15 +1,15 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { UNDERWATER_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
+import { SCENE_ROOM_UNDERWATER } from "../../../sceneNames";
 
 export class UnderwaterScene extends BaseScene {
     constructor() {
-        super("UnderwaterScene");
+        super(SCENE_ROOM_UNDERWATER);
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-		this.audioManager = this.getAudioManager();
+		super.init(data);
     }
 
     preloadContent() {

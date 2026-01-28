@@ -2,6 +2,7 @@ package org.awesome.websocket.packets.world;
 
 import org.awesome.websocket.packets.PacketHandler;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
+import org.springframework.messaging.simp.user.SimpUserRegistry;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,6 +16,7 @@ public class AddPlayerPacket implements PacketHandler {
         System.out.println(data);
 
         Map<String, Object> response = new HashMap<>();
+        response.put("room", data.get("room"));
         response.put("x", 500);
         response.put("y", 500);
         response.put("penguin", data.get("penguin"));

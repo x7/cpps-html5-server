@@ -12,9 +12,7 @@ export async function connect(username) {
             reconnectDelay: 0,
             connectHeaders: {
                 "username": username
-            },
-            // debug: (str) => console.log("[STOMP]", str),
-            // onWebSocketError: (evt) => console.log("[WS] error", evt),
+            }
         });
 
         clientManager = new NetworkManager(client);

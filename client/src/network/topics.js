@@ -3,6 +3,7 @@ const serverName = '/server'
 
 // Client Side Packets start here
 export const CLIENT_TEST = `${clientName}/join_room`;
+export const CLIENT_LEAVE_ROOM = `${clientName}/leave_room`;
 export const CLIENT_MOVE_TOPIC = `${clientName}/player_movement`;
 export const CLIENT_ADD_PLAYER = `${clientName}/add_player`;
 export const CLIENT_CHAT = `${clientName}/player_chat`;

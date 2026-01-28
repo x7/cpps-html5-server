@@ -47,20 +47,22 @@ export function removeLoading({ currentScene, goToScene = null, goToSceneText, g
     }
 
     sceneManager.stop(currentScene);
-    sceneManager.add({ sceneKey: goToScene, scene: null, autoStart: false });
-    
-    setTimeout(() => {
-        const data = goToSceneData;
-        data["loading"] = true;
+    // sceneManager.add({ sceneKey: goToScene, scene: null, autoStart: false });
 
-        sceneManager.start(goToScene, data);
-        const scene = getSceneManager().getCurrentScene();
-        scene.events.on("sceneReady", () => {
-            sceneManager.sendToTop(goToScene);
-            sceneManager.stop(SCENE_LOADING);
-            isLoadingRunning = false;
-        });
-    }, waitDelay);
+    if(goToSceneData != null) {
+        setTimeout(() => {
+            const data = goToSceneData;
+            data["loading"] = true;
+
+            sceneManager.start(goToScene, data);
+            const scene = getSceneManager().getCurrentScene();
+            scene.events.on("sceneReady", () => {
+                sceneManager.sendToTop(goToScene);
+                sceneManager.stop(SCENE_LOADING);
+                isLoadingRunning = false;
+            });
+        }, waitDelay);
+    }
 }
 
 export function updateLoadingText(text = "No loading text has been provided") {

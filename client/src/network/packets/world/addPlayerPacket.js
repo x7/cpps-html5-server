@@ -10,17 +10,14 @@ export function receiveAddPlayerPacket(response) {
         return;
     }
 
-    let room = roomManager.getRoom();
-    if(room == null) {
-        roomManager.setRoom("town");
-        room = roomManager.getRoom();
-    }
+    const room = roomManager.getRoom();
 
+    console.log(room.getRoomName())
     console.log(`Received a add player packet for ${packet.penguin.username}`)
     console.log(packet)
 
     const penguin = new ServerPenguin(packet.penguin.username);
-    room.addPlayer(penguin, packet.x, packet.y, false);
+    room.addPlayer(penguin, packet.x, packet.y, false, room.getRoomName());
 }
 
 export function sendAddPlayerPacket() {

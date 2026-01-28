@@ -9,8 +9,7 @@ export class ErrorScene extends BaseScene {
 	}
 
 	init(data) {
-		this.sceneManager = this.getSceneManager();
-		this.assetManager = this.getAssetManager();
+		super.init(data);
 		this.errorMessage = (data.message == null ? "No error message provided.\nPlease provide one." : data.message);
 	}
 

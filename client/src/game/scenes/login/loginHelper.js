@@ -19,7 +19,6 @@ export async function login(username, password) {
         return;
     }
 
-    
     displayLoading(SCENE_LOGIN, `Logging in as ${username}`);
 
     try {
@@ -36,6 +35,7 @@ export async function login(username, password) {
 
         const response = await request.json();
 
+        console.log(response)
         if(request.status !== 200) {
             removeLoading({
                 "currentScene": SCENE_LOGIN,

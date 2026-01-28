@@ -11,6 +11,7 @@ import { ServerSelectionScene } from "./login/components/serverSelection.js";
 import { MapScene } from "./interfaces/map.js";
 
 export function returnSceneClass(sceneId) {
+    console.log(sceneId)
     sceneId = sceneId.toLowerCase();
 
     const scenes = {

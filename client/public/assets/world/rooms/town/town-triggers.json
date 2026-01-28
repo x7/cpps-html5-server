@@ -1,0 +1,146 @@
+{
+	"textures": [
+		{
+			"image": "town-triggers.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1804,
+				"h": 962
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "town_walking_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1520,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1520,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1520,
+						"h": 960
+					}
+				},
+				{
+					"filename": "town_snow_forts_room_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 280,
+						"h": 214
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 280,
+						"h": 214
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1,
+						"w": 280,
+						"h": 214
+					}
+				},
+				{
+					"filename": "town_docks_room_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 274,
+						"h": 222
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 274,
+						"h": 222
+					},
+					"frame": {
+						"x": 1523,
+						"y": 217,
+						"w": 274,
+						"h": 222
+					}
+				},
+				{
+					"filename": "town_dance_club_room_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 180,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 90
+					},
+					"frame": {
+						"x": 1523,
+						"y": 441,
+						"w": 180,
+						"h": 90
+					}
+				},
+				{
+					"filename": "town_clothes_shop_room_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 99
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 99
+					},
+					"frame": {
+						"x": 1523,
+						"y": 533,
+						"w": 176,
+						"h": 99
+					}
+				},
+				{
+					"filename": "town_coffee_shop_room_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 98
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 98
+					},
+					"frame": {
+						"x": 1523,
+						"y": 634,
+						"w": 176,
+						"h": 98
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:4e709b10b1b9158865252a95823b7c88:bbe7ef2cf6ea4b46daac8b2ccf5fa130:b1b96557494dd115b3c0d7edce7cfa53$"
+	}
+}

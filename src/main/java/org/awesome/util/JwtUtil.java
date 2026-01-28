@@ -19,7 +19,7 @@ public class JwtUtil {
         SecretKey key = Keys.hmacShaKeyFor(Decoders.BASE64.decode(JWT_SECRET));
         Date issuedAt = new Date();
 
-        Date accessExpiration = new Date(System.currentTimeMillis() + 15L * 60L * 1000L);
+        Date accessExpiration = new Date(System.currentTimeMillis() + 2L * 60L * 60L * 1000L);
         String accessToken = Jwts.builder()
                 .issuer("me")
                 .subject(String.valueOf(id))

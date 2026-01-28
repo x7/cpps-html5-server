@@ -3,6 +3,7 @@ import * as packets from '../topics.js'
 
 // Packets below this
 import { receiveJoinRoomPacket } from "./world/joinRoomPacket.js";
+import { receiveLeaveRoomPacket } from "./world/leaveRoomPacket.js";
 import { receiveMovementPacket} from "./penguin/movementPacket.js";
 import { receiveAddPlayerPacket } from "./world/addPlayerPacket.js";
 import { chat } from "./world/chat.js";
@@ -13,7 +14,7 @@ import { clientDisconnected } from "./test/clientDisconnect.js";
 
 // Handles registering all packet events
 export function registerPackets() {
-    packetRegistry.addPacket(packets.CLIENT_TEST, receiveJoinRoomPacket);
+    packetRegistry.addPacket(packets.CLIENT_LEAVE_ROOM, receiveLeaveRoomPacket);
     packetRegistry.addPacket(packets.CLIENT_MOVE_TOPIC, receiveMovementPacket);
     packetRegistry.addPacket(packets.CLIENT_ADD_PLAYER, receiveAddPlayerPacket);
     packetRegistry.addPacket(packets.CLIENT_CHAT, chat);

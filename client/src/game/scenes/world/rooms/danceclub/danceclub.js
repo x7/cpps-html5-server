@@ -2,15 +2,17 @@ import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { DANCE_CLUB_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { BaseScene } from "../../../base/baseScene";
+import { SCENE_ROOM_DANCE_CLUB } from "../../../sceneNames";
+import { RoomScene } from "../RoomScene";
 
-export class DanceclubScene extends BaseScene {
+export class DanceclubScene extends RoomScene {
     constructor() {
-        super("DanceClubScene");
+        super(SCENE_ROOM_DANCE_CLUB);
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-        this.audioManager = this.getAudioManager();
+        super.init(data);
+
     }
 
     preloadContent() {
@@ -279,5 +281,10 @@ export class DanceclubScene extends BaseScene {
         // All interactive events end here
 
         this.audioManager.play(DANCE_CLUB_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

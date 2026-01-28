@@ -11,7 +11,7 @@ export class RoomMouseMovemenet {
                 return; 
             }
 
-            scene.movementManager.moveTo(penguinPose, pointer.worldX, pointer.worldY);
+            scene.movementManager.moveTo(penguin, penguinPose, pointer.worldX, pointer.worldY);
         });
 
         // Change the penguin pose based on the players mouse movement
@@ -19,7 +19,7 @@ export class RoomMouseMovemenet {
             const penguinPose = penguin.getPose(pointer.worldX, pointer.worldY);
             console.log(penguinPose)
             if(penguinPose == 'unknown_pose') {
-                return; 
+                return;
             }
 
             if(penguin.getPose().toLowerCase() == penguinPose.toLowerCase()) {

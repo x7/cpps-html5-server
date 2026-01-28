@@ -9,8 +9,8 @@ export class LoadingScene extends BaseScene {
 	}
 
 	init(data) {
-		this.sceneManager = this.getSceneManager();
-		this.assetManager = this.getAssetManager();
+		super.init(data);
+		
 		this.progress = 0;
 		this.text = "No loading message provided"
 		

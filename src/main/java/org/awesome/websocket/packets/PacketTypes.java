@@ -2,6 +2,7 @@ package org.awesome.websocket.packets;
 
 public enum PacketTypes {
     JOIN_ROOM("join_room"),
+    LEAVE_ROOM("leave_room"),
     MOVEMENT("player_movement"),
     PLAY_ANIMATION("play_animation"),
     STOP_ANIMATION("stop_animation"),

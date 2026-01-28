@@ -4,6 +4,7 @@ import org.awesome.dto.Player;
 import org.awesome.game.world.RoomManager;
 import org.awesome.websocket.packets.PacketHandler;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
+import org.springframework.messaging.simp.user.SimpUserRegistry;
 
 import java.util.HashMap;
 import java.util.List;

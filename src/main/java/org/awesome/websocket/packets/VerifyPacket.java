@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
+import org.springframework.messaging.simp.user.SimpUserRegistry;
 import org.springframework.stereotype.Controller;
 
 import java.util.Date;
@@ -19,6 +20,9 @@ public class VerifyPacket {
     @Autowired
     private SimpMessagingTemplate messagingTemplate;
 
+    @Autowired
+    private SimpUserRegistry userRegistry;
+
     @MessageMapping("/gateway")
     public void onGatewayReceive(@Payload Map<String, Object> packet) {
         Map<String, Object> packetData = (Map<String, Object>) packet.get("data");
@@ -26,15 +30,18 @@ public class VerifyPacket {
 
         boolean validJwt = validateCredentials(jwt);
         if(!validJwt) {
+            System.out.println("PACKET FAILED");
             return;
         }
 
         String packetType = packetData.get("packet_type").toString();
         if(packetType == null || packetType.isBlank()) {
+            System.out.println("PAKCET FAILED " + packetType);
             return;
         }
 
-        PacketRegistry.getPacketResponse(packetType, packet, messagingTemplate);
+        System.out.println("yay");
+        PacketRegistry.getPacketResponse(packetType, packet, messagingTemplate, userRegistry);
     }
 
     public static boolean validateCredentials(String jwtToken) {

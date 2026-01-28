@@ -10,7 +10,7 @@ export class Room {
         this.players = [];
     }
 
-    addPlayer(player, x, y, client) {
+    addPlayer(player, x, y, client, scene) {
         if(this.players.includes(player)) {
             console.log("This player already exist in this room");
             return;
@@ -18,23 +18,19 @@ export class Room {
 
         this.players.push(player);
 
-        // this.sceneManager.add({ sceneKey: "TownScene", scene: null, autoStart: false });
-        const scene = this.sceneManager.get("TownScene");
         const manager = getManager();
-        setTimeout(() => {
-            if(client) {
-                manager.subscribe(CLIENT_MOVE_TOPIC);
-                manager.subscribe(CLIENT_ADD_PLAYER);
-                manager.subscribe(CLIENT_MOVE_TOPIC);
-                manager.unsubscribe(CLIENT_TEST);
-            }
+        if(client) {
+            manager.subscribe(CLIENT_MOVE_TOPIC);
+            manager.subscribe(CLIENT_ADD_PLAYER);
+            manager.subscribe(CLIENT_MOVE_TOPIC);
+            return;
+        }
 
-            console.log(scene)
-            player.createPenguin(scene, x, y);
-            player.setX(x);
-            player.setY(y);
-            scene.scene.launch("InterfaceScene");
-        }, 3000);
+        const a = this.sceneManager.get(scene);
+        player.createPenguin(a, x, y);
+        console.log(`created player ${player}`)
+        player.setX(x);
+        player.setY(y);
     }
 
     removePlayer(player) {

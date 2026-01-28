@@ -1,4 +1,5 @@
 import { ClientPenguin } from "../../game/penguin/clientPenguin";
+import { getSceneManager } from "../../main";
 
 // creates a packet to send to the server
 export function createPacket(name, data) {
@@ -19,6 +20,7 @@ export function createPacket(name, data) {
     
     data["penguin"] = { "username": username, "id": id }
     data["token"] = token;
+    data["currentRoom"] = getSceneManager().getCurrentScene().scene.key;
 
     return JSON.stringify({ name, data });
 }

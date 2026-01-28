@@ -11,8 +11,6 @@ export class LoginScene extends BaseScene {
 
 	init(data) {
 		super.init(data)
-		this.sceneManager = this.getSceneManager();
-		this.assetManager = this.getAssetManager();
 		this.username = null;
 		this.password = null;
 		this.rememberMeComputer = false;

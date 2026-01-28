@@ -1,0 +1,25 @@
+/* NAMES MUST MATCH WHAT YOU HAVE IN ROOMS.JSON ON THE SERVER */
+export const TOWN = "town";
+export const CLOTHES_SHOP = "clothes_shop";
+export const DANCE_CLUB = "dance_club";
+export const COFFEE_SHOP = "coffee_shop";
+export const SNOW_FORTS = "snow_forts";
+export const PLAZA = "plaza";
+export const PET_SHOP = "pet_shop";
+export const PIZZA_PARLOR = "pizza_parlor";
+export const BEACH = "beach";
+export const LIGHT_HOUSE = "light_house";
+export const BEACON = "beacon";
+export const ICE_BERG = "iceberg";
+export const BOILER_ROOM = "boiler_room";
+export const COVE = "cove";
+export const DOCKS = "docks";
+export const SKI_VILLAGE = "ski_village";
+export const SKI_HILL = "ski_hill";
+export const SCHOOL = "school";
+export const PUFFLE_WILD = "puffle_wild";
+export const MINE_SHACK = "mine_shack";
+export const DOJO = "dojo";
+export const FIRE_DOJO = "fire_dojo";
+export const WATER_DOJO = "water_dojo";
+export const SNOW_DOJO = "snow_dojo";

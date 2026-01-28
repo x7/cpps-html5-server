@@ -4,41 +4,43 @@ import MovementManager from "../../../../penguin/movementManager";
 import snowBallManager from "../../../../penguin/snowBallManager";
 import { BaseScene } from "../../../base/baseScene";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
-import { SCENE_ROOM_TOWN } from "../../../sceneNames";
+import { SCENE_ROOM_CLOTHES_SHOP, SCENE_ROOM_COFFEE_SHOP, SCENE_ROOM_DANCE_CLUB, SCENE_ROOM_DOCKS, SCENE_ROOM_SNOW_FORTS, SCENE_ROOM_TOWN } from "../../../sceneNames";
 import { ClientPenguin } from "../../../../penguin/clientPenguin";
 import { TOWN_ROOM_COFFEE_SHOP_DOOR_CLOSE, TOWN_ROOM_COFFEE_SHOP_DOOR_OPEN, TOWN_ROOM_DANCE_CLUB_DOOR_CLOSE, TOWN_ROOM_DANCE_CLUB_DOOR_OPEN, TOWN_ROOM_GIFT_SHOP_DOOR_CLOSE, TOWN_ROOM_GIFT_SHOP_DOOR_OPEN, TOWN_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { getManager } from "../../../../../network/network";
 import { SERVER_VERIFY_PACKET } from "../../../../../network/topics";
+import eventEmitter from "../../../../../util/eventEmitter";
+import { RoomScene } from "../RoomScene";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
 
 // Todo: Make the dance club opening more smooth
-// Todo: Make sound manager
-// Todo: Handle animations better after restructing animation system
-// Todo: Add town theme song
 // Todo: Fix night club star animation
 // Todo: Add night club lights + speaker animations
 
-export class TownScene extends BaseScene {
+export class TownScene extends RoomScene {
 	constructor() {
 		super(SCENE_ROOM_TOWN);
 	}
 
 	init(data) {
-		this.sceneManager = this.getSceneManager();
-		this.assetManager = this.getAssetManager();
-		this.audioManager = this.getAudioManager();
-		this.sceneManager.setCurrentScene("TownScene");
-
-		if(data.players) {
-			this.players = data.players;
-		}
+		super.init(data);
 	}
 
 	preloadContent() {
+		super.preloadContent();
+
 		this.assetManager.load({
 			scene: this,
 			type: ASSET_TYPES.PACK,
 			name: "town",
 			paths: ["assets/world/rooms/town/town2013-pack.json"]
+		});
+
+		this.assetManager.load({
+			scene: this,
+			type: ASSET_TYPES.PACK,
+			name: "town-triggers",
+			paths: ["assets/world/rooms/town/town-triggers-pack.json"]
 		});
 
 		this.assetManager.load({
@@ -256,6 +258,57 @@ export class TownScene extends BaseScene {
 		town_dance_club_handle_rope.scaleY = 0.9481854244711483;
 		town_dance_club_handle_rope.setOrigin(0.4715384615384616, 0.5485714285714286);
 
+		// town_walking_trigger_png
+		const town_walking_trigger_png = this.add.image(763, 441, "town-triggers", "town_walking_trigger.png");
+		town_walking_trigger_png.scaleX = 1.0122680516038394;
+		town_walking_trigger_png.scaleY = 1.0954232070420247;
+
+		// town_snow_forts_room_trigger_png
+		const town_snow_forts_room_trigger_png = this.physics.add.image(1441, 592, "town-triggers", "town_snow_forts_room_trigger.png");
+		town_snow_forts_room_trigger_png.scaleX = 0.7040527403599454;
+		town_snow_forts_room_trigger_png.scaleY = 0.8531550442324147;
+
+		// town_dance_club_room_trigger_png
+		const town_dance_club_room_trigger_png = this.physics.add.image(843, 398, "town-triggers", "town_dance_club_room_trigger.png");
+
+		// town_coffee_shop_room_trigger_png
+		const town_coffee_shop_room_trigger_png = this.physics.add.image(424, 445, "town-triggers", "town_coffee_shop_room_trigger.png");
+
+		// town_clothes_shop_room_trigger_png
+		const town_clothes_shop_room_trigger_png = this.physics.add.image(1120, 414, "town-triggers", "town_clothes_shop_room_trigger.png");
+
+		// town_docks_room_trigger_png
+		const town_docks_room_trigger_png = this.physics.add.image(96, 517, "town-triggers", "town_docks_room_trigger.png");
+		town_docks_room_trigger_png.scaleX = 0.5877954964206972;
+		town_docks_room_trigger_png.scaleY = 0.44792742416998366;
+		town_docks_room_trigger_png.angle = 60;
+
+		// Setting triggers starts here
+		this.triggers.push([town_dance_club_room_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_DANCE_CLUB);
+		}]);
+
+		this.triggers.push([town_coffee_shop_room_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_COFFEE_SHOP);
+		}]);
+
+		this.triggers.push([town_clothes_shop_room_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_CLOTHES_SHOP);
+		}]);
+
+		this.triggers.push([town_docks_room_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_DOCKS);
+		}]);
+
+		this.triggers.push([town_snow_forts_room_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_SNOW_FORTS);
+		}]);
+
+		this.triggers.push([town_walking_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_DOCKS);
+		}]);
+		// Setting triggers ends here
+
 		// Setting all interactives sprites starts here
 		town_gift_shop_door_closed.setInteractive({ useHandCursor: true });
 		town_gift_shop_door_open.setInteractive({ useHandCursor: true });
@@ -301,14 +354,12 @@ export class TownScene extends BaseScene {
 			town_gift_shop_door_closed.visible = false;
 			town_gift_shop_door_open.visible = true;
 			this.audioManager.play(TOWN_ROOM_GIFT_SHOP_DOOR_OPEN);
-			// this.sound.play("town_gift_shop_open");
 		});
 
 		town_gift_shop_door_open.on("pointerout", () => {
 			town_gift_shop_door_closed.visible = true;
 			town_gift_shop_door_open.visible = false;
 			this.audioManager.play(TOWN_ROOM_GIFT_SHOP_DOOR_CLOSE);
-			// this.sound.play("town_gift_shop_close");
 		});
 
 		town_coffee_shop_door_closed.on("pointerover", () => {
@@ -327,7 +378,7 @@ export class TownScene extends BaseScene {
 			// retard didnt give me the animation for opening this door we will make it ourself
 			const doorOpeningSpeed = 2;
 			const stopY = 180;
-			this.audioManager.play(TOWN_DANCE_CLUB_DOOR_OPEN);
+			this.audioManager.play(TOWN_ROOM_DANCE_CLUB_DOOR_OPEN);
 
 			this.open_dance_club_door_timer = this.time.addEvent({
 				delay: 10,
@@ -355,31 +406,12 @@ export class TownScene extends BaseScene {
 		});
 		// All interactive events ends here
 
-		// ALL TESTING MULTIPLAYER BELOW HERE
-		// const client = ClientPenguin.getClient();
-		// this.movementManager = new MovementManager(client);
-		// this.snowballManager = new snowBallManager(this, client);
-		// this.snowballManager.createSnowball();
-		// new RoomMouseMovemenet(this, client);
-		// new RoomKeyPressed(this, client);
-
 		this.audioManager.play(TOWN_ROOM_MUSIC);
-		this.events.once("shutdown", this.shutdown, this);
 		this.events.emit("scene-awake");
-		this.s = false;
+		super.createContent(this);
 	}
 
 	update() {
-		// this.movementManager.update();
-		// this.snowballManager.update();
-		if(!this.s) {
-			this.sceneManager.launch("InterfaceScene");
-			this.sceneManager.sendToTop("InterfaceScene");
-			this.s = true;
-		}
-	}
-
-	shutdown() {
-		super.stopAllMusic();
+		super.update();
 	}
 }

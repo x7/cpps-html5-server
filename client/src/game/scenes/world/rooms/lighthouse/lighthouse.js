@@ -7,7 +7,7 @@ import { BaseScene } from "../../../base/baseScene";
 
 export class LighthouseScene extends BaseScene {
     constructor() {
-        super("LighthouseScene");
+        super("LightHouseScene");
     }
 
     init(data) {

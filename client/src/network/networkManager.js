@@ -75,7 +75,7 @@ export class NetworkManager {
         }
 
         this.client.publish({ destination: topic, body: packet });
-        console.log(`Successfully sent packet to ${topic} with data ${packet}`);
+        // console.log(`Successfully sent packet to ${topic} with data ${packet}`);
     }
 
     /*

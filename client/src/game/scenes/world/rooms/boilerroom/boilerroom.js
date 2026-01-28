@@ -9,8 +9,7 @@ export class BoilerRoomScene extends BaseScene {
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-        this.audioManager = this.getAudioManager();
+        super.init(data)
     }
 
     preloadContent() {
