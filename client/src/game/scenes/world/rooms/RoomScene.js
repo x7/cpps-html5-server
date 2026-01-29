@@ -37,10 +37,12 @@ export class RoomScene extends BaseScene {
                 const triggerImage = trigger[0];
                 const callback = trigger[1];
 
-                console.log(triggerImage)
                 this.physics.add.overlap(client.body, triggerImage, callback);
             }
         }
+
+        // Load interface
+        this.sceneManager.launch("InterfaceScene");
     }
 
     update() {

@@ -12,8 +12,6 @@ export class RegisterScene extends BaseScene {
 
 	init(data) {
 		super.init(data);
-		this.sceneManager = this.getSceneManager();
-		this.assetManager = this.getAssetManager();
 		this.username = null;
         this.password = null;
         this.confirmPassword = null;

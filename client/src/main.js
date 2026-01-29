@@ -34,21 +34,29 @@ import { ErrorScene } from './game/scenes/error/error.js';
 import { LoadingScene } from './game/scenes/loading/loading.js';
 import { CoveScene } from './game/scenes/world/rooms/cove/cove.js';
 import { MineShackScene } from './game/scenes/world/rooms/mineshack/mineshack.js';
+import { RegisterScene } from './game/scenes/register/register.js';
 
 const config = {
-    type: Phaser.AUTO,
+    type: Phaser.WEBGL,
     parent: 'game',
     width: 1520,
     height: 960,
     resolution: window.devicePixelRatio || 1,
-    dom: { createContainer: true },
+    dom: { 
+        createContainer: true 
+    },
     backgroundColor: '#07c5ffff',
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
-    scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene, DanceclubScene, SnowFortsScene, GiftshopScene, DocksScene],
+    scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene, DanceclubScene, SnowFortsScene, GiftshopScene, DocksScene, InterfaceScene, RegisterScene],
     scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH
     },
+    render: {
+        antialias: true,
+        antialiasGL: true
+    },
+    roundPixels: true,
     physics: {
         default: 'arcade',
         arcade: { 

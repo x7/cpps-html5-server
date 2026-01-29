@@ -1,8 +1,7 @@
-import { getManager } from "../../../network/network";
-import { SERVER_VERIFY_PACKET } from "../../../network/topics";
 import { ASSET_TYPES } from "../../assets/assetTypes";
-import { ClientPenguin } from "../../penguin/clientPenguin";
 import { BaseScene } from "../base/baseScene";
+
+// TODO: Fix chat input
 
 export class InterfaceScene extends BaseScene {
     constructor() {
@@ -10,7 +9,7 @@ export class InterfaceScene extends BaseScene {
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
+		super.init(data);
     }
 
     preloadContent() {
@@ -23,214 +22,411 @@ export class InterfaceScene extends BaseScene {
     }
 
     createContent() {
-
 		// interface_main_interface_bar_png
-		const interface_main_interface_bar_png = this.add.image(737, 920, "interface", "interface_main_interface_bar.png");
-		interface_main_interface_bar_png.scaleX = 0.9520614242422353;
-		interface_main_interface_bar_png.scaleY = 1.0382732835569173;
+		const interface_main_interface_bar_png = this.add.image(760, 917, "interface", "interface_main_interface_bar.png");
 
-		// interface_main_interface_button0001_png
-		const interface_main_interface_button0001_png = this.add.image(273, 728, "interface", "interface_main_interface_button0001.png");
-		interface_main_interface_button0001_png.scaleX = 0.8308294966416641;
-		interface_main_interface_button0001_png.scaleY = 0.7625461458091359;
-		interface_main_interface_button0001_png.visible = false;
+		// interface_bottom_bar_emoji_button
+		const interface_bottom_bar_emoji_button = this.add.image(318, 925, "interface", "interface_main_interface_button0001.png");
 
-		// interface_blue_puffle_icon_png
-		const interface_blue_puffle_icon_png = this.add.image(267, 689, "interface", "interface_blue_puffle_icon.png");
-		interface_blue_puffle_icon_png.scaleX = 0.6825770724084521;
-		interface_blue_puffle_icon_png.scaleY = 0.6688926608235132;
-		interface_blue_puffle_icon_png.visible = false;
+		// interface_bottom_bar_dance_button
+		const interface_bottom_bar_dance_button = this.add.image(385, 925, "interface", "interface_main_interface_button0001.png");
 
-		// interface_main_interface_button0001_png_1
-		const interface_main_interface_button0001_png_1 = this.add.image(320, 690, "interface", "interface_main_interface_button0001.png");
-		interface_main_interface_button0001_png_1.scaleX = 0.8308294966416641;
-		interface_main_interface_button0001_png_1.scaleY = 0.7625461458091359;
-		interface_main_interface_button0001_png_1.visible = false;
+		// interface_bottom_bar_snowball_button
+		const interface_bottom_bar_snowball_button = this.add.image(452, 925, "interface", "interface_main_interface_button0001.png");
 
-		// interface_main_interface_button0001_png_2
-		const interface_main_interface_button0001_png_2 = this.add.image(374, 690, "interface", "interface_main_interface_button0001.png");
-		interface_main_interface_button0001_png_2.scaleX = 0.8308294966416641;
-		interface_main_interface_button0001_png_2.scaleY = 0.7625461458091359;
-		interface_main_interface_button0001_png_2.visible = false;
+		// interface_bottom_bar_chat_input
+		const interface_bottom_bar_chat_input = this.add.image(760, 925, "interface", "interface_chat00010001.png");
+		interface_bottom_bar_chat_input.scaleX = 0.8824765692530303;
+		interface_bottom_bar_chat_input.scaleY = 1.0043159291610997;
 
-		// interface_dance_icon_png
-		const interface_dance_icon_png = this.add.image(373, 688, "interface", "interface_dance_icon.png");
-		interface_dance_icon_png.scaleX = 0.6229342904866657;
-		interface_dance_icon_png.scaleY = 0.5939654209971843;
-		interface_dance_icon_png.visible = false;
+		// interface_bottom_bar_chat_button
+		const interface_bottom_bar_chat_button = this.add.image(519, 925, "interface", "interface_main_interface_button0001.png");
 
-		// interface_main_interface_button0001_png_3
-		const interface_main_interface_button0001_png_3 = this.add.image(427, 690, "interface", "interface_main_interface_button0001.png");
-		interface_main_interface_button0001_png_3.scaleX = 0.8308294966416641;
-		interface_main_interface_button0001_png_3.scaleY = 0.7625461458091359;
-		interface_main_interface_button0001_png_3.visible = false;
+		// interface_bottom_bar_settings_button
+		const interface_bottom_bar_settings_button = this.add.image(1275, 925, "interface", "interface_main_interface_button0001.png");
 
-		// interface_chat00010001_png
-		const interface_chat00010001_png = this.add.image(706, 502, "interface", "interface_chat00010001.png");
-		interface_chat00010001_png.scaleX = 0.663148982435064;
-		interface_chat00010001_png.scaleY = 0.7670306573639145;
-		interface_chat00010001_png.visible = false;
+		// interface_bottom_bar_igloo_button
+		const interface_bottom_bar_igloo_button = this.add.image(1208, 925, "interface", "interface_main_interface_button0001.png");
 
-		// interface_main_interface_button0001_png_4
-		const interface_main_interface_button0001_png_4 = this.add.image(480, 690, "interface", "interface_main_interface_button0001.png");
-		interface_main_interface_button0001_png_4.scaleX = 0.8308294966416641;
-		interface_main_interface_button0001_png_4.scaleY = 0.7625461458091359;
-		interface_main_interface_button0001_png_4.visible = false;
+		// interface_bottom_bar_friends_button
+		const interface_bottom_bar_friends_button = this.add.image(1141, 925, "interface", "interface_main_interface_button0001.png");
 
-		// inteface_snowball_icon_png
-		const inteface_snowball_icon_png = this.add.image(428, 689, "interface", "inteface_snowball_icon.png");
-		inteface_snowball_icon_png.scaleX = 0.5590217654668652;
-		inteface_snowball_icon_png.scaleY = 0.5977508158311177;
-		inteface_snowball_icon_png.visible = false;
+		// interface_bottom_bar_player_button
+		const interface_bottom_bar_player_button = this.add.image(1074, 925, "interface", "interface_main_interface_button0001.png");
 
-		// interface_chat_bubble_icon0001_png
-		const interface_chat_bubble_icon0001_png = this.add.image(480, 688, "interface", "interface_chat_bubble_icon0001.png");
-		interface_chat_bubble_icon0001_png.scaleX = 0.6895231587973927;
-		interface_chat_bubble_icon0001_png.scaleY = 0.8098679221242047;
-		interface_chat_bubble_icon0001_png.visible = false;
+		// interface_bottom_bar_chat_send_button
+		const interface_bottom_bar_chat_send_button = this.add.image(1006, 925, "interface", "interface_main_interface_button0001.png");
 
-		// interface_main_interface_button0001_png_5
-		const interface_main_interface_button0001_png_5 = this.add.image(841, 689, "interface", "interface_main_interface_button0001.png");
-		interface_main_interface_button0001_png_5.scaleX = 0.8308294966416641;
-		interface_main_interface_button0001_png_5.scaleY = 0.7625461458091359;
-		interface_main_interface_button0001_png_5.visible = false;
+		// interface_bottom_bar_puffle_button
+		const interface_bottom_bar_puffle_button = this.add.image(251, 925, "interface", "interface_main_interface_button0001.png");
 
-		// interface_send_chat_icon0001_png
-		const interface_send_chat_icon0001_png = this.add.image(842, 688, "interface", "interface_send_chat_icon0001.png");
-		interface_send_chat_icon0001_png.scaleX = 0.8554562315444862;
-		interface_send_chat_icon0001_png.scaleY = 0.7439698118081939;
-		interface_send_chat_icon0001_png.visible = false;
+		// interface_bottom_bar_puffle_button_hovered
+		const interface_bottom_bar_puffle_button_hovered = this.add.image(251, 925, "interface", "interface_main_interface_button0002.png");
+		interface_bottom_bar_puffle_button_hovered.visible = false;
 
-		// interface_main_interface_button0001_png_6
-		const interface_main_interface_button0001_png_6 = this.add.image(894, 688, "interface", "interface_main_interface_button0001.png");
-		interface_main_interface_button0001_png_6.scaleX = 0.8308294966416641;
-		interface_main_interface_button0001_png_6.scaleY = 0.7625461458091359;
-		interface_main_interface_button0001_png_6.visible = false;
+		// interface_bottom_bar_emoji_icon_hovered
+		const interface_bottom_bar_emoji_icon_hovered = this.add.image(318, 925, "interface", "interface_main_interface_button0002.png");
+		interface_bottom_bar_emoji_icon_hovered.visible = false;
 
-		// interface_main_interface_button0001_png_7
-		const interface_main_interface_button0001_png_7 = this.add.image(947, 688, "interface", "interface_main_interface_button0001.png");
-		interface_main_interface_button0001_png_7.scaleX = 0.8308294966416641;
-		interface_main_interface_button0001_png_7.scaleY = 0.7625461458091359;
-		interface_main_interface_button0001_png_7.visible = false;
+		// interface_bottom_bar_dance_button_hovered
+		const interface_bottom_bar_dance_button_hovered = this.add.image(385, 925, "interface", "interface_main_interface_button0002.png");
+		interface_bottom_bar_dance_button_hovered.visible = false;
 
-		// interface_main_interface_button0001_png_8
-		const interface_main_interface_button0001_png_8 = this.add.image(1000, 688, "interface", "interface_main_interface_button0001.png");
-		interface_main_interface_button0001_png_8.scaleX = 0.8308294966416641;
-		interface_main_interface_button0001_png_8.scaleY = 0.7625461458091359;
-		interface_main_interface_button0001_png_8.visible = false;
+		// interface_bottom_bar_snowball_button_hovered
+		const interface_bottom_bar_snowball_button_hovered = this.add.image(452, 925, "interface", "interface_main_interface_button0002.png");
+		interface_bottom_bar_snowball_button_hovered.visible = false;
 
-		// interface_main_interface_button0001_png_9
-		const interface_main_interface_button0001_png_9 = this.add.image(1053, 689, "interface", "interface_main_interface_button0001.png");
-		interface_main_interface_button0001_png_9.scaleX = 0.8308294966416641;
-		interface_main_interface_button0001_png_9.scaleY = 0.7625461458091359;
-		interface_main_interface_button0001_png_9.visible = false;
+		// interface_bottom_bar_chat_send_button_hovered
+		const interface_bottom_bar_chat_send_button_hovered = this.add.image(1006, 925, "interface", "interface_main_interface_button0002.png");
+		interface_bottom_bar_chat_send_button_hovered.visible = false;
 
-		// interface_emojis_icon_png
-		const interface_emojis_icon_png = this.add.image(320, 689, "interface", "interface_emojis_icon.png");
-		interface_emojis_icon_png.scaleX = 0.7557567049466791;
-		interface_emojis_icon_png.scaleY = 0.696655436016669;
-		interface_emojis_icon_png.visible = false;
+		// interface_bottom_bar_chat_button_hovered
+		const interface_bottom_bar_chat_button_hovered = this.add.image(519, 925, "interface", "interface_main_interface_button0002.png");
+		interface_bottom_bar_chat_button_hovered.visible = false;
 
-		// interface_igloo_icon_png
-		const interface_igloo_icon_png = this.add.image(1000, 687, "interface", "interface_igloo_icon.png");
-		interface_igloo_icon_png.scaleX = 0.6753389752643617;
-		interface_igloo_icon_png.scaleY = 0.640451165662363;
-		interface_igloo_icon_png.visible = false;
+		// interface_bottom_bar_player_button_hovered
+		const interface_bottom_bar_player_button_hovered = this.add.image(1074, 925, "interface", "interface_main_interface_button0002.png");
+		interface_bottom_bar_player_button_hovered.visible = false;
 
-		// interface_settings_icono_png
-		const interface_settings_icono_png = this.add.image(1053, 688, "interface", "interface_settings_icono.png");
-		interface_settings_icono_png.scaleX = 0.6944472210308932;
-		interface_settings_icono_png.scaleY = 0.6892868788433246;
-		interface_settings_icono_png.visible = false;
+		// interface_bottom_bar_friends_button_hovered
+		const interface_bottom_bar_friends_button_hovered = this.add.image(1141, 925, "interface", "interface_main_interface_button0002.png");
+		interface_bottom_bar_friends_button_hovered.visible = false;
 
-		// interface_friends_icon_png
-		const interface_friends_icon_png = this.add.image(947, 687, "interface", "interface_friends_icon.png");
-		interface_friends_icon_png.scaleX = 0.7134395722668262;
-		interface_friends_icon_png.scaleY = 0.6974504015934253;
-		interface_friends_icon_png.visible = false;
+		// interface_bottom_bar_igloo_button_hovered
+		const interface_bottom_bar_igloo_button_hovered = this.add.image(1208, 925, "interface", "interface_main_interface_button0002.png");
+		interface_bottom_bar_igloo_button_hovered.visible = false;
 
-		// interface_player_icon_png
-		const interface_player_icon_png = this.add.image(894, 686, "interface", "interface_player_icon.png");
-		interface_player_icon_png.scaleX = 0.6609814266173355;
-		interface_player_icon_png.scaleY = 0.7134615239340185;
-		interface_player_icon_png.visible = false;
+		// interface_bottom_bar_settings_button_hovered
+		const interface_bottom_bar_settings_button_hovered = this.add.image(1275, 925, "interface", "interface_main_interface_button0002.png");
+		interface_bottom_bar_settings_button_hovered.visible = false;
 
-		// interface_map0001_png
-		const interface_map0001_png = this.add.image(76, 668, "interface", "interface_map0001.png");
-		interface_map0001_png.scaleX = 0.7592337183701436;
-		interface_map0001_png.scaleY = 0.7063425442684317;
-		interface_map0001_png.visible = false;
+		// interface_bottom_bar_chat_send_icon
+		const interface_bottom_bar_chat_send_icon = this.add.image(1006, 923, "interface", "interface_send_chat_icon0001.png");
 
-		// interface_newspaper_icon0001_png
-		const interface_newspaper_icon0001_png = this.add.image(63, 60, "interface", "interface_newspaper_icon0001.png");
-		interface_newspaper_icon0001_png.scaleX = 0.7896758537754842;
-		interface_newspaper_icon0001_png.scaleY = 0.7597302915189995;
-		interface_newspaper_icon0001_png.visible = false;
+		// interface_bottom_bar_chat_icon
+		const interface_bottom_bar_chat_icon = this.add.image(519, 923, "interface", "interface_chat_bubble_icon0001.png");
 
-		// interface_mail_icon0001_png
-		const interface_mail_icon0001_png = this.add.image(174, 50, "interface", "interface_mail_icon0001.png");
-		interface_mail_icon0001_png.scaleX = 0.7896758537754842;
-		interface_mail_icon0001_png.scaleY = 0.7597302915189995;
-		interface_mail_icon0001_png.visible = false;
+		// interface_bottom_bar_snowball_icon
+		const interface_bottom_bar_snowball_icon = this.add.image(452, 924, "interface", "inteface_snowball_icon.png");
 
-		// interface_moderator_icon_png
-		const interface_moderator_icon_png = this.add.image(1195, 58, "interface", "interface_moderator_icon.png");
-		interface_moderator_icon_png.scaleX = 0.6266090074349453;
-		interface_moderator_icon_png.scaleY = 0.6302074033914904;
-		interface_moderator_icon_png.visible = false;
+		// interface_bottom_bar_dance_icon
+		const interface_bottom_bar_dance_icon = this.add.image(383, 921, "interface", "interface_dance_icon.png");
+
+		// interface_bottom_bar_puffle_icon
+		const interface_bottom_bar_puffle_icon = this.add.image(250, 923, "interface", "interface_blue_puffle_icon.png");
+
+		// interface_bottom_bar_emoji_icon
+		const interface_bottom_bar_emoji_icon = this.add.image(318, 923, "interface", "interface_emojis_icon.png");
+
+		// interface_bottom_bar_igloo_icon
+		const interface_bottom_bar_igloo_icon = this.add.image(1208, 925, "interface", "interface_igloo_icon.png");
+
+		// interface_bottom_bar_settings_icon
+		const interface_bottom_bar_settings_icon = this.add.image(1275, 924, "interface", "interface_settings_icono.png");
+
+		// interface_bottom_bar_friends_icon
+		const interface_bottom_bar_friends_icon = this.add.image(1141, 923, "interface", "interface_friends_icon.png");
+
+		// interface_bottom_bar_player_icon
+		const interface_bottom_bar_player_icon = this.add.image(1074, 923, "interface", "interface_player_icon.png");
+
+		// interface_map_closed
+		const interface_map_closed = this.add.image(100, 886, "interface", "interface_map0001.png");
+		interface_map_closed.scaleX = 0.976832062717823;
+
+		// interface_newspaper_not_hover
+		const interface_newspaper_not_hover = this.add.image(91, 74, "interface", "interface_newspaper_icon0001.png");
+		interface_newspaper_not_hover.scaleX = 1.1076317855287052;
+		interface_newspaper_not_hover.scaleY = 1.1009334692128427;
+
+		// interface_mail_not_hovered
+		const interface_mail_not_hovered = this.add.image(203, 60, "interface", "interface_mail_icon0001.png");
+		interface_mail_not_hovered.scaleX = 1.1076317855287052;
+		interface_mail_not_hovered.scaleY = 1.1009334692128427;
+
+		// interface_moderator_not_hovered
+		const interface_moderator_not_hovered = this.add.image(1429, 74, "interface", "interface_moderator_icon.png");
+
+		// interface_map_opened
+		const interface_map_opened = this.add.image(100, 886, "interface", "interface_map0002.png");
+		interface_map_opened.scaleX = 0.976832062717823;
+		interface_map_opened.visible = false;
+
+		// interface_newspaper_hovered
+		const interface_newspaper_hovered = this.add.image(91, 74, "interface", "interface_newspaper_icon0002.png");
+		interface_newspaper_hovered.scaleX = 1.1076317855287052;
+		interface_newspaper_hovered.scaleY = 1.1009334692128427;
+		interface_newspaper_hovered.visible = false;
+
+		// interface_mail_hovered
+		const interface_mail_hovered = this.add.image(203, 60, "interface", "interface_mail_icon0002.png");
+		interface_mail_hovered.scaleX = 1.1076317855287052;
+		interface_mail_hovered.scaleY = 1.1009334692128427;
+		interface_mail_hovered.visible = false;
+
+		// interface_moderator_hovered
+		const interface_moderator_hovered = this.add.image(1429, 74, "interface", "interface_moderator_icon_hover.png");
+		interface_moderator_hovered.visible = false;
 
         // Dom elements start here
-        const leftBtnX = 480;
-        const rightBtnX = 841;
-        const y = 690;
-        const leftPaddingFromBtn = 35;
-        const rightPaddingFromBtn = 35;
-        const inputWidth = (rightBtnX - rightPaddingFromBtn) - (leftBtnX + leftPaddingFromBtn);
+		// const topLeft = interface_bottom_bar_chat_input.getTopLeft();
+		// const paddingLeft = 10;
+		// const paddingRight = 10;
+		// const inputX = topLeft.x + paddingLeft;
+		// const inputY = interface_bottom_bar_chat_input.y;  
+		// const inputWidth = interface_bottom_bar_chat_input.displayWidth - paddingLeft - paddingRight;
+		// this.chatInput = this.add.dom(0, 0, 'input', {
+		// 	position: 'absolute',
+		// 	width: `${inputWidth}px`,
+		// 	height: '30px',
+		// 	background: 'transparent',
+		// 	border: 'none',
+		// 	outline: 'none',
+		// 	color: '#FFFFFF',
+		// 	fontFamily: '"Arial Rounded MT Bold", Nunito, "Varela Round", sans-serif',
+		// 	fontSize: '18px',
+		// 	fontWeight: '700',
+		// 	textAlign: 'left',
+		// 	caretColor: '#FFFFFF',
+		// 	padding: '0',
+		// 	margin: '0',
+		// 	lineHeight: '30px',
+		// 	pointerEvents: 'auto'
+		// });
 
-        this.chatInput = this.add.dom(0, 0, 'input', {
-            position: 'absolute',
-            width: `${inputWidth}px`,
-            height: '30px',
-            background: 'transparent',
-            border: 'none',
-            outline: 'none',
-            color: '#FFFFFF',
-            fontFamily: 'Arial Rounded MT Bold", Nunito, "Varela Round", sans-serif',
-            fontSize: '18px',
-            fontWeight: '700',
-            textAlign: 'left',
-            caretColor: '#FFFFFF',
-            padding: '0',
-            margin: '0',
-            lineHeight: '30px'
-        });
+		// this.chatInput.setOrigin(0, 0.5);
+		// this.chatInput.setPosition(inputX, inputY);
+		// this.chatInput.setDepth(9999);
 
-        this.chatInput.setOrigin(0, 0.5);
-        this.chatInput.setPosition(leftBtnX + leftPaddingFromBtn, y);
-        this.chatInput.node.autocomplete = "off";
-        this.chatInput.node.spellcheck = false;
-        this.chatInput.node.value = "";
+		// this.chatInput.node.addEventListener('mouseenter', () => {
+		// 	console.log("active");
+		// });
+
+		// this.chatInput.node.autocomplete = "off";
+		// this.chatInput.node.spellcheck = false;
+		// this.chatInput.node.value = "";
+
+		// this.chatInput.node.addEventListener('mousedown', () => {
+		// 	this.chatInput.node.focus();
+		// });
         // Dom elements end here
 
         // Setting all interactives sprites starts here
-        interface_main_interface_button0001_png_5.setInteractive({ useHandCursor: true });
+        interface_map_closed.setInteractive({ useHandCursor: true });
+		interface_map_opened.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_puffle_button.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_emoji_button.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_dance_button.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_snowball_button.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_chat_button.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_settings_button.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_igloo_button.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_friends_button.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_player_button.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_chat_send_button.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_puffle_button_hovered.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_emoji_icon_hovered.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_dance_button_hovered.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_snowball_button_hovered.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_chat_button_hovered.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_player_button_hovered.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_friends_button_hovered.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_igloo_button_hovered.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_settings_button_hovered.setInteractive({ useHandCursor: true });
+		interface_newspaper_not_hover.setInteractive({ useHandCursor: true });
+		interface_mail_not_hovered.setInteractive({ useHandCursor: true });
+		interface_moderator_not_hovered.setInteractive({ useHandCursor: true });
+		interface_newspaper_hovered.setInteractive({ useHandCursor: true });
+		interface_mail_hovered.setInteractive({ useHandCursor: true });
+		interface_moderator_hovered.setInteractive({ useHandCursor: true });
+		interface_bottom_bar_chat_send_button_hovered.setInteractive({ useHandCursor: true });
         // Setting all interactives sprites ends here
 
         // All interactive events start here
-        interface_main_interface_button0001_png_5.on("pointerdown", () => {
-            const input = this.chatInput.node.value;
-            if(input === "" || input === null) {
-				return;
-			} 
+        interface_map_closed.on("pointerover", () => {
+			interface_map_closed.visible = false;
+			interface_map_opened.visible = true;
+		});
 
-            const client = ClientPenguin.getClient();
-            const manager = getManager();
-			client.sendChat(input);
-			this.chatInput.node.value = "";
-			manager.send(SERVER_VERIFY_PACKET, { "packet_type": "player_chat", "message": input });
-        });
+		interface_map_opened.on("pointerout", () => {
+			interface_map_closed.visible = true;
+			interface_map_opened.visible = false;
+		});
+
+		interface_map_opened.on("pointerdown", () => {
+		});
+
+		interface_bottom_bar_puffle_button.on("pointerover", () => {
+			interface_bottom_bar_puffle_button.visible = false;
+			interface_bottom_bar_puffle_button_hovered.visible = true;
+		});
+
+		interface_bottom_bar_puffle_button_hovered.on("pointerout", () => {
+			interface_bottom_bar_puffle_button.visible = true;
+			interface_bottom_bar_puffle_button_hovered.visible = false;
+		});
+
+		interface_bottom_bar_puffle_button_hovered.on("pointerdown", () => {
+		});
+
+		interface_bottom_bar_emoji_button.on("pointerover", () => {
+			interface_bottom_bar_emoji_button.visible = false;
+			interface_bottom_bar_emoji_icon_hovered.visible = true;
+		});
+
+		interface_bottom_bar_emoji_icon_hovered.on("pointerout", () => {
+			interface_bottom_bar_emoji_button.visible = true;
+			interface_bottom_bar_emoji_icon_hovered.visible = false;
+		});
+
+		interface_bottom_bar_emoji_icon_hovered.on("pointerdown", () => {
+		});
+
+		interface_bottom_bar_dance_button.on("pointerover", () => {
+			interface_bottom_bar_dance_button.visible = false;
+			interface_bottom_bar_dance_button_hovered.visible = true;
+		});
+
+		interface_bottom_bar_dance_button_hovered.on("pointerout", () => {
+			interface_bottom_bar_dance_button.visible = true;
+			interface_bottom_bar_dance_button_hovered.visible = false;
+		});
+
+		interface_bottom_bar_dance_button_hovered.on("pointerdown", () => {
+		});
+
+		interface_bottom_bar_snowball_button.on("pointerover", () => {
+			interface_bottom_bar_snowball_button.visible = false;
+			interface_bottom_bar_snowball_button_hovered.visible = true;
+		});
+
+		interface_bottom_bar_snowball_button_hovered.on("pointerout", () => {
+			interface_bottom_bar_snowball_button.visible = true;
+			interface_bottom_bar_snowball_button_hovered.visible = false;
+		});
+
+		interface_bottom_bar_snowball_button_hovered.on("pointerdown", () => {
+		});
+
+		interface_bottom_bar_chat_button.on("pointerover", () => {
+			interface_bottom_bar_chat_button.visible = false;
+			interface_bottom_bar_chat_button_hovered.visible = true;
+		});
+
+		interface_bottom_bar_chat_button_hovered.on("pointerout", () => {
+			interface_bottom_bar_chat_button.visible = true;
+			interface_bottom_bar_chat_button_hovered.visible = false;
+		});
+
+		interface_bottom_bar_chat_button_hovered.on("pointerdown", () => {
+		});
+
+		interface_bottom_bar_chat_send_button.on("pointerover", () => {
+			interface_bottom_bar_chat_send_button.visible = false;
+			interface_bottom_bar_chat_send_button_hovered.visible = true;
+		});
+
+		interface_bottom_bar_chat_send_button_hovered.on("pointerout", () => {
+			interface_bottom_bar_chat_send_button.visible = true;
+			interface_bottom_bar_chat_send_button_hovered.visible = false;
+		});
+
+		interface_bottom_bar_chat_send_button_hovered.on("pointerdown", () => {
+		});
+
+		interface_bottom_bar_player_button.on("pointerover", () => {
+			interface_bottom_bar_player_button.visible = false;
+			interface_bottom_bar_player_button_hovered.visible = true;
+		});
+
+		interface_bottom_bar_player_button_hovered.on("pointerout", () => {
+			interface_bottom_bar_player_button.visible = true;
+			interface_bottom_bar_player_button_hovered.visible = false;
+		});
+
+		interface_bottom_bar_player_button_hovered.on("pointerdown", () => {
+		});
+
+		interface_bottom_bar_friends_button.on("pointerover", () => {
+			interface_bottom_bar_friends_button.visible = false;
+			interface_bottom_bar_friends_button_hovered.visible = true;
+		});
+
+		interface_bottom_bar_friends_button_hovered.on("pointerout", () => {
+			interface_bottom_bar_friends_button.visible = true;
+			interface_bottom_bar_friends_button_hovered.visible = false;
+		});
+
+		interface_bottom_bar_friends_button_hovered.on("pointerdown", () => {
+		});
+
+		interface_bottom_bar_igloo_button.on("pointerover", () => {
+			interface_bottom_bar_igloo_button.visible = false;
+			interface_bottom_bar_igloo_button_hovered.visible = true;
+		});
+
+		interface_bottom_bar_igloo_button_hovered.on("pointerout", () => {
+			interface_bottom_bar_igloo_button.visible = true;
+			interface_bottom_bar_igloo_button_hovered.visible = false;
+		});
+
+		interface_bottom_bar_igloo_button_hovered.on("pointerdown", () => {
+		});
+
+		interface_bottom_bar_settings_button.on("pointerover", () => {
+			interface_bottom_bar_settings_button.visible = false;
+			interface_bottom_bar_settings_button_hovered.visible = true;
+		});
+
+		interface_bottom_bar_settings_button_hovered.on("pointerout", () => {
+			interface_bottom_bar_settings_button.visible = true;
+			interface_bottom_bar_settings_button_hovered.visible = false;
+		});
+
+		interface_bottom_bar_settings_button_hovered.on("pointerdown", () => {
+		});
+
+		interface_newspaper_not_hover.on("pointerover", () => {
+			interface_newspaper_not_hover.visible = false;
+			interface_newspaper_hovered.visible = true;
+		});
+
+		interface_newspaper_hovered.on("pointerout", () => {
+			interface_newspaper_not_hover.visible = true;
+			interface_newspaper_hovered.visible = false;
+		});
+
+		interface_newspaper_hovered.on("pointerdown", () => {
+		});
+
+		interface_mail_not_hovered.on("pointerover", () => {
+			interface_mail_not_hovered.visible = false;
+			interface_mail_hovered.visible = true;
+		});
+
+		interface_mail_hovered.on("pointerout", () => {
+			interface_mail_not_hovered.visible = true;
+			interface_mail_hovered.visible = false;
+		});
+
+		interface_mail_hovered.on("pointerdown", () => {
+		});
+
+		interface_moderator_not_hovered.on("pointerover", () => {
+			interface_moderator_not_hovered.visible = false;
+			interface_moderator_hovered.visible = true;
+		});
+
+		interface_moderator_hovered.on("pointerout", () => {
+			interface_moderator_not_hovered.visible = true;
+			interface_moderator_hovered.visible = false;
+		});
+
+		interface_moderator_hovered.on("pointerdown", () => {
+		});
         // All interactive events ends here
 
+		this.sceneManager.sendToTop("InterfaceScene");
         this.events.once("shutdown", this.shutdown, this);
     }
 
