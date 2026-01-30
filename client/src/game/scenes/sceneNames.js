@@ -33,4 +33,5 @@ export const SCENE_ROOM_WATER_DOJO = "WaterDojoScene";
 export const SCENE_ROOM_UNDERWATER = "UnderwaterScene";
 export const SCENE_INTERFACE = "InterfaceScene";
 export const SCENE_INTERFACE_DANCE = "InterfaceDanceScene";
+export const SCENE_INTERFACE_EMOJIS = "InterfaceEmojiScene";
 // Scene names end here

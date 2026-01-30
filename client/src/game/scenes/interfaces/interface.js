@@ -1,6 +1,6 @@
 import { ASSET_TYPES } from "../../assets/assetTypes";
 import { BaseScene } from "../baseScene";
-import { SCENE_INTERFACE, SCENE_INTERFACE_DANCE } from "../sceneNames";
+import { SCENE_INTERFACE, SCENE_INTERFACE_DANCE, SCENE_INTERFACE_EMOJIS } from "../sceneNames";
 
 // TODO: Fix chat input
 
@@ -281,6 +281,7 @@ export class InterfaceScene extends BaseScene {
 		});
 
 		interface_bottom_bar_emoji_icon_hovered.on("pointerdown", () => {
+			this.sceneManager.launch(SCENE_INTERFACE_EMOJIS);
 		});
 
 		interface_bottom_bar_dance_button.on("pointerover", () => {

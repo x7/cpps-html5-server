@@ -5,18 +5,8 @@ export class InterfaceDanceScene extends BaseScene {
     constructor() {
         super(SCENE_INTERFACE_DANCE)
     }
-
-    init(data = {}) {
-        super.init(data);
-    }
-
+    
     createContent() {
-        // interface_dance_box_trigger
-		const interface_dance_box_trigger = this.add.image(384, 681, "interface", "interface_dance_box.png");
-		interface_dance_box_trigger.scaleX = 1.0029867193649498;
-		interface_dance_box_trigger.scaleY = 1.142267359065548;
-        interface_dance_box_trigger.setAlpha(0.001);
-
         // interface_dance_box_png
 		const interface_dance_box_png = this.add.image(382, 655, "interface", "interface_dance_box.png");
 
@@ -84,7 +74,6 @@ export class InterfaceDanceScene extends BaseScene {
         interface_emoji_button_sitting_down_top_left_hover.setInteractive({ useHandCursor: true });
         interface_emoji_button_sitting_down_bottom_left_hover.setInteractive({ useHandCursor: true });
         interface_emoji_button_sitting_down_bottom_right_hover.setInteractive({ useHandCursor: true });
-        interface_dance_box_trigger.setInteractive({ useHandCursor: false });
         // Setting all interactives sprites ends here
 
         // All interactive events start here
@@ -165,10 +154,6 @@ export class InterfaceDanceScene extends BaseScene {
 
         interface_emoji_button_penguin_default_dance_hover.on("pointerdown", () => {   
         });
-
-        // interface_dance_box_trigger.on("pointerout", () => {
-        //     this.sceneManager.stop(SCENE_INTERFACE_DANCE);
-        // });
 
         // input events start here
         this.input.on("pointermove", (pointer) => {
