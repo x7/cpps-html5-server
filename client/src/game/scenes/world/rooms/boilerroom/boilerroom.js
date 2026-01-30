@@ -1,9 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { BOILER_ROOM_DOOR_CLOSE, BOILER_ROOM_DOOR_OPEN, BOILER_ROOM_DRAWER_CLOSE, BOILER_ROOM_DRAWER_OPEN, BOILER_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
-export class BoilerRoomScene extends BaseScene {
+export class BoilerRoomScene extends RoomScene {
     constructor() {
         super("BoilerRoomScene");
     }

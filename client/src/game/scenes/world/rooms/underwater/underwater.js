@@ -1,9 +1,9 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { UNDERWATER_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
 import { SCENE_ROOM_UNDERWATER } from "../../../sceneNames";
+import { RoomScene } from "../RoomScene";
 
-export class UnderwaterScene extends BaseScene {
+export class UnderwaterScene extends RoomScene {
     constructor() {
         super(SCENE_ROOM_UNDERWATER);
     }

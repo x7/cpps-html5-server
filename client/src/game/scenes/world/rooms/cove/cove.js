@@ -1,9 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { COVE_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
-export class CoveScene extends BaseScene {
+export class CoveScene extends RoomScene {
     constructor() {
         super("CoveScene");
     }

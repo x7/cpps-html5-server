@@ -35,6 +35,7 @@ import { LoadingScene } from './game/scenes/loading/loading.js';
 import { CoveScene } from './game/scenes/world/rooms/cove/cove.js';
 import { MineShackScene } from './game/scenes/world/rooms/mineshack/mineshack.js';
 import { RegisterScene } from './game/scenes/register/register.js';
+import { InterfaceDanceScene } from './game/scenes/interfaces/dances.js';
 
 const config = {
     type: Phaser.WEBGL,
@@ -47,7 +48,7 @@ const config = {
     },
     backgroundColor: '#07c5ffff',
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene],
-    scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene, DanceclubScene, SnowFortsScene, GiftshopScene, DocksScene, InterfaceScene, RegisterScene],
+    scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene, DanceclubScene, SnowFortsScene, GiftshopScene, DocksScene, InterfaceScene, RegisterScene, InterfaceDanceScene],
     scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH

@@ -1,5 +1,4 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
-import { BaseScene } from "../../../base/baseScene";
 import { getClockTowerDay, getClockTowerTime } from "./snowfortsHelper";
 import { createAnimation } from "../../../../../animations/animations";
 import { SNOW_FORTS_ROOM_MUSIC } from "../../../../audio/audioConstants";

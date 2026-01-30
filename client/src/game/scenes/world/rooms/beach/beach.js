@@ -1,11 +1,11 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { BEACH_ROOM_LIGHTHOUSE_DOOR_CLOSE, BEACH_ROOM_LIGHTHOUSE_DOOR_OPEN, BEACH_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
 // TODO: Add green bucket sounds
 
-export class BeachScene extends BaseScene {
+export class BeachScene extends RoomScene {
     constructor() {
         super("BeachScene");
     }

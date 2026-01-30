@@ -1,9 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { ICE_BERG_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
-export class IcebergScene extends BaseScene {
+export class IcebergScene extends RoomScene {
     constructor() {
         super("IceBergScene");
     }

@@ -1,13 +1,13 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { PUFFLE_WILD_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
 // TODO: Light affects at the topo
 // TODO: Fix the top left corner grass image
 // TOOD: Make the puffle in bush animation do once every 5 seconds or something
 
-export class PuffleWildScene extends BaseScene {
+export class PuffleWildScene extends RoomScene {
     constructor() {
         super("PuffleWildScene");
     }

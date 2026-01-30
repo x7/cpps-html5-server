@@ -1,4 +1,4 @@
-import { BaseScene } from '../base/baseScene.js';
+import { BaseScene } from '../baseScene.js';
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
 import { hideDomElements, login } from './loginHelper.js';
 import { SCENE_LOGIN, SCENE_REGISTER, SCENE_START_SCREEN } from '../sceneNames.js';

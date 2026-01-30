@@ -1,6 +1,6 @@
 import { hideDomElements } from '../loginHelper.js';
 import { ASSET_TYPES } from '../../../assets/assetTypes.js';
-import { BaseScene } from '../../base/baseScene.js';
+import { BaseScene } from '../../baseScene.js';
 import { SCENE_LOGIN_SHARED_DEVICE } from '../../sceneNames.js';
 
 export class SharedDevicePrompt extends BaseScene {
@@ -8,9 +8,9 @@ export class SharedDevicePrompt extends BaseScene {
 		super(SCENE_LOGIN_SHARED_DEVICE);
 	}
 
-	init() {
-		this.sceneManager = this.getSceneManager();
-		this.assetManager = this.getAssetManager();
+	init(data = {}) {
+		data["launchScene"] = true;
+		super.init(data);
 	}
 
 	preload() {
@@ -125,7 +125,5 @@ export class SharedDevicePrompt extends BaseScene {
 			this.sceneManager.launch('LoginSavePasswordPromptScene');
 		});
 		// All interactive events end here
-
-		this.events.emit("scene-awake");
 	}
 }

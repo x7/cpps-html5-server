@@ -1,5 +1,5 @@
 import { createAnimation } from "../../../animations/animations.js";
-import { BaseScene } from "../base/baseScene.js";
+import { BaseScene } from "../baseScene.js";
 import { ASSET_TYPES } from "../../assets/assetTypes.js";
 import { displayLoading, removeLoading } from "../loading/loadingHelper.js";
 import { SCENE_PRELOAD_ASSETS, SCENE_START_SCREEN } from "../sceneNames.js";

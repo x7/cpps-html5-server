@@ -1,8 +1,8 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { SCHOOL_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
-export class SchoolScene extends BaseScene {
+export class SchoolScene extends RoomScene {
     constructor() {
         super("SchoolScene");
     }

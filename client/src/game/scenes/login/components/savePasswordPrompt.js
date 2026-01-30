@@ -1,18 +1,18 @@
 import { showWarningImage, getWarningImages } from './savePasswordPromptHelper.js';
 import { enableRememberMeBoxes } from '../loginHelper.js';
-import { BaseScene } from '../../base/baseScene.js';
+import { BaseScene } from '../../baseScene.js';
 import { ASSET_TYPES } from '../../../assets/assetTypes.js';
 import { SCENE_LOGIN_SHARED_PASSWORD } from '../../sceneNames.js';
 
 export class LoginSavePasswordPrompt extends BaseScene {
 	constructor() {
 		super(SCENE_LOGIN_SHARED_PASSWORD);
-        this.warningLoopInterval = 5;
 	}
 
-    init() {
-		this.sceneManager = this.getSceneManager();
-		this.assetManager = this.getAssetManager();
+    init(data = {}) {
+        data["launchScene"] = true;
+		super.init(data);
+        this.warningLoopInterval = 5;
 	}
 
     preload() {

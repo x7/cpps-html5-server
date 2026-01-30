@@ -1,9 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { DOCKS_ROOM_BOUNCY_CIRCLES, DOCKS_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
-export class DocksScene extends BaseScene {
+export class DocksScene extends RoomScene {
     constructor() {
         super("DocksScene")
     }

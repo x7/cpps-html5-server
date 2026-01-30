@@ -1,19 +1,18 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { DOJO_ROOM_FIRE_DOOR_CLOSE, DOJO_ROOM_FIRE_DOOR_OPEN, DOJO_ROOM_MUSIC, DOJO_ROOM_SNOW_DOOR_CLOSE, DOJO_ROOM_SNOW_DOOR_OPEN, DOJO_ROOM_WATER_DOOR_CLOSE, DOJO_ROOM_WATER_DOOR_OPEN } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
 // TODO: Fix fire door bugging out on hover events
 // TODO: Fix right side card jistu mats
 
-export class DojoScene extends BaseScene {
+export class DojoScene extends RoomScene {
     constructor() {
         super("DojoScene");
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-		this.audioManager = this.getAudioManager();
+		super.init(data);
     }
 
     preloadContent() {

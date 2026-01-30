@@ -2,7 +2,6 @@ import { RoomMouseMovemenet } from "../../../../inputs/roomMouseMovement";
 import { RoomKeyPressed } from "../../../../inputs/roomKeyPressed";
 import MovementManager from "../../../../penguin/movementManager";
 import snowBallManager from "../../../../penguin/snowBallManager";
-import { BaseScene } from "../../../base/baseScene";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { SCENE_ROOM_CLOTHES_SHOP, SCENE_ROOM_COFFEE_SHOP, SCENE_ROOM_DANCE_CLUB, SCENE_ROOM_DOCKS, SCENE_ROOM_SNOW_FORTS, SCENE_ROOM_TOWN } from "../../../sceneNames";
 import { ClientPenguin } from "../../../../penguin/clientPenguin";

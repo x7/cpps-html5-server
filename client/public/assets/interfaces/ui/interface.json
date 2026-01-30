@@ -4,30 +4,72 @@
 			"image": "interface.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 1515,
-				"h": 200
+				"w": 1911,
+				"h": 462
 			},
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "interface_moderator_icon_hover.png",
+					"filename": "interface_main_interface_bar.png",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
-						"w": 131,
-						"h": 130
+						"w": 1144,
+						"h": 90
 					},
 					"spriteSourceSize": {
-						"x": 7,
-						"y": 8,
-						"w": 116,
-						"h": 114
+						"x": 0,
+						"y": 0,
+						"w": 1144,
+						"h": 90
 					},
 					"frame": {
 						"x": 1,
 						"y": 1,
-						"w": 116,
-						"h": 114
+						"w": 1144,
+						"h": 90
+					}
+				},
+				{
+					"filename": "interface_safe_chat_longer_button0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 532,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 526,
+						"h": 62
+					},
+					"frame": {
+						"x": 1147,
+						"y": 1,
+						"w": 526,
+						"h": 62
+					}
+				},
+				{
+					"filename": "interface_emoji_box.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 204,
+						"h": 460
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 204,
+						"h": 460
+					},
+					"frame": {
+						"x": 1675,
+						"y": 1,
+						"w": 204,
+						"h": 460
 					}
 				},
 				{
@@ -45,10 +87,52 @@
 						"h": 82
 					},
 					"frame": {
-						"x": 1,
-						"y": 117,
+						"x": 1147,
+						"y": 65,
 						"w": 260,
 						"h": 82
+					}
+				},
+				{
+					"filename": "interface_dance_box.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 140,
+						"h": 396
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 140,
+						"h": 396
+					},
+					"frame": {
+						"x": 1409,
+						"y": 65,
+						"w": 140,
+						"h": 396
+					}
+				},
+				{
+					"filename": "interface_moderator_icon_hover.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 130
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 8,
+						"w": 116,
+						"h": 114
+					},
+					"frame": {
+						"x": 1551,
+						"y": 65,
+						"w": 116,
+						"h": 114
 					}
 				},
 				{
@@ -66,8 +150,8 @@
 						"h": 112
 					},
 					"frame": {
-						"x": 119,
-						"y": 1,
+						"x": 1551,
+						"y": 181,
 						"w": 112,
 						"h": 112
 					}
@@ -87,178 +171,31 @@
 						"h": 107
 					},
 					"frame": {
-						"x": 233,
-						"y": 1,
+						"x": 1551,
+						"y": 295,
 						"w": 108,
 						"h": 107
 					}
 				},
 				{
-					"filename": "interface_newspaper_icon0001.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 90,
-						"h": 83
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 90,
-						"h": 83
-					},
-					"frame": {
-						"x": 263,
-						"y": 110,
-						"w": 90,
-						"h": 83
-					}
-				},
-				{
-					"filename": "interface_map0001.png",
+					"filename": "interface_emoji_happy_face0016.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 112,
-						"h": 112
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 4,
-						"w": 88,
-						"h": 104
-					},
-					"frame": {
-						"x": 343,
-						"y": 1,
-						"w": 88,
-						"h": 104
-					}
-				},
-				{
-					"filename": "interface_main_interface_bar.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 1144,
-						"h": 90
+						"w": 63,
+						"h": 61
 					},
 					"spriteSourceSize": {
 						"x": 0,
-						"y": 0,
-						"w": 1144,
-						"h": 90
+						"y": 7,
+						"w": 63,
+						"h": 52
 					},
 					"frame": {
-						"x": 355,
-						"y": 107,
-						"w": 1144,
-						"h": 90
-					}
-				},
-				{
-					"filename": "interface_mail_icon0002.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 90,
-						"h": 98
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 90,
-						"h": 98
-					},
-					"frame": {
-						"x": 433,
-						"y": 1,
-						"w": 90,
-						"h": 98
-					}
-				},
-				{
-					"filename": "interface_newspaper_icon0002.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 90,
-						"h": 83
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 90,
-						"h": 83
-					},
-					"frame": {
-						"x": 525,
-						"y": 1,
-						"w": 90,
-						"h": 83
-					}
-				},
-				{
-					"filename": "interface_mail_icon0001.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 90,
-						"h": 98
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 25,
-						"w": 90,
-						"h": 73
-					},
-					"frame": {
-						"x": 617,
-						"y": 1,
-						"w": 90,
-						"h": 73
-					}
-				},
-				{
-					"filename": "interface_chat_bubble_icon0001.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 30,
-						"h": 29
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 30,
-						"h": 29
-					},
-					"frame": {
-						"x": 617,
-						"y": 76,
-						"w": 30,
-						"h": 29
-					}
-				},
-				{
-					"filename": "inteface_snowball_icon.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 29,
-						"h": 28
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 29,
-						"h": 28
-					},
-					"frame": {
-						"x": 649,
-						"y": 76,
-						"w": 29,
-						"h": 28
+						"x": 1551,
+						"y": 404,
+						"w": 63,
+						"h": 52
 					}
 				},
 				{
@@ -276,262 +213,52 @@
 						"h": 56
 					},
 					"frame": {
-						"x": 709,
-						"y": 1,
+						"x": 1616,
+						"y": 404,
 						"w": 56,
 						"h": 56
 					}
 				},
 				{
-					"filename": "interface_chat_drop_down.png",
+					"filename": "interface_emoji_happy_face0015.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 208,
-						"h": 44
+						"w": 63,
+						"h": 61
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 208,
-						"h": 44
-					},
-					"frame": {
-						"x": 709,
-						"y": 59,
-						"w": 208,
-						"h": 44
-					}
-				},
-				{
-					"filename": "interface_main_interface_button0002.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 56,
-						"h": 56
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 56,
-						"h": 56
-					},
-					"frame": {
-						"x": 767,
-						"y": 1,
-						"w": 56,
-						"h": 56
-					}
-				},
-				{
-					"filename": "interface_chat00010001.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 571,
-						"h": 54
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 571,
-						"h": 54
-					},
-					"frame": {
-						"x": 825,
-						"y": 1,
-						"w": 571,
-						"h": 54
-					}
-				},
-				{
-					"filename": "interface_yellow_title.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 176,
-						"h": 44
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 176,
-						"h": 44
-					},
-					"frame": {
-						"x": 919,
-						"y": 57,
-						"w": 176,
-						"h": 44
-					}
-				},
-				{
-					"filename": "interface_bottom_chat.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 260,
-						"h": 40
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 260,
-						"h": 40
-					},
-					"frame": {
-						"x": 1097,
-						"y": 57,
-						"w": 260,
-						"h": 40
-					}
-				},
-				{
-					"filename": "interface_dance_icon.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 33,
-						"h": 38
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 33,
+						"x": 28,
+						"y": 14,
+						"w": 10,
 						"h": 38
 					},
 					"frame": {
-						"x": 1359,
-						"y": 57,
-						"w": 33,
+						"x": 1661,
+						"y": 295,
+						"w": 10,
 						"h": 38
 					}
 				},
 				{
-					"filename": "interface_player_icon.png",
+					"filename": "interface_emoji_happy_face0014.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 30,
-						"h": 35
+						"w": 63,
+						"h": 61
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 30,
-						"h": 35
+						"x": 19,
+						"y": 14,
+						"w": 28,
+						"h": 38
 					},
 					"frame": {
-						"x": 1394,
-						"y": 57,
-						"w": 30,
-						"h": 35
-					}
-				},
-				{
-					"filename": "interface_settings_icono.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 33,
-						"h": 34
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 33,
-						"h": 34
-					},
-					"frame": {
-						"x": 1398,
+						"x": 1881,
 						"y": 1,
-						"w": 33,
-						"h": 34
-					}
-				},
-				{
-					"filename": "interface_igloo_icon.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 32,
-						"h": 33
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 33
-					},
-					"frame": {
-						"x": 1426,
-						"y": 37,
-						"w": 32,
-						"h": 33
-					}
-				},
-				{
-					"filename": "interface_friends_icon.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 32,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
-					},
-					"frame": {
-						"x": 1426,
-						"y": 72,
-						"w": 32,
-						"h": 32
-					}
-				},
-				{
-					"filename": "interface_blue_puffle_icon.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 36,
-						"h": 31
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 36,
-						"h": 31
-					},
-					"frame": {
-						"x": 1433,
-						"y": 1,
-						"w": 36,
-						"h": 31
-					}
-				},
-				{
-					"filename": "interface_emojis_icon.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 31,
-						"h": 31
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 31,
-						"h": 31
-					},
-					"frame": {
-						"x": 1471,
-						"y": 1,
-						"w": 31,
-						"h": 31
+						"w": 28,
+						"h": 38
 					}
 				},
 				{
@@ -549,8 +276,8 @@
 						"h": 30
 					},
 					"frame": {
-						"x": 1460,
-						"y": 34,
+						"x": 1881,
+						"y": 41,
 						"w": 26,
 						"h": 30
 					}
@@ -570,10 +297,1543 @@
 						"h": 30
 					},
 					"frame": {
-						"x": 1488,
-						"y": 34,
+						"x": 1881,
+						"y": 73,
 						"w": 26,
 						"h": 30
+					}
+				},
+				{
+					"filename": "inteface_snowball_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 28
+					},
+					"frame": {
+						"x": 1881,
+						"y": 105,
+						"w": 29,
+						"h": 28
+					}
+				},
+				{
+					"filename": "interface_chat00010001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 571,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 54
+					},
+					"frame": {
+						"x": 1,
+						"y": 93,
+						"w": 571,
+						"h": 54
+					}
+				},
+				{
+					"filename": "interface_safe_chat_longer_button0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 532,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 526,
+						"h": 62
+					},
+					"frame": {
+						"x": 574,
+						"y": 93,
+						"w": 526,
+						"h": 62
+					}
+				},
+				{
+					"filename": "interface_throw_snowball_icon0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 168,
+						"h": 168
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 168,
+						"h": 168
+					},
+					"frame": {
+						"x": 1102,
+						"y": 149,
+						"w": 168,
+						"h": 168
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 6,
+						"w": 42,
+						"h": 53
+					},
+					"frame": {
+						"x": 1102,
+						"y": 93,
+						"w": 42,
+						"h": 53
+					}
+				},
+				{
+					"filename": "interface_big_white_buttons0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 124,
+						"h": 124
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 124
+					},
+					"frame": {
+						"x": 1272,
+						"y": 149,
+						"w": 124,
+						"h": 124
+					}
+				},
+				{
+					"filename": "interface_big_white_buttons0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 124,
+						"h": 124
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 124
+					},
+					"frame": {
+						"x": 1272,
+						"y": 275,
+						"w": 124,
+						"h": 124
+					}
+				},
+				{
+					"filename": "interface_safe_chat_longer_button_next_page0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 532,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 526,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 149,
+						"w": 526,
+						"h": 62
+					}
+				},
+				{
+					"filename": "interface_safe_chat_longer_button_next_page0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 532,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 526,
+						"h": 62
+					},
+					"frame": {
+						"x": 529,
+						"y": 157,
+						"w": 526,
+						"h": 62
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 4,
+						"w": 41,
+						"h": 57
+					},
+					"frame": {
+						"x": 1057,
+						"y": 157,
+						"w": 41,
+						"h": 57
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 6,
+						"w": 42,
+						"h": 53
+					},
+					"frame": {
+						"x": 1057,
+						"y": 216,
+						"w": 42,
+						"h": 53
+					}
+				},
+				{
+					"filename": "interface_safe_chat_button_next_page0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 268,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 262,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 213,
+						"w": 262,
+						"h": 62
+					}
+				},
+				{
+					"filename": "interface_mail_icon0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 90,
+						"h": 98
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 90,
+						"h": 98
+					},
+					"frame": {
+						"x": 265,
+						"y": 213,
+						"w": 90,
+						"h": 98
+					}
+				},
+				{
+					"filename": "interface_safe_chat_button_next_page0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 268,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 262,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 277,
+						"w": 262,
+						"h": 62
+					}
+				},
+				{
+					"filename": "interface_map0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 112,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 88,
+						"h": 104
+					},
+					"frame": {
+						"x": 357,
+						"y": 213,
+						"w": 88,
+						"h": 104
+					}
+				},
+				{
+					"filename": "interface_dances_penguin_dancing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 65,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 65,
+						"h": 97
+					},
+					"frame": {
+						"x": 265,
+						"y": 313,
+						"w": 65,
+						"h": 97
+					}
+				},
+				{
+					"filename": "interface_safe_chat_buttons0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 268,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 262,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 341,
+						"w": 262,
+						"h": 62
+					}
+				},
+				{
+					"filename": "interface_bottom_chat.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 260,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 260,
+						"h": 40
+					},
+					"frame": {
+						"x": 1,
+						"y": 405,
+						"w": 260,
+						"h": 40
+					}
+				},
+				{
+					"filename": "interface_dances_penguin_sitting.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 73,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 73,
+						"h": 63
+					},
+					"frame": {
+						"x": 447,
+						"y": 213,
+						"w": 73,
+						"h": 63
+					}
+				},
+				{
+					"filename": "interface_safe_chat_buttons0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 268,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 262,
+						"h": 62
+					},
+					"frame": {
+						"x": 522,
+						"y": 221,
+						"w": 262,
+						"h": 62
+					}
+				},
+				{
+					"filename": "interface_emoji_button0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 60,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 60,
+						"h": 60
+					},
+					"frame": {
+						"x": 447,
+						"y": 278,
+						"w": 60,
+						"h": 60
+					}
+				},
+				{
+					"filename": "interface_newspaper_icon0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 90,
+						"h": 83
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 90,
+						"h": 83
+					},
+					"frame": {
+						"x": 332,
+						"y": 319,
+						"w": 90,
+						"h": 83
+					}
+				},
+				{
+					"filename": "interface_chat_drop_down.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 208,
+						"h": 44
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 208,
+						"h": 44
+					},
+					"frame": {
+						"x": 786,
+						"y": 271,
+						"w": 208,
+						"h": 44
+					}
+				},
+				{
+					"filename": "interface_pull_chat_down_button.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 208,
+						"h": 44
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 208,
+						"h": 44
+					},
+					"frame": {
+						"x": 786,
+						"y": 221,
+						"w": 208,
+						"h": 44
+					}
+				},
+				{
+					"filename": "interface_newspaper_icon0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 90,
+						"h": 83
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 90,
+						"h": 83
+					},
+					"frame": {
+						"x": 996,
+						"y": 271,
+						"w": 90,
+						"h": 83
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 9,
+						"w": 54,
+						"h": 48
+					},
+					"frame": {
+						"x": 996,
+						"y": 221,
+						"w": 54,
+						"h": 48
+					}
+				},
+				{
+					"filename": "interface_mail_icon0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 90,
+						"h": 98
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 25,
+						"w": 90,
+						"h": 73
+					},
+					"frame": {
+						"x": 1088,
+						"y": 319,
+						"w": 90,
+						"h": 73
+					}
+				},
+				{
+					"filename": "interface_dances_penguin_waving.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 85,
+						"h": 81
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 85,
+						"h": 81
+					},
+					"frame": {
+						"x": 1180,
+						"y": 319,
+						"w": 85,
+						"h": 81
+					}
+				},
+				{
+					"filename": "interface_emoji_button0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 60,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 60,
+						"h": 60
+					},
+					"frame": {
+						"x": 1267,
+						"y": 401,
+						"w": 60,
+						"h": 60
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 8,
+						"w": 60,
+						"h": 50
+					},
+					"frame": {
+						"x": 1329,
+						"y": 401,
+						"w": 60,
+						"h": 50
+					}
+				},
+				{
+					"filename": "interface_yellow_title.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 44
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 44
+					},
+					"frame": {
+						"x": 509,
+						"y": 285,
+						"w": 176,
+						"h": 44
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 0,
+						"w": 50,
+						"h": 60
+					},
+					"frame": {
+						"x": 687,
+						"y": 285,
+						"w": 50,
+						"h": 60
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 6,
+						"w": 58,
+						"h": 53
+					},
+					"frame": {
+						"x": 509,
+						"y": 331,
+						"w": 58,
+						"h": 53
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 4,
+						"w": 47,
+						"h": 57
+					},
+					"frame": {
+						"x": 424,
+						"y": 340,
+						"w": 47,
+						"h": 57
+					}
+				},
+				{
+					"filename": "interface_main_interface_button0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 56
+					},
+					"frame": {
+						"x": 569,
+						"y": 331,
+						"w": 56,
+						"h": 56
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 6,
+						"w": 58,
+						"h": 53
+					},
+					"frame": {
+						"x": 473,
+						"y": 386,
+						"w": 58,
+						"h": 53
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 11,
+						"w": 32,
+						"h": 44
+					},
+					"frame": {
+						"x": 473,
+						"y": 340,
+						"w": 32,
+						"h": 44
+					}
+				},
+				{
+					"filename": "interface_emoji_green_leaf.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 46,
+						"h": 55
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 46,
+						"h": 55
+					},
+					"frame": {
+						"x": 424,
+						"y": 399,
+						"w": 46,
+						"h": 55
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 54,
+						"h": 54
+					},
+					"frame": {
+						"x": 332,
+						"y": 404,
+						"w": 54,
+						"h": 54
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 13,
+						"w": 51,
+						"h": 40
+					},
+					"frame": {
+						"x": 263,
+						"y": 412,
+						"w": 51,
+						"h": 40
+					}
+				},
+				{
+					"filename": "interface_dance_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 33,
+						"h": 38
+					},
+					"frame": {
+						"x": 388,
+						"y": 404,
+						"w": 33,
+						"h": 38
+					}
+				},
+				{
+					"filename": "interface_player_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 30,
+						"h": 35
+					},
+					"frame": {
+						"x": 533,
+						"y": 386,
+						"w": 30,
+						"h": 35
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 6,
+						"w": 46,
+						"h": 55
+					},
+					"frame": {
+						"x": 627,
+						"y": 331,
+						"w": 46,
+						"h": 55
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 7,
+						"w": 38,
+						"h": 52
+					},
+					"frame": {
+						"x": 739,
+						"y": 285,
+						"w": 38,
+						"h": 52
+					}
+				},
+				{
+					"filename": "interface_player_star.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 54,
+						"h": 52
+					},
+					"frame": {
+						"x": 779,
+						"y": 317,
+						"w": 54,
+						"h": 52
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 8,
+						"w": 48,
+						"h": 53
+					},
+					"frame": {
+						"x": 675,
+						"y": 347,
+						"w": 48,
+						"h": 53
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 10,
+						"w": 46,
+						"h": 50
+					},
+					"frame": {
+						"x": 627,
+						"y": 388,
+						"w": 46,
+						"h": 50
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 8,
+						"w": 50,
+						"h": 50
+					},
+					"frame": {
+						"x": 565,
+						"y": 389,
+						"w": 50,
+						"h": 50
+					}
+				},
+				{
+					"filename": "interface_chat_bubble_icon0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 30,
+						"h": 29
+					},
+					"frame": {
+						"x": 533,
+						"y": 423,
+						"w": 30,
+						"h": 29
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 725,
+						"y": 347,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 13,
+						"w": 51,
+						"h": 40
+					},
+					"frame": {
+						"x": 835,
+						"y": 317,
+						"w": 51,
+						"h": 40
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 888,
+						"y": 317,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 835,
+						"y": 359,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 775,
+						"y": 371,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 725,
+						"y": 397,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 675,
+						"y": 402,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 938,
+						"y": 317,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 988,
+						"y": 356,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 9,
+						"w": 49,
+						"h": 46
+					},
+					"frame": {
+						"x": 885,
+						"y": 367,
+						"w": 49,
+						"h": 46
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 825,
+						"y": 409,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 17,
+						"w": 48,
+						"h": 35
+					},
+					"frame": {
+						"x": 775,
+						"y": 421,
+						"w": 48,
+						"h": 35
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 936,
+						"y": 367,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 10,
+						"w": 45,
+						"h": 46
+					},
+					"frame": {
+						"x": 875,
+						"y": 415,
+						"w": 45,
+						"h": 46
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 1038,
+						"y": 356,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 19,
+						"w": 46,
+						"h": 27
+					},
+					"frame": {
+						"x": 1088,
+						"y": 394,
+						"w": 46,
+						"h": 27
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 12,
+						"w": 41,
+						"h": 42
+					},
+					"frame": {
+						"x": 1136,
+						"y": 394,
+						"w": 41,
+						"h": 42
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 13,
+						"w": 45,
+						"h": 44
+					},
+					"frame": {
+						"x": 1179,
+						"y": 402,
+						"w": 45,
+						"h": 44
+					}
+				},
+				{
+					"filename": "interface_settings_icono.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 33,
+						"h": 34
+					},
+					"frame": {
+						"x": 1226,
+						"y": 402,
+						"w": 33,
+						"h": 34
+					}
+				},
+				{
+					"filename": "interface_emoji_happy_face0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 9,
+						"w": 43,
+						"h": 46
+					},
+					"frame": {
+						"x": 986,
+						"y": 406,
+						"w": 43,
+						"h": 46
+					}
+				},
+				{
+					"filename": "interface_igloo_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 33
+					},
+					"frame": {
+						"x": 1031,
+						"y": 406,
+						"w": 32,
+						"h": 33
+					}
+				},
+				{
+					"filename": "interface_blue_puffle_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 36,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 36,
+						"h": 31
+					},
+					"frame": {
+						"x": 922,
+						"y": 417,
+						"w": 36,
+						"h": 31
+					}
+				},
+				{
+					"filename": "interface_friends_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 1065,
+						"y": 423,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "interface_emojis_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 31,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 31,
+						"h": 31
+					},
+					"frame": {
+						"x": 1099,
+						"y": 423,
+						"w": 31,
+						"h": 31
 					}
 				}
 			]
@@ -582,6 +1842,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:48309fddca8165aa5e667ba028fed28a:d7b6912104ee649804f4a5092824c938:8141c0d8370228a8661c55b8bcf20981$"
+		"smartupdate": "$TexturePacker:SmartUpdate:b52a7d426e0e3d5d152cd3069e44ea63:7abb39dbcd92fe4e7cef6e999393aa05:8141c0d8370228a8661c55b8bcf20981$"
 	}
 }

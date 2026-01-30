@@ -1,18 +1,17 @@
 import { ASSET_TYPES } from "../../../../../assets/assetTypes";
 import { DOJO_FIRE_ROOM_MUSIC } from "../../../../../audio/audioConstants";
-import { BaseScene } from "../../../../base/baseScene";
+import { RoomScene } from "../../RoomScene";
 
 // TODO: Redesign this entirely
 // TODO: Add animations
 
-export class FireDojoScene extends BaseScene {
+export class FireDojoScene extends RoomScene {
     constructor() {
         super("FireDojoScene");
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-		this.audioManager = this.getAudioManager();
+		super.init(data);
     }
 
     preloadContent() {

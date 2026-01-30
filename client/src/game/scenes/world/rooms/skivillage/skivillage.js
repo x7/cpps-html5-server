@@ -1,12 +1,12 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { SKI_VILLAGE_ROOM_EPF_DOOR_CLOSE, SKI_VILLAGE_ROOM_EPF_DOOR_OPEN, SKI_VILLAGE_ROOM_MUSIC, SKI_VILLAGE_ROOM_SKI_LODGE_DOOR_CLOSE, SKI_VILLAGE_ROOM_SKI_LODGE_DOOR_OPEN } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
 // TODO: Fix animations (1)
 // TODO: Add mission animation (1)
 
-export class SkiVillageScene extends BaseScene {
+export class SkiVillageScene extends RoomScene {
     constructor() {
         super("SkiVillageScene");
     }

@@ -1,4 +1,4 @@
-import { BaseScene } from "../base/baseScene";
+import { BaseScene } from "../baseScene";
 import { ASSET_TYPES } from "../../assets/assetTypes";
 import { exitMenu, switchMenu } from "./mapHelper";
 import { SCENE_MAP } from "../sceneNames";
@@ -8,8 +8,8 @@ export class MapScene extends BaseScene {
         super(SCENE_MAP);
     }
 
-    init(data) {
-        this.assetManager = this.getAssetManager();
+    init(data = {}) {
+		super.init(data);
         this.places = [];
         this.games = [];
         this.shops = [];

@@ -84,8 +84,8 @@ export class SceneManager {
             return;
         }
 
-        if(this.launchedScenes.has(sceneId)) {
-            this.launchedScenes.delete(sceneId);
+        if(this.launchedScenes.has(scene)) {
+            this.launchedScenes.delete(scene);
         }
 
         this.game.scene.stop(sceneId);
@@ -121,9 +121,15 @@ export class SceneManager {
     launch(sceneId, data = {}) {
         const scene = this.get(sceneId);
         if(scene == null) {
+            console.log(`launch null ${sceneId}`)
             return;
         }
 
+        if(this.isActive(sceneId)) {
+            return;
+        }
+
+        data["launchScene"] = true;
         this.currentScene.scene.launch(sceneId, data);
         this.launchedScenes.add(scene);   
     }
@@ -177,10 +183,12 @@ export class SceneManager {
     sendToTop(sceneId) {
         const scene = this.get(sceneId);
         if(scene == null) {
+            console.log(`sendtop bad ${sceneId}`)
             return;
         }
 
         this.game.scene.bringToTop(sceneId);
+        console.log(`sendtop good ${sceneId}`)
     }
 
     sendToBack(sceneId) {

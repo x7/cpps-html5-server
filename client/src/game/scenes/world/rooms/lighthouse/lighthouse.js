@@ -1,11 +1,11 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { LIGHT_HOUSE_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
 // TODO: Get instruments thing in the right side buy shit idk
 
-export class LighthouseScene extends BaseScene {
+export class LighthouseScene extends RoomScene {
     constructor() {
         super("LightHouseScene");
     }

@@ -1,9 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
-import { GIFT_SHOP_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { GIFT_SHOP_ROOM_MUSIC } from "../../../../audio/audioConstants";;
+import { RoomScene } from "../RoomScene";
 
-export class GiftshopScene extends BaseScene {
+export class GiftshopScene extends RoomScene {
     constructor() {
         super("GiftShopScene");
     }

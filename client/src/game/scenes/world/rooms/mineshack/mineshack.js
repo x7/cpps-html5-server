@@ -1,9 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { MINE_SHACK_ROOM_DOOR_CLOSE, MINE_SHACK_ROOM_DOOR_OPEN, MINE_SHACK_ROOM_MINE_LIGHT_OFF, MINE_SHACK_ROOM_MINE_LIGHT_ON, MINE_SHACK_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
-export class MineShackScene extends BaseScene {
+export class MineShackScene extends RoomScene {
     constructor() {
         super("MineShackScene");
     }

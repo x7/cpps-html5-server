@@ -1,7 +1,6 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { DANCE_CLUB_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
 import { SCENE_ROOM_DANCE_CLUB } from "../../../sceneNames";
 import { RoomScene } from "../RoomScene";
 

@@ -1,15 +1,14 @@
 import { ASSET_TYPES } from "../../../../../assets/assetTypes";
 import { DOJO_WATER_ROOM_MUSIC } from "../../../../../audio/audioConstants";
-import { BaseScene } from "../../../../base/baseScene";
+import { RoomScene } from "../../RoomScene";
 
-export class WaterDojoScene extends BaseScene {
+export class WaterDojoScene extends RoomScene {
     constructor() {
         super("WaterDojoScene");
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-		this.audioManager = this.getAudioManager();
+		super.init(data);
     }
 
     preloadContent() {

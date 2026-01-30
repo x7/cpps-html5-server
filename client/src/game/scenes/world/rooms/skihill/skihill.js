@@ -1,10 +1,10 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { SKI_HILL_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
 // TODO: add missing animations
 
-export class SkihillScene extends BaseScene {
+export class SkihillScene extends RoomScene {
     constructor() {
         super("SkiHillScene");
     }

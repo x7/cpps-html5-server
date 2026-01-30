@@ -1,12 +1,12 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { BEACON_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
 // TODO: Launch pad hover effect little buggy
 // TODO: Fix stair railing looks slanted
 
-export class BeaconScene extends BaseScene {
+export class BeaconScene extends RoomScene {
     constructor() {
         super("BeaconScene");
     }

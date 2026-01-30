@@ -1,4 +1,4 @@
-import { BaseScene } from "../base/baseScene";
+import { BaseScene } from "../baseScene";
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
 import { removeError } from "./errorHelper.js";
 import { SCENE_ERROR } from "../sceneNames.js";
@@ -8,7 +8,7 @@ export class ErrorScene extends BaseScene {
 		super(SCENE_ERROR);
 	}
 
-	init(data) {
+	init(data = {}) {
 		super.init(data);
 		this.errorMessage = (data.message == null ? "No error message provided.\nPlease provide one." : data.message);
 	}

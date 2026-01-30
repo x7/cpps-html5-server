@@ -1,4 +1,4 @@
-import { BaseScene } from '../../base/baseScene';
+import { BaseScene } from '../../baseScene';
 import { ASSET_TYPES } from '../../../assets/assetTypes';
 import { SCENE_ROOM_TOWN, SCENE_SERVER_SELECTION } from '../../sceneNames';
 import { displayLoading, removeLoading } from '../../loading/loadingHelper';
@@ -16,8 +16,8 @@ export class ServerSelectionScene extends BaseScene {
 		super(SCENE_SERVER_SELECTION);
 	}
 
-	init() {
-		super.init();
+	init(data) {
+		super.init(data);
 		this.sceneManager.setCurrentScene(this);
 	}
 

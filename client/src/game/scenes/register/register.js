@@ -1,5 +1,5 @@
 import { updatePenguinColor, updateSelectedColor, registerPenguin, penguinColors, createInputCss, onUsernameInput, onPasswordInput, onSecondPasswordInput, onEmailInput } from './registerHelper.js';
-import { BaseScene } from '../base/baseScene.js';
+import { BaseScene } from '../baseScene.js';
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
 import { SCENE_REGISTER } from '../sceneNames.js';
 

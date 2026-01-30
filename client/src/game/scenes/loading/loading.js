@@ -1,5 +1,5 @@
 import { pickRandomCharacter, updateProgress } from './loadingHelper.js'
-import { BaseScene } from '../base/baseScene.js';
+import { BaseScene } from '../baseScene.js';
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
 import { SCENE_LOADING } from '../sceneNames.js';
 

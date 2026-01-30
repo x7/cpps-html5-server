@@ -1,8 +1,8 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { FOREST_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { BaseScene } from "../../../base/baseScene";
+import { RoomScene } from "../RoomScene";
 
-export class ForestScene extends BaseScene {
+export class ForestScene extends RoomScene {
     constructor() {
         super("ForestScene");
     }

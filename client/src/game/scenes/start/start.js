@@ -1,4 +1,4 @@
-import { BaseScene } from '../base/baseScene.js';
+import { BaseScene } from '../baseScene.js';
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
 import { displayLoading, removeLoading } from '../loading/loadingHelper.js';
 import { SCENE_LOGIN, SCENE_REGISTER, SCENE_START_SCREEN } from '../sceneNames.js';
@@ -10,8 +10,6 @@ export class StartScene extends BaseScene {
 
 	init(data) {
 		super.init(data);
-		this.sceneManager = this.getSceneManager();
-		this.assetManager = this.getAssetManager();
 	}
 
 	preloadContent() {

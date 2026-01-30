@@ -1,4 +1,4 @@
-import { BaseScene } from "../../base/baseScene";
+import { BaseScene } from "../../baseScene";
 import eventEmitter from "../../../../util/eventEmitter";
 import { ClientPenguin } from "../../../penguin/clientPenguin";
 import { RoomMouseMovemenet } from "../../../inputs/roomMouseMovement";

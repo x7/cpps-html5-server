@@ -1,14 +1,15 @@
 import { ASSET_TYPES } from "../../assets/assetTypes";
-import { BaseScene } from "../base/baseScene";
+import { BaseScene } from "../baseScene";
+import { SCENE_INTERFACE, SCENE_INTERFACE_DANCE } from "../sceneNames";
 
 // TODO: Fix chat input
 
 export class InterfaceScene extends BaseScene {
     constructor() {
-        super("InterfaceScene");
+        super(SCENE_INTERFACE);
     }
 
-    init(data) {
+    init(data = {}) {
 		super.init(data);
     }
 
@@ -293,6 +294,7 @@ export class InterfaceScene extends BaseScene {
 		});
 
 		interface_bottom_bar_dance_button_hovered.on("pointerdown", () => {
+			this.sceneManager.launch(SCENE_INTERFACE_DANCE);
 		});
 
 		interface_bottom_bar_snowball_button.on("pointerover", () => {
