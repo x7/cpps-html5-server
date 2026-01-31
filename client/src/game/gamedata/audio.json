@@ -515,5 +515,104 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "coffee_shop_room_music": {
+        "key": "coffee_shop_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "coffee_shop_town_door_open": {
+        "key": "coffee_shop_town_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "coffee_shop_town_door_close": {
+        "key": "coffee_shop_town_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "coffee_shop_top_cash_register": {
+        "key": "coffee_shop_top_cash_register",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "coffee_shop_bottom_cash_register": {
+        "key": "coffee_shop_bottom_cash_register",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "coffee_shop_cpt_light_on": {
+        "key": "coffee_shop_cpt_light_on",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "coffee_shop_cpt_light_off": {
+        "key": "coffee_shop_cpt_light_off",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "coffee_shop_bean_counter_hover": {
+        "key": "coffee_shop_bean_counter_hover",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "coffee_shop_smoothie_smash_hover": {
+        "key": "coffee_shop_smoothie_smash_hover",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }

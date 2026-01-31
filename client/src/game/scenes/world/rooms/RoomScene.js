@@ -45,7 +45,7 @@ export class RoomScene extends BaseScene {
         this.sceneManager.launch("InterfaceScene");
     }
 
-    update() {
-        this.movementManager.update();
-    }
+    // update() {
+    //     this.movementManager.update();
+    // }
 }

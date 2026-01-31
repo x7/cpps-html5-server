@@ -112,3 +112,15 @@ export const MINE_SHACK_ROOM_DOOR_CLOSE = "mine_shack_room_door_close";
 export const MINE_SHACK_ROOM_MINE_LIGHT_ON = "mine_shack_room_mine_light_on";
 export const MINE_SHACK_ROOM_MINE_LIGHT_OFF = "mine_shack_room_mine_light_off";
 // Mine Shack Room audio ends here
+
+// Coffee Shop Room audio starts here
+export const COFFEE_SHOP_ROOM_MUSIC = "coffee_shop_room_music";
+export const COFFEE_SHOP_TOWN_DOOR_OPEN = "coffee_shop_town_door_open";
+export const COFFEE_SHOP_TOWN_DOOR_CLOSE = "coffee_shop_town_door_close";
+export const COFFEE_SHOP_TOP_CASH_REGISTER = "coffee_shop_top_cash_register";
+export const COFFEE_SHOP_BOTTOM_CASH_REGISTER = "coffee_shop_bottom_cash_register";
+export const COFFEE_SHOP_CPT_LIGHT_ON = "coffee_shop_cpt_light_on";
+export const COFFEE_SHOP_CPT_LIGHT_OFF = "coffee_shop_cpt_light_off";
+export const COFFEE_SHOP_BEAN_COUNTER_HOVER = "coffee_shop_bean_counter_hover";
+export const COFFEE_SHOP_SMOOTHIE_SMASH_HOVER = "coffee_shop_smoothie_smash_hover";
+// Coffee Shop Room audio ends here
