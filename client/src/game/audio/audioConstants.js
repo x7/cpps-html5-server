@@ -124,3 +124,12 @@ export const COFFEE_SHOP_CPT_LIGHT_OFF = "coffee_shop_cpt_light_off";
 export const COFFEE_SHOP_BEAN_COUNTER_HOVER = "coffee_shop_bean_counter_hover";
 export const COFFEE_SHOP_SMOOTHIE_SMASH_HOVER = "coffee_shop_smoothie_smash_hover";
 // Coffee Shop Room audio ends here
+
+// Book Room audio starts here
+export const BOOK_ROOM_MUSIC = "book_room_music";
+export const BOOK_ROOM_EXIT_LIGHTS_ON = "book_room_exit_lights_on";
+export const BOOK_ROOM_EXIT_LIGHTS_OFF = "book_room_exit_lights_off";
+export const BOOK_ROOM_BOOK_OPEN = "book_room_book_open";
+export const BOOK_ROOM_BOOK_CLOSE = "book_room_book_close";
+export const BOOK_ROOM_PRINTING_NEWSPAPER = "book_room_printing_newspaper";
+// Book Room audio ends here

@@ -614,5 +614,71 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "book_room_music": {
+        "key": "book_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "book_room_exit_lights_on": {
+        "key": "book_room_exit_lights_on",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "book_room_exit_lights_off": {
+        "key": "book_room_exit_lights_off",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "book_room_book_open": {
+        "key": "book_room_book_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "book_room_book_close": {
+        "key": "book_room_book_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "book_room_printing_newspaper": {
+        "key": "book_room_printing_newspaper",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }

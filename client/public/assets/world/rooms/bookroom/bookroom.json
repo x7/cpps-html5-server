@@ -1,0 +1,1502 @@
+{
+	"textures": [
+		{
+			"image": "bookroom-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2043,
+				"h": 1997
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "book_room_main_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1769,
+						"h": 991
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1769,
+						"h": 991
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1769,
+						"h": 991
+					}
+				},
+				{
+					"filename": "book_room_wall_lights.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1740,
+						"h": 996
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1740,
+						"h": 996
+					},
+					"frame": {
+						"x": 1,
+						"y": 994,
+						"w": 1740,
+						"h": 996
+					}
+				},
+				{
+					"filename": "book_room_right_side_bigger_desk.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 299,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 299,
+						"h": 345
+					},
+					"frame": {
+						"x": 1743,
+						"y": 994,
+						"w": 299,
+						"h": 345
+					}
+				},
+				{
+					"filename": "book_room_main_office_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 229,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 229,
+						"h": 128
+					},
+					"frame": {
+						"x": 1772,
+						"y": 1,
+						"w": 229,
+						"h": 128
+					}
+				},
+				{
+					"filename": "book_room_wall.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 428
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 30,
+						"h": 428
+					},
+					"frame": {
+						"x": 2003,
+						"y": 1,
+						"w": 30,
+						"h": 428
+					}
+				},
+				{
+					"filename": "book_room_view_books_cabinet0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 221,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 221,
+						"h": 294
+					},
+					"frame": {
+						"x": 1772,
+						"y": 131,
+						"w": 221,
+						"h": 294
+					}
+				},
+				{
+					"filename": "book_room_view_books_cabinet0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 221,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 218,
+						"h": 292
+					},
+					"frame": {
+						"x": 1772,
+						"y": 427,
+						"w": 218,
+						"h": 292
+					}
+				},
+				{
+					"filename": "book_room_hat_hanger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 134
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 50,
+						"h": 134
+					},
+					"frame": {
+						"x": 1992,
+						"y": 431,
+						"w": 50,
+						"h": 134
+					}
+				},
+				{
+					"filename": "Symbol 730002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 121,
+						"h": 261
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 121,
+						"h": 261
+					},
+					"frame": {
+						"x": 1772,
+						"y": 721,
+						"w": 121,
+						"h": 261
+					}
+				},
+				{
+					"filename": "book_room_penguin_art_text0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 148,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 144,
+						"h": 30
+					},
+					"frame": {
+						"x": 1895,
+						"y": 721,
+						"w": 144,
+						"h": 30
+					}
+				},
+				{
+					"filename": "book_room_penguin_art_painting.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 117,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 117,
+						"h": 48
+					},
+					"frame": {
+						"x": 1895,
+						"y": 753,
+						"w": 117,
+						"h": 48
+					}
+				},
+				{
+					"filename": "book_room_small_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 82
+					},
+					"frame": {
+						"x": 1895,
+						"y": 803,
+						"w": 78,
+						"h": 82
+					}
+				},
+				{
+					"filename": "book_room_exit_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 120
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 120
+					},
+					"frame": {
+						"x": 1743,
+						"y": 1341,
+						"w": 200,
+						"h": 120
+					}
+				},
+				{
+					"filename": "book_room_bottom_right_desk.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 97,
+						"h": 257
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 97,
+						"h": 257
+					},
+					"frame": {
+						"x": 1945,
+						"y": 1341,
+						"w": 97,
+						"h": 257
+					}
+				},
+				{
+					"filename": "book_room_right_side_wall.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 157,
+						"h": 502
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 157,
+						"h": 502
+					},
+					"frame": {
+						"x": 1743,
+						"y": 1463,
+						"w": 157,
+						"h": 502
+					}
+				},
+				{
+					"filename": "book_room_penguin_art_text0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 148,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 148,
+						"h": 29
+					},
+					"frame": {
+						"x": 1743,
+						"y": 1967,
+						"w": 148,
+						"h": 29
+					}
+				},
+				{
+					"filename": "book_room_mancala_instructions0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 186,
+						"h": 328
+					},
+					"spriteSourceSize": {
+						"x": 66,
+						"y": 68,
+						"w": 120,
+						"h": 260
+					},
+					"frame": {
+						"x": 1902,
+						"y": 1600,
+						"w": 120,
+						"h": 260
+					}
+				}
+			]
+		},
+		{
+			"image": "bookroom-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1950,
+				"h": 2036
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "book_room_walk_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1720,
+						"h": 964
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1720,
+						"h": 964
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1720,
+						"h": 964
+					}
+				},
+				{
+					"filename": "book_room_exit_door_light.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 780,
+						"h": 702
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 780,
+						"h": 702
+					},
+					"frame": {
+						"x": 1,
+						"y": 967,
+						"w": 780,
+						"h": 702
+					}
+				},
+				{
+					"filename": "book_room_newspaper_printer.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 882,
+						"h": 525
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 882,
+						"h": 525
+					},
+					"frame": {
+						"x": 783,
+						"y": 967,
+						"w": 882,
+						"h": 525
+					}
+				},
+				{
+					"filename": "book_room_newspaper0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 63,
+						"y": 58,
+						"w": 784,
+						"h": 435
+					},
+					"frame": {
+						"x": 783,
+						"y": 1494,
+						"w": 784,
+						"h": 435
+					}
+				},
+				{
+					"filename": "book_room_cpt.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 226,
+						"h": 241
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 241
+					},
+					"frame": {
+						"x": 1723,
+						"y": 1,
+						"w": 226,
+						"h": 241
+					}
+				},
+				{
+					"filename": "book_room_penguin_art0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 260
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 67,
+						"w": 302,
+						"h": 191
+					},
+					"frame": {
+						"x": 1,
+						"y": 1671,
+						"w": 302,
+						"h": 191
+					}
+				},
+				{
+					"filename": "book_room_penguin_art0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 260
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 71,
+						"w": 282,
+						"h": 179
+					},
+					"frame": {
+						"x": 305,
+						"y": 1671,
+						"w": 282,
+						"h": 179
+					}
+				},
+				{
+					"filename": "book_room_bottom_right_couch.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 208,
+						"h": 248
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 208,
+						"h": 248
+					},
+					"frame": {
+						"x": 1723,
+						"y": 244,
+						"w": 208,
+						"h": 248
+					}
+				},
+				{
+					"filename": "book_room_exit_door_couch.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 216
+					},
+					"frame": {
+						"x": 1723,
+						"y": 494,
+						"w": 186,
+						"h": 216
+					}
+				},
+				{
+					"filename": "book_room_purple_box.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 178,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 178,
+						"h": 199
+					},
+					"frame": {
+						"x": 1723,
+						"y": 712,
+						"w": 178,
+						"h": 199
+					}
+				},
+				{
+					"filename": "book_room_mancala_instructions0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 186,
+						"h": 328
+					},
+					"spriteSourceSize": {
+						"x": 66,
+						"y": 68,
+						"w": 120,
+						"h": 260
+					},
+					"frame": {
+						"x": 1569,
+						"y": 1494,
+						"w": 120,
+						"h": 260
+					}
+				},
+				{
+					"filename": "book_room_bottom_right_couch_plant.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 156,
+						"h": 198
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 156,
+						"h": 198
+					},
+					"frame": {
+						"x": 589,
+						"y": 1671,
+						"w": 156,
+						"h": 198
+					}
+				},
+				{
+					"filename": "book_room_small_window_bottom.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 162,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 162,
+						"h": 162
+					},
+					"frame": {
+						"x": 1,
+						"y": 1864,
+						"w": 162,
+						"h": 162
+					}
+				},
+				{
+					"filename": "book_room_mancala_instructions0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 186,
+						"h": 328
+					},
+					"spriteSourceSize": {
+						"x": 66,
+						"y": 68,
+						"w": 120,
+						"h": 260
+					},
+					"frame": {
+						"x": 1667,
+						"y": 967,
+						"w": 120,
+						"h": 260
+					}
+				},
+				{
+					"filename": "book_room_mancala_instructions0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 186,
+						"h": 328
+					},
+					"spriteSourceSize": {
+						"x": 66,
+						"y": 69,
+						"w": 120,
+						"h": 259
+					},
+					"frame": {
+						"x": 1667,
+						"y": 1229,
+						"w": 120,
+						"h": 259
+					}
+				},
+				{
+					"filename": "book_room_mancala_instructions0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 186,
+						"h": 328
+					},
+					"spriteSourceSize": {
+						"x": 66,
+						"y": 69,
+						"w": 120,
+						"h": 259
+					},
+					"frame": {
+						"x": 1691,
+						"y": 1490,
+						"w": 120,
+						"h": 259
+					}
+				},
+				{
+					"filename": "book_room_mancala_instructions0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 186,
+						"h": 328
+					},
+					"spriteSourceSize": {
+						"x": 66,
+						"y": 69,
+						"w": 120,
+						"h": 259
+					},
+					"frame": {
+						"x": 1789,
+						"y": 913,
+						"w": 120,
+						"h": 259
+					}
+				},
+				{
+					"filename": "book_room_mancala_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 160,
+						"h": 120
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 160,
+						"h": 120
+					},
+					"frame": {
+						"x": 1789,
+						"y": 1174,
+						"w": 160,
+						"h": 120
+					}
+				},
+				{
+					"filename": "book_room_wanted_poser.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 227,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 227,
+						"h": 252
+					},
+					"frame": {
+						"x": 1569,
+						"y": 1756,
+						"w": 227,
+						"h": 252
+					}
+				},
+				{
+					"filename": "book_room_right_side_desk.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 182,
+						"h": 141
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 182,
+						"h": 141
+					},
+					"frame": {
+						"x": 165,
+						"y": 1864,
+						"w": 182,
+						"h": 141
+					}
+				},
+				{
+					"filename": "book_room_penguin_art_text0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 148,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 148,
+						"h": 28
+					},
+					"frame": {
+						"x": 165,
+						"y": 2007,
+						"w": 148,
+						"h": 28
+					}
+				},
+				{
+					"filename": "book_room_bottom_left_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 151
+					},
+					"frame": {
+						"x": 1789,
+						"y": 1296,
+						"w": 115,
+						"h": 151
+					}
+				},
+				{
+					"filename": "book_room_bottom_left_desk.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 120,
+						"h": 230
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 120,
+						"h": 230
+					},
+					"frame": {
+						"x": 1813,
+						"y": 1449,
+						"w": 120,
+						"h": 230
+					}
+				},
+				{
+					"filename": "book_room_main_office_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 117
+					},
+					"frame": {
+						"x": 349,
+						"y": 1852,
+						"w": 149,
+						"h": 117
+					}
+				},
+				{
+					"filename": "book_room_small_cabinet.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 219
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 219
+					},
+					"frame": {
+						"x": 1798,
+						"y": 1751,
+						"w": 133,
+						"h": 219
+					}
+				},
+				{
+					"filename": "book_room_penguin_art_text0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 148,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 147,
+						"h": 29
+					},
+					"frame": {
+						"x": 349,
+						"y": 1971,
+						"w": 147,
+						"h": 29
+					}
+				},
+				{
+					"filename": "book_room_rail.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 94
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 76,
+						"h": 94
+					},
+					"frame": {
+						"x": 500,
+						"y": 1852,
+						"w": 76,
+						"h": 94
+					}
+				},
+				{
+					"filename": "book_room_right_side_desk_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 127
+					},
+					"frame": {
+						"x": 578,
+						"y": 1871,
+						"w": 123,
+						"h": 127
+					}
+				},
+				{
+					"filename": "book_room_bottom_right_couch_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 120,
+						"h": 104
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 120,
+						"h": 104
+					},
+					"frame": {
+						"x": 703,
+						"y": 1931,
+						"w": 120,
+						"h": 104
+					}
+				},
+				{
+					"filename": "book_room_mancala_table0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 116,
+						"h": 119
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 16,
+						"w": 116,
+						"h": 103
+					},
+					"frame": {
+						"x": 825,
+						"y": 1931,
+						"w": 116,
+						"h": 103
+					}
+				},
+				{
+					"filename": "book_room_mancala_table0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 116,
+						"h": 119
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 16,
+						"w": 116,
+						"h": 103
+					},
+					"frame": {
+						"x": 943,
+						"y": 1931,
+						"w": 116,
+						"h": 103
+					}
+				},
+				{
+					"filename": "book_room_small_newspaper.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 106,
+						"h": 103
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 106,
+						"h": 103
+					},
+					"frame": {
+						"x": 1061,
+						"y": 1931,
+						"w": 106,
+						"h": 103
+					}
+				},
+				{
+					"filename": "book_room_top_small_plant.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 101,
+						"h": 98
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 101,
+						"h": 98
+					},
+					"frame": {
+						"x": 1169,
+						"y": 1931,
+						"w": 101,
+						"h": 98
+					}
+				},
+				{
+					"filename": "book_room_penguin_art_text0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 148,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 143,
+						"h": 26
+					},
+					"frame": {
+						"x": 1272,
+						"y": 1931,
+						"w": 143,
+						"h": 26
+					}
+				},
+				{
+					"filename": "book_room_penguin_art_text0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 148,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 1,
+						"w": 119,
+						"h": 29
+					},
+					"frame": {
+						"x": 1798,
+						"y": 1972,
+						"w": 119,
+						"h": 29
+					}
+				}
+			]
+		},
+		{
+			"image": "bookroom-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1529,
+				"h": 1714
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "book_room_newspaper0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 54,
+						"w": 778,
+						"h": 420
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 778,
+						"h": 420
+					}
+				},
+				{
+					"filename": "book_room_newspaper0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 753,
+						"h": 440
+					},
+					"frame": {
+						"x": 1,
+						"y": 423,
+						"w": 753,
+						"h": 440
+					}
+				},
+				{
+					"filename": "book_room_newspaper0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 755,
+						"h": 437
+					},
+					"frame": {
+						"x": 1,
+						"y": 865,
+						"w": 755,
+						"h": 437
+					}
+				},
+				{
+					"filename": "book_room_newspaper0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 55,
+						"y": 51,
+						"w": 775,
+						"h": 409
+					},
+					"frame": {
+						"x": 1,
+						"y": 1304,
+						"w": 775,
+						"h": 409
+					}
+				},
+				{
+					"filename": "book_room_newspaper0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 14,
+						"w": 743,
+						"h": 425
+					},
+					"frame": {
+						"x": 781,
+						"y": 1,
+						"w": 743,
+						"h": 425
+					}
+				},
+				{
+					"filename": "book_room_newspaper0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 51,
+						"y": 47,
+						"w": 772,
+						"h": 403
+					},
+					"frame": {
+						"x": 756,
+						"y": 428,
+						"w": 772,
+						"h": 403
+					}
+				},
+				{
+					"filename": "book_room_newspaper0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 754,
+						"h": 437
+					},
+					"frame": {
+						"x": 758,
+						"y": 833,
+						"w": 754,
+						"h": 437
+					}
+				},
+				{
+					"filename": "book_room_newspaper0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 11,
+						"w": 748,
+						"h": 436
+					},
+					"frame": {
+						"x": 778,
+						"y": 1272,
+						"w": 748,
+						"h": 436
+					}
+				}
+			]
+		},
+		{
+			"image": "bookroom-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1518,
+				"h": 1998
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "book_room_newspaper0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 44,
+						"w": 769,
+						"h": 396
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 769,
+						"h": 396
+					}
+				},
+				{
+					"filename": "book_room_newspaper0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 18,
+						"w": 744,
+						"h": 421
+					},
+					"frame": {
+						"x": 772,
+						"y": 1,
+						"w": 744,
+						"h": 421
+					}
+				},
+				{
+					"filename": "book_room_newspaper0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 40,
+						"w": 767,
+						"h": 400
+					},
+					"frame": {
+						"x": 1,
+						"y": 399,
+						"w": 767,
+						"h": 400
+					}
+				},
+				{
+					"filename": "book_room_newspaper0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 22,
+						"w": 747,
+						"h": 417
+					},
+					"frame": {
+						"x": 770,
+						"y": 424,
+						"w": 747,
+						"h": 417
+					}
+				},
+				{
+					"filename": "book_room_newspaper0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 36,
+						"w": 758,
+						"h": 403
+					},
+					"frame": {
+						"x": 1,
+						"y": 801,
+						"w": 758,
+						"h": 403
+					}
+				},
+				{
+					"filename": "book_room_newspaper0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 33,
+						"w": 753,
+						"h": 406
+					},
+					"frame": {
+						"x": 761,
+						"y": 843,
+						"w": 753,
+						"h": 406
+					}
+				},
+				{
+					"filename": "book_room_newspaper0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 29,
+						"w": 751,
+						"h": 410
+					},
+					"frame": {
+						"x": 1,
+						"y": 1206,
+						"w": 751,
+						"h": 410
+					}
+				},
+				{
+					"filename": "book_room_newspaper0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 25,
+						"w": 750,
+						"h": 414
+					},
+					"frame": {
+						"x": 754,
+						"y": 1251,
+						"w": 750,
+						"h": 414
+					}
+				},
+				{
+					"filename": "book_room_newspaper0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 847,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 67,
+						"y": 62,
+						"w": 686,
+						"h": 379
+					},
+					"frame": {
+						"x": 1,
+						"y": 1618,
+						"w": 686,
+						"h": 379
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:50b69a60b054cbcaa849b4f6dff68309:1c8bb6af899d9b5c2729ea17b19da01e:d06075b45e5243f20ea73c20f5a95a41$"
+	}
+}
