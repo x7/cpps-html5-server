@@ -133,3 +133,7 @@ export const BOOK_ROOM_BOOK_OPEN = "book_room_book_open";
 export const BOOK_ROOM_BOOK_CLOSE = "book_room_book_close";
 export const BOOK_ROOM_PRINTING_NEWSPAPER = "book_room_printing_newspaper";
 // Book Room audio ends here
+
+// Lounge Room audio starts here
+export const LOUNGE_ROOM_MUSIC = "lounge_room_music";
+// Lounge Room audio ends here

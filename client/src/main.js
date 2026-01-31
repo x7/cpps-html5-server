@@ -39,6 +39,7 @@ import { InterfaceDanceScene } from './game/scenes/interfaces/dances.js';
 import { InterfaceEmojiScene } from './game/scenes/interfaces/emojis.js';
 import { CoffeeShopScene } from './game/scenes/world/rooms/coffeeshop/coffeeshop.js';
 import { BookRoomScene } from './game/scenes/world/rooms/bookroom/bookroom.js';
+import { LoungeScene } from './game/scenes/world/rooms/lounge/lounge.js';
 
 const config = {
     type: Phaser.WEBGL,
@@ -50,7 +51,7 @@ const config = {
         createContainer: true 
     },
     backgroundColor: '#07c5ffff',
-    scene: [PreloadAssetsScene, BookRoomScene],
+    scene: [PreloadAssetsScene, LoungeScene],
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene, DanceclubScene, SnowFortsScene, GiftshopScene, DocksScene, InterfaceScene, RegisterScene, InterfaceDanceScene, InterfaceEmojiScene],
     scale: {
         mode: Phaser.Scale.FIT,

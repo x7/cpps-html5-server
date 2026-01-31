@@ -35,4 +35,5 @@ export const SCENE_INTERFACE = "InterfaceScene";
 export const SCENE_INTERFACE_DANCE = "InterfaceDanceScene";
 export const SCENE_INTERFACE_EMOJIS = "InterfaceEmojiScene";
 export const SCENE_BOOK_ROOM = "BookRoomScene";
+export const SCENE_ROOM_LOUNGE = "LoungeScene";
 // Scene names end here
