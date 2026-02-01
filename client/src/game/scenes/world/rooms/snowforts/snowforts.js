@@ -172,7 +172,7 @@ export class SnowFortsScene extends RoomScene {
 			"phaserAnimationKey": "snowforts_bottom_flag_play",
 			"textureKey": "snowforts",
 			"framePrefix": "snowforts_orange_flag_castle_flag",
-			"frames": ["0001", "0002", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "0010", "0011", "0012", "0013", "0014", "0015", "0016"],
+			"frames": Array.from({ length: 16 }, (_, i) => String(i + 1).padStart(4, "0")),
 			"framesExtension": ".png",
 			"frameRate": 24,
 			"repeat": -1
@@ -184,7 +184,7 @@ export class SnowFortsScene extends RoomScene {
 			"phaserAnimationKey": "snowforts_top_flag_play",
 			"textureKey": "snowforts",
 			"framePrefix": "snowforts_black_flag_castle_yay",
-			"frames": ["0001", "0002", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "0010", "0011", "0012", "0013", "0014", "0015", "0016"],
+			"frames": Array.from({ length: 16 }, (_, i) => String(i + 1).padStart(4, "0")),
 			"framesExtension": ".png",
 			"frameRate": 24,
 			"repeat": -1

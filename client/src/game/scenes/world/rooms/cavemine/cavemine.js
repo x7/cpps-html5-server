@@ -16,31 +16,31 @@ export class CaveMineScene extends RoomScene {
 
     preloadContent() {
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.PACK,
-            name: "cavemine",
-            paths: ["assets/world/rooms/cavemine/cavemine-pack.json"]
+            "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "cavemine",
+            "paths": ["assets/world/rooms/cavemine/cavemine-pack.json"]
         });
 
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.AUDIO,
-            name: CAVE_ROOM_MUSIC,
-            paths: ["assets/world/rooms/cavemine/cavemine_room_music.mp3"]
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": CAVE_ROOM_MUSIC,
+            "paths": ["assets/world/rooms/cavemine/cavemine_room_music.mp3"]
         });
 
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.AUDIO,
-            name: CAVE_ROOM_LIGHT_ON,
-            paths: ["assets/world/rooms/cavemine/cavemine_room_light_on.mp3"]
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": CAVE_ROOM_LIGHT_ON,
+            "paths": ["assets/world/rooms/cavemine/cavemine_room_light_on.mp3"]
         });
 
         this.assetManager.load({
-            scene: this,
-            type: ASSET_TYPES.AUDIO,
-            name: CAVE_ROOM_LIGHT_OFF,
-            paths: ["assets/world/rooms/cavemine/cavemine_room_light_off.mp3"]
+            "scene": this,
+            "type": ASSET_TYPES.AUDIO,
+            "name": CAVE_ROOM_LIGHT_OFF,
+            "paths": ["assets/world/rooms/cavemine/cavemine_room_light_off.mp3"]
         });
     }
 

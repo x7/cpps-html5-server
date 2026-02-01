@@ -724,5 +724,82 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "pet_shop_room_music": {
+        "key": "pet_shop_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pet_shop_plaza_door_open": {
+        "key": "pet_shop_plaza_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pet_shop_plaza_door_close": {
+        "key": "pet_shop_plaza_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pet_shop_puffle_hotel_door_open": {
+        "key": "pet_shop_puffle_hotel_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pet_shop_puffle_hotel_door_close": {
+        "key": "pet_shop_puffle_hotel_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pet_shop_puffle_park_door_open": {
+        "key": "pet_shop_puffle_park_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pet_shop_puffle_park_door_close": {
+        "key": "pet_shop_puffle_park_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }

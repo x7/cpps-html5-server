@@ -138,8 +138,18 @@ export const BOOK_ROOM_PRINTING_NEWSPAPER = "book_room_printing_newspaper";
 export const LOUNGE_ROOM_MUSIC = "lounge_room_music";
 // Lounge Room audio ends here
 
-// Cave Room auudio starts here
+// Cave Room audio starts here
 export const CAVE_ROOM_MUSIC = "cave_room_music";
 export const CAVE_ROOM_LIGHT_ON = "cave_room_light_on";
 export const CAVE_ROOM_LIGHT_OFF = "cave_room_light_off";
 // Cave Room audio ends here
+
+// Pet Shop Room audio starts here
+export const PET_SHOP_ROOM_MUSIC = "pet_shop_room_music";
+export const PET_SHOP_PLAZA_DOOR_OPEN = "pet_shop_plaza_door_open";
+export const PET_SHOP_PLAZA_DOOR_CLOSE = "pet_shop_plaza_door_close";
+export const PET_SHOP_PUFFLE_HOTEL_DOOR_OPEN = "pet_shop_puffle_hotel_door_open";
+export const PET_SHOP_PUFFLE_HOTEL_DOOR_CLOSE = "pet_shop_puffle_hotel_door_close";
+export const PET_SHOP_PUFFLE_PARK_DOOR_OPEN = "pet_shop_puffle_park_door_open";
+export const PET_SHOP_PUFFLE_PARK_DOOR_CLOSE = "pet_shop_puffle_park_door_close";
+// Pet Shop Room audio ends here
