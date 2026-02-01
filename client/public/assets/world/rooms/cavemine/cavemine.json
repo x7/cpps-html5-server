@@ -1,0 +1,819 @@
+{
+	"textures": [
+		{
+			"image": "cavemine-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2036,
+				"h": 2026
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "cave_mine_outer_layer.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1795,
+						"h": 1045
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1795,
+						"h": 1045
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1795,
+						"h": 1045
+					}
+				},
+				{
+					"filename": "cave_mine_driller.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 233,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 233,
+						"h": 210
+					},
+					"frame": {
+						"x": 1798,
+						"y": 1,
+						"w": 233,
+						"h": 210
+					}
+				},
+				{
+					"filename": "cave_mine_golden_puffle_dots.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 230,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 230,
+						"h": 192
+					},
+					"frame": {
+						"x": 1798,
+						"y": 213,
+						"w": 230,
+						"h": 192
+					}
+				},
+				{
+					"filename": "cave_mine_left_exit_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 220,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 220,
+						"h": 152
+					},
+					"frame": {
+						"x": 1798,
+						"y": 407,
+						"w": 220,
+						"h": 152
+					}
+				},
+				{
+					"filename": "cave_mine_dig_for_coins_instructions.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 219,
+						"h": 241
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 219,
+						"h": 241
+					},
+					"frame": {
+						"x": 1798,
+						"y": 561,
+						"w": 219,
+						"h": 241
+					}
+				},
+				{
+					"filename": "cave_mine_right_exit_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 215,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 215,
+						"h": 100
+					},
+					"frame": {
+						"x": 1798,
+						"y": 804,
+						"w": 215,
+						"h": 100
+					}
+				},
+				{
+					"filename": "cave_mine_golden_puffle_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 214,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 214,
+						"h": 58
+					},
+					"frame": {
+						"x": 1798,
+						"y": 906,
+						"w": 214,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_mine_floor.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1794,
+						"h": 921
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1794,
+						"h": 921
+					},
+					"frame": {
+						"x": 1,
+						"y": 1048,
+						"w": 1794,
+						"h": 921
+					}
+				},
+				{
+					"filename": "cave_mine_hard_hat_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 238,
+						"h": 101
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 238,
+						"h": 101
+					},
+					"frame": {
+						"x": 1797,
+						"y": 1048,
+						"w": 238,
+						"h": 101
+					}
+				},
+				{
+					"filename": "cave_mine_drill_spots.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 31,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 31,
+						"h": 80
+					},
+					"frame": {
+						"x": 1798,
+						"y": 966,
+						"w": 31,
+						"h": 80
+					}
+				},
+				{
+					"filename": "cave_mine_top_rope_bridge.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 266,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 266,
+						"h": 54
+					},
+					"frame": {
+						"x": 1,
+						"y": 1971,
+						"w": 266,
+						"h": 54
+					}
+				},
+				{
+					"filename": "cave_mine_tiny_rock.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 93,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 93,
+						"h": 76
+					},
+					"frame": {
+						"x": 1831,
+						"y": 966,
+						"w": 93,
+						"h": 76
+					}
+				},
+				{
+					"filename": "cave_mine_hard_hat_board.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 50
+					},
+					"frame": {
+						"x": 269,
+						"y": 1971,
+						"w": 68,
+						"h": 50
+					}
+				},
+				{
+					"filename": "cave_mine_left_side_top_rope.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 61
+					},
+					"frame": {
+						"x": 1926,
+						"y": 966,
+						"w": 71,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mine_golden_puffle_drill_crack.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 40,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 40,
+						"h": 15
+					},
+					"frame": {
+						"x": 1926,
+						"y": 1029,
+						"w": 40,
+						"h": 15
+					}
+				},
+				{
+					"filename": "cave_mine_left_door_exit_hover.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 177,
+						"h": 299
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 177,
+						"h": 299
+					},
+					"frame": {
+						"x": 1797,
+						"y": 1151,
+						"w": 177,
+						"h": 299
+					}
+				},
+				{
+					"filename": "cave_mine_dig_for_coins_instructions_text.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 175,
+						"h": 104
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 162,
+						"h": 104
+					},
+					"frame": {
+						"x": 1797,
+						"y": 1452,
+						"w": 162,
+						"h": 104
+					}
+				},
+				{
+					"filename": "cave_mine_big_rock.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 129,
+						"h": 158
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 129,
+						"h": 158
+					},
+					"frame": {
+						"x": 1797,
+						"y": 1558,
+						"w": 129,
+						"h": 158
+					}
+				},
+				{
+					"filename": "cave_mine_left_rope_bridge.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 107,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 107,
+						"h": 193
+					},
+					"frame": {
+						"x": 1928,
+						"y": 1558,
+						"w": 107,
+						"h": 193
+					}
+				},
+				{
+					"filename": "cave_mine_golden_puffle_drill.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 118
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 118
+					},
+					"frame": {
+						"x": 1797,
+						"y": 1718,
+						"w": 115,
+						"h": 118
+					}
+				},
+				{
+					"filename": "cave_mine_right_coffee_table_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 102,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 89
+					},
+					"frame": {
+						"x": 1914,
+						"y": 1753,
+						"w": 102,
+						"h": 89
+					}
+				},
+				{
+					"filename": "cave_mine_going_up_rope.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 156
+					},
+					"frame": {
+						"x": 1797,
+						"y": 1838,
+						"w": 100,
+						"h": 156
+					}
+				},
+				{
+					"filename": "cave_mine_left_coffee_table_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 97,
+						"h": 83
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 97,
+						"h": 83
+					},
+					"frame": {
+						"x": 1899,
+						"y": 1844,
+						"w": 97,
+						"h": 83
+					}
+				}
+			]
+		},
+		{
+			"image": "cavemine-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1904,
+				"h": 2041
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "cave_mine_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1790,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1790,
+						"h": 1000
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1790,
+						"h": 1000
+					}
+				},
+				{
+					"filename": "cave_mine_walking_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1520,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1520,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 1003,
+						"w": 1520,
+						"h": 960
+					}
+				},
+				{
+					"filename": "cave_mine_left_exit_top_part.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 380,
+						"h": 779
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 380,
+						"h": 779
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1003,
+						"w": 380,
+						"h": 779
+					}
+				},
+				{
+					"filename": "cave_mine_right_exit.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 365,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 365,
+						"h": 256
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1784,
+						"w": 365,
+						"h": 256
+					}
+				}
+			]
+		},
+		{
+			"image": "cavemine-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1908,
+				"h": 1202
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "cave_mine_right_side_big_sheet.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 851,
+						"h": 733
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 851,
+						"h": 733
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 851,
+						"h": 733
+					}
+				},
+				{
+					"filename": "cave_mine_drill.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 593,
+						"h": 430
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 593,
+						"h": 430
+					},
+					"frame": {
+						"x": 1,
+						"y": 736,
+						"w": 593,
+						"h": 430
+					}
+				},
+				{
+					"filename": "cave_mine_golden_puffle_light.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 476,
+						"h": 390
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 476,
+						"h": 390
+					},
+					"frame": {
+						"x": 596,
+						"y": 736,
+						"w": 476,
+						"h": 390
+					}
+				},
+				{
+					"filename": "cave_mine_golden_under_puffle_light.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 476,
+						"h": 390
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 476,
+						"h": 390
+					},
+					"frame": {
+						"x": 596,
+						"y": 736,
+						"w": 476,
+						"h": 390
+					}
+				},
+				{
+					"filename": "cave_mine_top_rockk.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1050,
+						"h": 646
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1050,
+						"h": 646
+					},
+					"frame": {
+						"x": 854,
+						"y": 1,
+						"w": 1050,
+						"h": 646
+					}
+				},
+				{
+					"filename": "cave_mine_left_exit.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 323
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 323
+					},
+					"frame": {
+						"x": 1074,
+						"y": 649,
+						"w": 400,
+						"h": 323
+					}
+				},
+				{
+					"filename": "cave_mine_hard_hats0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 277,
+						"h": 148
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 277,
+						"h": 148
+					},
+					"frame": {
+						"x": 1074,
+						"y": 974,
+						"w": 277,
+						"h": 148
+					}
+				},
+				{
+					"filename": "cave_mine_hard_hats0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 277,
+						"h": 148
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 2,
+						"w": 269,
+						"h": 146
+					},
+					"frame": {
+						"x": 1353,
+						"y": 974,
+						"w": 269,
+						"h": 146
+					}
+				},
+				{
+					"filename": "cave_mine_coffee_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 357,
+						"h": 275
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 357,
+						"h": 275
+					},
+					"frame": {
+						"x": 1476,
+						"y": 649,
+						"w": 357,
+						"h": 275
+					}
+				},
+				{
+					"filename": "cave_mine_right_exit_door_hover.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 283,
+						"h": 275
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 283,
+						"h": 275
+					},
+					"frame": {
+						"x": 1624,
+						"y": 926,
+						"w": 283,
+						"h": 275
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:d8f2cd62c162decf7ab24ca891ec0b7e:51344524d1e83ad0a4a255226f83e5fe:8f7841b9459e5a2213aabe79141a1c8f$"
+	}
+}

@@ -82,7 +82,7 @@ export class PreloadAssetsScene extends BaseScene {
         }
 
         // this.sceneManager.add({ sceneKey: "ServerSelectionScene", scene: null, autoStart: false });
-        this.sceneManager.start("IceHockeyScene")
+        this.sceneManager.start("CaveMineScene")
 
         // displayLoading(SCENE_PRELOAD_ASSETS, "Loading Assets");
 

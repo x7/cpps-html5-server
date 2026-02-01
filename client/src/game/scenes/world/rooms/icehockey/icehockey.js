@@ -1,5 +1,5 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
-import { SCENE_ROOM_ICE_SCENE } from "../../../sceneNames";
+import { SCENE_ROOM_ICE_RINK } from "../../../sceneNames";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Get hq images for some sprites
@@ -7,7 +7,7 @@ import { RoomScene } from "../RoomScene";
 
 export class IceRinkScene extends RoomScene {
     constructor() {
-        super(SCENE_ROOM_ICE_SCENE);
+        super(SCENE_ROOM_ICE_RINK);
     }
 
     init(data) {
@@ -19,7 +19,7 @@ export class IceRinkScene extends RoomScene {
             "scene": this,
             "type": ASSET_TYPES.PACK,
             "name": "icehockey",
-            "paths": ["assets/world/rooms/icehockey/icehockey-pack.json"]
+            "paths": ["assets/world/rooms/icerink/icehockey-pack.json"]
         });
     }
 

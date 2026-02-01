@@ -137,3 +137,9 @@ export const BOOK_ROOM_PRINTING_NEWSPAPER = "book_room_printing_newspaper";
 // Lounge Room audio starts here
 export const LOUNGE_ROOM_MUSIC = "lounge_room_music";
 // Lounge Room audio ends here
+
+// Cave Room auudio starts here
+export const CAVE_ROOM_MUSIC = "cave_room_music";
+export const CAVE_ROOM_LIGHT_ON = "cave_room_light_on";
+export const CAVE_ROOM_LIGHT_OFF = "cave_room_light_off";
+// Cave Room audio ends here

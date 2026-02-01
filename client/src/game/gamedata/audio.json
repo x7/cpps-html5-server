@@ -691,5 +691,38 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "cave_room_music": {
+        "key": "cave_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "cave_room_light_on": {
+        "key": "cave_room_light_on",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "cave_room_light_off": {
+        "key": "cave_room_light_off",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }
