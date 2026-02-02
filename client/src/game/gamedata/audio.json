@@ -791,8 +791,74 @@
         "delay": 0,
         "source": null
     },
-    "pet_shop_puffle_park_door_close": {
-        "key": "pet_shop_puffle_park_door_close",
+    "pizza_parlor_room_music": {
+        "key": "pizza_parlor_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pizza_parlor_plaza_door_open": {
+        "key": "pizza_parlor_plaza_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pizza_parlor_plaza_door_close": {
+        "key": "pizza_parlor_plaza_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pizza_parlor_kitchen_door_open": {
+        "key": "pizza_parlor_kitchen_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pizza_parlor_kitchen_door_close": {
+        "key": "pizza_parlor_kitchen_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pizza_parlor_cash_register_open": {
+        "key": "pizza_parlor_cash_register_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pizza_parlor_cash_register_close": {
+        "key": "pizza_parlor_cash_register_close",
         "volume": 1,
         "mute": false,
         "loop": false,

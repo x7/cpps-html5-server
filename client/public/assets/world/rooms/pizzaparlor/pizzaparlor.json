@@ -1,0 +1,4900 @@
+{
+	"textures": [
+		{
+			"image": "pizzaparlor-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2047,
+				"h": 2028
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1644,
+						"h": 981
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1644,
+						"h": 981
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1644,
+						"h": 981
+					}
+				},
+				{
+					"filename": "pizza_parlor_roof.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1560,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1560,
+						"h": 1000
+					},
+					"frame": {
+						"x": 1,
+						"y": 984,
+						"w": 1560,
+						"h": 1000
+					}
+				},
+				{
+					"filename": "pizza_parlor_curtain.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 342,
+						"h": 613
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 342,
+						"h": 613
+					},
+					"frame": {
+						"x": 1647,
+						"y": 1,
+						"w": 342,
+						"h": 613
+					}
+				},
+				{
+					"filename": "pizza_parlor_puffle_pizza_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 381,
+						"h": 366
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 381,
+						"h": 366
+					},
+					"frame": {
+						"x": 1647,
+						"y": 616,
+						"w": 381,
+						"h": 366
+					}
+				},
+				{
+					"filename": "pizza_parlor_piano.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 313,
+						"h": 515
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 313,
+						"h": 515
+					},
+					"frame": {
+						"x": 1563,
+						"y": 984,
+						"w": 313,
+						"h": 515
+					}
+				},
+				{
+					"filename": "pizza_parlor_left_stand_trophy.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 443,
+						"h": 352
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 443,
+						"h": 352
+					},
+					"frame": {
+						"x": 1563,
+						"y": 1501,
+						"w": 443,
+						"h": 352
+					}
+				},
+				{
+					"filename": "pizza_parlor_top_right_light.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 269,
+						"h": 165
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 269,
+						"h": 165
+					},
+					"frame": {
+						"x": 1563,
+						"y": 1855,
+						"w": 269,
+						"h": 165
+					}
+				},
+				{
+					"filename": "pizza_parlor_plaza_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 320,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 40
+					},
+					"frame": {
+						"x": 1,
+						"y": 1986,
+						"w": 320,
+						"h": 40
+					}
+				},
+				{
+					"filename": "pizza_parlor_right_green_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 175,
+						"h": 172
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 175,
+						"h": 172
+					},
+					"frame": {
+						"x": 1834,
+						"y": 1855,
+						"w": 175,
+						"h": 172
+					}
+				},
+				{
+					"filename": "pizza_parlor_random_thing_left_bottom.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 93,
+						"h": 195
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 93,
+						"h": 195
+					},
+					"frame": {
+						"x": 1878,
+						"y": 984,
+						"w": 93,
+						"h": 195
+					}
+				},
+				{
+					"filename": "pizza_parlor_small_thing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 66,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 66,
+						"h": 205
+					},
+					"frame": {
+						"x": 1878,
+						"y": 1181,
+						"w": 66,
+						"h": 205
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizza_game_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 40
+					},
+					"frame": {
+						"x": 323,
+						"y": 1986,
+						"w": 170,
+						"h": 40
+					}
+				},
+				{
+					"filename": "pizza_parlor_left_table_top_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 170
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 170
+					},
+					"frame": {
+						"x": 1946,
+						"y": 1181,
+						"w": 100,
+						"h": 170
+					}
+				},
+				{
+					"filename": "pizza_parlor_orange_seats.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 81,
+						"h": 103
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 81,
+						"h": 103
+					},
+					"frame": {
+						"x": 1878,
+						"y": 1388,
+						"w": 81,
+						"h": 103
+					}
+				},
+				{
+					"filename": "pizza_parlor_kitchen_text0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 126,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 125,
+						"h": 24
+					},
+					"frame": {
+						"x": 495,
+						"y": 1986,
+						"w": 125,
+						"h": 24
+					}
+				},
+				{
+					"filename": "pizza_parlor_kitchen_text0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 126,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 125,
+						"h": 24
+					},
+					"frame": {
+						"x": 622,
+						"y": 1986,
+						"w": 125,
+						"h": 24
+					}
+				},
+				{
+					"filename": "pizza_parlor_kitchen_text0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 126,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 124,
+						"h": 24
+					},
+					"frame": {
+						"x": 749,
+						"y": 1986,
+						"w": 124,
+						"h": 24
+					}
+				},
+				{
+					"filename": "pizza_parlor_kitchen_text0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 126,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 2,
+						"w": 118,
+						"h": 24
+					},
+					"frame": {
+						"x": 875,
+						"y": 1986,
+						"w": 118,
+						"h": 24
+					}
+				},
+				{
+					"filename": "pizza_parlor_railing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 102
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 39,
+						"h": 102
+					},
+					"frame": {
+						"x": 1991,
+						"y": 1,
+						"w": 39,
+						"h": 102
+					}
+				},
+				{
+					"filename": "pizza_parlor_kitchen_text0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 126,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 112,
+						"h": 23
+					},
+					"frame": {
+						"x": 995,
+						"y": 1986,
+						"w": 112,
+						"h": 23
+					}
+				},
+				{
+					"filename": "pizza_parlor_kitchen_text0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 126,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 0,
+						"w": 110,
+						"h": 26
+					},
+					"frame": {
+						"x": 1109,
+						"y": 1986,
+						"w": 110,
+						"h": 26
+					}
+				},
+				{
+					"filename": "pizza_parlor_stand.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 75
+					},
+					"frame": {
+						"x": 1961,
+						"y": 1353,
+						"w": 78,
+						"h": 75
+					}
+				},
+				{
+					"filename": "pizza_parlor_seat_triggers0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 68
+					},
+					"frame": {
+						"x": 1961,
+						"y": 1430,
+						"w": 80,
+						"h": 68
+					}
+				},
+				{
+					"filename": "pizza_parlor_white_puffle_picture.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 59
+					},
+					"frame": {
+						"x": 1973,
+						"y": 984,
+						"w": 63,
+						"h": 59
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizza_top_left.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 39
+					},
+					"frame": {
+						"x": 1973,
+						"y": 1045,
+						"w": 72,
+						"h": 39
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2043,
+				"h": 2039
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_lights.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1544,
+						"h": 1006
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1544,
+						"h": 1006
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1544,
+						"h": 1006
+					}
+				},
+				{
+					"filename": "pizza_parlor_window_outside.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 467,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 467,
+						"h": 200
+					},
+					"frame": {
+						"x": 1547,
+						"y": 1,
+						"w": 467,
+						"h": 200
+					}
+				},
+				{
+					"filename": "pizza_parlor_walking_trigger0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1520,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1520,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 1009,
+						"w": 1520,
+						"h": 960
+					}
+				},
+				{
+					"filename": "pizza_parlor_puffle_pizza_carpet_hovered.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 135,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 135,
+						"h": 67
+					},
+					"frame": {
+						"x": 1,
+						"y": 1971,
+						"w": 135,
+						"h": 67
+					}
+				},
+				{
+					"filename": "pizza_parlor_fire0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 97,
+						"h": 66
+					},
+					"frame": {
+						"x": 138,
+						"y": 1971,
+						"w": 97,
+						"h": 66
+					}
+				},
+				{
+					"filename": "pizza_parlor_fire0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 94,
+						"h": 66
+					},
+					"frame": {
+						"x": 237,
+						"y": 1971,
+						"w": 94,
+						"h": 66
+					}
+				},
+				{
+					"filename": "pizza_parlor_fire0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 92,
+						"h": 66
+					},
+					"frame": {
+						"x": 333,
+						"y": 1971,
+						"w": 92,
+						"h": 66
+					}
+				},
+				{
+					"filename": "pizza_parlor_fire0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 91,
+						"h": 66
+					},
+					"frame": {
+						"x": 427,
+						"y": 1971,
+						"w": 91,
+						"h": 66
+					}
+				},
+				{
+					"filename": "pizza_parlor_fire0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 97,
+						"h": 65
+					},
+					"frame": {
+						"x": 520,
+						"y": 1971,
+						"w": 97,
+						"h": 65
+					}
+				},
+				{
+					"filename": "pizza_parlor_fire0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 1,
+						"w": 95,
+						"h": 65
+					},
+					"frame": {
+						"x": 619,
+						"y": 1971,
+						"w": 95,
+						"h": 65
+					}
+				},
+				{
+					"filename": "pizza_parlor_pet_puffle_oven_dots.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 183,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 183,
+						"h": 64
+					},
+					"frame": {
+						"x": 716,
+						"y": 1971,
+						"w": 183,
+						"h": 64
+					}
+				},
+				{
+					"filename": "pizza_parlor_fire0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 96,
+						"h": 64
+					},
+					"frame": {
+						"x": 901,
+						"y": 1971,
+						"w": 96,
+						"h": 64
+					}
+				},
+				{
+					"filename": "pizza_parlor_fire0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 2,
+						"w": 94,
+						"h": 64
+					},
+					"frame": {
+						"x": 999,
+						"y": 1971,
+						"w": 94,
+						"h": 64
+					}
+				},
+				{
+					"filename": "pizza_parlor_fire0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 98,
+						"h": 62
+					},
+					"frame": {
+						"x": 1095,
+						"y": 1971,
+						"w": 98,
+						"h": 62
+					}
+				},
+				{
+					"filename": "pizza_parlor_fire0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 4,
+						"w": 96,
+						"h": 62
+					},
+					"frame": {
+						"x": 1195,
+						"y": 1971,
+						"w": 96,
+						"h": 62
+					}
+				},
+				{
+					"filename": "pizza_parlor_door_stand.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 275
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 275
+					},
+					"frame": {
+						"x": 1547,
+						"y": 203,
+						"w": 400,
+						"h": 275
+					}
+				},
+				{
+					"filename": "pizza_parlor_right_table_top_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 91,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 91,
+						"h": 164
+					},
+					"frame": {
+						"x": 1949,
+						"y": 203,
+						"w": 91,
+						"h": 164
+					}
+				},
+				{
+					"filename": "pizza_parlor_door_register_light.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 86,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 86,
+						"h": 89
+					},
+					"frame": {
+						"x": 1949,
+						"y": 369,
+						"w": 86,
+						"h": 89
+					}
+				},
+				{
+					"filename": "pizza_parlor_counter_stand.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 298,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 298,
+						"h": 210
+					},
+					"frame": {
+						"x": 1547,
+						"y": 480,
+						"w": 298,
+						"h": 210
+					}
+				},
+				{
+					"filename": "pizza_parlor_top_counter_top.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 239
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 236
+					},
+					"frame": {
+						"x": 1847,
+						"y": 480,
+						"w": 169,
+						"h": 236
+					}
+				},
+				{
+					"filename": "pizza_parlor_plaza_door0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 283,
+						"h": 244
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 283,
+						"h": 244
+					},
+					"frame": {
+						"x": 1547,
+						"y": 692,
+						"w": 283,
+						"h": 244
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 57,
+						"w": 210,
+						"h": 234
+					},
+					"frame": {
+						"x": 1832,
+						"y": 718,
+						"w": 210,
+						"h": 234
+					}
+				},
+				{
+					"filename": "pizza_parlor_plaza_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 283,
+						"h": 244
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 11,
+						"w": 269,
+						"h": 233
+					},
+					"frame": {
+						"x": 1547,
+						"y": 938,
+						"w": 269,
+						"h": 233
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 11,
+						"w": 222,
+						"h": 282
+					},
+					"frame": {
+						"x": 1818,
+						"y": 954,
+						"w": 222,
+						"h": 282
+					}
+				},
+				{
+					"filename": "pizza_parlor_pet_puffle_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 230,
+						"h": 311
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 230,
+						"h": 311
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1173,
+						"w": 230,
+						"h": 311
+					}
+				},
+				{
+					"filename": "pizza_parlor_puffle_pizza_oven_layer.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 230,
+						"h": 311
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 230,
+						"h": 311
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1173,
+						"w": 230,
+						"h": 311
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 21,
+						"w": 222,
+						"h": 272
+					},
+					"frame": {
+						"x": 1755,
+						"y": 1238,
+						"w": 222,
+						"h": 272
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 22,
+						"w": 222,
+						"h": 271
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1486,
+						"w": 222,
+						"h": 271
+					}
+				},
+				{
+					"filename": "pizza_parlor_milkshake.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 220
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 220
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1759,
+						"w": 111,
+						"h": 220
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 93,
+						"w": 218,
+						"h": 197
+					},
+					"frame": {
+						"x": 1747,
+						"y": 1512,
+						"w": 218,
+						"h": 197
+					}
+				},
+				{
+					"filename": "pizza_parlor_door_register.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 104,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 104,
+						"h": 169
+					},
+					"frame": {
+						"x": 1636,
+						"y": 1759,
+						"w": 104,
+						"h": 169
+					}
+				},
+				{
+					"filename": "pizza_parlor_puffle_pizza_tube_head0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 120,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 1,
+						"w": 100,
+						"h": 105
+					},
+					"frame": {
+						"x": 1636,
+						"y": 1930,
+						"w": 100,
+						"h": 105
+					}
+				},
+				{
+					"filename": "pizza_parlor_puffle_pizza_carpet.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 135,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 135,
+						"h": 70
+					},
+					"frame": {
+						"x": 1738,
+						"y": 1930,
+						"w": 135,
+						"h": 70
+					}
+				},
+				{
+					"filename": "pizza_parlor_right_table_bottom_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 107,
+						"h": 163
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 107,
+						"h": 163
+					},
+					"frame": {
+						"x": 1742,
+						"y": 1759,
+						"w": 107,
+						"h": 163
+					}
+				},
+				{
+					"filename": "pizza_parlor_puffle_pizza_tube.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 142,
+						"h": 146
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 142,
+						"h": 146
+					},
+					"frame": {
+						"x": 1875,
+						"y": 1711,
+						"w": 142,
+						"h": 146
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizza_puffle_sign.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 127,
+						"h": 143
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 127,
+						"h": 143
+					},
+					"frame": {
+						"x": 1875,
+						"y": 1859,
+						"w": 127,
+						"h": 143
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1874,
+				"h": 1937
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_bottom_seats.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1653,
+						"h": 636
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1653,
+						"h": 636
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1653,
+						"h": 636
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 10,
+						"w": 216,
+						"h": 244
+					},
+					"frame": {
+						"x": 1656,
+						"y": 1,
+						"w": 216,
+						"h": 244
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 216,
+						"h": 242
+					},
+					"frame": {
+						"x": 1656,
+						"y": 247,
+						"w": 216,
+						"h": 242
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 117,
+						"w": 214,
+						"h": 177
+					},
+					"frame": {
+						"x": 1656,
+						"y": 491,
+						"w": 214,
+						"h": 177
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 117,
+						"w": 214,
+						"h": 177
+					},
+					"frame": {
+						"x": 1656,
+						"y": 491,
+						"w": 214,
+						"h": 177
+					}
+				},
+				{
+					"filename": "pizza_parlor_windows.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1436,
+						"h": 675
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1436,
+						"h": 675
+					},
+					"frame": {
+						"x": 1,
+						"y": 639,
+						"w": 1436,
+						"h": 675
+					}
+				},
+				{
+					"filename": "pizza_parlor_floor_shadows.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1244,
+						"h": 620
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1244,
+						"h": 620
+					},
+					"frame": {
+						"x": 1,
+						"y": 1316,
+						"w": 1244,
+						"h": 620
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 21,
+						"w": 210,
+						"h": 267
+					},
+					"frame": {
+						"x": 1439,
+						"y": 639,
+						"w": 210,
+						"h": 267
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 21,
+						"w": 210,
+						"h": 267
+					},
+					"frame": {
+						"x": 1439,
+						"y": 639,
+						"w": 210,
+						"h": 267
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 29,
+						"w": 222,
+						"h": 264
+					},
+					"frame": {
+						"x": 1651,
+						"y": 670,
+						"w": 222,
+						"h": 264
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizza.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 181,
+						"h": 131
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 181,
+						"h": 131
+					},
+					"frame": {
+						"x": 1439,
+						"y": 908,
+						"w": 181,
+						"h": 131
+					}
+				},
+				{
+					"filename": "pizza_parlor_bread.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 235,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 235,
+						"h": 180
+					},
+					"frame": {
+						"x": 1622,
+						"y": 936,
+						"w": 235,
+						"h": 180
+					}
+				},
+				{
+					"filename": "pizza_parlor_kitchen_door0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 221
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 47,
+						"w": 166,
+						"h": 132
+					},
+					"frame": {
+						"x": 1439,
+						"y": 1041,
+						"w": 166,
+						"h": 132
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 33,
+						"w": 222,
+						"h": 260
+					},
+					"frame": {
+						"x": 1607,
+						"y": 1118,
+						"w": 222,
+						"h": 260
+					}
+				},
+				{
+					"filename": "pizza_parlor_kitchen_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 221
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 54,
+						"w": 166,
+						"h": 129
+					},
+					"frame": {
+						"x": 1439,
+						"y": 1175,
+						"w": 166,
+						"h": 129
+					}
+				},
+				{
+					"filename": "pizza_parlor_microphone.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 278,
+						"h": 120
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 278,
+						"h": 120
+					},
+					"frame": {
+						"x": 1247,
+						"y": 1316,
+						"w": 278,
+						"h": 120
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 56,
+						"w": 222,
+						"h": 233
+					},
+					"frame": {
+						"x": 1527,
+						"y": 1380,
+						"w": 222,
+						"h": 233
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 70,
+						"w": 222,
+						"h": 223
+					},
+					"frame": {
+						"x": 1247,
+						"y": 1438,
+						"w": 222,
+						"h": 223
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 70,
+						"w": 222,
+						"h": 223
+					},
+					"frame": {
+						"x": 1247,
+						"y": 1438,
+						"w": 222,
+						"h": 223
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 222,
+						"h": 222
+					},
+					"frame": {
+						"x": 1247,
+						"y": 1663,
+						"w": 222,
+						"h": 222
+					}
+				},
+				{
+					"filename": "pizza_parlor_cash_register0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 78,
+						"w": 222,
+						"h": 208
+					},
+					"frame": {
+						"x": 1471,
+						"y": 1615,
+						"w": 222,
+						"h": 208
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1884,
+				"h": 1888
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0126.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 776
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 776
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0069.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1,
+						"y": 779,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_floor_lgihts.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 810,
+						"h": 163
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 810,
+						"h": 163
+					},
+					"frame": {
+						"x": 1,
+						"y": 1554,
+						"w": 810,
+						"h": 163
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0070.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0071.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 629,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_piano_floor.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 952,
+						"h": 336
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 952,
+						"h": 336
+					},
+					"frame": {
+						"x": 813,
+						"y": 1551,
+						"w": 952,
+						"h": 336
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0072.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0073.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1257,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-4.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1884,
+				"h": 1550
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0074.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0075.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0076.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0077.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0078.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 629,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0079.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1257,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-5.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1884,
+				"h": 1550
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0080.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0081.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0082.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0083.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0084.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 629,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0085.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1257,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0086.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1257,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0087.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1257,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0088.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1257,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0089.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1257,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0090.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1257,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0091.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1257,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-6.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1884,
+				"h": 1550
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0092.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0093.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1,
+						"y": 776,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0094.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0095.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 773
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 773
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0125.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 769
+					},
+					"frame": {
+						"x": 629,
+						"y": 776,
+						"w": 626,
+						"h": 769
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0124.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 762
+					},
+					"frame": {
+						"x": 1257,
+						"y": 776,
+						"w": 626,
+						"h": 762
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-7.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1884,
+				"h": 1522
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0067.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0068.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0096.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0097.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0098.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0099.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-8.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1884,
+				"h": 1522
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0101.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0102.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0103.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0104.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0105.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-9.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1884,
+				"h": 1522
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0106.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0107.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0108.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0109.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0111.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0112.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0113.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-10.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1884,
+				"h": 1522
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0114.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0115.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0116.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0117.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0118.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0119.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-11.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1884,
+				"h": 1522
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0123.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0127.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0128.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-12.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1884,
+				"h": 1522
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0129.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0130.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0131.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0132.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0133.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 629,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0134.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0135.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0136.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0137.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0138.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0139.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0140.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 759
+					},
+					"frame": {
+						"x": 1257,
+						"y": 762,
+						"w": 626,
+						"h": 759
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-13.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1884,
+				"h": 1476
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 736
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 1,
+						"y": 739,
+						"w": 626,
+						"h": 736
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 736
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 736
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 629,
+						"y": 739,
+						"w": 626,
+						"h": 736
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 1257,
+						"y": 739,
+						"w": 626,
+						"h": 736
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 1257,
+						"y": 739,
+						"w": 626,
+						"h": 736
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 1257,
+						"y": 739,
+						"w": 626,
+						"h": 736
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 1257,
+						"y": 739,
+						"w": 626,
+						"h": 736
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 1257,
+						"y": 739,
+						"w": 626,
+						"h": 736
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0066.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 1257,
+						"y": 739,
+						"w": 626,
+						"h": 736
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-14.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1884,
+				"h": 1474
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0059.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 736
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 736
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 736
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 736
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 735
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 735
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 735
+					},
+					"frame": {
+						"x": 1257,
+						"y": 738,
+						"w": 626,
+						"h": 735
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 721
+					},
+					"frame": {
+						"x": 1,
+						"y": 739,
+						"w": 626,
+						"h": 721
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 710
+					},
+					"frame": {
+						"x": 629,
+						"y": 739,
+						"w": 626,
+						"h": 710
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-15.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1884,
+				"h": 2044
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 702
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 702
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 697
+					},
+					"frame": {
+						"x": 1,
+						"y": 705,
+						"w": 626,
+						"h": 697
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 696
+					},
+					"frame": {
+						"x": 629,
+						"y": 1,
+						"w": 626,
+						"h": 696
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 1257,
+						"y": 677,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 674
+					},
+					"frame": {
+						"x": 629,
+						"y": 699,
+						"w": 626,
+						"h": 674
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 671
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1353,
+						"w": 626,
+						"h": 671
+					}
+				},
+				{
+					"filename": "pizza_parlor_pizzas0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 668
+					},
+					"frame": {
+						"x": 629,
+						"y": 1375,
+						"w": 626,
+						"h": 668
+					}
+				}
+			]
+		},
+		{
+			"image": "pizzaparlor-16.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 628,
+				"h": 667
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pizza_parlor_pizzas0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1400,
+						"h": 1252
+					},
+					"spriteSourceSize": {
+						"x": 774,
+						"y": 401,
+						"w": 626,
+						"h": 665
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 626,
+						"h": 665
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:87b91e3b3ad8cf38b9c3276190d02165:0373ac42e7d56092d8402855fde7bba7:dcca631bed18221a4337691f0488ea17$"
+	}
+}

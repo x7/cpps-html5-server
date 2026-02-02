@@ -153,3 +153,13 @@ export const PET_SHOP_PUFFLE_HOTEL_DOOR_CLOSE = "pet_shop_puffle_hotel_door_clos
 export const PET_SHOP_PUFFLE_PARK_DOOR_OPEN = "pet_shop_puffle_park_door_open";
 export const PET_SHOP_PUFFLE_PARK_DOOR_CLOSE = "pet_shop_puffle_park_door_close";
 // Pet Shop Room audio ends here
+
+// Pizza Parlor Room audio starts here
+export const PIZZA_PARLOR_ROOM_MUSIC = "pizza_parlor_room_music";
+export const PIZZA_PARLOR_PLAZA_DOOR_OPEN = "pizza_parlor_plaza_door_open";
+export const PIZZA_PARLOR_PLAZA_DOOR_CLOSE = "pizza_parlor_plaza_door_close";
+export const PIZZA_PARLOR_KITCHEN_DOOR_OPEN = "pizza_parlor_kitchen_door_open";
+export const PIZZA_PARLOR_KITCHEN_DOOR_CLOSE = "pizza_parlor_kitchen_door_close";
+export const PIZZA_PARLOR_CASH_REGISTER_OPEN = "pizza_parlor_cash_register_open";
+export const PIZZA_PARLOR_CASH_REGISTER_CLOSE = "pizza_parlor_cash_register_close";
+// Pizza Parlor Room audio ends here
