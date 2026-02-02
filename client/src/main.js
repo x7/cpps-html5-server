@@ -44,6 +44,8 @@ import { IceRinkScene } from './game/scenes/world/rooms/icerink/icerink.js';
 import { CaveMineScene } from './game/scenes/world/rooms/cavemine/cavemine.js';
 import { PetShopScene } from './game/scenes/world/rooms/petshop/petshop.js';
 import { PizzaParlorScene } from './game/scenes/world/rooms/pizzaparlor/pizzaparlor.js';
+import { BoxDimensionScene } from './game/scenes/world/rooms/boxdimension/boxdimension.js';
+import { SkiLodgeScene } from './game/scenes/world/rooms/skilodge/skilodge.js';
 
 const config = {
     type: Phaser.WEBGL,
@@ -55,7 +57,7 @@ const config = {
         createContainer: true 
     },
     backgroundColor: '#07c5ffff',
-    scene: [PreloadAssetsScene, PizzaParlorScene],
+    scene: [PreloadAssetsScene, SkiLodgeScene],
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene, DanceclubScene, SnowFortsScene, GiftshopScene, DocksScene, InterfaceScene, RegisterScene, InterfaceDanceScene, InterfaceEmojiScene],
     scale: {
         mode: Phaser.Scale.FIT,

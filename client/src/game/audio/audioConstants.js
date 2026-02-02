@@ -163,3 +163,16 @@ export const PIZZA_PARLOR_KITCHEN_DOOR_CLOSE = "pizza_parlor_kitchen_door_close"
 export const PIZZA_PARLOR_CASH_REGISTER_OPEN = "pizza_parlor_cash_register_open";
 export const PIZZA_PARLOR_CASH_REGISTER_CLOSE = "pizza_parlor_cash_register_close";
 // Pizza Parlor Room audio ends here
+
+// Ski Lodge Room audio starts here
+export const SKI_LODGE_ROOM_MUSIC = "ski_lodge_room_music";
+export const SKI_LODGE_SKI_VILLAGE_DOOR_OPEN = "ski_lodge_ski_village_door_open";
+export const SKI_LODGE_SKI_VILLAGE_DOOR_CLOSE = "ski_lodge_ski_village_door_close";
+export const SKI_LODGE_PUFFLE_WILD_DOOR_OPEN = "ski_lodge_puffle_wild_door_open";
+export const SKI_LODGE_PUFFLE_WILD_DOOR_CLOSE = "ski_lodge_puffle_wild_door_close";
+export const SKI_LODGE_ICE_FISHING_DOOR_OPEN = "ski_lodge_ice_fishing_door_open";
+export const SKI_LODGE_ICE_FISHING_DOOR_CLOSE = "ski_lodge_ice_fishing_door_close";
+export const SKI_LODGE_ATTIC_LIGHT_ON = "ski_lodge_attic_light_on";
+export const SKI_LODGE_ATTIC_LIGHT_OFF = "ski_lodge_attic_light_off";
+export const SKI_LODGE_FIREPLACE_CLOCK_BIRD = "ski_lodge_fireplace_clock_bird";
+// Ski Lodge Room audio ends here

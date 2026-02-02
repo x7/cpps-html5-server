@@ -40,4 +40,6 @@ export const SCENE_ROOM_ICE_RINK = "IceRinkScene";
 export const SCENE_ROOM_CAVE_MINE = "CaveMineScene";
 export const SCENE_ROOM_PET_SHOP = "PetShopScene";
 export const SCENE_ROOM_PIZZA_PARLOR = "PizzaParlorScene";
+export const SCENE_ROOM_BOX_DIMENSION = "BoxDimensionScene";
+export const SCENE_ROOM_SKI_LODGE = "SkiLodgeScene";
 // Scene names end here

@@ -1,0 +1,2121 @@
+{
+	"textures": [
+		{
+			"image": "skilodge-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2039
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ski_lodge_main_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2005,
+						"h": 1303
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2005,
+						"h": 1303
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2005,
+						"h": 1303
+					}
+				},
+				{
+					"filename": "ski_lodge_bottom_left_wood.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1029,
+						"h": 535
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1029,
+						"h": 535
+					},
+					"frame": {
+						"x": 1,
+						"y": 1306,
+						"w": 1029,
+						"h": 535
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 348,
+						"h": 195
+					},
+					"frame": {
+						"x": 1,
+						"y": 1843,
+						"w": 348,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 348,
+						"h": 195
+					},
+					"frame": {
+						"x": 351,
+						"y": 1843,
+						"w": 348,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 6,
+						"w": 347,
+						"h": 195
+					},
+					"frame": {
+						"x": 701,
+						"y": 1843,
+						"w": 347,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_bottom_right_wood.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 930,
+						"h": 535
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 930,
+						"h": 535
+					},
+					"frame": {
+						"x": 1032,
+						"y": 1306,
+						"w": 930,
+						"h": 535
+					}
+				},
+				{
+					"filename": "ski_lodge_corner_desk_chair_top.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 83,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 83,
+						"h": 127
+					},
+					"frame": {
+						"x": 1964,
+						"y": 1306,
+						"w": 83,
+						"h": 127
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 6,
+						"w": 347,
+						"h": 195
+					},
+					"frame": {
+						"x": 1050,
+						"y": 1843,
+						"w": 347,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 6,
+						"w": 347,
+						"h": 195
+					},
+					"frame": {
+						"x": 1399,
+						"y": 1843,
+						"w": 347,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_top_acorn.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 57,
+						"h": 59
+					},
+					"frame": {
+						"x": 1964,
+						"y": 1435,
+						"w": 57,
+						"h": 59
+					}
+				},
+				{
+					"filename": "skI_lodge_corner_desk_monitor.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 165
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 165
+					},
+					"frame": {
+						"x": 1748,
+						"y": 1843,
+						"w": 200,
+						"h": 165
+					}
+				},
+				{
+					"filename": "ski_lodge_fishing_bbox.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 97,
+						"h": 83
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 97,
+						"h": 83
+					},
+					"frame": {
+						"x": 1950,
+						"y": 1843,
+						"w": 97,
+						"h": 83
+					}
+				}
+			]
+		},
+		{
+			"image": "skilodge-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2012,
+				"h": 1622
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ski_lodge_walking_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1520,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1520,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1520,
+						"h": 960
+					}
+				},
+				{
+					"filename": "skI_lodge_fireplace.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 343,
+						"h": 727
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 343,
+						"h": 727
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1,
+						"w": 343,
+						"h": 727
+					}
+				},
+				{
+					"filename": "ski_lodge_corner_desk.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 366,
+						"h": 444
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 366,
+						"h": 444
+					},
+					"frame": {
+						"x": 1,
+						"y": 963,
+						"w": 366,
+						"h": 444
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 6,
+						"w": 347,
+						"h": 195
+					},
+					"frame": {
+						"x": 1,
+						"y": 1409,
+						"w": 347,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 6,
+						"w": 346,
+						"h": 195
+					},
+					"frame": {
+						"x": 369,
+						"y": 963,
+						"w": 346,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 6,
+						"w": 346,
+						"h": 195
+					},
+					"frame": {
+						"x": 369,
+						"y": 1160,
+						"w": 346,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 6,
+						"w": 345,
+						"h": 195
+					},
+					"frame": {
+						"x": 717,
+						"y": 963,
+						"w": 345,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 6,
+						"w": 345,
+						"h": 195
+					},
+					"frame": {
+						"x": 717,
+						"y": 1160,
+						"w": 345,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 6,
+						"w": 345,
+						"h": 195
+					},
+					"frame": {
+						"x": 1064,
+						"y": 963,
+						"w": 345,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 6,
+						"w": 345,
+						"h": 195
+					},
+					"frame": {
+						"x": 1064,
+						"y": 1160,
+						"w": 345,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 6,
+						"w": 345,
+						"h": 195
+					},
+					"frame": {
+						"x": 1523,
+						"y": 730,
+						"w": 345,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_middle_floor_wood.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 393,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 393,
+						"h": 105
+					},
+					"frame": {
+						"x": 369,
+						"y": 1357,
+						"w": 393,
+						"h": 105
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 6,
+						"w": 345,
+						"h": 195
+					},
+					"frame": {
+						"x": 764,
+						"y": 1357,
+						"w": 345,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 6,
+						"w": 344,
+						"h": 195
+					},
+					"frame": {
+						"x": 1111,
+						"y": 1357,
+						"w": 344,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_ski_village_door0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 102,
+						"h": 297
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 297
+					},
+					"frame": {
+						"x": 1868,
+						"y": 1,
+						"w": 102,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ski_lodge_ski_village_door0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 102,
+						"h": 297
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 297
+					},
+					"frame": {
+						"x": 1411,
+						"y": 963,
+						"w": 102,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 6,
+						"w": 344,
+						"h": 195
+					},
+					"frame": {
+						"x": 1523,
+						"y": 927,
+						"w": 344,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 6,
+						"w": 343,
+						"h": 195
+					},
+					"frame": {
+						"x": 1515,
+						"y": 1124,
+						"w": 343,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 6,
+						"w": 343,
+						"h": 195
+					},
+					"frame": {
+						"x": 1457,
+						"y": 1321,
+						"w": 343,
+						"h": 195
+					}
+				},
+				{
+					"filename": "skI_lodge_bottom_small_trees.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 256,
+						"h": 149
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 256,
+						"h": 149
+					},
+					"frame": {
+						"x": 350,
+						"y": 1464,
+						"w": 256,
+						"h": 149
+					}
+				},
+				{
+					"filename": "ski_lodge_fishing_rod.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 234
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 234
+					},
+					"frame": {
+						"x": 1868,
+						"y": 300,
+						"w": 96,
+						"h": 234
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 193,
+						"h": 67
+					},
+					"frame": {
+						"x": 608,
+						"y": 1554,
+						"w": 193,
+						"h": 67
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 193,
+						"h": 67
+					},
+					"frame": {
+						"x": 608,
+						"y": 1554,
+						"w": 193,
+						"h": 67
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 193,
+						"h": 67
+					},
+					"frame": {
+						"x": 608,
+						"y": 1554,
+						"w": 193,
+						"h": 67
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 193,
+						"h": 67
+					},
+					"frame": {
+						"x": 608,
+						"y": 1554,
+						"w": 193,
+						"h": 67
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 193,
+						"h": 67
+					},
+					"frame": {
+						"x": 608,
+						"y": 1554,
+						"w": 193,
+						"h": 67
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 239,
+						"h": 91
+					},
+					"frame": {
+						"x": 1457,
+						"y": 1518,
+						"w": 239,
+						"h": 91
+					}
+				},
+				{
+					"filename": "ski_lodge_fishing_door_outer_layer.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 195,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 195,
+						"h": 252
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1321,
+						"w": 195,
+						"h": 252
+					}
+				},
+				{
+					"filename": "ski_lodge_bottom_left_chair_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 151,
+						"h": 195
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 151,
+						"h": 195
+					},
+					"frame": {
+						"x": 1860,
+						"y": 1124,
+						"w": 151,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_corner_desk_books.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 131,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 131,
+						"h": 127
+					},
+					"frame": {
+						"x": 1868,
+						"y": 536,
+						"w": 131,
+						"h": 127
+					}
+				},
+				{
+					"filename": "ski_village_find_four0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 110
+					},
+					"frame": {
+						"x": 1870,
+						"y": 665,
+						"w": 111,
+						"h": 110
+					}
+				},
+				{
+					"filename": "ski_lodge_corner_desk_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 108,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 108,
+						"h": 112
+					},
+					"frame": {
+						"x": 1870,
+						"y": 777,
+						"w": 108,
+						"h": 112
+					}
+				},
+				{
+					"filename": "ski_lodge_corner_desk_mouse_pad.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 75,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 75,
+						"h": 63
+					},
+					"frame": {
+						"x": 608,
+						"y": 1464,
+						"w": 75,
+						"h": 63
+					}
+				},
+				{
+					"filename": "ski_lodge_middle_acorn.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 59,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 59,
+						"h": 66
+					},
+					"frame": {
+						"x": 803,
+						"y": 1554,
+						"w": 59,
+						"h": 66
+					}
+				},
+				{
+					"filename": "ski_lodge_bottom_acorn.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 57,
+						"h": 59
+					},
+					"frame": {
+						"x": 1698,
+						"y": 1518,
+						"w": 57,
+						"h": 59
+					}
+				},
+				{
+					"filename": "ski_lodge_left_bottomm_floor_wood.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 67,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 105
+					},
+					"frame": {
+						"x": 1869,
+						"y": 927,
+						"w": 67,
+						"h": 105
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 39
+					},
+					"frame": {
+						"x": 1411,
+						"y": 1262,
+						"w": 62,
+						"h": 39
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 37,
+						"h": 39
+					},
+					"frame": {
+						"x": 1972,
+						"y": 1,
+						"w": 37,
+						"h": 39
+					}
+				}
+			]
+		},
+		{
+			"image": "skilodge-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1573,
+				"h": 1020
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ski_lodge_fireplace_inside.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 402,
+						"h": 495
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 402,
+						"h": 495
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 402,
+						"h": 495
+					}
+				},
+				{
+					"filename": "ski_lodge_draws.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 199,
+						"h": 370
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 199,
+						"h": 370
+					},
+					"frame": {
+						"x": 1,
+						"y": 498,
+						"w": 199,
+						"h": 370
+					}
+				},
+				{
+					"filename": "ski_lodge_purple_chair_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 121,
+						"h": 140
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 121,
+						"h": 140
+					},
+					"frame": {
+						"x": 1,
+						"y": 870,
+						"w": 121,
+						"h": 140
+					}
+				},
+				{
+					"filename": "ski_lodge_fire_wood.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 205,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 205,
+						"h": 122
+					},
+					"frame": {
+						"x": 124,
+						"y": 870,
+						"w": 205,
+						"h": 122
+					}
+				},
+				{
+					"filename": "ski_lodge_attic_light0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 247,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 247,
+						"h": 315
+					},
+					"frame": {
+						"x": 202,
+						"y": 498,
+						"w": 247,
+						"h": 315
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 6,
+						"w": 345,
+						"h": 195
+					},
+					"frame": {
+						"x": 331,
+						"y": 815,
+						"w": 345,
+						"h": 195
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 108,
+						"h": 44
+					},
+					"frame": {
+						"x": 202,
+						"y": 815,
+						"w": 108,
+						"h": 44
+					}
+				},
+				{
+					"filename": "ski_lodge_fireplace_thing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 288,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 310
+					},
+					"frame": {
+						"x": 405,
+						"y": 1,
+						"w": 288,
+						"h": 310
+					}
+				},
+				{
+					"filename": "skI_lodge_attic_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 183
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 183
+					},
+					"frame": {
+						"x": 405,
+						"y": 313,
+						"w": 176,
+						"h": 183
+					}
+				},
+				{
+					"filename": "ski_lodge_purple_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 233,
+						"h": 302
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 233,
+						"h": 302
+					},
+					"frame": {
+						"x": 451,
+						"y": 498,
+						"w": 233,
+						"h": 302
+					}
+				},
+				{
+					"filename": "ski_lodge_clock.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 120,
+						"h": 214
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 120,
+						"h": 214
+					},
+					"frame": {
+						"x": 678,
+						"y": 802,
+						"w": 120,
+						"h": 214
+					}
+				},
+				{
+					"filename": "ski_lodge_puffle_wild_outside_door.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 119,
+						"h": 176
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 119,
+						"h": 176
+					},
+					"frame": {
+						"x": 583,
+						"y": 313,
+						"w": 119,
+						"h": 176
+					}
+				},
+				{
+					"filename": "ski_lodge_ice_fishing_door0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 226,
+						"h": 263
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 263
+					},
+					"frame": {
+						"x": 686,
+						"y": 491,
+						"w": 226,
+						"h": 263
+					}
+				},
+				{
+					"filename": "ski_lodge_ice_fishing_door0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 226,
+						"h": 263
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 263
+					},
+					"frame": {
+						"x": 800,
+						"y": 756,
+						"w": 226,
+						"h": 263
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 63,
+						"h": 39
+					},
+					"frame": {
+						"x": 686,
+						"y": 756,
+						"w": 63,
+						"h": 39
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 24,
+						"h": 33
+					},
+					"frame": {
+						"x": 751,
+						"y": 756,
+						"w": 24,
+						"h": 33
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 24,
+						"h": 33
+					},
+					"frame": {
+						"x": 751,
+						"y": 756,
+						"w": 24,
+						"h": 33
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 24,
+						"h": 33
+					},
+					"frame": {
+						"x": 751,
+						"y": 756,
+						"w": 24,
+						"h": 33
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 24,
+						"h": 33
+					},
+					"frame": {
+						"x": 751,
+						"y": 756,
+						"w": 24,
+						"h": 33
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 24,
+						"h": 33
+					},
+					"frame": {
+						"x": 751,
+						"y": 756,
+						"w": 24,
+						"h": 33
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 24,
+						"h": 33
+					},
+					"frame": {
+						"x": 751,
+						"y": 756,
+						"w": 24,
+						"h": 33
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 24,
+						"h": 33
+					},
+					"frame": {
+						"x": 751,
+						"y": 756,
+						"w": 24,
+						"h": 33
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 24,
+						"h": 33
+					},
+					"frame": {
+						"x": 751,
+						"y": 756,
+						"w": 24,
+						"h": 33
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 24,
+						"h": 33
+					},
+					"frame": {
+						"x": 751,
+						"y": 756,
+						"w": 24,
+						"h": 33
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 24,
+						"h": 33
+					},
+					"frame": {
+						"x": 751,
+						"y": 756,
+						"w": 24,
+						"h": 33
+					}
+				},
+				{
+					"filename": "ski_lodge_puffle_wild_door0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 195,
+						"h": 263
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 195,
+						"h": 263
+					},
+					"frame": {
+						"x": 695,
+						"y": 1,
+						"w": 195,
+						"h": 263
+					}
+				},
+				{
+					"filename": "ski_lodge_left_floor_wood.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 124,
+						"h": 194
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 194
+					},
+					"frame": {
+						"x": 704,
+						"y": 266,
+						"w": 124,
+						"h": 194
+					}
+				},
+				{
+					"filename": "ski_lodge_fire0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 10,
+						"w": 346,
+						"h": 191
+					},
+					"frame": {
+						"x": 830,
+						"y": 266,
+						"w": 346,
+						"h": 191
+					}
+				},
+				{
+					"filename": "ski_lodge_puffle_wild_door0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 195,
+						"h": 263
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 195,
+						"h": 263
+					},
+					"frame": {
+						"x": 892,
+						"y": 1,
+						"w": 195,
+						"h": 263
+					}
+				},
+				{
+					"filename": "ski_lodge_top_left_wood.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 435,
+						"h": 225
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 435,
+						"h": 225
+					},
+					"frame": {
+						"x": 1089,
+						"y": 1,
+						"w": 435,
+						"h": 225
+					}
+				},
+				{
+					"filename": "ski_lodge_top_right_wood.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 435,
+						"h": 225
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 435,
+						"h": 225
+					},
+					"frame": {
+						"x": 914,
+						"y": 459,
+						"w": 435,
+						"h": 225
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 186,
+						"h": 66
+					},
+					"frame": {
+						"x": 914,
+						"y": 686,
+						"w": 186,
+						"h": 66
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 186,
+						"h": 66
+					},
+					"frame": {
+						"x": 914,
+						"y": 686,
+						"w": 186,
+						"h": 66
+					}
+				},
+				{
+					"filename": "ski_lodge_attic_light0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 247,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 0,
+						"w": 221,
+						"h": 107
+					},
+					"frame": {
+						"x": 1351,
+						"y": 228,
+						"w": 221,
+						"h": 107
+					}
+				},
+				{
+					"filename": "ski_lodge_corner_desk_telephone.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 114
+					},
+					"frame": {
+						"x": 1178,
+						"y": 337,
+						"w": 130,
+						"h": 114
+					}
+				},
+				{
+					"filename": "ski_lodge_find_four_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 105
+					},
+					"frame": {
+						"x": 1178,
+						"y": 228,
+						"w": 133,
+						"h": 105
+					}
+				},
+				{
+					"filename": "ski_lodge_ski_village_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 260,
+						"h": 98
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 260,
+						"h": 98
+					},
+					"frame": {
+						"x": 1310,
+						"y": 337,
+						"w": 260,
+						"h": 98
+					}
+				},
+				{
+					"filename": "ski_lodge_ice_fishing_game_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 189,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 189,
+						"h": 74
+					},
+					"frame": {
+						"x": 1351,
+						"y": 437,
+						"w": 189,
+						"h": 74
+					}
+				},
+				{
+					"filename": "ski_lodge_puffle_wild_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 189,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 189,
+						"h": 74
+					},
+					"frame": {
+						"x": 1351,
+						"y": 513,
+						"w": 189,
+						"h": 74
+					}
+				},
+				{
+					"filename": "ski_lodge_find_four_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 180,
+						"h": 108
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 108
+					},
+					"frame": {
+						"x": 1351,
+						"y": 589,
+						"w": 180,
+						"h": 108
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 239,
+						"h": 91
+					},
+					"frame": {
+						"x": 1102,
+						"y": 686,
+						"w": 239,
+						"h": 91
+					}
+				},
+				{
+					"filename": "ski_lodge_bottom_right_red_chair_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 136,
+						"h": 191
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 136,
+						"h": 191
+					},
+					"frame": {
+						"x": 1028,
+						"y": 779,
+						"w": 136,
+						"h": 191
+					}
+				},
+				{
+					"filename": "ski_lodge_right_floor_wood.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 325,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 325,
+						"h": 61
+					},
+					"frame": {
+						"x": 1166,
+						"y": 779,
+						"w": 325,
+						"h": 61
+					}
+				},
+				{
+					"filename": "ski_lodge_corner_desk_keyboard.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 92
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 92
+					},
+					"frame": {
+						"x": 1493,
+						"y": 699,
+						"w": 78,
+						"h": 92
+					}
+				},
+				{
+					"filename": "ski_lodge_bird_coming_out_of_clock0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 242,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 140,
+						"h": 60
+					},
+					"frame": {
+						"x": 1343,
+						"y": 699,
+						"w": 140,
+						"h": 60
+					}
+				},
+				{
+					"filename": "ski_village_find_four0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 111,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 0,
+						"w": 100,
+						"h": 110
+					},
+					"frame": {
+						"x": 1166,
+						"y": 842,
+						"w": 100,
+						"h": 110
+					}
+				},
+				{
+					"filename": "ski_lodge_red_small_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 103,
+						"h": 92
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 103,
+						"h": 92
+					},
+					"frame": {
+						"x": 1268,
+						"y": 842,
+						"w": 103,
+						"h": 92
+					}
+				},
+				{
+					"filename": "ski_lodge_corner_desk_draw.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 134,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 134,
+						"h": 86
+					},
+					"frame": {
+						"x": 1373,
+						"y": 842,
+						"w": 134,
+						"h": 86
+					}
+				},
+				{
+					"filename": "ski_lodge_corner_desk_paper.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 84
+					},
+					"frame": {
+						"x": 1373,
+						"y": 930,
+						"w": 110,
+						"h": 84
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:05b0622ac54a2af6efd2b9490e55c572:25d7931ef6fd72958d6f9c2152bb6798:bcddb0099e7642ebda8894beafd23e1f$"
+	}
+}

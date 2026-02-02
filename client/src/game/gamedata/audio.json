@@ -867,5 +867,115 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "ski_lodge_room_music": {
+        "key": "ski_lodge_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_lodge_ski_village_door_open": {
+        "key": "ski_lodge_ski_village_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_lodge_ski_village_door_close": {
+        "key": "ski_lodge_ski_village_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_lodge_puffle_wild_door_open": {
+        "key": "ski_lodge_puffle_wild_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_lodge_puffle_wild_door_close": {
+        "key": "ski_lodge_puffle_wild_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_lodge_ice_fishing_door_open": {
+        "key": "ski_lodge_ice_fishing_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_lodge_ice_fishing_door_close": {
+        "key": "ski_lodge_ice_fishing_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_lodge_attic_light_on": {
+        "key": "ski_lodge_attic_light_on",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_lodge_attic_light_off": {
+        "key": "ski_lodge_attic_light_off",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "ski_lodge_fireplace_clock_bird": {
+        "key": "ski_lodge_fireplace_clock_bird",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }
