@@ -49,6 +49,7 @@ import { SkiLodgeScene } from './game/scenes/world/rooms/skilodge/skilodge.js';
 import { AtticScene } from './game/scenes/world/rooms/attic/attic.js';
 import { DojoCourtYardScene } from './game/scenes/world/rooms/dojocourtyard/dojocourtyard.js';
 import { SnowDojoScene } from './game/scenes/world/rooms/dojo/snow/snowdojo.js';
+import { PirateShipScene } from './game/scenes/world/rooms/pirateship/pirateship.js';
 
 const config = {
     type: Phaser.WEBGL,
@@ -60,7 +61,7 @@ const config = {
         createContainer: true 
     },
     backgroundColor: '#07c5ffff',
-    scene: [PreloadAssetsScene, SnowDojoScene],
+    scene: [PreloadAssetsScene, PirateShipScene],
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene, DanceclubScene, SnowFortsScene, GiftshopScene, DocksScene, InterfaceScene, RegisterScene, InterfaceDanceScene, InterfaceEmojiScene],
     scale: {
         mode: Phaser.Scale.FIT,

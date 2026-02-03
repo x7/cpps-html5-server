@@ -196,3 +196,10 @@ export const DOJO_SNOW_LIGHT_OFF = "dojo_snow_light_off";
 export const DOJO_SNOW_BRIDGE_BOUNCE = "dojo_snow_bridge_bounce";
 export const DOJO_SNOW_BATTLE_LAUGH = "dojo_snow_battle_laugh";
 // Snow Dojo Room audio ends here
+
+// Pirate Ship Room audio starts here
+export const PIRATE_SHIP_ROOM_MUSIC = "pirate_ship_room_music";
+export const PIRATE_SHIP_DOOR_OPEN = "pirate_ship_door_open";
+export const PIRATE_SHIP_DOOR_CLOSE = "pirate_ship_door_close";
+export const PIRATE_SHIP_LADDER_DOWN = "pirate_ship_ladder_down";
+// Pirate Ship Room audio ends here

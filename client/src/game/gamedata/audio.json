@@ -1098,5 +1098,49 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "pirate_ship_room_music": {
+        "key": "pirate_ship_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pirate_ship_door_open": {
+        "key": "pirate_ship_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pirate_ship_door_close": {
+        "key": "pirate_ship_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "pirate_ship_ladder_down": {
+        "key": "pirate_ship_ladder_down",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }
