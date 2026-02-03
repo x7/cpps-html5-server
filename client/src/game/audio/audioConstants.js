@@ -176,3 +176,11 @@ export const SKI_LODGE_ATTIC_LIGHT_ON = "ski_lodge_attic_light_on";
 export const SKI_LODGE_ATTIC_LIGHT_OFF = "ski_lodge_attic_light_off";
 export const SKI_LODGE_FIREPLACE_CLOCK_BIRD = "ski_lodge_fireplace_clock_bird";
 // Ski Lodge Room audio ends here
+
+// Attic Room audio starts here
+export const ATTIC_ROOM_MUSIC = "attic_room_music";
+export const ATTIC_PORTAL_OPEN = "attic_portal_box_open";
+export const ATTIC_PORTAL_WHILE_OPEN = "attic_portal_box_while_open";
+export const ATTIC_PORTAL_CLOSE = "attic_portal_box_close";
+export const ATTIC_ROCKING_CHAIR = "attic_rocking_chair";
+// Attic Room audio ends here

@@ -977,5 +977,60 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "attic_room_music": {
+        "key": "attic_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "attic_portal_box_open": {
+        "key": "attic_portal_box_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "attic_portal_box_while_open": {
+        "key": "attic_portal_box_while_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "attic_portal_box_close": {
+        "key": "attic_portal_box_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "attic_rocking_chair": {
+        "key": "attic_rocking_chair",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }

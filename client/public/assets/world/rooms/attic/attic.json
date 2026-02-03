@@ -1,0 +1,2383 @@
+{
+	"textures": [
+		{
+			"image": "attic-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2036,
+				"h": 2047
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "attic_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1785,
+						"h": 986
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1785,
+						"h": 986
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1785,
+						"h": 986
+					}
+				},
+				{
+					"filename": "attic_purple_portal_box0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 275,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 0,
+						"w": 247,
+						"h": 270
+					},
+					"frame": {
+						"x": 1788,
+						"y": 1,
+						"w": 247,
+						"h": 270
+					}
+				},
+				{
+					"filename": "attic_purple_portal_box0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 275,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 51,
+						"w": 242,
+						"h": 219
+					},
+					"frame": {
+						"x": 1788,
+						"y": 273,
+						"w": 242,
+						"h": 219
+					}
+				},
+				{
+					"filename": "attic_red_carpet_bottom.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 244,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 244,
+						"h": 192
+					},
+					"frame": {
+						"x": 1788,
+						"y": 494,
+						"w": 244,
+						"h": 192
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 20,
+						"w": 218,
+						"h": 192
+					},
+					"frame": {
+						"x": 1788,
+						"y": 688,
+						"w": 218,
+						"h": 192
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 21,
+						"w": 219,
+						"h": 191
+					},
+					"frame": {
+						"x": 1788,
+						"y": 882,
+						"w": 219,
+						"h": 191
+					}
+				},
+				{
+					"filename": "attic_walking_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1520,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1520,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 989,
+						"w": 1520,
+						"h": 960
+					}
+				},
+				{
+					"filename": "attic_wood_railing_right.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 92,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 92,
+						"h": 95
+					},
+					"frame": {
+						"x": 1,
+						"y": 1951,
+						"w": 92,
+						"h": 95
+					}
+				},
+				{
+					"filename": "attic_small_golden_puffle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 71
+					},
+					"frame": {
+						"x": 95,
+						"y": 1951,
+						"w": 82,
+						"h": 71
+					}
+				},
+				{
+					"filename": "attic_purple_portal0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 179,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 229,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 279,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 329,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 379,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 429,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 479,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 529,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 579,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 629,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 679,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 729,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 779,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 829,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 879,
+						"y": 1951,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_bottom_middle_couch_top.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 258,
+						"h": 187
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 258,
+						"h": 187
+					},
+					"frame": {
+						"x": 1523,
+						"y": 989,
+						"w": 258,
+						"h": 187
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 17,
+						"w": 215,
+						"h": 194
+					},
+					"frame": {
+						"x": 1783,
+						"y": 1075,
+						"w": 215,
+						"h": 194
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 8,
+						"w": 205,
+						"h": 201
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1178,
+						"w": 205,
+						"h": 201
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 7,
+						"w": 202,
+						"h": 203
+					},
+					"frame": {
+						"x": 1730,
+						"y": 1271,
+						"w": 202,
+						"h": 203
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 7,
+						"w": 202,
+						"h": 203
+					},
+					"frame": {
+						"x": 1730,
+						"y": 1271,
+						"w": 202,
+						"h": 203
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 7,
+						"w": 202,
+						"h": 203
+					},
+					"frame": {
+						"x": 1730,
+						"y": 1271,
+						"w": 202,
+						"h": 203
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 7,
+						"w": 202,
+						"h": 203
+					},
+					"frame": {
+						"x": 1730,
+						"y": 1271,
+						"w": 202,
+						"h": 203
+					}
+				},
+				{
+					"filename": "attic_find_four_gamme0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 111,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 0,
+						"w": 100,
+						"h": 110
+					},
+					"frame": {
+						"x": 1934,
+						"y": 1271,
+						"w": 100,
+						"h": 110
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 53,
+						"y": 0,
+						"w": 185,
+						"h": 216
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1381,
+						"w": 185,
+						"h": 216
+					}
+				},
+				{
+					"filename": "attic_bottom_middle_couch_bottom.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 370,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 370,
+						"h": 294
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1599,
+						"w": 370,
+						"h": 294
+					}
+				},
+				{
+					"filename": "attic_find_four_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 174,
+						"h": 119
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 174,
+						"h": 119
+					},
+					"frame": {
+						"x": 1710,
+						"y": 1476,
+						"w": 174,
+						"h": 119
+					}
+				},
+				{
+					"filename": "attic_small_puffle_stone.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 105
+					},
+					"frame": {
+						"x": 1886,
+						"y": 1476,
+						"w": 110,
+						"h": 105
+					}
+				},
+				{
+					"filename": "attic_three_pizza_boxes.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 190,
+						"h": 146
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 190,
+						"h": 146
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1895,
+						"w": 190,
+						"h": 146
+					}
+				},
+				{
+					"filename": "attic_red_carpet_right_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 157,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 157,
+						"h": 138
+					},
+					"frame": {
+						"x": 1715,
+						"y": 1895,
+						"w": 157,
+						"h": 138
+					}
+				},
+				{
+					"filename": "attic_small_puffle_stone_outline.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 105
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1895,
+						"w": 110,
+						"h": 105
+					}
+				},
+				{
+					"filename": "attic_purple_seat.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 105,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 105,
+						"h": 96
+					},
+					"frame": {
+						"x": 1895,
+						"y": 1583,
+						"w": 105,
+						"h": 96
+					}
+				}
+			]
+		},
+		{
+			"image": "attic-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1996,
+				"h": 1617
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "attic_bottom_right_rubbish.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 977,
+						"h": 525
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 977,
+						"h": 525
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 977,
+						"h": 525
+					}
+				},
+				{
+					"filename": "attic_bottom_left_rubbish.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 620,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 620,
+						"h": 385
+					},
+					"frame": {
+						"x": 1,
+						"y": 528,
+						"w": 620,
+						"h": 385
+					}
+				},
+				{
+					"filename": "attic_table_with_map.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 359,
+						"h": 306
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 359,
+						"h": 306
+					},
+					"frame": {
+						"x": 980,
+						"y": 1,
+						"w": 359,
+						"h": 306
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 21,
+						"w": 219,
+						"h": 191
+					},
+					"frame": {
+						"x": 1,
+						"y": 915,
+						"w": 219,
+						"h": 191
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 19,
+						"w": 216,
+						"h": 193
+					},
+					"frame": {
+						"x": 623,
+						"y": 528,
+						"w": 216,
+						"h": 193
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 21,
+						"w": 218,
+						"h": 191
+					},
+					"frame": {
+						"x": 980,
+						"y": 309,
+						"w": 218,
+						"h": 191
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 22,
+						"w": 219,
+						"h": 190
+					},
+					"frame": {
+						"x": 1341,
+						"y": 1,
+						"w": 219,
+						"h": 190
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 20,
+						"w": 217,
+						"h": 192
+					},
+					"frame": {
+						"x": 1,
+						"y": 1108,
+						"w": 217,
+						"h": 192
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 19,
+						"w": 216,
+						"h": 193
+					},
+					"frame": {
+						"x": 1,
+						"y": 1302,
+						"w": 216,
+						"h": 193
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 16,
+						"w": 214,
+						"h": 195
+					},
+					"frame": {
+						"x": 222,
+						"y": 915,
+						"w": 214,
+						"h": 195
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 16,
+						"w": 213,
+						"h": 195
+					},
+					"frame": {
+						"x": 623,
+						"y": 723,
+						"w": 213,
+						"h": 195
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 14,
+						"w": 212,
+						"h": 196
+					},
+					"frame": {
+						"x": 1562,
+						"y": 1,
+						"w": 212,
+						"h": 196
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 14,
+						"w": 211,
+						"h": 196
+					},
+					"frame": {
+						"x": 1776,
+						"y": 1,
+						"w": 211,
+						"h": 196
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 11,
+						"w": 209,
+						"h": 199
+					},
+					"frame": {
+						"x": 220,
+						"y": 1112,
+						"w": 209,
+						"h": 199
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 11,
+						"w": 209,
+						"h": 199
+					},
+					"frame": {
+						"x": 219,
+						"y": 1313,
+						"w": 209,
+						"h": 199
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 55,
+						"y": 0,
+						"w": 183,
+						"h": 216
+					},
+					"frame": {
+						"x": 438,
+						"y": 915,
+						"w": 183,
+						"h": 216
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 10,
+						"w": 208,
+						"h": 200
+					},
+					"frame": {
+						"x": 623,
+						"y": 920,
+						"w": 208,
+						"h": 200
+					}
+				},
+				{
+					"filename": "attic_pizza_box.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 131,
+						"h": 119
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 131,
+						"h": 119
+					},
+					"frame": {
+						"x": 1,
+						"y": 1497,
+						"w": 131,
+						"h": 119
+					}
+				},
+				{
+					"filename": "attic_left_side_green_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 206
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 206
+					},
+					"frame": {
+						"x": 431,
+						"y": 1133,
+						"w": 192,
+						"h": 206
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 9,
+						"w": 206,
+						"h": 200
+					},
+					"frame": {
+						"x": 625,
+						"y": 1122,
+						"w": 206,
+						"h": 200
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 3,
+						"w": 193,
+						"h": 208
+					},
+					"frame": {
+						"x": 430,
+						"y": 1341,
+						"w": 193,
+						"h": 208
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 7,
+						"w": 203,
+						"h": 203
+					},
+					"frame": {
+						"x": 625,
+						"y": 1324,
+						"w": 203,
+						"h": 203
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 12,
+						"w": 209,
+						"h": 198
+					},
+					"frame": {
+						"x": 841,
+						"y": 528,
+						"w": 209,
+						"h": 198
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 7,
+						"w": 202,
+						"h": 203
+					},
+					"frame": {
+						"x": 838,
+						"y": 728,
+						"w": 202,
+						"h": 203
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 6,
+						"w": 201,
+						"h": 204
+					},
+					"frame": {
+						"x": 833,
+						"y": 933,
+						"w": 201,
+						"h": 204
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 6,
+						"w": 200,
+						"h": 204
+					},
+					"frame": {
+						"x": 833,
+						"y": 1139,
+						"w": 200,
+						"h": 204
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 5,
+						"w": 200,
+						"h": 205
+					},
+					"frame": {
+						"x": 830,
+						"y": 1345,
+						"w": 200,
+						"h": 205
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 0,
+						"w": 188,
+						"h": 214
+					},
+					"frame": {
+						"x": 1052,
+						"y": 502,
+						"w": 188,
+						"h": 214
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 5,
+						"w": 200,
+						"h": 205
+					},
+					"frame": {
+						"x": 1341,
+						"y": 193,
+						"w": 200,
+						"h": 205
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 5,
+						"w": 198,
+						"h": 205
+					},
+					"frame": {
+						"x": 1543,
+						"y": 199,
+						"w": 198,
+						"h": 205
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 4,
+						"w": 198,
+						"h": 206
+					},
+					"frame": {
+						"x": 1743,
+						"y": 199,
+						"w": 198,
+						"h": 206
+					}
+				},
+				{
+					"filename": "attic_ski_lodge_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 258,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 258,
+						"h": 100
+					},
+					"frame": {
+						"x": 134,
+						"y": 1514,
+						"w": 258,
+						"h": 100
+					}
+				},
+				{
+					"filename": "attic_small_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 134,
+						"h": 124
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 134,
+						"h": 124
+					},
+					"frame": {
+						"x": 1200,
+						"y": 309,
+						"w": 134,
+						"h": 124
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 0,
+						"w": 188,
+						"h": 214
+					},
+					"frame": {
+						"x": 1242,
+						"y": 435,
+						"w": 188,
+						"h": 214
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 4,
+						"w": 198,
+						"h": 206
+					},
+					"frame": {
+						"x": 1432,
+						"y": 406,
+						"w": 198,
+						"h": 206
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 5,
+						"w": 198,
+						"h": 205
+					},
+					"frame": {
+						"x": 1632,
+						"y": 407,
+						"w": 198,
+						"h": 205
+					}
+				},
+				{
+					"filename": "attic_green_number_ten_ocean.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 145,
+						"h": 173
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 145,
+						"h": 173
+					},
+					"frame": {
+						"x": 1832,
+						"y": 407,
+						"w": 145,
+						"h": 173
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 2,
+						"w": 192,
+						"h": 209
+					},
+					"frame": {
+						"x": 1242,
+						"y": 651,
+						"w": 192,
+						"h": 209
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 3,
+						"w": 196,
+						"h": 207
+					},
+					"frame": {
+						"x": 1436,
+						"y": 614,
+						"w": 196,
+						"h": 207
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 3,
+						"w": 196,
+						"h": 207
+					},
+					"frame": {
+						"x": 1634,
+						"y": 614,
+						"w": 196,
+						"h": 207
+					}
+				},
+				{
+					"filename": "attic_find_four_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 105
+					},
+					"frame": {
+						"x": 1832,
+						"y": 582,
+						"w": 133,
+						"h": 105
+					}
+				},
+				{
+					"filename": "attic_left_side_lamp.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 114,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 114,
+						"h": 124
+					},
+					"frame": {
+						"x": 1832,
+						"y": 689,
+						"w": 114,
+						"h": 124
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 4,
+						"w": 196,
+						"h": 206
+					},
+					"frame": {
+						"x": 1436,
+						"y": 823,
+						"w": 196,
+						"h": 206
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 4,
+						"w": 196,
+						"h": 206
+					},
+					"frame": {
+						"x": 1634,
+						"y": 823,
+						"w": 196,
+						"h": 206
+					}
+				},
+				{
+					"filename": "attic_find_four_gamme0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 110
+					},
+					"frame": {
+						"x": 1832,
+						"y": 815,
+						"w": 111,
+						"h": 110
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 3,
+						"w": 195,
+						"h": 207
+					},
+					"frame": {
+						"x": 1042,
+						"y": 728,
+						"w": 195,
+						"h": 207
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 3,
+						"w": 195,
+						"h": 207
+					},
+					"frame": {
+						"x": 1239,
+						"y": 862,
+						"w": 195,
+						"h": 207
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 3,
+						"w": 193,
+						"h": 208
+					},
+					"frame": {
+						"x": 1036,
+						"y": 937,
+						"w": 193,
+						"h": 208
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 2,
+						"w": 192,
+						"h": 210
+					},
+					"frame": {
+						"x": 1035,
+						"y": 1147,
+						"w": 192,
+						"h": 210
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 1,
+						"w": 191,
+						"h": 211
+					},
+					"frame": {
+						"x": 1032,
+						"y": 1359,
+						"w": 191,
+						"h": 211
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 45,
+						"y": 1,
+						"w": 191,
+						"h": 211
+					},
+					"frame": {
+						"x": 1231,
+						"y": 1071,
+						"w": 191,
+						"h": 211
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 2,
+						"w": 191,
+						"h": 209
+					},
+					"frame": {
+						"x": 1229,
+						"y": 1284,
+						"w": 191,
+						"h": 209
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 1,
+						"w": 190,
+						"h": 212
+					},
+					"frame": {
+						"x": 1436,
+						"y": 1031,
+						"w": 190,
+						"h": 212
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 1,
+						"w": 190,
+						"h": 211
+					},
+					"frame": {
+						"x": 1628,
+						"y": 1031,
+						"w": 190,
+						"h": 211
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 0,
+						"w": 189,
+						"h": 213
+					},
+					"frame": {
+						"x": 1424,
+						"y": 1245,
+						"w": 189,
+						"h": 213
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 0,
+						"w": 189,
+						"h": 213
+					},
+					"frame": {
+						"x": 1615,
+						"y": 1245,
+						"w": 189,
+						"h": 213
+					}
+				},
+				{
+					"filename": "attic_rocking_unknown_animial_chair0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 238,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 0,
+						"w": 189,
+						"h": 213
+					},
+					"frame": {
+						"x": 1806,
+						"y": 1244,
+						"w": 189,
+						"h": 213
+					}
+				},
+				{
+					"filename": "attic_pizzas_by_stairs.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 173,
+						"h": 149
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 173,
+						"h": 149
+					},
+					"frame": {
+						"x": 1422,
+						"y": 1460,
+						"w": 173,
+						"h": 149
+					}
+				},
+				{
+					"filename": "attic_left_side_green_chair_arm.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 86,
+						"h": 109
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 86,
+						"h": 109
+					},
+					"frame": {
+						"x": 1597,
+						"y": 1460,
+						"w": 86,
+						"h": 109
+					}
+				},
+				{
+					"filename": "attic_left_side_small_green_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 83,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 83,
+						"h": 89
+					},
+					"frame": {
+						"x": 1832,
+						"y": 927,
+						"w": 83,
+						"h": 89
+					}
+				},
+				{
+					"filename": "attic_red_carpet_top.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 174,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 174,
+						"h": 160
+					},
+					"frame": {
+						"x": 1820,
+						"y": 1031,
+						"w": 174,
+						"h": 160
+					}
+				},
+				{
+					"filename": "attic_wood_railing_left.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 98
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 98
+					},
+					"frame": {
+						"x": 1685,
+						"y": 1460,
+						"w": 55,
+						"h": 98
+					}
+				},
+				{
+					"filename": "attic_purple_portal0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 1820,
+						"y": 1193,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 1742,
+						"y": 1460,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 1870,
+						"y": 1193,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 1742,
+						"y": 1510,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 1920,
+						"y": 1193,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 1943,
+						"y": 199,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 1943,
+						"y": 249,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 1943,
+						"y": 299,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 1943,
+						"y": 349,
+						"w": 48,
+						"h": 48
+					}
+				},
+				{
+					"filename": "attic_purple_portal0018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 1225,
+						"y": 1495,
+						"w": 48,
+						"h": 48
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:ed6a7a4338925e763ab208b3ed5b51c0:9cff318af737187805c82f8ef16bf4f9:14921ec7cf3fbd80c4a69d60d7a5d1f8$"
+	}
+}

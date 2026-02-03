@@ -42,4 +42,5 @@ export const SCENE_ROOM_PET_SHOP = "PetShopScene";
 export const SCENE_ROOM_PIZZA_PARLOR = "PizzaParlorScene";
 export const SCENE_ROOM_BOX_DIMENSION = "BoxDimensionScene";
 export const SCENE_ROOM_SKI_LODGE = "SkiLodgeScene";
+export const SCENE_ROOM_ATTIC = "AtticScene";
 // Scene names end here
