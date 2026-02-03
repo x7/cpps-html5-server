@@ -1,0 +1,3593 @@
+{
+	"textures": [
+		{
+			"image": "snowdojo-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2036,
+				"h": 2045
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "snow_dojo_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1749,
+						"h": 1041
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1749,
+						"h": 1041
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1749,
+						"h": 1041
+					}
+				},
+				{
+					"filename": "snow_dojo_battle_block0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 230,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 230,
+						"h": 377
+					},
+					"frame": {
+						"x": 1752,
+						"y": 1,
+						"w": 230,
+						"h": 377
+					}
+				},
+				{
+					"filename": "snow_dojo_battle_block0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 230,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1984,
+						"y": 1,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "snow_dojo_battle_block0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 230,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 230,
+						"h": 377
+					},
+					"frame": {
+						"x": 1752,
+						"y": 380,
+						"w": 230,
+						"h": 377
+					}
+				},
+				{
+					"filename": "snow_dojo_battle_block0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 230,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 230,
+						"h": 377
+					},
+					"frame": {
+						"x": 1752,
+						"y": 759,
+						"w": 230,
+						"h": 377
+					}
+				},
+				{
+					"filename": "snow_dojo_walking_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1520,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1520,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 1044,
+						"w": 1520,
+						"h": 960
+					}
+				},
+				{
+					"filename": "snow_dojo_dojo_cave_light_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 217,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 217,
+						"h": 236
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1044,
+						"w": 217,
+						"h": 236
+					}
+				},
+				{
+					"filename": "snow_dojo_exit.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 468,
+						"h": 505
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 468,
+						"h": 505
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1282,
+						"w": 468,
+						"h": 505
+					}
+				},
+				{
+					"filename": "snow_dojo_card_jistu_snow_battle_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 220,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 220,
+						"h": 126
+					},
+					"frame": {
+						"x": 1742,
+						"y": 1138,
+						"w": 220,
+						"h": 126
+					}
+				},
+				{
+					"filename": "snow_dojo_dojo_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 248,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 248,
+						"h": 147
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1789,
+						"w": 248,
+						"h": 147
+					}
+				},
+				{
+					"filename": "snow_dojo_card_jistu_snow_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 234,
+						"h": 101
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 234,
+						"h": 101
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1938,
+						"w": 234,
+						"h": 101
+					}
+				},
+				{
+					"filename": "snow_dojo_random_button_not_sure_what_this_triggers0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 174,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 41,
+						"y": 40,
+						"w": 100,
+						"h": 106
+					},
+					"frame": {
+						"x": 1759,
+						"y": 1938,
+						"w": 100,
+						"h": 106
+					}
+				},
+				{
+					"filename": "snow_dojo_random_button_not_sure_what_this_triggers0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 174,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 174,
+						"h": 192
+					},
+					"frame": {
+						"x": 1861,
+						"y": 1789,
+						"w": 174,
+						"h": 192
+					}
+				}
+			]
+		},
+		{
+			"image": "snowdojo-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2039,
+				"h": 1984
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Symbol 259.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1382,
+						"h": 936
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1382,
+						"h": 936
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1382,
+						"h": 936
+					}
+				},
+				{
+					"filename": "snow_dojo_background_sky.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1805,
+						"h": 390
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1805,
+						"h": 390
+					},
+					"frame": {
+						"x": 1,
+						"y": 939,
+						"w": 1805,
+						"h": 390
+					}
+				},
+				{
+					"filename": "snow_dojo_bottom_middle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1267,
+						"h": 357
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1267,
+						"h": 357
+					},
+					"frame": {
+						"x": 1,
+						"y": 1331,
+						"w": 1267,
+						"h": 357
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge_animation_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 611,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 611,
+						"h": 250
+					},
+					"frame": {
+						"x": 1385,
+						"y": 1,
+						"w": 611,
+						"h": 250
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0059.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 574,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1690,
+						"w": 574,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0086.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 574,
+						"h": 216
+					},
+					"frame": {
+						"x": 1385,
+						"y": 253,
+						"w": 574,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 577,
+						"y": 1690,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1385,
+						"y": 471,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1385,
+						"y": 689,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_battle_block0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 230,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 230,
+						"h": 377
+					},
+					"frame": {
+						"x": 1808,
+						"y": 907,
+						"w": 230,
+						"h": 377
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1270,
+						"y": 1331,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1270,
+						"y": 1549,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1152,
+						"y": 1767,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_dojo_cave_light_trigger0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 217,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 51,
+						"y": 41,
+						"w": 140,
+						"h": 184
+					},
+					"frame": {
+						"x": 1727,
+						"y": 1767,
+						"w": 140,
+						"h": 184
+					}
+				},
+				{
+					"filename": "snow_dojo_dojo_cave_light_trigger0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 217,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 51,
+						"y": 41,
+						"w": 140,
+						"h": 184
+					},
+					"frame": {
+						"x": 1727,
+						"y": 1767,
+						"w": 140,
+						"h": 184
+					}
+				},
+				{
+					"filename": "snow_dojo_exit_sign.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 171,
+						"h": 118
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 171,
+						"h": 118
+					},
+					"frame": {
+						"x": 1845,
+						"y": 1286,
+						"w": 171,
+						"h": 118
+					}
+				},
+				{
+					"filename": "snow_dojo_random_button_not_sure_what_this_triggers0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 174,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 27,
+						"w": 114,
+						"h": 119
+					},
+					"frame": {
+						"x": 1845,
+						"y": 1406,
+						"w": 114,
+						"h": 119
+					}
+				}
+			]
+		},
+		{
+			"image": "snowdojo-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1957,
+				"h": 1962
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "snow_dojo_bridge0057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0088.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 1,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0087.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 1,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1151,
+						"y": 1,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_battle_block0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 230,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 230,
+						"h": 377
+					},
+					"frame": {
+						"x": 1726,
+						"y": 1,
+						"w": 230,
+						"h": 377
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 219,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 219,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0082.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 219,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1151,
+						"y": 219,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_battle_block0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 230,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 230,
+						"h": 377
+					},
+					"frame": {
+						"x": 1726,
+						"y": 380,
+						"w": 230,
+						"h": 377
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 759,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 437,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0078.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 437,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0066.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 437,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0067.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1151,
+						"y": 437,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0076.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1151,
+						"y": 437,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0068.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 655,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0075.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 655,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0069.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1151,
+						"y": 655,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0074.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1151,
+						"y": 655,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_battle_block0007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 230,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 230,
+						"h": 377
+					},
+					"frame": {
+						"x": 1726,
+						"y": 759,
+						"w": 230,
+						"h": 377
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0070.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 873,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0071.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 977,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0072.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1151,
+						"y": 873,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0073.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 1091,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0077.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1195,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0079.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1151,
+						"y": 1091,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_battle_block0008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 230,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 230,
+						"h": 377
+					},
+					"frame": {
+						"x": 1726,
+						"y": 1138,
+						"w": 230,
+						"h": 377
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0080.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 1309,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0081.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1413,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0083.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1151,
+						"y": 1309,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_battle_block0009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 230,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 230,
+						"h": 377
+					},
+					"frame": {
+						"x": 1726,
+						"y": 1517,
+						"w": 230,
+						"h": 377
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0084.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 1527,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0085.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1631,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0089.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1151,
+						"y": 1527,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0090.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 1745,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0091.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1151,
+						"y": 1745,
+						"w": 573,
+						"h": 216
+					}
+				}
+			]
+		},
+		{
+			"image": "snowdojo-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1722,
+				"h": 1962
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "snow_dojo_bridge0092.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0093.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 219,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0094.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 437,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0095.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 573,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 655,
+						"w": 573,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 873,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 575,
+						"y": 873,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0101.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 575,
+						"y": 873,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 1,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 1,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 219,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 437,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 576,
+						"y": 655,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0096.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 1149,
+						"y": 873,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 1150,
+						"y": 1,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 1150,
+						"y": 219,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 1150,
+						"y": 437,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 1150,
+						"y": 655,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0097.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1091,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0098.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 575,
+						"y": 1091,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0099.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 1149,
+						"y": 1091,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0102.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1309,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0103.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 216
+					},
+					"frame": {
+						"x": 575,
+						"y": 1309,
+						"w": 572,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 1149,
+						"y": 1309,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1527,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 574,
+						"y": 1527,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 1147,
+						"y": 1527,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1745,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 574,
+						"y": 1745,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0104.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 1147,
+						"y": 1745,
+						"w": 571,
+						"h": 216
+					}
+				}
+			]
+		},
+		{
+			"image": "snowdojo-4.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1718,
+				"h": 1962
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "snow_dojo_bridge0105.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0106.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 574,
+						"y": 1,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1147,
+						"y": 1,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1147,
+						"y": 1,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0140.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1147,
+						"y": 1,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0107.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 219,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0108.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 574,
+						"y": 219,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1147,
+						"y": 219,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0109.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 437,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 574,
+						"y": 437,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1147,
+						"y": 437,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0111.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 655,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0112.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 571,
+						"h": 216
+					},
+					"frame": {
+						"x": 574,
+						"y": 655,
+						"w": 571,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1147,
+						"y": 655,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0137.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1147,
+						"y": 655,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 873,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0136.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 873,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 873,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 873,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1091,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1309,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1527,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0132.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1527,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1745,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 1091,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 1091,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 1309,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 1309,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0128.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 1309,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 1527,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 1745,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 1527,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 1745,
+						"w": 570,
+						"h": 216
+					}
+				}
+			]
+		},
+		{
+			"image": "snowdojo-5.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1716,
+				"h": 1962
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "snow_dojo_bridge0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0124.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 1,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 1,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 219,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 219,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 219,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 219,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 437,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 437,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 437,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 655,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 655,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 655,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 873,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1091,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0113.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1309,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0114.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1527,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0115.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1745,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0116.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 873,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0117.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 873,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0118.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 1091,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0119.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 1091,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 1309,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 1527,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0123.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 573,
+						"y": 1745,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0125.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 1309,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0126.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 1527,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0127.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1145,
+						"y": 1745,
+						"w": 570,
+						"h": 216
+					}
+				}
+			]
+		},
+		{
+			"image": "snowdojo-6.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 572,
+				"h": 1744
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "snow_dojo_bridge0129.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0130.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 219,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0131.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 437,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0133.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 655,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0134.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 873,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0135.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1091,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0138.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1309,
+						"w": 570,
+						"h": 216
+					}
+				},
+				{
+					"filename": "snow_dojo_bridge0139.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 574,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 570,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 1527,
+						"w": 570,
+						"h": 216
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:3fd8be82b3389906454bb0d5c9acce97:5199eae3e090d2f65105fcaa8e698693:5041dd0e1c8fad7b7571a35e36c3a077$"
+	}
+}

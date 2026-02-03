@@ -188,3 +188,11 @@ export const ATTIC_ROCKING_CHAIR = "attic_rocking_chair";
 // Dojo Courtyard Room audio starts here
 export const DOJO_COURTYARD_ROOM_MUSIC = "dojo_courtyard_room_music";
 // Dojo Courtyard Room audio ends here
+
+// Snow Dojo Room audio starts here
+export const DOJO_SNOW_ROOM_MUSIC = "dojo_snow_room_music";
+export const DOJO_SNOW_LIGHT_ON = "dojo_snow_light_on";
+export const DOJO_SNOW_LIGHT_OFF = "dojo_snow_light_off";
+export const DOJO_SNOW_BRIDGE_BOUNCE = "dojo_snow_bridge_bounce";
+export const DOJO_SNOW_BATTLE_LAUGH = "dojo_snow_battle_laugh";
+// Snow Dojo Room audio ends here
