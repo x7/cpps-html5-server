@@ -1,0 +1,472 @@
+{
+	"textures": [
+		{
+			"image": "shiphold-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1881,
+				"h": 1893
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ship_hold_bottom_boxes.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1715,
+						"h": 592
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1715,
+						"h": 592
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1715,
+						"h": 592
+					}
+				},
+				{
+					"filename": "ship_hold_captain_quarters_door0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 329
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 135,
+						"h": 329
+					},
+					"frame": {
+						"x": 1718,
+						"y": 1,
+						"w": 135,
+						"h": 329
+					}
+				},
+				{
+					"filename": "ship_hold_captain_quarters_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 329
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 135,
+						"h": 306
+					},
+					"frame": {
+						"x": 1718,
+						"y": 332,
+						"w": 135,
+						"h": 306
+					}
+				},
+				{
+					"filename": "ship_hold_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1544,
+						"h": 996
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1544,
+						"h": 996
+					},
+					"frame": {
+						"x": 1,
+						"y": 595,
+						"w": 1544,
+						"h": 996
+					}
+				},
+				{
+					"filename": "ship_hold_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 646,
+						"h": 299
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 646,
+						"h": 299
+					},
+					"frame": {
+						"x": 1,
+						"y": 1593,
+						"w": 646,
+						"h": 299
+					}
+				},
+				{
+					"filename": "ship_hold_stairs.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 326,
+						"h": 595
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 326,
+						"h": 595
+					},
+					"frame": {
+						"x": 1547,
+						"y": 640,
+						"w": 326,
+						"h": 595
+					}
+				},
+				{
+					"filename": "ship_hold_upstairs_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 246,
+						"h": 289
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 246,
+						"h": 289
+					},
+					"frame": {
+						"x": 649,
+						"y": 1593,
+						"w": 246,
+						"h": 289
+					}
+				},
+				{
+					"filename": "ship_hold_captain_quarters_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 197,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 197,
+						"h": 76
+					},
+					"frame": {
+						"x": 1547,
+						"y": 1237,
+						"w": 197,
+						"h": 76
+					}
+				},
+				{
+					"filename": "ship_hold_captain_quarters_no_key0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 134,
+						"h": 304
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 134,
+						"h": 304
+					},
+					"frame": {
+						"x": 1746,
+						"y": 1237,
+						"w": 134,
+						"h": 304
+					}
+				},
+				{
+					"filename": "ship_hold_captain_treasures_text0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 178,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 178,
+						"h": 152
+					},
+					"frame": {
+						"x": 1547,
+						"y": 1315,
+						"w": 178,
+						"h": 152
+					}
+				},
+				{
+					"filename": "ship_hold_captain_treasures_text0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 178,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 178,
+						"h": 152
+					},
+					"frame": {
+						"x": 1547,
+						"y": 1469,
+						"w": 178,
+						"h": 152
+					}
+				},
+				{
+					"filename": "ship_hold_captain_quarters_door0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 329
+					},
+					"spriteSourceSize": {
+						"x": 50,
+						"y": 11,
+						"w": 85,
+						"h": 306
+					},
+					"frame": {
+						"x": 1727,
+						"y": 1543,
+						"w": 85,
+						"h": 306
+					}
+				},
+				{
+					"filename": "ship_hold_captain_treasures_text0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 178,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 178,
+						"h": 152
+					},
+					"frame": {
+						"x": 897,
+						"y": 1623,
+						"w": 178,
+						"h": 152
+					}
+				},
+				{
+					"filename": "ship_hold_captain_quarters_key_note0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 70,
+						"h": 115
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 70,
+						"h": 115
+					},
+					"frame": {
+						"x": 897,
+						"y": 1777,
+						"w": 70,
+						"h": 115
+					}
+				},
+				{
+					"filename": "ship_hold_captain_quarters_key_note0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 70,
+						"h": 115
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 70,
+						"h": 115
+					},
+					"frame": {
+						"x": 969,
+						"y": 1777,
+						"w": 70,
+						"h": 115
+					}
+				},
+				{
+					"filename": "ship_hold_captain_quarters_key_note0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 115
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 68,
+						"h": 113
+					},
+					"frame": {
+						"x": 1041,
+						"y": 1777,
+						"w": 68,
+						"h": 113
+					}
+				},
+				{
+					"filename": "ship_hold_captain_treasures_text0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 178,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 178,
+						"h": 152
+					},
+					"frame": {
+						"x": 1077,
+						"y": 1623,
+						"w": 178,
+						"h": 152
+					}
+				},
+				{
+					"filename": "ship_hold_small_box.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 87
+					},
+					"frame": {
+						"x": 1111,
+						"y": 1777,
+						"w": 100,
+						"h": 87
+					}
+				},
+				{
+					"filename": "ship_hold_captain_treasures_text0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 178,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 178,
+						"h": 152
+					},
+					"frame": {
+						"x": 1257,
+						"y": 1593,
+						"w": 178,
+						"h": 152
+					}
+				},
+				{
+					"filename": "ship_hold_captain_treasures_text0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 178,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 178,
+						"h": 152
+					},
+					"frame": {
+						"x": 1437,
+						"y": 1623,
+						"w": 178,
+						"h": 152
+					}
+				}
+			]
+		},
+		{
+			"image": "shiphold-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1522,
+				"h": 839
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ship_hold_walking_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1520,
+						"h": 837
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1520,
+						"h": 837
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1520,
+						"h": 837
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:7af7b56464bf8134f85e13e97412bd2d:2b7fefd09aeb4c624c1d120f3ffb2dd3:f691ca79af22b7473f7802f4778cfadb$"
+	}
+}

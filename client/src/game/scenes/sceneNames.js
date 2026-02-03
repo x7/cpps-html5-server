@@ -46,4 +46,5 @@ export const SCENE_ROOM_ATTIC = "AtticScene";
 export const SCENE_ROOM_DOJO_COURTYARD = "DojoCourtYardScene";
 export const SCENE_ROOM_SNOW_DOJO = "SnowDojoScene";
 export const SCENE_ROOM_PIRATE_SHOP = "PirateShipScene";
+export const SCENE_ROOM_SHIP_HOLD = "ShipHoldScene";
 // Scene names end here
