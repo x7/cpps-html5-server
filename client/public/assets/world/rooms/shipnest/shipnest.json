@@ -1,0 +1,1533 @@
+{
+	"textures": [
+		{
+			"image": "shipnest-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2046,
+				"h": 2026
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ship_nest_main_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1620,
+						"h": 1062
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1620,
+						"h": 1062
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1620,
+						"h": 1062
+					}
+				},
+				{
+					"filename": "ship_nest_walking_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1520,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1520,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 1065,
+						"w": 1520,
+						"h": 960
+					}
+				},
+				{
+					"filename": "ship_nest_flag0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 422,
+						"h": 315
+					},
+					"frame": {
+						"x": 1623,
+						"y": 1,
+						"w": 422,
+						"h": 315
+					}
+				},
+				{
+					"filename": "ship_nest_flag0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 419,
+						"h": 318
+					},
+					"frame": {
+						"x": 1623,
+						"y": 318,
+						"w": 419,
+						"h": 318
+					}
+				},
+				{
+					"filename": "ship_nest_flag0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 419,
+						"h": 310
+					},
+					"frame": {
+						"x": 1623,
+						"y": 638,
+						"w": 419,
+						"h": 310
+					}
+				},
+				{
+					"filename": "ship_nest_flag0010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 423,
+						"h": 318
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1065,
+						"w": 423,
+						"h": 318
+					}
+				},
+				{
+					"filename": "ship_nest_exit_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 272,
+						"h": 106
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 272,
+						"h": 106
+					},
+					"frame": {
+						"x": 1623,
+						"y": 950,
+						"w": 272,
+						"h": 106
+					}
+				},
+				{
+					"filename": "ship_nest_solo_snowball.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 83,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 83,
+						"h": 76
+					},
+					"frame": {
+						"x": 1948,
+						"y": 950,
+						"w": 83,
+						"h": 76
+					}
+				},
+				{
+					"filename": "ship_nest_flag_pole.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 530
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 530
+					},
+					"frame": {
+						"x": 1948,
+						"y": 1028,
+						"w": 62,
+						"h": 530
+					}
+				},
+				{
+					"filename": "ship_nest_flag0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 423,
+						"h": 318
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1385,
+						"w": 423,
+						"h": 318
+					}
+				},
+				{
+					"filename": "ship_nest_flag0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 423,
+						"h": 318
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1705,
+						"w": 423,
+						"h": 318
+					}
+				}
+			]
+		},
+		{
+			"image": "shipnest-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2046,
+				"h": 2041
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ship_nest_out_layer.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1025,
+						"h": 306
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1025,
+						"h": 306
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1025,
+						"h": 306
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 62,
+						"w": 616,
+						"h": 503
+					},
+					"frame": {
+						"x": 1028,
+						"y": 1,
+						"w": 616,
+						"h": 503
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 1,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 300,
+						"y": 261,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 300,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 306,
+						"y": 263,
+						"w": 287,
+						"h": 297
+					},
+					"frame": {
+						"x": 1646,
+						"y": 300,
+						"w": 287,
+						"h": 297
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 65,
+						"w": 615,
+						"h": 500
+					},
+					"frame": {
+						"x": 1,
+						"y": 309,
+						"w": 615,
+						"h": 500
+					}
+				},
+				{
+					"filename": "ship_nest_flag0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 408,
+						"h": 318
+					},
+					"frame": {
+						"x": 618,
+						"y": 309,
+						"w": 408,
+						"h": 318
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 42,
+						"w": 605,
+						"h": 523
+					},
+					"frame": {
+						"x": 1028,
+						"y": 506,
+						"w": 605,
+						"h": 523
+					}
+				},
+				{
+					"filename": "ship_nest_flag0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 408,
+						"h": 317
+					},
+					"frame": {
+						"x": 618,
+						"y": 629,
+						"w": 408,
+						"h": 317
+					}
+				},
+				{
+					"filename": "ship_nest_flag0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 0,
+						"w": 410,
+						"h": 318
+					},
+					"frame": {
+						"x": 1635,
+						"y": 599,
+						"w": 410,
+						"h": 318
+					}
+				},
+				{
+					"filename": "ship_nest_flag0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 0,
+						"w": 410,
+						"h": 315
+					},
+					"frame": {
+						"x": 1635,
+						"y": 919,
+						"w": 410,
+						"h": 315
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 10,
+						"w": 604,
+						"h": 553
+					},
+					"frame": {
+						"x": 1,
+						"y": 811,
+						"w": 604,
+						"h": 553
+					}
+				},
+				{
+					"filename": "ship_nest_flag0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 416,
+						"h": 316
+					},
+					"frame": {
+						"x": 607,
+						"y": 948,
+						"w": 416,
+						"h": 316
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 24,
+						"w": 603,
+						"h": 541
+					},
+					"frame": {
+						"x": 1025,
+						"y": 1031,
+						"w": 603,
+						"h": 541
+					}
+				},
+				{
+					"filename": "ship_nest_flag0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 415,
+						"h": 310
+					},
+					"frame": {
+						"x": 607,
+						"y": 1266,
+						"w": 415,
+						"h": 310
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 18,
+						"w": 601,
+						"h": 547
+					},
+					"frame": {
+						"x": 1,
+						"y": 1366,
+						"w": 601,
+						"h": 547
+					}
+				},
+				{
+					"filename": "ship_nest_flag0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 3,
+						"w": 413,
+						"h": 315
+					},
+					"frame": {
+						"x": 1630,
+						"y": 1236,
+						"w": 413,
+						"h": 315
+					}
+				},
+				{
+					"filename": "ship_nest_flag0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 423,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 0,
+						"w": 413,
+						"h": 312
+					},
+					"frame": {
+						"x": 1630,
+						"y": 1553,
+						"w": 413,
+						"h": 312
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 101,
+						"w": 592,
+						"h": 462
+					},
+					"frame": {
+						"x": 604,
+						"y": 1578,
+						"w": 592,
+						"h": 462
+					}
+				},
+				{
+					"filename": "ship_nest_powder_box0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 146,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 146,
+						"h": 160
+					},
+					"frame": {
+						"x": 1198,
+						"y": 1867,
+						"w": 146,
+						"h": 160
+					}
+				},
+				{
+					"filename": "ship_nest_powder_box0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 146,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 146,
+						"h": 160
+					},
+					"frame": {
+						"x": 1346,
+						"y": 1867,
+						"w": 146,
+						"h": 160
+					}
+				},
+				{
+					"filename": "ship_nest_powder_box0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 146,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 146,
+						"h": 160
+					},
+					"frame": {
+						"x": 1494,
+						"y": 1867,
+						"w": 146,
+						"h": 160
+					}
+				},
+				{
+					"filename": "ship_nest_powder_box0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 146,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 146,
+						"h": 160
+					},
+					"frame": {
+						"x": 1642,
+						"y": 1867,
+						"w": 146,
+						"h": 160
+					}
+				},
+				{
+					"filename": "ship_nest_powder_box0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 146,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 146,
+						"h": 160
+					},
+					"frame": {
+						"x": 1790,
+						"y": 1867,
+						"w": 146,
+						"h": 160
+					}
+				},
+				{
+					"filename": "ship_nest_snowballs.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 250,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 250,
+						"h": 226
+					},
+					"frame": {
+						"x": 1198,
+						"y": 1574,
+						"w": 250,
+						"h": 226
+					}
+				},
+				{
+					"filename": "ship_nest_powder_box0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 146,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 146,
+						"h": 160
+					},
+					"frame": {
+						"x": 1450,
+						"y": 1574,
+						"w": 146,
+						"h": 160
+					}
+				}
+			]
+		},
+		{
+			"image": "shipnest-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1996,
+				"h": 988
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ship_nest_cannon0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 9,
+						"w": 586,
+						"h": 553
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 586,
+						"h": 553
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 127,
+						"w": 553,
+						"h": 431
+					},
+					"frame": {
+						"x": 1,
+						"y": 556,
+						"w": 553,
+						"h": 431
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 299,
+						"y": 261,
+						"w": 287,
+						"h": 296
+					},
+					"frame": {
+						"x": 556,
+						"y": 556,
+						"w": 287,
+						"h": 296
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 298,
+						"y": 261,
+						"w": 287,
+						"h": 296
+					},
+					"frame": {
+						"x": 589,
+						"y": 1,
+						"w": 287,
+						"h": 296
+					}
+				},
+				{
+					"filename": "ship_nest_cannon_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 249,
+						"h": 202
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 249,
+						"h": 202
+					},
+					"frame": {
+						"x": 589,
+						"y": 299,
+						"w": 249,
+						"h": 202
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 0,
+						"w": 574,
+						"h": 559
+					},
+					"frame": {
+						"x": 845,
+						"y": 299,
+						"w": 574,
+						"h": 559
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 299,
+						"y": 261,
+						"w": 287,
+						"h": 296
+					},
+					"frame": {
+						"x": 878,
+						"y": 1,
+						"w": 287,
+						"h": 296
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 302,
+						"y": 262,
+						"w": 287,
+						"h": 296
+					},
+					"frame": {
+						"x": 1167,
+						"y": 1,
+						"w": 287,
+						"h": 296
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 5,
+						"w": 574,
+						"h": 555
+					},
+					"frame": {
+						"x": 1421,
+						"y": 299,
+						"w": 574,
+						"h": 555
+					}
+				},
+				{
+					"filename": "ship_nest_cannon0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 616,
+						"h": 565
+					},
+					"spriteSourceSize": {
+						"x": 304,
+						"y": 263,
+						"w": 287,
+						"h": 296
+					},
+					"frame": {
+						"x": 1456,
+						"y": 1,
+						"w": 287,
+						"h": 296
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:bc2eaeb87afe0a618f0a759f4be01489:8f0f7764e04a5c86f3da825b016d870d:a6896d284fac7c3ff61214f9d8a9b250$"
+	}
+}
