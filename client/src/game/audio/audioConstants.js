@@ -184,3 +184,7 @@ export const ATTIC_PORTAL_WHILE_OPEN = "attic_portal_box_while_open";
 export const ATTIC_PORTAL_CLOSE = "attic_portal_box_close";
 export const ATTIC_ROCKING_CHAIR = "attic_rocking_chair";
 // Attic Room audio ends here
+
+// Dojo Courtyard Room audio starts here
+export const DOJO_COURTYARD_ROOM_MUSIC = "dojo_courtyard_room_music";
+// Dojo Courtyard Room audio ends here

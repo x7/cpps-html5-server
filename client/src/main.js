@@ -47,6 +47,7 @@ import { PizzaParlorScene } from './game/scenes/world/rooms/pizzaparlor/pizzapar
 import { BoxDimensionScene } from './game/scenes/world/rooms/boxdimension/boxdimension.js';
 import { SkiLodgeScene } from './game/scenes/world/rooms/skilodge/skilodge.js';
 import { AtticScene } from './game/scenes/world/rooms/attic/attic.js';
+import { DojoCourtYardScene } from './game/scenes/world/rooms/dojocourtyard/dojocourtyard.js';
 
 const config = {
     type: Phaser.WEBGL,
@@ -58,7 +59,7 @@ const config = {
         createContainer: true 
     },
     backgroundColor: '#07c5ffff',
-    scene: [PreloadAssetsScene, AtticScene],
+    scene: [PreloadAssetsScene, DojoCourtYardScene],
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene, DanceclubScene, SnowFortsScene, GiftshopScene, DocksScene, InterfaceScene, RegisterScene, InterfaceDanceScene, InterfaceEmojiScene],
     scale: {
         mode: Phaser.Scale.FIT,
