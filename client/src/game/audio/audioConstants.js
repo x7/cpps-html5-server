@@ -203,3 +203,11 @@ export const PIRATE_SHIP_DOOR_OPEN = "pirate_ship_door_open";
 export const PIRATE_SHIP_DOOR_CLOSE = "pirate_ship_door_close";
 export const PIRATE_SHIP_LADDER_DOWN = "pirate_ship_ladder_down";
 // Pirate Ship Room audio ends here
+
+// Mine Room audio starts here
+export const MINE_ROOM_MUSIC = "mine_room_music";
+export const MINE_LIGHT_ON = "mine_light_on";
+export const MINE_LIGHT_OFF = "mine_light_off";
+export const MINE_MINE_CART_INCOMING = "mine_mine_cart_incoming";
+export const MINE_TELEPHONE_RING = "mine_telephone_ring";
+// Mine Room audio ends here

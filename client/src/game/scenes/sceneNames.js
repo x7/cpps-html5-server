@@ -49,4 +49,5 @@ export const SCENE_ROOM_PIRATE_SHOP = "PirateShipScene";
 export const SCENE_ROOM_SHIP_HOLD = "ShipHoldScene";
 export const SCENE_ROOM_SHIP_NEST = "ShipNestScene";
 export const SCENE_ROOM_HIDDEN_LAKE = "HiddenLakeScene";
+export const SCENE_ROOM_MINE = "MineScene";
 // Scene names end here
