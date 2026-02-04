@@ -1,0 +1,4063 @@
+{
+	"textures": [
+		{
+			"image": "hiddenlake-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2036,
+				"h": 2026
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "hidden_lake_outline.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1564,
+						"h": 1004
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1564,
+						"h": 1004
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1564,
+						"h": 1004
+					}
+				},
+				{
+					"filename": "hidden_lake_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1562,
+						"h": 1002
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1562,
+						"h": 1002
+					},
+					"frame": {
+						"x": 1,
+						"y": 1007,
+						"w": 1562,
+						"h": 1002
+					}
+				},
+				{
+					"filename": "hidden_lake_aqua_grabber_bottom.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 404,
+						"h": 247
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 404,
+						"h": 247
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1,
+						"w": 404,
+						"h": 247
+					}
+				},
+				{
+					"filename": "hidden_lake_forest_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 278,
+						"h": 247
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 278,
+						"h": 247
+					},
+					"frame": {
+						"x": 1567,
+						"y": 250,
+						"w": 278,
+						"h": 247
+					}
+				},
+				{
+					"filename": "hidden_lake_left_room_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 266,
+						"h": 253
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 266,
+						"h": 253
+					},
+					"frame": {
+						"x": 1567,
+						"y": 499,
+						"w": 266,
+						"h": 253
+					}
+				},
+				{
+					"filename": "hidden_lake_underwater_room_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 208,
+						"h": 253
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 208,
+						"h": 253
+					},
+					"frame": {
+						"x": 1567,
+						"y": 754,
+						"w": 208,
+						"h": 253
+					}
+				},
+				{
+					"filename": "hidden_lake_rock_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 125,
+						"h": 350
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 125,
+						"h": 350
+					},
+					"frame": {
+						"x": 1565,
+						"y": 1009,
+						"w": 125,
+						"h": 350
+					}
+				},
+				{
+					"filename": "hidden_lake_door0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 116,
+						"w": 184,
+						"h": 264
+					},
+					"frame": {
+						"x": 1565,
+						"y": 1361,
+						"w": 184,
+						"h": 264
+					}
+				},
+				{
+					"filename": "hidden_lake_door0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 116,
+						"w": 184,
+						"h": 264
+					},
+					"frame": {
+						"x": 1565,
+						"y": 1361,
+						"w": 184,
+						"h": 264
+					}
+				},
+				{
+					"filename": "hidden_lake_door0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 113,
+						"w": 184,
+						"h": 264
+					},
+					"frame": {
+						"x": 1565,
+						"y": 1627,
+						"w": 184,
+						"h": 264
+					}
+				},
+				{
+					"filename": "hidden_lake_door0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 113,
+						"w": 184,
+						"h": 264
+					},
+					"frame": {
+						"x": 1565,
+						"y": 1627,
+						"w": 184,
+						"h": 264
+					}
+				},
+				{
+					"filename": "hidden_lake_door0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 111,
+						"w": 185,
+						"h": 263
+					},
+					"frame": {
+						"x": 1847,
+						"y": 250,
+						"w": 185,
+						"h": 263
+					}
+				},
+				{
+					"filename": "hidden_lake_door0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 97,
+						"w": 186,
+						"h": 260
+					},
+					"frame": {
+						"x": 1835,
+						"y": 515,
+						"w": 186,
+						"h": 260
+					}
+				},
+				{
+					"filename": "hidden_lake_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 119,
+						"w": 184,
+						"h": 263
+					},
+					"frame": {
+						"x": 1777,
+						"y": 777,
+						"w": 184,
+						"h": 263
+					}
+				},
+				{
+					"filename": "hidden_lake_door0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 119,
+						"w": 184,
+						"h": 263
+					},
+					"frame": {
+						"x": 1777,
+						"y": 777,
+						"w": 184,
+						"h": 263
+					}
+				},
+				{
+					"filename": "hidden_lake_door0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 111,
+						"w": 184,
+						"h": 263
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1042,
+						"w": 184,
+						"h": 263
+					}
+				},
+				{
+					"filename": "hidden_lake_door0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 111,
+						"w": 184,
+						"h": 263
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1042,
+						"w": 184,
+						"h": 263
+					}
+				},
+				{
+					"filename": "hidden_lake_door0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 119,
+						"w": 184,
+						"h": 263
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1042,
+						"w": 184,
+						"h": 263
+					}
+				},
+				{
+					"filename": "hidden_lake_door0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 119,
+						"w": 184,
+						"h": 263
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1042,
+						"w": 184,
+						"h": 263
+					}
+				},
+				{
+					"filename": "hidden_lake_door0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 119,
+						"w": 184,
+						"h": 263
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1042,
+						"w": 184,
+						"h": 263
+					}
+				},
+				{
+					"filename": "hidden_lake_rock.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 157,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 157,
+						"h": 156
+					},
+					"frame": {
+						"x": 1878,
+						"y": 1042,
+						"w": 157,
+						"h": 156
+					}
+				},
+				{
+					"filename": "hidden_lake_aqua_grabber_top.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 307,
+						"h": 132
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 307,
+						"h": 132
+					},
+					"frame": {
+						"x": 1565,
+						"y": 1893,
+						"w": 307,
+						"h": 132
+					}
+				},
+				{
+					"filename": "hidden_lake_round_thing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 156,
+						"h": 108
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 156,
+						"h": 108
+					},
+					"frame": {
+						"x": 1878,
+						"y": 1200,
+						"w": 156,
+						"h": 108
+					}
+				},
+				{
+					"filename": "hidden_lake_rock_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 136
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 136
+					},
+					"frame": {
+						"x": 1751,
+						"y": 1307,
+						"w": 110,
+						"h": 136
+					}
+				},
+				{
+					"filename": "hidden_lake_coins.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 97
+					},
+					"frame": {
+						"x": 1863,
+						"y": 1310,
+						"w": 159,
+						"h": 97
+					}
+				},
+				{
+					"filename": "hidden_lake_coins_rock.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 186,
+						"h": 103
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 186,
+						"h": 103
+					},
+					"frame": {
+						"x": 1751,
+						"y": 1445,
+						"w": 186,
+						"h": 103
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left0009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 63
+					},
+					"frame": {
+						"x": 1751,
+						"y": 1550,
+						"w": 176,
+						"h": 63
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left0010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 63
+					},
+					"frame": {
+						"x": 1751,
+						"y": 1550,
+						"w": 176,
+						"h": 63
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 176,
+						"h": 62
+					},
+					"frame": {
+						"x": 1751,
+						"y": 1615,
+						"w": 176,
+						"h": 62
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 176,
+						"h": 62
+					},
+					"frame": {
+						"x": 1751,
+						"y": 1615,
+						"w": 176,
+						"h": 62
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_bottom0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 175,
+						"h": 63
+					},
+					"frame": {
+						"x": 1751,
+						"y": 1679,
+						"w": 175,
+						"h": 63
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_bottom0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 175,
+						"h": 63
+					},
+					"frame": {
+						"x": 1751,
+						"y": 1679,
+						"w": 175,
+						"h": 63
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_bottom0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 176,
+						"h": 61
+					},
+					"frame": {
+						"x": 1751,
+						"y": 1744,
+						"w": 176,
+						"h": 61
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_bottom0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 176,
+						"h": 61
+					},
+					"frame": {
+						"x": 1751,
+						"y": 1744,
+						"w": 176,
+						"h": 61
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_bottom0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 173,
+						"h": 60
+					},
+					"frame": {
+						"x": 1751,
+						"y": 1807,
+						"w": 173,
+						"h": 60
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_bottom0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 173,
+						"h": 60
+					},
+					"frame": {
+						"x": 1751,
+						"y": 1807,
+						"w": 173,
+						"h": 60
+					}
+				},
+				{
+					"filename": "hidden_lake_rock_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 90,
+						"h": 104
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 90,
+						"h": 104
+					},
+					"frame": {
+						"x": 1939,
+						"y": 1409,
+						"w": 90,
+						"h": 104
+					}
+				},
+				{
+					"filename": "hidden_lake_rock_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 90,
+						"h": 44
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 90,
+						"h": 44
+					},
+					"frame": {
+						"x": 1939,
+						"y": 1515,
+						"w": 90,
+						"h": 44
+					}
+				},
+				{
+					"filename": "hidden_lake_rock_56.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 94
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 94
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1561,
+						"w": 79,
+						"h": 94
+					}
+				},
+				{
+					"filename": "hidden_lake_no_key_note0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 45,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 45,
+						"h": 71
+					},
+					"frame": {
+						"x": 1973,
+						"y": 1,
+						"w": 45,
+						"h": 71
+					}
+				},
+				{
+					"filename": "hidden_lake_no_key_note0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 45,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 39,
+						"h": 65
+					},
+					"frame": {
+						"x": 1963,
+						"y": 777,
+						"w": 39,
+						"h": 65
+					}
+				},
+				{
+					"filename": "hidden_lake_coins_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 153,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 153,
+						"h": 62
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1869,
+						"w": 153,
+						"h": 62
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0026.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0027.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0028.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0029.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top0030.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 38
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1933,
+						"w": 123,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0026.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0027.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0028.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0029.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left_topo0030.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 39
+					},
+					"frame": {
+						"x": 1874,
+						"y": 1973,
+						"w": 110,
+						"h": 39
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 38,
+						"h": 37
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1307,
+						"w": 38,
+						"h": 37
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 38,
+						"h": 37
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1307,
+						"w": 38,
+						"h": 37
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 38,
+						"h": 37
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1307,
+						"w": 38,
+						"h": 37
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 37,
+						"h": 38
+					},
+					"frame": {
+						"x": 1973,
+						"y": 74,
+						"w": 37,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 37,
+						"h": 38
+					},
+					"frame": {
+						"x": 1973,
+						"y": 74,
+						"w": 37,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 37,
+						"h": 38
+					},
+					"frame": {
+						"x": 1973,
+						"y": 74,
+						"w": 37,
+						"h": 38
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 38,
+						"h": 37
+					},
+					"frame": {
+						"x": 1963,
+						"y": 844,
+						"w": 38,
+						"h": 37
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 38,
+						"h": 37
+					},
+					"frame": {
+						"x": 1963,
+						"y": 844,
+						"w": 38,
+						"h": 37
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 38,
+						"h": 37
+					},
+					"frame": {
+						"x": 1963,
+						"y": 844,
+						"w": 38,
+						"h": 37
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 1973,
+						"y": 114,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 1973,
+						"y": 114,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 1973,
+						"y": 114,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 38,
+						"h": 36
+					},
+					"frame": {
+						"x": 1963,
+						"y": 883,
+						"w": 38,
+						"h": 36
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 38,
+						"h": 36
+					},
+					"frame": {
+						"x": 1963,
+						"y": 883,
+						"w": 38,
+						"h": 36
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 38,
+						"h": 36
+					},
+					"frame": {
+						"x": 1963,
+						"y": 883,
+						"w": 38,
+						"h": 36
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 38,
+						"h": 35
+					},
+					"frame": {
+						"x": 1963,
+						"y": 921,
+						"w": 38,
+						"h": 35
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 38,
+						"h": 35
+					},
+					"frame": {
+						"x": 1963,
+						"y": 921,
+						"w": 38,
+						"h": 35
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 38,
+						"h": 35
+					},
+					"frame": {
+						"x": 1963,
+						"y": 921,
+						"w": 38,
+						"h": 35
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 38,
+						"h": 33
+					},
+					"frame": {
+						"x": 1863,
+						"y": 1409,
+						"w": 38,
+						"h": 33
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 38,
+						"h": 33
+					},
+					"frame": {
+						"x": 1863,
+						"y": 1409,
+						"w": 38,
+						"h": 33
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 38,
+						"h": 33
+					},
+					"frame": {
+						"x": 1863,
+						"y": 1409,
+						"w": 38,
+						"h": 33
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 38,
+						"h": 33
+					},
+					"frame": {
+						"x": 1963,
+						"y": 958,
+						"w": 38,
+						"h": 33
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 38,
+						"h": 33
+					},
+					"frame": {
+						"x": 1963,
+						"y": 958,
+						"w": 38,
+						"h": 33
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 38,
+						"h": 33
+					},
+					"frame": {
+						"x": 1963,
+						"y": 958,
+						"w": 38,
+						"h": 33
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 38,
+						"h": 32
+					},
+					"frame": {
+						"x": 1963,
+						"y": 993,
+						"w": 38,
+						"h": 32
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 38,
+						"h": 32
+					},
+					"frame": {
+						"x": 1963,
+						"y": 993,
+						"w": 38,
+						"h": 32
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 38,
+						"h": 32
+					},
+					"frame": {
+						"x": 1963,
+						"y": 993,
+						"w": 38,
+						"h": 32
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 38,
+						"h": 30
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1009,
+						"w": 38,
+						"h": 30
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 38,
+						"h": 30
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1009,
+						"w": 38,
+						"h": 30
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_left0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 38,
+						"h": 30
+					},
+					"frame": {
+						"x": 1692,
+						"y": 1009,
+						"w": 38,
+						"h": 30
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 29
+					},
+					"frame": {
+						"x": 1973,
+						"y": 153,
+						"w": 29,
+						"h": 29
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 29
+					},
+					"frame": {
+						"x": 1973,
+						"y": 153,
+						"w": 29,
+						"h": 29
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 29
+					},
+					"frame": {
+						"x": 1973,
+						"y": 153,
+						"w": 29,
+						"h": 29
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 29
+					},
+					"frame": {
+						"x": 1903,
+						"y": 1409,
+						"w": 29,
+						"h": 29
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 29
+					},
+					"frame": {
+						"x": 1903,
+						"y": 1409,
+						"w": 29,
+						"h": 29
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 29
+					},
+					"frame": {
+						"x": 1903,
+						"y": 1409,
+						"w": 29,
+						"h": 29
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 29
+					},
+					"frame": {
+						"x": 1732,
+						"y": 1009,
+						"w": 29,
+						"h": 29
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0026.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 29
+					},
+					"frame": {
+						"x": 1732,
+						"y": 1009,
+						"w": 29,
+						"h": 29
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0027.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 29
+					},
+					"frame": {
+						"x": 1732,
+						"y": 1009,
+						"w": 29,
+						"h": 29
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 29
+					},
+					"frame": {
+						"x": 1999,
+						"y": 1933,
+						"w": 28,
+						"h": 29
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 29
+					},
+					"frame": {
+						"x": 1999,
+						"y": 1933,
+						"w": 28,
+						"h": 29
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 29
+					},
+					"frame": {
+						"x": 1999,
+						"y": 1933,
+						"w": 28,
+						"h": 29
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 29,
+						"h": 28
+					},
+					"frame": {
+						"x": 1973,
+						"y": 184,
+						"w": 29,
+						"h": 28
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 29,
+						"h": 28
+					},
+					"frame": {
+						"x": 1973,
+						"y": 184,
+						"w": 29,
+						"h": 28
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 29,
+						"h": 28
+					},
+					"frame": {
+						"x": 1973,
+						"y": 184,
+						"w": 29,
+						"h": 28
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 29,
+						"h": 27
+					},
+					"frame": {
+						"x": 1973,
+						"y": 214,
+						"w": 29,
+						"h": 27
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 29,
+						"h": 27
+					},
+					"frame": {
+						"x": 1973,
+						"y": 214,
+						"w": 29,
+						"h": 27
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 29,
+						"h": 27
+					},
+					"frame": {
+						"x": 1973,
+						"y": 214,
+						"w": 29,
+						"h": 27
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 29,
+						"h": 25
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1657,
+						"w": 29,
+						"h": 25
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 29,
+						"h": 25
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1657,
+						"w": 29,
+						"h": 25
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 29,
+						"h": 25
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1657,
+						"w": 29,
+						"h": 25
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 26
+					},
+					"frame": {
+						"x": 1928,
+						"y": 1684,
+						"w": 29,
+						"h": 26
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 26
+					},
+					"frame": {
+						"x": 1928,
+						"y": 1684,
+						"w": 29,
+						"h": 26
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 26
+					},
+					"frame": {
+						"x": 1928,
+						"y": 1684,
+						"w": 29,
+						"h": 26
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 29,
+						"h": 26
+					},
+					"frame": {
+						"x": 1928,
+						"y": 1712,
+						"w": 29,
+						"h": 26
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 29,
+						"h": 26
+					},
+					"frame": {
+						"x": 1928,
+						"y": 1712,
+						"w": 29,
+						"h": 26
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 29,
+						"h": 26
+					},
+					"frame": {
+						"x": 1928,
+						"y": 1712,
+						"w": 29,
+						"h": 26
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 29,
+						"h": 24
+					},
+					"frame": {
+						"x": 1960,
+						"y": 1657,
+						"w": 29,
+						"h": 24
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 29,
+						"h": 24
+					},
+					"frame": {
+						"x": 1960,
+						"y": 1657,
+						"w": 29,
+						"h": 24
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_right_top_right0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 29,
+						"h": 24
+					},
+					"frame": {
+						"x": 1960,
+						"y": 1657,
+						"w": 29,
+						"h": 24
+					}
+				}
+			]
+		},
+		{
+			"image": "hiddenlake-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1938,
+				"h": 1995
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "hidden_lake_walls.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1562,
+						"h": 1002
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1562,
+						"h": 1002
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1562,
+						"h": 1002
+					}
+				},
+				{
+					"filename": "hidden_lake_walking_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1521,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1521,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 1005,
+						"w": 1521,
+						"h": 960
+					}
+				},
+				{
+					"filename": "hidden_lake_door0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 104,
+						"w": 185,
+						"h": 261
+					},
+					"frame": {
+						"x": 1565,
+						"y": 1,
+						"w": 185,
+						"h": 261
+					}
+				},
+				{
+					"filename": "hidden_lake_door0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 89,
+						"w": 185,
+						"h": 259
+					},
+					"frame": {
+						"x": 1752,
+						"y": 1,
+						"w": 185,
+						"h": 259
+					}
+				},
+				{
+					"filename": "hidden_lake_door0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 74,
+						"w": 185,
+						"h": 257
+					},
+					"frame": {
+						"x": 1752,
+						"y": 262,
+						"w": 185,
+						"h": 257
+					}
+				},
+				{
+					"filename": "hidden_lake_door0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 60,
+						"w": 185,
+						"h": 254
+					},
+					"frame": {
+						"x": 1565,
+						"y": 264,
+						"w": 185,
+						"h": 254
+					}
+				},
+				{
+					"filename": "hidden_lake_door0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 45,
+						"w": 185,
+						"h": 252
+					},
+					"frame": {
+						"x": 1565,
+						"y": 520,
+						"w": 185,
+						"h": 252
+					}
+				},
+				{
+					"filename": "hidden_lake_door0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 30,
+						"w": 185,
+						"h": 250
+					},
+					"frame": {
+						"x": 1752,
+						"y": 521,
+						"w": 185,
+						"h": 250
+					}
+				},
+				{
+					"filename": "hidden_lake_door0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 15,
+						"w": 185,
+						"h": 248
+					},
+					"frame": {
+						"x": 1752,
+						"y": 773,
+						"w": 185,
+						"h": 248
+					}
+				},
+				{
+					"filename": "hidden_lake_door0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 23,
+						"w": 184,
+						"h": 249
+					},
+					"frame": {
+						"x": 1565,
+						"y": 774,
+						"w": 184,
+						"h": 249
+					}
+				},
+				{
+					"filename": "hidden_lake_door0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 82,
+						"w": 186,
+						"h": 258
+					},
+					"frame": {
+						"x": 1751,
+						"y": 1023,
+						"w": 186,
+						"h": 258
+					}
+				},
+				{
+					"filename": "hidden_lake_door0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 67,
+						"w": 186,
+						"h": 256
+					},
+					"frame": {
+						"x": 1524,
+						"y": 1025,
+						"w": 186,
+						"h": 256
+					}
+				},
+				{
+					"filename": "hidden_lake_door0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 52,
+						"w": 186,
+						"h": 254
+					},
+					"frame": {
+						"x": 1524,
+						"y": 1283,
+						"w": 186,
+						"h": 254
+					}
+				},
+				{
+					"filename": "hidden_lake_door0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 37,
+						"w": 186,
+						"h": 251
+					},
+					"frame": {
+						"x": 1524,
+						"y": 1539,
+						"w": 186,
+						"h": 251
+					}
+				},
+				{
+					"filename": "hidden_lake_door0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 184,
+						"h": 247
+					},
+					"frame": {
+						"x": 1712,
+						"y": 1283,
+						"w": 184,
+						"h": 247
+					}
+				},
+				{
+					"filename": "hidden_lake_door0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 191,
+						"h": 382
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 0,
+						"w": 184,
+						"h": 246
+					},
+					"frame": {
+						"x": 1712,
+						"y": 1532,
+						"w": 184,
+						"h": 246
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 173,
+						"h": 60
+					},
+					"frame": {
+						"x": 1524,
+						"y": 1792,
+						"w": 173,
+						"h": 60
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 173,
+						"h": 60
+					},
+					"frame": {
+						"x": 1524,
+						"y": 1792,
+						"w": 173,
+						"h": 60
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 5,
+						"w": 168,
+						"h": 58
+					},
+					"frame": {
+						"x": 1524,
+						"y": 1854,
+						"w": 168,
+						"h": 58
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 5,
+						"w": 168,
+						"h": 58
+					},
+					"frame": {
+						"x": 1524,
+						"y": 1854,
+						"w": 168,
+						"h": 58
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_bottom0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 6,
+						"w": 168,
+						"h": 57
+					},
+					"frame": {
+						"x": 1524,
+						"y": 1914,
+						"w": 168,
+						"h": 57
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_bottom0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 6,
+						"w": 168,
+						"h": 57
+					},
+					"frame": {
+						"x": 1524,
+						"y": 1914,
+						"w": 168,
+						"h": 57
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_bottom0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 165,
+						"h": 54
+					},
+					"frame": {
+						"x": 1712,
+						"y": 1780,
+						"w": 165,
+						"h": 54
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_bottom0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 165,
+						"h": 54
+					},
+					"frame": {
+						"x": 1712,
+						"y": 1780,
+						"w": 165,
+						"h": 54
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 164,
+						"h": 54
+					},
+					"frame": {
+						"x": 1699,
+						"y": 1836,
+						"w": 164,
+						"h": 54
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 164,
+						"h": 54
+					},
+					"frame": {
+						"x": 1699,
+						"y": 1836,
+						"w": 164,
+						"h": 54
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_bottom0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 11,
+						"w": 159,
+						"h": 50
+					},
+					"frame": {
+						"x": 1694,
+						"y": 1892,
+						"w": 159,
+						"h": 50
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_bottom0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 11,
+						"w": 159,
+						"h": 50
+					},
+					"frame": {
+						"x": 1694,
+						"y": 1892,
+						"w": 159,
+						"h": 50
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 11,
+						"w": 159,
+						"h": 50
+					},
+					"frame": {
+						"x": 1694,
+						"y": 1944,
+						"w": 159,
+						"h": 50
+					}
+				},
+				{
+					"filename": "hidden_lake_right_waterfall_left0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 11,
+						"w": 159,
+						"h": 50
+					},
+					"frame": {
+						"x": 1694,
+						"y": 1944,
+						"w": 159,
+						"h": 50
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:f33bead9bc200cfc49c7a7ea6537a808:9028568ad473a54155bde0ed3966ce13:3243bc04be0f88f47be1b047d0834ad6$"
+	}
+}
