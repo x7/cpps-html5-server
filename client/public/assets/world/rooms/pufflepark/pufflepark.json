@@ -1,0 +1,1417 @@
+{
+	"textures": [
+		{
+			"image": "pufflepark-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2043
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "puffle_park_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1792,
+						"h": 1044
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1792,
+						"h": 1044
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1792,
+						"h": 1044
+					}
+				},
+				{
+					"filename": "puffle_park_walking_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1520,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1520,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 1047,
+						"w": 1520,
+						"h": 960
+					}
+				},
+				{
+					"filename": "Symbol 337.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 333,
+						"h": 533
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 333,
+						"h": 533
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1047,
+						"w": 333,
+						"h": 533
+					}
+				},
+				{
+					"filename": "puffle_park_slide.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 360,
+						"h": 378
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 360,
+						"h": 378
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1582,
+						"w": 360,
+						"h": 378
+					}
+				},
+				{
+					"filename": "puffle_park_tree_stand.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 244,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 244,
+						"h": 391
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1,
+						"w": 244,
+						"h": 391
+					}
+				},
+				{
+					"filename": "puffle_park_puffle_sign_hover_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 241,
+						"h": 304
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 241,
+						"h": 304
+					},
+					"frame": {
+						"x": 1795,
+						"y": 394,
+						"w": 241,
+						"h": 304
+					}
+				},
+				{
+					"filename": "puffle_park_park_sign.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 251,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 251,
+						"h": 242
+					},
+					"frame": {
+						"x": 1795,
+						"y": 700,
+						"w": 251,
+						"h": 242
+					}
+				},
+				{
+					"filename": "puffle_park_bush_behind_bridge.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 223,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 223,
+						"h": 90
+					},
+					"frame": {
+						"x": 1795,
+						"y": 944,
+						"w": 223,
+						"h": 90
+					}
+				},
+				{
+					"filename": "puffle_park_middle_branch.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 180,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 236
+					},
+					"frame": {
+						"x": 1858,
+						"y": 1036,
+						"w": 180,
+						"h": 236
+					}
+				},
+				{
+					"filename": "puffle_park_berries_hover_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 209
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 209
+					},
+					"frame": {
+						"x": 1858,
+						"y": 1274,
+						"w": 170,
+						"h": 209
+					}
+				},
+				{
+					"filename": "puffle_park_purple_puffle_lg.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 135,
+						"h": 225
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 135,
+						"h": 225
+					},
+					"frame": {
+						"x": 1885,
+						"y": 1485,
+						"w": 135,
+						"h": 225
+					}
+				},
+				{
+					"filename": "puffle_park_pet_shop_door0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 235
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 235
+					},
+					"frame": {
+						"x": 1885,
+						"y": 1712,
+						"w": 111,
+						"h": 235
+					}
+				},
+				{
+					"filename": "puffle_park_middle_branch_lef0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 49,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 49,
+						"h": 158
+					},
+					"frame": {
+						"x": 1998,
+						"y": 1712,
+						"w": 49,
+						"h": 158
+					}
+				},
+				{
+					"filename": "puffle_park_plaza_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 80
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1962,
+						"w": 200,
+						"h": 80
+					}
+				},
+				{
+					"filename": "puffle_park_tree_branch.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 64
+					},
+					"frame": {
+						"x": 1725,
+						"y": 1962,
+						"w": 170,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puffle_park_bouncy_ball.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 86,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 86,
+						"h": 82
+					},
+					"frame": {
+						"x": 1897,
+						"y": 1949,
+						"w": 86,
+						"h": 82
+					}
+				},
+				{
+					"filename": "puffle_park_blue_rope_thing0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 147,
+						"h": 375
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 300,
+						"w": 38,
+						"h": 75
+					},
+					"frame": {
+						"x": 1998,
+						"y": 1872,
+						"w": 38,
+						"h": 75
+					}
+				},
+				{
+					"filename": "puffle_park_puffle_bottom_right_right_sign.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 39,
+						"h": 60
+					},
+					"frame": {
+						"x": 1985,
+						"y": 1949,
+						"w": 39,
+						"h": 60
+					}
+				}
+			]
+		},
+		{
+			"image": "pufflepark-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2035,
+				"h": 1391
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "puffle_park_sky.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1788,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1788,
+						"h": 210
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1788,
+						"h": 210
+					}
+				},
+				{
+					"filename": "puffle_park_bottom_trees.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1496,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1496,
+						"h": 314
+					},
+					"frame": {
+						"x": 1,
+						"y": 213,
+						"w": 1496,
+						"h": 314
+					}
+				},
+				{
+					"filename": "puffle_park_clouds.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1436,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1436,
+						"h": 152
+					},
+					"frame": {
+						"x": 1,
+						"y": 529,
+						"w": 1436,
+						"h": 152
+					}
+				},
+				{
+					"filename": "puffle_park_pet_shop.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 494,
+						"h": 495
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 494,
+						"h": 495
+					},
+					"frame": {
+						"x": 1,
+						"y": 683,
+						"w": 494,
+						"h": 495
+					}
+				},
+				{
+					"filename": "puffle_park_middle_ropes.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 491,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 491,
+						"h": 377
+					},
+					"frame": {
+						"x": 497,
+						"y": 683,
+						"w": 491,
+						"h": 377
+					}
+				},
+				{
+					"filename": "puffle_park_zzz_tree.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 321,
+						"h": 383
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 321,
+						"h": 383
+					},
+					"frame": {
+						"x": 990,
+						"y": 683,
+						"w": 321,
+						"h": 383
+					}
+				},
+				{
+					"filename": "puffle_park_puffle_bottom_right_sign.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 290,
+						"h": 376
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 290,
+						"h": 376
+					},
+					"frame": {
+						"x": 1499,
+						"y": 213,
+						"w": 290,
+						"h": 376
+					}
+				},
+				{
+					"filename": "puffle_park_bridge.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 339,
+						"h": 203
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 339,
+						"h": 203
+					},
+					"frame": {
+						"x": 1,
+						"y": 1180,
+						"w": 339,
+						"h": 203
+					}
+				},
+				{
+					"filename": "puffle_park_tree_line_wheel.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 106,
+						"h": 423
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 106,
+						"h": 423
+					},
+					"frame": {
+						"x": 1791,
+						"y": 1,
+						"w": 106,
+						"h": 423
+					}
+				},
+				{
+					"filename": "puffle_park_bridge_ending.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 345,
+						"h": 163
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 345,
+						"h": 163
+					},
+					"frame": {
+						"x": 497,
+						"y": 1062,
+						"w": 345,
+						"h": 163
+					}
+				},
+				{
+					"filename": "puffle_park_bottom_left_tree.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 217,
+						"h": 264
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 217,
+						"h": 264
+					},
+					"frame": {
+						"x": 1313,
+						"y": 683,
+						"w": 217,
+						"h": 264
+					}
+				},
+				{
+					"filename": "puffle_park_park_sign_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 258,
+						"h": 258
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 258,
+						"h": 258
+					},
+					"frame": {
+						"x": 1532,
+						"y": 591,
+						"w": 258,
+						"h": 258
+					}
+				},
+				{
+					"filename": "puffle_park_rope_down_hover_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 178,
+						"h": 163
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 178,
+						"h": 163
+					},
+					"frame": {
+						"x": 342,
+						"y": 1227,
+						"w": 178,
+						"h": 163
+					}
+				},
+				{
+					"filename": "puffle_park_tree_behind_bridge.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 125,
+						"h": 163
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 125,
+						"h": 163
+					},
+					"frame": {
+						"x": 522,
+						"y": 1227,
+						"w": 125,
+						"h": 163
+					}
+				},
+				{
+					"filename": "puffle_park_slide_hover_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 267,
+						"h": 239
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 267,
+						"h": 239
+					},
+					"frame": {
+						"x": 1532,
+						"y": 851,
+						"w": 267,
+						"h": 239
+					}
+				},
+				{
+					"filename": "puffle_park_berries.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 217,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 217,
+						"h": 86
+					},
+					"frame": {
+						"x": 1313,
+						"y": 949,
+						"w": 217,
+						"h": 86
+					}
+				},
+				{
+					"filename": "puffle_park_pet_shop_door0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 235
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 235
+					},
+					"frame": {
+						"x": 1899,
+						"y": 1,
+						"w": 111,
+						"h": 235
+					}
+				},
+				{
+					"filename": "puffle_park_pet_shop_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 211,
+						"h": 133
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 211,
+						"h": 133
+					},
+					"frame": {
+						"x": 649,
+						"y": 1227,
+						"w": 211,
+						"h": 133
+					}
+				},
+				{
+					"filename": "puffle_park_bridge_down.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 193
+					},
+					"frame": {
+						"x": 1899,
+						"y": 238,
+						"w": 123,
+						"h": 193
+					}
+				},
+				{
+					"filename": "puffle_park_puffle_park_text0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 127,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 122,
+						"h": 45
+					},
+					"frame": {
+						"x": 342,
+						"y": 1180,
+						"w": 122,
+						"h": 45
+					}
+				},
+				{
+					"filename": "puffle_park_middle_branch_left.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 88,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 88,
+						"h": 162
+					},
+					"frame": {
+						"x": 844,
+						"y": 1062,
+						"w": 88,
+						"h": 162
+					}
+				},
+				{
+					"filename": "puffle_park_ball_sign_hover_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 263,
+						"h": 232
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 263,
+						"h": 232
+					},
+					"frame": {
+						"x": 934,
+						"y": 1068,
+						"w": 263,
+						"h": 232
+					}
+				},
+				{
+					"filename": "puffle_park_bottom_right_tree.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 207,
+						"h": 252
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 207,
+						"h": 252
+					},
+					"frame": {
+						"x": 1199,
+						"y": 1068,
+						"w": 207,
+						"h": 252
+					}
+				},
+				{
+					"filename": "puffle_park_pet_shop_door0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 111,
+						"h": 235
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 234
+					},
+					"frame": {
+						"x": 1408,
+						"y": 1037,
+						"w": 110,
+						"h": 234
+					}
+				},
+				{
+					"filename": "puffle_park_bottom_exit_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 187
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 187
+					},
+					"frame": {
+						"x": 1520,
+						"y": 1092,
+						"w": 200,
+						"h": 187
+					}
+				},
+				{
+					"filename": "puffle_park_green_thing_on_tree_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 184
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 184
+					},
+					"frame": {
+						"x": 1722,
+						"y": 1092,
+						"w": 200,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_park_fire_hydrant_hover_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 241,
+						"h": 118
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 241,
+						"h": 118
+					},
+					"frame": {
+						"x": 1791,
+						"y": 433,
+						"w": 241,
+						"h": 118
+					}
+				},
+				{
+					"filename": "puffle_park_tree_hover_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 181,
+						"h": 173
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 181,
+						"h": 173
+					},
+					"frame": {
+						"x": 1792,
+						"y": 553,
+						"w": 181,
+						"h": 173
+					}
+				},
+				{
+					"filename": "puffle_park_bridge_rope.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 197,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 197,
+						"h": 111
+					},
+					"frame": {
+						"x": 1792,
+						"y": 728,
+						"w": 197,
+						"h": 111
+					}
+				},
+				{
+					"filename": "puffle_park_go_down_slide_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 202,
+						"h": 94
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 202,
+						"h": 94
+					},
+					"frame": {
+						"x": 1801,
+						"y": 841,
+						"w": 202,
+						"h": 94
+					}
+				},
+				{
+					"filename": "puffle_park_middle_bottom_branch.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 148,
+						"h": 133
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 148,
+						"h": 133
+					},
+					"frame": {
+						"x": 1801,
+						"y": 937,
+						"w": 148,
+						"h": 133
+					}
+				},
+				{
+					"filename": "puffle_park_ball_sign.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 83,
+						"h": 130
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 83,
+						"h": 130
+					},
+					"frame": {
+						"x": 1951,
+						"y": 937,
+						"w": 83,
+						"h": 130
+					}
+				},
+				{
+					"filename": "puffle_park_purple_puffle_left_logo.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 61,
+						"h": 202
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 61,
+						"h": 202
+					},
+					"frame": {
+						"x": 1924,
+						"y": 1072,
+						"w": 61,
+						"h": 202
+					}
+				},
+				{
+					"filename": "puffle_park_tree_green_thing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 148
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 53,
+						"h": 148
+					},
+					"frame": {
+						"x": 1439,
+						"y": 529,
+						"w": 53,
+						"h": 148
+					}
+				},
+				{
+					"filename": "puffle_park_middle_branch_right0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 66,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 64,
+						"h": 146
+					},
+					"frame": {
+						"x": 862,
+						"y": 1226,
+						"w": 64,
+						"h": 146
+					}
+				},
+				{
+					"filename": "puffle_park_berries_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 164,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 164,
+						"h": 59
+					},
+					"frame": {
+						"x": 928,
+						"y": 1302,
+						"w": 164,
+						"h": 59
+					}
+				},
+				{
+					"filename": "puffle_park_bridge_right_log.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 137
+					},
+					"frame": {
+						"x": 1975,
+						"y": 553,
+						"w": 44,
+						"h": 137
+					}
+				},
+				{
+					"filename": "puffle_park_tree_line_wheel_shadow.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 97,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 97,
+						"h": 58
+					},
+					"frame": {
+						"x": 1094,
+						"y": 1302,
+						"w": 97,
+						"h": 58
+					}
+				},
+				{
+					"filename": "puffle_park_puffle_park_text0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 127,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 127,
+						"h": 43
+					},
+					"frame": {
+						"x": 1193,
+						"y": 1322,
+						"w": 127,
+						"h": 43
+					}
+				},
+				{
+					"filename": "puffle_park_purple_puffle_bottom_left_log.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 92
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 92
+					},
+					"frame": {
+						"x": 1987,
+						"y": 1069,
+						"w": 44,
+						"h": 92
+					}
+				},
+				{
+					"filename": "puffle_park_puffle_park_text0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 127,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 126,
+						"h": 46
+					},
+					"frame": {
+						"x": 1722,
+						"y": 1278,
+						"w": 126,
+						"h": 46
+					}
+				},
+				{
+					"filename": "puffle_park_puffle_park_text0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 127,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 126,
+						"h": 46
+					},
+					"frame": {
+						"x": 1722,
+						"y": 1278,
+						"w": 126,
+						"h": 46
+					}
+				},
+				{
+					"filename": "puffle_park_puffle_park_text0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 127,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 122,
+						"h": 44
+					},
+					"frame": {
+						"x": 1322,
+						"y": 1322,
+						"w": 122,
+						"h": 44
+					}
+				},
+				{
+					"filename": "puffle_park_bottom_middle_bush.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 119,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 119,
+						"h": 90
+					},
+					"frame": {
+						"x": 1850,
+						"y": 1278,
+						"w": 119,
+						"h": 90
+					}
+				},
+				{
+					"filename": "puffle_park_blue_rope_thing0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 147,
+						"h": 375
+					},
+					"spriteSourceSize": {
+						"x": 109,
+						"y": 0,
+						"w": 38,
+						"h": 80
+					},
+					"frame": {
+						"x": 1987,
+						"y": 1163,
+						"w": 38,
+						"h": 80
+					}
+				},
+				{
+					"filename": "puffle_park_pink_puffle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 50
+					},
+					"frame": {
+						"x": 1971,
+						"y": 1276,
+						"w": 51,
+						"h": 50
+					}
+				},
+				{
+					"filename": "puffle_park_puffle_park_text0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 127,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 124,
+						"h": 40
+					},
+					"frame": {
+						"x": 1446,
+						"y": 1281,
+						"w": 124,
+						"h": 40
+					}
+				},
+				{
+					"filename": "puffle_park_fire_hydrant.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 102
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 74,
+						"h": 102
+					},
+					"frame": {
+						"x": 1572,
+						"y": 1281,
+						"w": 74,
+						"h": 102
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9d009e194c59c58d80ef333944c15be5:04418d87400a2c8563702a5ca8f2ca8b:89ae9cfa0ddcc84ccdba5cfd64f88c39$"
+	}
+}

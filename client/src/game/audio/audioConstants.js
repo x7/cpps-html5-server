@@ -211,3 +211,14 @@ export const MINE_LIGHT_OFF = "mine_light_off";
 export const MINE_MINE_CART_INCOMING = "mine_mine_cart_incoming";
 export const MINE_TELEPHONE_RING = "mine_telephone_ring";
 // Mine Room audio ends here
+
+// Puffle Park Room audio starts here
+export const PUFFLE_PARK_ROOM_MUSIC = "plaza_room_music"; // Both are the same
+export const PUFFLE_PARK_ZIPLINE = "puffle_park_zipline";
+export const PUFFLE_PARK_ZIPLINE_PUFFLE_CAT = "puffle_park_zipline_puffle_cat";
+export const PUFFLE_PARK_ZIPLINE_PUFFLE_DOG = "puffle_park_zipline_puffle_dog";
+export const PUFFLE_PARK_SLIDE_DOWN = "puffle_park_slide_down";
+export const PUFFLE_PARK_SLIDE_DOWN_PUFFLE_CAT = "puffle_park_slide_down_puffle_cat";
+export const PUFFLE_PARK_SLIDE_DOWN_PUFFLE_DOG = "puffle_park_slide_down_puffle_dog";
+export const PUFFLE_PARK_PUFFLE_SNORING = "puffle_park_puffle_snoring";
+// Puffle Park Room audio ends here

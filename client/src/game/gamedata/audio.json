@@ -1197,5 +1197,82 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "puffle_park_zipline": {
+        "key": "puffle_park_zipline",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "puffle_park_zipline_puffle_cat": {
+        "key": "puffle_park_zipline_puffle_cat",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "puffle_park_zipline_puffle_dog": {
+        "key": "puffle_park_zipline_puffle_dog",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "puffle_park_slide_down": {
+        "key": "puffle_park_slide_down",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "puffle_park_slide_down_puffle_cat": {
+        "key": "puffle_park_slide_down_puffle_cat",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "puffle_park_slide_down_puffle_dog": {
+        "key": "puffle_park_slide_down_puffle_dog",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "puffle_park_puffle_snoring": {
+        "key": "puffle_park_puffle_snoring",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }
