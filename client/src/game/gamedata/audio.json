@@ -1362,5 +1362,49 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "puffle_hotel_spa_room_music": {
+        "key": "puffle_hotel_spa_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "puffle_hotel_spa_elevator_open": {
+        "key": "puffle_hotel_spa_elevator_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "puffle_hotel_spa_elevator_close": {
+        "key": "puffle_hotel_spa_elevator_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "puffle_hotel_spa_treadmill_start": {
+        "key": "puffle_hotel_spa_treadmill_start",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }

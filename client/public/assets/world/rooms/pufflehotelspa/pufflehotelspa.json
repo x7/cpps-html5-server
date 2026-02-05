@@ -1,0 +1,2320 @@
+{
+	"textures": [
+		{
+			"image": "pufflehotelspa-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2047,
+				"h": 2028
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "puffle_hotel_spa_main_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1755,
+						"h": 1021
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1755,
+						"h": 1021
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1755,
+						"h": 1021
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_walking_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1520,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1520,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 1024,
+						"w": 1520,
+						"h": 960
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_right_middle_window.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 372,
+						"h": 694
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 372,
+						"h": 694
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1024,
+						"w": 372,
+						"h": 694
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_bottom_right_supplies.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 271,
+						"h": 503
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 271,
+						"h": 503
+					},
+					"frame": {
+						"x": 1758,
+						"y": 1,
+						"w": 271,
+						"h": 503
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_overlay.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 198,
+						"h": 396
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 198,
+						"h": 396
+					},
+					"frame": {
+						"x": 1758,
+						"y": 506,
+						"w": 198,
+						"h": 396
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 203,
+						"h": 253
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 203,
+						"h": 253
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1720,
+						"w": 203,
+						"h": 253
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_hair_on_floor.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 41
+					},
+					"frame": {
+						"x": 1,
+						"y": 1986,
+						"w": 394,
+						"h": 41
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_top_wall_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 38,
+						"h": 456
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 38,
+						"h": 456
+					},
+					"frame": {
+						"x": 1958,
+						"y": 506,
+						"w": 38,
+						"h": 456
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_top_wall_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 38,
+						"h": 456
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 38,
+						"h": 456
+					},
+					"frame": {
+						"x": 1998,
+						"y": 506,
+						"w": 38,
+						"h": 456
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 148,
+						"h": 343
+					},
+					"frame": {
+						"x": 1897,
+						"y": 964,
+						"w": 148,
+						"h": 343
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 148,
+						"h": 343
+					},
+					"frame": {
+						"x": 1897,
+						"y": 964,
+						"w": 148,
+						"h": 343
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 145,
+						"h": 341
+					},
+					"frame": {
+						"x": 1897,
+						"y": 1309,
+						"w": 145,
+						"h": 341
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 145,
+						"h": 341
+					},
+					"frame": {
+						"x": 1897,
+						"y": 1309,
+						"w": 145,
+						"h": 341
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_right_blue_hairdressr.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 187,
+						"h": 179
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 187,
+						"h": 179
+					},
+					"frame": {
+						"x": 1728,
+						"y": 1720,
+						"w": 187,
+						"h": 179
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_mirror_lghts.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 129,
+						"h": 217
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 129,
+						"h": 213
+					},
+					"frame": {
+						"x": 1917,
+						"y": 1652,
+						"w": 129,
+						"h": 213
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_top_of_golden_elevator.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 187,
+						"h": 113
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 187,
+						"h": 113
+					},
+					"frame": {
+						"x": 1728,
+						"y": 1901,
+						"w": 187,
+						"h": 113
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1917,
+						"y": 1867,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1917,
+						"y": 1867,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_left_speaker0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 67,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 117
+					},
+					"frame": {
+						"x": 1758,
+						"y": 904,
+						"w": 67,
+						"h": 117
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_left_speaker0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 67,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 117
+					},
+					"frame": {
+						"x": 1758,
+						"y": 904,
+						"w": 67,
+						"h": 117
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_blue_jar.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 54,
+						"h": 77
+					},
+					"frame": {
+						"x": 1827,
+						"y": 904,
+						"w": 54,
+						"h": 77
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_purple_jar.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 38,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 38,
+						"h": 58
+					},
+					"frame": {
+						"x": 1883,
+						"y": 904,
+						"w": 38,
+						"h": 58
+					}
+				}
+			]
+		},
+		{
+			"image": "pufflehotelspa-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1951,
+				"h": 791
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "puffle_hotel_spa_bottom.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1680,
+						"h": 196
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1680,
+						"h": 196
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1680,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_semi_big_weights.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 259,
+						"h": 155
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 259,
+						"h": 155
+					},
+					"frame": {
+						"x": 1683,
+						"y": 1,
+						"w": 259,
+						"h": 155
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_smaller_weight.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 259,
+						"h": 155
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 259,
+						"h": 155
+					},
+					"frame": {
+						"x": 1683,
+						"y": 1,
+						"w": 259,
+						"h": 155
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_elevator_walk_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 247,
+						"h": 174
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 247,
+						"h": 174
+					},
+					"frame": {
+						"x": 1683,
+						"y": 158,
+						"w": 247,
+						"h": 174
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_punching_bag.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 377
+					},
+					"frame": {
+						"x": 1,
+						"y": 334,
+						"w": 200,
+						"h": 377
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_small_green_chair_top.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 177,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 177,
+						"h": 77
+					},
+					"frame": {
+						"x": 1,
+						"y": 713,
+						"w": 177,
+						"h": 77
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_bouncy_ball_exercise.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 167,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 167,
+						"h": 76
+					},
+					"frame": {
+						"x": 180,
+						"y": 713,
+						"w": 167,
+						"h": 76
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 119,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 119,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 152,
+						"h": 348
+					},
+					"frame": {
+						"x": 203,
+						"y": 334,
+						"w": 152,
+						"h": 348
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 152,
+						"h": 348
+					},
+					"frame": {
+						"x": 203,
+						"y": 334,
+						"w": 152,
+						"h": 348
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 237,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 237,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 355,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0026.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 355,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_iron_bar.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 771,
+						"h": 101
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 771,
+						"h": 101
+					},
+					"frame": {
+						"x": 349,
+						"y": 684,
+						"w": 771,
+						"h": 101
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 151,
+						"h": 346
+					},
+					"frame": {
+						"x": 357,
+						"y": 334,
+						"w": 151,
+						"h": 346
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 151,
+						"h": 346
+					},
+					"frame": {
+						"x": 357,
+						"y": 334,
+						"w": 151,
+						"h": 346
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 473,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0027.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 473,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 10,
+						"w": 143,
+						"h": 338
+					},
+					"frame": {
+						"x": 510,
+						"y": 334,
+						"w": 143,
+						"h": 338
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 10,
+						"w": 143,
+						"h": 338
+					},
+					"frame": {
+						"x": 510,
+						"y": 334,
+						"w": 143,
+						"h": 338
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 591,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0028.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 591,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 13,
+						"w": 140,
+						"h": 335
+					},
+					"frame": {
+						"x": 655,
+						"y": 334,
+						"w": 140,
+						"h": 335
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 13,
+						"w": 140,
+						"h": 335
+					},
+					"frame": {
+						"x": 655,
+						"y": 334,
+						"w": 140,
+						"h": 335
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 709,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0029.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 709,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 14,
+						"w": 129,
+						"h": 334
+					},
+					"frame": {
+						"x": 797,
+						"y": 334,
+						"w": 129,
+						"h": 334
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 14,
+						"w": 129,
+						"h": 334
+					},
+					"frame": {
+						"x": 797,
+						"y": 334,
+						"w": 129,
+						"h": 334
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 14,
+						"w": 129,
+						"h": 334
+					},
+					"frame": {
+						"x": 797,
+						"y": 334,
+						"w": 129,
+						"h": 334
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 827,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0030.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 827,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 16,
+						"w": 137,
+						"h": 332
+					},
+					"frame": {
+						"x": 928,
+						"y": 334,
+						"w": 137,
+						"h": 332
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 16,
+						"w": 137,
+						"h": 332
+					},
+					"frame": {
+						"x": 928,
+						"y": 334,
+						"w": 137,
+						"h": 332
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 945,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0031.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 945,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1063,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0032.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1063,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 16,
+						"w": 132,
+						"h": 332
+					},
+					"frame": {
+						"x": 1067,
+						"y": 334,
+						"w": 132,
+						"h": 332
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 16,
+						"w": 132,
+						"h": 332
+					},
+					"frame": {
+						"x": 1067,
+						"y": 334,
+						"w": 132,
+						"h": 332
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1181,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0033.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1181,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_left_speaker0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 66,
+						"h": 114
+					},
+					"frame": {
+						"x": 1122,
+						"y": 668,
+						"w": 66,
+						"h": 114
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_left_speaker0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 66,
+						"h": 114
+					},
+					"frame": {
+						"x": 1122,
+						"y": 668,
+						"w": 66,
+						"h": 114
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_left_speaker0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 66,
+						"h": 114
+					},
+					"frame": {
+						"x": 1122,
+						"y": 668,
+						"w": 66,
+						"h": 114
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_left_speaker0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 66,
+						"h": 114
+					},
+					"frame": {
+						"x": 1122,
+						"y": 668,
+						"w": 66,
+						"h": 114
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_left_speaker0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 66,
+						"h": 114
+					},
+					"frame": {
+						"x": 1122,
+						"y": 668,
+						"w": 66,
+						"h": 114
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_left_speaker0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 66,
+						"h": 114
+					},
+					"frame": {
+						"x": 1122,
+						"y": 668,
+						"w": 66,
+						"h": 114
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_left_speaker0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 66,
+						"h": 114
+					},
+					"frame": {
+						"x": 1122,
+						"y": 668,
+						"w": 66,
+						"h": 114
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_left_speaker0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 66,
+						"h": 114
+					},
+					"frame": {
+						"x": 1122,
+						"y": 668,
+						"w": 66,
+						"h": 114
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_left_speaker0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 66,
+						"h": 114
+					},
+					"frame": {
+						"x": 1122,
+						"y": 668,
+						"w": 66,
+						"h": 114
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_left_speaker0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 67,
+						"h": 117
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 66,
+						"h": 114
+					},
+					"frame": {
+						"x": 1122,
+						"y": 668,
+						"w": 66,
+						"h": 114
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_bubbles.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 139,
+						"h": 85
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 139,
+						"h": 85
+					},
+					"frame": {
+						"x": 1190,
+						"y": 668,
+						"w": 139,
+						"h": 85
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 18,
+						"w": 135,
+						"h": 330
+					},
+					"frame": {
+						"x": 1201,
+						"y": 334,
+						"w": 135,
+						"h": 330
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_golden_elevator_door0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 152,
+						"h": 348
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 18,
+						"w": 135,
+						"h": 330
+					},
+					"frame": {
+						"x": 1201,
+						"y": 334,
+						"w": 135,
+						"h": 330
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1299,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0034.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1299,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_bouncy_ball_exercise_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 184,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 184,
+						"h": 80
+					},
+					"frame": {
+						"x": 1331,
+						"y": 666,
+						"w": 184,
+						"h": 80
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1517,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0035.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1517,
+						"y": 199,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_small_weights.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 37,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 37,
+						"h": 59
+					},
+					"frame": {
+						"x": 1635,
+						"y": 199,
+						"w": 37,
+						"h": 59
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_other_drink.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 36,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 36,
+						"h": 64
+					},
+					"frame": {
+						"x": 1635,
+						"y": 260,
+						"w": 36,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_middle_top_wall.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 85,
+						"h": 191
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 85,
+						"h": 191
+					},
+					"frame": {
+						"x": 1417,
+						"y": 199,
+						"w": 85,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_hair_dresser_chair_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 151
+					},
+					"frame": {
+						"x": 1504,
+						"y": 330,
+						"w": 176,
+						"h": 151
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_blue_hairdresser_right_arm0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 74,
+						"h": 64
+					},
+					"frame": {
+						"x": 1338,
+						"y": 330,
+						"w": 74,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_red_weights.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 62
+					},
+					"frame": {
+						"x": 1414,
+						"y": 392,
+						"w": 82,
+						"h": 62
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_blue_hairdresser_right_arm0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 71,
+						"h": 62
+					},
+					"frame": {
+						"x": 1338,
+						"y": 396,
+						"w": 71,
+						"h": 62
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_blue_hairdresser_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 159
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 159
+					},
+					"frame": {
+						"x": 1338,
+						"y": 483,
+						"w": 170,
+						"h": 159
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_hair_dresser_chair_right.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 174,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 174,
+						"h": 151
+					},
+					"frame": {
+						"x": 1510,
+						"y": 483,
+						"w": 174,
+						"h": 151
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_hair_dresser_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 173,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 173,
+						"h": 150
+					},
+					"frame": {
+						"x": 1517,
+						"y": 636,
+						"w": 173,
+						"h": 150
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1682,
+						"y": 334,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0036.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1682,
+						"y": 334,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1800,
+						"y": 334,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0037.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1800,
+						"y": 334,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_small_water_bottle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 72
+					},
+					"frame": {
+						"x": 1918,
+						"y": 334,
+						"w": 32,
+						"h": 72
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_white_drink.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 69
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 69
+					},
+					"frame": {
+						"x": 1918,
+						"y": 408,
+						"w": 27,
+						"h": 69
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1686,
+						"y": 479,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0038.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1686,
+						"y": 479,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1804,
+						"y": 479,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0039.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1804,
+						"y": 479,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1692,
+						"y": 610,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0040.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1692,
+						"y": 610,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1810,
+						"y": 610,
+						"w": 116,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_spa_treadmill_floor0021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 1810,
+						"y": 610,
+						"w": 116,
+						"h": 129
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:bb9053a4c2c233db5768df78e7f321a0:54b96d56539d4ef36a86d56074426f7c:b1ba46afa4758cf81727d9398488f75b$"
+	}
+}

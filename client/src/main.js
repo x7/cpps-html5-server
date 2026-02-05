@@ -56,6 +56,7 @@ import { HiddenLakeScene } from './game/scenes/world/rooms/hiddenlake/hiddenlake
 import { MineScene } from './game/scenes/world/rooms/mine/mine.js';
 import { PuffleParkScene } from './game/scenes/world/rooms/pufflepark/pufflepark.js';
 import { PuffleHotelLobby } from './game/scenes/world/rooms/pufflehotellobby/pufflehotellobby.js';
+import { PuffleHotelSpa } from './game/scenes/world/rooms/pufflehotelspa/pufflehotelspa.js';
 
 const config = {
     type: Phaser.WEBGL,
@@ -67,7 +68,7 @@ const config = {
         createContainer: true 
     },
     backgroundColor: '#07c5ffff',
-    scene: [PreloadAssetsScene, PuffleHotelLobby],
+    scene: [PreloadAssetsScene, PuffleHotelSpa],
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene, DanceclubScene, SnowFortsScene, GiftshopScene, DocksScene, InterfaceScene, RegisterScene, InterfaceDanceScene, InterfaceEmojiScene],
     scale: {
         mode: Phaser.Scale.FIT,
