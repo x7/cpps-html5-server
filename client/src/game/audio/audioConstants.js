@@ -222,3 +222,14 @@ export const PUFFLE_PARK_SLIDE_DOWN_PUFFLE_CAT = "puffle_park_slide_down_puffle_
 export const PUFFLE_PARK_SLIDE_DOWN_PUFFLE_DOG = "puffle_park_slide_down_puffle_dog";
 export const PUFFLE_PARK_PUFFLE_SNORING = "puffle_park_puffle_snoring";
 // Puffle Park Room audio ends here
+
+// Puffle Hotel Lobby Room audio starts here
+export const PUFFLE_HOTEL_LOBBY_ROOM_MUSIC = "puffle_hotel_lobby_room_music";
+export const PUFFLE_HOTEL_LOBBY_PET_DOOR_OPEN = "puffle_hotel_lobby_pet_door_open";
+export const PUFFLE_HOTEL_LOBBY_PET_DOOR_CLOSE = "puffle_hotel_lobby_pet_door_close";
+export const PUFFLE_HOTEL_LOBBY_PLAZA_DOOR_OPEN = "puffle_hotel_lobby_plaza_door_open";
+export const PUFFLE_HOTEL_LOBBY_PLAZA_DOOR_CLOSE = "puffle_hotel_lobby_plaza_door_close";
+export const PUFFLE_HOTEL_LOBBY_ELEVATOR_OPEN = "puffle_hotel_lobby_elevator_open";
+export const PUFFLE_HOTEL_LOBBY_ELEVATOR_CLOSE = "puffle_hotel_lobby_elevator_close";
+export const PUFFLE_HOTEL_LOBBY_RAINBOW_PUFFLE_CHECKBOARD = "puffle_hotel_lobby_rainbow_puffle_checkboard";
+// Puffle Hotel Lobby Room audio ends here

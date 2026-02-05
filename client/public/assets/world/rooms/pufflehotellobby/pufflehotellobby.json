@@ -1,0 +1,3245 @@
+{
+	"textures": [
+		{
+			"image": "pufflehotellobby-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "puffle_hotel_yay.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1820,
+						"h": 1038
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1820,
+						"h": 1038
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1820,
+						"h": 1038
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_bottom_part.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1730,
+						"h": 993
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1730,
+						"h": 993
+					},
+					"frame": {
+						"x": 1,
+						"y": 1041,
+						"w": 1730,
+						"h": 993
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_elevator_overlay.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 309,
+						"h": 580
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 309,
+						"h": 580
+					},
+					"frame": {
+						"x": 1733,
+						"y": 1041,
+						"w": 309,
+						"h": 580
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 258,
+						"h": 393
+					},
+					"frame": {
+						"x": 1733,
+						"y": 1623,
+						"w": 258,
+						"h": 393
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_plaza_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 29
+					},
+					"frame": {
+						"x": 1733,
+						"y": 2018,
+						"w": 200,
+						"h": 29
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_orange.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 45,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 45,
+						"h": 42
+					},
+					"frame": {
+						"x": 1993,
+						"y": 1623,
+						"w": 45,
+						"h": 42
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_big_door_stand.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 139,
+						"h": 417
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 139,
+						"h": 417
+					},
+					"frame": {
+						"x": 1823,
+						"y": 1,
+						"w": 139,
+						"h": 417
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 5,
+						"w": 224,
+						"h": 376
+					},
+					"frame": {
+						"x": 1823,
+						"y": 420,
+						"w": 224,
+						"h": 376
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_bottom_right_lamp.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 212,
+						"h": 223
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 212,
+						"h": 223
+					},
+					"frame": {
+						"x": 1823,
+						"y": 798,
+						"w": 212,
+						"h": 223
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_reception_green_wall.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 292
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 292
+					},
+					"frame": {
+						"x": 1964,
+						"y": 1,
+						"w": 82,
+						"h": 292
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_blue_wall.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 123
+					},
+					"frame": {
+						"x": 1964,
+						"y": 295,
+						"w": 64,
+						"h": 123
+					}
+				}
+			]
+		},
+		{
+			"image": "pufflehotellobby-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2034,
+				"h": 2047
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "puffle_hotel_lobby_walking_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1710,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1710,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1710,
+						"h": 960
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1730,
+						"h": 903
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1730,
+						"h": 903
+					},
+					"frame": {
+						"x": 1,
+						"y": 963,
+						"w": 1730,
+						"h": 903
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_overlay.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 309,
+						"h": 580
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 309,
+						"h": 580
+					},
+					"frame": {
+						"x": 1713,
+						"y": 1,
+						"w": 309,
+						"h": 580
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_bottom_left_desk.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 320,
+						"h": 290
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 290
+					},
+					"frame": {
+						"x": 1713,
+						"y": 583,
+						"w": 320,
+						"h": 290
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_reception_text_6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 292,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 292,
+						"h": 67
+					},
+					"frame": {
+						"x": 1713,
+						"y": 875,
+						"w": 292,
+						"h": 67
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_elevator_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 258,
+						"h": 425
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 258,
+						"h": 425
+					},
+					"frame": {
+						"x": 1733,
+						"y": 944,
+						"w": 258,
+						"h": 425
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 258,
+						"h": 393
+					},
+					"frame": {
+						"x": 1733,
+						"y": 1371,
+						"w": 258,
+						"h": 393
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_reception_main_desk.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 284,
+						"h": 254
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 284,
+						"h": 254
+					},
+					"frame": {
+						"x": 1733,
+						"y": 1766,
+						"w": 284,
+						"h": 254
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_bottom_blue_couch.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 449,
+						"h": 119
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 449,
+						"h": 119
+					},
+					"frame": {
+						"x": 1,
+						"y": 1868,
+						"w": 449,
+						"h": 119
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 148,
+						"w": 299,
+						"h": 178
+					},
+					"frame": {
+						"x": 452,
+						"y": 1868,
+						"w": 299,
+						"h": 178
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_coat_check_text_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 232,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 232,
+						"h": 48
+					},
+					"frame": {
+						"x": 1,
+						"y": 1989,
+						"w": 232,
+						"h": 48
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_right_railing_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 143,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 143,
+						"h": 53
+					},
+					"frame": {
+						"x": 235,
+						"y": 1989,
+						"w": 143,
+						"h": 53
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_right_railing_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 57,
+						"h": 52
+					},
+					"frame": {
+						"x": 380,
+						"y": 1989,
+						"w": 57,
+						"h": 52
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 151,
+						"w": 293,
+						"h": 172
+					},
+					"frame": {
+						"x": 753,
+						"y": 1868,
+						"w": 293,
+						"h": 172
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 151,
+						"w": 293,
+						"h": 172
+					},
+					"frame": {
+						"x": 753,
+						"y": 1868,
+						"w": 293,
+						"h": 172
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 151,
+						"w": 293,
+						"h": 172
+					},
+					"frame": {
+						"x": 753,
+						"y": 1868,
+						"w": 293,
+						"h": 172
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 151,
+						"w": 293,
+						"h": 172
+					},
+					"frame": {
+						"x": 753,
+						"y": 1868,
+						"w": 293,
+						"h": 172
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 151,
+						"w": 293,
+						"h": 172
+					},
+					"frame": {
+						"x": 753,
+						"y": 1868,
+						"w": 293,
+						"h": 172
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 151,
+						"w": 293,
+						"h": 172
+					},
+					"frame": {
+						"x": 753,
+						"y": 1868,
+						"w": 293,
+						"h": 172
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 151,
+						"w": 293,
+						"h": 172
+					},
+					"frame": {
+						"x": 753,
+						"y": 1868,
+						"w": 293,
+						"h": 172
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 151,
+						"w": 293,
+						"h": 172
+					},
+					"frame": {
+						"x": 753,
+						"y": 1868,
+						"w": 293,
+						"h": 172
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 151,
+						"w": 293,
+						"h": 172
+					},
+					"frame": {
+						"x": 753,
+						"y": 1868,
+						"w": 293,
+						"h": 172
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_reception_text_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 289,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 289,
+						"h": 75
+					},
+					"frame": {
+						"x": 1048,
+						"y": 1868,
+						"w": 289,
+						"h": 75
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_reception_text_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 289,
+						"h": 69
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 289,
+						"h": 69
+					},
+					"frame": {
+						"x": 1339,
+						"y": 1868,
+						"w": 289,
+						"h": 69
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_water0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 0,
+						"w": 101,
+						"h": 129
+					},
+					"frame": {
+						"x": 1630,
+						"y": 1868,
+						"w": 101,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_reception_text_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 264,
+						"h": 73
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 264,
+						"h": 73
+					},
+					"frame": {
+						"x": 1339,
+						"y": 1939,
+						"w": 264,
+						"h": 73
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_reception_text_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 289,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 289,
+						"h": 66
+					},
+					"frame": {
+						"x": 1048,
+						"y": 1945,
+						"w": 289,
+						"h": 66
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_seat_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 60,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 60,
+						"h": 40
+					},
+					"frame": {
+						"x": 1605,
+						"y": 1999,
+						"w": 60,
+						"h": 40
+					}
+				}
+			]
+		},
+		{
+			"image": "pufflehotellobby-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2000,
+				"h": 2045
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "puffle_hotel_lobby_top_main.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1152,
+						"h": 434
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1152,
+						"h": 434
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1152,
+						"h": 434
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_coat_check_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 666,
+						"h": 585
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 666,
+						"h": 585
+					},
+					"frame": {
+						"x": 1,
+						"y": 437,
+						"w": 666,
+						"h": 585
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_reception_side.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 655,
+						"h": 477
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 655,
+						"h": 477
+					},
+					"frame": {
+						"x": 1,
+						"y": 1024,
+						"w": 655,
+						"h": 477
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_pet_shop_top0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 321,
+						"h": 541
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 321,
+						"h": 541
+					},
+					"frame": {
+						"x": 1,
+						"y": 1503,
+						"w": 321,
+						"h": 541
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_pet_shop_top0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 321,
+						"h": 541
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 321,
+						"h": 541
+					},
+					"frame": {
+						"x": 1,
+						"y": 1503,
+						"w": 321,
+						"h": 541
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_pet_shop_top0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 321,
+						"h": 541
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 321,
+						"h": 541
+					},
+					"frame": {
+						"x": 324,
+						"y": 1503,
+						"w": 321,
+						"h": 541
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_pet_shop_top0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 321,
+						"h": 541
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 321,
+						"h": 541
+					},
+					"frame": {
+						"x": 647,
+						"y": 1503,
+						"w": 321,
+						"h": 541
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_pet_shop_top0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 321,
+						"h": 541
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 321,
+						"h": 541
+					},
+					"frame": {
+						"x": 669,
+						"y": 437,
+						"w": 321,
+						"h": 541
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_top_right_wall.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 471,
+						"h": 358
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 471,
+						"h": 358
+					},
+					"frame": {
+						"x": 1155,
+						"y": 1,
+						"w": 471,
+						"h": 358
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0031.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 258,
+						"h": 393
+					},
+					"frame": {
+						"x": 1628,
+						"y": 1,
+						"w": 258,
+						"h": 393
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0032.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 258,
+						"h": 393
+					},
+					"frame": {
+						"x": 992,
+						"y": 437,
+						"w": 258,
+						"h": 393
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0033.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 258,
+						"h": 393
+					},
+					"frame": {
+						"x": 992,
+						"y": 437,
+						"w": 258,
+						"h": 393
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 257,
+						"h": 392
+					},
+					"frame": {
+						"x": 1252,
+						"y": 361,
+						"w": 257,
+						"h": 392
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_reception_white_ceiling_lights.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 388,
+						"h": 244
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 388,
+						"h": 243
+					},
+					"frame": {
+						"x": 1511,
+						"y": 396,
+						"w": 388,
+						"h": 243
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 134,
+						"w": 312,
+						"h": 192
+					},
+					"frame": {
+						"x": 1511,
+						"y": 641,
+						"w": 312,
+						"h": 192
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 257,
+						"h": 392
+					},
+					"frame": {
+						"x": 1252,
+						"y": 755,
+						"w": 257,
+						"h": 392
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 257,
+						"h": 392
+					},
+					"frame": {
+						"x": 1511,
+						"y": 835,
+						"w": 257,
+						"h": 392
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 257,
+						"h": 392
+					},
+					"frame": {
+						"x": 992,
+						"y": 832,
+						"w": 257,
+						"h": 392
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_railing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 549,
+						"h": 268
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 549,
+						"h": 268
+					},
+					"frame": {
+						"x": 658,
+						"y": 1226,
+						"w": 549,
+						"h": 268
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 257,
+						"h": 392
+					},
+					"frame": {
+						"x": 970,
+						"y": 1496,
+						"w": 257,
+						"h": 392
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 257,
+						"h": 392
+					},
+					"frame": {
+						"x": 970,
+						"y": 1496,
+						"w": 257,
+						"h": 392
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 257,
+						"h": 392
+					},
+					"frame": {
+						"x": 970,
+						"y": 1496,
+						"w": 257,
+						"h": 392
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 257,
+						"h": 392
+					},
+					"frame": {
+						"x": 970,
+						"y": 1496,
+						"w": 257,
+						"h": 392
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 257,
+						"h": 392
+					},
+					"frame": {
+						"x": 970,
+						"y": 1496,
+						"w": 257,
+						"h": 392
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 257,
+						"h": 392
+					},
+					"frame": {
+						"x": 970,
+						"y": 1496,
+						"w": 257,
+						"h": 392
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_pet_shop_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 125,
+						"h": 295
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 13,
+						"w": 111,
+						"h": 278
+					},
+					"frame": {
+						"x": 1888,
+						"y": 1,
+						"w": 111,
+						"h": 278
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_pet_shop_wall.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 189,
+						"h": 313
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 189,
+						"h": 313
+					},
+					"frame": {
+						"x": 1770,
+						"y": 835,
+						"w": 189,
+						"h": 313
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 139,
+						"w": 310,
+						"h": 187
+					},
+					"frame": {
+						"x": 669,
+						"y": 980,
+						"w": 310,
+						"h": 187
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_elevator_walk_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 205,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 205,
+						"h": 96
+					},
+					"frame": {
+						"x": 970,
+						"y": 1890,
+						"w": 205,
+						"h": 96
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_coat_check_text_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 231,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 231,
+						"h": 60
+					},
+					"frame": {
+						"x": 1251,
+						"y": 1149,
+						"w": 231,
+						"h": 60
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_plaza_door_right_tree.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 61,
+						"h": 248
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 61,
+						"h": 248
+					},
+					"frame": {
+						"x": 1209,
+						"y": 1226,
+						"w": 61,
+						"h": 248
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_plaza_door0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 204,
+						"h": 237
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 204,
+						"h": 236
+					},
+					"frame": {
+						"x": 1272,
+						"y": 1211,
+						"w": 204,
+						"h": 236
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 141,
+						"w": 307,
+						"h": 185
+					},
+					"frame": {
+						"x": 1478,
+						"y": 1229,
+						"w": 307,
+						"h": 185
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 1478,
+						"y": 1416,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_pet_shop_door0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 125,
+						"h": 295
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 125,
+						"h": 295
+					},
+					"frame": {
+						"x": 1229,
+						"y": 1476,
+						"w": 125,
+						"h": 295
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 1356,
+						"y": 1602,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_plaza_door0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 204,
+						"h": 237
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 12,
+						"w": 162,
+						"h": 225
+					},
+					"frame": {
+						"x": 1787,
+						"y": 1150,
+						"w": 162,
+						"h": 225
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 1664,
+						"y": 1602,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 1229,
+						"y": 1788,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_food_basket.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 208,
+						"h": 172
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 208,
+						"h": 172
+					},
+					"frame": {
+						"x": 1537,
+						"y": 1788,
+						"w": 208,
+						"h": 172
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_coat_check_text_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 62
+					},
+					"frame": {
+						"x": 1747,
+						"y": 1788,
+						"w": 222,
+						"h": 62
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_coat_check_text_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 226,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 54
+					},
+					"frame": {
+						"x": 1747,
+						"y": 1852,
+						"w": 226,
+						"h": 54
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_pet_shop_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 162,
+						"h": 73
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 162,
+						"h": 73
+					},
+					"frame": {
+						"x": 1747,
+						"y": 1908,
+						"w": 162,
+						"h": 73
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_water0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 99,
+						"h": 128
+					},
+					"frame": {
+						"x": 1825,
+						"y": 641,
+						"w": 99,
+						"h": 128
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_flower_pot.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 116
+					},
+					"frame": {
+						"x": 1356,
+						"y": 1449,
+						"w": 110,
+						"h": 116
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_top_right_right_wall.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 85,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 85,
+						"h": 226
+					},
+					"frame": {
+						"x": 1901,
+						"y": 281,
+						"w": 85,
+						"h": 226
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_puffle_feeding_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 121
+					},
+					"frame": {
+						"x": 1787,
+						"y": 1377,
+						"w": 159,
+						"h": 121
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_left_railing_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 141,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 141,
+						"h": 53
+					},
+					"frame": {
+						"x": 970,
+						"y": 1988,
+						"w": 141,
+						"h": 53
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_right_railing_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 121,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 121,
+						"h": 59
+					},
+					"frame": {
+						"x": 1786,
+						"y": 1500,
+						"w": 121,
+						"h": 59
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_plaza_door_left_tree.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 61,
+						"h": 246
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 61,
+						"h": 246
+					},
+					"frame": {
+						"x": 1926,
+						"y": 509,
+						"w": 61,
+						"h": 246
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_right_railing_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 107,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 107,
+						"h": 52
+					},
+					"frame": {
+						"x": 1825,
+						"y": 771,
+						"w": 107,
+						"h": 52
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_left_railing_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 89,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 89,
+						"h": 59
+					},
+					"frame": {
+						"x": 1155,
+						"y": 361,
+						"w": 89,
+						"h": 59
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_left_railing_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 86
+					},
+					"frame": {
+						"x": 1911,
+						"y": 1908,
+						"w": 77,
+						"h": 86
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_two_fruits.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 99,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 99,
+						"h": 67
+					},
+					"frame": {
+						"x": 1537,
+						"y": 1962,
+						"w": 99,
+						"h": 67
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_right_railing_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 67
+					},
+					"frame": {
+						"x": 1638,
+						"y": 1962,
+						"w": 78,
+						"h": 67
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_left_railing_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 52
+					},
+					"frame": {
+						"x": 1113,
+						"y": 1988,
+						"w": 56,
+						"h": 52
+					}
+				}
+			]
+		},
+		{
+			"image": "pufflehotellobby-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1199,
+				"h": 1887
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 256,
+						"h": 392
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 256,
+						"h": 392
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 251,
+						"h": 390
+					},
+					"frame": {
+						"x": 1,
+						"y": 395,
+						"w": 251,
+						"h": 390
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 1,
+						"w": 244,
+						"h": 387
+					},
+					"frame": {
+						"x": 259,
+						"y": 1,
+						"w": 244,
+						"h": 387
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 4,
+						"w": 232,
+						"h": 379
+					},
+					"frame": {
+						"x": 1,
+						"y": 787,
+						"w": 232,
+						"h": 379
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 8,
+						"w": 206,
+						"h": 366
+					},
+					"frame": {
+						"x": 505,
+						"y": 1,
+						"w": 206,
+						"h": 366
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 10,
+						"w": 195,
+						"h": 360
+					},
+					"frame": {
+						"x": 1,
+						"y": 1168,
+						"w": 195,
+						"h": 360
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 12,
+						"w": 182,
+						"h": 353
+					},
+					"frame": {
+						"x": 713,
+						"y": 1,
+						"w": 182,
+						"h": 353
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 146,
+						"w": 301,
+						"h": 180
+					},
+					"frame": {
+						"x": 897,
+						"y": 1,
+						"w": 301,
+						"h": 180
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 53,
+						"y": 15,
+						"w": 166,
+						"h": 345
+					},
+					"frame": {
+						"x": 1,
+						"y": 1530,
+						"w": 166,
+						"h": 345
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 11,
+						"w": 157,
+						"h": 345
+					},
+					"frame": {
+						"x": 198,
+						"y": 1168,
+						"w": 157,
+						"h": 345
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 55,
+						"y": 16,
+						"w": 162,
+						"h": 343
+					},
+					"frame": {
+						"x": 169,
+						"y": 1530,
+						"w": 162,
+						"h": 343
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 13,
+						"w": 157,
+						"h": 343
+					},
+					"frame": {
+						"x": 235,
+						"y": 787,
+						"w": 157,
+						"h": 343
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_big_rainbow_puffle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 180,
+						"h": 239
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 239
+					},
+					"frame": {
+						"x": 897,
+						"y": 183,
+						"w": 180,
+						"h": 239
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 14,
+						"w": 157,
+						"h": 342
+					},
+					"frame": {
+						"x": 333,
+						"y": 1515,
+						"w": 157,
+						"h": 342
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_pet_shop_door0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 125,
+						"h": 295
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 13,
+						"w": 108,
+						"h": 278
+					},
+					"frame": {
+						"x": 1079,
+						"y": 183,
+						"w": 108,
+						"h": 278
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 16,
+						"w": 157,
+						"h": 340
+					},
+					"frame": {
+						"x": 254,
+						"y": 395,
+						"w": 157,
+						"h": 340
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 16,
+						"w": 157,
+						"h": 340
+					},
+					"frame": {
+						"x": 254,
+						"y": 395,
+						"w": 157,
+						"h": 340
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 16,
+						"w": 157,
+						"h": 340
+					},
+					"frame": {
+						"x": 254,
+						"y": 395,
+						"w": 157,
+						"h": 340
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 16,
+						"w": 157,
+						"h": 340
+					},
+					"frame": {
+						"x": 254,
+						"y": 395,
+						"w": 157,
+						"h": 340
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 16,
+						"w": 157,
+						"h": 340
+					},
+					"frame": {
+						"x": 254,
+						"y": 395,
+						"w": 157,
+						"h": 340
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 16,
+						"w": 157,
+						"h": 340
+					},
+					"frame": {
+						"x": 254,
+						"y": 395,
+						"w": 157,
+						"h": 340
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 16,
+						"w": 157,
+						"h": 340
+					},
+					"frame": {
+						"x": 254,
+						"y": 395,
+						"w": 157,
+						"h": 340
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 16,
+						"w": 157,
+						"h": 340
+					},
+					"frame": {
+						"x": 413,
+						"y": 390,
+						"w": 157,
+						"h": 340
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 16,
+						"w": 156,
+						"h": 340
+					},
+					"frame": {
+						"x": 572,
+						"y": 369,
+						"w": 156,
+						"h": 340
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 17,
+						"w": 157,
+						"h": 339
+					},
+					"frame": {
+						"x": 730,
+						"y": 356,
+						"w": 157,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 17,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 889,
+						"y": 424,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 17,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 357,
+						"y": 1132,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 17,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 492,
+						"y": 1473,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_golden_elevator_door0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 258,
+						"h": 393
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 17,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 394,
+						"y": 765,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_smoothie_sign.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 132,
+						"h": 152
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 152
+					},
+					"frame": {
+						"x": 1046,
+						"y": 463,
+						"w": 132,
+						"h": 152
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_reception_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 122,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 122,
+						"h": 153
+					},
+					"frame": {
+						"x": 1046,
+						"y": 617,
+						"w": 122,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_plaza_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 204,
+						"h": 237
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 15,
+						"w": 162,
+						"h": 222
+					},
+					"frame": {
+						"x": 514,
+						"y": 1106,
+						"w": 162,
+						"h": 222
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_water0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 106,
+						"h": 128
+					},
+					"frame": {
+						"x": 514,
+						"y": 1330,
+						"w": 106,
+						"h": 128
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 551,
+						"y": 772,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 859,
+						"y": 772,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 678,
+						"y": 958,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 678,
+						"y": 1144,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 649,
+						"y": 1330,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 649,
+						"y": 1516,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 649,
+						"y": 1702,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 649,
+						"y": 1702,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 649,
+						"y": 1702,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 649,
+						"y": 1702,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 649,
+						"y": 1702,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_main_board0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 142,
+						"w": 306,
+						"h": 184
+					},
+					"frame": {
+						"x": 649,
+						"y": 1702,
+						"w": 306,
+						"h": 184
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_puffle_sleep_bed.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 199,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 199,
+						"h": 147
+					},
+					"frame": {
+						"x": 986,
+						"y": 958,
+						"w": 199,
+						"h": 147
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_water0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 105,
+						"h": 128
+					},
+					"frame": {
+						"x": 551,
+						"y": 958,
+						"w": 105,
+						"h": 128
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_water0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 104,
+						"h": 129
+					},
+					"frame": {
+						"x": 986,
+						"y": 1107,
+						"w": 104,
+						"h": 129
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_water0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 7,
+						"w": 102,
+						"h": 128
+					},
+					"frame": {
+						"x": 1092,
+						"y": 1107,
+						"w": 102,
+						"h": 128
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_chair_and_seat.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 124,
+						"h": 92
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 92
+					},
+					"frame": {
+						"x": 986,
+						"y": 1238,
+						"w": 124,
+						"h": 92
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_water0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 8,
+						"w": 105,
+						"h": 127
+					},
+					"frame": {
+						"x": 957,
+						"y": 1332,
+						"w": 105,
+						"h": 127
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_water0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 7,
+						"w": 100,
+						"h": 128
+					},
+					"frame": {
+						"x": 957,
+						"y": 1461,
+						"w": 100,
+						"h": 128
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_water0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 100,
+						"h": 128
+					},
+					"frame": {
+						"x": 957,
+						"y": 1591,
+						"w": 100,
+						"h": 128
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_water0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 8,
+						"w": 100,
+						"h": 127
+					},
+					"frame": {
+						"x": 957,
+						"y": 1721,
+						"w": 100,
+						"h": 127
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_water0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 8,
+						"w": 100,
+						"h": 127
+					},
+					"frame": {
+						"x": 1064,
+						"y": 1332,
+						"w": 100,
+						"h": 127
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_water0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 135
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 98,
+						"h": 128
+					},
+					"frame": {
+						"x": 1059,
+						"y": 1461,
+						"w": 98,
+						"h": 128
+					}
+				},
+				{
+					"filename": "puffle_hotel_lobby_left_railing_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 105,
+						"h": 120
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 105,
+						"h": 120
+					},
+					"frame": {
+						"x": 1059,
+						"y": 1591,
+						"w": 105,
+						"h": 120
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:fcb8de746c1728386ba33b0e80213f4f:3a5a9840846b982b43594922113d37e1:1727cdfaa540239fd060cf8d1ddcfede$"
+	}
+}

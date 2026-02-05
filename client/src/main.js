@@ -55,6 +55,7 @@ import { ShipNestScene } from './game/scenes/world/rooms/shipnest/shipnest.js';
 import { HiddenLakeScene } from './game/scenes/world/rooms/hiddenlake/hiddenlake.js';
 import { MineScene } from './game/scenes/world/rooms/mine/mine.js';
 import { PuffleParkScene } from './game/scenes/world/rooms/pufflepark/pufflepark.js';
+import { PuffleHotelLobby } from './game/scenes/world/rooms/pufflehotellobby/pufflehotellobby.js';
 
 const config = {
     type: Phaser.WEBGL,
@@ -66,7 +67,7 @@ const config = {
         createContainer: true 
     },
     backgroundColor: '#07c5ffff',
-    scene: [PreloadAssetsScene, PuffleParkScene],
+    scene: [PreloadAssetsScene, PuffleHotelLobby],
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene, DanceclubScene, SnowFortsScene, GiftshopScene, DocksScene, InterfaceScene, RegisterScene, InterfaceDanceScene, InterfaceEmojiScene],
     scale: {
         mode: Phaser.Scale.FIT,

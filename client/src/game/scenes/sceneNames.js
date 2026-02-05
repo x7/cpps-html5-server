@@ -51,4 +51,5 @@ export const SCENE_ROOM_SHIP_NEST = "ShipNestScene";
 export const SCENE_ROOM_HIDDEN_LAKE = "HiddenLakeScene";
 export const SCENE_ROOM_MINE = "MineScene";
 export const SCENE_ROOM_PUFFLE_PARK = "PuffleParkScene";
+export const SCENE_ROOM_PUFFLE_HOTEL_LOBBY = "PuffleHotelLobbyScene";
 // Scene names end here
