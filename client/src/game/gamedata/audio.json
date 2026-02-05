@@ -1406,5 +1406,38 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "puffle_hotel_roof_room_music": {
+        "key": "puffle_hotel_roof_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "puffle_hotel_roof_elevator_open": {
+        "key": "puffle_hotel_roof_elevator_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "puffle_hotel_roof_elevator_close": {
+        "key": "puffle_hotel_roof_elevator_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }

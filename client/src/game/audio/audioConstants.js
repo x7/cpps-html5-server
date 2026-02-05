@@ -240,3 +240,9 @@ export const PUFFLE_HOTEL_SPA_ELEVATOR_OPEN = "puffle_hotel_spa_elevator_open";
 export const PUFFLE_HOTEL_SPA_ELEVATOR_CLOSE = "puffle_hotel_spa_elevator_close";
 export const PUFFLE_HOTEL_SPA_TREADMILL_START = "puffle_hotel_spa_treadmill_start";
 // Puffle Hotel Spa Room audio ends here
+
+// Puffle Hotel Roof Room audio starts here
+export const PUFFLE_HOTEL_ROOF_ROOM_MUSIC = "puffle_hotel_roof_room_music";
+export const PUFFLE_HOTEL_ROOF_ELEVATOR_OPEN = "puffle_hotel_roof_elevator_open";
+export const PUFFLE_HOTEL_ROOF_ELEVATOR_CLOSE = "puffle_hotel_roof_elevator_close";
+// Puffle Hotel Roof Room audio ends here

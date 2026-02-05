@@ -1,0 +1,7004 @@
+{
+	"textures": [
+		{
+			"image": "pufflehotelroof-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2038,
+				"h": 2044
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "puffle_hotel_roof_main_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1820,
+						"h": 1045
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1820,
+						"h": 1045
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1820,
+						"h": 1045
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_clouds.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1792,
+						"h": 363
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1792,
+						"h": 363
+					},
+					"frame": {
+						"x": 1,
+						"y": 1048,
+						"w": 1792,
+						"h": 363
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_blue_sky.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1788,
+						"h": 320
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1788,
+						"h": 320
+					},
+					"frame": {
+						"x": 1,
+						"y": 1413,
+						"w": 1788,
+						"h": 320
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_bottom_seats.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1195,
+						"h": 308
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1195,
+						"h": 308
+					},
+					"frame": {
+						"x": 1,
+						"y": 1735,
+						"w": 1195,
+						"h": 308
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_bottom_blue.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 214,
+						"h": 454
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 214,
+						"h": 454
+					},
+					"frame": {
+						"x": 1823,
+						"y": 1,
+						"w": 214,
+						"h": 454
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_outline.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 203,
+						"h": 401
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 203,
+						"h": 401
+					},
+					"frame": {
+						"x": 1823,
+						"y": 457,
+						"w": 203,
+						"h": 401
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_top_seats_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 451,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 451,
+						"h": 116
+					},
+					"frame": {
+						"x": 1198,
+						"y": 1735,
+						"w": 451,
+						"h": 116
+					}
+				},
+				{
+					"filename": "puffle_hotel_roooof_left_cash_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 372,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 372,
+						"h": 151
+					},
+					"frame": {
+						"x": 1198,
+						"y": 1853,
+						"w": 372,
+						"h": 151
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 227,
+						"h": 483
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 227,
+						"h": 483
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1048,
+						"w": 227,
+						"h": 483
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_bottom_seats_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 231,
+						"h": 324
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 231,
+						"h": 324
+					},
+					"frame": {
+						"x": 1791,
+						"y": 1533,
+						"w": 231,
+						"h": 324
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_sleeping_chair_one0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 210,
+						"h": 187
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 7,
+						"w": 201,
+						"h": 180
+					},
+					"frame": {
+						"x": 1823,
+						"y": 860,
+						"w": 201,
+						"h": 180
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 19,
+						"w": 110,
+						"h": 308
+					},
+					"frame": {
+						"x": 1651,
+						"y": 1735,
+						"w": 110,
+						"h": 308
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 19,
+						"w": 110,
+						"h": 308
+					},
+					"frame": {
+						"x": 1651,
+						"y": 1735,
+						"w": 110,
+						"h": 308
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_ball_hover_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 246,
+						"h": 104
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 246,
+						"h": 104
+					},
+					"frame": {
+						"x": 1763,
+						"y": 1859,
+						"w": 246,
+						"h": 104
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_eat_trigger_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 180,
+						"h": 36
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 36
+					},
+					"frame": {
+						"x": 1198,
+						"y": 2006,
+						"w": 180,
+						"h": 36
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_eat_trigger_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 180,
+						"h": 36
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 36
+					},
+					"frame": {
+						"x": 1763,
+						"y": 1965,
+						"w": 180,
+						"h": 36
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_left_sleeping_chair_tabble.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 75,
+						"h": 92
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 75,
+						"h": 92
+					},
+					"frame": {
+						"x": 1572,
+						"y": 1853,
+						"w": 75,
+						"h": 92
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_sleeping_table.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 67,
+						"h": 92
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 92
+					},
+					"frame": {
+						"x": 1572,
+						"y": 1947,
+						"w": 67,
+						"h": 92
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_sleeping_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 95,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 95,
+						"h": 19
+					},
+					"frame": {
+						"x": 1763,
+						"y": 2003,
+						"w": 95,
+						"h": 19
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_ball_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 40
+					},
+					"frame": {
+						"x": 1945,
+						"y": 1965,
+						"w": 64,
+						"h": 40
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 40
+					},
+					"frame": {
+						"x": 1945,
+						"y": 1965,
+						"w": 64,
+						"h": 40
+					}
+				}
+			]
+		},
+		{
+			"image": "pufflehotelroof-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2041,
+				"h": 2026
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "puffle_hotel_roof_walking_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1600,
+						"h": 1040
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1600,
+						"h": 1040
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1600,
+						"h": 1040
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_bottom_statues.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1830,
+						"h": 272
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1830,
+						"h": 272
+					},
+					"frame": {
+						"x": 1,
+						"y": 1043,
+						"w": 1830,
+						"h": 272
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_water.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1792,
+						"h": 195
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1792,
+						"h": 195
+					},
+					"frame": {
+						"x": 1,
+						"y": 1317,
+						"w": 1792,
+						"h": 195
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 501,
+						"h": 511
+					},
+					"frame": {
+						"x": 1,
+						"y": 1514,
+						"w": 501,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 500,
+						"h": 511
+					},
+					"frame": {
+						"x": 504,
+						"y": 1514,
+						"w": 500,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 496,
+						"h": 511
+					},
+					"frame": {
+						"x": 1006,
+						"y": 1514,
+						"w": 496,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_hover_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 324,
+						"h": 263
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 324,
+						"h": 263
+					},
+					"frame": {
+						"x": 1603,
+						"y": 1,
+						"w": 324,
+						"h": 263
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 1504,
+						"y": 1514,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 1504,
+						"y": 1514,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 1504,
+						"y": 1514,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 1603,
+						"y": 266,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 1603,
+						"y": 266,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 1603,
+						"y": 266,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 1603,
+						"y": 266,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 1603,
+						"y": 266,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 1603,
+						"y": 607,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 1603,
+						"y": 607,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 1603,
+						"y": 607,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 145,
+						"h": 345
+					},
+					"frame": {
+						"x": 1760,
+						"y": 266,
+						"w": 145,
+						"h": 345
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 145,
+						"h": 345
+					},
+					"frame": {
+						"x": 1760,
+						"y": 266,
+						"w": 145,
+						"h": 345
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 143,
+						"h": 342
+					},
+					"frame": {
+						"x": 1760,
+						"y": 613,
+						"w": 143,
+						"h": 342
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 143,
+						"h": 342
+					},
+					"frame": {
+						"x": 1760,
+						"y": 613,
+						"w": 143,
+						"h": 342
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 8,
+						"w": 131,
+						"h": 331
+					},
+					"frame": {
+						"x": 1661,
+						"y": 1514,
+						"w": 131,
+						"h": 331
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 8,
+						"w": 131,
+						"h": 331
+					},
+					"frame": {
+						"x": 1661,
+						"y": 1514,
+						"w": 131,
+						"h": 331
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 17,
+						"w": 105,
+						"h": 308
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1,
+						"w": 105,
+						"h": 308
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 17,
+						"w": 105,
+						"h": 308
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1,
+						"w": 105,
+						"h": 308
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 10,
+						"w": 125,
+						"h": 326
+					},
+					"frame": {
+						"x": 1907,
+						"y": 311,
+						"w": 125,
+						"h": 326
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 10,
+						"w": 125,
+						"h": 326
+					},
+					"frame": {
+						"x": 1907,
+						"y": 311,
+						"w": 125,
+						"h": 326
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 14,
+						"w": 101,
+						"h": 308
+					},
+					"frame": {
+						"x": 1905,
+						"y": 639,
+						"w": 101,
+						"h": 308
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 14,
+						"w": 101,
+						"h": 308
+					},
+					"frame": {
+						"x": 1905,
+						"y": 639,
+						"w": 101,
+						"h": 308
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_circle_colors0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 336,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 331,
+						"h": 164
+					},
+					"frame": {
+						"x": 1504,
+						"y": 1855,
+						"w": 331,
+						"h": 164
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_top_blue.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 437,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 437,
+						"h": 52
+					},
+					"frame": {
+						"x": 1603,
+						"y": 957,
+						"w": 437,
+						"h": 52
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0140.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 328,
+						"y": 310,
+						"w": 188,
+						"h": 206
+					},
+					"frame": {
+						"x": 1833,
+						"y": 1011,
+						"w": 188,
+						"h": 206
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0141.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 328,
+						"y": 310,
+						"w": 188,
+						"h": 206
+					},
+					"frame": {
+						"x": 1833,
+						"y": 1011,
+						"w": 188,
+						"h": 206
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0142.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 328,
+						"y": 310,
+						"w": 188,
+						"h": 206
+					},
+					"frame": {
+						"x": 1833,
+						"y": 1011,
+						"w": 188,
+						"h": 206
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0143.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 328,
+						"y": 310,
+						"w": 188,
+						"h": 206
+					},
+					"frame": {
+						"x": 1833,
+						"y": 1011,
+						"w": 188,
+						"h": 206
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0144.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 328,
+						"y": 310,
+						"w": 188,
+						"h": 206
+					},
+					"frame": {
+						"x": 1833,
+						"y": 1011,
+						"w": 188,
+						"h": 206
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0145.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 328,
+						"y": 310,
+						"w": 188,
+						"h": 206
+					},
+					"frame": {
+						"x": 1833,
+						"y": 1011,
+						"w": 188,
+						"h": 206
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0146.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 328,
+						"y": 310,
+						"w": 188,
+						"h": 206
+					},
+					"frame": {
+						"x": 1833,
+						"y": 1011,
+						"w": 188,
+						"h": 206
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0147.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 328,
+						"y": 310,
+						"w": 188,
+						"h": 206
+					},
+					"frame": {
+						"x": 1833,
+						"y": 1011,
+						"w": 188,
+						"h": 206
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0148.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 328,
+						"y": 310,
+						"w": 188,
+						"h": 206
+					},
+					"frame": {
+						"x": 1833,
+						"y": 1011,
+						"w": 188,
+						"h": 206
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0149.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 328,
+						"y": 310,
+						"w": 188,
+						"h": 206
+					},
+					"frame": {
+						"x": 1833,
+						"y": 1011,
+						"w": 188,
+						"h": 206
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0150.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 328,
+						"y": 310,
+						"w": 188,
+						"h": 206
+					},
+					"frame": {
+						"x": 1833,
+						"y": 1011,
+						"w": 188,
+						"h": 206
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_top_feeding_seats0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 201,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 201,
+						"h": 121
+					},
+					"frame": {
+						"x": 1833,
+						"y": 1219,
+						"w": 201,
+						"h": 121
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_top_feeding_seats0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 201,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 201,
+						"h": 121
+					},
+					"frame": {
+						"x": 1833,
+						"y": 1219,
+						"w": 201,
+						"h": 121
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 225,
+						"h": 243
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1342,
+						"w": 225,
+						"h": 243
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 225,
+						"h": 243
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1342,
+						"w": 225,
+						"h": 243
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 225,
+						"h": 243
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1342,
+						"w": 225,
+						"h": 243
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 225,
+						"h": 243
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1342,
+						"w": 225,
+						"h": 243
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 225,
+						"h": 243
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1342,
+						"w": 225,
+						"h": 243
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 225,
+						"h": 243
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1342,
+						"w": 225,
+						"h": 243
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 225,
+						"h": 243
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1342,
+						"w": 225,
+						"h": 243
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 225,
+						"h": 243
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1342,
+						"w": 225,
+						"h": 243
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 225,
+						"h": 243
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1342,
+						"w": 225,
+						"h": 243
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 225,
+						"h": 243
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1342,
+						"w": 225,
+						"h": 243
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 151
+					},
+					"frame": {
+						"x": 1794,
+						"y": 1587,
+						"w": 130,
+						"h": 151
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 151
+					},
+					"frame": {
+						"x": 1794,
+						"y": 1587,
+						"w": 130,
+						"h": 151
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 151
+					},
+					"frame": {
+						"x": 1794,
+						"y": 1587,
+						"w": 130,
+						"h": 151
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 151
+					},
+					"frame": {
+						"x": 1794,
+						"y": 1587,
+						"w": 130,
+						"h": 151
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 151
+					},
+					"frame": {
+						"x": 1794,
+						"y": 1587,
+						"w": 130,
+						"h": 151
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 151
+					},
+					"frame": {
+						"x": 1794,
+						"y": 1587,
+						"w": 130,
+						"h": 151
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 151
+					},
+					"frame": {
+						"x": 1794,
+						"y": 1587,
+						"w": 130,
+						"h": 151
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 151
+					},
+					"frame": {
+						"x": 1794,
+						"y": 1587,
+						"w": 130,
+						"h": 151
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 151
+					},
+					"frame": {
+						"x": 1794,
+						"y": 1587,
+						"w": 130,
+						"h": 151
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 151
+					},
+					"frame": {
+						"x": 1794,
+						"y": 1587,
+						"w": 130,
+						"h": 151
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_pink_cups.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 110,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 110,
+						"h": 125
+					},
+					"frame": {
+						"x": 1926,
+						"y": 1587,
+						"w": 110,
+						"h": 125
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 167,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 167,
+						"h": 76
+					},
+					"frame": {
+						"x": 1794,
+						"y": 1740,
+						"w": 167,
+						"h": 76
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_white_railing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 106,
+						"h": 85
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 106,
+						"h": 85
+					},
+					"frame": {
+						"x": 1837,
+						"y": 1818,
+						"w": 106,
+						"h": 85
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_top_ladder.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 84,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 84,
+						"h": 59
+					},
+					"frame": {
+						"x": 1837,
+						"y": 1905,
+						"w": 84,
+						"h": 59
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_diving_board_stands.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 53
+					},
+					"frame": {
+						"x": 1837,
+						"y": 1966,
+						"w": 51,
+						"h": 53
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_bottom_ladder.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 46
+					},
+					"frame": {
+						"x": 1890,
+						"y": 1966,
+						"w": 51,
+						"h": 46
+					}
+				}
+			]
+		},
+		{
+			"image": "pufflehotelroof-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1969,
+				"h": 2034
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 492,
+						"h": 511
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 492,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 491,
+						"h": 511
+					},
+					"frame": {
+						"x": 1,
+						"y": 514,
+						"w": 491,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0059.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 491,
+						"h": 511
+					},
+					"frame": {
+						"x": 495,
+						"y": 1,
+						"w": 491,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 491,
+						"h": 511
+					},
+					"frame": {
+						"x": 1,
+						"y": 1027,
+						"w": 491,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 494,
+						"y": 514,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0066.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0067.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0068.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0069.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0070.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0071.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0072.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0073.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0074.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0075.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0076.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0077.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0078.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0079.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0080.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0081.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0082.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0083.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0084.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0085.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0086.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0087.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0088.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0089.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0090.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0091.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 988,
+						"y": 1,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0094.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 488,
+						"h": 510
+					},
+					"frame": {
+						"x": 1480,
+						"y": 1,
+						"w": 488,
+						"h": 510
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0092.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 490,
+						"h": 511
+					},
+					"frame": {
+						"x": 494,
+						"y": 1027,
+						"w": 490,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0093.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 489,
+						"h": 511
+					},
+					"frame": {
+						"x": 986,
+						"y": 514,
+						"w": 489,
+						"h": 511
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 1,
+						"y": 1540,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 339
+					},
+					"frame": {
+						"x": 986,
+						"y": 1027,
+						"w": 155,
+						"h": 339
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 155,
+						"h": 338
+					},
+					"frame": {
+						"x": 158,
+						"y": 1540,
+						"w": 155,
+						"h": 338
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 155,
+						"h": 338
+					},
+					"frame": {
+						"x": 1143,
+						"y": 1027,
+						"w": 155,
+						"h": 338
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 155,
+						"h": 338
+					},
+					"frame": {
+						"x": 315,
+						"y": 1540,
+						"w": 155,
+						"h": 338
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 155,
+						"h": 338
+					},
+					"frame": {
+						"x": 315,
+						"y": 1540,
+						"w": 155,
+						"h": 338
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 155,
+						"h": 337
+					},
+					"frame": {
+						"x": 1300,
+						"y": 1027,
+						"w": 155,
+						"h": 337
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 155,
+						"h": 337
+					},
+					"frame": {
+						"x": 472,
+						"y": 1540,
+						"w": 155,
+						"h": 337
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 155,
+						"h": 337
+					},
+					"frame": {
+						"x": 472,
+						"y": 1540,
+						"w": 155,
+						"h": 337
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_circle_colors0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 336,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 328,
+						"h": 163
+					},
+					"frame": {
+						"x": 629,
+						"y": 1540,
+						"w": 328,
+						"h": 163
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 12,
+						"w": 155,
+						"h": 328
+					},
+					"frame": {
+						"x": 629,
+						"y": 1705,
+						"w": 155,
+						"h": 328
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 12,
+						"w": 155,
+						"h": 328
+					},
+					"frame": {
+						"x": 629,
+						"y": 1705,
+						"w": 155,
+						"h": 328
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 12,
+						"w": 155,
+						"h": 328
+					},
+					"frame": {
+						"x": 629,
+						"y": 1705,
+						"w": 155,
+						"h": 328
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 12,
+						"w": 155,
+						"h": 328
+					},
+					"frame": {
+						"x": 629,
+						"y": 1705,
+						"w": 155,
+						"h": 328
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 12,
+						"w": 155,
+						"h": 328
+					},
+					"frame": {
+						"x": 629,
+						"y": 1705,
+						"w": 155,
+						"h": 328
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 12,
+						"w": 155,
+						"h": 328
+					},
+					"frame": {
+						"x": 629,
+						"y": 1705,
+						"w": 155,
+						"h": 328
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 12,
+						"w": 155,
+						"h": 328
+					},
+					"frame": {
+						"x": 629,
+						"y": 1705,
+						"w": 155,
+						"h": 328
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 12,
+						"w": 155,
+						"h": 328
+					},
+					"frame": {
+						"x": 629,
+						"y": 1705,
+						"w": 155,
+						"h": 328
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 218,
+						"h": 233
+					},
+					"frame": {
+						"x": 786,
+						"y": 1705,
+						"w": 218,
+						"h": 233
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 218,
+						"h": 233
+					},
+					"frame": {
+						"x": 786,
+						"y": 1705,
+						"w": 218,
+						"h": 233
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 218,
+						"h": 233
+					},
+					"frame": {
+						"x": 786,
+						"y": 1705,
+						"w": 218,
+						"h": 233
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 218,
+						"h": 233
+					},
+					"frame": {
+						"x": 786,
+						"y": 1705,
+						"w": 218,
+						"h": 233
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 218,
+						"h": 233
+					},
+					"frame": {
+						"x": 786,
+						"y": 1705,
+						"w": 218,
+						"h": 233
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 218,
+						"h": 233
+					},
+					"frame": {
+						"x": 786,
+						"y": 1705,
+						"w": 218,
+						"h": 233
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 218,
+						"h": 233
+					},
+					"frame": {
+						"x": 786,
+						"y": 1705,
+						"w": 218,
+						"h": 233
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 218,
+						"h": 233
+					},
+					"frame": {
+						"x": 786,
+						"y": 1705,
+						"w": 218,
+						"h": 233
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 218,
+						"h": 233
+					},
+					"frame": {
+						"x": 786,
+						"y": 1705,
+						"w": 218,
+						"h": 233
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 225,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 218,
+						"h": 233
+					},
+					"frame": {
+						"x": 786,
+						"y": 1705,
+						"w": 218,
+						"h": 233
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 5,
+						"w": 139,
+						"h": 337
+					},
+					"frame": {
+						"x": 1457,
+						"y": 1027,
+						"w": 139,
+						"h": 337
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 5,
+						"w": 139,
+						"h": 337
+					},
+					"frame": {
+						"x": 1457,
+						"y": 1027,
+						"w": 139,
+						"h": 337
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 155,
+						"h": 335
+					},
+					"frame": {
+						"x": 986,
+						"y": 1368,
+						"w": 155,
+						"h": 335
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 155,
+						"h": 336
+					},
+					"frame": {
+						"x": 1143,
+						"y": 1367,
+						"w": 155,
+						"h": 336
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 155,
+						"h": 335
+					},
+					"frame": {
+						"x": 1300,
+						"y": 1366,
+						"w": 155,
+						"h": 335
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 155,
+						"h": 335
+					},
+					"frame": {
+						"x": 1457,
+						"y": 1366,
+						"w": 155,
+						"h": 335
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_sleeping_chair_one0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 210,
+						"h": 187
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 210,
+						"h": 187
+					},
+					"frame": {
+						"x": 1006,
+						"y": 1705,
+						"w": 210,
+						"h": 187
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0028.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0029.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0030.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0031.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0032.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0033.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0034.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0035.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 158,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 330,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 330,
+						"y": 1880,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 155,
+						"h": 334
+					},
+					"frame": {
+						"x": 1477,
+						"y": 514,
+						"w": 155,
+						"h": 334
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 155,
+						"h": 334
+					},
+					"frame": {
+						"x": 1477,
+						"y": 514,
+						"w": 155,
+						"h": 334
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 155,
+						"h": 333
+					},
+					"frame": {
+						"x": 1634,
+						"y": 513,
+						"w": 155,
+						"h": 333
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 155,
+						"h": 332
+					},
+					"frame": {
+						"x": 1791,
+						"y": 513,
+						"w": 155,
+						"h": 332
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_lower_seats.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 459,
+						"h": 540
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 467,
+						"w": 331,
+						"h": 73
+					},
+					"frame": {
+						"x": 1300,
+						"y": 1703,
+						"w": 331,
+						"h": 73
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 1477,
+						"y": 850,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 1477,
+						"y": 850,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 155,
+						"h": 330
+					},
+					"frame": {
+						"x": 1598,
+						"y": 1005,
+						"w": 155,
+						"h": 330
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_inside_elevator0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 155,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 10,
+						"w": 155,
+						"h": 329
+					},
+					"frame": {
+						"x": 1614,
+						"y": 1337,
+						"w": 155,
+						"h": 329
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 1649,
+						"y": 848,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0026.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 1649,
+						"y": 848,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0109.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 346,
+						"y": 313,
+						"w": 147,
+						"h": 198
+					},
+					"frame": {
+						"x": 1821,
+						"y": 847,
+						"w": 147,
+						"h": 198
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_sleeping_chair0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 198,
+						"h": 187
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 198,
+						"h": 187
+					},
+					"frame": {
+						"x": 1755,
+						"y": 1047,
+						"w": 198,
+						"h": 187
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 145
+					},
+					"frame": {
+						"x": 1,
+						"y": 1881,
+						"w": 124,
+						"h": 145
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 145
+					},
+					"frame": {
+						"x": 1,
+						"y": 1881,
+						"w": 124,
+						"h": 145
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 145
+					},
+					"frame": {
+						"x": 1,
+						"y": 1881,
+						"w": 124,
+						"h": 145
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 145
+					},
+					"frame": {
+						"x": 1,
+						"y": 1881,
+						"w": 124,
+						"h": 145
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 145
+					},
+					"frame": {
+						"x": 1,
+						"y": 1881,
+						"w": 124,
+						"h": 145
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 145
+					},
+					"frame": {
+						"x": 1,
+						"y": 1881,
+						"w": 124,
+						"h": 145
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 145
+					},
+					"frame": {
+						"x": 1,
+						"y": 1881,
+						"w": 124,
+						"h": 145
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 145
+					},
+					"frame": {
+						"x": 1,
+						"y": 1881,
+						"w": 124,
+						"h": 145
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 145
+					},
+					"frame": {
+						"x": 1,
+						"y": 1881,
+						"w": 124,
+						"h": 145
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_bottom0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 130,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 124,
+						"h": 145
+					},
+					"frame": {
+						"x": 1,
+						"y": 1881,
+						"w": 124,
+						"h": 145
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_sleeping_chair0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 198,
+						"h": 187
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 7,
+						"w": 191,
+						"h": 180
+					},
+					"frame": {
+						"x": 1771,
+						"y": 1236,
+						"w": 191,
+						"h": 180
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_sleeping_chair_one0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 210,
+						"h": 187
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 191,
+						"h": 177
+					},
+					"frame": {
+						"x": 1771,
+						"y": 1418,
+						"w": 191,
+						"h": 177
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_top.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 195,
+						"h": 120
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 195,
+						"h": 120
+					},
+					"frame": {
+						"x": 1771,
+						"y": 1597,
+						"w": 195,
+						"h": 120
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_diving_board.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 161,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 161,
+						"h": 86
+					},
+					"frame": {
+						"x": 786,
+						"y": 1940,
+						"w": 161,
+						"h": 86
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_top_feeding_seats0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 201,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 4,
+						"w": 193,
+						"h": 117
+					},
+					"frame": {
+						"x": 1006,
+						"y": 1894,
+						"w": 193,
+						"h": 117
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_top_feeding_seats0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 201,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 7,
+						"w": 191,
+						"h": 114
+					},
+					"frame": {
+						"x": 1218,
+						"y": 1778,
+						"w": 191,
+						"h": 114
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_sleeping_chair0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 198,
+						"h": 187
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 188,
+						"h": 177
+					},
+					"frame": {
+						"x": 1411,
+						"y": 1778,
+						"w": 188,
+						"h": 177
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0108.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 336,
+						"y": 315,
+						"w": 154,
+						"h": 196
+					},
+					"frame": {
+						"x": 1601,
+						"y": 1778,
+						"w": 154,
+						"h": 196
+					}
+				}
+			]
+		},
+		{
+			"image": "pufflehotelroof-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1194,
+				"h": 1755
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "puffle_hotel_roof_blue_wall_w_towel.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 126,
+						"h": 113
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 126,
+						"h": 113
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 126,
+						"h": 113
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_table_with_blankets.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 126,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 126,
+						"h": 138
+					},
+					"frame": {
+						"x": 129,
+						"y": 1,
+						"w": 126,
+						"h": 138
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 257,
+						"y": 1,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_disco_top0027.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 153
+					},
+					"frame": {
+						"x": 257,
+						"y": 1,
+						"w": 170,
+						"h": 153
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_bush.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 163,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 163,
+						"h": 164
+					},
+					"frame": {
+						"x": 429,
+						"y": 1,
+						"w": 163,
+						"h": 164
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 329,
+						"y": 326,
+						"w": 161,
+						"h": 185
+					},
+					"frame": {
+						"x": 594,
+						"y": 1,
+						"w": 161,
+						"h": 185
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 325,
+						"y": 322,
+						"w": 165,
+						"h": 189
+					},
+					"frame": {
+						"x": 757,
+						"y": 1,
+						"w": 165,
+						"h": 189
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 321,
+						"y": 321,
+						"w": 169,
+						"h": 190
+					},
+					"frame": {
+						"x": 924,
+						"y": 1,
+						"w": 169,
+						"h": 190
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 322,
+						"y": 321,
+						"w": 168,
+						"h": 190
+					},
+					"frame": {
+						"x": 1,
+						"y": 141,
+						"w": 168,
+						"h": 190
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0104.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 322,
+						"y": 321,
+						"w": 168,
+						"h": 190
+					},
+					"frame": {
+						"x": 1,
+						"y": 141,
+						"w": 168,
+						"h": 190
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 322,
+						"y": 321,
+						"w": 167,
+						"h": 190
+					},
+					"frame": {
+						"x": 171,
+						"y": 156,
+						"w": 167,
+						"h": 190
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 321,
+						"w": 167,
+						"h": 190
+					},
+					"frame": {
+						"x": 340,
+						"y": 167,
+						"w": 167,
+						"h": 190
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0102.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 321,
+						"w": 167,
+						"h": 190
+					},
+					"frame": {
+						"x": 509,
+						"y": 188,
+						"w": 167,
+						"h": 190
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0103.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 322,
+						"y": 321,
+						"w": 167,
+						"h": 190
+					},
+					"frame": {
+						"x": 678,
+						"y": 192,
+						"w": 167,
+						"h": 190
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0106.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 322,
+						"y": 321,
+						"w": 167,
+						"h": 190
+					},
+					"frame": {
+						"x": 847,
+						"y": 193,
+						"w": 167,
+						"h": 190
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 324,
+						"y": 321,
+						"w": 166,
+						"h": 190
+					},
+					"frame": {
+						"x": 1016,
+						"y": 193,
+						"w": 166,
+						"h": 190
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 344,
+						"y": 320,
+						"w": 153,
+						"h": 190
+					},
+					"frame": {
+						"x": 1,
+						"y": 333,
+						"w": 153,
+						"h": 190
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0117.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 344,
+						"y": 320,
+						"w": 153,
+						"h": 190
+					},
+					"frame": {
+						"x": 156,
+						"y": 348,
+						"w": 153,
+						"h": 190
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 325,
+						"w": 181,
+						"h": 191
+					},
+					"frame": {
+						"x": 311,
+						"y": 359,
+						"w": 181,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0131.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 325,
+						"w": 181,
+						"h": 191
+					},
+					"frame": {
+						"x": 311,
+						"y": 359,
+						"w": 181,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0105.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 320,
+						"y": 320,
+						"w": 168,
+						"h": 191
+					},
+					"frame": {
+						"x": 494,
+						"y": 380,
+						"w": 168,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 320,
+						"w": 167,
+						"h": 191
+					},
+					"frame": {
+						"x": 664,
+						"y": 384,
+						"w": 167,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 320,
+						"w": 167,
+						"h": 191
+					},
+					"frame": {
+						"x": 664,
+						"y": 384,
+						"w": 167,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 320,
+						"w": 167,
+						"h": 191
+					},
+					"frame": {
+						"x": 664,
+						"y": 384,
+						"w": 167,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0095.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 320,
+						"w": 167,
+						"h": 191
+					},
+					"frame": {
+						"x": 664,
+						"y": 384,
+						"w": 167,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0096.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 320,
+						"w": 167,
+						"h": 191
+					},
+					"frame": {
+						"x": 664,
+						"y": 384,
+						"w": 167,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0097.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 320,
+						"w": 167,
+						"h": 191
+					},
+					"frame": {
+						"x": 664,
+						"y": 384,
+						"w": 167,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0098.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 320,
+						"w": 167,
+						"h": 191
+					},
+					"frame": {
+						"x": 664,
+						"y": 384,
+						"w": 167,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0099.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 320,
+						"w": 167,
+						"h": 191
+					},
+					"frame": {
+						"x": 664,
+						"y": 384,
+						"w": 167,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 320,
+						"w": 167,
+						"h": 191
+					},
+					"frame": {
+						"x": 664,
+						"y": 384,
+						"w": 167,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0101.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 320,
+						"w": 167,
+						"h": 191
+					},
+					"frame": {
+						"x": 664,
+						"y": 384,
+						"w": 167,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0107.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 320,
+						"w": 166,
+						"h": 191
+					},
+					"frame": {
+						"x": 833,
+						"y": 385,
+						"w": 166,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 343,
+						"y": 320,
+						"w": 153,
+						"h": 191
+					},
+					"frame": {
+						"x": 1001,
+						"y": 385,
+						"w": 153,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 344,
+						"y": 320,
+						"w": 152,
+						"h": 191
+					},
+					"frame": {
+						"x": 1,
+						"y": 525,
+						"w": 152,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 344,
+						"y": 320,
+						"w": 152,
+						"h": 191
+					},
+					"frame": {
+						"x": 155,
+						"y": 540,
+						"w": 152,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 344,
+						"y": 320,
+						"w": 152,
+						"h": 191
+					},
+					"frame": {
+						"x": 155,
+						"y": 540,
+						"w": 152,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 344,
+						"y": 320,
+						"w": 152,
+						"h": 191
+					},
+					"frame": {
+						"x": 309,
+						"y": 552,
+						"w": 152,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 345,
+						"y": 320,
+						"w": 152,
+						"h": 191
+					},
+					"frame": {
+						"x": 463,
+						"y": 573,
+						"w": 152,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 345,
+						"y": 320,
+						"w": 151,
+						"h": 191
+					},
+					"frame": {
+						"x": 617,
+						"y": 577,
+						"w": 151,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 345,
+						"y": 320,
+						"w": 151,
+						"h": 191
+					},
+					"frame": {
+						"x": 770,
+						"y": 578,
+						"w": 151,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 345,
+						"y": 320,
+						"w": 151,
+						"h": 191
+					},
+					"frame": {
+						"x": 923,
+						"y": 578,
+						"w": 151,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 16,
+						"w": 117,
+						"h": 314
+					},
+					"frame": {
+						"x": 1076,
+						"y": 578,
+						"w": 117,
+						"h": 314
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 16,
+						"w": 117,
+						"h": 314
+					},
+					"frame": {
+						"x": 1076,
+						"y": 578,
+						"w": 117,
+						"h": 314
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0111.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 346,
+						"y": 320,
+						"w": 151,
+						"h": 191
+					},
+					"frame": {
+						"x": 1,
+						"y": 718,
+						"w": 151,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0112.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 346,
+						"y": 320,
+						"w": 151,
+						"h": 191
+					},
+					"frame": {
+						"x": 154,
+						"y": 733,
+						"w": 151,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0116.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 345,
+						"y": 320,
+						"w": 151,
+						"h": 191
+					},
+					"frame": {
+						"x": 307,
+						"y": 745,
+						"w": 151,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0113.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 346,
+						"y": 320,
+						"w": 150,
+						"h": 191
+					},
+					"frame": {
+						"x": 460,
+						"y": 766,
+						"w": 150,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0114.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 346,
+						"y": 320,
+						"w": 150,
+						"h": 191
+					},
+					"frame": {
+						"x": 460,
+						"y": 766,
+						"w": 150,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0115.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 346,
+						"y": 320,
+						"w": 150,
+						"h": 191
+					},
+					"frame": {
+						"x": 612,
+						"y": 770,
+						"w": 150,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0118.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 346,
+						"y": 320,
+						"w": 150,
+						"h": 191
+					},
+					"frame": {
+						"x": 764,
+						"y": 771,
+						"w": 150,
+						"h": 191
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 346,
+						"y": 317,
+						"w": 150,
+						"h": 194
+					},
+					"frame": {
+						"x": 916,
+						"y": 771,
+						"w": 150,
+						"h": 194
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0119.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 350,
+						"y": 320,
+						"w": 146,
+						"h": 195
+					},
+					"frame": {
+						"x": 1,
+						"y": 911,
+						"w": 146,
+						"h": 195
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 341,
+						"y": 320,
+						"w": 154,
+						"h": 195
+					},
+					"frame": {
+						"x": 149,
+						"y": 926,
+						"w": 154,
+						"h": 195
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 350,
+						"y": 320,
+						"w": 146,
+						"h": 196
+					},
+					"frame": {
+						"x": 305,
+						"y": 938,
+						"w": 146,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 339,
+						"y": 320,
+						"w": 157,
+						"h": 196
+					},
+					"frame": {
+						"x": 453,
+						"y": 959,
+						"w": 157,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 322,
+						"y": 319,
+						"w": 167,
+						"h": 192
+					},
+					"frame": {
+						"x": 612,
+						"y": 964,
+						"w": 167,
+						"h": 192
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 323,
+						"w": 181,
+						"h": 193
+					},
+					"frame": {
+						"x": 781,
+						"y": 967,
+						"w": 181,
+						"h": 193
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0130.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 323,
+						"w": 181,
+						"h": 193
+					},
+					"frame": {
+						"x": 964,
+						"y": 967,
+						"w": 181,
+						"h": 193
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 350,
+						"y": 320,
+						"w": 146,
+						"h": 196
+					},
+					"frame": {
+						"x": 1,
+						"y": 1108,
+						"w": 146,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 343,
+						"y": 315,
+						"w": 147,
+						"h": 196
+					},
+					"frame": {
+						"x": 149,
+						"y": 1123,
+						"w": 147,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 350,
+						"y": 320,
+						"w": 147,
+						"h": 196
+					},
+					"frame": {
+						"x": 298,
+						"y": 1136,
+						"w": 147,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 322,
+						"w": 181,
+						"h": 194
+					},
+					"frame": {
+						"x": 447,
+						"y": 1158,
+						"w": 181,
+						"h": 194
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0129.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 322,
+						"w": 181,
+						"h": 194
+					},
+					"frame": {
+						"x": 447,
+						"y": 1158,
+						"w": 181,
+						"h": 194
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 322,
+						"w": 181,
+						"h": 194
+					},
+					"frame": {
+						"x": 630,
+						"y": 1162,
+						"w": 181,
+						"h": 194
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0132.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 322,
+						"w": 181,
+						"h": 194
+					},
+					"frame": {
+						"x": 630,
+						"y": 1162,
+						"w": 181,
+						"h": 194
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 321,
+						"w": 181,
+						"h": 195
+					},
+					"frame": {
+						"x": 813,
+						"y": 1162,
+						"w": 181,
+						"h": 195
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0128.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 321,
+						"w": 181,
+						"h": 195
+					},
+					"frame": {
+						"x": 996,
+						"y": 1162,
+						"w": 181,
+						"h": 195
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 333,
+						"y": 319,
+						"w": 183,
+						"h": 196
+					},
+					"frame": {
+						"x": 1,
+						"y": 1321,
+						"w": 183,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0125.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 333,
+						"y": 319,
+						"w": 183,
+						"h": 196
+					},
+					"frame": {
+						"x": 186,
+						"y": 1334,
+						"w": 183,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_cannon_hover_trigger.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1518,
+						"h": 562
+					},
+					"spriteSourceSize": {
+						"x": 1332,
+						"y": 352,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 371,
+						"y": 1354,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0127.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0133.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0134.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0135.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0136.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0137.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0138.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0139.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 320,
+						"w": 181,
+						"h": 196
+					},
+					"frame": {
+						"x": 554,
+						"y": 1358,
+						"w": 181,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 320,
+						"w": 164,
+						"h": 196
+					},
+					"frame": {
+						"x": 737,
+						"y": 1359,
+						"w": 164,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0123.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 341,
+						"y": 320,
+						"w": 163,
+						"h": 196
+					},
+					"frame": {
+						"x": 903,
+						"y": 1359,
+						"w": 163,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 13,
+						"w": 123,
+						"h": 320
+					},
+					"frame": {
+						"x": 1068,
+						"y": 1359,
+						"w": 123,
+						"h": 320
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_elevator_door0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 345
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 13,
+						"w": 123,
+						"h": 320
+					},
+					"frame": {
+						"x": 1068,
+						"y": 1359,
+						"w": 123,
+						"h": 320
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 334,
+						"y": 320,
+						"w": 162,
+						"h": 196
+					},
+					"frame": {
+						"x": 1,
+						"y": 1519,
+						"w": 162,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 336,
+						"y": 320,
+						"w": 160,
+						"h": 196
+					},
+					"frame": {
+						"x": 165,
+						"y": 1532,
+						"w": 160,
+						"h": 196
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 319,
+						"w": 181,
+						"h": 197
+					},
+					"frame": {
+						"x": 327,
+						"y": 1552,
+						"w": 181,
+						"h": 197
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0124.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 332,
+						"y": 319,
+						"w": 181,
+						"h": 197
+					},
+					"frame": {
+						"x": 510,
+						"y": 1556,
+						"w": 181,
+						"h": 197
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 334,
+						"y": 319,
+						"w": 180,
+						"h": 197
+					},
+					"frame": {
+						"x": 693,
+						"y": 1557,
+						"w": 180,
+						"h": 197
+					}
+				},
+				{
+					"filename": "puffle_hotel_roof_puffle_launch_cannon0126.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 516,
+						"h": 516
+					},
+					"spriteSourceSize": {
+						"x": 334,
+						"y": 319,
+						"w": 180,
+						"h": 197
+					},
+					"frame": {
+						"x": 875,
+						"y": 1557,
+						"w": 180,
+						"h": 197
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:5267e4964b5c69e58890997146a6a744:7c2d7827698746db4962284f8ec063ba:aef6dd531b4306b1f817b561d75f32ff$"
+	}
+}
