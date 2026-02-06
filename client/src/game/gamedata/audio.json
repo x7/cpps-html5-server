@@ -1439,5 +1439,60 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "berry_mall_room_music": {
+        "key": "berry_mall_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "berry_mall_plaza_door_open": {
+        "key": "berry_mall_plaza_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "berry_mall_plaza_door_close": {
+        "key": "berry_mall_plaza_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "berry_mall_chest_open": {
+        "key": "berry_mall_chest_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "berry_mall_chest_close": {
+        "key": "berry_mall_chest_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }

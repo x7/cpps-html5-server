@@ -58,6 +58,7 @@ import { PuffleParkScene } from './game/scenes/world/rooms/pufflepark/pufflepark
 import { PuffleHotelLobby } from './game/scenes/world/rooms/pufflehotellobby/pufflehotellobby.js';
 import { PuffleHotelSpa } from './game/scenes/world/rooms/pufflehotelspa/pufflehotelspa.js';
 import { PuffleHotelRoof } from './game/scenes/world/rooms/pufflehotelroof/pufflehotelroof.js';
+import { BerryMallScene } from './game/scenes/world/rooms/berrymall/berrymall.js';
 
 const config = {
     type: Phaser.WEBGL,
@@ -69,7 +70,7 @@ const config = {
         createContainer: true 
     },
     backgroundColor: '#07c5ffff',
-    scene: [PreloadAssetsScene, PuffleHotelRoof],
+    scene: [PreloadAssetsScene, BerryMallScene],
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene, DanceclubScene, SnowFortsScene, GiftshopScene, DocksScene, InterfaceScene, RegisterScene, InterfaceDanceScene, InterfaceEmojiScene],
     scale: {
         mode: Phaser.Scale.FIT,

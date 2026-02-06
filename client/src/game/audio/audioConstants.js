@@ -246,3 +246,11 @@ export const PUFFLE_HOTEL_ROOF_ROOM_MUSIC = "puffle_hotel_roof_room_music";
 export const PUFFLE_HOTEL_ROOF_ELEVATOR_OPEN = "puffle_hotel_roof_elevator_open";
 export const PUFFLE_HOTEL_ROOF_ELEVATOR_CLOSE = "puffle_hotel_roof_elevator_close";
 // Puffle Hotel Roof Room audio ends here
+
+// Berry Mall Room audio starts here
+export const BERRY_MALL_ROOM_MUSIC = "berry_mall_room_music";
+export const BERRY_MALL_PLAZA_DOOR_OPEN = "berry_mall_plaza_door_open";
+export const BERRY_MALL_PLAZA_DOOR_CLOSE = "berry_mall_plaza_door_close";
+export const BERRY_MALL_CHEST_OPEN = "berry_mall_chest_open";
+export const BERRY_MALL_CHEST_CLOSE = "berry_mall_chest_close";
+// Berry Mall Room audio ends here
