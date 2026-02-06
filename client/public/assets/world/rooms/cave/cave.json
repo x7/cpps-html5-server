@@ -1,0 +1,9670 @@
+{
+	"textures": [
+		{
+			"image": "cave-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "cave_top_part.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1547,
+						"h": 801
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1547,
+						"h": 801
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1547,
+						"h": 801
+					}
+				},
+				{
+					"filename": "cave_fish0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 22,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 1,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 107,
+						"y": 48,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 1,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 763,
+						"y": 1,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 1,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 890,
+						"y": 0,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 1,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0067.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 918,
+						"y": 1,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 1,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0069.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 946,
+						"y": 2,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 1,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0077.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1058,
+						"y": 10,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 1,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0129.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1782,
+						"y": 69,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 1,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_plaza_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 208,
+						"h": 101
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 208,
+						"h": 101
+					},
+					"frame": {
+						"x": 1824,
+						"y": 1,
+						"w": 208,
+						"h": 101
+					}
+				},
+				{
+					"filename": "cave_fish0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 26,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 261,
+						"y": 61,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 469,
+						"y": 38,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 636,
+						"y": 10,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0071.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 974,
+						"y": 3,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0072.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 988,
+						"y": 4,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0073.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1002,
+						"y": 5,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0074.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1016,
+						"y": 6,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0075.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1030,
+						"y": 7,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0105.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1444,
+						"y": 72,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_white_chair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 182
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 182
+					},
+					"frame": {
+						"x": 1824,
+						"y": 104,
+						"w": 159,
+						"h": 182
+					}
+				},
+				{
+					"filename": "cave_fish0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 66,
+						"y": 38,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 201,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 163,
+						"y": 56,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 201,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 735,
+						"y": 2,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 201,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0082.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1128,
+						"y": 17,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 201,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_left_side_board_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 59,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 59,
+						"h": 87
+					},
+					"frame": {
+						"x": 1985,
+						"y": 104,
+						"w": 59,
+						"h": 87
+					}
+				},
+				{
+					"filename": "cave_left_side_board_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 53,
+						"h": 86
+					},
+					"frame": {
+						"x": 1985,
+						"y": 193,
+						"w": 53,
+						"h": 86
+					}
+				},
+				{
+					"filename": "cave_bubbles0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 244,
+						"w": 52,
+						"h": 29
+					},
+					"frame": {
+						"x": 1985,
+						"y": 281,
+						"w": 52,
+						"h": 29
+					}
+				},
+				{
+					"filename": "cave_bottom_right.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 155,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 265
+					},
+					"frame": {
+						"x": 1824,
+						"y": 288,
+						"w": 155,
+						"h": 265
+					}
+				},
+				{
+					"filename": "cave_fish0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 42,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 301,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 510,
+						"y": 30,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 301,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0084.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1155,
+						"y": 21,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 301,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0089.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1224,
+						"y": 31,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 301,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0090.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1238,
+						"y": 33,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 301,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0097.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1334,
+						"y": 50,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 301,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1375,
+						"y": 58,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 301,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0108.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1486,
+						"y": 79,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 301,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1656,
+						"y": 83,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 301,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1684,
+						"y": 81,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 301,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0126.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1740,
+						"y": 75,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 301,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 93,
+						"y": 45,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 401,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 428,
+						"y": 46,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 401,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 566,
+						"y": 20,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 401,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 580,
+						"y": 18,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 401,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 594,
+						"y": 16,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 401,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 608,
+						"y": 14,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 401,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 650,
+						"y": 9,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 401,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0059.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 805,
+						"y": 0,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 401,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0106.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1458,
+						"y": 75,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 401,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0127.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1754,
+						"y": 73,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 401,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0128.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1768,
+						"y": 71,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 401,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 121,
+						"y": 50,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 501,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 247,
+						"y": 61,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 501,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 483,
+						"y": 35,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 501,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 777,
+						"y": 0,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 501,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0066.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 904,
+						"y": 0,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 501,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0068.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 932,
+						"y": 1,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 501,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0078.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1072,
+						"y": 11,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 501,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0092.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1266,
+						"y": 37,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 501,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0096.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1321,
+						"y": 47,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 501,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0134.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1851,
+						"y": 56,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 501,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0139.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1919,
+						"y": 41,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 501,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_right_side_board.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 85
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 85
+					},
+					"frame": {
+						"x": 1981,
+						"y": 312,
+						"w": 51,
+						"h": 85
+					}
+				},
+				{
+					"filename": "cave_bubbles0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 239,
+						"w": 49,
+						"h": 29
+					},
+					"frame": {
+						"x": 1981,
+						"y": 399,
+						"w": 49,
+						"h": 29
+					}
+				},
+				{
+					"filename": "cave_bubbles0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 235,
+						"w": 46,
+						"h": 29
+					},
+					"frame": {
+						"x": 1981,
+						"y": 430,
+						"w": 46,
+						"h": 29
+					}
+				},
+				{
+					"filename": "cave_bubbles0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 230,
+						"w": 44,
+						"h": 29
+					},
+					"frame": {
+						"x": 1981,
+						"y": 461,
+						"w": 44,
+						"h": 29
+					}
+				},
+				{
+					"filename": "cave_bubbles0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 226,
+						"w": 41,
+						"h": 32
+					},
+					"frame": {
+						"x": 1981,
+						"y": 492,
+						"w": 41,
+						"h": 32
+					}
+				},
+				{
+					"filename": "cave_bubbles0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 221,
+						"w": 39,
+						"h": 37
+					},
+					"frame": {
+						"x": 1981,
+						"y": 526,
+						"w": 39,
+						"h": 37
+					}
+				},
+				{
+					"filename": "cave_cavemine_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 151,
+						"h": 223
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 151,
+						"h": 223
+					},
+					"frame": {
+						"x": 1824,
+						"y": 555,
+						"w": 151,
+						"h": 223
+					}
+				},
+				{
+					"filename": "cave_fish0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 177,
+						"y": 58,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 601,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 205,
+						"y": 60,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 601,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0081.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1114,
+						"y": 16,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 601,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0093.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1280,
+						"y": 40,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 601,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1515,
+						"y": 82,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 601,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 191,
+						"y": 59,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 701,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 387,
+						"y": 52,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 701,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 707,
+						"y": 4,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 701,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 721,
+						"y": 3,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 701,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0080.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1100,
+						"y": 14,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 701,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0131.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1810,
+						"y": 64,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 701,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_ladder_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 67,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 89
+					},
+					"frame": {
+						"x": 1977,
+						"y": 565,
+						"w": 67,
+						"h": 89
+					}
+				},
+				{
+					"filename": "cave_white_chair_arm.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 67,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 52
+					},
+					"frame": {
+						"x": 1977,
+						"y": 656,
+						"w": 67,
+						"h": 52
+					}
+				},
+				{
+					"filename": "cave_bubbles0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 216,
+						"w": 37,
+						"h": 42
+					},
+					"frame": {
+						"x": 1977,
+						"y": 710,
+						"w": 37,
+						"h": 42
+					}
+				},
+				{
+					"filename": "cave_bubbles0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 64,
+						"w": 31,
+						"h": 58
+					},
+					"frame": {
+						"x": 2016,
+						"y": 710,
+						"w": 31,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_bubbles0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 211,
+						"w": 35,
+						"h": 47
+					},
+					"frame": {
+						"x": 1977,
+						"y": 754,
+						"w": 35,
+						"h": 47
+					}
+				},
+				{
+					"filename": "cave_bubbles0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 206,
+						"w": 32,
+						"h": 48
+					},
+					"frame": {
+						"x": 2014,
+						"y": 770,
+						"w": 32,
+						"h": 48
+					}
+				},
+				{
+					"filename": "cave_boilerroom_door0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 143,
+						"h": 346
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 143,
+						"h": 346
+					},
+					"frame": {
+						"x": 1824,
+						"y": 780,
+						"w": 143,
+						"h": 346
+					}
+				},
+				{
+					"filename": "cave_fish0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 233,
+						"y": 61,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 801,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 317,
+						"y": 59,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 801,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 331,
+						"y": 58,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 801,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 345,
+						"y": 57,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 801,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 373,
+						"y": 54,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 801,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0099.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1362,
+						"y": 55,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 801,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0111.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1529,
+						"y": 83,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1550,
+						"y": 801,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_ladder_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 73,
+						"h": 108
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 73,
+						"h": 108
+					},
+					"frame": {
+						"x": 1969,
+						"y": 820,
+						"w": 73,
+						"h": 108
+					}
+				},
+				{
+					"filename": "cave_main_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1531,
+						"h": 994
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1531,
+						"h": 994
+					},
+					"frame": {
+						"x": 1,
+						"y": 804,
+						"w": 1531,
+						"h": 994
+					}
+				},
+				{
+					"filename": "cave_fish0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 275,
+						"y": 61,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 901,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 303,
+						"y": 60,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 901,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 524,
+						"y": 27,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 901,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 552,
+						"y": 22,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 901,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 622,
+						"y": 12,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 901,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 791,
+						"y": 0,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 901,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0091.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1252,
+						"y": 35,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 901,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0107.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1472,
+						"y": 77,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 901,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0133.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1837,
+						"y": 59,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 901,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 400,
+						"y": 50,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1001,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 496,
+						"y": 32,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1001,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 678,
+						"y": 6,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1001,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0094.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1293,
+						"y": 42,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1001,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 414,
+						"y": 48,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 455,
+						"y": 41,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 692,
+						"y": 5,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0083.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1141,
+						"y": 19,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1670,
+						"y": 82,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0124.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1712,
+						"y": 78,
+						"w": 272,
+						"h": 98
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1101,
+						"w": 272,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_boilerroom_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 226,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 129
+					},
+					"frame": {
+						"x": 1808,
+						"y": 1128,
+						"w": 226,
+						"h": 129
+					}
+				},
+				{
+					"filename": "cave_fish0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 31,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1201,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 135,
+						"y": 53,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1201,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 149,
+						"y": 55,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1201,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 876,
+						"y": 0,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1201,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0088.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1211,
+						"y": 29,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1201,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0102.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1403,
+						"y": 64,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1201,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0109.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1501,
+						"y": 81,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1201,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0135.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1865,
+						"y": 54,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1201,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0137.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1892,
+						"y": 48,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1201,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_bubbles0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 43,
+						"w": 30,
+						"h": 60
+					},
+					"frame": {
+						"x": 1969,
+						"y": 930,
+						"w": 30,
+						"h": 60
+					}
+				},
+				{
+					"filename": "cave_bubbles0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 59,
+						"w": 30,
+						"h": 59
+					},
+					"frame": {
+						"x": 2001,
+						"y": 930,
+						"w": 30,
+						"h": 59
+					}
+				},
+				{
+					"filename": "cave_bubbles0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 54,
+						"w": 30,
+						"h": 59
+					},
+					"frame": {
+						"x": 2001,
+						"y": 991,
+						"w": 30,
+						"h": 59
+					}
+				},
+				{
+					"filename": "cave_bubbles0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 49,
+						"w": 30,
+						"h": 59
+					},
+					"frame": {
+						"x": 1969,
+						"y": 992,
+						"w": 30,
+						"h": 59
+					}
+				},
+				{
+					"filename": "cave_bubbles0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 18,
+						"w": 26,
+						"h": 62
+					},
+					"frame": {
+						"x": 1969,
+						"y": 1053,
+						"w": 26,
+						"h": 62
+					}
+				},
+				{
+					"filename": "cave_bubbles0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 38,
+						"w": 29,
+						"h": 61
+					},
+					"frame": {
+						"x": 1997,
+						"y": 1053,
+						"w": 29,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_boilerroom_door0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 143,
+						"h": 346
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 143,
+						"h": 346
+					},
+					"frame": {
+						"x": 1808,
+						"y": 1259,
+						"w": 143,
+						"h": 346
+					}
+				},
+				{
+					"filename": "cave_fish0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 52,
+						"y": 35,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1300,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 289,
+						"y": 61,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1300,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 538,
+						"y": 25,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1300,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0085.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1169,
+						"y": 23,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1300,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0086.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1183,
+						"y": 25,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1300,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0095.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1307,
+						"y": 45,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1300,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0098.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1348,
+						"y": 53,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1300,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0101.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1389,
+						"y": 61,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1300,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0104.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1430,
+						"y": 70,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1300,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0136.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1878,
+						"y": 51,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1300,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 219,
+						"y": 61,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1399,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 359,
+						"y": 56,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1399,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 442,
+						"y": 44,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1399,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 749,
+						"y": 2,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1399,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0070.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 960,
+						"y": 3,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1399,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0076.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1044,
+						"y": 9,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1399,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0079.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1086,
+						"y": 13,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1399,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0087.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1197,
+						"y": 27,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1399,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0130.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1796,
+						"y": 67,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1399,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 664,
+						"y": 8,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1498,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 819,
+						"y": 0,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1498,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0103.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1416,
+						"y": 67,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1498,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0123.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1698,
+						"y": 80,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1498,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0125.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1726,
+						"y": 77,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1498,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0132.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1823,
+						"y": 62,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1498,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0138.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1905,
+						"y": 45,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1498,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 833,
+						"y": 0,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1597,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 847,
+						"y": 0,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1597,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_bubbles0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 69,
+						"w": 30,
+						"h": 58
+					},
+					"frame": {
+						"x": 1953,
+						"y": 1259,
+						"w": 30,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_bubbles0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 201,
+						"w": 30,
+						"h": 48
+					},
+					"frame": {
+						"x": 1985,
+						"y": 1259,
+						"w": 30,
+						"h": 48
+					}
+				},
+				{
+					"filename": "cave_bubbles0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 0,
+						"w": 29,
+						"h": 61
+					},
+					"frame": {
+						"x": 2017,
+						"y": 1259,
+						"w": 29,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_bubbles0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 74,
+						"w": 29,
+						"h": 58
+					},
+					"frame": {
+						"x": 1985,
+						"y": 1309,
+						"w": 29,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_bubbles0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 0,
+						"w": 29,
+						"h": 56
+					},
+					"frame": {
+						"x": 1953,
+						"y": 1319,
+						"w": 29,
+						"h": 56
+					}
+				},
+				{
+					"filename": "cave_bubbles0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 170,
+						"w": 29,
+						"h": 51
+					},
+					"frame": {
+						"x": 2016,
+						"y": 1322,
+						"w": 29,
+						"h": 51
+					}
+				},
+				{
+					"filename": "cave_bubbles0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 0,
+						"w": 29,
+						"h": 51
+					},
+					"frame": {
+						"x": 1984,
+						"y": 1369,
+						"w": 29,
+						"h": 51
+					}
+				},
+				{
+					"filename": "cave_bubbles0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 191,
+						"w": 29,
+						"h": 49
+					},
+					"frame": {
+						"x": 1953,
+						"y": 1377,
+						"w": 29,
+						"h": 49
+					}
+				},
+				{
+					"filename": "cave_bubbles0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 186,
+						"w": 29,
+						"h": 49
+					},
+					"frame": {
+						"x": 2015,
+						"y": 1375,
+						"w": 29,
+						"h": 49
+					}
+				},
+				{
+					"filename": "cave_bubbles0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 181,
+						"w": 29,
+						"h": 49
+					},
+					"frame": {
+						"x": 1984,
+						"y": 1422,
+						"w": 29,
+						"h": 49
+					}
+				},
+				{
+					"filename": "cave_bubbles0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 196,
+						"w": 29,
+						"h": 48
+					},
+					"frame": {
+						"x": 1953,
+						"y": 1428,
+						"w": 29,
+						"h": 48
+					}
+				},
+				{
+					"filename": "cave_bubbles0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 0,
+						"w": 29,
+						"h": 47
+					},
+					"frame": {
+						"x": 2015,
+						"y": 1426,
+						"w": 29,
+						"h": 47
+					}
+				},
+				{
+					"filename": "cave_bubbles0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 33,
+						"w": 28,
+						"h": 61
+					},
+					"frame": {
+						"x": 1984,
+						"y": 1473,
+						"w": 28,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_bubbles0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 79,
+						"w": 28,
+						"h": 57
+					},
+					"frame": {
+						"x": 1953,
+						"y": 1478,
+						"w": 28,
+						"h": 57
+					}
+				},
+				{
+					"filename": "cave_bubbles0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 109,
+						"w": 28,
+						"h": 56
+					},
+					"frame": {
+						"x": 2014,
+						"y": 1475,
+						"w": 28,
+						"h": 56
+					}
+				},
+				{
+					"filename": "cave_bubbles0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 104,
+						"w": 28,
+						"h": 56
+					},
+					"frame": {
+						"x": 2014,
+						"y": 1533,
+						"w": 28,
+						"h": 56
+					}
+				},
+				{
+					"filename": "cave_bubbles0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 99,
+						"w": 28,
+						"h": 56
+					},
+					"frame": {
+						"x": 1983,
+						"y": 1536,
+						"w": 28,
+						"h": 56
+					}
+				},
+				{
+					"filename": "cave_bubbles0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 129,
+						"w": 28,
+						"h": 55
+					},
+					"frame": {
+						"x": 1953,
+						"y": 1537,
+						"w": 28,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_bubbles0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 124,
+						"w": 28,
+						"h": 55
+					},
+					"frame": {
+						"x": 2013,
+						"y": 1591,
+						"w": 28,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_bubbles0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 119,
+						"w": 28,
+						"h": 55
+					},
+					"frame": {
+						"x": 1953,
+						"y": 1594,
+						"w": 28,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_bubbles0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 114,
+						"w": 28,
+						"h": 55
+					},
+					"frame": {
+						"x": 1983,
+						"y": 1594,
+						"w": 28,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_bubbles0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 134,
+						"w": 28,
+						"h": 54
+					},
+					"frame": {
+						"x": 2013,
+						"y": 1648,
+						"w": 28,
+						"h": 54
+					}
+				},
+				{
+					"filename": "cave_mr_krab0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 632,
+						"y": 11,
+						"w": 128,
+						"h": 57
+					},
+					"frame": {
+						"x": 1808,
+						"y": 1607,
+						"w": 128,
+						"h": 57
+					}
+				},
+				{
+					"filename": "cave_bubbles0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 145,
+						"w": 28,
+						"h": 53
+					},
+					"frame": {
+						"x": 1938,
+						"y": 1651,
+						"w": 28,
+						"h": 53
+					}
+				},
+				{
+					"filename": "cave_mr_krab0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 690,
+						"y": 2,
+						"w": 128,
+						"h": 55
+					},
+					"frame": {
+						"x": 1808,
+						"y": 1666,
+						"w": 128,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_fish0063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 862,
+						"y": 0,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1696,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_mr_krab0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 620,
+						"y": 14,
+						"w": 109,
+						"h": 58
+					},
+					"frame": {
+						"x": 1938,
+						"y": 1706,
+						"w": 109,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_bubbles0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 140,
+						"w": 27,
+						"h": 53
+					},
+					"frame": {
+						"x": 1968,
+						"y": 1651,
+						"w": 27,
+						"h": 53
+					}
+				},
+				{
+					"filename": "cave_mr_krab0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 578,
+						"y": 20,
+						"w": 127,
+						"h": 59
+					},
+					"frame": {
+						"x": 1808,
+						"y": 1723,
+						"w": 127,
+						"h": 59
+					}
+				},
+				{
+					"filename": "cave_mr_krab0227.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 180,
+						"w": 110,
+						"h": 75
+					},
+					"frame": {
+						"x": 1937,
+						"y": 1766,
+						"w": 110,
+						"h": 75
+					}
+				},
+				{
+					"filename": "cave_mr_krab0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 575,
+						"y": 21,
+						"w": 127,
+						"h": 58
+					},
+					"frame": {
+						"x": 1808,
+						"y": 1784,
+						"w": 127,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_mr_krab0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 681,
+						"y": 4,
+						"w": 110,
+						"h": 56
+					},
+					"frame": {
+						"x": 1937,
+						"y": 1843,
+						"w": 110,
+						"h": 56
+					}
+				},
+				{
+					"filename": "cave_fish0112.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1543,
+						"y": 84,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1795,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0119.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1642,
+						"y": 84,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1795,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_mr_krab0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 636,
+						"y": 11,
+						"w": 127,
+						"h": 56
+					},
+					"frame": {
+						"x": 1808,
+						"y": 1844,
+						"w": 127,
+						"h": 56
+					}
+				},
+				{
+					"filename": "cave_mr_krab0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 678,
+						"y": 6,
+						"w": 110,
+						"h": 55
+					},
+					"frame": {
+						"x": 1937,
+						"y": 1901,
+						"w": 110,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_mr_krab0232.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 187,
+						"w": 97,
+						"h": 77
+					},
+					"frame": {
+						"x": 1,
+						"y": 1958,
+						"w": 97,
+						"h": 77
+					}
+				},
+				{
+					"filename": "cave_mr_krab0143.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 331,
+						"y": 77,
+						"w": 123,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 1894,
+						"w": 123,
+						"h": 62
+					}
+				},
+				{
+					"filename": "cave_mr_krab0233.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 188,
+						"w": 97,
+						"h": 77
+					},
+					"frame": {
+						"x": 100,
+						"y": 1958,
+						"w": 97,
+						"h": 77
+					}
+				},
+				{
+					"filename": "cave_mr_krab0065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 475,
+						"y": 42,
+						"w": 121,
+						"h": 62
+					},
+					"frame": {
+						"x": 126,
+						"y": 1894,
+						"w": 121,
+						"h": 62
+					}
+				},
+				{
+					"filename": "cave_mr_krab0226.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 178,
+						"w": 111,
+						"h": 76
+					},
+					"frame": {
+						"x": 199,
+						"y": 1958,
+						"w": 111,
+						"h": 76
+					}
+				},
+				{
+					"filename": "cave_mr_krab0066.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 472,
+						"y": 43,
+						"w": 120,
+						"h": 62
+					},
+					"frame": {
+						"x": 249,
+						"y": 1894,
+						"w": 120,
+						"h": 62
+					}
+				},
+				{
+					"filename": "cave_mr_krab0230.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 184,
+						"w": 113,
+						"h": 75
+					},
+					"frame": {
+						"x": 312,
+						"y": 1958,
+						"w": 113,
+						"h": 75
+					}
+				},
+				{
+					"filename": "cave_water_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 644,
+						"h": 12
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 644,
+						"h": 12
+					},
+					"frame": {
+						"x": 312,
+						"y": 2035,
+						"w": 644,
+						"h": 12
+					}
+				},
+				{
+					"filename": "cave_mr_krab0074.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 449,
+						"y": 50,
+						"w": 108,
+						"h": 62
+					},
+					"frame": {
+						"x": 371,
+						"y": 1894,
+						"w": 108,
+						"h": 62
+					}
+				},
+				{
+					"filename": "cave_mr_krab0231.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 186,
+						"w": 113,
+						"h": 75
+					},
+					"frame": {
+						"x": 427,
+						"y": 1958,
+						"w": 113,
+						"h": 75
+					}
+				},
+				{
+					"filename": "cave_mr_krab0073.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 453,
+						"y": 49,
+						"w": 107,
+						"h": 62
+					},
+					"frame": {
+						"x": 481,
+						"y": 1894,
+						"w": 107,
+						"h": 62
+					}
+				},
+				{
+					"filename": "cave_mr_krab0211.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 157,
+						"w": 112,
+						"h": 75
+					},
+					"frame": {
+						"x": 542,
+						"y": 1958,
+						"w": 112,
+						"h": 75
+					}
+				},
+				{
+					"filename": "cave_mr_krab0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 694,
+						"y": 2,
+						"w": 127,
+						"h": 54
+					},
+					"frame": {
+						"x": 590,
+						"y": 1902,
+						"w": 127,
+						"h": 54
+					}
+				},
+				{
+					"filename": "cave_mr_krab0217.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 64,
+						"y": 166,
+						"w": 99,
+						"h": 75
+					},
+					"frame": {
+						"x": 656,
+						"y": 1958,
+						"w": 99,
+						"h": 75
+					}
+				},
+				{
+					"filename": "cave_mr_krab0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 687,
+						"y": 3,
+						"w": 127,
+						"h": 54
+					},
+					"frame": {
+						"x": 719,
+						"y": 1902,
+						"w": 127,
+						"h": 54
+					}
+				},
+				{
+					"filename": "cave_mr_krab0216.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 68,
+						"y": 164,
+						"w": 98,
+						"h": 75
+					},
+					"frame": {
+						"x": 757,
+						"y": 1958,
+						"w": 98,
+						"h": 75
+					}
+				},
+				{
+					"filename": "cave_mr_krab0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 683,
+						"y": 3,
+						"w": 127,
+						"h": 54
+					},
+					"frame": {
+						"x": 848,
+						"y": 1902,
+						"w": 127,
+						"h": 54
+					}
+				},
+				{
+					"filename": "cave_mr_krab0214.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 72,
+						"y": 161,
+						"w": 115,
+						"h": 74
+					},
+					"frame": {
+						"x": 857,
+						"y": 1958,
+						"w": 115,
+						"h": 74
+					}
+				},
+				{
+					"filename": "cave_fish0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 17,
+						"w": 271,
+						"h": 98
+					},
+					"frame": {
+						"x": 590,
+						"y": 1800,
+						"w": 271,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_fish0140.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1932,
+						"y": 38,
+						"w": 271,
+						"h": 98
+					},
+					"frame": {
+						"x": 863,
+						"y": 1800,
+						"w": 271,
+						"h": 98
+					}
+				},
+				{
+					"filename": "cave_water_6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 821,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 821,
+						"h": 22
+					},
+					"frame": {
+						"x": 977,
+						"y": 1900,
+						"w": 821,
+						"h": 22
+					}
+				},
+				{
+					"filename": "cave_fish0113.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1557,
+						"y": 84,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1136,
+						"y": 1800,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_fish0118.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1628,
+						"y": 84,
+						"w": 272,
+						"h": 97
+					},
+					"frame": {
+						"x": 1136,
+						"y": 1800,
+						"w": 272,
+						"h": 97
+					}
+				},
+				{
+					"filename": "cave_mr_krab0164.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 252,
+						"y": 99,
+						"w": 122,
+						"h": 67
+					},
+					"frame": {
+						"x": 1410,
+						"y": 1800,
+						"w": 122,
+						"h": 67
+					}
+				},
+				{
+					"filename": "cave_mr_krab0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 652,
+						"y": 8,
+						"w": 127,
+						"h": 55
+					},
+					"frame": {
+						"x": 1800,
+						"y": 1902,
+						"w": 127,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_mr_krab0212.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 78,
+						"y": 159,
+						"w": 118,
+						"h": 71
+					},
+					"frame": {
+						"x": 1929,
+						"y": 1958,
+						"w": 118,
+						"h": 71
+					}
+				},
+				{
+					"filename": "cave_water_10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 947,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 947,
+						"h": 22
+					},
+					"frame": {
+						"x": 974,
+						"y": 1959,
+						"w": 947,
+						"h": 22
+					}
+				},
+				{
+					"filename": "cave_mr_krab0099.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 351,
+						"y": 71,
+						"w": 124,
+						"h": 64
+					},
+					"frame": {
+						"x": 974,
+						"y": 1983,
+						"w": 124,
+						"h": 64
+					}
+				},
+				{
+					"filename": "cave_mr_krab0100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 347,
+						"y": 72,
+						"w": 124,
+						"h": 64
+					},
+					"frame": {
+						"x": 1100,
+						"y": 1983,
+						"w": 124,
+						"h": 64
+					}
+				},
+				{
+					"filename": "cave_mr_krab0082.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 415,
+						"y": 56,
+						"w": 120,
+						"h": 64
+					},
+					"frame": {
+						"x": 1226,
+						"y": 1983,
+						"w": 120,
+						"h": 64
+					}
+				},
+				{
+					"filename": "cave_mr_krab0081.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 419,
+						"y": 55,
+						"w": 119,
+						"h": 64
+					},
+					"frame": {
+						"x": 1348,
+						"y": 1983,
+						"w": 119,
+						"h": 64
+					}
+				},
+				{
+					"filename": "cave_mr_krab0089.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 396,
+						"y": 62,
+						"w": 107,
+						"h": 64
+					},
+					"frame": {
+						"x": 1469,
+						"y": 1983,
+						"w": 107,
+						"h": 64
+					}
+				},
+				{
+					"filename": "cave_mr_krab0090.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 393,
+						"y": 63,
+						"w": 106,
+						"h": 64
+					},
+					"frame": {
+						"x": 1578,
+						"y": 1983,
+						"w": 106,
+						"h": 64
+					}
+				},
+				{
+					"filename": "cave_mr_krab0083.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 407,
+						"y": 57,
+						"w": 125,
+						"h": 63
+					},
+					"frame": {
+						"x": 1686,
+						"y": 1983,
+						"w": 125,
+						"h": 63
+					}
+				},
+				{
+					"filename": "cave_mr_krab0157.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 293,
+						"y": 92,
+						"w": 108,
+						"h": 63
+					},
+					"frame": {
+						"x": 1813,
+						"y": 1983,
+						"w": 108,
+						"h": 63
+					}
+				},
+				{
+					"filename": "cave_bubbles0056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 0,
+						"w": 28,
+						"h": 32
+					},
+					"frame": {
+						"x": 977,
+						"y": 1924,
+						"w": 28,
+						"h": 32
+					}
+				},
+				{
+					"filename": "cave_water_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 788,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 788,
+						"h": 22
+					},
+					"frame": {
+						"x": 1007,
+						"y": 1924,
+						"w": 788,
+						"h": 22
+					}
+				},
+				{
+					"filename": "cave_mr_krab0210.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 90,
+						"y": 156,
+						"w": 113,
+						"h": 74
+					},
+					"frame": {
+						"x": 1,
+						"y": 1800,
+						"w": 113,
+						"h": 74
+					}
+				},
+				{
+					"filename": "cave_mr_krab0224.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 175,
+						"w": 113,
+						"h": 74
+					},
+					"frame": {
+						"x": 116,
+						"y": 1800,
+						"w": 113,
+						"h": 74
+					}
+				},
+				{
+					"filename": "cave_mr_krab0225.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 177,
+						"w": 113,
+						"h": 74
+					},
+					"frame": {
+						"x": 231,
+						"y": 1800,
+						"w": 113,
+						"h": 74
+					}
+				},
+				{
+					"filename": "cave_mr_krab0201.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 122,
+						"y": 144,
+						"w": 100,
+						"h": 74
+					},
+					"frame": {
+						"x": 346,
+						"y": 1800,
+						"w": 100,
+						"h": 74
+					}
+				},
+				{
+					"filename": "cave_mr_krab0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 648,
+						"y": 9,
+						"w": 127,
+						"h": 55
+					},
+					"frame": {
+						"x": 448,
+						"y": 1800,
+						"w": 127,
+						"h": 55
+					}
+				}
+			]
+		},
+		{
+			"image": "cave-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1016,
+				"h": 2014
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "cave_bottom_left_part.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 533,
+						"h": 824
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 533,
+						"h": 824
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 533,
+						"h": 824
+					}
+				},
+				{
+					"filename": "cave_water_9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 917,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 917,
+						"h": 22
+					},
+					"frame": {
+						"x": 1,
+						"y": 827,
+						"w": 917,
+						"h": 22
+					}
+				},
+				{
+					"filename": "cave_water_11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 967,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 967,
+						"h": 21
+					},
+					"frame": {
+						"x": 1,
+						"y": 851,
+						"w": 967,
+						"h": 21
+					}
+				},
+				{
+					"filename": "cave_water_8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 886,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 886,
+						"h": 22
+					},
+					"frame": {
+						"x": 1,
+						"y": 874,
+						"w": 886,
+						"h": 22
+					}
+				},
+				{
+					"filename": "cave_water_7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 854,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 854,
+						"h": 22
+					},
+					"frame": {
+						"x": 1,
+						"y": 898,
+						"w": 854,
+						"h": 22
+					}
+				},
+				{
+					"filename": "cave_line_of_idk.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 795,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 795,
+						"h": 18
+					},
+					"frame": {
+						"x": 1,
+						"y": 922,
+						"w": 795,
+						"h": 18
+					}
+				},
+				{
+					"filename": "cave_water_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 754,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 754,
+						"h": 22
+					},
+					"frame": {
+						"x": 1,
+						"y": 942,
+						"w": 754,
+						"h": 22
+					}
+				},
+				{
+					"filename": "cave_water_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 719,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 719,
+						"h": 22
+					},
+					"frame": {
+						"x": 1,
+						"y": 966,
+						"w": 719,
+						"h": 22
+					}
+				},
+				{
+					"filename": "cave_water_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 682,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 682,
+						"h": 22
+					},
+					"frame": {
+						"x": 1,
+						"y": 990,
+						"w": 682,
+						"h": 22
+					}
+				},
+				{
+					"filename": "cave_fish0114.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1571,
+						"y": 85,
+						"w": 272,
+						"h": 96
+					},
+					"frame": {
+						"x": 536,
+						"y": 1,
+						"w": 272,
+						"h": 96
+					}
+				},
+				{
+					"filename": "cave_fish0115.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1586,
+						"y": 85,
+						"w": 272,
+						"h": 96
+					},
+					"frame": {
+						"x": 1,
+						"y": 1014,
+						"w": 272,
+						"h": 96
+					}
+				},
+				{
+					"filename": "cave_fish0116.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1600,
+						"y": 85,
+						"w": 272,
+						"h": 96
+					},
+					"frame": {
+						"x": 536,
+						"y": 99,
+						"w": 272,
+						"h": 96
+					}
+				},
+				{
+					"filename": "cave_fish0117.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 2203,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1614,
+						"y": 85,
+						"w": 272,
+						"h": 96
+					},
+					"frame": {
+						"x": 1,
+						"y": 1112,
+						"w": 272,
+						"h": 96
+					}
+				},
+				{
+					"filename": "cave_red_hoop.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 102
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 102
+					},
+					"frame": {
+						"x": 810,
+						"y": 1,
+						"w": 100,
+						"h": 102
+					}
+				},
+				{
+					"filename": "cave_mr_krab0168.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 241,
+						"y": 103,
+						"w": 103,
+						"h": 71
+					},
+					"frame": {
+						"x": 912,
+						"y": 1,
+						"w": 103,
+						"h": 71
+					}
+				},
+				{
+					"filename": "cave_mr_krab0169.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 237,
+						"y": 105,
+						"w": 103,
+						"h": 70
+					},
+					"frame": {
+						"x": 912,
+						"y": 74,
+						"w": 103,
+						"h": 70
+					}
+				},
+				{
+					"filename": "cave_mr_krab0200.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 125,
+						"y": 143,
+						"w": 100,
+						"h": 73
+					},
+					"frame": {
+						"x": 810,
+						"y": 105,
+						"w": 100,
+						"h": 73
+					}
+				},
+				{
+					"filename": "cave_mr_krab0187.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 178,
+						"y": 126,
+						"w": 103,
+						"h": 70
+					},
+					"frame": {
+						"x": 912,
+						"y": 146,
+						"w": 103,
+						"h": 70
+					}
+				},
+				{
+					"filename": "cave_mr_krab0149.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 307,
+						"y": 83,
+						"w": 124,
+						"h": 66
+					},
+					"frame": {
+						"x": 275,
+						"y": 1014,
+						"w": 124,
+						"h": 66
+					}
+				},
+				{
+					"filename": "cave_mr_krab0181.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 190,
+						"y": 119,
+						"w": 121,
+						"h": 69
+					},
+					"frame": {
+						"x": 1,
+						"y": 1210,
+						"w": 121,
+						"h": 69
+					}
+				},
+				{
+					"filename": "cave_mr_krab0228.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 181,
+						"w": 116,
+						"h": 73
+					},
+					"frame": {
+						"x": 536,
+						"y": 197,
+						"w": 116,
+						"h": 73
+					}
+				},
+				{
+					"filename": "cave_mr_krab0165.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 248,
+						"y": 100,
+						"w": 122,
+						"h": 67
+					},
+					"frame": {
+						"x": 275,
+						"y": 1082,
+						"w": 122,
+						"h": 67
+					}
+				},
+				{
+					"filename": "cave_mr_krab0180.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 193,
+						"y": 118,
+						"w": 121,
+						"h": 68
+					},
+					"frame": {
+						"x": 1,
+						"y": 1281,
+						"w": 121,
+						"h": 68
+					}
+				},
+				{
+					"filename": "cave_mr_krab0196.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 135,
+						"y": 138,
+						"w": 120,
+						"h": 69
+					},
+					"frame": {
+						"x": 124,
+						"y": 1210,
+						"w": 120,
+						"h": 69
+					}
+				},
+				{
+					"filename": "cave_mr_krab0197.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 132,
+						"y": 139,
+						"w": 119,
+						"h": 70
+					},
+					"frame": {
+						"x": 654,
+						"y": 197,
+						"w": 119,
+						"h": 70
+					}
+				},
+				{
+					"filename": "cave_mr_krab0213.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 74,
+						"y": 160,
+						"w": 118,
+						"h": 71
+					},
+					"frame": {
+						"x": 1,
+						"y": 1351,
+						"w": 118,
+						"h": 71
+					}
+				},
+				{
+					"filename": "cave_mr_krab0199.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 126,
+						"y": 141,
+						"w": 117,
+						"h": 72
+					},
+					"frame": {
+						"x": 1,
+						"y": 1424,
+						"w": 117,
+						"h": 72
+					}
+				},
+				{
+					"filename": "cave_mr_krab0198.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 130,
+						"y": 140,
+						"w": 116,
+						"h": 72
+					},
+					"frame": {
+						"x": 536,
+						"y": 272,
+						"w": 116,
+						"h": 72
+					}
+				},
+				{
+					"filename": "cave_mr_krab0148.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 311,
+						"y": 82,
+						"w": 123,
+						"h": 65
+					},
+					"frame": {
+						"x": 401,
+						"y": 1014,
+						"w": 123,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0160.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 269,
+						"y": 94,
+						"w": 120,
+						"h": 68
+					},
+					"frame": {
+						"x": 124,
+						"y": 1281,
+						"w": 120,
+						"h": 68
+					}
+				},
+				{
+					"filename": "cave_mr_krab0161.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 266,
+						"y": 95,
+						"w": 120,
+						"h": 68
+					},
+					"frame": {
+						"x": 121,
+						"y": 1351,
+						"w": 120,
+						"h": 68
+					}
+				},
+				{
+					"filename": "cave_mr_krab0177.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 207,
+						"y": 114,
+						"w": 119,
+						"h": 69
+					},
+					"frame": {
+						"x": 654,
+						"y": 269,
+						"w": 119,
+						"h": 69
+					}
+				},
+				{
+					"filename": "cave_mr_krab0222.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 173,
+						"w": 117,
+						"h": 71
+					},
+					"frame": {
+						"x": 1,
+						"y": 1498,
+						"w": 117,
+						"h": 71
+					}
+				},
+				{
+					"filename": "cave_mr_krab0229.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 183,
+						"w": 116,
+						"h": 72
+					},
+					"frame": {
+						"x": 536,
+						"y": 346,
+						"w": 116,
+						"h": 72
+					}
+				},
+				{
+					"filename": "cave_mr_krab0208.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 95,
+						"y": 153,
+						"w": 115,
+						"h": 73
+					},
+					"frame": {
+						"x": 654,
+						"y": 340,
+						"w": 115,
+						"h": 73
+					}
+				},
+				{
+					"filename": "cave_mr_krab0215.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 68,
+						"y": 163,
+						"w": 115,
+						"h": 73
+					},
+					"frame": {
+						"x": 1,
+						"y": 1571,
+						"w": 115,
+						"h": 73
+					}
+				},
+				{
+					"filename": "cave_mr_krab0234.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 190,
+						"w": 115,
+						"h": 73
+					},
+					"frame": {
+						"x": 536,
+						"y": 420,
+						"w": 115,
+						"h": 73
+					}
+				},
+				{
+					"filename": "cave_mr_krab0068.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 460,
+						"y": 45,
+						"w": 126,
+						"h": 61
+					},
+					"frame": {
+						"x": 526,
+						"y": 1014,
+						"w": 126,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0209.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 91,
+						"y": 155,
+						"w": 115,
+						"h": 72
+					},
+					"frame": {
+						"x": 1,
+						"y": 1646,
+						"w": 115,
+						"h": 72
+					}
+				},
+				{
+					"filename": "cave_mr_krab0223.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 174,
+						"w": 116,
+						"h": 71
+					},
+					"frame": {
+						"x": 536,
+						"y": 495,
+						"w": 116,
+						"h": 71
+					}
+				},
+				{
+					"filename": "cave_mr_krab0192.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 153,
+						"y": 133,
+						"w": 117,
+						"h": 70
+					},
+					"frame": {
+						"x": 536,
+						"y": 568,
+						"w": 117,
+						"h": 70
+					}
+				},
+				{
+					"filename": "cave_mr_krab0193.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 149,
+						"y": 134,
+						"w": 117,
+						"h": 70
+					},
+					"frame": {
+						"x": 536,
+						"y": 640,
+						"w": 117,
+						"h": 70
+					}
+				},
+				{
+					"filename": "cave_mr_krab0176.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 211,
+						"y": 113,
+						"w": 118,
+						"h": 69
+					},
+					"frame": {
+						"x": 536,
+						"y": 712,
+						"w": 118,
+						"h": 69
+					}
+				},
+				{
+					"filename": "cave_mr_krab0178.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 206,
+						"y": 115,
+						"w": 115,
+						"h": 71
+					},
+					"frame": {
+						"x": 1,
+						"y": 1720,
+						"w": 115,
+						"h": 71
+					}
+				},
+				{
+					"filename": "cave_mr_krab0194.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 148,
+						"y": 135,
+						"w": 114,
+						"h": 72
+					},
+					"frame": {
+						"x": 1,
+						"y": 1793,
+						"w": 114,
+						"h": 72
+					}
+				},
+				{
+					"filename": "cave_mr_krab0195.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 144,
+						"y": 137,
+						"w": 114,
+						"h": 72
+					},
+					"frame": {
+						"x": 1,
+						"y": 1867,
+						"w": 114,
+						"h": 72
+					}
+				},
+				{
+					"filename": "cave_mr_krab0185.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 179,
+						"y": 124,
+						"w": 102,
+						"h": 72
+					},
+					"frame": {
+						"x": 1,
+						"y": 1941,
+						"w": 102,
+						"h": 72
+					}
+				},
+				{
+					"filename": "cave_mr_krab0218.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 67,
+						"y": 167,
+						"w": 100,
+						"h": 72
+					},
+					"frame": {
+						"x": 105,
+						"y": 1941,
+						"w": 100,
+						"h": 72
+					}
+				},
+				{
+					"filename": "cave_mr_krab0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 521,
+						"y": 32,
+						"w": 126,
+						"h": 59
+					},
+					"frame": {
+						"x": 275,
+						"y": 1151,
+						"w": 126,
+						"h": 59
+					}
+				},
+				{
+					"filename": "cave_mr_krab0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 518,
+						"y": 33,
+						"w": 126,
+						"h": 59
+					},
+					"frame": {
+						"x": 889,
+						"y": 874,
+						"w": 126,
+						"h": 59
+					}
+				},
+				{
+					"filename": "cave_mr_krab0166.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 246,
+						"y": 101,
+						"w": 120,
+						"h": 68
+					},
+					"frame": {
+						"x": 246,
+						"y": 1212,
+						"w": 120,
+						"h": 68
+					}
+				},
+				{
+					"filename": "cave_mr_krab0167.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 242,
+						"y": 103,
+						"w": 120,
+						"h": 68
+					},
+					"frame": {
+						"x": 246,
+						"y": 1282,
+						"w": 120,
+						"h": 68
+					}
+				},
+				{
+					"filename": "cave_mr_krab0101.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 345,
+						"y": 73,
+						"w": 122,
+						"h": 65
+					},
+					"frame": {
+						"x": 243,
+						"y": 1352,
+						"w": 122,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0219.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 63,
+						"y": 168,
+						"w": 100,
+						"h": 73
+					},
+					"frame": {
+						"x": 810,
+						"y": 180,
+						"w": 100,
+						"h": 73
+					}
+				},
+				{
+					"filename": "cave_mr_krab0186.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 182,
+						"y": 125,
+						"w": 103,
+						"h": 69
+					},
+					"frame": {
+						"x": 912,
+						"y": 218,
+						"w": 103,
+						"h": 69
+					}
+				},
+				{
+					"filename": "cave_mr_krab0084.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 404,
+						"y": 58,
+						"w": 124,
+						"h": 63
+					},
+					"frame": {
+						"x": 775,
+						"y": 255,
+						"w": 124,
+						"h": 63
+					}
+				},
+				{
+					"filename": "cave_mr_krab0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 629,
+						"y": 12,
+						"w": 127,
+						"h": 55
+					},
+					"frame": {
+						"x": 775,
+						"y": 320,
+						"w": 127,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_mr_krab0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 601,
+						"y": 17,
+						"w": 127,
+						"h": 54
+					},
+					"frame": {
+						"x": 771,
+						"y": 377,
+						"w": 127,
+						"h": 54
+					}
+				},
+				{
+					"filename": "cave_mr_krab0179.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 202,
+						"y": 117,
+						"w": 115,
+						"h": 70
+					},
+					"frame": {
+						"x": 654,
+						"y": 415,
+						"w": 115,
+						"h": 70
+					}
+				},
+				{
+					"filename": "cave_mr_krab0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 659,
+						"y": 7,
+						"w": 127,
+						"h": 53
+					},
+					"frame": {
+						"x": 771,
+						"y": 433,
+						"w": 127,
+						"h": 53
+					}
+				},
+				{
+					"filename": "cave_mr_krab0221.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 171,
+						"w": 105,
+						"h": 69
+					},
+					"frame": {
+						"x": 654,
+						"y": 487,
+						"w": 105,
+						"h": 69
+					}
+				},
+				{
+					"filename": "cave_mr_krab0086.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 397,
+						"y": 60,
+						"w": 124,
+						"h": 63
+					},
+					"frame": {
+						"x": 761,
+						"y": 488,
+						"w": 124,
+						"h": 63
+					}
+				},
+				{
+					"filename": "cave_mr_krab0182.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 188,
+						"y": 121,
+						"w": 118,
+						"h": 69
+					},
+					"frame": {
+						"x": 655,
+						"y": 558,
+						"w": 118,
+						"h": 69
+					}
+				},
+				{
+					"filename": "cave_mr_krab0183.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 184,
+						"y": 122,
+						"w": 118,
+						"h": 69
+					},
+					"frame": {
+						"x": 655,
+						"y": 629,
+						"w": 118,
+						"h": 69
+					}
+				},
+				{
+					"filename": "cave_mr_krab0162.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 264,
+						"y": 97,
+						"w": 117,
+						"h": 69
+					},
+					"frame": {
+						"x": 775,
+						"y": 553,
+						"w": 117,
+						"h": 69
+					}
+				},
+				{
+					"filename": "cave_mr_krab0163.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 260,
+						"y": 98,
+						"w": 117,
+						"h": 69
+					},
+					"frame": {
+						"x": 775,
+						"y": 624,
+						"w": 117,
+						"h": 69
+					}
+				},
+				{
+					"filename": "cave_mr_krab0207.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 97,
+						"y": 152,
+						"w": 117,
+						"h": 69
+					},
+					"frame": {
+						"x": 656,
+						"y": 700,
+						"w": 117,
+						"h": 69
+					}
+				},
+				{
+					"filename": "cave_mr_krab0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 598,
+						"y": 18,
+						"w": 126,
+						"h": 54
+					},
+					"frame": {
+						"x": 656,
+						"y": 771,
+						"w": 126,
+						"h": 54
+					}
+				},
+				{
+					"filename": "cave_mr_krab0206.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 101,
+						"y": 151,
+						"w": 117,
+						"h": 68
+					},
+					"frame": {
+						"x": 775,
+						"y": 695,
+						"w": 117,
+						"h": 68
+					}
+				},
+				{
+					"filename": "cave_mr_krab0063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 480,
+						"y": 41,
+						"w": 124,
+						"h": 60
+					},
+					"frame": {
+						"x": 784,
+						"y": 765,
+						"w": 124,
+						"h": 60
+					}
+				},
+				{
+					"filename": "cave_mr_krab0170.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 240,
+						"y": 106,
+						"w": 105,
+						"h": 68
+					},
+					"frame": {
+						"x": 910,
+						"y": 289,
+						"w": 105,
+						"h": 68
+					}
+				},
+				{
+					"filename": "cave_mr_krab0220.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 62,
+						"y": 170,
+						"w": 105,
+						"h": 68
+					},
+					"frame": {
+						"x": 910,
+						"y": 359,
+						"w": 105,
+						"h": 68
+					}
+				},
+				{
+					"filename": "cave_mr_krab0104.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 336,
+						"y": 76,
+						"w": 105,
+						"h": 67
+					},
+					"frame": {
+						"x": 910,
+						"y": 429,
+						"w": 105,
+						"h": 67
+					}
+				},
+				{
+					"filename": "cave_mr_krab0150.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 305,
+						"y": 84,
+						"w": 121,
+						"h": 66
+					},
+					"frame": {
+						"x": 894,
+						"y": 498,
+						"w": 121,
+						"h": 66
+					}
+				},
+				{
+					"filename": "cave_mr_krab0151.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 301,
+						"y": 85,
+						"w": 121,
+						"h": 66
+					},
+					"frame": {
+						"x": 894,
+						"y": 566,
+						"w": 121,
+						"h": 66
+					}
+				},
+				{
+					"filename": "cave_mr_krab0145.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 324,
+						"y": 79,
+						"w": 121,
+						"h": 65
+					},
+					"frame": {
+						"x": 894,
+						"y": 634,
+						"w": 121,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 532,
+						"y": 30,
+						"w": 121,
+						"h": 61
+					},
+					"frame": {
+						"x": 894,
+						"y": 701,
+						"w": 121,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 655,
+						"y": 8,
+						"w": 127,
+						"h": 53
+					},
+					"frame": {
+						"x": 526,
+						"y": 1077,
+						"w": 127,
+						"h": 53
+					}
+				},
+				{
+					"filename": "cave_mr_krab0085.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 401,
+						"y": 59,
+						"w": 123,
+						"h": 63
+					},
+					"frame": {
+						"x": 401,
+						"y": 1081,
+						"w": 123,
+						"h": 63
+					}
+				},
+				{
+					"filename": "cave_mr_krab0102.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 341,
+						"y": 74,
+						"w": 122,
+						"h": 65
+					},
+					"frame": {
+						"x": 403,
+						"y": 1146,
+						"w": 122,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0144.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 328,
+						"y": 78,
+						"w": 122,
+						"h": 65
+					},
+					"frame": {
+						"x": 527,
+						"y": 1132,
+						"w": 122,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0190.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 158,
+						"y": 130,
+						"w": 120,
+						"h": 67
+					},
+					"frame": {
+						"x": 368,
+						"y": 1213,
+						"w": 120,
+						"h": 67
+					}
+				},
+				{
+					"filename": "cave_mr_krab0191.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 155,
+						"y": 131,
+						"w": 119,
+						"h": 67
+					},
+					"frame": {
+						"x": 368,
+						"y": 1282,
+						"w": 119,
+						"h": 67
+					}
+				},
+				{
+					"filename": "cave_mr_krab0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 568,
+						"y": 22,
+						"w": 126,
+						"h": 58
+					},
+					"frame": {
+						"x": 527,
+						"y": 1199,
+						"w": 126,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_mr_krab0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 537,
+						"y": 29,
+						"w": 126,
+						"h": 58
+					},
+					"frame": {
+						"x": 243,
+						"y": 1419,
+						"w": 126,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_mr_krab0174.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 217,
+						"y": 111,
+						"w": 120,
+						"h": 65
+					},
+					"frame": {
+						"x": 121,
+						"y": 1421,
+						"w": 120,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0175.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 213,
+						"y": 112,
+						"w": 120,
+						"h": 65
+					},
+					"frame": {
+						"x": 120,
+						"y": 1488,
+						"w": 120,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 572,
+						"y": 22,
+						"w": 126,
+						"h": 57
+					},
+					"frame": {
+						"x": 120,
+						"y": 1555,
+						"w": 126,
+						"h": 57
+					}
+				},
+				{
+					"filename": "cave_mr_krab0067.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 464,
+						"y": 44,
+						"w": 125,
+						"h": 61
+					},
+					"frame": {
+						"x": 118,
+						"y": 1614,
+						"w": 125,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0158.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 275,
+						"y": 93,
+						"w": 123,
+						"h": 63
+					},
+					"frame": {
+						"x": 118,
+						"y": 1677,
+						"w": 123,
+						"h": 63
+					}
+				},
+				{
+					"filename": "cave_mr_krab0061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 486,
+						"y": 39,
+						"w": 126,
+						"h": 57
+					},
+					"frame": {
+						"x": 118,
+						"y": 1742,
+						"w": 126,
+						"h": 57
+					}
+				},
+				{
+					"filename": "cave_mr_krab0159.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 271,
+						"y": 94,
+						"w": 123,
+						"h": 63
+					},
+					"frame": {
+						"x": 117,
+						"y": 1801,
+						"w": 123,
+						"h": 63
+					}
+				},
+				{
+					"filename": "cave_mr_krab0095.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 367,
+						"y": 68,
+						"w": 122,
+						"h": 63
+					},
+					"frame": {
+						"x": 117,
+						"y": 1866,
+						"w": 122,
+						"h": 63
+					}
+				},
+				{
+					"filename": "cave_mr_krab0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 626,
+						"y": 12,
+						"w": 126,
+						"h": 56
+					},
+					"frame": {
+						"x": 243,
+						"y": 1479,
+						"w": 126,
+						"h": 56
+					}
+				},
+				{
+					"filename": "cave_mr_krab0146.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 323,
+						"y": 80,
+						"w": 118,
+						"h": 67
+					},
+					"frame": {
+						"x": 248,
+						"y": 1537,
+						"w": 118,
+						"h": 67
+					}
+				},
+				{
+					"filename": "cave_mr_krab0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 591,
+						"y": 19,
+						"w": 126,
+						"h": 56
+					},
+					"frame": {
+						"x": 248,
+						"y": 1606,
+						"w": 126,
+						"h": 56
+					}
+				},
+				{
+					"filename": "cave_mr_krab0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 544,
+						"y": 28,
+						"w": 126,
+						"h": 55
+					},
+					"frame": {
+						"x": 245,
+						"y": 1664,
+						"w": 126,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_mr_krab0064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 477,
+						"y": 41,
+						"w": 124,
+						"h": 61
+					},
+					"frame": {
+						"x": 246,
+						"y": 1721,
+						"w": 124,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 540,
+						"y": 28,
+						"w": 126,
+						"h": 55
+					},
+					"frame": {
+						"x": 246,
+						"y": 1784,
+						"w": 126,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_mr_krab0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 515,
+						"y": 33,
+						"w": 125,
+						"h": 59
+					},
+					"frame": {
+						"x": 242,
+						"y": 1841,
+						"w": 125,
+						"h": 59
+					}
+				},
+				{
+					"filename": "cave_mr_krab0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 511,
+						"y": 34,
+						"w": 125,
+						"h": 59
+					},
+					"frame": {
+						"x": 241,
+						"y": 1902,
+						"w": 125,
+						"h": 59
+					}
+				},
+				{
+					"filename": "cave_mr_krab0098.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 359,
+						"y": 70,
+						"w": 118,
+						"h": 66
+					},
+					"frame": {
+						"x": 368,
+						"y": 1351,
+						"w": 118,
+						"h": 66
+					}
+				},
+				{
+					"filename": "cave_mr_krab0147.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 320,
+						"y": 81,
+						"w": 117,
+						"h": 67
+					},
+					"frame": {
+						"x": 371,
+						"y": 1419,
+						"w": 117,
+						"h": 67
+					}
+				},
+				{
+					"filename": "cave_mr_krab0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 534,
+						"y": 30,
+						"w": 125,
+						"h": 58
+					},
+					"frame": {
+						"x": 371,
+						"y": 1488,
+						"w": 125,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_mr_krab0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 595,
+						"y": 18,
+						"w": 125,
+						"h": 56
+					},
+					"frame": {
+						"x": 368,
+						"y": 1548,
+						"w": 125,
+						"h": 56
+					}
+				},
+				{
+					"filename": "cave_mr_krab0078.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 426,
+						"y": 53,
+						"w": 125,
+						"h": 58
+					},
+					"frame": {
+						"x": 376,
+						"y": 1606,
+						"w": 125,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_mr_krab0062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 483,
+						"y": 40,
+						"w": 125,
+						"h": 57
+					},
+					"frame": {
+						"x": 373,
+						"y": 1666,
+						"w": 125,
+						"h": 57
+					}
+				},
+				{
+					"filename": "cave_mr_krab0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 643,
+						"y": 10,
+						"w": 122,
+						"h": 57
+					},
+					"frame": {
+						"x": 372,
+						"y": 1725,
+						"w": 122,
+						"h": 57
+					}
+				},
+				{
+					"filename": "cave_mr_krab0070.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 454,
+						"y": 46,
+						"w": 124,
+						"h": 61
+					},
+					"frame": {
+						"x": 374,
+						"y": 1784,
+						"w": 124,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0079.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 423,
+						"y": 54,
+						"w": 124,
+						"h": 61
+					},
+					"frame": {
+						"x": 369,
+						"y": 1847,
+						"w": 124,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0069.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 458,
+						"y": 46,
+						"w": 124,
+						"h": 60
+					},
+					"frame": {
+						"x": 368,
+						"y": 1910,
+						"w": 124,
+						"h": 60
+					}
+				},
+				{
+					"filename": "cave_mr_krab0093.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 373,
+						"y": 66,
+						"w": 124,
+						"h": 60
+					},
+					"frame": {
+						"x": 490,
+						"y": 1259,
+						"w": 124,
+						"h": 60
+					}
+				},
+				{
+					"filename": "cave_mr_krab0077.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 430,
+						"y": 52,
+						"w": 124,
+						"h": 59
+					},
+					"frame": {
+						"x": 489,
+						"y": 1321,
+						"w": 124,
+						"h": 59
+					}
+				},
+				{
+					"filename": "cave_mr_krab0096.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 364,
+						"y": 69,
+						"w": 122,
+						"h": 63
+					},
+					"frame": {
+						"x": 490,
+						"y": 1382,
+						"w": 122,
+						"h": 63
+					}
+				},
+				{
+					"filename": "cave_mr_krab0097.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 362,
+						"y": 70,
+						"w": 119,
+						"h": 65
+					},
+					"frame": {
+						"x": 498,
+						"y": 1447,
+						"w": 119,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0080.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 420,
+						"y": 55,
+						"w": 123,
+						"h": 61
+					},
+					"frame": {
+						"x": 498,
+						"y": 1514,
+						"w": 123,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 529,
+						"y": 31,
+						"w": 121,
+						"h": 61
+					},
+					"frame": {
+						"x": 503,
+						"y": 1577,
+						"w": 121,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0094.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 370,
+						"y": 67,
+						"w": 123,
+						"h": 60
+					},
+					"frame": {
+						"x": 503,
+						"y": 1640,
+						"w": 123,
+						"h": 60
+					}
+				},
+				{
+					"filename": "cave_mr_krab0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 704,
+						"y": 1,
+						"w": 123,
+						"h": 55
+					},
+					"frame": {
+						"x": 500,
+						"y": 1702,
+						"w": 123,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_mr_krab0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 589,
+						"y": 19,
+						"w": 122,
+						"h": 59
+					},
+					"frame": {
+						"x": 500,
+						"y": 1759,
+						"w": 122,
+						"h": 59
+					}
+				},
+				{
+					"filename": "cave_mr_krab0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 586,
+						"y": 20,
+						"w": 122,
+						"h": 59
+					},
+					"frame": {
+						"x": 500,
+						"y": 1820,
+						"w": 122,
+						"h": 59
+					}
+				},
+				{
+					"filename": "cave_mr_krab0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 647,
+						"y": 10,
+						"w": 122,
+						"h": 56
+					},
+					"frame": {
+						"x": 495,
+						"y": 1881,
+						"w": 122,
+						"h": 56
+					}
+				},
+				{
+					"filename": "cave_mr_krab0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 701,
+						"y": 1,
+						"w": 122,
+						"h": 55
+					},
+					"frame": {
+						"x": 494,
+						"y": 1939,
+						"w": 122,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_bubbles0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 0,
+						"w": 28,
+						"h": 42
+					},
+					"frame": {
+						"x": 536,
+						"y": 783,
+						"w": 28,
+						"h": 42
+					}
+				},
+				{
+					"filename": "cave_mr_krab0184.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 183,
+						"y": 123,
+						"w": 101,
+						"h": 71
+					},
+					"frame": {
+						"x": 616,
+						"y": 1259,
+						"w": 101,
+						"h": 71
+					}
+				},
+				{
+					"filename": "cave_mr_krab0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 682,
+						"y": 6,
+						"w": 110,
+						"h": 55
+					},
+					"frame": {
+						"x": 615,
+						"y": 1332,
+						"w": 110,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_mr_krab0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 682,
+						"y": 5,
+						"w": 109,
+						"h": 56
+					},
+					"frame": {
+						"x": 614,
+						"y": 1389,
+						"w": 109,
+						"h": 56
+					}
+				},
+				{
+					"filename": "cave_mr_krab0172.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 237,
+						"y": 108,
+						"w": 107,
+						"h": 65
+					},
+					"frame": {
+						"x": 619,
+						"y": 1447,
+						"w": 107,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 506,
+						"y": 36,
+						"w": 108,
+						"h": 61
+					},
+					"frame": {
+						"x": 623,
+						"y": 1514,
+						"w": 108,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0091.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 395,
+						"y": 64,
+						"w": 108,
+						"h": 61
+					},
+					"frame": {
+						"x": 626,
+						"y": 1577,
+						"w": 108,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 567,
+						"y": 23,
+						"w": 108,
+						"h": 60
+					},
+					"frame": {
+						"x": 628,
+						"y": 1640,
+						"w": 108,
+						"h": 60
+					}
+				},
+				{
+					"filename": "cave_mr_krab0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 624,
+						"y": 14,
+						"w": 109,
+						"h": 58
+					},
+					"frame": {
+						"x": 625,
+						"y": 1702,
+						"w": 109,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_mr_krab0189.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 174,
+						"y": 129,
+						"w": 107,
+						"h": 66
+					},
+					"frame": {
+						"x": 624,
+						"y": 1762,
+						"w": 107,
+						"h": 66
+					}
+				},
+				{
+					"filename": "cave_mr_krab0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 567,
+						"y": 25,
+						"w": 109,
+						"h": 58
+					},
+					"frame": {
+						"x": 624,
+						"y": 1830,
+						"w": 109,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_mr_krab0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 563,
+						"y": 26,
+						"w": 109,
+						"h": 58
+					},
+					"frame": {
+						"x": 619,
+						"y": 1890,
+						"w": 109,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_mr_krab0072.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 449,
+						"y": 48,
+						"w": 107,
+						"h": 63
+					},
+					"frame": {
+						"x": 618,
+						"y": 1950,
+						"w": 107,
+						"h": 63
+					}
+				},
+				{
+					"filename": "cave_mr_krab0156.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 297,
+						"y": 91,
+						"w": 107,
+						"h": 63
+					},
+					"frame": {
+						"x": 727,
+						"y": 1950,
+						"w": 107,
+						"h": 63
+					}
+				},
+				{
+					"filename": "cave_mr_krab0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 624,
+						"y": 13,
+						"w": 108,
+						"h": 58
+					},
+					"frame": {
+						"x": 730,
+						"y": 1890,
+						"w": 108,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_mr_krab0071.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 453,
+						"y": 47,
+						"w": 106,
+						"h": 63
+					},
+					"frame": {
+						"x": 836,
+						"y": 1950,
+						"w": 106,
+						"h": 63
+					}
+				},
+				{
+					"filename": "cave_bubbles0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 28,
+						"w": 26,
+						"h": 61
+					},
+					"frame": {
+						"x": 910,
+						"y": 764,
+						"w": 26,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 510,
+						"y": 35,
+						"w": 107,
+						"h": 61
+					},
+					"frame": {
+						"x": 654,
+						"y": 1014,
+						"w": 107,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 678,
+						"y": 4,
+						"w": 109,
+						"h": 57
+					},
+					"frame": {
+						"x": 655,
+						"y": 1077,
+						"w": 109,
+						"h": 57
+					}
+				},
+				{
+					"filename": "cave_mr_krab0092.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 392,
+						"y": 65,
+						"w": 107,
+						"h": 61
+					},
+					"frame": {
+						"x": 651,
+						"y": 1136,
+						"w": 107,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0059.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 510,
+						"y": 38,
+						"w": 108,
+						"h": 58
+					},
+					"frame": {
+						"x": 655,
+						"y": 1199,
+						"w": 108,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_mr_krab0203.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 120,
+						"y": 147,
+						"w": 102,
+						"h": 71
+					},
+					"frame": {
+						"x": 719,
+						"y": 1259,
+						"w": 102,
+						"h": 71
+					}
+				},
+				{
+					"filename": "cave_mr_krab0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 621,
+						"y": 15,
+						"w": 109,
+						"h": 57
+					},
+					"frame": {
+						"x": 727,
+						"y": 1332,
+						"w": 109,
+						"h": 57
+					}
+				},
+				{
+					"filename": "cave_mr_krab0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 679,
+						"y": 7,
+						"w": 109,
+						"h": 54
+					},
+					"frame": {
+						"x": 725,
+						"y": 1391,
+						"w": 109,
+						"h": 54
+					}
+				},
+				{
+					"filename": "cave_mr_krab0173.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 233,
+						"y": 109,
+						"w": 107,
+						"h": 65
+					},
+					"frame": {
+						"x": 728,
+						"y": 1447,
+						"w": 107,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 563,
+						"y": 24,
+						"w": 108,
+						"h": 60
+					},
+					"frame": {
+						"x": 733,
+						"y": 1514,
+						"w": 108,
+						"h": 60
+					}
+				},
+				{
+					"filename": "cave_mr_krab0057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 510,
+						"y": 36,
+						"w": 108,
+						"h": 60
+					},
+					"frame": {
+						"x": 736,
+						"y": 1576,
+						"w": 108,
+						"h": 60
+					}
+				},
+				{
+					"filename": "cave_mr_krab0188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 178,
+						"y": 128,
+						"w": 107,
+						"h": 65
+					},
+					"frame": {
+						"x": 738,
+						"y": 1638,
+						"w": 107,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 621,
+						"y": 16,
+						"w": 109,
+						"h": 56
+					},
+					"frame": {
+						"x": 736,
+						"y": 1705,
+						"w": 109,
+						"h": 56
+					}
+				},
+				{
+					"filename": "cave_mr_krab0088.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 392,
+						"y": 61,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 733,
+						"y": 1763,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 506,
+						"y": 39,
+						"w": 108,
+						"h": 58
+					},
+					"frame": {
+						"x": 735,
+						"y": 1830,
+						"w": 108,
+						"h": 58
+					}
+				},
+				{
+					"filename": "cave_bubbles0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 23,
+						"w": 26,
+						"h": 61
+					},
+					"frame": {
+						"x": 938,
+						"y": 764,
+						"w": 26,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_bubbles0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 26,
+						"h": 61
+					},
+					"frame": {
+						"x": 966,
+						"y": 764,
+						"w": 26,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_bubbles0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 160,
+						"w": 28,
+						"h": 52
+					},
+					"frame": {
+						"x": 775,
+						"y": 197,
+						"w": 28,
+						"h": 52
+					}
+				},
+				{
+					"filename": "cave_bubbles0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 176,
+						"w": 28,
+						"h": 50
+					},
+					"frame": {
+						"x": 207,
+						"y": 1963,
+						"w": 28,
+						"h": 50
+					}
+				},
+				{
+					"filename": "cave_mr_krab0105.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 841,
+						"y": 1763,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 506,
+						"y": 37,
+						"w": 108,
+						"h": 60
+					},
+					"frame": {
+						"x": 845,
+						"y": 1830,
+						"w": 108,
+						"h": 60
+					}
+				},
+				{
+					"filename": "cave_mr_krab0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 625,
+						"y": 16,
+						"w": 109,
+						"h": 55
+					},
+					"frame": {
+						"x": 840,
+						"y": 1892,
+						"w": 109,
+						"h": 55
+					}
+				},
+				{
+					"filename": "cave_bubbles0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 9,
+						"w": 26,
+						"h": 61
+					},
+					"frame": {
+						"x": 760,
+						"y": 1136,
+						"w": 26,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_bubbles0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 94,
+						"w": 27,
+						"h": 57
+					},
+					"frame": {
+						"x": 765,
+						"y": 1199,
+						"w": 27,
+						"h": 57
+					}
+				},
+				{
+					"filename": "cave_mr_krab0202.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 124,
+						"y": 146,
+						"w": 102,
+						"h": 70
+					},
+					"frame": {
+						"x": 757,
+						"y": 942,
+						"w": 102,
+						"h": 70
+					}
+				},
+				{
+					"filename": "cave_mr_krab0076.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 449,
+						"y": 51,
+						"w": 108,
+						"h": 60
+					},
+					"frame": {
+						"x": 763,
+						"y": 1014,
+						"w": 108,
+						"h": 60
+					}
+				},
+				{
+					"filename": "cave_mr_krab0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 568,
+						"y": 26,
+						"w": 108,
+						"h": 57
+					},
+					"frame": {
+						"x": 766,
+						"y": 1076,
+						"w": 108,
+						"h": 57
+					}
+				},
+				{
+					"filename": "cave_mr_krab0075.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 453,
+						"y": 50,
+						"w": 107,
+						"h": 60
+					},
+					"frame": {
+						"x": 788,
+						"y": 1135,
+						"w": 107,
+						"h": 60
+					}
+				},
+				{
+					"filename": "cave_mr_krab0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 564,
+						"y": 27,
+						"w": 108,
+						"h": 57
+					},
+					"frame": {
+						"x": 794,
+						"y": 1197,
+						"w": 108,
+						"h": 57
+					}
+				},
+				{
+					"filename": "cave_mr_krab0152.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 300,
+						"y": 86,
+						"w": 104,
+						"h": 68
+					},
+					"frame": {
+						"x": 823,
+						"y": 1256,
+						"w": 104,
+						"h": 68
+					}
+				},
+				{
+					"filename": "cave_mr_krab0205.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 116,
+						"y": 150,
+						"w": 106,
+						"h": 67
+					},
+					"frame": {
+						"x": 838,
+						"y": 1326,
+						"w": 106,
+						"h": 67
+					}
+				},
+				{
+					"filename": "cave_mr_krab0087.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 396,
+						"y": 60,
+						"w": 106,
+						"h": 66
+					},
+					"frame": {
+						"x": 861,
+						"y": 935,
+						"w": 106,
+						"h": 66
+					}
+				},
+				{
+					"filename": "cave_mr_krab0153.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 296,
+						"y": 87,
+						"w": 104,
+						"h": 68
+					},
+					"frame": {
+						"x": 873,
+						"y": 1003,
+						"w": 104,
+						"h": 68
+					}
+				},
+				{
+					"filename": "cave_mr_krab0154.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 299,
+						"y": 89,
+						"w": 106,
+						"h": 66
+					},
+					"frame": {
+						"x": 837,
+						"y": 1395,
+						"w": 106,
+						"h": 66
+					}
+				},
+				{
+					"filename": "cave_mr_krab0171.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 237,
+						"y": 107,
+						"w": 104,
+						"h": 68
+					},
+					"frame": {
+						"x": 843,
+						"y": 1463,
+						"w": 104,
+						"h": 68
+					}
+				},
+				{
+					"filename": "cave_mr_krab0204.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 120,
+						"y": 148,
+						"w": 105,
+						"h": 67
+					},
+					"frame": {
+						"x": 846,
+						"y": 1533,
+						"w": 105,
+						"h": 67
+					}
+				},
+				{
+					"filename": "cave_mr_krab0103.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 75,
+						"w": 104,
+						"h": 67
+					},
+					"frame": {
+						"x": 847,
+						"y": 1602,
+						"w": 104,
+						"h": 67
+					}
+				},
+				{
+					"filename": "cave_mr_krab0106.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0107.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0108.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0109.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0111.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0112.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0113.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0114.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0115.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0116.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0117.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0118.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0119.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0123.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0124.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0128.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0129.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0130.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0131.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0132.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0133.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0134.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0135.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0136.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0137.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0138.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0139.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0140.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0141.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0142.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 847,
+						"y": 1671,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_bubbles0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 5,
+						"w": 26,
+						"h": 61
+					},
+					"frame": {
+						"x": 969,
+						"y": 935,
+						"w": 26,
+						"h": 61
+					}
+				},
+				{
+					"filename": "cave_mr_krab0125.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 897,
+						"y": 1073,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0126.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 897,
+						"y": 1073,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0127.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 340,
+						"y": 77,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 897,
+						"y": 1073,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_mr_krab0155.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 828,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 295,
+						"y": 90,
+						"w": 106,
+						"h": 65
+					},
+					"frame": {
+						"x": 904,
+						"y": 1140,
+						"w": 106,
+						"h": 65
+					}
+				},
+				{
+					"filename": "cave_bubbles0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 89,
+						"w": 27,
+						"h": 57
+					},
+					"frame": {
+						"x": 979,
+						"y": 998,
+						"w": 27,
+						"h": 57
+					}
+				},
+				{
+					"filename": "cave_bubbles0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 0,
+						"w": 28,
+						"h": 37
+					},
+					"frame": {
+						"x": 490,
+						"y": 1213,
+						"w": 28,
+						"h": 37
+					}
+				},
+				{
+					"filename": "cave_bubbles0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 84,
+						"w": 27,
+						"h": 57
+					},
+					"frame": {
+						"x": 944,
+						"y": 1949,
+						"w": 27,
+						"h": 57
+					}
+				},
+				{
+					"filename": "cave_bubbles0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 155,
+						"w": 28,
+						"h": 52
+					},
+					"frame": {
+						"x": 951,
+						"y": 1892,
+						"w": 28,
+						"h": 52
+					}
+				},
+				{
+					"filename": "cave_bubbles0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 150,
+						"w": 28,
+						"h": 52
+					},
+					"frame": {
+						"x": 973,
+						"y": 1946,
+						"w": 28,
+						"h": 52
+					}
+				},
+				{
+					"filename": "cave_bubbles0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 165,
+						"w": 28,
+						"h": 51
+					},
+					"frame": {
+						"x": 945,
+						"y": 1395,
+						"w": 28,
+						"h": 51
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:3fbba68cdca2508c535606e88113e9b9:51bf4a89e750fc0c240c350bdf6b0a43:368b93c7eed22e531984fb0e1bc99317$"
+	}
+}

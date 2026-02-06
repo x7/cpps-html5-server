@@ -57,4 +57,6 @@ export const SCENE_ROOM_PUFFLE_HOTEL_ROOF = "PuffleHotelRoofScene";
 export const SCENE_ROOM_BERRY_MALL = "BerryMallScene";
 export const SCENE_ROOM_SKATE_PARK = "SkateParkScene";
 export const SCENE_ROOM_SCHOOL =  "SchoolScene";
+export const SCENE_ROOM_AGENT_LOBBY = "AgentLobbyScene";
+export const SCENE_ROOM_CAVE = "CaveScene";
 // Scene names end here

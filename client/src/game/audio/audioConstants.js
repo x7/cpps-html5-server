@@ -138,12 +138,6 @@ export const BOOK_ROOM_PRINTING_NEWSPAPER = "book_room_printing_newspaper";
 export const LOUNGE_ROOM_MUSIC = "lounge_room_music";
 // Lounge Room audio ends here
 
-// Cave Room audio starts here
-export const CAVE_ROOM_MUSIC = "cave_room_music";
-export const CAVE_ROOM_LIGHT_ON = "cave_room_light_on";
-export const CAVE_ROOM_LIGHT_OFF = "cave_room_light_off";
-// Cave Room audio ends here
-
 // Pet Shop Room audio starts here
 export const PET_SHOP_ROOM_MUSIC = "pet_shop_room_music";
 export const PET_SHOP_PLAZA_DOOR_OPEN = "pet_shop_plaza_door_open";
@@ -258,3 +252,7 @@ export const BERRY_MALL_CHEST_CLOSE = "berry_mall_chest_close";
 // Skate Park Room audio starts here
 export const SKATE_PARK_ROOM_MUSIC = "skate_park_room_music";
 // Skate Park Room audio ends here
+
+// Cave Room audio starts here
+export const CAVE_ROOM_MUSIC = "cave_room_music";
+// Cave Room audio ends here

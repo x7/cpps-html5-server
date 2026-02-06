@@ -60,6 +60,8 @@ import { PuffleHotelSpa } from './game/scenes/world/rooms/pufflehotelspa/puffleh
 import { PuffleHotelRoof } from './game/scenes/world/rooms/pufflehotelroof/pufflehotelroof.js';
 import { BerryMallScene } from './game/scenes/world/rooms/berrymall/berrymall.js';
 import { SkateParkScene } from './game/scenes/world/rooms/skatepark/skatepark.js';
+import { AgentLobbyScene } from './game/scenes/world/rooms/agentlobby/agentlobby.js';
+import { CaveScene } from './game/scenes/world/rooms/cave/cave.js';
 
 const config = {
     type: Phaser.WEBGL,
@@ -71,7 +73,7 @@ const config = {
         createContainer: true 
     },
     backgroundColor: '#07c5ffff',
-    scene: [PreloadAssetsScene, SchoolScene],
+    scene: [PreloadAssetsScene, CaveScene],
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene, DanceclubScene, SnowFortsScene, GiftshopScene, DocksScene, InterfaceScene, RegisterScene, InterfaceDanceScene, InterfaceEmojiScene],
     scale: {
         mode: Phaser.Scale.FIT,
