@@ -71,7 +71,7 @@ const config = {
         createContainer: true 
     },
     backgroundColor: '#07c5ffff',
-    scene: [PreloadAssetsScene, SkateParkScene],
+    scene: [PreloadAssetsScene, SchoolScene],
     // scene: [PreloadAssetsScene, LoginScene, ServerSelectionScene, TownScene, DanceclubScene, SnowFortsScene, GiftshopScene, DocksScene, InterfaceScene, RegisterScene, InterfaceDanceScene, InterfaceEmojiScene],
     scale: {
         mode: Phaser.Scale.FIT,
