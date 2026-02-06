@@ -1,0 +1,441 @@
+{
+	"textures": [
+		{
+			"image": "skatepark-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1972,
+				"h": 2039
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Symbol 310.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1880,
+						"h": 1130
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1880,
+						"h": 1130
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1880,
+						"h": 1130
+					}
+				},
+				{
+					"filename": "skate_park_blue_sky.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1788,
+						"h": 340
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1788,
+						"h": 340
+					},
+					"frame": {
+						"x": 1,
+						"y": 1133,
+						"w": 1788,
+						"h": 340
+					}
+				},
+				{
+					"filename": "skate_park_clouds.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1732,
+						"h": 276
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1732,
+						"h": 276
+					},
+					"frame": {
+						"x": 1,
+						"y": 1475,
+						"w": 1732,
+						"h": 276
+					}
+				},
+				{
+					"filename": "skate_park_puffle_statue.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 236,
+						"h": 436
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 236,
+						"h": 436
+					},
+					"frame": {
+						"x": 1735,
+						"y": 1475,
+						"w": 236,
+						"h": 436
+					}
+				},
+				{
+					"filename": "skate_park_skateboard_purchase_hover_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 180,
+						"h": 258
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 258
+					},
+					"frame": {
+						"x": 1791,
+						"y": 1133,
+						"w": 180,
+						"h": 258
+					}
+				},
+				{
+					"filename": "skate_park_purchase_skateboard_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 109,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 109,
+						"h": 48
+					},
+					"frame": {
+						"x": 1791,
+						"y": 1393,
+						"w": 109,
+						"h": 48
+					}
+				},
+				{
+					"filename": "skate_park_bench_armm.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 46
+					},
+					"frame": {
+						"x": 1902,
+						"y": 1393,
+						"w": 56,
+						"h": 46
+					}
+				},
+				{
+					"filename": "skate_park_dojo.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 840,
+						"h": 285
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 839,
+						"h": 285
+					},
+					"frame": {
+						"x": 1,
+						"y": 1753,
+						"w": 839,
+						"h": 285
+					}
+				},
+				{
+					"filename": "skate_park_bench.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 202,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 202,
+						"h": 171
+					},
+					"frame": {
+						"x": 842,
+						"y": 1753,
+						"w": 202,
+						"h": 171
+					}
+				},
+				{
+					"filename": "skate_park_purchase_skateboards.png_hover.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 172,
+						"h": 185
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 172,
+						"h": 185
+					},
+					"frame": {
+						"x": 1046,
+						"y": 1753,
+						"w": 172,
+						"h": 185
+					}
+				},
+				{
+					"filename": "skate_park_purchase_skateboards.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 172,
+						"h": 185
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 163,
+						"h": 176
+					},
+					"frame": {
+						"x": 1220,
+						"y": 1753,
+						"w": 163,
+						"h": 176
+					}
+				},
+				{
+					"filename": "skate_park_bottom_railing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 147,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 147,
+						"h": 162
+					},
+					"frame": {
+						"x": 1385,
+						"y": 1753,
+						"w": 147,
+						"h": 162
+					}
+				},
+				{
+					"filename": "skate_park_above_bottom_railing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 49,
+						"h": 140
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 140
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1753,
+						"w": 49,
+						"h": 140
+					}
+				},
+				{
+					"filename": "skate_park_top_railing.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 134
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 47,
+						"h": 134
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1895,
+						"w": 47,
+						"h": 134
+					}
+				}
+			]
+		},
+		{
+			"image": "skatepark-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1907,
+				"h": 1958
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "skate_park_background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1826,
+						"h": 994
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1826,
+						"h": 994
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1826,
+						"h": 994
+					}
+				},
+				{
+					"filename": "skate_park_walking_trigger0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1520,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1520,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 997,
+						"w": 1520,
+						"h": 960
+					}
+				},
+				{
+					"filename": "skate_park_exit_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 383,
+						"h": 305
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 383,
+						"h": 305
+					},
+					"frame": {
+						"x": 1523,
+						"y": 997,
+						"w": 383,
+						"h": 305
+					}
+				}
+			]
+		},
+		{
+			"image": "skatepark-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2034,
+				"h": 500
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "skate_park_bottom_right.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 904,
+						"h": 498
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 904,
+						"h": 498
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 904,
+						"h": 498
+					}
+				},
+				{
+					"filename": "skate_park_bottom_left.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1126,
+						"h": 446
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1126,
+						"h": 446
+					},
+					"frame": {
+						"x": 907,
+						"y": 1,
+						"w": 1126,
+						"h": 446
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:b4caf921d050f41c8f57c69bdc36cc97:3caceee7c3ecead4f7fca486da1d3a9d:9ee3d8fb8d32d1bf0b3cf223855ed109$"
+	}
+}

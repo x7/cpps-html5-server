@@ -1494,5 +1494,16 @@
         "seek": 0,
         "delay": 0,
         "source": null
+    },
+    "skate_park_room_music": {
+        "key": "skate_park_room_music",
+        "volume": 1,
+        "mute": false,
+        "loop": true,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
     }
 }

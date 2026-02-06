@@ -254,3 +254,7 @@ export const BERRY_MALL_PLAZA_DOOR_CLOSE = "berry_mall_plaza_door_close";
 export const BERRY_MALL_CHEST_OPEN = "berry_mall_chest_open";
 export const BERRY_MALL_CHEST_CLOSE = "berry_mall_chest_close";
 // Berry Mall Room audio ends here
+
+// Skate Park Room audio starts here
+export const SKATE_PARK_ROOM_MUSIC = "skate_park_room_music";
+// Skate Park Room audio ends here
