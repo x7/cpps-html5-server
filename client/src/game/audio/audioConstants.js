@@ -54,6 +54,8 @@ export const GIFT_SHOP_ROOM_MUSIC = "gift_shop_room_music";
 
 // Forest audio starts here
 export const FOREST_ROOM_MUSIC = "forest_room_music";
+export const FOREST_ROCK_OPEN = "forest_rock_open";
+export const FOREST_ROCK_CLOSE = "forest_rock_close";
 // Forest room audio ends here
 
 // Dojo audio starts here
@@ -256,3 +258,9 @@ export const SKATE_PARK_ROOM_MUSIC = "skate_park_room_music";
 // Cave Room audio starts here
 export const CAVE_ROOM_MUSIC = "cave_room_music";
 // Cave Room audio ends here
+
+// Cave Mine Room audio starts here
+export const CAVE_MINE_ROOM_MUSIC = "cave_mine_room_music"
+export const CAVE_MINE_LIGHT_ON = "cave_mine_room_light_on";
+export const CAVE_MINE_LIGHT_OFF = "cave_mine_room_light_off";
+// Cave Mine Room audio ends here

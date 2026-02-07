@@ -1,5 +1,5 @@
 import { ASSET_TYPES } from '../../../../assets/assetTypes.js';
-import { CAVE_ROOM_LIGHT_OFF, CAVE_ROOM_LIGHT_ON, CAVE_ROOM_MUSIC } from '../../../../audio/audioConstants.js';
+import { CAVE_MINE_ROOM_MUSIC, CAVE_MINE_LIGHT_ON, CAVE_MINE_LIGHT_OFF } from '../../../../audio/audioConstants.js';
 import { SCENE_ROOM_CAVE_MINE } from '../../../sceneNames.js';
 import { RoomScene } from '../RoomScene.js';
 
@@ -12,35 +12,39 @@ export class CaveMineScene extends RoomScene {
 
     init(data) {
         super.init(data);
+
+		// Globals
+        this.assetPath = "assets/world/rooms/cavemine/";
+        this.textureKey = "cavemine";
     }
 
     preloadContent() {
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.PACK,
-            "name": "cavemine",
-            "paths": ["assets/world/rooms/cavemine/cavemine-pack.json"]
+            "name": this.textureKey,
+            "paths": [`${this.assetPath}${this.textureKey}-pack.json`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
-            "name": CAVE_ROOM_MUSIC,
-            "paths": ["assets/world/rooms/cavemine/cavemine_room_music.mp3"]
+            "name": CAVE_MINE_ROOM_MUSIC,
+            "paths": [`${this.assetPath}cavemine_room_music.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
-            "name": CAVE_ROOM_LIGHT_ON,
-            "paths": ["assets/world/rooms/cavemine/cavemine_room_light_on.mp3"]
+            "name": CAVE_MINE_LIGHT_ON,
+            "paths": [`${this.assetPath}cavemine_room_light_on.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
-            "name": CAVE_ROOM_LIGHT_OFF,
-            "paths": ["assets/world/rooms/cavemine/cavemine_room_light_off.mp3"]
+            "name": CAVE_MINE_LIGHT_OFF,
+            "paths": [`${this.assetPath}cavemine_room_light_off.mp3`]
         });
     }
 
@@ -275,12 +279,12 @@ export class CaveMineScene extends RoomScene {
 
         cave_mine_left_exit_png_1.on("pointerover", () => {
             cave_mine_left_door_exit_hover_png_1.visible = true;
-            this.audioManager.play(CAVE_ROOM_LIGHT_ON);
+            this.audioManager.play(CAVE_MINE_LIGHT_ON);
         });
 
         cave_mine_left_door_exit_hover_png_1.on("pointerout", () => {
             cave_mine_left_door_exit_hover_png_1.visible = false;
-            this.audioManager.play(CAVE_ROOM_LIGHT_OFF);
+            this.audioManager.play(CAVE_MINE_LIGHT_OFF);
         });
 
         cave_mine_right_exit_door_hover_png_1.on("pointerover", () => {
@@ -289,7 +293,7 @@ export class CaveMineScene extends RoomScene {
             cave_mine_right_exit_door_hover_png_1.alphaTopRight = 1;
             cave_mine_right_exit_door_hover_png_1.alphaBottomLeft = 1;
             cave_mine_right_exit_door_hover_png_1.alphaBottomRight = 1;
-            this.audioManager.play(CAVE_ROOM_LIGHT_ON);
+            this.audioManager.play(CAVE_MINE_LIGHT_ON);
         });
 
         cave_mine_right_exit_door_hover_png_1.on("pointerout", () => {
@@ -298,10 +302,10 @@ export class CaveMineScene extends RoomScene {
             cave_mine_right_exit_door_hover_png_1.alphaTopRight = 0.001;
             cave_mine_right_exit_door_hover_png_1.alphaBottomLeft = 0.001;
             cave_mine_right_exit_door_hover_png_1.alphaBottomRight = 0.001;
-            this.audioManager.play(CAVE_ROOM_LIGHT_OFF);
+            this.audioManager.play(CAVE_MINE_LIGHT_OFF);
         });
         // All interactive events ends here
 
-        this.audioManager.play(CAVE_ROOM_MUSIC);
+        this.audioManager.play(CAVE_MINE_ROOM_MUSIC);
     }
 }

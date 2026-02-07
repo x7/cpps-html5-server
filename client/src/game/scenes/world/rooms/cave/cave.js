@@ -25,7 +25,7 @@ export class CaveScene extends RoomScene {
     }
 
     createContent() {
-        // cave_bubbles0001_png_1
+		// cave_bubbles0001_png_1
 		const cave_bubbles0001_png_1 = this.add.sprite(602.7097727811744, 410.9862002840968, "cave", "cave_bubbles0001.png");
 
 		// cave_bubbles0001_png_2
@@ -91,9 +91,6 @@ export class CaveScene extends RoomScene {
 		cave_right_side_board_png.tintTopRight = 12096874;
 		cave_right_side_board_png.tintBottomLeft = 12096874;
 		cave_right_side_board_png.tintBottomRight = 12096874;
-
-		// cave_bubbles0001_png
-		const cave_bubbles0001_png = this.add.image(1192.910125209042, 518.5477325364322, "cave", "cave_bubbles0001.png");
 
 		// cave_boilerroom_door0002_png
 		const cave_boilerroom_door0002_png = this.add.image(172, 487, "cave", "cave_boilerroom_door0002.png");
