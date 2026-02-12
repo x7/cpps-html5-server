@@ -1,16 +1,17 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { ICE_BERG_ROOM_MUSIC } from "../../../../audio/audioConstants";
+import { SCENE_ROOM_ICE_BERG } from "../../../sceneNames";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class IcebergScene extends RoomScene {
     constructor() {
-        super("IceBergScene");
+        super(SCENE_ROOM_ICE_BERG);
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-        this.audioManager = this.getAudioManager();
+        super.init(data);
     }
 
     preloadContent() {
@@ -19,6 +20,13 @@ export class IcebergScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "iceberg",
             "paths": ["assets/world/rooms/iceberg/iceberg-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "iceberg_walking_trigger",
+            "paths": ["assets/world/rooms/iceberg/iceberg_walking_trigger.png"]
         });
 
         this.assetManager.load({
@@ -35,9 +43,25 @@ export class IcebergScene extends RoomScene {
 		iceberg_main_png.setOrigin(0, 0);
 
 		// iceberg_aqua_grabber0001_png
-		const iceberg_aqua_grabber0001_png = this.add.sprite(1235, 339, "iceberg", "iceberg_aqua_grabber0001.png");
+		const iceberg_aqua_grabber0001_png = this.add.sprite(1241, 365, "iceberg", "iceberg_aqua_grabber0001.png");
 		iceberg_aqua_grabber0001_png.scaleX = 0.8992307752135668;
 		iceberg_aqua_grabber0001_png.scaleY = 0.8910482709811908;
+
+		// iceberg_walking_trigger
+		const iceberg_walking_trigger = this.physics.add.sprite(759, 475, "iceberg_walking_trigger");
+		iceberg_walking_trigger.alpha = 0.001;
+		iceberg_walking_trigger.alphaTopLeft = 0.001;
+		iceberg_walking_trigger.alphaTopRight = 0.001;
+		iceberg_walking_trigger.alphaBottomLeft = 0.001;
+		iceberg_walking_trigger.alphaBottomRight = 0.001;
+		iceberg_walking_trigger.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 759, 475, "iceberg_walking_trigger");
+
+        // Setting triggers starts here
+        this.triggers.push([iceberg_walking_trigger, () => {
+            onWalkingTrigger(this);
+        }]);
+        // Setting triggers ends here
 
         // Animations start here
         createAnimation({
@@ -95,5 +119,10 @@ export class IcebergScene extends RoomScene {
         // All interactive events end here
 
         this.audioManager.play(ICE_BERG_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

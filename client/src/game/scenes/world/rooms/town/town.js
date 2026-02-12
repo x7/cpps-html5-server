@@ -11,6 +11,7 @@ import { SERVER_VERIFY_PACKET } from "../../../../../network/topics";
 import eventEmitter from "../../../../../util/eventEmitter";
 import { RoomScene } from "../RoomScene";
 import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 
 // Todo: Make the dance club opening more smooth
 // Todo: Fix night club star animation
@@ -26,8 +27,6 @@ export class TownScene extends RoomScene {
 	}
 
 	preloadContent() {
-		super.preloadContent();
-
 		this.assetManager.load({
 			scene: this,
 			type: ASSET_TYPES.PACK,
@@ -257,32 +256,51 @@ export class TownScene extends RoomScene {
 		town_dance_club_handle_rope.scaleY = 0.9481854244711483;
 		town_dance_club_handle_rope.setOrigin(0.4715384615384616, 0.5485714285714286);
 
-		// town_walking_trigger_png
-		const town_walking_trigger_png = this.add.image(763, 441, "town-triggers", "town_walking_trigger.png");
-		town_walking_trigger_png.scaleX = 1.0122680516038394;
-		town_walking_trigger_png.scaleY = 1.0954232070420247;
-
 		// town_snow_forts_room_trigger_png
-		const town_snow_forts_room_trigger_png = this.physics.add.image(1441, 592, "town-triggers", "town_snow_forts_room_trigger.png");
+		const town_snow_forts_room_trigger_png = this.physics.add.sprite(1441, 592, "town-triggers", "town_snow_forts_room_trigger.png");
 		town_snow_forts_room_trigger_png.scaleX = 0.7040527403599454;
 		town_snow_forts_room_trigger_png.scaleY = 0.8531550442324147;
+		town_snow_forts_room_trigger_png.body.setSize(280, 214, false);
 
 		// town_dance_club_room_trigger_png
-		const town_dance_club_room_trigger_png = this.physics.add.image(843, 398, "town-triggers", "town_dance_club_room_trigger.png");
+		const town_dance_club_room_trigger_png = this.physics.add.sprite(843, 398, "town-triggers", "town_dance_club_room_trigger.png");
+		town_dance_club_room_trigger_png.body.setSize(180, 90, false);
 
 		// town_coffee_shop_room_trigger_png
-		const town_coffee_shop_room_trigger_png = this.physics.add.image(424, 445, "town-triggers", "town_coffee_shop_room_trigger.png");
+		const town_coffee_shop_room_trigger_png = this.physics.add.sprite(424, 445, "town-triggers", "town_coffee_shop_room_trigger.png");
+		town_coffee_shop_room_trigger_png.body.setSize(176, 98, false);
 
 		// town_clothes_shop_room_trigger_png
-		const town_clothes_shop_room_trigger_png = this.physics.add.image(1120, 414, "town-triggers", "town_clothes_shop_room_trigger.png");
+		const town_clothes_shop_room_trigger_png = this.physics.add.sprite(1120, 414, "town-triggers", "town_clothes_shop_room_trigger.png");
+		town_clothes_shop_room_trigger_png.body.setSize(176, 99, false);
 
 		// town_docks_room_trigger_png
-		const town_docks_room_trigger_png = this.physics.add.image(96, 517, "town-triggers", "town_docks_room_trigger.png");
+		const town_docks_room_trigger_png = this.physics.add.sprite(96, 517, "town-triggers", "town_docks_room_trigger.png");
 		town_docks_room_trigger_png.scaleX = 0.5877954964206972;
 		town_docks_room_trigger_png.scaleY = 0.44792742416998366;
 		town_docks_room_trigger_png.angle = 60;
+		town_docks_room_trigger_png.body.setSize(274, 222, false);
+		
+		// town_walking_trigger_png
+		const town_walking_trigger_png = this.physics.add.sprite(774, 453, "town-triggers", "town_walking_trigger.png");
+		town_walking_trigger_png.alpha = 0.001;
+		town_walking_trigger_png.alphaTopLeft = 0.001;
+		town_walking_trigger_png.alphaTopRight = 0.001;
+		town_walking_trigger_png.alphaBottomLeft = 0.001;
+		town_walking_trigger_png.alphaBottomRight = 0.001;
+		town_walking_trigger_png.tintFill = true;
+		town_walking_trigger_png.tintTopLeft = 16711935;
+		town_walking_trigger_png.tintTopRight = 16711935;
+		town_walking_trigger_png.tintBottomLeft = 16711935;
+		town_walking_trigger_png.tintBottomRight = 16711935;
+		town_walking_trigger_png.body.setSize(1520, 960, false);
+		this.collisionMap = this.createCollisionMap(this, 774, 453, "town-triggers", "town_walking_trigger.png");
 
 		// Setting triggers starts here
+		this.triggers.push([town_walking_trigger_png, () => {
+			onWalkingTrigger(this);
+		}]);
+		
 		this.triggers.push([town_dance_club_room_trigger_png, () => {
 			onJoinRoomTrigger(SCENE_ROOM_DANCE_CLUB);
 		}]);
@@ -301,10 +319,6 @@ export class TownScene extends RoomScene {
 
 		this.triggers.push([town_snow_forts_room_trigger_png, () => {
 			onJoinRoomTrigger(SCENE_ROOM_SNOW_FORTS);
-		}]);
-
-		this.triggers.push([town_walking_trigger_png, () => {
-			onJoinRoomTrigger(SCENE_ROOM_DOCKS);
 		}]);
 		// Setting triggers ends here
 
@@ -406,7 +420,6 @@ export class TownScene extends RoomScene {
 		// All interactive events ends here
 
 		this.audioManager.play(TOWN_ROOM_MUSIC);
-		this.events.emit("scene-awake");
 		super.createContent(this);
 	}
 

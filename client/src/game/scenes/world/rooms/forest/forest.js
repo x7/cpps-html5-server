@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { FOREST_ROCK_CLOSE, FOREST_ROCK_OPEN, FOREST_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_FOREST } from "../../../sceneNames";
+import { SCENE_PRELOAD_ASSETS, SCENE_ROOM_COVE, SCENE_ROOM_FOREST, SCENE_ROOM_HIDDEN_LAKE, SCENE_ROOM_MINE_SHACK, SCENE_ROOM_PLAZA } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class ForestScene extends RoomScene {
@@ -23,6 +25,13 @@ export class ForestScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": this.textureKey,
             "paths": [`${this.assetPath}${this.textureKey}-pack.json`]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": `${this.textureKey}_walking_trigger`,
+            "paths": [`${this.assetPath}${this.textureKey}_walking_trigger.png`]
         });
 
 		this.assetManager.load({
@@ -171,6 +180,74 @@ export class ForestScene extends RoomScene {
 		forest_moving_rock_hover_trigger0004_png.alphaBottomLeft = 0.001;
 		forest_moving_rock_hover_trigger0004_png.alphaBottomRight = 0.001;
 
+		// forest_cove_trigger_png
+		const forest_cove_trigger_png = this.physics.add.sprite(1407, 866, "forest", "forest_cove_trigger.png");
+		forest_cove_trigger_png.alpha = 0.001;
+		forest_cove_trigger_png.alphaTopLeft = 0.001;
+		forest_cove_trigger_png.alphaTopRight = 0.001;
+		forest_cove_trigger_png.alphaBottomLeft = 0.001;
+		forest_cove_trigger_png.alphaBottomRight = 0.001;
+		forest_cove_trigger_png.body.setSize(452, 213, false);
+
+		// forest_mine_shack_trigger
+		const forest_mine_shack_trigger = this.physics.add.sprite(1346, 320, "forest", "forest_mine_shack_trigger.png");
+		forest_mine_shack_trigger.alpha = 0.001;
+		forest_mine_shack_trigger.alphaTopLeft = 0.001;
+		forest_mine_shack_trigger.alphaTopRight = 0.001;
+		forest_mine_shack_trigger.alphaBottomLeft = 0.001;
+		forest_mine_shack_trigger.alphaBottomRight = 0.001;
+		forest_mine_shack_trigger.body.setSize(179, 82, false);
+
+		// forest_plaza_trigger
+		const forest_plaza_trigger = this.physics.add.sprite(112, 290, "forest", "forest_plaza_trigger.png");
+		forest_plaza_trigger.alpha = 0.001;
+		forest_plaza_trigger.alphaTopLeft = 0.001;
+		forest_plaza_trigger.alphaTopRight = 0.001;
+		forest_plaza_trigger.alphaBottomLeft = 0.001;
+		forest_plaza_trigger.alphaBottomRight = 0.001;
+		forest_plaza_trigger.body.setSize(165, 82, false);
+
+		// forest_walking_trigger
+		const forest_walking_trigger = this.physics.add.sprite(757, 472, `${this.textureKey}_walking_trigger`);
+		forest_walking_trigger.alpha = 0.001;
+		forest_walking_trigger.alphaTopLeft = 0.001;
+		forest_walking_trigger.alphaTopRight = 0.001;
+		forest_walking_trigger.alphaBottomLeft = 0.001;
+		forest_walking_trigger.alphaBottomRight = 0.001;
+		forest_walking_trigger.body.setSize(1520, 960, false);
+		this.collisionMap = this.createCollisionMap(this, 757, 472, `${this.textureKey}_walking_trigger`);
+
+		// forest_underground_trigger
+		const forest_underground_trigger = this.physics.add.sprite(176, 717, "forest", "forest_underground_trigger.png");
+		forest_underground_trigger.alpha = 0.001;
+		forest_underground_trigger.alphaTopLeft = 0.001;
+		forest_underground_trigger.alphaTopRight = 0.001;
+		forest_underground_trigger.alphaBottomLeft = 0.001;
+		forest_underground_trigger.alphaBottomRight = 0.001;
+		forest_underground_trigger.body.setSize(138, 98, false);
+
+		// Setting triggers starts here
+		this.triggers.push([forest_walking_trigger, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([forest_underground_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_HIDDEN_LAKE);
+		}]);
+
+		this.triggers.push([forest_plaza_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_PLAZA);
+		}]);
+
+		this.triggers.push([forest_mine_shack_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_MINE_SHACK);
+		}]);
+
+		this.triggers.push([forest_cove_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_COVE);
+		}]);
+		// Setting triggers ends here
+
 		// Creating animations starts here
 		createAnimation({
 			"scene": this,
@@ -267,5 +344,10 @@ export class ForestScene extends RoomScene {
 		// All interactive events ends here
 
 		this.audioManager.play(FOREST_ROOM_MUSIC);
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

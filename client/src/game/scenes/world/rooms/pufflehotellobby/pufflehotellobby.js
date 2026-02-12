@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { PUFFLE_HOTEL_LOBBY_ELEVATOR_CLOSE, PUFFLE_HOTEL_LOBBY_ELEVATOR_OPEN, PUFFLE_HOTEL_LOBBY_PET_DOOR_CLOSE, PUFFLE_HOTEL_LOBBY_PET_DOOR_OPEN, PUFFLE_HOTEL_LOBBY_PLAZA_DOOR_CLOSE, PUFFLE_HOTEL_LOBBY_PLAZA_DOOR_OPEN, PUFFLE_HOTEL_LOBBY_RAINBOW_PUFFLE_CHECKBOARD, PUFFLE_HOTEL_LOBBY_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_PUFFLE_HOTEL_LOBBY } from "../../../sceneNames";
+import { SCENE_ROOM_PET_SHOP, SCENE_ROOM_PLAZA, SCENE_ROOM_PUFFLE_HOTEL_LOBBY } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class PuffleHotelLobby extends RoomScene {
@@ -21,63 +23,70 @@ export class PuffleHotelLobby extends RoomScene {
             "scene": this,
             "type": ASSET_TYPES.PACK,
             "name": "pufflehotellobby",
-            "paths": [`${this.assetPath}/pufflehotellobby-pack.json`]
+            "paths": [`${this.assetPath}pufflehotellobby-pack.json`]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "puffle_hotel_lobby_walking_trigger",
+            "paths": [`${this.assetPath}puffle_hotel_lobby_walking_trigger.png`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_LOBBY_ROOM_MUSIC,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_LOBBY_ROOM_MUSIC}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_LOBBY_ROOM_MUSIC}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_LOBBY_ELEVATOR_OPEN,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_LOBBY_ELEVATOR_OPEN}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_LOBBY_ELEVATOR_OPEN}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_LOBBY_ELEVATOR_CLOSE,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_LOBBY_ELEVATOR_CLOSE}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_LOBBY_ELEVATOR_CLOSE}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_LOBBY_PET_DOOR_OPEN,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_LOBBY_PET_DOOR_OPEN}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_LOBBY_PET_DOOR_OPEN}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_LOBBY_PET_DOOR_CLOSE,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_LOBBY_PET_DOOR_CLOSE}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_LOBBY_PET_DOOR_CLOSE}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_LOBBY_PLAZA_DOOR_OPEN,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_LOBBY_PLAZA_DOOR_OPEN}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_LOBBY_PLAZA_DOOR_OPEN}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_LOBBY_PLAZA_DOOR_CLOSE,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_LOBBY_PLAZA_DOOR_CLOSE}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_LOBBY_PLAZA_DOOR_CLOSE}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_LOBBY_RAINBOW_PUFFLE_CHECKBOARD,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_LOBBY_RAINBOW_PUFFLE_CHECKBOARD}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_LOBBY_RAINBOW_PUFFLE_CHECKBOARD}.mp3`]
         });
     }
 
@@ -289,6 +298,48 @@ export class PuffleHotelLobby extends RoomScene {
 		puffle_hotel_lobby_elevator_trigger.alphaBottomLeft = 0.001;
 		puffle_hotel_lobby_elevator_trigger.alphaBottomRight = 0.001;
 
+        // puffle_hotel_lobby_walking_trigger
+		const puffle_hotel_lobby_walking_trigger = this.physics.add.sprite(801, 477, "puffle_hotel_lobby_walking_trigger");
+		puffle_hotel_lobby_walking_trigger.alpha = 0.001;
+		puffle_hotel_lobby_walking_trigger.alphaTopLeft = 0.001;
+		puffle_hotel_lobby_walking_trigger.alphaTopRight = 0.001;
+		puffle_hotel_lobby_walking_trigger.alphaBottomLeft = 0.001;
+		puffle_hotel_lobby_walking_trigger.alphaBottomRight = 0.001;
+		puffle_hotel_lobby_walking_trigger.body.setSize(1710, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 801, 477, "puffle_hotel_lobby_walking_trigger");
+
+		// puffle_hotel_lobby_plaza_trigger_png
+		const puffle_hotel_lobby_plaza_trigger_png = this.physics.add.sprite(806, 273, "pufflehotellobby", "puffle_hotel_lobby_plaza_trigger.png");
+		puffle_hotel_lobby_plaza_trigger_png.alpha = 0.001;
+		puffle_hotel_lobby_plaza_trigger_png.alphaTopLeft = 0.001;
+		puffle_hotel_lobby_plaza_trigger_png.alphaTopRight = 0.001;
+		puffle_hotel_lobby_plaza_trigger_png.alphaBottomLeft = 0.001;
+		puffle_hotel_lobby_plaza_trigger_png.alphaBottomRight = 0.001;
+		puffle_hotel_lobby_plaza_trigger_png.body.setSize(200, 29, false);
+
+		// puffle_hotel_lobby_pet_shop_trigger
+		const puffle_hotel_lobby_pet_shop_trigger = this.physics.add.sprite(1501, 422, "pufflehotellobby", "puffle_hotel_lobby_pet_shop_trigger.png");
+		puffle_hotel_lobby_pet_shop_trigger.alpha = 0.001;
+		puffle_hotel_lobby_pet_shop_trigger.alphaTopLeft = 0.001;
+		puffle_hotel_lobby_pet_shop_trigger.alphaTopRight = 0.001;
+		puffle_hotel_lobby_pet_shop_trigger.alphaBottomLeft = 0.001;
+		puffle_hotel_lobby_pet_shop_trigger.alphaBottomRight = 0.001;
+		puffle_hotel_lobby_pet_shop_trigger.body.setSize(162, 73, false);
+
+        // Setting triggers starts here
+        this.triggers.push([puffle_hotel_lobby_walking_trigger, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([puffle_hotel_lobby_pet_shop_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PET_SHOP);
+        }]);
+
+        this.triggers.push([puffle_hotel_lobby_plaza_trigger_png, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PLAZA);
+        }]);
+        // Setting triggers ends here
+
         // Creating animations starts here
         createAnimation({
             "scene": this,
@@ -400,5 +451,10 @@ export class PuffleHotelLobby extends RoomScene {
         // All interactive events ends here
 
         this.audioManager.play(PUFFLE_HOTEL_LOBBY_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

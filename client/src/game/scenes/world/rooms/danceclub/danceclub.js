@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { DANCE_CLUB_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_DANCE_CLUB } from "../../../sceneNames";
+import { SCENE_ROOM_CAVE, SCENE_ROOM_DANCE_CLUB, SCENE_ROOM_LOUNGE, SCENE_ROOM_TOWN } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class DanceclubScene extends RoomScene {
@@ -20,6 +22,13 @@ export class DanceclubScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "danceclub",
             "paths": ["assets/world/rooms/danceclub/danceclub-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "danceclub_walking_trigger",
+            "paths": ["assets/world/rooms/danceclub/danceclub_walking_trigger.png"]
         });
 
         this.assetManager.load({
@@ -167,6 +176,84 @@ export class DanceclubScene extends RoomScene {
 		const danceclub_lights_png = this.add.image(726, 353, "danceclub", "danceclub_lights.png");
 		danceclub_lights_png.scaleX = 0.896281530343336;
 		danceclub_lights_png.scaleY = 1.5862322997171228;
+
+		// danceclub_town_trigger_png
+		const danceclub_town_trigger_png = this.physics.add.sprite(194, 466, "danceclub", "danceclub_town_trigger.png");
+		danceclub_town_trigger_png.alpha = 0.001;
+		danceclub_town_trigger_png.alphaTopLeft = 0.001;
+		danceclub_town_trigger_png.alphaTopRight = 0.001;
+		danceclub_town_trigger_png.alphaBottomLeft = 0.001;
+		danceclub_town_trigger_png.alphaBottomRight = 0.001;
+		danceclub_town_trigger_png.body.setSize(139, 139, false);
+
+		// danceclub_dance_contest_trigger_png
+		const danceclub_dance_contest_trigger_png = this.physics.add.sprite(1104, 400, "danceclub", "danceclub_dance_contest_trigger.png");
+		danceclub_dance_contest_trigger_png.scaleX = 0.7535507445298227;
+		danceclub_dance_contest_trigger_png.scaleY = 1.0018607252927696;
+		danceclub_dance_contest_trigger_png.alpha = 0.001;
+		danceclub_dance_contest_trigger_png.alphaTopLeft = 0.001;
+		danceclub_dance_contest_trigger_png.alphaTopRight = 0.001;
+		danceclub_dance_contest_trigger_png.alphaBottomLeft = 0.001;
+		danceclub_dance_contest_trigger_png.alphaBottomRight = 0.001;
+		danceclub_dance_contest_trigger_png.body.setSize(174, 134, false);
+
+		// danceclub_lounge_trigger_png
+		const danceclub_lounge_trigger_png = this.physics.add.sprite(1297, 442, "danceclub", "danceclub_lounge_trigger.png");
+		danceclub_lounge_trigger_png.alpha = 0.001;
+		danceclub_lounge_trigger_png.alphaTopLeft = 0.001;
+		danceclub_lounge_trigger_png.alphaTopRight = 0.001;
+		danceclub_lounge_trigger_png.alphaBottomLeft = 0.001;
+		danceclub_lounge_trigger_png.alphaBottomRight = 0.001;
+		danceclub_lounge_trigger_png.body.setSize(160, 80, false);
+
+		// danceclub_cave_trigger_png
+		const danceclub_cave_trigger_png = this.physics.add.sprite(993, 365, "danceclub", "danceclub_cave_trigger.png");
+		danceclub_cave_trigger_png.scaleX = 0.7990584340272201;
+		danceclub_cave_trigger_png.scaleY = 0.9018012689198701;
+		danceclub_cave_trigger_png.alpha = 0.001;
+		danceclub_cave_trigger_png.alphaTopLeft = 0.001;
+		danceclub_cave_trigger_png.alphaTopRight = 0.001;
+		danceclub_cave_trigger_png.alphaBottomLeft = 0.001;
+		danceclub_cave_trigger_png.alphaBottomRight = 0.001;
+		danceclub_cave_trigger_png.body.setSize(120, 109, false);
+
+		// danceclub_sound_studio_trigger_png
+		const danceclub_sound_studio_trigger_png = this.physics.add.sprite(692, 366, "danceclub", "danceclub_sound_studio_trigger.png");
+		danceclub_sound_studio_trigger_png.alpha = 0.001;
+		danceclub_sound_studio_trigger_png.alphaTopLeft = 0.001;
+		danceclub_sound_studio_trigger_png.alphaTopRight = 0.001;
+		danceclub_sound_studio_trigger_png.alphaBottomLeft = 0.001;
+		danceclub_sound_studio_trigger_png.alphaBottomRight = 0.001;
+		danceclub_sound_studio_trigger_png.body.setSize(190, 60, false);
+
+        // danceclub_walking_trigger_png
+		const danceclub_walking_trigger_png = this.physics.add.sprite(758, 479, "danceclub_walking_trigger");
+        danceclub_walking_trigger_png.alpha = 0.001;
+		danceclub_walking_trigger_png.alphaTopLeft = 0.001;
+		danceclub_walking_trigger_png.alphaTopRight = 0.001;
+		danceclub_walking_trigger_png.alphaBottomLeft = 0.001;
+		danceclub_walking_trigger_png.alphaBottomRight = 0.001;
+		danceclub_walking_trigger_png.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 758, 479, "danceclub_walking_trigger", null);
+
+        // Setting triggers starts here
+        this.triggers.push([danceclub_walking_trigger_png, () => {
+            onWalkingTrigger(this);
+            console.log(`cloding`)
+        }]);
+        
+        this.triggers.push([danceclub_town_trigger_png, () => {
+            onJoinRoomTrigger(SCENE_ROOM_TOWN);
+        }]);
+
+        this.triggers.push([danceclub_lounge_trigger_png, () => {
+            onJoinRoomTrigger(SCENE_ROOM_LOUNGE);
+        }]);
+
+        this.triggers.push([danceclub_cave_trigger_png, () => {
+            onJoinRoomTrigger(SCENE_ROOM_CAVE);
+        }]);
+        // Setting triggers ends here
 
         // Animations start here
         createAnimation({

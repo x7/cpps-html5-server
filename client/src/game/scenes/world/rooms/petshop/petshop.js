@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { PET_SHOP_PLAZA_DOOR_CLOSE, PET_SHOP_PLAZA_DOOR_OPEN, PET_SHOP_PUFFLE_HOTEL_DOOR_CLOSE, PET_SHOP_PUFFLE_HOTEL_DOOR_OPEN, PET_SHOP_PUFFLE_PARK_DOOR_CLOSE, PET_SHOP_PUFFLE_PARK_DOOR_OPEN, PET_SHOP_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_PET_SHOP } from "../../../sceneNames";
+import { SCENE_ROOM_PET_SHOP, SCENE_ROOM_PLAZA, SCENE_ROOM_PUFFLE_HOTEL_LOBBY, SCENE_ROOM_PUFFLE_PARK } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Fix the puffle adopt animations pretty sure i did the wrong ones xd
@@ -23,8 +25,15 @@ export class PetShopScene extends RoomScene {
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.PACK,
-            "name": "cavemine",
+            "name": "petshop",
             "paths": ["assets/world/rooms/petshop/petshop-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "pet_shop_walking_trigger0002",
+            "paths": ["assets/world/rooms/petshop/pet_shop_walking_trigger0002.png"]
         });
 
         this.assetManager.load({
@@ -186,6 +195,24 @@ export class PetShopScene extends RoomScene {
 		// pet_shop_book0002_png
 		const pet_shop_book0002_png = this.add.image(240, 483, "petshop", "pet_shop_book0002.png");
 
+		// pet_shop_litte_stand_png_4
+		const pet_shop_litte_stand_png_4 = this.add.image(1389, 544, "petshop", "pet_shop_litte_stand.png");
+		pet_shop_litte_stand_png_4.scaleX = 1.0738474752877867;
+		pet_shop_litte_stand_png_4.scaleY = 1.1848640302302222;
+
+		// pet_shop_litte_stand_png_5
+		const pet_shop_litte_stand_png_5 = this.add.image(1416, 535, "petshop", "pet_shop_litte_stand.png");
+		pet_shop_litte_stand_png_5.scaleX = 1.0738474752877867;
+		pet_shop_litte_stand_png_5.scaleY = 1.1848640302302222;
+
+		// pet_shop_litte_stand_png_6
+		const pet_shop_litte_stand_png_6 = this.add.image(1365, 579, "petshop", "pet_shop_litte_stand.png");
+		pet_shop_litte_stand_png_6.scaleX = 1.0738474752877867;
+		pet_shop_litte_stand_png_6.scaleY = 1.1848640302302222;
+
+		// pet_shop_puffle_park_door_railing_left_side_png_1
+		const pet_shop_puffle_park_door_railing_left_side_png_1 = this.add.image(1398, 557, "petshop", "pet_shop_puffle_park_door_railing_left_side.png");
+
 		// pet_shop_bottom_right_blue_stand_top_png
 		const pet_shop_bottom_right_blue_stand_top_png = this.add.image(1328, 609, "petshop", "pet_shop_bottom_right_blue_stand_top.png");
 
@@ -278,6 +305,82 @@ export class PetShopScene extends RoomScene {
 
 		// pet_shop_adopt_a_puffle_list_png
 		const pet_shop_adopt_a_puffle_list_png = this.add.image(424, 305, "petshop", "pet_shop_adopt_a_puffle_list.png");
+
+		// pet_shop_litte_stand_png
+		const pet_shop_litte_stand_png = this.add.image(1253, 489, "petshop", "pet_shop_litte_stand.png");
+
+		// pet_shop_litte_stand_png_1
+		const pet_shop_litte_stand_png_1 = this.add.image(1279, 457, "petshop", "pet_shop_litte_stand.png");
+
+		// pet_shop_litte_stand_png_2
+		const pet_shop_litte_stand_png_2 = this.add.image(1302, 448, "petshop", "pet_shop_litte_stand.png");
+
+		// pet_shop_litte_stand_png_3
+		const pet_shop_litte_stand_png_3 = this.add.image(1329, 440, "petshop", "pet_shop_litte_stand.png");
+		pet_shop_litte_stand_png_3.scaleX = 1.0738474752877867;
+		pet_shop_litte_stand_png_3.scaleY = 1.1848640302302222;
+
+		// pet_shop_puffle_park_door_railing_left_side_png
+		const pet_shop_puffle_park_door_railing_left_side_png = this.add.image(1294, 466, "petshop", "pet_shop_puffle_park_door_railing_left_side.png");
+
+		// pet_shop_walking_trigger
+		const pet_shop_walking_trigger = this.physics.add.sprite(754, 472, "pet_shop_walking_trigger0002");
+		pet_shop_walking_trigger.alpha = 0.001;
+		pet_shop_walking_trigger.alphaTopLeft = 0.001;
+		pet_shop_walking_trigger.alphaTopRight = 0.001;
+		pet_shop_walking_trigger.alphaBottomLeft = 0.001;
+		pet_shop_walking_trigger.alphaBottomRight = 0.001;
+		pet_shop_walking_trigger.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 754, 472, "pet_shop_walking_trigger0002");
+
+		// pet_shop_puffle_park_trigger_png
+		const pet_shop_puffle_park_trigger_png = this.physics.add.sprite(1468, 433, "petshop", "pet_shop_puffle_park_trigger.png");
+		pet_shop_puffle_park_trigger_png.alpha = 0.001;
+		pet_shop_puffle_park_trigger_png.alphaTopLeft = 0.001;
+		pet_shop_puffle_park_trigger_png.alphaTopRight = 0.001;
+		pet_shop_puffle_park_trigger_png.alphaBottomLeft = 0.001;
+		pet_shop_puffle_park_trigger_png.alphaBottomRight = 0.001;
+		pet_shop_puffle_park_trigger_png.body.setSize(220, 119, false);
+
+		// pet_shop_puffle_hotel_trigger
+		const pet_shop_puffle_hotel_trigger = this.physics.add.sprite(26, 644, "petshop", "pet_shop_puffle_hotel_trigger.png");
+		pet_shop_puffle_hotel_trigger.scaleX = 0.5549829961000735;
+		pet_shop_puffle_hotel_trigger.scaleY = 0.2430630579274894;
+		pet_shop_puffle_hotel_trigger.alpha = 0.001;
+		pet_shop_puffle_hotel_trigger.alphaTopLeft = 0.001;
+		pet_shop_puffle_hotel_trigger.alphaTopRight = 0.001;
+		pet_shop_puffle_hotel_trigger.alphaBottomLeft = 0.001;
+		pet_shop_puffle_hotel_trigger.alphaBottomRight = 0.001;
+		pet_shop_puffle_hotel_trigger.body.setSize(260, 411, false);
+
+		// pet_shop_plaza_trigger
+		const pet_shop_plaza_trigger = this.physics.add.sprite(738, 245, "petshop", "pet_shop_plaza_trigger.png");
+		pet_shop_plaza_trigger.scaleX = 0.654237325370535;
+		pet_shop_plaza_trigger.scaleY = 0.7811142450600612;
+		pet_shop_plaza_trigger.alpha = 0.001;
+		pet_shop_plaza_trigger.alphaTopLeft = 0.001;
+		pet_shop_plaza_trigger.alphaTopRight = 0.001;
+		pet_shop_plaza_trigger.alphaBottomLeft = 0.001;
+		pet_shop_plaza_trigger.alphaBottomRight = 0.001;
+		pet_shop_plaza_trigger.body.setSize(360, 80, false);
+
+        // Setting triggers starts here
+        this.triggers.push([pet_shop_walking_trigger, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([pet_shop_plaza_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PLAZA);
+        }]);
+
+        this.triggers.push([pet_shop_puffle_hotel_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PUFFLE_HOTEL_LOBBY);
+        }]);
+
+        this.triggers.push([pet_shop_puffle_park_trigger_png, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PUFFLE_PARK);
+        }]);
+        // Setting triggers ends here
 
         // Creating animations starts here
         createAnimation({
@@ -602,5 +705,10 @@ export class PetShopScene extends RoomScene {
         // All interactive events start here
 
         this.audioManager.play(PET_SHOP_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

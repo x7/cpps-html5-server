@@ -213,6 +213,8 @@ export class InterfaceScene extends BaseScene {
         // Dom elements end here
 
         // Setting all interactives sprites starts here
+		interface_main_interface_bar_png.setInteractive({ useHandCursor: false });
+		interface_bottom_bar_chat_input.setInteractive({ useHandCursor: false });
         interface_map_closed.setInteractive({ useHandCursor: true });
 		interface_map_opened.setInteractive({ useHandCursor: true });
 		interface_bottom_bar_puffle_button.setInteractive({ useHandCursor: true });
@@ -434,6 +436,6 @@ export class InterfaceScene extends BaseScene {
     }
 
     shutdown() {
-        this.chatInput.destroy();
+        // this.chatInput.destroy();
     }
 }

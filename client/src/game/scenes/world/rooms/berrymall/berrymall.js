@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { BERRY_MALL_CHEST_CLOSE, BERRY_MALL_CHEST_OPEN, BERRY_MALL_PLAZA_DOOR_CLOSE, BERRY_MALL_PLAZA_DOOR_OPEN, BERRY_MALL_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_BERRY_MALL } from "../../../sceneNames";
+import { SCENE_ROOM_BERRY_MALL, SCENE_ROOM_PLAZA } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class BerryMallScene extends RoomScene {
@@ -22,42 +24,49 @@ export class BerryMallScene extends RoomScene {
             "scene": this,
             "type": ASSET_TYPES.PACK,
             "name": this.textureKey,
-            "paths": [`${this.assetPath}/${this.textureKey}-pack.json`]
+            "paths": [`${this.assetPath}${this.textureKey}-pack.json`]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "berry_mall_walking_trigger",
+            "paths": [`${this.assetPath}berry_mall_walking_trigger.png`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": BERRY_MALL_ROOM_MUSIC,
-            "paths": [`${this.assetPath}/${BERRY_MALL_ROOM_MUSIC}.mp3`]
+            "paths": [`${this.assetPath}${BERRY_MALL_ROOM_MUSIC}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": BERRY_MALL_PLAZA_DOOR_OPEN,
-            "paths": [`${this.assetPath}/${BERRY_MALL_PLAZA_DOOR_OPEN}.mp3`]
+            "paths": [`${this.assetPath}${BERRY_MALL_PLAZA_DOOR_OPEN}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": BERRY_MALL_PLAZA_DOOR_CLOSE,
-            "paths": [`${this.assetPath}/${BERRY_MALL_PLAZA_DOOR_CLOSE}.mp3`]
+            "paths": [`${this.assetPath}${BERRY_MALL_PLAZA_DOOR_CLOSE}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": BERRY_MALL_CHEST_OPEN,
-            "paths": [`${this.assetPath}/${BERRY_MALL_CHEST_OPEN}.mp3`]
+            "paths": [`${this.assetPath}${BERRY_MALL_CHEST_OPEN}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": BERRY_MALL_CHEST_CLOSE,
-            "paths": [`${this.assetPath}/${BERRY_MALL_CHEST_CLOSE}.mp3`]
+            "paths": [`${this.assetPath}${BERRY_MALL_CHEST_CLOSE}.mp3`]
         });
     }
 
@@ -293,6 +302,37 @@ export class BerryMallScene extends RoomScene {
 		berry_mall_plaza_door_hover_trigger_png.alphaBottomLeft = 0.001;
 		berry_mall_plaza_door_hover_trigger_png.alphaBottomRight = 0.001;
 
+        // berry_mall_walking_trigger_png
+		const berry_mall_walking_trigger_png = this.physics.add.sprite(761, 481, "berry_mall_walking_trigger");
+		berry_mall_walking_trigger_png.alpha = 0.001;
+		berry_mall_walking_trigger_png.alphaTopLeft = 0.001;
+		berry_mall_walking_trigger_png.alphaTopRight = 0.001;
+		berry_mall_walking_trigger_png.alphaBottomLeft = 0.001;
+		berry_mall_walking_trigger_png.alphaBottomRight = 0.001;
+		berry_mall_walking_trigger_png.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 761, 481, "berry_mall_walking_trigger");
+
+		// berry_mall_plaza_trigger_png
+		const berry_mall_plaza_trigger_png = this.physics.add.sprite(226, 602, "berrymall", "berry_mall_plaza_trigger.png");
+		berry_mall_plaza_trigger_png.scaleX = 0.6783849239360802;
+		berry_mall_plaza_trigger_png.scaleY = 0.5574969267340029;
+		berry_mall_plaza_trigger_png.alpha = 0.001;
+		berry_mall_plaza_trigger_png.alphaTopLeft = 0.001;
+		berry_mall_plaza_trigger_png.alphaTopRight = 0.001;
+		berry_mall_plaza_trigger_png.alphaBottomLeft = 0.001;
+		berry_mall_plaza_trigger_png.alphaBottomRight = 0.001;
+		berry_mall_plaza_trigger_png.body.setSize(200, 300, false);
+
+        // Setting triggers starts here
+        this.triggers.push([berry_mall_walking_trigger_png, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([berry_mall_plaza_trigger_png, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PLAZA);
+        }]);
+        // Setting triggers ends here
+
         // Creating animations starts here
         createAnimation({
             "scene": this,
@@ -458,5 +498,10 @@ export class BerryMallScene extends RoomScene {
         // All interactive events ends here
 
         this.audioManager.play(BERRY_MALL_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

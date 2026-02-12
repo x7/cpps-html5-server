@@ -1,17 +1,17 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { SKI_HILL_ROOM_MUSIC } from "../../../../audio/audioConstants";
+import { SCENE_ROOM_SKI_HILL, SCENE_ROOM_SKI_VILLAGE } from "../../../sceneNames";
 import { RoomScene } from "../RoomScene";
 
 // TODO: add missing animations
 
 export class SkihillScene extends RoomScene {
     constructor() {
-        super("SkiHillScene");
+        super(SCENE_ROOM_SKI_HILL);
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-		this.audioManager = this.getAudioManager();
+		super.init(data);
     }
 
     preloadContent() {
@@ -31,7 +31,7 @@ export class SkihillScene extends RoomScene {
     }
 
     createContent() {
-				// skihill_sky_png
+		// skihill_sky_png
 		const skihill_sky_png = this.add.image(711, 139, "skihill", "skihill_sky.png");
 		skihill_sky_png.scaleX = 0.9955363415032087;
 		skihill_sky_png.scaleY = 1.1620353373740027;
@@ -104,6 +104,32 @@ export class SkihillScene extends RoomScene {
 		skihill_blue_arrow_snow_png.scaleX = 0.9171864584957394;
 		skihill_blue_arrow_snow_png.scaleY = 0.9802705469423592;
 
+		// ski_hill_ski_village_trigger
+		const ski_hill_ski_village_trigger = this.add.ellipse(1188, 495, 128, 128);
+		ski_hill_ski_village_trigger.scaleX = 0.5208845408113322;
+		ski_hill_ski_village_trigger.scaleY = 1.4808963769262822;
+		ski_hill_ski_village_trigger.alpha = 0.001;
+		ski_hill_ski_village_trigger.isFilled = true;
+
+		// Setting arcade physics sprites starts here
+		this.physics.add.existing(ski_hill_ski_village_trigger);
+		// Setting arcade physics sprites ends here
+
+		// Setting triggers starts here
+		// this.triggers.push([lighthouse_walk_trigger, () => {
+		// 	onWalkingTrigger(this);
+		// }]);
+
+		this.triggers.push([ski_hill_ski_village_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_SKI_VILLAGE);
+		}]);
+		// Setting triggers ends here
+
 		this.audioManager.play(SKI_HILL_ROOM_MUSIC);
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

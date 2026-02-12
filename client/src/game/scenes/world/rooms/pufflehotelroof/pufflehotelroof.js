@@ -2,6 +2,7 @@ import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { PUFFLE_HOTEL_ROOF_ELEVATOR_CLOSE, PUFFLE_HOTEL_ROOF_ELEVATOR_OPEN, PUFFLE_HOTEL_ROOF_ROOM_MUSIC } from "../../../../audio/audioConstants";
 import { SCENE_ROOM_PUFFLE_HOTEL_ROOF } from "../../../sceneNames";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class PuffleHotelRoof extends RoomScene {
@@ -21,28 +22,35 @@ export class PuffleHotelRoof extends RoomScene {
             "scene": this,
             "type": ASSET_TYPES.PACK,
             "name": "pufflehotelroof",
-            "paths": [`${this.assetPath}/pufflehotelroof-pack.json`]
+            "paths": [`${this.assetPath}pufflehotelroof-pack.json`]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "puffle_hotel_roof_walking_trigger",
+            "paths": [`${this.assetPath}puffle_hotel_roof_walking_trigger.png`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_ROOF_ROOM_MUSIC,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_ROOF_ROOM_MUSIC}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_ROOF_ROOM_MUSIC}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_ROOF_ELEVATOR_OPEN,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_ROOF_ELEVATOR_OPEN}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_ROOF_ELEVATOR_OPEN}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_ROOF_ELEVATOR_CLOSE,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_ROOF_ELEVATOR_CLOSE}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_ROOF_ELEVATOR_CLOSE}.mp3`]
         });
     }
 
@@ -259,6 +267,22 @@ export class PuffleHotelRoof extends RoomScene {
 		const puffle_hotel_roof_puffle_launch_cannon0150_png = this.add.image(1284, 301, "pufflehotelroof", "puffle_hotel_roof_puffle_launch_cannon0150.png");
 		puffle_hotel_roof_puffle_launch_cannon0150_png.visible = false;
 
+		// puffle_hotel_roof_walking_trigger_png
+		const puffle_hotel_roof_walking_trigger_png = this.physics.add.sprite(806, 463, "puffle_hotel_roof_walking_trigger");
+		puffle_hotel_roof_walking_trigger_png.alpha = 0.001;
+		puffle_hotel_roof_walking_trigger_png.alphaTopLeft = 0.001;
+		puffle_hotel_roof_walking_trigger_png.alphaTopRight = 0.001;
+		puffle_hotel_roof_walking_trigger_png.alphaBottomLeft = 0.001;
+		puffle_hotel_roof_walking_trigger_png.alphaBottomRight = 0.001;
+		puffle_hotel_roof_walking_trigger_png.body.setSize(1600, 1040, false);
+		this.collisionMap = this.createCollisionMap(this, 806, 463, "puffle_hotel_roof_walking_trigger");
+
+		// Setting triggers starts here
+		this.triggers.push([puffle_hotel_roof_walking_trigger_png, () => {
+			onWalkingTrigger(this);
+		}]);
+		// Setting triggers ends here
+
         // Creating animations starts here
         createAnimation({
             "scene": this,
@@ -371,5 +395,10 @@ export class PuffleHotelRoof extends RoomScene {
         // All interactive events ends here
 
         this.audioManager.play(PUFFLE_HOTEL_ROOF_ROOM_MUSIC);
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

@@ -1,6 +1,7 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { PUFFLE_WILD_ROOM_MUSIC } from "../../../../audio/audioConstants";
+import { SCENE_ROOM_PUFFLE_WILD } from "../../../sceneNames";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Light affects at the topo
@@ -9,12 +10,11 @@ import { RoomScene } from "../RoomScene";
 
 export class PuffleWildScene extends RoomScene {
     constructor() {
-        super("PuffleWildScene");
+        super(SCENE_ROOM_PUFFLE_WILD);
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-		this.audioManager = this.getAudioManager();
+        super.init(data);
     }
 
     preloadContent() {
@@ -168,5 +168,10 @@ export class PuffleWildScene extends RoomScene {
         // Animations end here
 
 		this.audioManager.play(PUFFLE_WILD_ROOM_MUSIC);
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

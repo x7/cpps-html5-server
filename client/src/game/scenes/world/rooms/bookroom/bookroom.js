@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { BOOK_ROOM_BOOK_CLOSE, BOOK_ROOM_BOOK_OPEN, BOOK_ROOM_EXIT_LIGHTS_OFF, BOOK_ROOM_EXIT_LIGHTS_ON, BOOK_ROOM_MUSIC, BOOK_ROOM_PRINTING_NEWSPAPER } from "../../../../audio/audioConstants";
-import { SCENE_BOOK_ROOM } from "../../../sceneNames";
+import { SCENE_BOOK_ROOM, SCENE_ROOM_COFFEE_SHOP } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Create newspaper animation
@@ -22,6 +24,13 @@ export class BookRoomScene extends RoomScene {
             type: ASSET_TYPES.PACK,
             name: "bookroom",
             paths: ["assets/world/rooms/bookroom/bookroom-pack.json"]
+        });
+
+        this.assetManager.load({
+            scene: this,
+            type: ASSET_TYPES.IMAGE,
+            name: "bookroom_walk_trigger",
+            paths: ["assets/world/rooms/bookroom/book_room_walk_trigger.png"]
         });
 
         // this.assetManager.load({
@@ -285,6 +294,27 @@ export class BookRoomScene extends RoomScene {
 		book_room_exit_trigger_png.alphaBottomLeft = 0.001;
 		book_room_exit_trigger_png.alphaBottomRight = 0.001;
 		book_room_exit_trigger_png.body.setSize(200, 120, false);
+
+        // book_room_walk_trigger_png
+		const book_room_walk_trigger_png = this.physics.add.sprite(738, 477, "bookroom_walk_trigger");
+		book_room_walk_trigger_png.scaleY = 1.0688214550772455;
+		book_room_walk_trigger_png.alpha = 0.001;
+		book_room_walk_trigger_png.alphaTopLeft = 0.001;
+		book_room_walk_trigger_png.alphaTopRight = 0.001;
+		book_room_walk_trigger_png.alphaBottomLeft = 0.001;
+		book_room_walk_trigger_png.alphaBottomRight = 0.001;
+		book_room_walk_trigger_png.body.setSize(1720, 964, false);
+        this.collisionMap = this.createCollisionMap(this, 738, 477, "bookroom_walk_trigger", null);
+
+        // Setting triggers starts here
+        this.triggers.push([book_room_walk_trigger_png, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([book_room_exit_trigger_png, () => {
+            onJoinRoomTrigger(SCENE_ROOM_COFFEE_SHOP);
+        }]);
+        // Setting triggers ends here
         
         // Creating animations ends here
         // createAnimation({
@@ -435,5 +465,10 @@ export class BookRoomScene extends RoomScene {
         // All interactive events ends here
 
         this.audioManager.play(BOOK_ROOM_PRINTING_NEWSPAPER);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

@@ -6,7 +6,7 @@ import { LOGIN_NO_USERNAME_PROVIDED, LOGIN_NO_PASSWORD_PROVIDED, LOGIN_INVALID_U
 import { displayLoading, removeLoading } from '../loading/loadingHelper.js';
 import { SCENE_LOGIN, SCENE_SERVER_SELECTION } from "../sceneNames.js";
 
-export async function login(username, password) {
+export async function login({ username, password, scene }) {
     const validUsername = validateUsername(username);
     if(validUsername != true) {
         displayError(validUsername);
@@ -19,6 +19,7 @@ export async function login(username, password) {
         return;
     }
 
+    hideDomElements(this);
     displayLoading(SCENE_LOGIN, `Logging in as ${username}`);
 
     try {
@@ -42,7 +43,7 @@ export async function login(username, password) {
                 "goToScene": null,
                 "goToSceneText": null,
                 "callback": () => {
-                    displayError(FAILED_TO_CONNECT_TO_SERVER);
+                    displayError(response.errorReason);
                 }
             });
             return;
@@ -69,14 +70,15 @@ export async function login(username, password) {
             "goToSceneText": "Loading Server Selection",
             "callback": null
         });
+
     } catch (error) {
-        console.log(error)
+        console.log(error.errorReason)
         removeLoading({
             "currentScene": SCENE_LOGIN,
             "goToScene": null,
             "goToSceneText": null,
             "callback": () => {
-                displayError(FAILED_TO_CONNECT_TO_SERVER);
+                displayError(error.errorReason);
             }
         });
     }
@@ -87,10 +89,6 @@ function validateUsername(username) {
         return LOGIN_NO_USERNAME_PROVIDED;
     }
 
-    if(username.length < 4 || username.length > 16) {
-        return LOGIN_INVALID_USERNAME_LENGTH;
-    }
-
     return true;
 }
 
@@ -99,15 +97,11 @@ function validatePassword(password) {
         return LOGIN_NO_PASSWORD_PROVIDED;
     }
 
-    // if(password.length < 8 || password.length > 128) {
-    //     return LOGIN_INVALID_PASSWORD_LENGTH;
-    // }
-
     return true;
 }
 
 export function hideDomElements(scene) {
-    if(scene == null || scene.scene.key !== 'LoginScene') {
+    if(scene == null || scene.scene.key !== SCENE_LOGIN) {
         return;
     }
 
@@ -115,7 +109,7 @@ export function hideDomElements(scene) {
 }
 
 export function enableRememberMeBoxes(scene) {
-    if(scene == null || scene.scene.key !== 'LoginScene') {
+    if(scene == null || scene.scene.key !== SCENE_LOGIN) {
         return;
     }
 

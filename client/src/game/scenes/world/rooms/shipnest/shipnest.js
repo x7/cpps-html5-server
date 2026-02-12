@@ -1,6 +1,8 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
-import { SCENE_ROOM_SHIP_NEST } from "../../../sceneNames";
+import { SCENE_ROOM_PIRATE_SHIP, SCENE_ROOM_SHIP_NEST } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Fix cannon animation
@@ -20,6 +22,13 @@ export class ShipNestScene extends RoomScene {
 
         this.assetManager.load({
             "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "ship_nest_walking_trigger",
+            "paths": ["assets/world/rooms/shipnest/ship_nest_walking_trigger.png"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
             "type": ASSET_TYPES.PACK,
             "name": "pirateship",
             "paths": ["assets/world/rooms/pirateship/pirateship-pack.json"]
@@ -27,7 +36,6 @@ export class ShipNestScene extends RoomScene {
     }
 
     createContent() {
-        
 		// ship_nest_main_background_png
 		const ship_nest_main_background_png = this.add.image(-75, -65, "shipnest", "ship_nest_main_background.png");
 		ship_nest_main_background_png.setOrigin(0, 0);
@@ -67,6 +75,35 @@ export class ShipNestScene extends RoomScene {
 		ship_nest_cannon_trigger0004_png.alphaTopRight = 0.001;
 		ship_nest_cannon_trigger0004_png.alphaBottomLeft = 0.001;
 		ship_nest_cannon_trigger0004_png.alphaBottomRight = 0.001;
+
+		// ship_nest_pirate_ship_trigger
+		const ship_nest_pirate_ship_trigger = this.physics.add.sprite(1067, 719, "shipnest", "ship_nest_exit_trigger.png");
+		ship_nest_pirate_ship_trigger.alpha = 0.001;
+		ship_nest_pirate_ship_trigger.alphaTopLeft = 0.001;
+		ship_nest_pirate_ship_trigger.alphaTopRight = 0.001;
+		ship_nest_pirate_ship_trigger.alphaBottomLeft = 0.001;
+		ship_nest_pirate_ship_trigger.alphaBottomRight = 0.001;
+		ship_nest_pirate_ship_trigger.body.setSize(272, 106, false);
+
+		// ship_nest_walking_trigger_png
+		const ship_nest_walking_trigger_png = this.physics.add.sprite(801, 482, "ship_nest_walking_trigger");
+		ship_nest_walking_trigger_png.alpha = 0.001;
+		ship_nest_walking_trigger_png.alphaTopLeft = 0.001;
+		ship_nest_walking_trigger_png.alphaTopRight = 0.001;
+		ship_nest_walking_trigger_png.alphaBottomLeft = 0.001;
+		ship_nest_walking_trigger_png.alphaBottomRight = 0.001;
+		ship_nest_walking_trigger_png.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 801, 482, "ship_nest_walking_trigger");
+
+        // Setting triggers starts here
+        this.triggers.push([ship_nest_walking_trigger_png, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([ship_nest_pirate_ship_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PIRATE_SHIP);
+        }]);
+        // Setting triggers ends here
 
         // Creating animations starts here
         createAnimation({
@@ -118,5 +155,11 @@ export class ShipNestScene extends RoomScene {
             ship_nest_cannon0001_png.play("ship_nest_cannon_animation_play");
         });
         // All interactive events ends here
+
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

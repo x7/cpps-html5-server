@@ -1,6 +1,8 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { PLAZA_ROOM_MUSIC, PUFFLE_PARK_PUFFLE_SNORING, PUFFLE_PARK_ROOM_MUSIC, PUFFLE_PARK_SLIDE_DOWN, PUFFLE_PARK_SLIDE_DOWN_PUFFLE_CAT, PUFFLE_PARK_SLIDE_DOWN_PUFFLE_DOG, PUFFLE_PARK_ZIPLINE, PUFFLE_PARK_ZIPLINE_PUFFLE_CAT, PUFFLE_PARK_ZIPLINE_PUFFLE_DOG } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_PUFFLE_PARK } from "../../../sceneNames";
+import { SCENE_ROOM_PET_SHOP, SCENE_ROOM_PLAZA, SCENE_ROOM_PUFFLE_PARK } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class PuffleParkScene extends RoomScene {
@@ -18,6 +20,13 @@ export class PuffleParkScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "pufflepark",
             "paths": ["assets/world/rooms/pufflepark/pufflepark-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "puffle_park_walking_trigger",
+            "paths": ["assets/world/rooms/pufflepark/puffle_park_walking_trigger.png"]
         });
 
         this.assetManager.load({
@@ -299,6 +308,51 @@ export class PuffleParkScene extends RoomScene {
 		puffle_park_rope_down_hover_trigger0004_png_1.alphaBottomLeft = 0.001;
 		puffle_park_rope_down_hover_trigger0004_png_1.alphaBottomRight = 0.001;
 
+		// puffle_park_walking_trigger_png
+		const puffle_park_walking_trigger_png = this.physics.add.sprite(753, 486, "puffle_park_walking_trigger");
+		puffle_park_walking_trigger_png.alpha = 0.001;
+		puffle_park_walking_trigger_png.alphaTopLeft = 0.001;
+		puffle_park_walking_trigger_png.alphaTopRight = 0.001;
+		puffle_park_walking_trigger_png.alphaBottomLeft = 0.001;
+		puffle_park_walking_trigger_png.alphaBottomRight = 0.001;
+		puffle_park_walking_trigger_png.body.setSize(1520, 960, false);
+		this.collisionMap = this.createCollisionMap(this, 753, 486, "puffle_park_walking_trigger");
+
+		// puffle_park_plaza_trigger_png
+		const puffle_park_plaza_trigger_png = this.physics.add.sprite(670, 260, "pufflepark", "puffle_park_plaza_trigger.png");
+		puffle_park_plaza_trigger_png.scaleX = 0.7933904723942838;
+		puffle_park_plaza_trigger_png.alpha = 0.001;
+		puffle_park_plaza_trigger_png.alphaTopLeft = 0.001;
+		puffle_park_plaza_trigger_png.alphaTopRight = 0.001;
+		puffle_park_plaza_trigger_png.alphaBottomLeft = 0.001;
+		puffle_park_plaza_trigger_png.alphaBottomRight = 0.001;
+		puffle_park_plaza_trigger_png.body.setSize(200, 80, false);
+
+		// puffle_park_pet_shop_trigger_png
+		const puffle_park_pet_shop_trigger_png = this.physics.add.sprite(146, 359, "pufflepark", "puffle_park_pet_shop_trigger.png");
+		puffle_park_pet_shop_trigger_png.scaleX = 0.5919007277864188;
+		puffle_park_pet_shop_trigger_png.scaleY = 0.5949649117470701;
+		puffle_park_pet_shop_trigger_png.alpha = 0.001;
+		puffle_park_pet_shop_trigger_png.alphaTopLeft = 0.001;
+		puffle_park_pet_shop_trigger_png.alphaTopRight = 0.001;
+		puffle_park_pet_shop_trigger_png.alphaBottomLeft = 0.001;
+		puffle_park_pet_shop_trigger_png.alphaBottomRight = 0.001;
+		puffle_park_pet_shop_trigger_png.body.setSize(211, 133, false);
+
+		// Setting triggers starts here
+		this.triggers.push([puffle_park_walking_trigger_png, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([puffle_park_plaza_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_PLAZA);
+		}]);
+
+		this.triggers.push([puffle_park_pet_shop_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_PET_SHOP);
+		}]);
+		// Setting triggers ends here
+
         // Setting all interactives sprites starts here
         puffle_park_pet_shop_door_trigger.setInteractive({ useHandCursor: true });
         puffle_park_fire_hydrant_hover_trigger0004_png.setInteractive({ useHandCursor: true });
@@ -325,5 +379,10 @@ export class PuffleParkScene extends RoomScene {
         // All interactive events ends here
 
         this.audioManager.play(PUFFLE_PARK_ROOM_MUSIC); // Plaza is the same as puffle park
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

@@ -2,9 +2,9 @@ import { showWarningImage, getWarningImages } from './savePasswordPromptHelper.j
 import { enableRememberMeBoxes } from '../loginHelper.js';
 import { BaseScene } from '../../baseScene.js';
 import { ASSET_TYPES } from '../../../assets/assetTypes.js';
-import { SCENE_LOGIN_SHARED_PASSWORD } from '../../sceneNames.js';
+import { SCENE_LOGIN, SCENE_LOGIN_SHARED_PASSWORD } from '../../sceneNames.js';
 
-export class LoginSavePasswordPrompt extends BaseScene {
+export class LoginSavePasswordPromptScene extends BaseScene {
 	constructor() {
 		super(SCENE_LOGIN_SHARED_PASSWORD);
 	}
@@ -134,8 +134,8 @@ export class LoginSavePasswordPrompt extends BaseScene {
 
         login_save_password_save_password_button_hover.on("pointerdown", () => {
             enableRememberMeBoxes(this.sceneManager.get("LoginScene"));
-            this.sceneManager.resume("LoginScene");
-            this.sceneManager.stop("LoginSavePasswordPromptScene");
+            this.sceneManager.resume(SCENE_LOGIN);
+            this.sceneManager.stop(SCENE_LOGIN_SHARED_PASSWORD);
         });
 
         login_save_password_dont_save_password_button.on("pointerover", () => {
@@ -149,8 +149,8 @@ export class LoginSavePasswordPrompt extends BaseScene {
         });
 
         login_save_password_dont_save_password_button_hover.on("pointerdown", () => {
-            this.sceneManager.resume("LoginScene");
-            this.sceneManager.stop("LoginSavePasswordPromptScene");
+            this.sceneManager.resume(SCENE_LOGIN);
+            this.sceneManager.stop(SCENE_LOGIN_SHARED_PASSWORD);
         });
 
         login_save_password_learn_more_button.on("pointerover", () => {
@@ -216,8 +216,8 @@ export class LoginSavePasswordPrompt extends BaseScene {
         
         // Instantly start the loop
         this.warningImageInterval.callback(this.warningImageInterval.callbackScope);
+        this.sceneManager.sendToTop(SCENE_LOGIN_SHARED_PASSWORD);
 
-		this.events.emit("scene-awake");
         this.events.once("shutdown", this.shutdown, this);
 	}
 

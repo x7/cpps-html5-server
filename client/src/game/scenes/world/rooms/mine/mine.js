@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { MINE_LIGHT_OFF, MINE_LIGHT_ON, MINE_MINE_CART_INCOMING, MINE_TELEPHONE_RING } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_MINE } from "../../../sceneNames";
+import { SCENE_ROOM_CAVE, SCENE_ROOM_CAVE_MINE, SCENE_ROOM_MINE, SCENE_ROOM_MINE_SHACK } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Add music
@@ -22,6 +24,13 @@ export class MineScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "mine",
             "paths": ["assets/world/rooms/mine/mine-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "mine_walking_trigger",
+            "paths": ["assets/world/rooms/mine/mine_walking_trigger.png"]
         });
 
         this.assetManager.load({
@@ -188,6 +197,61 @@ export class MineScene extends RoomScene {
 		mine_underground_pool_trigger.alpha = 0.001;
 		mine_underground_pool_trigger.isFilled = true;
 
+        // mine_walking_trigger_png
+		const mine_walking_trigger_png = this.physics.add.sprite(753, 471, "mine_walking_trigger");
+		mine_walking_trigger_png.alpha = 0.001;
+		mine_walking_trigger_png.alphaTopLeft = 0.001;
+		mine_walking_trigger_png.alphaTopRight = 0.001;
+		mine_walking_trigger_png.alphaBottomLeft = 0.001;
+		mine_walking_trigger_png.alphaBottomRight = 0.001;
+		mine_walking_trigger_png.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 753, 471, "mine_walking_trigger");
+
+		// mine_cavemine_trigger
+		const mine_cavemine_trigger = this.physics.add.sprite(1360, 778, "mine", "mine_cavemine_trigger.png");
+		mine_cavemine_trigger.alpha = 0.001;
+		mine_cavemine_trigger.alphaTopLeft = 0.001;
+		mine_cavemine_trigger.alphaTopRight = 0.001;
+		mine_cavemine_trigger.alphaBottomLeft = 0.001;
+		mine_cavemine_trigger.alphaBottomRight = 0.001;
+		mine_cavemine_trigger.body.setSize(266, 170, false);
+
+		// mine_underground_pool_trigger
+		const mine_underground_pool_room_trigger = this.physics.add.sprite(158, 454, "mine", "mine_underground_pool_trigger.png");
+		mine_underground_pool_room_trigger.alpha = 0.001;
+		mine_underground_pool_room_trigger.alphaTopLeft = 0.001;
+		mine_underground_pool_room_trigger.alphaTopRight = 0.001;
+		mine_underground_pool_room_trigger.alphaBottomLeft = 0.001;
+		mine_underground_pool_room_trigger.alphaBottomRight = 0.001;
+		mine_underground_pool_room_trigger.body.setSize(190, 106, false);
+
+		// mine_puffle_mine_shack_trigger
+		const mine_puffle_mine_shack_trigger = this.physics.add.sprite(841, 256, "mine", "mine_puffle_rescue_trigger.png");
+		mine_puffle_mine_shack_trigger.alpha = 0.001;
+		mine_puffle_mine_shack_trigger.alphaTopLeft = 0.001;
+		mine_puffle_mine_shack_trigger.alphaTopRight = 0.001;
+		mine_puffle_mine_shack_trigger.alphaBottomLeft = 0.001;
+		mine_puffle_mine_shack_trigger.alphaBottomRight = 0.001;
+		mine_puffle_mine_shack_trigger.body.setSize(228, 110, false);
+
+        // Setting triggers starts here
+        this.triggers.push([mine_walking_trigger_png, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([mine_puffle_mine_shack_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_MINE_SHACK);
+        }]);
+
+        this.triggers.push([mine_underground_pool_room_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_CAVE);
+        }]);
+
+        this.triggers.push([mine_cavemine_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_CAVE_MINE);
+        }]);
+        // Setting triggers ends here
+
         // Creating animations starts here
         createAnimation({
             "scene": this,
@@ -276,5 +340,11 @@ export class MineScene extends RoomScene {
             this.audioManager.play(MINE_LIGHT_OFF)
         });
         // All interactive events ends here
+
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

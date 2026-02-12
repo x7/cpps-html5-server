@@ -14,7 +14,7 @@ export default class MovementManager {
         this.x = null;
         this.y = null;
         this.speed = 1.5;
-        this.threshold = 0.5;
+        this.threshold = 1;
         this.xSpeed = null;
         this.ySpeed = null;
     }
@@ -34,20 +34,29 @@ export default class MovementManager {
         }
     }
 
+    cancelMovement() {
+        if(!this.moving) {
+            return;
+        }
+
+        this.moving = false;
+        this.animationPlaying = false;
+        this.penguin.stopAnimation();
+        this.penguin.setPose(this.pose);
+        const nw = getManager();
+        nw.send(SERVER_VERIFY_PACKET, { "packet_type": PACKET_STOP_ANIMATION });
+    }
+
     update() {
         if(!this.moving || this.penguin.getPenguinContainer() == null) {
             return;
         }
 
         this.pose = this.pose.toLowerCase();
+        console.log(this.pose)
 
         if(Math.abs(this.penguin.getX() - this.x) < this.threshold && Math.abs(this.penguin.getY() - this.y) < this.threshold) {
-            this.moving = false;
-            this.animationPlaying = false;
-            this.penguin.stopAnimation();
-            this.penguin.setPose(this.pose);
-            const nw = getManager();
-            nw.send(SERVER_VERIFY_PACKET, { "packet_type": PACKET_STOP_ANIMATION });
+            this.cancelMovement();
             return;
         }
 

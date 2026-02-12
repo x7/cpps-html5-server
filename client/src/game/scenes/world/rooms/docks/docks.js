@@ -1,16 +1,18 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { DOCKS_ROOM_BOUNCY_CIRCLES, DOCKS_ROOM_MUSIC } from "../../../../audio/audioConstants";
+import { SCENE_ROOM_BEACH, SCENE_ROOM_DOCKS, SCENE_ROOM_SKI_VILLAGE, SCENE_ROOM_TOWN } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class DocksScene extends RoomScene {
     constructor() {
-        super("DocksScene")
+        super(SCENE_ROOM_DOCKS);
     }
 
-    init() {
-        this.assetManager = this.getAssetManager();
-		this.audioManager = this.getAudioManager();
+    init(data) {
+        super.init(data);
     }
 
     preloadContent() {
@@ -20,6 +22,14 @@ export class DocksScene extends RoomScene {
             "name": "docks",
             "paths": ["assets/world/rooms/docks/docks-pack.json"]
         });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "docks_walking_trigger",
+            "paths": ["assets/world/rooms/docks/docks_walking_trigger.png"]
+        });
+
 
 		this.assetManager.load({
             "scene": this,
@@ -111,6 +121,60 @@ export class DocksScene extends RoomScene {
 		docks_left_side_chair_png.scaleX = 0.8823557579528026;
 		docks_left_side_chair_png.scaleY = 0.652412431045195;
 
+		// docks_ski_village_trigger
+		const docks_ski_village_trigger = this.add.ellipse(714, 253, 128, 128);
+		docks_ski_village_trigger.scaleX = 1.2679146399238799;
+		docks_ski_village_trigger.scaleY = 0.7493950913979157;
+		docks_ski_village_trigger.alpha = 0.001;
+		docks_ski_village_trigger.isFilled = true;
+
+		// docks_beach_trigger
+		const docks_beach_trigger = this.add.ellipse(394, 247, 128, 128);
+		docks_beach_trigger.scaleX = 1.2679146399238799;
+		docks_beach_trigger.scaleY = 0.7493950913979157;
+		docks_beach_trigger.alpha = 0.001;
+		docks_beach_trigger.isFilled = true;
+
+		// docks_town_trigger
+		const docks_town_trigger = this.add.ellipse(1439, 240, 128, 128);
+		docks_town_trigger.scaleX = 1.2679146399238799;
+		docks_town_trigger.scaleY = 2.0280017444606337;
+		docks_town_trigger.alpha = 0.001;
+		docks_town_trigger.isFilled = true;
+
+		// docks_walking_trigger
+		const docks_walking_trigger = this.physics.add.sprite(767, 422, "docks_walking_trigger");
+		docks_walking_trigger.alpha = 0.001;
+		docks_walking_trigger.alphaTopLeft = 0.001;
+		docks_walking_trigger.alphaTopRight = 0.001;
+		docks_walking_trigger.alphaBottomLeft = 0.001;
+		docks_walking_trigger.alphaBottomRight = 0.001;
+		this.collisionMap = this.createCollisionMap(this, 767, 422, "docks_walking_trigger");
+
+		// Setting arcade physics sprites starts here
+		this.physics.add.existing(docks_ski_village_trigger);
+		this.physics.add.existing(docks_beach_trigger);
+		this.physics.add.existing(docks_town_trigger);
+		// Setting arcade physics sprites ends here
+
+		// Setting triggers starts here
+		this.triggers.push([docks_walking_trigger, () => {
+			onWalkingTrigger(this);
+		}]);
+		
+		this.triggers.push([docks_beach_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_BEACH);
+		}]);
+
+		this.triggers.push([docks_ski_village_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_SKI_VILLAGE);
+		}]);
+
+		this.triggers.push([docks_town_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_TOWN);
+		}]);
+		// Setting triggers ends here
+
         // Animations start here
         createAnimation({
             scene: this,
@@ -185,5 +249,10 @@ export class DocksScene extends RoomScene {
         // All interactive events ends here
 
 		this.audioManager.play(DOCKS_ROOM_MUSIC);
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

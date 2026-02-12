@@ -1,5 +1,8 @@
 import { ASSET_TYPES } from "../../../../../assets/assetTypes";
 import { DOJO_FIRE_ROOM_MUSIC } from "../../../../../audio/audioConstants";
+import { SCENE_ROOM_DOJO, SCENE_ROOM_FIRE_DOJO } from "../../../../sceneNames";
+import { onJoinRoomTrigger } from "../../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../../triggers/walkingTrigger";
 import { RoomScene } from "../../RoomScene";
 
 // TODO: Redesign this entirely
@@ -7,7 +10,7 @@ import { RoomScene } from "../../RoomScene";
 
 export class FireDojoScene extends RoomScene {
     constructor() {
-        super("FireDojoScene");
+        super(SCENE_ROOM_FIRE_DOJO);
     }
 
     init(data) {
@@ -20,6 +23,13 @@ export class FireDojoScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "firedojo",
             "paths": ["assets/world/rooms/dojo/firedojo/firedojo-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "fire_dojo_walking_trigger",
+            "paths": ["assets/world/rooms/dojo/firedojo/fire_dojo_walking_trigger.png"]
         });
 
 		this.assetManager.load({
@@ -144,6 +154,42 @@ export class FireDojoScene extends RoomScene {
 		fire_dojo_text_png.scaleX = 0.9845179754180426;
 		fire_dojo_text_png.scaleY = 0.8602657157555187;
 
+		// fire_dojo_dojo_trigger
+		const fire_dojo_dojo_trigger = this.add.rectangle(1451, 579, 128, 128);
+		fire_dojo_dojo_trigger.scaleX = 0.7611245540060891;
+		fire_dojo_dojo_trigger.scaleY = 1.3917970487386522;
+		fire_dojo_dojo_trigger.alpha = 0.001;
+		fire_dojo_dojo_trigger.isFilled = true;
+
+		// fire_dojo_walking_trigger
+		const fire_dojo_walking_trigger = this.physics.add.sprite(756, 471, "fire_dojo_walking_trigger");
+		fire_dojo_walking_trigger.alpha = 0.001;
+		fire_dojo_walking_trigger.alphaTopLeft = 0.001;
+		fire_dojo_walking_trigger.alphaTopRight = 0.001;
+		fire_dojo_walking_trigger.alphaBottomLeft = 0.001;
+		fire_dojo_walking_trigger.alphaBottomRight = 0.001;
+		fire_dojo_walking_trigger.body.setSize(1520, 960, false);
+		this.collisionMap = this.createCollisionMap(this, 756, 471, "fire_dojo_walking_trigger");
+
+		// Setting arcade physics sprites starts here
+		this.physics.add.existing(fire_dojo_dojo_trigger);
+		// Setting arcade physics sprites ends here
+
+		// Setting triggers starts here
+		this.triggers.push([fire_dojo_walking_trigger, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([fire_dojo_dojo_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_DOJO);
+		}]);
+		// Setting triggers ends here
+
 		this.audioManager.play(DOJO_FIRE_ROOM_MUSIC);
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

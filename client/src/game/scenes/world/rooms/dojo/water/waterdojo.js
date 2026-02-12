@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../../assets/assetTypes";
 import { DOJO_WATER_ROOM_MUSIC } from "../../../../../audio/audioConstants";
-import { SCENE_ROOM_WATER_DOJO } from "../../../../sceneNames";
+import { SCENE_ROOM_DOJO, SCENE_ROOM_WATER_DOJO } from "../../../../sceneNames";
+import { onJoinRoomTrigger } from "../../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../../triggers/walkingTrigger";
 import { RoomScene } from "../../RoomScene";
 
 export class WaterDojoScene extends RoomScene {
@@ -18,11 +20,18 @@ export class WaterDojoScene extends RoomScene {
     }
 
     preloadContent() {
-        this.assetManager.load({
+		this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.PACK,
             "name": this.textureKey,
             "paths": [`${this.assetPath}${this.textureKey}-pack.json`]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "water_dojo_walking_trigger",
+            "paths": [`${this.assetPath}water_dojo_walking_trigger.png`]
         });
 
 		this.assetManager.load({
@@ -197,6 +206,35 @@ export class WaterDojoScene extends RoomScene {
 		water_dojo_sensi_hover_trigger.scaleY = 1.8041036129849024;
 		water_dojo_sensi_hover_trigger.alpha = 0.001;
 		water_dojo_sensi_hover_trigger.isFilled = true;
+
+		// water_dojo_walking_trigger_png
+		const water_dojo_walking_trigger_png = this.physics.add.sprite(774, 475, "water_dojo_walking_trigger");
+		water_dojo_walking_trigger_png.alpha = 0.001;
+		water_dojo_walking_trigger_png.alphaTopLeft = 0.001;
+		water_dojo_walking_trigger_png.alphaTopRight = 0.001;
+		water_dojo_walking_trigger_png.alphaBottomLeft = 0.001;
+		water_dojo_walking_trigger_png.alphaBottomRight = 0.001;
+		water_dojo_walking_trigger_png.body.setSize(1520, 960, false);
+		this.collisionMap = this.createCollisionMap(this, 774, 475, "water_dojo_walking_trigger");
+
+		// water_dojo_dojo_trigger
+		const water_dojo_dojo_trigger = this.physics.add.sprite(776, 828, "dojowater", "water_dojo_first_match_mat0004.png");
+		water_dojo_dojo_trigger.alpha = 0.001;
+		water_dojo_dojo_trigger.alphaTopLeft = 0.001;
+		water_dojo_dojo_trigger.alphaTopRight = 0.001;
+		water_dojo_dojo_trigger.alphaBottomLeft = 0.001;
+		water_dojo_dojo_trigger.alphaBottomRight = 0.001;
+		water_dojo_dojo_trigger.body.setSize(320, 140, false);
+
+		// Setting triggers starts here
+		this.triggers.push([water_dojo_walking_trigger_png, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([water_dojo_dojo_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_DOJO);
+		}]);
+		// Setting triggers ends here
 
 		// Creating animations starts here
 		createAnimation({
@@ -377,5 +415,10 @@ export class WaterDojoScene extends RoomScene {
 		// All interactive events ends here
 
 		this.audioManager.play(DOJO_WATER_ROOM_MUSIC);
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

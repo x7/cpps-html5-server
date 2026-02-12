@@ -6,13 +6,15 @@ export class SceneManager {
     game = null;
     currentScene = null;
     launchedScenes = new Set();
+    addedScenes = new Set();
 
     constructor(game) {
         this.game = game;
     }
 
     add({ sceneKey = null, scene, autoStart = false }) {
-        if(this.get(sceneKey) != null) {
+        console.log(`CHECKING ${sceneKey} ${this.addedScenes.has(sceneKey)}`)
+        if(sceneKey == null || this.get(sceneKey) != null || this.addedScenes.has(sceneKey)) {
             return;
         }
 
@@ -25,7 +27,8 @@ export class SceneManager {
             scene = sceneClass;
         }
 
-        this.game.scene.add((sceneKey == null ? null : sceneKey), scene, autoStart);
+        this.game.scene.add(sceneKey, scene, autoStart)
+        this.addedScenes.add(sceneKey);
     }
 
     get(sceneId) {

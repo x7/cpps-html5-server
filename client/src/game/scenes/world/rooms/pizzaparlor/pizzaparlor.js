@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { PIZZA_PARLOR_CASH_REGISTER_CLOSE, PIZZA_PARLOR_CASH_REGISTER_OPEN, PIZZA_PARLOR_KITCHEN_DOOR_CLOSE, PIZZA_PARLOR_KITCHEN_DOOR_OPEN, PIZZA_PARLOR_PLAZA_DOOR_CLOSE, PIZZA_PARLOR_PLAZA_DOOR_OPEN, PIZZA_PARLOR_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_PIZZA_PARLOR } from "../../../sceneNames";
+import { SCENE_ROOM_PIZZA_PARLOR, SCENE_ROOM_PLAZA } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Fix left middle side open space
@@ -22,6 +24,13 @@ export class PizzaParlorScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "pizzaparlor",
             "paths": ["assets/world/rooms/pizzaparlor/pizzaparlor-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "pizza_parlor_walking_trigger0001",
+            "paths": ["assets/world/rooms/pizzaparlor/pizza_parlor_walking_trigger0001.png"]
         });
 
         this.assetManager.load({
@@ -260,6 +269,37 @@ export class PizzaParlorScene extends RoomScene {
 		// pizza_parlor_white_puffle_picture_png
 		const pizza_parlor_white_puffle_picture_png = this.add.image(1245, 124, "pizzaparlor", "pizza_parlor_white_puffle_picture.png");
 
+		// pizza_parlor_walking_trigger0001_png
+		const pizza_parlor_walking_trigger0001_png = this.physics.add.sprite(750, 481, "pizza_parlor_walking_trigger0001");
+		pizza_parlor_walking_trigger0001_png.alpha = 0.001;
+		pizza_parlor_walking_trigger0001_png.alphaTopLeft = 0.001;
+		pizza_parlor_walking_trigger0001_png.alphaTopRight = 0.001;
+		pizza_parlor_walking_trigger0001_png.alphaBottomLeft = 0.001;
+		pizza_parlor_walking_trigger0001_png.alphaBottomRight = 0.001;
+		pizza_parlor_walking_trigger0001_png.body.setSize(1520, 960, false);
+		this.collisionMap = this.createCollisionMap(this, 750, 481, "pizza_parlor_walking_trigger0001");
+
+		// pizza_parlor_plaza_trigger
+		const pizza_parlor_plaza_trigger = this.physics.add.sprite(865, 279, "pizzaparlor", "pizza_parlor_pizza_game_trigger.png");
+		pizza_parlor_plaza_trigger.scaleX = 1.5846601345502993;
+		pizza_parlor_plaza_trigger.scaleY = 1.025547496754475;
+		pizza_parlor_plaza_trigger.alpha = 0.001;
+		pizza_parlor_plaza_trigger.alphaTopLeft = 0.001;
+		pizza_parlor_plaza_trigger.alphaTopRight = 0.001;
+		pizza_parlor_plaza_trigger.alphaBottomLeft = 0.001;
+		pizza_parlor_plaza_trigger.alphaBottomRight = 0.001;
+		pizza_parlor_plaza_trigger.body.setSize(170, 40, false);
+
+		// Setting triggers starts here
+		this.triggers.push([pizza_parlor_walking_trigger0001_png, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([pizza_parlor_plaza_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_PLAZA);
+		}]);
+		// Setting triggers ends here
+
         // Creating animations starts here
         createAnimation({
             "scene": this,
@@ -331,5 +371,10 @@ export class PizzaParlorScene extends RoomScene {
         // All interactive events end here
 
         this.audioManager.play(PIZZA_PARLOR_ROOM_MUSIC);
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

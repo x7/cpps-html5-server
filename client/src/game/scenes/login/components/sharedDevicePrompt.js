@@ -3,7 +3,7 @@ import { ASSET_TYPES } from '../../../assets/assetTypes.js';
 import { BaseScene } from '../../baseScene.js';
 import { SCENE_LOGIN_SHARED_DEVICE } from '../../sceneNames.js';
 
-export class SharedDevicePrompt extends BaseScene {
+export class SharedDevicePromptScene extends BaseScene {
 	constructor() {
 		super(SCENE_LOGIN_SHARED_DEVICE);
 	}
@@ -125,5 +125,7 @@ export class SharedDevicePrompt extends BaseScene {
 			this.sceneManager.launch('LoginSavePasswordPromptScene');
 		});
 		// All interactive events end here
+
+		this.sceneManager.sendToTop(SCENE_LOGIN_SHARED_DEVICE);
 	}
 }

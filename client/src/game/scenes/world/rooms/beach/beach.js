@@ -1,18 +1,20 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { BEACH_ROOM_LIGHTHOUSE_DOOR_CLOSE, BEACH_ROOM_LIGHTHOUSE_DOOR_OPEN, BEACH_ROOM_MUSIC } from "../../../../audio/audioConstants";
+import { SCENE_ROOM_BEACH, SCENE_ROOM_DOCKS, SCENE_ROOM_LIGHT_HOUSE, SCENE_ROOM_PIRATE_SHIP, SCENE_ROOM_SKI_VILLAGE } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Add green bucket sounds
 
 export class BeachScene extends RoomScene {
     constructor() {
-        super("BeachScene");
+        super(SCENE_ROOM_BEACH);
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-		this.audioManager = this.getAudioManager();
+        super.init(data);
     }
 
     preloadContent() {
@@ -21,6 +23,13 @@ export class BeachScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "beach",
             "paths": ["assets/world/rooms/beach/beach-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "beach_walking_trigger",
+            "paths": ["assets/world/rooms/beach/beach_walking_trigger.png"]
         });
 
 		this.assetManager.load({
@@ -130,6 +139,75 @@ export class BeachScene extends RoomScene {
 		beach_right_lower_ledge_png.scaleX = 1.1130646404568485;
 		beach_right_lower_ledge_png.scaleY = 1.235393419120074;
 
+        // beach_docks_trigger
+		const beach_docks_trigger = this.add.rectangle(1257, 299, 128, 128);
+		beach_docks_trigger.setInteractive(new Phaser.Geom.Circle(64, 64, 64), Phaser.Geom.Circle.Contains);
+		beach_docks_trigger.scaleX = 0.7811366259881916;
+		beach_docks_trigger.scaleY = 1.1912750425360845;
+		beach_docks_trigger.alpha = 0.001;
+		beach_docks_trigger.isFilled = true;
+
+		// beach_ski_village_trigger
+		const beach_ski_village_trigger = this.add.rectangle(919, 184, 128, 128);
+		beach_ski_village_trigger.setInteractive(new Phaser.Geom.Circle(64, 64, 64), Phaser.Geom.Circle.Contains);
+		beach_ski_village_trigger.scaleX = 2.045086882486506;
+		beach_ski_village_trigger.scaleY = 1.8148714114032596;
+		beach_ski_village_trigger.alpha = 0.001;
+		beach_ski_village_trigger.isFilled = true;
+
+		// beach_pirate_ship_trigger
+		const beach_pirate_ship_trigger = this.add.rectangle(614, 232, 128, 128);
+		beach_pirate_ship_trigger.scaleX = 0.7811366259881916;
+		beach_pirate_ship_trigger.scaleY = 1.4477237071805544;
+		beach_pirate_ship_trigger.alpha = 0.001;
+		beach_pirate_ship_trigger.isFilled = true;
+
+		// beach_light_house_trigger
+		const beach_light_house_trigger = this.add.rectangle(397, 330, 128, 128);
+		beach_light_house_trigger.scaleX = 0.8187578201515209;
+		beach_light_house_trigger.scaleY = 0.6563003843500301;
+		beach_light_house_trigger.alpha = 0.001;
+		beach_light_house_trigger.isFilled = true;
+        
+		// beach_walking_trigger
+		const beach_walking_trigger = this.physics.add.sprite(759, 473, "beach_walking_trigger");
+		beach_walking_trigger.alpha = 0.001;
+		beach_walking_trigger.alphaTopLeft = 0.001;
+		beach_walking_trigger.alphaTopRight = 0.001;
+		beach_walking_trigger.alphaBottomLeft = 0.001;
+		beach_walking_trigger.alphaBottomRight = 0.001;
+		beach_walking_trigger.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 759, 473, "beach_walking_trigger");
+
+        // Setting arcade physics sprites starts here
+		this.physics.add.existing(beach_light_house_trigger);
+		this.physics.add.existing(beach_pirate_ship_trigger);
+		this.physics.add.existing(beach_ski_village_trigger);
+        this.physics.add.existing(beach_docks_trigger);
+		// Setting arcade physics sprites ends here
+
+        // Setting triggers starts here
+        this.triggers.push([beach_walking_trigger, () => {
+            onWalkingTrigger(this);
+        }]);
+        
+        this.triggers.push([beach_light_house_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_LIGHT_HOUSE);
+        }]);
+
+        this.triggers.push([beach_pirate_ship_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PIRATE_SHIP);
+        }]);
+
+        this.triggers.push([beach_ski_village_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_SKI_VILLAGE);
+        }]);
+
+        this.triggers.push([beach_docks_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_DOCKS);
+        }]);
+        // Setting triggers ends here
+
         // Animations start here
         createAnimation({
             "scene": this,
@@ -183,5 +261,10 @@ export class BeachScene extends RoomScene {
         // All interactive events end here
 
 		this.audioManager.play(BEACH_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

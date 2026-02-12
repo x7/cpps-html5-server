@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { COFFEE_SHOP_BEAN_COUNTER_HOVER, COFFEE_SHOP_BOTTOM_CASH_REGISTER, COFFEE_SHOP_CPT_LIGHT_OFF, COFFEE_SHOP_CPT_LIGHT_ON, COFFEE_SHOP_ROOM_MUSIC, COFFEE_SHOP_SMOOTHIE_SMASH_HOVER, COFFEE_SHOP_TOP_CASH_REGISTER, COFFEE_SHOP_TOWN_DOOR_CLOSE, COFFEE_SHOP_TOWN_DOOR_OPEN } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_COFFEE_SHOP } from "../../../sceneNames";
+import { SCENE_BOOK_ROOM, SCENE_ROOM_COFFEE_SHOP, SCENE_ROOM_TOWN } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Add blue light when hovering over smoothie smash
@@ -23,6 +25,13 @@ export class CoffeeShopScene extends RoomScene {
             type: ASSET_TYPES.PACK,
             name: "coffeeshop",
             paths: ["assets/world/rooms/coffeeshop/coffeeshop-pack.json"]
+        });
+
+		this.assetManager.load({
+            scene: this,
+            type: ASSET_TYPES.IMAGE,
+            name: "coffeeshop_walking_trigger",
+            paths: ["assets/world/rooms/coffeeshop/coffee_shop_walking_trigger.png"]
         });
 
         // this.assetManager.load({
@@ -90,7 +99,7 @@ export class CoffeeShopScene extends RoomScene {
     }
 
     createContent() {
-// coffee_shop_main_floor_png
+		// coffee_shop_main_floor_png
 		const coffee_shop_main_floor_png = this.add.image(728, 478, "coffeeshop", "coffee_shop_main_floor.png");
 
 		// coffee_shop_town_door0001_png
@@ -398,6 +407,30 @@ export class CoffeeShopScene extends RoomScene {
 		const coffee_shop_chair_bottom_left_red_arm_png = this.add.image(664, 840, "coffeeshop", "coffee_shop_chair_bottom_left_red_arm.png");
 		coffee_shop_chair_bottom_left_red_arm_png.scaleX = 1.092230943817713;
 
+		// coffee_shop_walking_trigger_png_1
+		const coffee_shop_walking_trigger_png_1 = this.physics.add.sprite(678, 415, "coffeeshop_walking_trigger");
+		coffee_shop_walking_trigger_png_1.alpha = 0.001;
+		coffee_shop_walking_trigger_png_1.alphaTopLeft = 0.001;
+		coffee_shop_walking_trigger_png_1.alphaTopRight = 0.001;
+		coffee_shop_walking_trigger_png_1.alphaBottomLeft = 0.001;
+		coffee_shop_walking_trigger_png_1.alphaBottomRight = 0.001;
+		coffee_shop_walking_trigger_png_1.body.setSize(1612, 973, false);
+		this.collisionMap = this.createCollisionMap(this, 678, 415, "coffeeshop_walking_trigger", null);
+
+		// Setting triggers starts here
+		this.triggers.push([coffee_shop_walking_trigger_png_1, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([coffee_shop_cpt_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_BOOK_ROOM);
+		}]);
+
+		this.triggers.push([coffee_shop_town_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_TOWN);
+		}]);
+		// Setting triggers ends here
+
         // Creating animations starts here
         createAnimation({
             "scene": this,
@@ -542,5 +575,11 @@ export class CoffeeShopScene extends RoomScene {
             this.audioManager.stop(COFFEE_SHOP_BOTTOM_CASH_REGISTER);
         });
         // All interactive events end here
+
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

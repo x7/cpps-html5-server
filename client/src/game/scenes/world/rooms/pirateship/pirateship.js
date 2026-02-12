@@ -1,12 +1,14 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { PIRATE_SHIP_DOOR_CLOSE, PIRATE_SHIP_DOOR_OPEN, PIRATE_SHIP_LADDER_DOWN, PIRATE_SHIP_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_PIRATE_SHOP } from "../../../sceneNames";
+import { SCENE_ROOM_BEACH, SCENE_ROOM_PIRATE_SHIP, SCENE_ROOM_SHIP_HOLD, SCENE_ROOM_SHIP_NEST } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class PirateShipScene extends RoomScene {
     constructor() {
-        super(SCENE_ROOM_PIRATE_SHOP);
+        super(SCENE_ROOM_PIRATE_SHIP);
     }
 
     init(data) {
@@ -19,6 +21,13 @@ export class PirateShipScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "pirateship",
             "paths": ["assets/world/rooms/pirateship/pirateship-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "pirateship_walking_trigger",
+            "paths": ["assets/world/rooms/pirateship/pirate_ship_walking_trigger.png"]
         });
 
         this.assetManager.load({
@@ -144,6 +153,50 @@ export class PirateShipScene extends RoomScene {
 		pirate_ship_flag_trigger_png_1.alphaBottomLeft = 0.001;
 		pirate_ship_flag_trigger_png_1.alphaBottomRight = 0.001;
 
+		// pirate_ship_ship_hold_trigger
+		const pirate_ship_ship_hold_trigger = this.physics.add.sprite(566, 498, "pirateship", "pirate_ship_downstairs_dooor0004.png");
+		pirate_ship_ship_hold_trigger.scaleX = 0.7901368990342308;
+		pirate_ship_ship_hold_trigger.scaleY = 0.6262167817963906;
+		pirate_ship_ship_hold_trigger.alpha = 0.001;
+		pirate_ship_ship_hold_trigger.alphaTopLeft = 0.001;
+		pirate_ship_ship_hold_trigger.alphaTopRight = 0.001;
+		pirate_ship_ship_hold_trigger.alphaBottomLeft = 0.001;
+		pirate_ship_ship_hold_trigger.alphaBottomRight = 0.001;
+		pirate_ship_ship_hold_trigger.body.setSize(225, 206, false);
+
+		// pirate_ship_walking_trigger_png
+		const pirate_ship_walking_trigger_png = this.physics.add.sprite(752, 479, "pirateship_walking_trigger");
+		pirate_ship_walking_trigger_png.alpha = 0.001;
+		pirate_ship_walking_trigger_png.alphaTopLeft = 0.001;
+		pirate_ship_walking_trigger_png.alphaTopRight = 0.001;
+		pirate_ship_walking_trigger_png.alphaBottomLeft = 0.001;
+		pirate_ship_walking_trigger_png.alphaBottomRight = 0.001;
+		pirate_ship_walking_trigger_png.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 752, 479, "pirateship_walking_trigger");
+
+		// pirate_ship_beach_trigger_png
+		const pirate_ship_beach_trigger_png = this.physics.add.sprite(932, 754, "pirateship", "pirate_ship_beach_trigger.png");
+		pirate_ship_beach_trigger_png.alpha = 0.001;
+		pirate_ship_beach_trigger_png.alphaTopLeft = 0.001;
+		pirate_ship_beach_trigger_png.alphaTopRight = 0.001;
+		pirate_ship_beach_trigger_png.alphaBottomLeft = 0.001;
+		pirate_ship_beach_trigger_png.alphaBottomRight = 0.001;
+		pirate_ship_beach_trigger_png.body.setSize(196, 130, false);
+
+        // Setting triggers starts here
+        this.triggers.push([pirate_ship_walking_trigger_png, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([pirate_ship_beach_trigger_png, () => {
+            onJoinRoomTrigger(SCENE_ROOM_BEACH);
+        }]);
+
+        this.triggers.push([pirate_ship_ship_hold_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_SHIP_HOLD);
+        }]);
+        // Setting triggers ends here
+
         // Creating animations starts here
         createAnimation({
             "scene": this,
@@ -219,8 +272,17 @@ export class PirateShipScene extends RoomScene {
             pirate_ship_rope_down0003_png.stop();
             pirate_ship_rope_down0003_png.setFrame("pirate_ship_rope_down0003.png");
         });
+
+        pirate_ship_up_sign0004_png.on("pointerdown", () => {
+            onJoinRoomTrigger(SCENE_ROOM_SHIP_NEST);
+        });
         // All interactive events ends here
 
         this.audioManager.play(PIRATE_SHIP_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

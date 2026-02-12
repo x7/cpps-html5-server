@@ -8,35 +8,5 @@
         "text": "You need to provide a password",
         "color": "",
         "redirect": "close"
-    },
-    "login_username_invalid_length": {
-        "text": "Username must be between 4 and 16 characters",
-        "color": "",
-        "redirect": "close"
-    },
-    "login_username_not_found": {
-        "text": "Penguin not found. Try again?",
-        "color": "",
-        "redirect": "close"
-    },
-    "login_information_doesnt_match": {
-        "text": "Incorrect username or password\nNOTE: Passwords are CaSe SeNsiTIVE",
-        "color": "",
-        "redirect": "close"
-    },
-    "server_connection_failed": {
-        "text": "Failed to connect to server",
-        "color": "",
-        "redirect": "close"
-    },
-    "websocket_connection_failed": {
-        "text": "Connection to websocket failed",
-        "color": "",
-        "redirect": "close"
-    },
-    "websocket_disconnected": {
-        "text": "Websocket has been disconnected",
-        "color": "",
-        "redirect": "close"
     }
 }

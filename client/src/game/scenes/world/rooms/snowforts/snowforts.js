@@ -2,8 +2,10 @@ import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { getClockTowerDay, getClockTowerTime } from "./snowfortsHelper";
 import { createAnimation } from "../../../../../animations/animations";
 import { SNOW_FORTS_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_SNOW_FORTS } from "../../../sceneNames";
+import { SCENE_ROOM_ICE_RINK, SCENE_ROOM_PLAZA, SCENE_ROOM_SNOW_FORTS, SCENE_ROOM_TOWN } from "../../../sceneNames";
 import { RoomScene } from "../RoomScene";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
 
 export class SnowFortsScene extends RoomScene {
     constructor() {
@@ -20,6 +22,13 @@ export class SnowFortsScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "snowforts",
             "paths": ["assets/world/rooms/snowforts/snowforts-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "snow_forts_walking_trigger",
+            "paths": ["assets/world/rooms/snowforts/snow_forts_walking_trigger.png"]
         });
 
         this.assetManager.load({
@@ -57,7 +66,7 @@ export class SnowFortsScene extends RoomScene {
 		snowforts_base_layout_png.setOrigin(0, 0);
 
 		// snowforts_clock_tower_left_wheel_png
-		this.add.image(1028, 186, "snowforts", "snowforts_clock_tower_left_wheel.png");
+		const snowforts_clock_tower_left_wheel_png = this.add.image(1028, 186, "snowforts", "snowforts_clock_tower_left_wheel.png");
 
 		// snowforts_clock_tower_behind_wheel_png
 		const snowforts_clock_tower_behind_wheel_png = this.add.image(1334, 145, "snowforts", "snowforts_clock_tower_behind_wheel.png");
@@ -159,6 +168,61 @@ export class SnowFortsScene extends RoomScene {
 		const snowforts_clock_tower_right_wheel_png = this.add.image(1272, 166, "snowforts", "snowforts_clock_tower_right_wheel.png");
 		snowforts_clock_tower_right_wheel_png.scaleX = 1.0055328425580643;
 		snowforts_clock_tower_right_wheel_png.scaleY = 0.8598798810582612;
+
+		// snow_forts_stadium_trigger
+		const snow_forts_stadium_trigger = this.add.rectangle(550, 366, 128, 128);
+		snow_forts_stadium_trigger.scaleX = 1.3915072266485704;
+		snow_forts_stadium_trigger.scaleY = 0.44837313355325203;
+		snow_forts_stadium_trigger.alpha = 0.001;
+		snow_forts_stadium_trigger.isFilled = true;
+
+		// snow_forts_town_trigger
+		const snow_forts_town_trigger = this.add.rectangle(167, 471, 128, 128);
+		snow_forts_town_trigger.scaleX = 2.3324957018156485;
+		snow_forts_town_trigger.scaleY = 0.44837313355325203;
+		snow_forts_town_trigger.alpha = 0.001;
+		snow_forts_town_trigger.isFilled = true;
+
+		// snow_forts_plaza_trigger
+		const snow_forts_plaza_trigger = this.add.rectangle(1454, 440, 128, 128);
+		snow_forts_plaza_trigger.scaleX = 1.3915072266485704;
+		snow_forts_plaza_trigger.scaleY = 0.44837313355325203;
+		snow_forts_plaza_trigger.alpha = 0.001;
+		snow_forts_plaza_trigger.isFilled = true;
+
+		// snow_forts_walking_trigger
+		const snow_forts_walking_trigger = this.physics.add.sprite(752, 480, "snow_forts_walking_trigger");
+		snow_forts_walking_trigger.alpha = 0.001;
+		snow_forts_walking_trigger.alphaTopLeft = 0.001;
+		snow_forts_walking_trigger.alphaTopRight = 0.001;
+		snow_forts_walking_trigger.alphaBottomLeft = 0.001;
+		snow_forts_walking_trigger.alphaBottomRight = 0.001;
+		snow_forts_walking_trigger.body.setSize(1520, 960, false);
+		this.collisionMap = this.createCollisionMap(this, 752, 480, "snow_forts_walking_trigger");
+
+		// Setting arcade physics sprites starts here
+		this.physics.add.existing(snow_forts_plaza_trigger);
+		this.physics.add.existing(snow_forts_town_trigger);
+		this.physics.add.existing(snow_forts_stadium_trigger);
+		// Setting arcade physics sprites ends here
+
+		// Setting triggers starts here
+		this.triggers.push([snow_forts_walking_trigger, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([snow_forts_plaza_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_PLAZA);
+		}]);
+
+		this.triggers.push([snow_forts_town_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_TOWN);
+		}]);
+
+		this.triggers.push([snow_forts_stadium_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_ICE_RINK);
+		}]);
+		// Setting triggers ends here
 
 		// Setting instances start here
 		this.snowforts_clock_tower_time_text = snowforts_clock_tower_time_text;

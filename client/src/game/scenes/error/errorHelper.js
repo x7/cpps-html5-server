@@ -2,7 +2,7 @@ import { getGameManager, getSceneManager } from "../../../main";
 
 let errors = null;
 
-export function displayError(key) {
+export function displayError(errorMessage = "No error message provided", key = null) {
     const sceneManager = getSceneManager();
     const gameManager = getGameManager();
 
@@ -10,16 +10,8 @@ export function displayError(key) {
         errors = gameManager.getGame().cache.json.get("error-json");
     }
 
-    let errorMessage = "No error message found";
-
     sceneManager.pause(sceneManager.getCurrentScene().scene.key);
-    sceneManager.add({
-        sceneKey: "ErrorScene",
-        scene: null,
-        autoStart: false
-    });
-
-    sceneManager.launch("ErrorScene", { "message": errorMessage.text });
+    sceneManager.launch("ErrorScene", { "message": (key == null ? errorMessage : errors[key]) });
 }
 
 export function removeError() {

@@ -1,7 +1,10 @@
 import { createAnimation } from "../../../../../../animations/animations";
+import { onWebsocketClose } from "../../../../../../network/connection/websocketClose";
 import { ASSET_TYPES } from "../../../../../assets/assetTypes";
 import { DOJO_SNOW_BATTLE_LAUGH, DOJO_SNOW_BRIDGE_BOUNCE, DOJO_SNOW_LIGHT_OFF, DOJO_SNOW_LIGHT_ON, DOJO_SNOW_ROOM_MUSIC } from "../../../../../audio/audioConstants";
-import { SCENE_ROOM_SNOW_DOJO } from "../../../../sceneNames";
+import { SCENE_ROOM_DOJO, SCENE_ROOM_SNOW_DOJO } from "../../../../sceneNames";
+import { onJoinRoomTrigger } from "../../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../../triggers/walkingTrigger";
 import { RoomScene } from "../../RoomScene";
 
 // TODO: Get bridge moving up animation when hovered over it
@@ -22,6 +25,13 @@ export class SnowDojoScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "snowdojo",
             "paths": ["assets/world/rooms/dojo/snowdojo/snowdojo-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "snow_dojo_walking_trigger",
+            "paths": ["assets/world/rooms/dojo/snowdojo/snow_dojo_walking_trigger.png"]
         });
 
         this.assetManager.load({
@@ -121,6 +131,35 @@ export class SnowDojoScene extends RoomScene {
 		snow_dojo_random_button_not_sure_what_this_trigger.alphaBottomLeft = 0.001;
 		snow_dojo_random_button_not_sure_what_this_trigger.alphaBottomRight = 0.001;
 
+        // snow_dojo_walking_trigger_png
+		const snow_dojo_walking_trigger_png = this.physics.add.sprite(759, 481, "snow_dojo_walking_trigger");
+		snow_dojo_walking_trigger_png.alpha = 0.001;
+		snow_dojo_walking_trigger_png.alphaTopLeft = 0.001;
+		snow_dojo_walking_trigger_png.alphaTopRight = 0.001;
+		snow_dojo_walking_trigger_png.alphaBottomLeft = 0.001;
+		snow_dojo_walking_trigger_png.alphaBottomRight = 0.001;
+		snow_dojo_walking_trigger_png.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 759, 481, "snow_dojo_walking_trigger");
+
+		// snow_dojo_dojo_trigger
+		const snow_dojo_dojo_trigger = this.physics.add.sprite(40, 663, "snowdojo", "snow_dojo_dojo_trigger.png");
+		snow_dojo_dojo_trigger.alpha = 0.001;
+		snow_dojo_dojo_trigger.alphaTopLeft = 0.001;
+		snow_dojo_dojo_trigger.alphaTopRight = 0.001;
+		snow_dojo_dojo_trigger.alphaBottomLeft = 0.001;
+		snow_dojo_dojo_trigger.alphaBottomRight = 0.001;
+		snow_dojo_dojo_trigger.body.setSize(248, 147, false);
+
+         // Setting triggers starts here
+        this.triggers.push([snow_dojo_walking_trigger_png, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([snow_dojo_dojo_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_DOJO);
+        }]);
+        // Setting triggers ends here
+
         // Creating animations starts here
         createAnimation({
             "scene": this,
@@ -175,5 +214,10 @@ export class SnowDojoScene extends RoomScene {
         // All interactive events end here
 
         this.audioManager.play(DOJO_SNOW_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

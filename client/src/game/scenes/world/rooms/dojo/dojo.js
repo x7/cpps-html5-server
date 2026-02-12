@@ -1,6 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { DOJO_ROOM_FIRE_DOOR_CLOSE, DOJO_ROOM_FIRE_DOOR_OPEN, DOJO_ROOM_MUSIC, DOJO_ROOM_SNOW_DOOR_CLOSE, DOJO_ROOM_SNOW_DOOR_OPEN, DOJO_ROOM_WATER_DOOR_CLOSE, DOJO_ROOM_WATER_DOOR_OPEN } from "../../../../audio/audioConstants";
+import { SCENE_ROOM_DOJO, SCENE_ROOM_DOJO_COURTYARD, SCENE_ROOM_FIRE_DOJO, SCENE_ROOM_SNOW_DOJO, SCENE_ROOM_WATER_DOJO } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Fix fire door bugging out on hover events
@@ -8,7 +11,7 @@ import { RoomScene } from "../RoomScene";
 
 export class DojoScene extends RoomScene {
     constructor() {
-        super("DojoScene");
+        super(SCENE_ROOM_DOJO);
     }
 
     init(data) {
@@ -21,6 +24,13 @@ export class DojoScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "dojo",
             "paths": ["assets/world/rooms/dojo/dojo-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "dojo_walking_trigger",
+            "paths": ["assets/world/rooms/dojo/dojo_walking_trigger.png"]
         });
 
 		this.assetManager.load({
@@ -272,6 +282,73 @@ export class DojoScene extends RoomScene {
 		dojo_card_jistu_mat0002_png_3.flipX = true;
 		dojo_card_jistu_mat0002_png_3.visible = false;
 
+		// dojo_snow_dojo_trigger
+		const dojo_snow_dojo_trigger = this.add.rectangle(1288, 456, 128, 128);
+		dojo_snow_dojo_trigger.scaleX = 0.706525035978595;
+		dojo_snow_dojo_trigger.scaleY = 1.3548260611700154;
+		dojo_snow_dojo_trigger.alpha = 0.001;
+		dojo_snow_dojo_trigger.isFilled = true;
+
+		// dojo_water_dojo_trigger
+		const dojo_water_dojo_trigger = this.add.rectangle(765, 304, 128, 128);
+		dojo_water_dojo_trigger.scaleX = 1.2440996405849758;
+		dojo_water_dojo_trigger.scaleY = 0.5882977475764765;
+		dojo_water_dojo_trigger.alpha = 0.001;
+		dojo_water_dojo_trigger.isFilled = true;
+
+		// dojo_fire_dojo_trigger
+		const dojo_fire_dojo_trigger = this.add.ellipse(212, 416, 128, 128);
+		dojo_fire_dojo_trigger.scaleX = 1.1275964037063009;
+		dojo_fire_dojo_trigger.scaleY = 1.260378195379042;
+		dojo_fire_dojo_trigger.alpha = 0.001;
+		dojo_fire_dojo_trigger.isFilled = true;
+
+		// dojo_walking_trigger
+		const dojo_walking_trigger = this.physics.add.sprite(772, 480, "dojo_walking_trigger");
+		dojo_walking_trigger.alpha = 0.001;
+		dojo_walking_trigger.alphaTopLeft = 0.001;
+		dojo_walking_trigger.alphaTopRight = 0.001;
+		dojo_walking_trigger.alphaBottomLeft = 0.001;
+		dojo_walking_trigger.alphaBottomRight = 0.001;
+		dojo_walking_trigger.body.setSize(1600, 1040, false);
+		this.collisionMap = this.createCollisionMap(this, 772, 480, "dojo_walking_trigger");
+
+		// dojo_dojo_courtyard_trigger
+		const dojo_dojo_courtyard_trigger = this.add.rectangle(758, 879, 128, 128);
+		dojo_dojo_courtyard_trigger.scaleX = 4.388247161287299;
+		dojo_dojo_courtyard_trigger.scaleY = 0.8510641324561674;
+		dojo_dojo_courtyard_trigger.alpha = 0.001;
+		dojo_dojo_courtyard_trigger.isFilled = true;
+
+		// Setting arcade physics sprites starts here
+		this.physics.add.existing(dojo_fire_dojo_trigger);
+		this.physics.add.existing(dojo_water_dojo_trigger);
+		this.physics.add.existing(dojo_snow_dojo_trigger);
+		this.physics.add.existing(dojo_dojo_courtyard_trigger);
+		// Setting arcade physics sprites ends here
+
+		// Setting triggers starts here
+		this.triggers.push([dojo_walking_trigger, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([dojo_fire_dojo_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_FIRE_DOJO);
+		}]);
+
+		this.triggers.push([dojo_water_dojo_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_WATER_DOJO);
+		}]);
+
+		this.triggers.push([dojo_snow_dojo_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_SNOW_DOJO);
+		}]);
+
+		this.triggers.push([dojo_dojo_courtyard_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_DOJO_COURTYARD);
+		}]);
+		// Setting triggers ends here
+
         // Animations start here
         createAnimation({
             "scene": this,
@@ -408,5 +485,10 @@ export class DojoScene extends RoomScene {
         // All interactive events end here
 
 		this.audioManager.play(DOJO_ROOM_MUSIC);
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

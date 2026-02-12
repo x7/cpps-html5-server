@@ -10,22 +10,22 @@
     "display_name": "Clothes Shop",
     "available": true,
     "max_players": 60,
-    "spawn_x": 800,
-    "spawn_y": 700
+    "spawn_x": 1110,
+    "spawn_y": 437
   },
   "DanceClubScene": {
     "display_name": "Dance Club",
     "available": true,
     "max_players": 60,
-    "spawn_x": 800,
-    "spawn_y": 700
+    "spawn_x": 389,
+    "spawn_y": 533
   },
   "CoffeeShopScene": {
     "display_name": "Coffee Shop",
     "available": false,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 688,
+    "spawn_y": 444
   },
   "SnowFortsScene": {
     "display_name": "Snow Forts",
@@ -38,133 +38,280 @@
     "display_name": "Plaza",
     "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 500
   },
   "PetShopScene": {
     "display_name": "Pet Shop",
-    "available": false,
+    "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 500
   },
   "PizzaParlorScene": {
     "display_name": "Pizza Parlor",
-    "available": false,
+    "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 500
   },
   "BeachScene": {
     "display_name": "Beach",
     "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 400
   },
   "LightHouseScene": {
     "display_name": "Lighthouse",
     "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 700
   },
   "BeaconScene": {
     "display_name": "Beacon",
     "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 600,
+    "spawn_y": 850
   },
   "IceBergScene": {
     "display_name": "Iceberg",
     "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 500
   },
   "BoilerRoomScene": {
     "display_name": "Boiler Room",
     "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 900,
+    "spawn_y": 600
   },
   "CoveScene": {
     "display_name": "Cove",
-    "available": true,
+    "available": false,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 500
   },
   "DocksScene": {
     "display_name": "Docks",
     "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 500
   },
   "SkiVillageScene": {
     "display_name": "Ski Village",
     "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 500
   },
   "SkiHillScene": {
     "display_name": "Ski Hill",
-    "available": true,
+    "available": false,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 400
   },
   "SchoolScene": {
     "display_name": "School",
-    "available": false,
+    "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 700,
+    "spawn_y": 600
   },
   "PuffleWildScene": {
     "display_name": "Puffle Wild",
-    "available": true,
+    "available": false,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 700,
+    "spawn_y": 400
   },
   "MineShackScene": {
     "display_name": "Mine Shack",
     "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 500
   },
   "DojoScene": {
     "display_name": "Dojo",
     "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 500
   },
   "FireDojoScene": {
     "display_name": "Fire Dojo",
     "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 500
   },
   "WaterDojoScene": {
     "display_name": "Water Dojo",
     "available": false,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 500
   },
   "SnowDojoScene": {
     "display_name": "Snow Dojo",
-    "available": false,
+    "available": true,
     "max_players": 60,
-    "spawn_x": 0,
-    "spawn_y": 0
+    "spawn_x": 800,
+    "spawn_y": 500
+  },
+  "BookRoomScene": {
+    "display_name": "Book Room",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 1211,
+    "spawn_y": 481
+  },
+  "LoungeScene": {
+    "display_name": "Lounge",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 1184,
+    "spawn_y": 598
+  },
+  "PirateShipScene": {
+    "display_name": "Pirate Ship",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 500
+  },
+  "ShipHoldScene": {
+    "display_name": "Ship Hold",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 500
+  },
+  "ShipNestScene": {
+    "display_name": "Ship Nest",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 500
+  },
+  "SkiLodgeScene": {
+    "display_name": "Ski Lodge",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 500
+  },
+  "AtticScene": {
+    "display_name": "Attic",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 500
+  },
+  "IceRinkScene": {
+    "display_name": "Ice Rink",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 500
+  },
+  "ForestScene": {
+    "display_name": "Forest",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 500
+  },
+  "DojoCourtYardScene": {
+    "display_name": "Dojo Courtyard",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 766,
+    "spawn_y": 700
+  },
+  "SkateParkScene": {
+    "display_name": "Skate Park",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 500
+  },
+  "PuffleParkScene": {
+    "display_name": "Puffle Park",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 500
+  },
+  "PuffleHotelLobbyScene": {
+    "display_name": "Puffle Hotel Lobby",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 500
+  },
+  "PuffleHotelSpaScene": {
+    "display_name": "Puffle Hotel Spa",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 500
+  },
+  "PuffleHotelRoofScene": {
+    "display_name": "Puffle Hotel Roof",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 500
+  },
+  "BerryMallScene": {
+    "display_name": "Berry Mall",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 850
+  },
+  "CaveScene": {
+    "display_name": "Cave",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 850
+  },
+  "CaveMineScene": {
+    "display_name": "Cave Mine",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 850
+  },
+  "MineScene": {
+    "display_name": "Mine",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 850
+  },
+  "HiddenLakeScene": {
+    "display_name": "Hidden Lake",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 850
+  },
+  "UnderwaterScene": {
+    "display_name": "Underwater",
+    "available": true,
+    "max_players": 60,
+    "spawn_x": 800,
+    "spawn_y": 850
   }
 }

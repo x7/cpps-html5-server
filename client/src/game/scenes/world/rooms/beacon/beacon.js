@@ -1,6 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { BEACON_ROOM_MUSIC } from "../../../../audio/audioConstants";
+import { SCENE_ROOM_BEACON, SCENE_ROOM_LIGHT_HOUSE } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Launch pad hover effect little buggy
@@ -8,12 +11,12 @@ import { RoomScene } from "../RoomScene";
 
 export class BeaconScene extends RoomScene {
     constructor() {
-        super("BeaconScene");
+        super(SCENE_ROOM_BEACON);
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-        this.audioManager = this.getAudioManager();
+        super.init(data);
+
         this.beaconLightOn = true;
     }
 
@@ -27,15 +30,22 @@ export class BeaconScene extends RoomScene {
 
         this.assetManager.load({
             "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "beacon_walking_trigger",
+            "paths": ["assets/world/rooms/beacon/beacon_walking_trigger.png"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": BEACON_ROOM_MUSIC,
-            "paths": ["assets/world/rooms/beacon/beacon_music.json"]
+            "paths": ["assets/world/rooms/beacon/beacon_room_music.mp3"]
         });
     }
 
     createContent() {
 		// beacon_sky_png
-		this.add.image(745, 203, "beacon", "beacon_sky.png");
+		const beacon_sky_png = this.add.image(745, 203, "beacon", "beacon_sky.png");
 
 		// beacon_water_png
 		const beacon_water_png = this.add.image(758, 663, "beacon", "beacon_water.png");
@@ -132,6 +142,37 @@ export class BeaconScene extends RoomScene {
 		beacon_poole_png_2.scaleX = 1.4434381140865555;
 		beacon_poole_png_2.scaleY = 0.7876176405593813;
 
+		// beacon_light_house_trigger
+		const beacon_light_house_trigger = this.add.rectangle(169, 567, 128, 128);
+		beacon_light_house_trigger.scaleX = 0.861041044414108;
+		beacon_light_house_trigger.scaleY = 0.7708025147089017;
+		beacon_light_house_trigger.alpha = 0.001;
+		beacon_light_house_trigger.isFilled = true;
+
+		// beacon_walking_trigger
+		const beacon_walking_trigger = this.physics.add.sprite(774, 449, "beacon_walking_trigger");
+		beacon_walking_trigger.alpha = 0.001;
+		beacon_walking_trigger.alphaTopLeft = 0.001;
+		beacon_walking_trigger.alphaTopRight = 0.001;
+		beacon_walking_trigger.alphaBottomLeft = 0.001;
+		beacon_walking_trigger.alphaBottomRight = 0.001;
+		beacon_walking_trigger.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 774, 449, "beacon_walking_trigger");
+
+        // Setting arcade physics sprites starts here
+        this.physics.add.existing(beacon_light_house_trigger);
+        // Setting arcade physics sprites ends here
+
+        // Setting triggers starts here
+        this.triggers.push([beacon_walking_trigger, () => {
+            onWalkingTrigger(this);
+        }]);
+        
+        this.triggers.push([beacon_light_house_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_LIGHT_HOUSE);
+        }]);
+        // Setting triggers ends here
+
         // Animations starts here
         createAnimation({
             "scene": this,
@@ -227,5 +268,10 @@ export class BeaconScene extends RoomScene {
         // All interactive events end here
 
         this.audioManager.play(BEACON_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

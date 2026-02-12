@@ -21,6 +21,7 @@ export class Penguin {
         this.y = 500;
         this.penguinContainer = null;
         this.body = null;
+        this.pose = null;
         this.overlay = null;
         this.chat = null;
         this.currentAnimation = null;
@@ -35,6 +36,9 @@ export class Penguin {
         this.penguinContainer = scene.add.container(x, y);
         this.body = scene.physics.add.sprite(0, 0, "penguin", "penguin/body/0");
         this.overlay = scene.physics.add.sprite(0, 0, "penguin", "penguin/overlay/0");
+
+        this.body.name = "penguin_body";
+        this.overlay.name = "penguin_overlay";
 
         // Making the hitbox smaller
         this.body.setSize(95, 85, true);
@@ -170,14 +174,14 @@ export class Penguin {
         this.penguinContainer.y = y;
     }
 
-    setPose(pose, sitting) {     
-        console.log(this.getCurrentAnimation())
-        if(this.getCurrentAnimation() != null && !this.getCurrentAnimation().startsWith("penguin_idle_look_")) {
+    setPose(pose, sitting, ignoreChecks = false) {     
+        if(this.getCurrentAnimation() != null && !this.getCurrentAnimation().startsWith("penguin_idle_look_") && !ignoreChecks) {
             return;
         }  
 
         const penguinState = sitting ? "sitting" : "idle";
         pose = pose.toLowerCase();
+        this.pose = pose.toLowerCase();
 
         const networkManager = getManager();
         let animationKey = null;

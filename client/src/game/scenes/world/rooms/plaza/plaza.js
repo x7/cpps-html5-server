@@ -1,16 +1,18 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { PLAZA_ROOM_MUSIC } from "../../../../audio/audioConstants";
+import { SCENE_ROOM_BERRY_MALL, SCENE_ROOM_CAVE, SCENE_ROOM_FOREST, SCENE_ROOM_PET_SHOP, SCENE_ROOM_PIZZA_PARLOR, SCENE_ROOM_PLAZA, SCENE_ROOM_PUFFLE_HOTEL_LOBBY, SCENE_ROOM_PUFFLE_PARK, SCENE_ROOM_SNOW_FORTS } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class PlazaScene extends RoomScene {
     constructor() {
-        super("PlazaScene");
+        super(SCENE_ROOM_PLAZA);
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-        this.audioManager = this.getAudioManager();
+        super.init(data);
     }
 
     preloadContent() {
@@ -23,9 +25,16 @@ export class PlazaScene extends RoomScene {
 
         this.assetManager.load({
             "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "plaza_walking_trigger",
+            "paths": ["assets/world/rooms/plaza/plaza_walking_trigger.png"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PLAZA_ROOM_MUSIC,
-            "paths": ["assets/world/rooms/plaza/plaza_music.mp3"]
+            "paths": ["assets/world/rooms/plaza/plaza_room_music.mp3"]
         });
     }
 
@@ -161,6 +170,120 @@ export class PlazaScene extends RoomScene {
 		plaza_underground_door_png.scaleX = 1.062600097429365;
 		plaza_underground_door_png.scaleY = 0.9322432415619236;
 
+        // plaza_puffle_hotel_trigger
+		const plaza_puffle_hotel_trigger = this.add.rectangle(661, 439, 128, 128);
+		plaza_puffle_hotel_trigger.scaleX = 0.6418773503319696;
+		plaza_puffle_hotel_trigger.scaleY = 0.4447027427521548;
+		plaza_puffle_hotel_trigger.alpha = 0.001;
+		plaza_puffle_hotel_trigger.isFilled = true;
+
+		// plaza_berry_mall_trigger
+		const plaza_berry_mall_trigger = this.add.rectangle(923, 440, 128, 128);
+		plaza_berry_mall_trigger.scaleX = 0.7453273631214405;
+		plaza_berry_mall_trigger.scaleY = 0.4447027427521548;
+		plaza_berry_mall_trigger.alpha = 0.001;
+		plaza_berry_mall_trigger.isFilled = true;
+
+		// plaza_pizza_parlor_trigger
+		const plaza_pizza_parlor_trigger = this.add.rectangle(1218, 451, 128, 128);
+		plaza_pizza_parlor_trigger.scaleX = 0.7453273631214405;
+		plaza_pizza_parlor_trigger.scaleY = 0.4447027427521548;
+		plaza_pizza_parlor_trigger.alpha = 0.001;
+		plaza_pizza_parlor_trigger.isFilled = true;
+
+		// plaza_pet_shop_trigger
+		const plaza_pet_shop_trigger = this.add.rectangle(419, 448, 128, 128);
+		plaza_pet_shop_trigger.scaleX = 1.0261702330798397;
+		plaza_pet_shop_trigger.scaleY = 0.4447027427521548;
+		plaza_pet_shop_trigger.alpha = 0.001;
+		plaza_pet_shop_trigger.isFilled = true;
+
+		// plaza_puffle_park_trigger
+		const plaza_puffle_park_trigger = this.add.rectangle(169, 466, 128, 128);
+		plaza_puffle_park_trigger.scaleX = 0.7904877069093351;
+		plaza_puffle_park_trigger.scaleY = 0.4447027427521548;
+		plaza_puffle_park_trigger.alpha = 0.001;
+		plaza_puffle_park_trigger.isFilled = true;
+
+		// plaza_snow_forts_trigger
+		const plaza_snow_forts_trigger = this.add.rectangle(19, 497, 128, 128);
+		plaza_snow_forts_trigger.scaleX = 0.7032064376954231;
+		plaza_snow_forts_trigger.scaleY = 0.4447027427521548;
+		plaza_snow_forts_trigger.alpha = 0.001;
+		plaza_snow_forts_trigger.isFilled = true;
+
+		// plaza_cave_trigger
+		const plaza_cave_trigger = this.add.ellipse(525, 539, 128, 128);
+		plaza_cave_trigger.scaleX = 0.8472926321252788;
+		plaza_cave_trigger.scaleY = 0.43272954499508154;
+		plaza_cave_trigger.alpha = 0.001;
+		plaza_cave_trigger.isFilled = true;
+
+		// plaza_forest_trigger
+		const plaza_forest_trigger = this.add.rectangle(1462, 488, 128, 128);
+		plaza_forest_trigger.scaleX = 1.0433581787463355;
+		plaza_forest_trigger.scaleY = 0.8212288028500787;
+		plaza_forest_trigger.alpha = 0.001;
+		plaza_forest_trigger.isFilled = true;
+
+		// plaza_walking_trigger
+		const plaza_walking_trigger = this.physics.add.sprite(761, 477, "plaza_walking_trigger");
+		plaza_walking_trigger.alpha = 0.001;
+		plaza_walking_trigger.alphaTopLeft = 0.001;
+		plaza_walking_trigger.alphaTopRight = 0.001;
+		plaza_walking_trigger.alphaBottomLeft = 0.001;
+		plaza_walking_trigger.alphaBottomRight = 0.001;
+		plaza_walking_trigger.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 761, 477, "plaza_walking_trigger");
+
+        // Setting arcade physics sprites starts here
+		this.physics.add.existing(plaza_forest_trigger);
+		this.physics.add.existing(plaza_cave_trigger);
+        this.physics.add.existing(plaza_snow_forts_trigger);
+        this.physics.add.existing(plaza_puffle_park_trigger);
+        this.physics.add.existing(plaza_pet_shop_trigger);
+        this.physics.add.existing(plaza_pizza_parlor_trigger);
+        this.physics.add.existing(plaza_berry_mall_trigger);
+        this.physics.add.existing(plaza_puffle_hotel_trigger);
+		// Setting arcade physics sprites ends here
+
+        // Setting triggers starts here
+        this.triggers.push([plaza_walking_trigger, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([plaza_forest_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_FOREST);
+        }]);
+
+        this.triggers.push([plaza_cave_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_CAVE);
+        }]);
+
+        this.triggers.push([plaza_snow_forts_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_SNOW_FORTS);
+        }]);
+
+        this.triggers.push([plaza_puffle_park_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PUFFLE_PARK);
+        }]);
+        this.triggers.push([plaza_pet_shop_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PET_SHOP);
+        }]);
+
+        this.triggers.push([plaza_pizza_parlor_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PIZZA_PARLOR);
+        }]);
+
+        this.triggers.push([plaza_berry_mall_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_BERRY_MALL);
+        }]);
+
+        this.triggers.push([plaza_puffle_hotel_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PUFFLE_HOTEL_LOBBY);
+        }]);
+        // Setting triggers ends here
+
         // Animations start here
         createAnimation({
             "scene": this,
@@ -277,5 +400,10 @@ export class PlazaScene extends RoomScene {
         // All interactive events end here
 
         this.audioManager.play(PLAZA_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

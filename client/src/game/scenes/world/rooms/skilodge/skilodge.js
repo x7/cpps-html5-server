@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { SKI_LODGE_ATTIC_LIGHT_OFF, SKI_LODGE_ATTIC_LIGHT_ON, SKI_LODGE_FIREPLACE_CLOCK_BIRD, SKI_LODGE_ICE_FISHING_DOOR_CLOSE, SKI_LODGE_ICE_FISHING_DOOR_OPEN, SKI_LODGE_PUFFLE_WILD_DOOR_CLOSE, SKI_LODGE_PUFFLE_WILD_DOOR_OPEN, SKI_LODGE_ROOM_MUSIC, SKI_LODGE_SKI_VILLAGE_DOOR_CLOSE, SKI_LODGE_SKI_VILLAGE_DOOR_OPEN } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_SKI_LODGE } from "../../../sceneNames";
+import { SCENE_ROOM_ATTIC, SCENE_ROOM_PUFFLE_WILD, SCENE_ROOM_SKI_LODGE, SCENE_ROOM_SKI_VILLAGE } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Add attic light
@@ -22,6 +24,13 @@ export class SkiLodgeScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "skilodge",
             "paths": ["assets/world/rooms/skilodge/skilodge-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "ski_lodge_walking_trigger",
+            "paths": ["assets/world/rooms/skilodge/ski_lodge_walking_trigger.png"]
         });
 
         this.assetManager.load({
@@ -269,6 +278,76 @@ export class SkiLodgeScene extends RoomScene {
 		const ski_lodge_bird_coming_out_of_clock0001_png = this.add.sprite(1263, 363, "skilodge", "ski_lodge_bird_coming_out_of_clock0001.png");
 		ski_lodge_bird_coming_out_of_clock0001_png.flipX = true;
 
+        // ski_lodge_walking_trigger
+		const ski_lodge_walking_trigger = this.physics.add.sprite(764, 474, "ski_lodge_walking_trigger");
+		ski_lodge_walking_trigger.alpha = 0.001;
+		ski_lodge_walking_trigger.alphaTopLeft = 0.001;
+		ski_lodge_walking_trigger.alphaTopRight = 0.001;
+		ski_lodge_walking_trigger.alphaBottomLeft = 0.001;
+		ski_lodge_walking_trigger.alphaBottomRight = 0.001;
+		ski_lodge_walking_trigger.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 764, 474, "ski_lodge_walking_trigger");
+
+		// ski_lodge_ice_fishing_game_trigge
+		const ski_lodge_ice_fishing_game_trigge = this.physics.add.sprite(983, 278, "skilodge", "ski_lodge_ice_fishing_game_trigger.png");
+		ski_lodge_ice_fishing_game_trigge.scaleX = 0.6754926524153833;
+		ski_lodge_ice_fishing_game_trigge.alpha = 0.001;
+		ski_lodge_ice_fishing_game_trigge.alphaTopLeft = 0.001;
+		ski_lodge_ice_fishing_game_trigge.alphaTopRight = 0.001;
+		ski_lodge_ice_fishing_game_trigge.alphaBottomLeft = 0.001;
+		ski_lodge_ice_fishing_game_trigge.alphaBottomRight = 0.001;
+		ski_lodge_ice_fishing_game_trigge.body.setSize(189, 74, false);
+
+		// ski_lodge_puffle_wild_trigger
+		const ski_lodge_puffle_wild_trigger = this.physics.add.sprite(440, 280, "skilodge", "ski_lodge_puffle_wild_trigger.png");
+		ski_lodge_puffle_wild_trigger.scaleX = 0.6117869784785134;
+		ski_lodge_puffle_wild_trigger.alpha = 0.001;
+		ski_lodge_puffle_wild_trigger.alphaTopLeft = 0.001;
+		ski_lodge_puffle_wild_trigger.alphaTopRight = 0.001;
+		ski_lodge_puffle_wild_trigger.alphaBottomLeft = 0.001;
+		ski_lodge_puffle_wild_trigger.alphaBottomRight = 0.001;
+		ski_lodge_puffle_wild_trigger.body.setSize(189, 74, false);
+
+		// ski_lodge_ski_village_trigger
+		const ski_lodge_ski_village_trigger = this.physics.add.sprite(60, 506, "skilodge", "ski_lodge_ski_village_trigger.png");
+		ski_lodge_ski_village_trigger.scaleY = 0.6364569419401336;
+		ski_lodge_ski_village_trigger.alpha = 0.001;
+		ski_lodge_ski_village_trigger.alphaTopLeft = 0.001;
+		ski_lodge_ski_village_trigger.alphaTopRight = 0.001;
+		ski_lodge_ski_village_trigger.alphaBottomLeft = 0.001;
+		ski_lodge_ski_village_trigger.alphaBottomRight = 0.001;
+
+		// skI_lodge_attic_trigger
+		const skI_lodge_attic_trigger = this.physics.add.sprite(1272, 255, "skilodge", "skI_lodge_attic_trigger.png");
+		skI_lodge_attic_trigger.alpha = 0.001;
+		skI_lodge_attic_trigger.alphaTopLeft = 0.001;
+		skI_lodge_attic_trigger.alphaTopRight = 0.001;
+		skI_lodge_attic_trigger.alphaBottomLeft = 0.001;
+		skI_lodge_attic_trigger.alphaBottomRight = 0.001;
+		skI_lodge_attic_trigger.body.setSize(176, 183, false);
+
+        // Setting triggers starts here
+        this.triggers.push([ski_lodge_walking_trigger, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([skI_lodge_attic_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_ATTIC);
+        }]);
+
+        this.triggers.push([ski_lodge_ski_village_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_SKI_VILLAGE);
+        }]);
+
+        this.triggers.push([ski_lodge_puffle_wild_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PUFFLE_WILD);
+        }]);
+
+        this.triggers.push([ski_lodge_ski_village_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_SKI_VILLAGE);
+        }]);
+        // Setting triggers ends here
+
         // Creating animations starts here
         createAnimation({
             "scene": this,
@@ -381,5 +460,11 @@ export class SkiLodgeScene extends RoomScene {
 
         this.audioManager.play(SKI_LODGE_ROOM_MUSIC);
         // All interactive events ends here
+
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

@@ -1,16 +1,18 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
-import { GIFT_SHOP_ROOM_MUSIC } from "../../../../audio/audioConstants";;
+import { GIFT_SHOP_ROOM_MUSIC } from "../../../../audio/audioConstants";import { SCENE_ROOM_CLOTHES_SHOP, SCENE_ROOM_TOWN } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
+;
 import { RoomScene } from "../RoomScene";
 
 export class GiftshopScene extends RoomScene {
     constructor() {
-        super("GiftShopScene");
+        super(SCENE_ROOM_CLOTHES_SHOP);
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-        this.audioManager = this.getAudioManager();
+        super.init(data);
     }
 
     preloadContent() {
@@ -23,6 +25,13 @@ export class GiftshopScene extends RoomScene {
 
         this.assetManager.load({
             "scene": this,
+            "type": ASSET_TYPES.PACK,
+            "name": "giftshop-triggers",
+            "paths": ["assets/world/rooms/giftshop/giftshop-triggers-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": GIFT_SHOP_ROOM_MUSIC,
             "paths": ["assets/world/rooms/giftshop/giftshop_music.mp3"]
@@ -30,7 +39,7 @@ export class GiftshopScene extends RoomScene {
     }
 
     createContent() {
-		// giftshop_main_png
+        // giftshop_main_png
 		const giftshop_main_png = this.add.image(-117, -41, "giftshop", "giftshop_main.png");
 		giftshop_main_png.scaleX = 0.9958943252972757;
 		giftshop_main_png.setOrigin(0, 0);
@@ -116,6 +125,92 @@ export class GiftshopScene extends RoomScene {
 		giftshop_door0002_png.scaleY = 0.984027915938957;
 		giftshop_door0002_png.visible = false;
 
+		// giftshop_town_trigger
+		const giftshop_town_trigger = this.physics.add.sprite(1097, 254, "giftshop", "giftshop_door0004.png");
+		giftshop_town_trigger.scaleX = 0.7637955002265135;
+		giftshop_town_trigger.scaleY = 0.9004847400713745;
+		giftshop_town_trigger.alpha = 0.001;
+		giftshop_town_trigger.alphaTopLeft = 0.001;
+		giftshop_town_trigger.alphaTopRight = 0.001;
+		giftshop_town_trigger.alphaBottomLeft = 0.001;
+		giftshop_town_trigger.alphaBottomRight = 0.001;
+		giftshop_town_trigger.body.setSize(173, 224, false);
+
+		// giftshop_curtains_hover_trigger
+		const giftshop_curtains_hover_trigger = this.add.image(444, 298, "giftshop", "giftshop_curtain0004.png");
+		giftshop_curtains_hover_trigger.scaleX = 0.7174282267397791;
+		giftshop_curtains_hover_trigger.scaleY = 0.7385700099618152;
+		giftshop_curtains_hover_trigger.alpha = 0.001;
+		giftshop_curtains_hover_trigger.alphaTopLeft = 0.001;
+		giftshop_curtains_hover_trigger.alphaTopRight = 0.001;
+		giftshop_curtains_hover_trigger.alphaBottomLeft = 0.001;
+		giftshop_curtains_hover_trigger.alphaBottomRight = 0.001;
+
+		// giftshop_chest0001_png
+		const giftshop_chest0001_png = this.add.image(1335, 547, "giftshop", "giftshop_chest0001.png");
+
+		// giftshop_chest0002_png
+		const giftshop_chest0002_png = this.add.image(1335, 547, "giftshop", "giftshop_chest0002.png");
+		giftshop_chest0002_png.visible = false;
+
+		// giftshop_chest_hover_trigger
+		const giftshop_chest_hover_trigger = this.add.image(1333, 561, "giftshop", "giftshop_chest0004.png");
+		giftshop_chest_hover_trigger.scaleX = 0.9333516373643962;
+		giftshop_chest_hover_trigger.scaleY = 0.8343866414990089;
+		giftshop_chest_hover_trigger.alpha = 0.001;
+		giftshop_chest_hover_trigger.alphaTopLeft = 0.001;
+		giftshop_chest_hover_trigger.alphaTopRight = 0.001;
+		giftshop_chest_hover_trigger.alphaBottomLeft = 0.001;
+		giftshop_chest_hover_trigger.alphaBottomRight = 0.001;
+
+		// giftshop_watches_hover_trigger0004_png
+		const giftshop_watches_hover_trigger0004_png = this.add.image(1416, 439, "giftshop", "giftshop_watches_hover_trigger0004.png");
+		giftshop_watches_hover_trigger0004_png.alpha = 0.001;
+		giftshop_watches_hover_trigger0004_png.alphaTopLeft = 0.001;
+		giftshop_watches_hover_trigger0004_png.alphaTopRight = 0.001;
+		giftshop_watches_hover_trigger0004_png.alphaBottomLeft = 0.001;
+		giftshop_watches_hover_trigger0004_png.alphaBottomRight = 0.001;
+
+		// giftshop_cash_register_hover_trigger0004_png
+		const giftshop_cash_register_hover_trigger0004_png = this.add.image(1276, 364, "giftshop", "giftshop_cash_register_hover_trigger0004.png");
+		giftshop_cash_register_hover_trigger0004_png.scaleX = 0.8625541291022913;
+		giftshop_cash_register_hover_trigger0004_png.scaleY = 0.6788529779161818;
+		giftshop_cash_register_hover_trigger0004_png.alpha = 0.001;
+		giftshop_cash_register_hover_trigger0004_png.alphaTopLeft = 0.001;
+		giftshop_cash_register_hover_trigger0004_png.alphaTopRight = 0.001;
+		giftshop_cash_register_hover_trigger0004_png.alphaBottomLeft = 0.001;
+		giftshop_cash_register_hover_trigger0004_png.alphaBottomRight = 0.001;
+
+		// giftshop_walking_trigger_png
+		const giftshop_walking_trigger_png = this.physics.add.sprite(762, 489, "giftshop-triggers", "giftshop_walking_trigger.png");
+		giftshop_walking_trigger_png.alpha = 0.001;
+		giftshop_walking_trigger_png.alphaTopLeft = 0.001;
+		giftshop_walking_trigger_png.alphaTopRight = 0.001;
+		giftshop_walking_trigger_png.alphaBottomLeft = 0.001;
+		giftshop_walking_trigger_png.alphaBottomRight = 0.001;
+		giftshop_walking_trigger_png.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 762, 489, "giftshop-triggers", "giftshop_walking_trigger.png");
+
+		// giftshop_chest_trigger_png
+		const giftshop_chest_trigger_png = this.add.sprite(1323, 583, "giftshop", "giftshop_chest_trigger.png");
+		giftshop_chest_trigger_png.scaleX = 0.6874836120458289;
+		giftshop_chest_trigger_png.scaleY = 0.653713718035664;
+		giftshop_chest_trigger_png.alpha = 0.001;
+		giftshop_chest_trigger_png.alphaTopLeft = 0.001;
+		giftshop_chest_trigger_png.alphaTopRight = 0.001;
+		giftshop_chest_trigger_png.alphaBottomLeft = 0.001;
+		giftshop_chest_trigger_png.alphaBottomRight = 0.001;
+
+        // Setting triggers starts here
+        this.triggers.push([giftshop_walking_trigger_png, () => {
+            onWalkingTrigger(this);
+        }]);
+        
+        this.triggers.push([giftshop_town_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_TOWN);
+        }]);
+        // Setting triggers ends here
+
         // Animations start here
         createAnimation({
             "scene": this,
@@ -200,5 +295,10 @@ export class GiftshopScene extends RoomScene {
         // All interactive events emd here
 
         this.audioManager.play(GIFT_SHOP_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

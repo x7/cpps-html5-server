@@ -2,7 +2,7 @@ import { createAnimation } from "../../../animations/animations.js";
 import { BaseScene } from "../baseScene.js";
 import { ASSET_TYPES } from "../../assets/assetTypes.js";
 import { displayLoading, removeLoading } from "../loading/loadingHelper.js";
-import { SCENE_PRELOAD_ASSETS, SCENE_START_SCREEN } from "../sceneNames.js";
+import * as SceneNames from "../sceneNames.js";
 
 /*
     Responsible for preloading some assets like penguin body animations and data (jsons etc)
@@ -10,11 +10,11 @@ import { SCENE_PRELOAD_ASSETS, SCENE_START_SCREEN } from "../sceneNames.js";
 
 export class PreloadAssetsScene extends BaseScene {
     constructor() {
-        super(SCENE_PRELOAD_ASSETS);
+        super(SceneNames.SCENE_PRELOAD_ASSETS);
     }
 
-    init() {
-        super.init();
+    init(data) {
+        super.init(data);
     }
 
     preloadContent() {
@@ -81,22 +81,33 @@ export class PreloadAssetsScene extends BaseScene {
             }
         }
 
-        // this.sceneManager.add({ sceneKey: "ServerSelectionScene", scene: null, autoStart: false });
-        this.sceneManager.start("WaterDojoScene");
+        displayLoading(SceneNames.SCENE_PRELOAD_ASSETS, "Loading Assets");
 
-        // displayLoading(SCENE_PRELOAD_ASSETS, "Loading Assets");
+        // Preload every single scene so its ready to be used for future use (saves loading time)
+        for (const [key, value] of Object.entries(SceneNames)) {
+            if(!key.toLowerCase().startsWith("scene") || !value.toLowerCase().endsWith("scene")) {
+                continue;
+            }
 
-        // this.removeLoading = this.time.addEvent({
-        //     delay: 1250,
-        //     callback: () => {
-        //         removeLoading({
-        //             "currentScene": SCENE_PRELOAD_ASSETS,
-        //             "goToScene": SCENE_START_SCREEN,
-        //             "goToSceneText": "Loading Start",
-        //             "callback": null
-        //         });
-        //         this.time.removeEvent(this.removeLoading);
-        //     }
-        // })
+            this.sceneManager.add({
+                "sceneKey": value,
+                "scene": null,
+                "autoStart": false
+            });
+        }
+
+        // Then call a timed event to load the start screen scene
+        this.removeLoading = this.time.addEvent({
+            delay: 1000,
+            callback: () => {
+                removeLoading({
+                    "currentScene": SceneNames.SCENE_PRELOAD_ASSETS,
+                    "goToScene": SceneNames.SCENE_START_SCREEN,
+                    "goToSceneText": "Loading Start",
+                    "callback": null
+                });
+                this.time.removeEvent(this.removeLoading);
+            }
+        });
     }
 }

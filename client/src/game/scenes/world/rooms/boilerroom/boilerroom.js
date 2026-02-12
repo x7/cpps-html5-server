@@ -1,11 +1,14 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { BOILER_ROOM_DOOR_CLOSE, BOILER_ROOM_DOOR_OPEN, BOILER_ROOM_DRAWER_CLOSE, BOILER_ROOM_DRAWER_OPEN, BOILER_ROOM_MUSIC } from "../../../../audio/audioConstants";
+import { SCENE_ROOM_BOILER_ROOM, SCENE_ROOM_CAVE, SCENE_ROOM_DANCE_CLUB } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class BoilerRoomScene extends RoomScene {
     constructor() {
-        super("BoilerRoomScene");
+        super(SCENE_ROOM_BOILER_ROOM);
     }
 
     init(data) {
@@ -18,6 +21,13 @@ export class BoilerRoomScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "boilerroom",
             "paths": ["assets/world/rooms/boilerroom/boilerroom-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "boiler_room_walking_trigger",
+            "paths": ["assets/world/rooms/boilerroom/boiler_room_walking_trigger.png"]
         });
 
         this.assetManager.load({
@@ -138,6 +148,49 @@ export class BoilerRoomScene extends RoomScene {
 		boiler_room_draw0001_png_10.scaleX = 0.5921143306003507;
 		boiler_room_draw0001_png_10.scaleY = 0.6359666733992642;
 
+        // boiler_room_cave_trigger
+		const boiler_room_cave_trigger = this.add.ellipse(593, 484, 128, 128);
+		boiler_room_cave_trigger.scaleX = 1.042483966965941;
+		boiler_room_cave_trigger.scaleY = 0.516698858554303;
+		boiler_room_cave_trigger.alpha = 0.001;
+		boiler_room_cave_trigger.isFilled = true;
+
+		// boiler_room_dance_club_trigger
+		const boiler_room_dance_club_trigger = this.add.ellipse(1037, 497, 128, 128);
+		boiler_room_dance_club_trigger.scaleX = 0.7584106997209328;
+		boiler_room_dance_club_trigger.scaleY = 0.516698858554303;
+		boiler_room_dance_club_trigger.alpha = 0.001;
+		boiler_room_dance_club_trigger.isFilled = true;
+
+		// boiler_room_walking_trigger
+		const boiler_room_walking_trigger = this.physics.add.sprite(762, 453, "boiler_room_walking_trigger");
+		boiler_room_walking_trigger.alpha = 0.001;
+		boiler_room_walking_trigger.alphaTopLeft = 0.001;
+		boiler_room_walking_trigger.alphaTopRight = 0.001;
+		boiler_room_walking_trigger.alphaBottomLeft = 0.001;
+		boiler_room_walking_trigger.alphaBottomRight = 0.001;
+		boiler_room_walking_trigger.body.setSize(1520, 917, false);
+        this.collisionMap = this.createCollisionMap(this, 762, 453, "boiler_room_walking_trigger");
+
+        // Setting arcade physics sprites starts here
+		this.physics.add.existing(boiler_room_dance_club_trigger);
+		this.physics.add.existing(boiler_room_cave_trigger);
+		// Setting arcade physics sprites ends here
+
+        // Setting triggers starts here
+        this.triggers.push([boiler_room_walking_trigger, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([boiler_room_dance_club_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_DANCE_CLUB);
+        }]);
+
+        this.triggers.push([boiler_room_cave_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_CAVE);
+        }]);
+        // Setting triggers ends here
+
         // Animations start here
         createAnimation({
             "scene": this,
@@ -209,5 +262,10 @@ export class BoilerRoomScene extends RoomScene {
         // All interactive events end here
 
         // this.audioManager.play(BOILER_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

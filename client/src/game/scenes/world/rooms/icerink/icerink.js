@@ -1,5 +1,7 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
-import { SCENE_ROOM_ICE_RINK } from "../../../sceneNames";
+import { SCENE_ROOM_ICE_RINK, SCENE_ROOM_SCHOOL, SCENE_ROOM_SNOW_FORTS } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Get hq images for some sprites
@@ -20,6 +22,13 @@ export class IceRinkScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "icehockey",
             "paths": ["assets/world/rooms/icerink/icehockey-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "ice_hockey_walk_trigger",
+            "paths": ["assets/world/rooms/icerink/ice_hockey_walk_trigger.png"]
         });
     }
 
@@ -114,5 +123,56 @@ export class IceRinkScene extends RoomScene {
 
 		// ice_hockey_left_net_top_png
 		const ice_hockey_left_net_top_png = this.add.image(243, 514, "icehockey", "ice_hockey_left_net_top.png");
+
+		// ice_hockey_school_trigger
+		const ice_hockey_school_trigger = this.physics.add.sprite(1335, 236, "icehockey", "ice_hockey_school_trigger.png");
+		ice_hockey_school_trigger.scaleX = 0.41643727795312274;
+		ice_hockey_school_trigger.scaleY = 0.4829631893223174;
+		ice_hockey_school_trigger.alpha = 0.001;
+		ice_hockey_school_trigger.alphaTopLeft = 0.001;
+		ice_hockey_school_trigger.alphaTopRight = 0.001;
+		ice_hockey_school_trigger.alphaBottomLeft = 0.001;
+		ice_hockey_school_trigger.alphaBottomRight = 0.001;
+		ice_hockey_school_trigger.body.setSize(233, 200, false);
+
+		// ice_hockey_snow_forts_trigger
+		const ice_hockey_snow_forts_trigger = this.physics.add.sprite(762, 192, "icehockey", "ice_hockey_snow_forts_trigger.png");
+		ice_hockey_snow_forts_trigger.alpha = 0.001;
+		ice_hockey_snow_forts_trigger.alphaTopLeft = 0.001;
+		ice_hockey_snow_forts_trigger.alphaTopRight = 0.001;
+		ice_hockey_snow_forts_trigger.alphaBottomLeft = 0.001;
+		ice_hockey_snow_forts_trigger.alphaBottomRight = 0.001;
+		ice_hockey_snow_forts_trigger.body.setSize(100, 100, false);
+
+		// ice_hockey_walk_trigger
+		const ice_hockey_walk_trigger = this.physics.add.sprite(750, 477, "ice_hockey_walk_trigger");
+		ice_hockey_walk_trigger.scaleX = 1.0213096271784012;
+		ice_hockey_walk_trigger.alpha = 0.001;
+		ice_hockey_walk_trigger.alphaTopLeft = 0.001;
+		ice_hockey_walk_trigger.alphaTopRight = 0.001;
+		ice_hockey_walk_trigger.alphaBottomLeft = 0.001;
+		ice_hockey_walk_trigger.alphaBottomRight = 0.001;
+		ice_hockey_walk_trigger.body.setSize(1520, 960, false);
+		this.collisionMap = this.createCollisionMap(this, 750, 477, "ice_hockey_walk_trigger");
+
+		// Setting triggers starts here
+		this.triggers.push([ice_hockey_walk_trigger, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([ice_hockey_snow_forts_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_SNOW_FORTS);
+		}]);
+
+		this.triggers.push([ice_hockey_school_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_SCHOOL);
+		}]);
+		// Setting triggers ends here
+
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

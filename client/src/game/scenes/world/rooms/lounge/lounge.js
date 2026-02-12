@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { LOUNGE_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_LOUNGE } from "../../../sceneNames";
+import { SCENE_ROOM_DANCE_CLUB, SCENE_ROOM_LOUNGE } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class LoungeScene extends RoomScene {
@@ -23,6 +25,13 @@ export class LoungeScene extends RoomScene {
 
         this.assetManager.load({
             "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "lounge_walk_trigger",
+            "paths": ["assets/world/rooms/lounge/lounge_walking_trigger.png"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": LOUNGE_ROOM_MUSIC,
             "paths": ["assets/world/rooms/lounge/lounge_room_music.mp3"]
@@ -30,7 +39,7 @@ export class LoungeScene extends RoomScene {
     }
 
     createContent() {
-        // lounge_dance_floor0001_png
+		// lounge_dance_floor0001_png
 		const lounge_dance_floor0001_png = this.add.sprite(819, 952, "lounge", "lounge_dance_floor0001.png");
 		lounge_dance_floor0001_png.scaleX = 0.6028137299756102;
 		lounge_dance_floor0001_png.scaleY = 0.5039178802983882;
@@ -92,12 +101,13 @@ export class LoungeScene extends RoomScene {
 		const lounge_hit_the_target_railing_png = this.add.image(781, 429, "lounge", "lounge_hit_the_target_railing.png");
 
 		// lounge_exit_trigger_png
-		const lounge_exit_trigger_png = this.add.image(1434, 745, "lounge", "lounge_exit_trigger.png");
+		const lounge_exit_trigger_png = this.physics.add.sprite(1434, 745, "lounge", "lounge_exit_trigger.png");
 		lounge_exit_trigger_png.alpha = 0.001;
 		lounge_exit_trigger_png.alphaTopLeft = 0.001;
 		lounge_exit_trigger_png.alphaTopRight = 0.001;
 		lounge_exit_trigger_png.alphaBottomLeft = 0.001;
 		lounge_exit_trigger_png.alphaBottomRight = 0.001;
+		lounge_exit_trigger_png.body.setSize(225, 284, false);
 
 		// lounge_exit_railing_png
 		const lounge_exit_railing_png = this.add.image(1414, 728, "lounge", "lounge_exit_railing.png");
@@ -185,36 +195,31 @@ export class LoungeScene extends RoomScene {
 		const lounge_astro_barrier_seat_png = this.add.image(1194, 493, "lounge", "lounge_astro_barrier_seat.png");
 
 		// lounge_thin_ice_trigger_png
-		const lounge_thin_ice_trigger_png = this.add.image(1130, 351, "lounge", "lounge_thin_ice_trigger.png");
+		const lounge_thin_ice_trigger_png = this.physics.add.sprite(1130, 351, "lounge", "lounge_thin_ice_trigger.png");
 		lounge_thin_ice_trigger_png.alpha = 0.001;
 		lounge_thin_ice_trigger_png.alphaTopLeft = 0.001;
 		lounge_thin_ice_trigger_png.alphaTopRight = 0.001;
 		lounge_thin_ice_trigger_png.alphaBottomLeft = 0.001;
 		lounge_thin_ice_trigger_png.alphaBottomRight = 0.001;
+		lounge_thin_ice_trigger_png.body.setSize(142, 133, false);
 
 		// lounge_astro_barrier_trigger_png
-		const lounge_astro_barrier_trigger_png = this.add.image(1235, 430, "lounge", "lounge_astro_barrier_trigger.png");
+		const lounge_astro_barrier_trigger_png = this.physics.add.sprite(1235, 430, "lounge", "lounge_astro_barrier_trigger.png");
 		lounge_astro_barrier_trigger_png.alpha = 0.001;
 		lounge_astro_barrier_trigger_png.alphaTopLeft = 0.001;
 		lounge_astro_barrier_trigger_png.alphaTopRight = 0.001;
 		lounge_astro_barrier_trigger_png.alphaBottomLeft = 0.001;
 		lounge_astro_barrier_trigger_png.alphaBottomRight = 0.001;
+		lounge_astro_barrier_trigger_png.body.setSize(152, 147, false);
 
 		// lounge_bits_bolt_trigger_png
-		const lounge_bits_bolt_trigger_png = this.add.image(286, 441, "lounge", "lounge_bits_bolt_trigger.png");
+		const lounge_bits_bolt_trigger_png = this.physics.add.sprite(286, 441, "lounge", "lounge_bits_bolt_trigger.png");
 		lounge_bits_bolt_trigger_png.alpha = 0.001;
 		lounge_bits_bolt_trigger_png.alphaTopLeft = 0.001;
 		lounge_bits_bolt_trigger_png.alphaTopRight = 0.001;
 		lounge_bits_bolt_trigger_png.alphaBottomLeft = 0.001;
 		lounge_bits_bolt_trigger_png.alphaBottomRight = 0.001;
-
-		// lounge_walking_trigger_png
-		const lounge_walking_trigger_png = this.add.image(764, 403, "lounge", "lounge_walking_trigger.png");
-		lounge_walking_trigger_png.alpha = 0.001;
-		lounge_walking_trigger_png.alphaTopLeft = 0.001;
-		lounge_walking_trigger_png.alphaTopRight = 0.001;
-		lounge_walking_trigger_png.alphaBottomLeft = 0.001;
-		lounge_walking_trigger_png.alphaBottomRight = 0.001;
+		lounge_bits_bolt_trigger_png.body.setSize(152, 154, false);
 
 		// lounge_hit_the_target_top_left_middle0001_png
 		const lounge_hit_the_target_top_left_middle0001_png = this.add.sprite(614, 123, "lounge", "lounge_hit_the_target_top_left_middle0001.png");
@@ -273,6 +278,28 @@ export class LoungeScene extends RoomScene {
 
 		// lounge_right_table_bottom_chair_stand_png
 		const lounge_right_table_bottom_chair_stand_png = this.add.image(1379, 900, "lounge", "lounge_right_table_bottom_chair_stand.png");
+
+		// lounge_walking_trigger_png_1
+		const lounge_walking_trigger_png_1 = this.physics.add.sprite(762, 382, "lounge_walk_trigger");
+		lounge_walking_trigger_png_1.scaleX = 1.0214264858570925;
+		lounge_walking_trigger_png_1.scaleY = 1.4591998114303781;
+		lounge_walking_trigger_png_1.alpha = 0.001;
+		lounge_walking_trigger_png_1.alphaTopLeft = 0.001;
+		lounge_walking_trigger_png_1.alphaTopRight = 0.001;
+		lounge_walking_trigger_png_1.alphaBottomLeft = 0.001;
+		lounge_walking_trigger_png_1.alphaBottomRight = 0.001;
+		lounge_walking_trigger_png_1.body.setSize(1523, 806, false);
+        this.collisionMap = this.createCollisionMap(this, 762, 382, "lounge_walk_trigger");
+
+        // Setting triggers starts here
+        this.triggers.push([lounge_walking_trigger_png_1, () => {
+            onWalkingTrigger(this);
+        }]);
+        
+        this.triggers.push([lounge_exit_trigger_png, () => {
+            onJoinRoomTrigger(SCENE_ROOM_DANCE_CLUB);
+        }]);
+        // Setting triggers ends here
 
         // Creating animations starts here
         createAnimation({
@@ -543,5 +570,10 @@ export class LoungeScene extends RoomScene {
         // All interactive events ends here
 
         this.audioManager.play(LOUNGE_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

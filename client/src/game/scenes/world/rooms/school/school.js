@@ -1,6 +1,8 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { SCHOOL_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_SCHOOL } from "../../../sceneNames";
+import { SCENE_ROOM_ICE_RINK, SCENE_ROOM_MINE_SHACK, SCENE_ROOM_SCHOOL } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Add hover doors
@@ -24,6 +26,13 @@ export class SchoolScene extends RoomScene {
             type: ASSET_TYPES.PACK,
             name: this.textureKey,
             paths: [`${this.assetPath}/${this.textureKey}-pack.json`]
+        });
+
+		this.assetManager.load({
+            scene: this,
+            type: ASSET_TYPES.IMAGE,
+            name: `${this.textureKey}_walking_trigger`,
+            paths: [`${this.assetPath}/${this.textureKey}_walking_trigger.png`]
         });
 
         this.assetManager.load({
@@ -184,6 +193,57 @@ export class SchoolScene extends RoomScene {
 		// school_food_bar_icon0001_png
 		const school_food_bar_icon0001_png = this.add.image(1347, 158, "school", "school_food_bar_icon0001.png");
 
+		// school_right_side_door_trigger_png
+		const school_right_side_door_trigger_png = this.physics.add.sprite(1467, 685, "school", "school_right_side_door_trigger.png");
+		school_right_side_door_trigger_png.scaleX = 0.6758384426962973;
+		school_right_side_door_trigger_png.scaleY = 0.8171243218763948;
+		school_right_side_door_trigger_png.alpha = 0.001;
+		school_right_side_door_trigger_png.alphaTopLeft = 0.001;
+		school_right_side_door_trigger_png.alphaTopRight = 0.001;
+		school_right_side_door_trigger_png.alphaBottomLeft = 0.001;
+		school_right_side_door_trigger_png.alphaBottomRight = 0.001;
+		school_right_side_door_trigger_png.body.setSize(198, 212, false);
+
+		// school_left_side_door_trigger_png
+		const school_left_side_door_trigger_png = this.physics.add.sprite(56, 691, "school", "school_left_side_door_trigger.png");
+		school_left_side_door_trigger_png.scaleX = 0.5817405332020855;
+		school_left_side_door_trigger_png.scaleY = 0.6709287160474938;
+		school_left_side_door_trigger_png.alpha = 0.001;
+		school_left_side_door_trigger_png.alphaTopLeft = 0.001;
+		school_left_side_door_trigger_png.alphaTopRight = 0.001;
+		school_left_side_door_trigger_png.alphaBottomLeft = 0.001;
+		school_left_side_door_trigger_png.alphaBottomRight = 0.001;
+		school_left_side_door_trigger_png.body.setSize(198, 212, false);
+
+		// school_walking_trigger_png
+		const school_walking_trigger_png = this.physics.add.sprite(753, 470, `${this.textureKey}_walking_trigger`);
+		school_walking_trigger_png.alpha = 0.001;
+		school_walking_trigger_png.alphaTopLeft = 0.001;
+		school_walking_trigger_png.alphaTopRight = 0.001;
+		school_walking_trigger_png.alphaBottomLeft = 0.001;
+		school_walking_trigger_png.alphaBottomRight = 0.001;
+		school_walking_trigger_png.body.setSize(1520, 960, false);
+		this.collisionMap = this.createCollisionMap(this, 753, 470, `${this.textureKey}_walking_trigger`);
+
+		// Setting triggers starts here
+		this.triggers.push([school_walking_trigger_png, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([school_left_side_door_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_ICE_RINK);
+		}]);
+
+		this.triggers.push([school_right_side_door_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_MINE_SHACK);
+		}]);
+		// Setting triggers ends here
+
         this.audioManager.play(SCHOOL_ROOM_MUSIC);
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

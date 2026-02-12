@@ -1,6 +1,8 @@
 import { ASSET_TYPES } from '../../../../assets/assetTypes.js';
 import { CAVE_MINE_ROOM_MUSIC, CAVE_MINE_LIGHT_ON, CAVE_MINE_LIGHT_OFF } from '../../../../audio/audioConstants.js';
-import { SCENE_ROOM_CAVE_MINE } from '../../../sceneNames.js';
+import { SCENE_ROOM_CAVE_MINE, SCENE_ROOM_HIDDEN_LAKE, SCENE_ROOM_MINE } from '../../../sceneNames.js';
+import { onJoinRoomTrigger } from '../../triggers/joinRoomTrigger.js';
+import { onWalkingTrigger } from '../../triggers/walkingTrigger.js';
 import { RoomScene } from '../RoomScene.js';
 
 // TODO: add trigger for left exit door cause the door hitbox is buggy
@@ -26,25 +28,32 @@ export class CaveMineScene extends RoomScene {
             "paths": [`${this.assetPath}${this.textureKey}-pack.json`]
         });
 
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "cave_mine_walking_trigger",
+            "paths": [`${this.assetPath}cave_mine_walking_trigger.png`]
+        });
+
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": CAVE_MINE_ROOM_MUSIC,
-            "paths": [`${this.assetPath}cavemine_room_music.mp3`]
+            "paths": [`${this.assetPath}cave_mine_room_music.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": CAVE_MINE_LIGHT_ON,
-            "paths": [`${this.assetPath}cavemine_room_light_on.mp3`]
+            "paths": [`${this.assetPath}cave_mine_room_light_on.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": CAVE_MINE_LIGHT_OFF,
-            "paths": [`${this.assetPath}cavemine_room_light_off.mp3`]
+            "paths": [`${this.assetPath}cave_mine_room_light_off.mp3`]
         });
     }
 
@@ -248,6 +257,51 @@ export class CaveMineScene extends RoomScene {
 		cave_mine_hard_hats0001_png_1_hovered.scaleY = 1.0328829190691855;
 		cave_mine_hard_hats0001_png_1_hovered.visible = false;
 
+		// cave_mine_walking_trigger_png
+		const cave_mine_walking_trigger_png = this.physics.add.sprite(894, 485, "cave_mine_walking_trigger");
+		cave_mine_walking_trigger_png.scaleX = 1.0181200530604542;
+		cave_mine_walking_trigger_png.alpha = 0.001;
+		cave_mine_walking_trigger_png.alphaTopLeft = 0.001;
+		cave_mine_walking_trigger_png.alphaTopRight = 0.001;
+		cave_mine_walking_trigger_png.alphaBottomLeft = 0.001;
+		cave_mine_walking_trigger_png.alphaBottomRight = 0.001;
+		cave_mine_walking_trigger_png.body.setSize(1520, 960, false);
+		this.collisionMap = this.createCollisionMap(this, 894, 485, "cave_mine_walking_trigger");
+
+		// cave_mine_hiddenroom_trigger
+		const cave_mine_hiddenroom_trigger = this.physics.add.sprite(1138, 408, "cavemine", "cave_mine_right_exit_trigger.png");
+		cave_mine_hiddenroom_trigger.scaleX = 0.7274113698215946;
+		cave_mine_hiddenroom_trigger.scaleY = 0.8533975564124291;
+		cave_mine_hiddenroom_trigger.alpha = 0.001;
+		cave_mine_hiddenroom_trigger.alphaTopLeft = 0.001;
+		cave_mine_hiddenroom_trigger.alphaTopRight = 0.001;
+		cave_mine_hiddenroom_trigger.alphaBottomLeft = 0.001;
+		cave_mine_hiddenroom_trigger.alphaBottomRight = 0.001;
+		cave_mine_hiddenroom_trigger.body.setSize(215, 100, false);
+
+		// cave_mine_mine_trigger
+		const cave_mine_mine_trigger = this.physics.add.sprite(195, 558, "cavemine", "cave_mine_left_exit_trigger.png");
+		cave_mine_mine_trigger.alpha = 0.001;
+		cave_mine_mine_trigger.alphaTopLeft = 0.001;
+		cave_mine_mine_trigger.alphaTopRight = 0.001;
+		cave_mine_mine_trigger.alphaBottomLeft = 0.001;
+		cave_mine_mine_trigger.alphaBottomRight = 0.001;
+		cave_mine_mine_trigger.body.setSize(220, 152, false);
+
+		// Setting triggers starts here
+		this.triggers.push([cave_mine_walking_trigger_png, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([cave_mine_mine_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_MINE);
+		}]);
+
+		this.triggers.push([cave_mine_hiddenroom_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_HIDDEN_LAKE);
+		}]);
+		// Setting triggers ends here
+
         // Setting all interactives sprites starts here
         cave_mine_hard_hats0001_png_1.setInteractive({ useHandCursor: true });
         cave_mine_hard_hats0001_png_1_hovered.setInteractive({ useHandCursor: true });    
@@ -307,5 +361,10 @@ export class CaveMineScene extends RoomScene {
         // All interactive events ends here
 
         this.audioManager.play(CAVE_MINE_ROOM_MUSIC);
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

@@ -1,6 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { SKI_VILLAGE_ROOM_EPF_DOOR_CLOSE, SKI_VILLAGE_ROOM_EPF_DOOR_OPEN, SKI_VILLAGE_ROOM_MUSIC, SKI_VILLAGE_ROOM_SKI_LODGE_DOOR_CLOSE, SKI_VILLAGE_ROOM_SKI_LODGE_DOOR_OPEN } from "../../../../audio/audioConstants";
+import { SCENE_ROOM_BEACH, SCENE_ROOM_DOCKS, SCENE_ROOM_PUFFLE_WILD, SCENE_ROOM_SKI_HILL, SCENE_ROOM_SKI_LODGE, SCENE_ROOM_SKI_VILLAGE } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Fix animations (1)
@@ -8,12 +11,11 @@ import { RoomScene } from "../RoomScene";
 
 export class SkiVillageScene extends RoomScene {
     constructor() {
-        super("SkiVillageScene");
+        super(SCENE_ROOM_SKI_VILLAGE);
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-        this.audioManager = this.getAudioManager();
+        super.init(data);
     }
 
     preloadContent() {
@@ -22,6 +24,13 @@ export class SkiVillageScene extends RoomScene {
             type: ASSET_TYPES.PACK,
             name: "skivillage",
             paths: ["assets/world/rooms/skivillage/skivillage-pack.json"]
+        });
+
+        this.assetManager.load({
+            scene: this,
+            type: ASSET_TYPES.IMAGE,
+            name: "ski_village_walking_trigger",
+            paths: ["assets/world/rooms/skivillage/ski_village_walking_trigger.png"]
         });
 
         this.assetManager.load({
@@ -61,8 +70,7 @@ export class SkiVillageScene extends RoomScene {
     }
 
     createContent() {
-
-		// skivillage_background_png
+// skivillage_background_png
 		const skivillage_background_png = this.add.image(765, 173, "skivillage", "skivillage_background.png");
 		skivillage_background_png.scaleX = 0.8752239238348142;
 		skivillage_background_png.scaleY = 0.9814237536282568;
@@ -156,6 +164,95 @@ export class SkiVillageScene extends RoomScene {
 		ski_village_epf_door_open_png.scaleY = 0.9704255931047322;
 		ski_village_epf_door_open_png.visible = false;
 
+		// ski_village_puffle_wild_trigger
+		const ski_village_puffle_wild_trigger = this.add.ellipse(730, 364, 128, 128);
+		ski_village_puffle_wild_trigger.scaleX = 1.0130718225533064;
+		ski_village_puffle_wild_trigger.scaleY = 0.40052810659083304;
+		ski_village_puffle_wild_trigger.alpha = 0.001;
+		ski_village_puffle_wild_trigger.isFilled = true;
+
+		// ski_village_ski_lodge_trigger
+		const ski_village_ski_lodge_trigger = this.add.ellipse(1001, 382, 128, 128);
+		ski_village_ski_lodge_trigger.scaleX = 0.8078663173570163;
+		ski_village_ski_lodge_trigger.scaleY = 0.4436209416442316;
+		ski_village_ski_lodge_trigger.alpha = 0.001;
+		ski_village_ski_lodge_trigger.isFilled = true;
+
+		// ski_village_epf_trigger
+		const ski_village_epf_trigger = this.add.ellipse(1294, 493, 128, 128);
+		ski_village_epf_trigger.scaleX = 1.5347843162227457;
+		ski_village_epf_trigger.scaleY = 0.49660786796186496;
+		ski_village_epf_trigger.alpha = 0.001;
+		ski_village_epf_trigger.isFilled = true;
+
+		// ski_village_beach_trigger
+		const ski_village_beach_trigger = this.add.polygon(152, 896, "35 100 0 50 70 0 140 50 105 100");
+		ski_village_beach_trigger.scaleX = 2.462197932043651;
+		ski_village_beach_trigger.scaleY = 1.902363182551214;
+		ski_village_beach_trigger.alpha = 0.001;
+		ski_village_beach_trigger.isFilled = true;
+
+		// ski_village_docks_trigger
+		const ski_village_docks_trigger = this.add.rectangle(1453, 699, 128, 128);
+		ski_village_docks_trigger.scaleY = 1.9611854898072765;
+		ski_village_docks_trigger.alpha = 0.001;
+		ski_village_docks_trigger.isFilled = true;
+
+		// ski_village_ski_mountain_trigger
+		const ski_village_ski_mountain_trigger = this.add.rectangle(375, 432, 128, 128);
+		ski_village_ski_mountain_trigger.scaleY = 1.9747217080487043;
+		ski_village_ski_mountain_trigger.alpha = 0.001;
+		ski_village_ski_mountain_trigger.isFilled = true;
+
+		// ski_village_walking_trigger
+		const ski_village_walking_trigger = this.physics.add.sprite(751, 479, "ski_village_walking_trigger");
+		ski_village_walking_trigger.alpha = 0.001;
+		ski_village_walking_trigger.alphaTopLeft = 0.001;
+		ski_village_walking_trigger.alphaTopRight = 0.001;
+		ski_village_walking_trigger.alphaBottomLeft = 0.001;
+		ski_village_walking_trigger.alphaBottomRight = 0.001;
+		ski_village_walking_trigger.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 751, 479, "ski_village_walking_trigger");
+
+        // Setting arcade physics sprites starts here
+		this.physics.add.existing(ski_village_ski_mountain_trigger);
+		this.physics.add.existing(ski_village_docks_trigger);
+        this.physics.add.existing(ski_village_beach_trigger);
+        this.physics.add.existing(ski_village_epf_trigger);
+        this.physics.add.existing(ski_village_puffle_wild_trigger);
+        this.physics.add.existing(ski_village_ski_lodge_trigger);
+		// Setting arcade physics sprites ends here
+
+        // Setting triggers starts here
+        this.triggers.push([ski_village_walking_trigger, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([ski_village_ski_mountain_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_SKI_HILL);
+        }]);
+
+        this.triggers.push([ski_village_docks_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_DOCKS);
+        }]);
+
+        this.triggers.push([ski_village_beach_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_BEACH);
+        }]);
+
+        // this.triggers.push([ski_village_epf_trigger, () => {
+        //     onJoinRoomTrigger(SCENE_ROOM_EP);
+        // }]);
+
+        this.triggers.push([ski_village_puffle_wild_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_PUFFLE_WILD);
+        }]);
+
+        this.triggers.push([ski_village_ski_lodge_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_SKI_LODGE);
+        }]);
+        // Setting triggers ends here
+
         // Animations start here
         createAnimation({
             "scene": this,
@@ -248,5 +345,10 @@ export class SkiVillageScene extends RoomScene {
         // All interactive events end here
 
         this.audioManager.play(SKI_VILLAGE_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

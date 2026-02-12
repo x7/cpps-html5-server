@@ -1,7 +1,7 @@
 import { BaseScene } from '../baseScene.js';
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
 import { hideDomElements, login } from './loginHelper.js';
-import { SCENE_LOGIN, SCENE_REGISTER, SCENE_START_SCREEN } from '../sceneNames.js';
+import { SCENE_LOGIN, SCENE_LOGIN_SHARED_DEVICE, SCENE_REGISTER, SCENE_START_SCREEN } from '../sceneNames.js';
 import { displayLoading, removeLoading } from '../loading/loadingHelper.js';
 
 export class LoginScene extends BaseScene {
@@ -375,13 +375,8 @@ export class LoginScene extends BaseScene {
 		});
 
 		login_remember_password_checkbox.on("pointerdown", () => {
-			this.sceneManager.add({
-				"sceneKey": 'LoginSharedDevicePromptScene',
-				"scene": null,
-				"autoStart": false
-			});
-			this.sceneManager.pause('LoginScene');
-			this.sceneManager.launch('LoginSharedDevicePromptScene');
+			this.sceneManager.pause(SCENE_LOGIN);
+			this.sceneManager.launch(SCENE_LOGIN_SHARED_DEVICE);
 		});
 
 		this.login_remember_password_checkbox_ticked.on("pointerdown", () => {
@@ -392,12 +387,11 @@ export class LoginScene extends BaseScene {
 		login_login_button_hover.on("pointerdown", async () => {
 			login_login_button_hover.setVisible = false;
 			login_login_button_clicked.visible = true;
-			hideDomElements(this);
-			await login(this.username, this.password);
+
+			await login({ username: this.username, password: this.password, scene: this });
 		});
 		// All interactive events end here
 
-		this.events.emit("scene-awake");
 		this.events.on('resume', this.resume, this);
 		this.events.once('shutdown', this.shutdown, this);
 	}

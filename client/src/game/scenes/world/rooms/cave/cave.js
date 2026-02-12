@@ -1,5 +1,7 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
-import { SCENE_ROOM_CAVE } from "../../../sceneNames";
+import { SCENE_ROOM_BOILER_ROOM, SCENE_ROOM_CAVE, SCENE_ROOM_CAVE_MINE, SCENE_ROOM_MINE, SCENE_ROOM_PLAZA } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class CaveScene extends RoomScene {
@@ -20,7 +22,14 @@ export class CaveScene extends RoomScene {
             "scene": this,
             "type": ASSET_TYPES.PACK,
             "name": this.textureKey,
-            "paths": [`${this.assetPath}/${this.textureKey}-pack.json`]
+            "paths": [`${this.assetPath}${this.textureKey}-pack.json`]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "cave_walking_trigger",
+            "paths": [`${this.assetPath}cave_walking_trigger.png`]
         });
     }
 
@@ -106,6 +115,63 @@ export class CaveScene extends RoomScene {
 		cave_cavemine_hover_trigger_png.alphaBottomLeft = 0.001;
 		cave_cavemine_hover_trigger_png.alphaBottomRight = 0.001;
 
+		// cave_walking_trigger
+		const cave_walking_trigger = this.physics.add.sprite(755, 485, "cave_walking_trigger");
+		cave_walking_trigger.alpha = 0.001;
+		cave_walking_trigger.alphaTopLeft = 0.001;
+		cave_walking_trigger.alphaTopRight = 0.001;
+		cave_walking_trigger.alphaBottomLeft = 0.001;
+		cave_walking_trigger.alphaBottomRight = 0.001;
+		cave_walking_trigger.body.setSize(1520, 960, false);
+		this.collisionMap = this.createCollisionMap(this, 755, 485, "cave_walking_trigger");
+
+		// cave_boilerroom_trigger
+		const cave_boilerroom_trigger = this.physics.add.sprite(106, 554, "cave", "cave_boilerroom_trigger.png");
+		cave_boilerroom_trigger.alpha = 0.001;
+		cave_boilerroom_trigger.alphaTopLeft = 0.001;
+		cave_boilerroom_trigger.alphaTopRight = 0.001;
+		cave_boilerroom_trigger.alphaBottomLeft = 0.001;
+		cave_boilerroom_trigger.alphaBottomRight = 0.001;
+		cave_boilerroom_trigger.body.setSize(226, 129, false);
+
+		// cave_cavemine_trigger_png
+		const cave_cavemine_trigger_png = this.physics.add.sprite(1506, 628, "cave", "cave_cavemine_trigger.png");
+		cave_cavemine_trigger_png.alpha = 0.001;
+		cave_cavemine_trigger_png.alphaTopLeft = 0.001;
+		cave_cavemine_trigger_png.alphaTopRight = 0.001;
+		cave_cavemine_trigger_png.alphaBottomLeft = 0.001;
+		cave_cavemine_trigger_png.alphaBottomRight = 0.001;
+		cave_cavemine_trigger_png.body.setSize(151, 223, false);
+
+		// cave_plaza_trigger_png
+		const cave_plaza_trigger_png = this.physics.add.sprite(1303, 522, "cave", "cave_plaza_trigger.png");
+		cave_plaza_trigger_png.scaleX = 0.4624061075359891;
+		cave_plaza_trigger_png.scaleY = 0.8209719436704068;
+		cave_plaza_trigger_png.alpha = 0.001;
+		cave_plaza_trigger_png.alphaTopLeft = 0.001;
+		cave_plaza_trigger_png.alphaTopRight = 0.001;
+		cave_plaza_trigger_png.alphaBottomLeft = 0.001;
+		cave_plaza_trigger_png.alphaBottomRight = 0.001;
+		cave_plaza_trigger_png.body.setSize(208, 101, false);
+
+		// Setting triggers starts here
+		this.triggers.push([cave_walking_trigger, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([cave_plaza_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_PLAZA);
+		}]);
+
+		this.triggers.push([cave_cavemine_trigger_png, () => {
+			onJoinRoomTrigger(SCENE_ROOM_MINE);
+		}]);
+
+		this.triggers.push([cave_boilerroom_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_BOILER_ROOM);
+		}]);
+		// Setting triggers ends here
+
         // Setting all interactives sprites starts here
         cave_cavemine_hover_trigger_png.setInteractive({ useHandCursor: true });
         // Setting all interactives sprites ends here
@@ -121,5 +187,11 @@ export class CaveScene extends RoomScene {
             cave_boilerroom_door0002_png.visible = false;
         }); 
         // All interactive events ends here
+
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

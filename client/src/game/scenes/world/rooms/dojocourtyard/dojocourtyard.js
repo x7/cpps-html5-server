@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { DOJO_COURTYARD_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_DOJO_COURTYARD } from "../../../sceneNames";
+import { SCENE_ROOM_DOJO, SCENE_ROOM_DOJO_COURTYARD, SCENE_ROOM_MINE_SHACK } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class DojoCourtYardScene extends RoomScene {
@@ -19,6 +21,13 @@ export class DojoCourtYardScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "dojocourtyard",
             "paths": ["assets/world/rooms/dojocourtyard/dojocourtyard-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "dojo_courtyard_walking_triggerr",
+            "paths": ["assets/world/rooms/dojocourtyard/dojo_courtyard_walking_triggerr.png"]
         });
 
         this.assetManager.load({
@@ -88,6 +97,53 @@ export class DojoCourtYardScene extends RoomScene {
 		// dojo_courtyard_bottom_right_left_tree_png
 		const dojo_courtyard_bottom_right_left_tree_png = this.add.image(1282, 760, "dojocourtyard", "dojo_courtyard_bottom_right_left_tree.png");
 
+        // dojo_courtyard_walking_triggerr_png
+		const dojo_courtyard_walking_triggerr_png = this.physics.add.sprite(733, 452, "dojo_courtyard_walking_triggerr");
+		dojo_courtyard_walking_triggerr_png.scaleX = 0.9301640891465893;
+		dojo_courtyard_walking_triggerr_png.alpha = 0.001;
+		dojo_courtyard_walking_triggerr_png.alphaTopLeft = 0.001;
+		dojo_courtyard_walking_triggerr_png.alphaTopRight = 0.001;
+		dojo_courtyard_walking_triggerr_png.alphaBottomLeft = 0.001;
+		dojo_courtyard_walking_triggerr_png.alphaBottomRight = 0.001;
+		dojo_courtyard_walking_triggerr_png.body.setSize(1600, 1040, false);
+        this.collisionMap = this.createCollisionMap(this, 733, 452, "dojo_courtyard_walking_triggerr");
+
+		// dojo_courtyard_mine_shack_trigger
+		const dojo_courtyard_mine_shack_trigger = this.physics.add.sprite(769, 879, "dojocourtyard", "dojo_courtyard_mine_shack_trigger.png");
+		dojo_courtyard_mine_shack_trigger.scaleX = 0.9730218092242524;
+		dojo_courtyard_mine_shack_trigger.scaleY = 0.8342724400324608;
+		dojo_courtyard_mine_shack_trigger.alpha = 0.001;
+		dojo_courtyard_mine_shack_trigger.alphaTopLeft = 0.001;
+		dojo_courtyard_mine_shack_trigger.alphaTopRight = 0.001;
+		dojo_courtyard_mine_shack_trigger.alphaBottomLeft = 0.001;
+		dojo_courtyard_mine_shack_trigger.alphaBottomRight = 0.001;
+		dojo_courtyard_mine_shack_trigger.body.setSize(516, 168, false);
+
+		// dojo_courtyard_dojo_trigger
+		const dojo_courtyard_dojo_trigger = this.physics.add.sprite(766, 545, "dojocourtyard", "dojo_courtyard_dojo_trigger.png");
+		dojo_courtyard_dojo_trigger.scaleX = 0.6815906689265991;
+		dojo_courtyard_dojo_trigger.scaleY = 0.6965954702206402;
+		dojo_courtyard_dojo_trigger.alpha = 0.001;
+		dojo_courtyard_dojo_trigger.alphaTopLeft = 0.001;
+		dojo_courtyard_dojo_trigger.alphaTopRight = 0.001;
+		dojo_courtyard_dojo_trigger.alphaBottomLeft = 0.001;
+		dojo_courtyard_dojo_trigger.alphaBottomRight = 0.001;
+		dojo_courtyard_dojo_trigger.body.setSize(296, 111, false);
+
+        // Setting triggers starts here
+        this.triggers.push([dojo_courtyard_walking_triggerr_png, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([dojo_courtyard_dojo_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_DOJO);
+        }]);
+
+        this.triggers.push([dojo_courtyard_mine_shack_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_MINE_SHACK);
+        }]);
+        // Setting triggers ends here
+
         // Creating animations starts here
         createAnimation({
             "scene": this,
@@ -134,5 +190,10 @@ export class DojoCourtYardScene extends RoomScene {
         // All interactive events ends here
 
         this.audioManager.play(DOJO_COURTYARD_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

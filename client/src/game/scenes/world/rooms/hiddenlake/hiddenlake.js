@@ -1,6 +1,8 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
-import { SCENE_ROOM_HIDDEN_LAKE } from "../../../sceneNames";
+import { SCENE_ROOM_CAVE_MINE, SCENE_ROOM_FOREST, SCENE_ROOM_HIDDEN_LAKE, SCENE_ROOM_UNDERWATER } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Fix waterfall animation
@@ -21,6 +23,13 @@ export class HiddenLakeScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "hiddenlake",
             "paths": ["assets/world/rooms/hiddenlake/hiddenlake-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "hidden_lake_walking_trigger",
+            "paths": ["assets/world/rooms/hiddenlake/hidden_lake_walking_trigger.png"]
         });
     }
 
@@ -131,6 +140,66 @@ export class HiddenLakeScene extends RoomScene {
 		hidden_lake_underwater_room_trigger_png.alphaBottomLeft = 0.001;
 		hidden_lake_underwater_room_trigger_png.alphaBottomRight = 0.001;
 
+		// hidden_lake_walking_trigger_png
+		const hidden_lake_walking_trigger_png = this.physics.add.sprite(757, 478, "hidden_lake_walking_trigger");
+		hidden_lake_walking_trigger_png.alpha = 0.001;
+		hidden_lake_walking_trigger_png.alphaTopLeft = 0.001;
+		hidden_lake_walking_trigger_png.alphaTopRight = 0.001;
+		hidden_lake_walking_trigger_png.alphaBottomLeft = 0.001;
+		hidden_lake_walking_trigger_png.alphaBottomRight = 0.001;
+		hidden_lake_walking_trigger_png.body.setSize(1521, 960, false);
+		this.collisionMap = this.createCollisionMap(this, 757, 478, "hidden_lake_walking_trigger");
+
+		// hidden_lake_cave_mine_trigger
+		const hidden_lake_cave_mine_trigger = this.physics.add.sprite(111, 420, "hiddenlake", "hidden_lake_left_room_trigger.png");
+		hidden_lake_cave_mine_trigger.scaleX = 0.47895764362429427;
+		hidden_lake_cave_mine_trigger.scaleY = 0.5523838835131725;
+		hidden_lake_cave_mine_trigger.alpha = 0.001;
+		hidden_lake_cave_mine_trigger.alphaTopLeft = 0.001;
+		hidden_lake_cave_mine_trigger.alphaTopRight = 0.001;
+		hidden_lake_cave_mine_trigger.alphaBottomLeft = 0.001;
+		hidden_lake_cave_mine_trigger.alphaBottomRight = 0.001;
+		hidden_lake_cave_mine_trigger.body.setSize(266, 253, false);
+
+		// hidden_lake_forest_trigger
+		const hidden_lake_forest_trigger = this.physics.add.sprite(473, 141, "hiddenlake", "hidden_lake_forest_trigger.png");
+		hidden_lake_forest_trigger.scaleX = 0.34342974502261314;
+		hidden_lake_forest_trigger.scaleY = 0.9238735500749449;
+		hidden_lake_forest_trigger.alpha = 0.001;
+		hidden_lake_forest_trigger.alphaTopLeft = 0.001;
+		hidden_lake_forest_trigger.alphaTopRight = 0.001;
+		hidden_lake_forest_trigger.alphaBottomLeft = 0.001;
+		hidden_lake_forest_trigger.alphaBottomRight = 0.001;
+		hidden_lake_forest_trigger.body.setSize(278, 247, false);
+
+		// hidden_lake_underwater_room_trigger
+		const hidden_lake_underwater_room_trigger = this.physics.add.sprite(1440, 535, "hiddenlake", "hidden_lake_underwater_room_trigger.png");
+		hidden_lake_underwater_room_trigger.alpha = 0.001;
+		hidden_lake_underwater_room_trigger.alphaTopLeft = 0.001;
+		hidden_lake_underwater_room_trigger.alphaTopRight = 0.001;
+		hidden_lake_underwater_room_trigger.alphaBottomLeft = 0.001;
+		hidden_lake_underwater_room_trigger.alphaBottomRight = 0.001;
+		hidden_lake_underwater_room_trigger.body.setSize(208, 253, false);
+
+		// Setting triggers starts here
+		this.triggers.push([hidden_lake_walking_trigger_png, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([hidden_lake_underwater_room_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_UNDERWATER);
+		}]);
+
+		this.triggers.push([hidden_lake_forest_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_FOREST);
+		}]);
+
+		this.triggers.push([hidden_lake_cave_mine_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_CAVE_MINE);
+		}]);
+		// Setting triggers ends here
+		
+
 		// Creating animations starts here
 		createAnimation({
 			"scene": this,
@@ -214,5 +283,11 @@ export class HiddenLakeScene extends RoomScene {
 			console.log("noteee")
 		});
 		// All interactive events ends here
+
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

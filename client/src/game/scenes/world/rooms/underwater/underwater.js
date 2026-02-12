@@ -1,6 +1,8 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { UNDERWATER_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_UNDERWATER } from "../../../sceneNames";
+import { SCENE_ROOM_HIDDEN_LAKE, SCENE_ROOM_UNDERWATER } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class UnderwaterScene extends RoomScene {
@@ -18,6 +20,13 @@ export class UnderwaterScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "underwater",
             "paths": ["assets/world/rooms/underwater/underwater-pack.json"]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "underwater_walking_trigger",
+            "paths": ["assets/world/rooms/underwater/underwater_walking_trigger.png"]
         });
 
 		this.assetManager.load({
@@ -92,6 +101,42 @@ export class UnderwaterScene extends RoomScene {
 		underwater_sea_weed_png.scaleX = 1.1658561707958939;
 		underwater_sea_weed_png.scaleY = 1.1781489240984027;
 
+		// underwater_hidden_lake_trigger
+		const underwater_hidden_lake_trigger = this.add.ellipse(136, 368, 128, 128);
+		underwater_hidden_lake_trigger.scaleX = 2.109394416502124;
+		underwater_hidden_lake_trigger.scaleY = 0.5275136018473021;
+		underwater_hidden_lake_trigger.alpha = 0.001;
+		underwater_hidden_lake_trigger.isFilled = true;
+
+		// underwater_walking_trigger
+		const underwater_walking_trigger = this.physics.add.sprite(757, 177, "underwater_walking_trigger");
+		underwater_walking_trigger.alpha = 0.001;
+		underwater_walking_trigger.alphaTopLeft = 0.001;
+		underwater_walking_trigger.alphaTopRight = 0.001;
+		underwater_walking_trigger.alphaBottomLeft = 0.001;
+		underwater_walking_trigger.alphaBottomRight = 0.001;
+		underwater_walking_trigger.body.setSize(1520, 463, false);
+		this.collisionMap = this.createCollisionMap(this, 757, 177, "underwater_walking_trigger");
+
+		// Setting arcade physics sprites starts here
+		this.physics.add.existing(underwater_hidden_lake_trigger);
+		// Setting arcade physics sprites ends here
+
+		// Setting triggers starts here
+		this.triggers.push([underwater_walking_trigger, () => {
+			onWalkingTrigger(this);
+		}]);
+
+		this.triggers.push([underwater_hidden_lake_trigger, () => {
+			onJoinRoomTrigger(SCENE_ROOM_HIDDEN_LAKE);
+		}]);
+		// Setting triggers ends here
+
 		this.audioManager.play(UNDERWATER_ROOM_MUSIC);
+		super.createContent(this);
     }
+
+	update() {
+		super.update();
+	}
 }

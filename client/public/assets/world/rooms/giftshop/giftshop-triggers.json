@@ -1,0 +1,167 @@
+{
+	"textures": [
+		{
+			"image": "giftshop-triggers.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1697,
+				"h": 962
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "giftshop_walking_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1520,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1520,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1520,
+						"h": 960
+					}
+				},
+				{
+					"filename": "giftshop_door0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 173,
+						"h": 224
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 173,
+						"h": 224
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1,
+						"w": 173,
+						"h": 224
+					}
+				},
+				{
+					"filename": "giftshop_chest_trigger.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 160,
+						"h": 92
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 160,
+						"h": 92
+					},
+					"frame": {
+						"x": 1523,
+						"y": 227,
+						"w": 160,
+						"h": 92
+					}
+				},
+				{
+					"filename": "giftshop_chest0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 121,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 121,
+						"h": 129
+					},
+					"frame": {
+						"x": 1523,
+						"y": 321,
+						"w": 121,
+						"h": 129
+					}
+				},
+				{
+					"filename": "giftshop_cash_register_hover_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 87
+					},
+					"frame": {
+						"x": 1523,
+						"y": 452,
+						"w": 111,
+						"h": 87
+					}
+				},
+				{
+					"filename": "giftshop_watches_hover_trigger0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 85,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 85,
+						"h": 105
+					},
+					"frame": {
+						"x": 1523,
+						"y": 541,
+						"w": 85,
+						"h": 105
+					}
+				},
+				{
+					"filename": "giftshop_curtain0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 257
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 257
+					},
+					"frame": {
+						"x": 1610,
+						"y": 541,
+						"w": 71,
+						"h": 257
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:4c39af0105db55a88c4b2db61958db61:cbbf5b2005b079f39748f45f9ecb445b:1011d820ab5b8b2030afe09c7dc94f3f$"
+	}
+}

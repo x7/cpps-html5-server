@@ -1,16 +1,16 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { COVE_ROOM_MUSIC } from "../../../../audio/audioConstants";
+import { SCENE_ROOM_COVE } from "../../../sceneNames";
 import { RoomScene } from "../RoomScene";
 
 export class CoveScene extends RoomScene {
     constructor() {
-        super("CoveScene");
+        super(SCENE_ROOM_COVE);
     }
 
     init(data) {
-        this.assetManager = this.getAssetManager();
-        this.audioManager = this.getAudioManager();
+        super.init(data);
     }
 
     preloadContent() {
@@ -178,5 +178,10 @@ export class CoveScene extends RoomScene {
         // All interactive events ends here
 
         this.audioManager.play(COVE_ROOM_MUSIC);
+		super.createContent(this);
     }
+
+	update() {
+		this.update();
+	}
 }

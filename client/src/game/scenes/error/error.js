@@ -10,7 +10,7 @@ export class ErrorScene extends BaseScene {
 
 	init(data = {}) {
 		super.init(data);
-		this.errorMessage = (data.message == null ? "No error message provided.\nPlease provide one." : data.message);
+		this.errorMessage = data.message;
 	}
 
 	preload() {
@@ -30,7 +30,6 @@ export class ErrorScene extends BaseScene {
 	}
 
 	createContent() {
-		
 		// error_gui
 		const error_gui = this.add.image(125, 114, "error", "app/error");
 		error_gui.scaleX = 0.8477412343159033;
@@ -95,6 +94,6 @@ export class ErrorScene extends BaseScene {
 			removeError();
 		});
 
-		this.events.emit("scene-awake");
+		this.sceneManager.sendToTop(SCENE_ERROR);
 	}
 }

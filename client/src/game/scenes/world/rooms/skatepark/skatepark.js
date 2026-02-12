@@ -1,6 +1,8 @@
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { SKATE_PARK_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_SKATE_PARK } from "../../../sceneNames";
+import { SCENE_ROOM_MINE_SHACK, SCENE_ROOM_SKATE_PARK } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class SkateParkScene extends RoomScene {
@@ -22,6 +24,13 @@ export class SkateParkScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": this.textureKey,
             "paths": [`${this.assetPath}/${this.textureKey}-pack.json`]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "skate_park_walking_trigger0002",
+            "paths": [`${this.assetPath}/skate_park_walking_trigger0002.png`]
         });
 
         this.assetManager.load({
@@ -86,6 +95,35 @@ export class SkateParkScene extends RoomScene {
 		// skate_park_bottom_right_png
 		const skate_park_bottom_right_png = this.add.image(1299, 841, "skatepark", "skate_park_bottom_right.png");
 
+        // skate_park_walking_trigger0002_png
+		const skate_park_walking_trigger0002_png = this.physics.add.sprite(760, 478, "skate_park_walking_trigger0002");
+		skate_park_walking_trigger0002_png.alpha = 0.001;
+		skate_park_walking_trigger0002_png.alphaTopLeft = 0.001;
+		skate_park_walking_trigger0002_png.alphaTopRight = 0.001;
+		skate_park_walking_trigger0002_png.alphaBottomLeft = 0.001;
+		skate_park_walking_trigger0002_png.alphaBottomRight = 0.001;
+		skate_park_walking_trigger0002_png.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 760, 478, "skate_park_walking_trigger0002");
+
+		// skate_park_exit_trigger_png
+		const skate_park_exit_trigger_png = this.physics.add.sprite(-2, 170, "skatepark", "skate_park_exit_trigger.png");
+		skate_park_exit_trigger_png.alpha = 0.001;
+		skate_park_exit_trigger_png.alphaTopLeft = 0.001;
+		skate_park_exit_trigger_png.alphaTopRight = 0.001;
+		skate_park_exit_trigger_png.alphaBottomLeft = 0.001;
+		skate_park_exit_trigger_png.alphaBottomRight = 0.001;
+		skate_park_exit_trigger_png.body.setSize(383, 305, false);
+
+        // Setting triggers starts here
+        this.triggers.push([skate_park_walking_trigger0002_png, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([skate_park_exit_trigger_png, () => {
+            onJoinRoomTrigger(SCENE_ROOM_MINE_SHACK);
+        }]);
+        // Setting triggers ends here
+
         // Setting all interactives sprites starts here
         skate_park_skateboard_purchase_hover_trigger0004_png.setInteractive({ useHandCursor: true });
         // Setting all interactives sprites ends here
@@ -103,5 +141,10 @@ export class SkateParkScene extends RoomScene {
         // All interactive events ends here
 
         this.audioManager.play(SKATE_PARK_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }

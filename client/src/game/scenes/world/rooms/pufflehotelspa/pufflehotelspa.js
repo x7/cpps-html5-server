@@ -2,6 +2,7 @@ import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { PUFFLE_HOTEL_SPA_ELEVATOR_CLOSE, PUFFLE_HOTEL_SPA_ELEVATOR_OPEN, PUFFLE_HOTEL_SPA_ROOM_MUSIC, PUFFLE_HOTEL_SPA_TREADMILL_START } from "../../../../audio/audioConstants";
 import { SCENE_ROOM_PUFFLE_HOTEL_SPA } from "../../../sceneNames";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 export class PuffleHotelSpa extends RoomScene {
@@ -21,35 +22,42 @@ export class PuffleHotelSpa extends RoomScene {
             "scene": this,
             "type": ASSET_TYPES.PACK,
             "name": "pufflehotelspa",
-            "paths": [`${this.assetPath}/pufflehotelspa-pack.json`]
+            "paths": [`${this.assetPath}pufflehotelspa-pack.json`]
+        });
+
+		this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "puffle_hotel_spa_walking_trigger",
+            "paths": [`${this.assetPath}puffle_hotel_spa_walking_trigger.png`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_SPA_ROOM_MUSIC,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_SPA_ROOM_MUSIC}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_SPA_ROOM_MUSIC}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_SPA_ELEVATOR_OPEN,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_SPA_ELEVATOR_OPEN}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_SPA_ELEVATOR_OPEN}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_SPA_ELEVATOR_CLOSE,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_SPA_ELEVATOR_CLOSE}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_SPA_ELEVATOR_CLOSE}.mp3`]
         });
 
         this.assetManager.load({
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": PUFFLE_HOTEL_SPA_TREADMILL_START,
-            "paths": [`${this.assetPath}/${PUFFLE_HOTEL_SPA_TREADMILL_START}.mp3`]
+            "paths": [`${this.assetPath}${PUFFLE_HOTEL_SPA_TREADMILL_START}.mp3`]
         });
     }
 
@@ -203,6 +211,22 @@ export class PuffleHotelSpa extends RoomScene {
 		puffle_hotel_spa_golden_elevator_trigger.scaleY = 2.151578807117364;
 		puffle_hotel_spa_golden_elevator_trigger.alpha = 0.001;
 		puffle_hotel_spa_golden_elevator_trigger.isFilled = true;
+
+		// puffle_hotel_spa_walking_trigger_png
+		const puffle_hotel_spa_walking_trigger_png = this.physics.add.sprite(757, 471, "puffle_hotel_spa_walking_trigger");
+		puffle_hotel_spa_walking_trigger_png.alpha = 0.001;
+		puffle_hotel_spa_walking_trigger_png.alphaTopLeft = 0.001;
+		puffle_hotel_spa_walking_trigger_png.alphaTopRight = 0.001;
+		puffle_hotel_spa_walking_trigger_png.alphaBottomLeft = 0.001;
+		puffle_hotel_spa_walking_trigger_png.alphaBottomRight = 0.001;
+		puffle_hotel_spa_walking_trigger_png.body.setSize(1520, 960, false);
+		this.collisionMap = this.createCollisionMap(this, 757, 471, "puffle_hotel_spa_walking_trigger");
+
+		// Setting triggers starts here
+		this.triggers.push([puffle_hotel_spa_walking_trigger_png, () => {
+			onWalkingTrigger(this);
+		}]);
+		// Setting triggers ends here
 
         // Creating animations starts here
         createAnimation({

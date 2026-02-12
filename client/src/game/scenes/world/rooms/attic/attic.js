@@ -1,7 +1,9 @@
 import { createAnimation } from "../../../../../animations/animations";
 import { ASSET_TYPES } from "../../../../assets/assetTypes";
 import { ATTIC_PORTAL_CLOSE, ATTIC_PORTAL_OPEN, ATTIC_PORTAL_WHILE_OPEN, ATTIC_ROCKING_CHAIR, ATTIC_ROOM_MUSIC } from "../../../../audio/audioConstants";
-import { SCENE_ROOM_ATTIC } from "../../../sceneNames";
+import { SCENE_ROOM_ATTIC, SCENE_ROOM_SKI_LODGE } from "../../../sceneNames";
+import { onJoinRoomTrigger } from "../../triggers/joinRoomTrigger";
+import { onWalkingTrigger } from "../../triggers/walkingTrigger";
 import { RoomScene } from "../RoomScene";
 
 // TODO: Add portal animation (when this is added add the music for it being open)
@@ -21,6 +23,13 @@ export class AtticScene extends RoomScene {
             "type": ASSET_TYPES.PACK,
             "name": "attic",
             "paths": ["assets/world/rooms/attic/attic-pack.json"]
+        });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.IMAGE,
+            "name": "attic_walking_trigger",
+            "paths": ["assets/world/rooms/attic/attic_walking_trigger.png"]
         });
 
         this.assetManager.load({
@@ -186,6 +195,35 @@ export class AtticScene extends RoomScene {
 		// attic_bottom_right_rubbish_png
 		const attic_bottom_right_rubbish_png = this.add.image(1188, 859, "attic", "attic_bottom_right_rubbish.png");
 
+        // attic_ski_lodge_trigger
+		const attic_ski_lodge_trigger = this.physics.add.sprite(1220, 452, "attic", "attic_ski_lodge_trigger.png");
+		attic_ski_lodge_trigger.alpha = 0.001;
+		attic_ski_lodge_trigger.alphaTopLeft = 0.001;
+		attic_ski_lodge_trigger.alphaTopRight = 0.001;
+		attic_ski_lodge_trigger.alphaBottomLeft = 0.001;
+		attic_ski_lodge_trigger.alphaBottomRight = 0.001;
+		attic_ski_lodge_trigger.body.setSize(258, 100, false);
+
+		// attic_walking_trigger
+		const attic_walking_trigger = this.physics.add.sprite(759, 482, "attic_walking_trigger");
+		attic_walking_trigger.alpha = 0.001;
+		attic_walking_trigger.alphaTopLeft = 0.001;
+		attic_walking_trigger.alphaTopRight = 0.001;
+		attic_walking_trigger.alphaBottomLeft = 0.001;
+		attic_walking_trigger.alphaBottomRight = 0.001;
+		attic_walking_trigger.body.setSize(1520, 960, false);
+        this.collisionMap = this.createCollisionMap(this, 759, 482, "attic_walking_trigger");
+
+        // Setting triggers starts here
+        this.triggers.push([attic_walking_trigger, () => {
+            onWalkingTrigger(this);
+        }]);
+
+        this.triggers.push([attic_ski_lodge_trigger, () => {
+            onJoinRoomTrigger(SCENE_ROOM_SKI_LODGE);
+        }]);
+        // Setting triggers ends here
+
         // Creating animations starts here
         createAnimation({
             "scene": this,
@@ -274,5 +312,10 @@ export class AtticScene extends RoomScene {
         // All interactive events end here
 
         this.audioManager.play(ATTIC_ROOM_MUSIC);
+        super.createContent(this);
+    }
+
+    update() {
+        super.update();
     }
 }
