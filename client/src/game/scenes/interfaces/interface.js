@@ -1,6 +1,6 @@
 import { ASSET_TYPES } from "../../assets/assetTypes";
 import { BaseScene } from "../baseScene";
-import { SCENE_INTERFACE, SCENE_INTERFACE_DANCE, SCENE_INTERFACE_EMOJIS } from "../sceneNames";
+import { SCENE_INTERFACE, SCENE_INTERFACE_DANCE, SCENE_INTERFACE_EMOJIS, SCENE_MAP } from "../sceneNames";
 
 // TODO: Fix chat input
 
@@ -257,6 +257,8 @@ export class InterfaceScene extends BaseScene {
 		});
 
 		interface_map_opened.on("pointerdown", () => {
+			this.sceneManager.launch(SCENE_MAP);
+			this.sceneManager.sendToTop(SCENE_MAP);
 		});
 
 		interface_bottom_bar_puffle_button.on("pointerover", () => {
@@ -431,7 +433,7 @@ export class InterfaceScene extends BaseScene {
 		});
         // All interactive events ends here
 
-		this.sceneManager.sendToTop("InterfaceScene");
+		this.sceneManager.sendToTop(SCENE_INTERFACE);
         this.events.once("shutdown", this.shutdown, this);
     }
 

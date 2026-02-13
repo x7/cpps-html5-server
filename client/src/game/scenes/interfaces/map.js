@@ -1,7 +1,8 @@
 import { BaseScene } from "../baseScene";
 import { ASSET_TYPES } from "../../assets/assetTypes";
 import { exitMenu, switchMenu } from "./mapHelper";
-import { SCENE_MAP } from "../sceneNames";
+import { SCENE_MAP, SCENE_ROOM_BEACH, SCENE_ROOM_COVE, SCENE_ROOM_DOCKS, SCENE_ROOM_DOJO, SCENE_ROOM_FOREST, SCENE_ROOM_ICE_BERG, SCENE_ROOM_ICE_RINK, SCENE_ROOM_LIGHT_HOUSE, SCENE_ROOM_MINE_SHACK, SCENE_ROOM_PLAZA, SCENE_ROOM_PUFFLE_PARK, SCENE_ROOM_PUFFLE_WILD, SCENE_ROOM_SKATE_PARK, SCENE_ROOM_SKI_HILL, SCENE_ROOM_SKI_LODGE, SCENE_ROOM_SKI_VILLAGE, SCENE_ROOM_SNOW_FORTS, SCENE_ROOM_TOWN } from "../sceneNames";
+import { sendJoinRoomPacket } from "../../../network/packets/world/joinRoomPacket";
 
 export class MapScene extends BaseScene {
     constructor() {
@@ -37,7 +38,7 @@ export class MapScene extends BaseScene {
     }
 
     createContent() {
-// map_main_background_png
+		// map_main_background_png
 		const map_main_background_png = this.add.image(-5, -2, "map", "map_main_background.png");
 		map_main_background_png.scaleX = 0.9791972839735081;
 		map_main_background_png.scaleY = 0.9658003732399374;
@@ -119,10 +120,22 @@ export class MapScene extends BaseScene {
 		map_snow_forts_location_png.scaleX = 0.9633820260234063;
 		map_snow_forts_location_png.scaleY = 1.0201452796681165;
 
+		// map_soccer_stadium_location_normal_hovered
+		const map_soccer_stadium_location_normal_hovered = this.add.image(665, 398, "map", "map_soccer_stadium_location.png");
+		map_soccer_stadium_location_normal_hovered.scaleX = 1.0883525910299297;
+		map_soccer_stadium_location_normal_hovered.scaleY = 1.081628032418481;
+		map_soccer_stadium_location_normal_hovered.visible = false;
+
 		// map_mine_location_png
 		const map_mine_location_png = this.add.image(1172, 476, "map", "map_mine_location.png");
 		map_mine_location_png.scaleX = 0.9293089009699141;
 		map_mine_location_png.scaleY = 0.967634195189301;
+
+		// map_mine_location_normal_hovered
+		const map_mine_location_normal_hovered = this.add.image(1178, 474, "map", "map_mine_location.png");
+		map_mine_location_normal_hovered.scaleX = 0.9901817324203828;
+		map_mine_location_normal_hovered.scaleY = 1.1026108629043316;
+		map_mine_location_normal_hovered.visible = false;
 
 		// map_snow_2_png
 		const map_snow_2_png = this.add.image(581, 472, "map", "map_snow_2.png");
@@ -159,6 +172,12 @@ export class MapScene extends BaseScene {
 		const map_town_location_png = this.add.image(579, 567, "map", "map_town_location.png");
 		map_town_location_png.scaleX = 0.9665154437006982;
 		map_town_location_png.scaleY = 1.062785697595344;
+
+		// map_ski_hill_location_normal_hovered
+		const map_ski_hill_location_normal_hovered = this.add.image(327, 350, "map", "map_ski_hill_location.png");
+		map_ski_hill_location_normal_hovered.scaleX = 1.0248176265186615;
+		map_ski_hill_location_normal_hovered.scaleY = 1.177351938751953;
+		map_ski_hill_location_normal_hovered.visible = false;
 
 		// map_ski_lodge_location_png
 		const map_ski_lodge_location_png = this.add.image(456, 472, "map", "map_ski_lodge_location.png");
@@ -644,6 +663,97 @@ export class MapScene extends BaseScene {
 		map_games_card_jistu_icon_png.scaleY = 0.8305249541738066;
 		map_games_card_jistu_icon_png.visible = false;
 
+		// map_town_location_normal_hovered
+		const map_town_location_normal_hovered = this.add.image(581, 570, "map", "map_town_location.png");
+		map_town_location_normal_hovered.scaleX = 1.0210776323736377;
+		map_town_location_normal_hovered.scaleY = 1.125434814714373;
+		map_town_location_normal_hovered.visible = false;
+
+		// map_snow_forts_location_normal_hovered
+		const map_snow_forts_location_normal_hovered = this.add.image(769, 531, "map", "map_snow_forts_location.png");
+		map_snow_forts_location_normal_hovered.scaleX = 1.0537995552476307;
+		map_snow_forts_location_normal_hovered.scaleY = 1.246571610535205;
+		map_snow_forts_location_normal_hovered.visible = false;
+
+		// map_docks_locationo_normal_hovered
+		const map_docks_locationo_normal_hovered = this.add.image(312, 789, "map", "map_docks_locationo.png");
+		map_docks_locationo_normal_hovered.scaleX = 1.098214016620545;
+		map_docks_locationo_normal_hovered.scaleY = 1.1497662481732926;
+		map_docks_locationo_normal_hovered.visible = false;
+
+		// map_light_house_location_normal_hovered
+		const map_light_house_location_normal_hovered = this.add.image(85, 610, "map", "map_light_house_location.png");
+		map_light_house_location_normal_hovered.scaleX = 1.145230498449875;
+		map_light_house_location_normal_hovered.scaleY = 1.0166384636566592;
+		map_light_house_location_normal_hovered.visible = false;
+
+		// map_ski_lodge_location_normal_hover
+		const map_ski_lodge_location_normal_hover = this.add.image(458, 470, "map", "map_ski_lodge_location.png");
+		map_ski_lodge_location_normal_hover.scaleX = 1.302836239958805;
+		map_ski_lodge_location_normal_hover.scaleY = 1.3564422041124309;
+		map_ski_lodge_location_normal_hover.visible = false;
+
+		// map_puffle_wild_location_normal_hovered
+		const map_puffle_wild_location_normal_hovered = this.add.image(529, 384, "map", "map_puffle_wild_location.png");
+		map_puffle_wild_location_normal_hovered.scaleX = 0.9751667321605966;
+		map_puffle_wild_location_normal_hovered.scaleY = 1.231250583259773;
+		map_puffle_wild_location_normal_hovered.visible = false;
+
+		// map_puffle_park_location_normal_hovered
+		const map_puffle_park_location_normal_hovered = this.add.image(923, 463, "map", "map_puffle_park_location.png");
+		map_puffle_park_location_normal_hovered.scaleX = 0.9181013067339482;
+		map_puffle_park_location_normal_hovered.scaleY = 1.0605189354368731;
+		map_puffle_park_location_normal_hovered.visible = false;
+
+		// map_plaza_location_normal_hovered
+		const map_plaza_location_normal_hovered = this.add.image(986, 587, "map", "map_plaza_location.png");
+		map_plaza_location_normal_hovered.scaleX = 1.0297154016881698;
+		map_plaza_location_normal_hovered.scaleY = 1.0754941275776992;
+		map_plaza_location_normal_hovered.angle = 3;
+		map_plaza_location_normal_hovered.visible = false;
+
+		// map_forest_location_normal_hovered
+		const map_forest_location_normal_hovered = this.add.image(1175, 614, "map", "map_forest_location.png");
+		map_forest_location_normal_hovered.scaleX = 1.1457042712755923;
+		map_forest_location_normal_hovered.scaleY = 1.103910750772263;
+		map_forest_location_normal_hovered.visible = false;
+
+		// map_cove_location_normal_hovered
+		const map_cove_location_normal_hovered = this.add.image(1407, 644, "map", "map_cove_location.png");
+		map_cove_location_normal_hovered.scaleX = 1.037828420484673;
+		map_cove_location_normal_hovered.scaleY = 1.1361264105882711;
+		map_cove_location_normal_hovered.visible = false;
+
+		// map_skate_park_location_normal_hovered
+		const map_skate_park_location_normal_hovered = this.add.image(1373, 489, "map", "map_skate_park_location.png");
+		map_skate_park_location_normal_hovered.scaleX = 1.0692635554859196;
+		map_skate_park_location_normal_hovered.scaleY = 1.1788274676632446;
+		map_skate_park_location_normal_hovered.visible = false;
+
+		// map_ice_berg_location_normal_hovered
+		const map_ice_berg_location_normal_hovered = this.add.image(1421, 424, "map", "map_ice_berg_location.png");
+		map_ice_berg_location_normal_hovered.scaleX = 1.0467246658678744;
+		map_ice_berg_location_normal_hovered.scaleY = 0.9064167113416973;
+		map_ice_berg_location_normal_hovered.visible = false;
+
+		// map_all_igloos_location_normal_hovered
+		const map_all_igloos_location_normal_hovered = this.add.image(614, 734, "map", "map_all_igloos_location.png");
+		map_all_igloos_location_normal_hovered.scaleX = 0.989604795491758;
+		map_all_igloos_location_normal_hovered.scaleY = 0.977755815507466;
+		map_all_igloos_location_normal_hovered.visible = false;
+
+		// map_own_igloo_location_normal_hovered
+		const map_own_igloo_location_normal_hovered = this.add.image(739, 657, "map", "map_own_igloo_location.png");
+		map_own_igloo_location_normal_hovered.scaleX = 1.464875318266531;
+		map_own_igloo_location_normal_hovered.scaleY = 1.3341319515446912;
+		map_own_igloo_location_normal_hovered.visible = false;
+
+		// map_dojo_location_normal_hovered
+		const map_dojo_location_normal_hovered = this.add.image(916, 278, "map", "map_dojo_location.png");
+		map_dojo_location_normal_hovered.scaleX = 0.9418144967800044;
+		map_dojo_location_normal_hovered.scaleY = 0.9962699386055076;
+		map_dojo_location_normal_hovered.visible = false;
+
         this.map_places_button_text = this.add.text(37, 125, "Places", {
             fontFamily: "cpBurbankSmallBold",
             fontSize: "20px",
@@ -836,6 +946,42 @@ export class MapScene extends BaseScene {
         // Other stuff ends here
 
         // Setting all interactives sprites starts here
+		map_town_location_png.setInteractive({ useHandCursor: true });
+		map_snow_forts_location_png.setInteractive({ useHandCursor: true });
+		map_all_igloos_location_png.setInteractive({ useHandCursor: true });
+		map_own_igloo_location_png.setInteractive({ useHandCursor: true });
+		map_docks_locationo_png.setInteractive({ useHandCursor: true });
+		map_light_house_location_png.setInteractive({ useHandCursor: true });
+		map_ski_hill_location_png.setInteractive({ useHandCursor: true });
+		map_ski_lodge_location_png.setInteractive({ useHandCursor: true });
+		map_puffle_wild_location_png_1.setInteractive({ useHandCursor: true });
+		map_soccer_stadium_location_png.setInteractive({ useHandCursor: true });
+		map_puffle_park_location_png.setInteractive({ useHandCursor: true });
+		map_plaza_location_png.setInteractive({ useHandCursor: true });
+		map_dojo_location_png.setInteractive({ useHandCursor: true });
+		map_forest_location_png.setInteractive({ useHandCursor: true });
+		map_cove_location_png.setInteractive({ useHandCursor: true });
+		map_mine_location_png.setInteractive({ useHandCursor: true });
+		map_skate_park_location_png.setInteractive({ useHandCursor: true });
+		map_ice_berg_location_png.setInteractive({ useHandCursor: true });
+		map_dojo_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_own_igloo_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_all_igloos_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_ice_berg_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_skate_park_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_cove_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_forest_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_plaza_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_puffle_park_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_puffle_wild_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_ski_lodge_location_normal_hover.setInteractive({ useHandCursor: true });
+		map_light_house_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_docks_locationo_normal_hovered.setInteractive({ useHandCursor: true });
+		map_snow_forts_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_town_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_ski_hill_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_soccer_stadium_location_normal_hovered.setInteractive({ useHandCursor: true });
+		map_mine_location_normal_hovered.setInteractive({ useHandCursor: true });
         map_icon_places0001_png.setInteractive({ useHandCursor: true });
         map_icon_places0002_png.setInteractive({ useHandCursor: true });
         map_icon_places0004_png.setInteractive({ useHandCursor: true });
@@ -928,6 +1074,276 @@ export class MapScene extends BaseScene {
         // Setting all interactives sprites ends here
 
         // All interactive events start here
+		// Town
+		map_town_location_png.on("pointerover", () => {
+			map_town_location_png.visible = false;
+			map_town_location_normal_hovered.visible = true;
+		});
+
+		map_town_location_normal_hovered.on("pointerout", () => {
+			map_town_location_png.visible = true;
+			map_town_location_normal_hovered.visible = false;
+		});
+
+		map_town_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_TOWN);
+		});
+
+		// Snow Forts
+		map_snow_forts_location_png.on("pointerover", () => {
+			map_snow_forts_location_png.visible = false;
+			map_snow_forts_location_normal_hovered.visible = true;
+		});
+
+		map_snow_forts_location_normal_hovered.on("pointerout", () => {
+			map_snow_forts_location_png.visible = true;
+			map_snow_forts_location_normal_hovered.visible = false;
+		});
+
+		map_snow_forts_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_SNOW_FORTS);
+		});
+
+		// All Igloos
+		map_all_igloos_location_png.on("pointerover", () => {
+			map_all_igloos_location_png.visible = false;
+			map_all_igloos_location_normal_hovered.visible = true;
+		});
+
+		map_all_igloos_location_normal_hovered.on("pointerout", () => {
+			map_all_igloos_location_png.visible = true;
+			map_all_igloos_location_normal_hovered.visible = false;
+		});
+
+		map_all_igloos_location_normal_hovered.on("pointerdown", () => {
+			// sendJoinRoomPacket(SCENE_ROOM_TOWN);
+		});
+
+		// Own Igloo
+		map_own_igloo_location_png.on("pointerover", () => {
+			map_own_igloo_location_png.visible = false;
+			map_own_igloo_location_normal_hovered.visible = true;
+		});
+
+		map_own_igloo_location_normal_hovered.on("pointerout", () => {
+			map_own_igloo_location_png.visible = true;
+			map_own_igloo_location_normal_hovered.visible = false;
+		});
+
+		map_own_igloo_location_normal_hovered.on("pointerdown", () => {
+			// sendJoinRoomPacket(SCENE_ROOM_TOWN);
+		});
+
+		// Docks
+		map_docks_locationo_png.on("pointerover", () => {
+			map_docks_locationo_png.visible = false;
+			map_docks_locationo_normal_hovered.visible = true;
+		});
+
+		map_docks_locationo_normal_hovered.on("pointerout", () => {
+			map_docks_locationo_png.visible = true;
+			map_docks_locationo_normal_hovered.visible = false;
+		});
+
+		map_docks_locationo_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_DOCKS);
+		});
+
+		// Light House
+		map_light_house_location_png.on("pointerover", () => {
+			map_light_house_location_png.visible = false;
+			map_light_house_location_normal_hovered.visible = true;
+		});
+
+		map_light_house_location_normal_hovered.on("pointerout", () => {
+			map_light_house_location_png.visible = true;
+			map_light_house_location_normal_hovered.visible = false;
+		});
+
+		map_light_house_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_BEACH);
+		});
+
+		// Ski Hill
+		map_ski_hill_location_png.on("pointerover", () => {
+			map_ski_hill_location_png.visible = false;
+			map_ski_hill_location_normal_hovered.visible = true;
+		});
+
+		map_ski_hill_location_normal_hovered.on("pointerout", () => {
+			map_ski_hill_location_png.visible = true;
+			map_ski_hill_location_normal_hovered.visible = false;
+		});
+
+		map_ski_hill_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_SKI_HILL);
+		});
+
+		// Ski Lodge
+		map_ski_lodge_location_png.on("pointerover", () => {
+			map_ski_lodge_location_png.visible = false;
+			map_ski_lodge_location_normal_hover.visible = true;
+		});
+
+		map_ski_lodge_location_normal_hover.on("pointerout", () => {
+			map_ski_lodge_location_png.visible = true;
+			map_ski_lodge_location_normal_hover.visible = false;
+		});
+
+		map_ski_lodge_location_normal_hover.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_SKI_VILLAGE);
+		});
+
+		// Puffle Wild
+		map_puffle_wild_location_png_1.on("pointerover", () => {
+			map_puffle_wild_location_png_1.visible = false;
+			map_puffle_wild_location_normal_hovered.visible = true;
+		});
+
+		map_puffle_wild_location_normal_hovered.on("pointerout", () => {
+			map_puffle_wild_location_png_1.visible = true;
+			map_puffle_wild_location_normal_hovered.visible = false;
+		});
+
+		map_puffle_wild_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_PUFFLE_WILD);
+		});
+
+		// Soccer Stadium
+		map_soccer_stadium_location_png.on("pointerover", () => {
+			map_soccer_stadium_location_png.visible = false;
+			map_soccer_stadium_location_normal_hovered.visible = true;
+		});
+
+		map_soccer_stadium_location_normal_hovered.on("pointerout", () => {
+			map_soccer_stadium_location_png.visible = true;
+			map_soccer_stadium_location_normal_hovered.visible = false;
+		});
+
+		map_soccer_stadium_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_ICE_RINK);
+		});
+
+		// Puffle Park
+		map_puffle_park_location_png.on("pointerover", () => {
+			map_puffle_park_location_png.visible = false;
+			map_puffle_park_location_normal_hovered.visible = true;
+		});
+
+		map_puffle_park_location_normal_hovered.on("pointerout", () => {
+			map_puffle_park_location_png.visible = true;
+			map_puffle_park_location_normal_hovered.visible = false;
+		});
+
+		map_puffle_park_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_PUFFLE_PARK);
+		});
+
+		// Plaza
+		map_plaza_location_png.on("pointerover", () => {
+			map_plaza_location_png.visible = false;
+			map_plaza_location_normal_hovered.visible = true;
+		});
+
+		map_plaza_location_normal_hovered.on("pointerout", () => {
+			map_plaza_location_png.visible = true;
+			map_plaza_location_normal_hovered.visible = false;
+		});
+
+		map_plaza_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_PLAZA);
+		});
+
+		// Dojo
+		map_dojo_location_png.on("pointerover", () => {
+			map_dojo_location_png.visible = false;
+			map_dojo_location_normal_hovered.visible = true;
+		});
+
+		map_dojo_location_normal_hovered.on("pointerout", () => {
+			map_dojo_location_png.visible = true;
+			map_dojo_location_normal_hovered.visible = false;
+		});
+
+		map_dojo_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_DOJO);
+		});
+
+		// Forest
+		map_forest_location_png.on("pointerover", () => {
+			map_forest_location_png.visible = false;
+			map_forest_location_normal_hovered.visible = true;
+		});
+
+		map_forest_location_normal_hovered.on("pointerout", () => {
+			map_forest_location_png.visible = true;
+			map_forest_location_normal_hovered.visible = false;
+		});
+
+		map_forest_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_FOREST);
+		});
+
+		// Cove
+		map_cove_location_png.on("pointerover", () => {
+			map_cove_location_png.visible = false;
+			map_cove_location_normal_hovered.visible = true;
+		});
+
+		map_cove_location_normal_hovered.on("pointerout", () => {
+			map_cove_location_png.visible = true;
+			map_cove_location_normal_hovered.visible = false;
+		});
+
+		map_cove_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_COVE);
+		});
+
+		// Mine
+		map_mine_location_png.on("pointerover", () => {
+			map_mine_location_png.visible = false;
+			map_mine_location_normal_hovered.visible = true;
+		});
+
+		map_mine_location_normal_hovered.on("pointerout", () => {
+			map_mine_location_png.visible = true;
+			map_mine_location_normal_hovered.visible = false;
+		});
+
+		map_mine_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_MINE_SHACK);
+		});
+
+		// Skate Park
+		map_skate_park_location_png.on("pointerover", () => {
+			map_skate_park_location_png.visible = false;
+			map_skate_park_location_normal_hovered.visible = true;
+		});
+
+		map_skate_park_location_normal_hovered.on("pointerout", () => {
+			map_skate_park_location_png.visible = true;
+			map_skate_park_location_normal_hovered.visible = false;
+		});
+
+		map_skate_park_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_SKATE_PARK);
+		});
+
+		// Ice Berg
+		map_ice_berg_location_png.on("pointerover", () => {
+			map_ice_berg_location_png.visible = false;
+			map_ice_berg_location_normal_hovered.visible = true;
+		});
+
+		map_ice_berg_location_normal_hovered.on("pointerout", () => {
+			map_ice_berg_location_png.visible = true;
+			map_ice_berg_location_normal_hovered.visible = false;
+		});
+
+		map_ice_berg_location_normal_hovered.on("pointerdown", () => {
+			sendJoinRoomPacket(SCENE_ROOM_ICE_BERG);
+		});
+
         map_icon_places0001_png.on("pointerover", () => {
             map_icon_places0001_png.visible = false;
             map_icon_places0002_png.visible = true;
@@ -1046,7 +1462,7 @@ export class MapScene extends BaseScene {
         });
 
         map_exit_button0002_png.on("pointerdown", () => {
-            // close scene
+			this.sceneManager.stop(SCENE_MAP);
         });
 
         map_pets_show_games_button_png.on("pointerover", () => {

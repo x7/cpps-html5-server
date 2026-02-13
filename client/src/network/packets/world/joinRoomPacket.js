@@ -1,7 +1,7 @@
 import { ClientPenguin } from "../../../game/penguin/clientPenguin";
 import ServerPenguin from "../../../game/penguin/serverPenguin";
 import { roomManager } from "../../../game/rooms/roomManager";
-import { removeLoading } from "../../../game/scenes/loading/loadingHelper";
+import { displayLoading, removeLoading } from "../../../game/scenes/loading/loadingHelper";
 import { SCENE_ROOM_TOWN, SCENE_SERVER_SELECTION } from "../../../game/scenes/sceneNames";
 import { getManager } from "../../network.js";
 import { SERVER_VERIFY_PACKET } from "../../topics.js";
@@ -64,6 +64,7 @@ export function receiveJoinRoomPacket(response) {
 export function sendJoinRoomPacket(roomId) {
     const networkManager = getManager();
     const data = { "packet_type": PACKET_JOIN_ROOM, "room_id": roomId };
+    displayLoading(getSceneManager().getCurrentScene(), "Loading Room");
     networkManager.send(SERVER_VERIFY_PACKET, data);
     networkManager.send(SERVER_VERIFY_PACKET, { "packet_type": PACKET_LEAVE_ROOM, "room_id": getSceneManager().getCurrentScene().scene.key });
 }

@@ -5,6 +5,5 @@ import { displayLoading } from "../../loading/loadingHelper";
 
 export function onJoinRoomTrigger(room) {
     const sceneManager = getSceneManager();
-    displayLoading(sceneManager.getCurrentScene(), "Loading Room");
     sendJoinRoomPacket(room);
 }

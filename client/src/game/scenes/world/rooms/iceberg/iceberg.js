@@ -33,7 +33,7 @@ export class IcebergScene extends RoomScene {
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": ICE_BERG_ROOM_MUSIC,
-            "paths": ["assets/world/rooms/iceberg/iceberg_music.json"]
+            "paths": [`assets/world/rooms/iceberg/${ICE_BERG_ROOM_MUSIC}.mp3`]
         });
     }
 
