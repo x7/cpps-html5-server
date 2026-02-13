@@ -4,6 +4,7 @@ import { ClientPenguin } from "../../../penguin/clientPenguin";
 import { RoomMouseMovemenet } from "../../../inputs/roomMouseMovement";
 import { RoomKeyPressed } from "../../../inputs/roomKeyPressed";
 import MovementManager from "../../../penguin/movementManager";
+import { SCENE_INTERFACE } from "../../sceneNames";
 
 export class RoomScene extends BaseScene {
     constructor(key) {
@@ -42,7 +43,10 @@ export class RoomScene extends BaseScene {
         }
 
         // Load interface
-        this.sceneManager.launch("InterfaceScene");
+        this.sceneManager.launch(SCENE_INTERFACE);
+
+        // add a shutdown event for stopping all music once this is called
+        this.events.once("shutdown", this.audioManager.stopAllMusic, this.audioManager);
     }
 
     update() {
@@ -69,19 +73,17 @@ export class RoomScene extends BaseScene {
                 const localX = Math.floor(worldX - this.offsetX);
                 const localY = Math.floor(worldY - this.offsetY);
 
-                console.log(`isWalkable called: world(${worldX}, ${worldY}) → local(${localX}, ${localY})`);
-
                 if (localX < 0 || localY < 0 || localX >= this.canvas.width || localY >= this.canvas.height) {
-                    console.log(`OUT OF BOUNDS: localX=${localX}, localY=${localY}, canvas=${this.canvas.width}x${this.canvas.height}`);
                     return true;
                 }
 
                 const pixel = this.ctx.getImageData(localX, localY, 1, 1).data;
                 const a = pixel[3];
 
-                console.log(`Pixel alpha: ${a} → ${a < 10 ? 'WALKABLE (transparent)' : 'BLOCKED (has color)'}`);
+                if (a <= 10) {
+                    return true;
+                }
 
-                if (a <= 10) return true;
                 return false;
             }
         };

@@ -44,27 +44,37 @@ export class AudioManager {
             return;
         }
 
-        console.log(audio)
         audio.play();
         this.musicPlaying.set(key, audio);
-        // auto remove after completed
-        audio.once("complete", () => {
-            this.stop(key);
-        });
     }
 
     stop(key) {
         if(!this.isPlaying(key)) {
+            console.log("lala " + key)
             return;
         }
 
         const audio = this.get(key);
         if(audio === null) {
+            console.log(`null ${key}`)
             return;
         }
 
         audio.stop();
         this.musicPlaying.delete(key);
+        console.log(`stopping ${key}`)
+    }
+
+    stopAllMusic() {
+        for(const [key, audio] of this.musicPlaying.entries()) {
+            audio.stop();
+            this.musicPlaying.delete(key);
+        }
+
+        for(const [key, audio] of this.pausedMusic.entries()) {
+            audio.stop();
+            this.pausedMusic.delete(key);
+        }
     }
 
     get(key) {
@@ -103,11 +113,6 @@ export class AudioManager {
         audio.resume();
         this.musicPlaying.set(key, audio);
         this.pausedMusic.delete(key);
-    }
-
-    stopAllMusic() {
-        this.musicPlaying.clear();
-        this.pausedMusic.clear();
     }
 
     isPlaying(key) {

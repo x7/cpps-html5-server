@@ -421,9 +421,15 @@ export class TownScene extends RoomScene {
 
 		this.audioManager.play(TOWN_ROOM_MUSIC);
 		super.createContent(this);
+		this.events.once("shutdown", this.shutdown, this);
 	}
 
 	update() {
 		super.update();
+	}
+
+	shutdown() {
+		console.log("shutting down")
+		this.audioManager.stop(TOWN_ROOM_MUSIC);
 	}
 }

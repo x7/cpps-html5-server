@@ -19,7 +19,7 @@ export function receiveJoinRoomPacket(response) {
     }
     
     if(!packet.success) {
-        console.log("error joining room");
+        console.log('failed to join room')
         return;
     }
 
@@ -36,10 +36,8 @@ export function receiveJoinRoomPacket(response) {
     roomManager.setRoom(roomName);
     const room = roomManager.getRoom();
 
-    console.log(roomName)
-
     removeLoading({
-        currentScene: SCENE_SERVER_SELECTION,
+        currentScene: getSceneManager().getCurrentScene(),
         goToScene: roomName,
         goToSceneText: `Joining ${roomDisplayName}`,
         goToSceneData: { "players": players },

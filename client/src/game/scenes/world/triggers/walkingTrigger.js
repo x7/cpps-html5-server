@@ -46,8 +46,6 @@ export function onWalkingTrigger(scene) {
         checkY += threshold;
     }
 
-    console.log(`Checking position: (${checkX}, ${checkY}) - pose: ${penguinPose}`);
-
     if(!scene.collisionMap || !scene.collisionMap.isWalkable(checkX, checkY)) {
         scene.movementManager.cancelMovement();
     }

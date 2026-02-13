@@ -28,6 +28,7 @@ export class EventEmitter extends Phaser.Events.EventEmitter {
     emitEvent(eventName, ...args) {
         console.log("EMITING EVENT NAME " + eventName);
         super.emit(eventName, ...args);
+        console.log("EMITTED EVENT NAME " + eventName);
     }
 
     getEvent(eventName) {

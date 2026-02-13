@@ -35,7 +35,7 @@ export class DanceclubScene extends RoomScene {
             "scene": this,
             "type": ASSET_TYPES.AUDIO,
             "name": DANCE_CLUB_ROOM_MUSIC,
-            "paths": ["assets/world/rooms/danceclub/danceclub_music.mp3"]
+            "paths": ["assets/world/rooms/danceclub/danceclub_room_music.mp3"]
         });
     }
 

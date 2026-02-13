@@ -29,6 +29,15 @@ public class JoinRoomPacket implements PacketHandler {
             room = RoomManager.getRoom(roomId);
         }
 
+        if(!room.isAvailable()) {
+            Map<String, Object> response = new HashMap<>();
+            response.put("packet", "join_room");
+            response.put("success", false);
+            response.put("errorMessage", "This room is under still development. Try again later.");
+            messagingTemplate.convertAndSendToUser(penguinData.get("username").toString(),"/queue/join_room", response);
+            return;
+        }
+
         room.addPlayer(player);
 
         // send to every other client in the room but the person sending the join room packet

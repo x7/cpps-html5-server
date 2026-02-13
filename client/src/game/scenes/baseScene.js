@@ -3,7 +3,7 @@ import { SCENE_INTERFACE_DANCE, SCENE_LOADING } from "./sceneNames";
 
 export class BaseScene extends Phaser.Scene {
     constructor(key) {
-        super(key)
+        super(key);
     }
 
     init(data = {}) {
@@ -43,6 +43,8 @@ export class BaseScene extends Phaser.Scene {
             this.input.enabled = true;
             this.cameras.main.setAlpha(1);
         }
+
+        this.sound.pauseOnBlur = false;
 
         this.events.emit("scene-awake");
         this.events.emit("sceneReady");

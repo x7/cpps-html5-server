@@ -22,7 +22,7 @@
   },
   "CoffeeShopScene": {
     "display_name": "Coffee Shop",
-    "available": false,
+    "available": true,
     "max_players": 60,
     "spawn_x": 688,
     "spawn_y": 444
@@ -155,7 +155,7 @@
   },
   "WaterDojoScene": {
     "display_name": "Water Dojo",
-    "available": false,
+    "available": true,
     "max_players": 60,
     "spawn_x": 800,
     "spawn_y": 500

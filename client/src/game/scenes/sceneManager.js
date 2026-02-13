@@ -1,6 +1,8 @@
 import Phaser from "phaser";
 import { returnSceneClass } from "./sceneUtil.js";
 import { SCENE_LOADING } from "./sceneNames.js";
+import eventEmitter from "../../util/eventEmitter.js";
+import { RoomScene } from "./world/rooms/RoomScene.js";
 
 export class SceneManager {
     game = null;
@@ -89,6 +91,10 @@ export class SceneManager {
 
         if(this.launchedScenes.has(scene)) {
             this.launchedScenes.delete(scene);
+        }
+
+        if(scene instanceof RoomScene) {
+            eventEmitter.emitEvent("sceneShutDown");
         }
 
         this.game.scene.stop(sceneId);
