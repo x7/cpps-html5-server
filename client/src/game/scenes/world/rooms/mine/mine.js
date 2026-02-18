@@ -63,7 +63,7 @@ export class MineScene extends RoomScene {
     }
 
     createContent() {
-// mine_background_png
+		// mine_background_png
 		const mine_background_png = this.add.image(785, 467, "mine", "mine_background.png");
 
 		// mine_puffle_rescue_board0001_png
@@ -131,8 +131,9 @@ export class MineScene extends RoomScene {
 		const mine_rock_4_png = this.add.image(418, 541, "mine", "mine_rock_4.png");
 
 		// mine_exit_door_light_png
-		const mine_exit_door_light_png = this.add.image(849, 196, "mine", "mine_exit_door_light.png");
+		const mine_exit_door_light_png = this.add.image(851, 196, "mine", "mine_exit_door_light.png");
 		mine_exit_door_light_png.scaleX = 1.000149399555367;
+		mine_exit_door_light_png.visible = false;
 
 		// mine_exit_door_overlay_png
 		const mine_exit_door_overlay_png = this.add.image(805, 183, "mine", "mine_exit_door_overlay.png");
@@ -197,8 +198,8 @@ export class MineScene extends RoomScene {
 		mine_underground_pool_trigger.alpha = 0.001;
 		mine_underground_pool_trigger.isFilled = true;
 
-        // mine_walking_trigger_png
-		const mine_walking_trigger_png = this.physics.add.sprite(753, 471, "mine_walking_trigger");
+		// mine_walking_trigger_png
+		const mine_walking_trigger_png = this.physics.add.sprite(753, 471, "mine", "mine_walking_trigger.png");
 		mine_walking_trigger_png.alpha = 0.001;
 		mine_walking_trigger_png.alphaTopLeft = 0.001;
 		mine_walking_trigger_png.alphaTopRight = 0.001;
@@ -216,7 +217,7 @@ export class MineScene extends RoomScene {
 		mine_cavemine_trigger.alphaBottomRight = 0.001;
 		mine_cavemine_trigger.body.setSize(266, 170, false);
 
-		// mine_underground_pool_trigger
+		// mine_underground_pool_room_trigger
 		const mine_underground_pool_room_trigger = this.physics.add.sprite(158, 454, "mine", "mine_underground_pool_trigger.png");
 		mine_underground_pool_room_trigger.alpha = 0.001;
 		mine_underground_pool_room_trigger.alphaTopLeft = 0.001;

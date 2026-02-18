@@ -260,18 +260,38 @@ export class TownScene extends RoomScene {
 		const town_snow_forts_room_trigger_png = this.physics.add.sprite(1441, 592, "town-triggers", "town_snow_forts_room_trigger.png");
 		town_snow_forts_room_trigger_png.scaleX = 0.7040527403599454;
 		town_snow_forts_room_trigger_png.scaleY = 0.8531550442324147;
+		town_snow_forts_room_trigger_png.alpha = 0.001;
+		town_snow_forts_room_trigger_png.alphaTopLeft = 0.001;
+		town_snow_forts_room_trigger_png.alphaTopRight = 0.001;
+		town_snow_forts_room_trigger_png.alphaBottomLeft = 0.001;
+		town_snow_forts_room_trigger_png.alphaBottomRight = 0.001;
 		town_snow_forts_room_trigger_png.body.setSize(280, 214, false);
 
 		// town_dance_club_room_trigger_png
 		const town_dance_club_room_trigger_png = this.physics.add.sprite(843, 398, "town-triggers", "town_dance_club_room_trigger.png");
+		town_dance_club_room_trigger_png.alpha = 0.001;
+		town_dance_club_room_trigger_png.alphaTopLeft = 0.001;
+		town_dance_club_room_trigger_png.alphaTopRight = 0.001;
+		town_dance_club_room_trigger_png.alphaBottomLeft = 0.001;
+		town_dance_club_room_trigger_png.alphaBottomRight = 0.001;
 		town_dance_club_room_trigger_png.body.setSize(180, 90, false);
 
 		// town_coffee_shop_room_trigger_png
 		const town_coffee_shop_room_trigger_png = this.physics.add.sprite(424, 445, "town-triggers", "town_coffee_shop_room_trigger.png");
+		town_coffee_shop_room_trigger_png.alpha = 0.001;
+		town_coffee_shop_room_trigger_png.alphaTopLeft = 0.001;
+		town_coffee_shop_room_trigger_png.alphaTopRight = 0.001;
+		town_coffee_shop_room_trigger_png.alphaBottomLeft = 0.001;
+		town_coffee_shop_room_trigger_png.alphaBottomRight = 0.001;
 		town_coffee_shop_room_trigger_png.body.setSize(176, 98, false);
 
 		// town_clothes_shop_room_trigger_png
 		const town_clothes_shop_room_trigger_png = this.physics.add.sprite(1120, 414, "town-triggers", "town_clothes_shop_room_trigger.png");
+		town_clothes_shop_room_trigger_png.alpha = 0.001;
+		town_clothes_shop_room_trigger_png.alphaTopLeft = 0.001;
+		town_clothes_shop_room_trigger_png.alphaTopRight = 0.001;
+		town_clothes_shop_room_trigger_png.alphaBottomLeft = 0.001;
+		town_clothes_shop_room_trigger_png.alphaBottomRight = 0.001;
 		town_clothes_shop_room_trigger_png.body.setSize(176, 99, false);
 
 		// town_docks_room_trigger_png
@@ -279,8 +299,13 @@ export class TownScene extends RoomScene {
 		town_docks_room_trigger_png.scaleX = 0.5877954964206972;
 		town_docks_room_trigger_png.scaleY = 0.44792742416998366;
 		town_docks_room_trigger_png.angle = 60;
+		town_docks_room_trigger_png.alpha = 0.001;
+		town_docks_room_trigger_png.alphaTopLeft = 0.001;
+		town_docks_room_trigger_png.alphaTopRight = 0.001;
+		town_docks_room_trigger_png.alphaBottomLeft = 0.001;
+		town_docks_room_trigger_png.alphaBottomRight = 0.001;
 		town_docks_room_trigger_png.body.setSize(274, 222, false);
-		
+
 		// town_walking_trigger_png
 		const town_walking_trigger_png = this.physics.add.sprite(774, 453, "town-triggers", "town_walking_trigger.png");
 		town_walking_trigger_png.alpha = 0.001;

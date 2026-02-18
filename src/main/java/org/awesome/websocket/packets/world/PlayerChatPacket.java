@@ -17,8 +17,9 @@ public class PlayerChatPacket implements PacketHandler {
         Map<String, Object> data = (Map<String, Object>) packet.get("data");
         Map<String, Object> penguinData = (Map<String, Object>) data.get("penguin");
         String message = data.get("message").toString();
+        String currentRoom = data.get("currentRoom").toString();
 
-        List<Player> players = RoomManager.getRoom("town").getPlayersInRoom().stream().toList();
+        List<Player> players = RoomManager.getRoom(currentRoom).getPlayersInRoom().stream().toList();
         for(Player player : players) {
             System.out.println(player.getUsername());
             if(player.getUsername().equals(penguinData.get("username"))) {

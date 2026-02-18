@@ -13,6 +13,9 @@ export class PlazaScene extends RoomScene {
 
     init(data) {
         super.init(data);
+
+        // globals
+        this.canGoUnderground = false;
     }
 
     preloadContent() {
@@ -39,7 +42,8 @@ export class PlazaScene extends RoomScene {
     }
 
     createContent() {
-        // plaza_sky_png
+
+		// plaza_sky_png
 		const plaza_sky_png = this.add.image(716, 87, "plaza", "plaza_sky.png");
 		plaza_sky_png.scaleX = 0.9982228920870307;
 		plaza_sky_png.scaleY = 1.1666968570750087;
@@ -122,9 +126,10 @@ export class PlazaScene extends RoomScene {
 		plaza_puffle_hotel_door0001_png.angle = 2;
 
 		// plaza_puffle_hotel_door0002_png
-		const plaza_puffle_hotel_door0002_png = this.add.image(568, 298, "plaza", "plaza_puffle_hotel_door0002.png");
-		plaza_puffle_hotel_door0002_png.scaleX = 0.5866500729166357;
-		plaza_puffle_hotel_door0002_png.scaleY = 0.46527247818253115;
+		const plaza_puffle_hotel_door0002_png = this.add.image(663, 403, "plaza", "plaza_puffle_hotel_door0002.png");
+		plaza_puffle_hotel_door0002_png.scaleX = 0.87434473129851;
+		plaza_puffle_hotel_door0002_png.scaleY = 1.006923573217672;
+		plaza_puffle_hotel_door0002_png.angle = 2;
 		plaza_puffle_hotel_door0002_png.visible = false;
 
 		// plaza_pet_shop_door0001_png
@@ -154,9 +159,9 @@ export class PlazaScene extends RoomScene {
 		plaza_pet_shop_text_png.scaleY = 0.9646549840649263;
 
 		// plaza_mall_door0002_png
-		const plaza_mall_door0002_png = this.add.image(782, 298, "plaza", "plaza_mall_door0002.png");
-		plaza_mall_door0002_png.scaleX = 0.5118579561616498;
-		plaza_mall_door0002_png.scaleY = 0.4095148455734794;
+		const plaza_mall_door0002_png = this.add.image(928, 398, "plaza", "plaza_mall_door0002.png");
+		plaza_mall_door0002_png.scaleX = 0.9613526645238123;
+		plaza_mall_door0002_png.scaleY = 1.00317853852403;
 		plaza_mall_door0002_png.visible = false;
 
 		// plaza_pizza_shop_door0002_png
@@ -170,7 +175,7 @@ export class PlazaScene extends RoomScene {
 		plaza_underground_door_png.scaleX = 1.062600097429365;
 		plaza_underground_door_png.scaleY = 0.9322432415619236;
 
-        // plaza_puffle_hotel_trigger
+		// plaza_puffle_hotel_trigger
 		const plaza_puffle_hotel_trigger = this.add.rectangle(661, 439, 128, 128);
 		plaza_puffle_hotel_trigger.scaleX = 0.6418773503319696;
 		plaza_puffle_hotel_trigger.scaleY = 0.4447027427521548;
@@ -236,6 +241,10 @@ export class PlazaScene extends RoomScene {
 		plaza_walking_trigger.body.setSize(1520, 960, false);
         this.collisionMap = this.createCollisionMap(this, 761, 477, "plaza_walking_trigger");
 
+        // Setting global instances starts here
+        this.plaza_cave_trigger = plaza_cave_trigger;
+        // Setting global instances ends here
+
         // Setting arcade physics sprites starts here
 		this.physics.add.existing(plaza_forest_trigger);
 		this.physics.add.existing(plaza_cave_trigger);
@@ -257,6 +266,10 @@ export class PlazaScene extends RoomScene {
         }]);
 
         this.triggers.push([plaza_cave_trigger, () => {
+            if(!this.canGoUnderground) {
+                return;
+            }
+
             onJoinRoomTrigger(SCENE_ROOM_CAVE);
         }]);
 
@@ -291,7 +304,7 @@ export class PlazaScene extends RoomScene {
             "phaserAnimationKey": "plaza_underground_well_open_animation_play",
             "textureKey": "plaza",
             "framePrefix": "plaza_underground_door",
-            "frames": Array.from({ length: 18 }, (_, i) => String(i + 1).padStart(4, "0")),
+            "frames": Array.from({ length: 12 }, (_, i) => String(i + 6).padStart(4, "0")),
             "framesExtension": ".png",
             "frameRate": 24,
             "repeat": 0
@@ -397,6 +410,10 @@ export class PlazaScene extends RoomScene {
         plaza_underground_door_png.on("pointerout", () => {
             plaza_underground_door_png.play("plaza_underground_well_close_animation_play");
         });
+
+        plaza_underground_door_png.on("pointerdown", () => {
+            this.canGoUnderground = true;
+        }); 
         // All interactive events end here
 
         this.audioManager.play(PLAZA_ROOM_MUSIC);

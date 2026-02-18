@@ -333,12 +333,12 @@ export class CaveMineScene extends RoomScene {
 
         cave_mine_left_exit_png_1.on("pointerover", () => {
             cave_mine_left_door_exit_hover_png_1.visible = true;
-            this.audioManager.play(CAVE_MINE_LIGHT_ON);
+            // this.audioManager.play(CAVE_MINE_LIGHT_ON);
         });
 
         cave_mine_left_door_exit_hover_png_1.on("pointerout", () => {
             cave_mine_left_door_exit_hover_png_1.visible = false;
-            this.audioManager.play(CAVE_MINE_LIGHT_OFF);
+            // this.audioManager.play(CAVE_MINE_LIGHT_OFF);
         });
 
         cave_mine_right_exit_door_hover_png_1.on("pointerover", () => {

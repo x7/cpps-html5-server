@@ -1,4 +1,6 @@
+import { sendChatPacket } from "../../../network/packets/world/chat";
 import { ASSET_TYPES } from "../../assets/assetTypes";
+import { ClientPenguin } from "../../penguin/clientPenguin";
 import { BaseScene } from "../baseScene";
 import { SCENE_INTERFACE, SCENE_INTERFACE_DANCE, SCENE_INTERFACE_EMOJIS, SCENE_MAP } from "../sceneNames";
 
@@ -170,46 +172,42 @@ export class InterfaceScene extends BaseScene {
 		interface_moderator_hovered.visible = false;
 
         // Dom elements start here
-		// const topLeft = interface_bottom_bar_chat_input.getTopLeft();
-		// const paddingLeft = 10;
-		// const paddingRight = 10;
-		// const inputX = topLeft.x + paddingLeft;
-		// const inputY = interface_bottom_bar_chat_input.y;  
-		// const inputWidth = interface_bottom_bar_chat_input.displayWidth - paddingLeft - paddingRight;
-		// this.chatInput = this.add.dom(0, 0, 'input', {
-		// 	position: 'absolute',
-		// 	width: `${inputWidth}px`,
-		// 	height: '30px',
-		// 	background: 'transparent',
-		// 	border: 'none',
-		// 	outline: 'none',
-		// 	color: '#FFFFFF',
-		// 	fontFamily: '"Arial Rounded MT Bold", Nunito, "Varela Round", sans-serif',
-		// 	fontSize: '18px',
-		// 	fontWeight: '700',
-		// 	textAlign: 'left',
-		// 	caretColor: '#FFFFFF',
-		// 	padding: '0',
-		// 	margin: '0',
-		// 	lineHeight: '30px',
-		// 	pointerEvents: 'auto'
-		// });
+		const topLeft = interface_bottom_bar_chat_input.getTopLeft();
+		const paddingLeft = 45;
+		const paddingRight = 40;
+		const inputX = topLeft.x + paddingLeft;
+		const inputY = interface_bottom_bar_chat_input.y;  
+		const inputWidth = interface_bottom_bar_chat_input.displayWidth - paddingLeft - paddingRight;
+		this.chatInput = this.add.dom(0, 0, 'input', {
+			position: 'absolute',
+			width: `${inputWidth}px`,
+			height: '30px',
+			background: 'transparent',
+			border: 'none',
+			outline: 'none',
+			color: '#FFFFFF',
+			fontFamily: '"Arial Rounded MT Bold", Nunito, "Varela Round", sans-serif',
+			fontSize: '18px',
+			fontWeight: '700',
+			textAlign: 'left',
+			caretColor: '#FFFFFF',
+			padding: '0',
+			margin: '0',
+			lineHeight: '30px',
+			pointerEvents: 'auto'
+		});
 
-		// this.chatInput.setOrigin(0, 0.5);
-		// this.chatInput.setPosition(inputX, inputY);
-		// this.chatInput.setDepth(9999);
+		this.chatInput.setOrigin(0, 0.5);
+		this.chatInput.setPosition(inputX, inputY);
+		this.chatInput.setDepth(9999);
 
-		// this.chatInput.node.addEventListener('mouseenter', () => {
-		// 	console.log("active");
-		// });
+		this.chatInput.node.autocomplete = "off";
+		this.chatInput.node.spellcheck = false;
+		this.chatInput.node.value = "";
 
-		// this.chatInput.node.autocomplete = "off";
-		// this.chatInput.node.spellcheck = false;
-		// this.chatInput.node.value = "";
-
-		// this.chatInput.node.addEventListener('mousedown', () => {
-		// 	this.chatInput.node.focus();
-		// });
+		this.chatInput.node.addEventListener('mousedown', () => {
+			this.chatInput.node.focus();
+		});
         // Dom elements end here
 
         // Setting all interactives sprites starts here
@@ -339,6 +337,9 @@ export class InterfaceScene extends BaseScene {
 		});
 
 		interface_bottom_bar_chat_send_button_hovered.on("pointerdown", () => {
+			const client = ClientPenguin.getClient();
+			client.sendChat(this.chatInput.node.value)
+			sendChatPacket(this.chatInput.node.value);
 		});
 
 		interface_bottom_bar_player_button.on("pointerover", () => {
@@ -438,6 +439,6 @@ export class InterfaceScene extends BaseScene {
     }
 
     shutdown() {
-        // this.chatInput.destroy();
+        this.chatInput.destroy();
     }
 }

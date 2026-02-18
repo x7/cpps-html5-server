@@ -8,6 +8,7 @@ export function createPacket(name, data) {
         return;
     }
 
+    console.log(typeof data)
     if(typeof data != 'object') {
         console.log("Invalid type provided for packet data");
         return;

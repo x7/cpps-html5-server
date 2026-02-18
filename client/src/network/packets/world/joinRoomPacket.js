@@ -35,6 +35,8 @@ export function receiveJoinRoomPacket(response) {
 
     roomManager.setRoom(roomName);
     const room = roomManager.getRoom();
+    console.log(room)
+    console.log(room.getRoomName())
 
     removeLoading({
         currentScene: getSceneManager().getCurrentScene(),

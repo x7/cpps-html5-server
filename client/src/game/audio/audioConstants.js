@@ -260,7 +260,7 @@ export const CAVE_ROOM_MUSIC = "cave_room_music";
 // Cave Room audio ends here
 
 // Cave Mine Room audio starts here
-export const CAVE_MINE_ROOM_MUSIC = "cave_mine_room_music"
+export const CAVE_MINE_ROOM_MUSIC = "cave_mine_room_music";
 export const CAVE_MINE_LIGHT_ON = "cave_mine_room_light_on";
 export const CAVE_MINE_LIGHT_OFF = "cave_mine_room_light_off";
 // Cave Mine Room audio ends here

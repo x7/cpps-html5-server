@@ -17,6 +17,7 @@ export class RoomScene extends BaseScene {
 
         // Triggers
         this.triggers = [];
+        this.startUpdate = false;
     }
 
     preloadContent() {
@@ -24,13 +25,13 @@ export class RoomScene extends BaseScene {
     }
 
     createContent(scene) {
+        this.client = ClientPenguin.getClient();
         super.createContent();
         eventEmitter.emitEvent("scene-spawn-player-event", scene);
 
-        const client = ClientPenguin.getClient();
-        this.movementManager = new MovementManager(client);
-        this.roomMouseMovementManager = new RoomMouseMovemenet(this, client);
-        this.roomKeyPressedManager = new RoomKeyPressed(this, client);
+        this.movementManager = new MovementManager(this.client);
+        this.roomMouseMovementManager = new RoomMouseMovemenet(this, this.client);
+        this.roomKeyPressedManager = new RoomKeyPressed(this, this.client);
 
         // Set triggers
         if(this.triggers != null && this.triggers.length > 0) {
@@ -38,7 +39,7 @@ export class RoomScene extends BaseScene {
                 const triggerImage = trigger[0];
                 const callback = trigger[1];
 
-                this.physics.add.overlap(client.body, triggerImage, callback);
+                this.physics.add.overlap(this.client.body, triggerImage, callback);
             }
         }
 
@@ -47,9 +48,14 @@ export class RoomScene extends BaseScene {
 
         // add a shutdown event for stopping all music once this is called
         this.events.once("shutdown", this.audioManager.stopAllMusic, this.audioManager);
+        this.startUpdate = true;
     }
 
     update() {
+        if(!this.startUpdate) {
+            return;
+        }
+
         this.movementManager.update();
     }
 

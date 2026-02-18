@@ -131,7 +131,7 @@ export class Penguin {
             }
         }
 
-        this.chat = this.scene.add.text(10, messageY, "test")
+        this.chat = this.scene.add.text(10, messageY, text)
         this.chat.text = (message === "" ? text : message);
         this.chat.setFontFamily("Arial");
         this.chat.setFontSize(16);
