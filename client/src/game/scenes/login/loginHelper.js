@@ -9,17 +9,17 @@ import { SCENE_LOGIN, SCENE_SERVER_SELECTION } from "../sceneNames.js";
 export async function login({ username, password, scene }) {
     const validUsername = validateUsername(username);
     if(validUsername != true) {
-        displayError(validUsername);
+        displayError({ key: validUsername });
         return;
     }
 
     const validPassword = validatePassword(password);
     if(validPassword != true) {
-        displayError(validPassword);
+        displayError({ key: validPassword });
         return;
     }
 
-    hideDomElements(this);
+    hideDomElements(scene);
     displayLoading(SCENE_LOGIN, `Logging in as ${username}`);
 
     try {
@@ -43,7 +43,7 @@ export async function login({ username, password, scene }) {
                 "goToScene": null,
                 "goToSceneText": null,
                 "callback": () => {
-                    displayError(response.errorReason);
+                    displayError({ errorMessage: response.errorReason });
                 }
             });
             return;
@@ -78,7 +78,7 @@ export async function login({ username, password, scene }) {
             "goToScene": null,
             "goToSceneText": null,
             "callback": () => {
-                displayError(error.errorReason);
+                displayError({ errorMessage: response.errorReason });
             }
         });
     }

@@ -34,7 +34,7 @@ export class LoginScene extends BaseScene {
 	}
 
 	async createContent() {
-		// login_forgot_password_hover
+// login_forgot_password_hover
 		const login_forgot_password_hover = this.add.image(588, 610, "login", "login-screen/background");
 		login_forgot_password_hover.scaleX = 0.2113536761173771;
 		login_forgot_password_hover.scaleY = 0.06486862419527441;
@@ -132,7 +132,7 @@ export class LoginScene extends BaseScene {
 		login_remember_password_checkbox_ticked.visible = false;
 
 		// login_penguin_name_text
-		const login_penguin_name_text = this.add.bitmapText(387, 146, "ArialNarrow", "Penguin Name:");
+		const login_penguin_name_text = this.add.bitmapText(384, 158, "ArialNarrow", "Penguin Name:");
 		login_penguin_name_text.scaleX = 1.4486571177026133;
 		login_penguin_name_text.scaleY = 1.5039007923811938;
 		login_penguin_name_text.tintFill = true;
@@ -235,24 +235,23 @@ export class LoginScene extends BaseScene {
 			height: 65px;
 			font-size: 35px;
 			border-radius: 0px;
-			border: 4px solid rgba(0,0,0,0.45);
-			box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.25), inset 0 2px 0 rgba(0, 0, 0, 0.25);
+			border: 2px solid #000000;
 			padding: 0 5px;
 			font-family: "Arial Rounded MT Bold", Nunito, "Varela Round", sans-serif;
 			background: #ffffff;
 			color: #000000;
 			outline: none;
 			box-shadow: none;
-        `;
+		`;
 
-		this.penguinInput = this.add.dom(500 + 650/2, 170, 'input', inputStyle);
+		this.penguinInput = this.add.dom(500 + 635/2, 185, 'input', inputStyle);
 		this.penguinInput.id = 'loginPenguinUsernameInput'
 		this.penguinInput.node.type = 'text';
 		this.penguinInput.node.autocomplete = 'off';
 		this.penguinInput.node.spellcheck = false;
 		this.penguinInput.node.maxLength = 16;
 
-		this.passwordInput = this.add.dom(500 + 650/2, 250, 'input', inputStyle);
+		this.passwordInput = this.add.dom(500 + 635/2, 255, 'input', inputStyle);
 		this.passwordInput.id = 'loginPasswordInput'
 		this.passwordInput.node.type = 'text';
 		this.passwordInput.node.autocomplete = 'off';
@@ -389,6 +388,7 @@ export class LoginScene extends BaseScene {
 			login_login_button_clicked.visible = true;
 
 			await login({ username: this.username, password: this.password, scene: this });
+			login_login_button_clicked.visible = false;
 		});
 		// All interactive events end here
 
