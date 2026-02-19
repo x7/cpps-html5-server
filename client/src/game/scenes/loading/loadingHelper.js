@@ -32,7 +32,6 @@ export function removeLoading({ currentScene, goToScene = null, goToSceneText, g
         setTimeout(() => {
             sceneManager.stop(SCENE_LOADING);
             sceneManager.resume(currentScene);
-            sceneManager.setCurrentScene(sceneManager.get(currentScene));
             isLoadingRunning = false;
 
             if(callback && typeof callback == 'function') {

@@ -26,7 +26,6 @@ public class PacketRegistry {
             return;
         }
 
-        System.out.println(packetName);
         registeredPackets.get(packetName).handle(packet, simpMessagingTemplate);
     }
 

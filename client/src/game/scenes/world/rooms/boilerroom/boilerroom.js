@@ -30,12 +30,12 @@ export class BoilerRoomScene extends RoomScene {
             "paths": ["assets/world/rooms/boilerroom/boiler_room_walking_trigger.png"]
         });
 
-        this.assetManager.load({
-            "scene": this,
-            "type": ASSET_TYPES.AUDIO,
-            "name": BOILER_ROOM_MUSIC,
-            "paths": ["assets/world/rooms/boilerroom/boilerroom_music.mp3"]
-        });
+        // this.assetManager.load({
+        //     "scene": this,
+        //     "type": ASSET_TYPES.AUDIO,
+        //     "name": BOILER_ROOM_MUSIC,
+        //     "paths": ["assets/world/rooms/boilerroom/boilerroom_music.mp3"]
+        // });
 
         this.assetManager.load({
             "scene": this,

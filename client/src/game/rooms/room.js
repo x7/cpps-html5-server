@@ -16,6 +16,8 @@ export class Room {
             return;
         }
 
+        console.log(`adding player too ${scene}`)
+
         this.players.push(player);
 
         const manager = getManager();
@@ -27,6 +29,8 @@ export class Room {
         }
 
         const a = this.sceneManager.get(scene);
+        console.log(scene)
+        console.log(a);
         player.createPenguin(a, x, y);
         console.log(`created player ${player}`)
         player.setX(x);

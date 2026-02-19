@@ -23,6 +23,7 @@ public class MovementPacket implements PacketHandler {
         Player player = RoomManager.getRoom(roomName).getPlayerByUsername(penguinData.get("username").toString());
         player.setX(x);
         player.setY(y);
+        System.out.println(player);
 
         Map<String, Object> returnData = new HashMap<>();
         returnData.put("x", x);

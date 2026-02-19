@@ -58,12 +58,15 @@ export function receiveJoinRoomPacket(response) {
                 room.addPlayer(serverPenguin, player.x, player.y, false, room.getRoomName());
             }
         }
+
+        eventEmitter.deleteEvent("scene-spawn-player-event");
     });
 }
 
 export function sendJoinRoomPacket(roomId) {
     const networkManager = getManager();
     const data = { "packet_type": PACKET_JOIN_ROOM, "room_id": roomId };
+    console.log(roomId)
     displayLoading(getSceneManager().getCurrentScene(), "Loading Room");
     networkManager.send(SERVER_VERIFY_PACKET, data);
     networkManager.send(SERVER_VERIFY_PACKET, { "packet_type": PACKET_LEAVE_ROOM, "room_id": getSceneManager().getCurrentScene().scene.key });

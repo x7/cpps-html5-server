@@ -53,7 +53,6 @@ export default class MovementManager {
         }
 
         this.pose = this.pose.toLowerCase();
-        console.log(this.pose)
 
         if(Math.abs(this.penguin.getX() - this.x) < this.threshold && Math.abs(this.penguin.getY() - this.y) < this.threshold) {
             this.cancelMovement();

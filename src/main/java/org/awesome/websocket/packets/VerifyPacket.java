@@ -40,7 +40,6 @@ public class VerifyPacket {
             return;
         }
 
-        System.out.println("yay");
         PacketRegistry.getPacketResponse(packetType, packet, messagingTemplate, userRegistry);
     }
 

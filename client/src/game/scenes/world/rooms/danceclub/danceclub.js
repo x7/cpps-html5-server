@@ -238,7 +238,6 @@ export class DanceclubScene extends RoomScene {
         // Setting triggers starts here
         this.triggers.push([danceclub_walking_trigger_png, () => {
             onWalkingTrigger(this);
-            console.log(`cloding`)
         }]);
         
         this.triggers.push([danceclub_town_trigger_png, () => {

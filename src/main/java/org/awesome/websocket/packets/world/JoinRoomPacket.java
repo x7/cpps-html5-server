@@ -20,7 +20,6 @@ public class JoinRoomPacket implements PacketHandler {
         VerifyPacket.validateCredentials(data.get("token").toString());
 
         System.out.println("Received a join room packet to join room " + roomId);
-        Player player = new Player(penguinData.get("username").toString(), 500, 500);
 
         // Room
         Room room = RoomManager.getRoom(roomId);
@@ -28,6 +27,8 @@ public class JoinRoomPacket implements PacketHandler {
             RoomManager.addRoom(roomId);
             room = RoomManager.getRoom(roomId);
         }
+
+        Player player = new Player(penguinData.get("username").toString(), room.getSpawnX(), room.getSpawnY());
 
         if(!room.isAvailable()) {
             Map<String, Object> response = new HashMap<>();
@@ -49,9 +50,10 @@ public class JoinRoomPacket implements PacketHandler {
                 }
 
                 Map<String, Object> newUser = new HashMap<>();
-                newUser.put("penguin", penguinData);
-                newUser.put("x", 500);
-                newUser.put("y", 500);
+                newUser.put("username", player.getUsername());
+                newUser.put("x", player.getX());
+                newUser.put("y", player.getY());
+                System.out.println(player1.getX() + " " + player1.getY());
                 messagingTemplate.convertAndSend("/client/add_player", Optional.of(newUser));
                 System.out.println("Sent add player for " + player1.getUsername() + " to add player " + penguinData.get("username"));
             }
