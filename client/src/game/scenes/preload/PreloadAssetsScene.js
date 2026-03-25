@@ -52,6 +52,13 @@ export class PreloadAssetsScene extends BaseScene {
             "name": "audio-json",
             "paths": ["src/game/gamedata/audio.json"]
         });
+
+        this.assetManager.load({
+            "scene": this,
+            "type": ASSET_TYPES.JSON,
+            "name": "emoji-json",
+            "paths": ["src/game/gamedata/emojis.json"]
+        });
     }
 
     createContent() {

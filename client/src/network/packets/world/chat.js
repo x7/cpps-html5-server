@@ -12,6 +12,7 @@ export function chat(response) {
     const username = penguin.username;
     const id = penguin.id;
     const message = packet.message;
+    const emoji = packet.emoji;
 
     console.log(penguin)
     console.log(packet)
@@ -34,12 +35,16 @@ export function chat(response) {
         return;
     }
 
-    console.log("sent msg")
+    if(emoji != "") {
+        player.sendChatEmoji(emoji);
+        return;
+    }
+
     player.sendChat(message);
 }
 
-export function sendChatPacket(message) {
+export function sendChatPacket(message, emoji = "") {
     const networkManager = getManager();
-    const data = { "packet_type": PACKET_PLAYER_CHAT, "message": message }
+    const data = { "packet_type": PACKET_PLAYER_CHAT, "message": message, "emoji": emoji };
     networkManager.send(SERVER_VERIFY_PACKET, data);
 }

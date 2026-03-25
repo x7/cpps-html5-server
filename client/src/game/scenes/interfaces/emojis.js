@@ -1,3 +1,6 @@
+import { sendChatPacket } from "../../../network/packets/world/chat";
+import { EMOJI_ANGRY_FACE, EMOJI_BIRTHDAY_CAKE, EMOJI_COFFEE_CUP, EMOJI_FROWN_FACE, EMOJI_GAME_STICK, EMOJI_GREEN_CLOVER, EMOJI_HAPPY_FACE, EMOJI_LIGHTBULB, EMOJI_LONELY_FACE, EMOJI_PINK_ICECREAM, EMOJI_PIZZA, EMOJI_POPCORN, EMOJI_RED_HEART, EMOJI_SHOCKED_FACE, EMOJI_SMILE_FACE, EMOJI_STRAIGHT_FACE, EMOJI_TOUNGE_OUT_FACE, EMOJI_VOMIT_FACE, EMOJI_WINK_FACE, EMOJI_YELLOW_FLOWER } from "../../gamedata/emojiConstants";
+import { ClientPenguin } from "../../penguin/clientPenguin";
 import { BaseScene } from "../baseScene";
 import { SCENE_INTERFACE_EMOJIS } from "../sceneNames";
 
@@ -309,6 +312,8 @@ export class InterfaceEmojiScene extends BaseScene {
         interface_emoji_yellow_flower_button_hover.setInteractive({ useHandCursor: true });
         // Setting all interactives sprites ends here
 
+        const client = ClientPenguin.getClient();
+
         // All interactive events start here
         // Happy Face
         interface_emoji_happy_face_button.on("pointerover", () => {
@@ -322,7 +327,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_happy_face_button_hover.on("pointerdown", () => {
-            console.log("yay")
+            client.sendChatEmoji(EMOJI_HAPPY_FACE);
+            sendChatPacket("", EMOJI_HAPPY_FACE);
         });
 
         // Smile Face
@@ -337,7 +343,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_smile_face_button_hover.on("pointerdown", () => {
-            console.log("smile face clicked");
+            client.sendChatEmoji(EMOJI_SMILE_FACE);
+            sendChatPacket("", EMOJI_SMILE_FACE);
         });
 
         // Coffee Cup
@@ -352,7 +359,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_coffee_cup_button_hover.on("pointerdown", () => {
-            console.log("coffee cup clicked");
+            client.sendChatEmoji(EMOJI_COFFEE_CUP);
+            sendChatPacket("", EMOJI_COFFEE_CUP);
         });
 
         // Straight Face
@@ -367,7 +375,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_straight_face_button_hover.on("pointerdown", () => {
-            console.log("straight face clicked");
+            client.sendChatEmoji(EMOJI_STRAIGHT_FACE);
+            sendChatPacket("", EMOJI_STRAIGHT_FACE);
         });
 
         // Sad Frown Face
@@ -382,7 +391,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_sad_frown_face_button_hover.on("pointerdown", () => {
-            console.log("sad frown face clicked");
+            client.sendChatEmoji(EMOJI_FROWN_FACE);
+            sendChatPacket("", EMOJI_FROWN_FACE);
         });
 
         // Gaming
@@ -397,7 +407,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_gaming_button_hover.on("pointerdown", () => {
-            console.log("gaming clicked");
+           client.sendChatEmoji(EMOJI_GAME_STICK);
+           sendChatPacket("", EMOJI_GAME_STICK);
         });
 
         // Shocked Face
@@ -412,7 +423,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_shocked_face_button_hover.on("pointerdown", () => {
-            console.log("shocked face clicked");
+            client.sendChatEmoji(EMOJI_SHOCKED_FACE);
+            sendChatPacket("", EMOJI_SHOCKED_FACE);
         });
 
         // Tongue Face
@@ -427,7 +439,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_tongue_face_button_hover.on("pointerdown", () => {
-            console.log("tongue face clicked");
+            client.sendChatEmoji(EMOJI_TOUNGE_OUT_FACE);
+            sendChatPacket("", EMOJI_TOUNGE_OUT_FACE);
         });
 
         // Popcorn
@@ -442,7 +455,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_popcorn_button_hover.on("pointerdown", () => {
-            console.log("popcorn clicked");
+            client.sendChatEmoji(EMOJI_POPCORN);
+            sendChatPacket("", EMOJI_POPCORN);
         });
 
         // Wink Face
@@ -457,7 +471,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_wink_face_button_hover.on("pointerdown", () => {
-            console.log("wink face clicked");
+            client.sendChatEmoji(EMOJI_WINK_FACE);
+            sendChatPacket("", EMOJI_WINK_FACE);
         });
 
         // Vomit Face
@@ -472,7 +487,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_vomit_face_button_hover.on("pointerdown", () => {
-            console.log("vomit face clicked");
+            client.sendChatEmoji(EMOJI_VOMIT_FACE);
+            sendChatPacket("", EMOJI_VOMIT_FACE);
         });
 
         // Pizza
@@ -487,7 +503,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_pizza_button_hover.on("pointerdown", () => {
-            console.log("pizza clicked");
+            client.sendChatEmoji(EMOJI_PIZZA);
+            sendChatPacket("", EMOJI_PIZZA);
         });
 
         // Angry Face
@@ -502,7 +519,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_angry_face_button_hover.on("pointerdown", () => {
-            console.log("angry face clicked");
+            client.sendChatEmoji(EMOJI_ANGRY_FACE);
+            sendChatPacket("", EMOJI_ANGRY_FACE);
         });
 
         // Lonely Face
@@ -517,7 +535,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_lonely_face_button_hover.on("pointerdown", () => {
-            console.log("lonely face clicked");
+            client.sendChatEmoji(EMOJI_LONELY_FACE);
+            sendChatPacket("", EMOJI_LONELY_FACE);
         });
 
         // Pink Ice Cream
@@ -532,7 +551,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_pink_ice_cream_button_hover.on("pointerdown", () => {
-            console.log("pink ice cream clicked");
+            client.sendChatEmoji(EMOJI_PINK_ICECREAM);
+            sendChatPacket("", EMOJI_PINK_ICECREAM);
         });
 
         // Sidewards Straight Face
@@ -547,7 +567,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_sidewards_straight_face_button_hover.on("pointerdown", () => {
-            console.log("sidewards straight face clicked");
+            client.sendChatEmoji(EMOJI_STRAIGHT_FACE);
+            sendChatPacket("", EMOJI_STRAIGHT_FACE);
         });
 
         // Birthday Cake
@@ -562,7 +583,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_birthday_cake_button_hover.on("pointerdown", () => {
-            console.log("birthday cake clicked");
+            client.sendChatEmoji(EMOJI_BIRTHDAY_CAKE);
+            sendChatPacket("", EMOJI_BIRTHDAY_CAKE);
         });
 
         // Green Leaf
@@ -577,7 +599,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_green_leaf_button_hover.on("pointerdown", () => {
-            console.log("green leaf clicked");
+            client.sendChatEmoji(EMOJI_GREEN_CLOVER);
+            sendChatPacket("", EMOJI_GREEN_CLOVER);
         });
 
         // Red Heart
@@ -592,7 +615,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_red_heart_button_hover.on("pointerdown", () => {
-            console.log("red heart clicked");
+            client.sendChatEmoji(EMOJI_RED_HEART);
+            sendChatPacket("", EMOJI_RED_HEART);
         });
 
         // Lightbulb
@@ -607,7 +631,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_lightbulb_button_hover.on("pointerdown", () => {
-            console.log("lightbulb clicked");
+            client.sendChatEmoji(EMOJI_LIGHTBULB);
+            sendChatPacket("", EMOJI_LIGHTBULB);
         });
 
         // Yellow Flower
@@ -622,7 +647,8 @@ export class InterfaceEmojiScene extends BaseScene {
         });
 
         interface_emoji_yellow_flower_button_hover.on("pointerdown", () => {
-            console.log("yellow flower clicked");
+            client.sendChatEmoji(EMOJI_YELLOW_FLOWER);
+            sendChatPacket("", EMOJI_YELLOW_FLOWER);
         });
         // All interactive events ends here
 

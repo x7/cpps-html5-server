@@ -584,7 +584,7 @@
             "frame_ranges": true,
             "frame_ranges_start": 1,
             "frame_ranges_end": 12,
-            "frame_rate": 20,
+            "frame_rate": 24,
             "repeat": 0
         },
         {
@@ -595,7 +595,7 @@
             "frame_ranges": true,
             "frame_ranges_start": 1,
             "frame_ranges_end": 12,
-            "frame_rate": 20,
+            "frame_rate": 24,
             "repeat": 0
         }
     ],
@@ -607,8 +607,8 @@
             "frames": [25],
             "frame_ranges": true,
             "frame_ranges_start": 1,
-            "frame_ranges_end": 80,
-            "frame_rate": 20,
+            "frame_ranges_end": 193,
+            "frame_rate": 24,
             "repeat": -1
         },
         {
@@ -618,8 +618,8 @@
             "frames": [25],
             "frame_ranges": true,
             "frame_ranges_start": 1,
-            "frame_ranges_end": 80,
-            "frame_rate": 20,
+            "frame_ranges_end": 193,
+            "frame_rate": 24,
             "repeat": -1
         }
     ],

@@ -1,0 +1,86 @@
+{
+  "happy_face": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0001.png"
+  },
+  "smile_face": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0002.png"
+  },
+  "coffee_cup": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0013.png"
+  },
+  "straight_face": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0003.png"
+  },
+  "frown_face": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0004.png"
+  },
+  "game_stick": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0018.png"
+  },
+  "shocked_face": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0005.png"
+  },
+  "tounge_out_face": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0006.png"
+  },
+  "popcorn": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0029.png"
+  },
+  "wink_face": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0007.png"
+  },
+  "vomit_face": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0008.png"
+  },
+  "pizza": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0024.png"
+  },
+  "angry_face": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0009.png"
+  },
+  "lonely_face": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0010.png"
+  },
+  "pink_icecream": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0026.png"
+  },
+  "confused_face": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0011.png"
+  },
+  "birthday_cake": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0028.png"
+  },
+  "green_clover": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0017.png"
+  },
+  "red_heart": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0030.png"
+  },
+  "lightbulb": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0012.png"
+  },
+  "yellow_flower": {
+    "texture_key": "interface",
+    "texture_frame": "interface_emoji_happy_face0016.png"
+  }
+}

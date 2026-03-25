@@ -1,0 +1,86 @@
+{
+  "happy_face": {
+    "animated": false,
+    "available": true
+  },
+  "smile_face": {
+    "animated": false,
+    "available": true
+  },
+  "coffee_cup": {
+    "animated": false,
+    "available": true
+  },
+  "straight_face": {
+    "animated": false,
+    "available": true
+  },
+  "frown_face": {
+    "animated": false,
+    "available": true
+  },
+  "game_stick": {
+    "animated": false,
+    "available": true
+  },
+  "shocked_face": {
+    "animated": false,
+    "available": true
+  },
+  "tounge_out_face": {
+    "animated": false,
+    "available": true
+  },
+  "popcorn": {
+    "animated": false,
+    "available": true
+  },
+  "wink_face": {
+    "animated": false,
+    "available": true
+  },
+  "vomit_face": {
+    "animated": false,
+    "available": true
+  },
+  "pizza": {
+    "animated": false,
+    "available": true
+  },
+  "angry_face": {
+    "animated": false,
+    "available": true
+  },
+  "lonely_face": {
+    "animated": false,
+    "available": true
+  },
+  "pink_icecream": {
+    "animated": false,
+    "available": true
+  },
+  "confused_face": {
+    "animated": false,
+    "available": true
+  },
+  "birthday_cake": {
+    "animated": false,
+    "available": true
+  },
+  "green_clover": {
+    "animated": false,
+    "available": true
+  },
+  "red_heart": {
+    "animated": false,
+    "available": true
+  },
+  "lightbulb": {
+    "animated": false,
+    "available": true
+  },
+  "yellow_flower": {
+    "animated": false,
+    "available": true
+  }
+}

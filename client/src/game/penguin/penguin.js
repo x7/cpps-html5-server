@@ -145,6 +145,30 @@ export class Penguin {
             this.currentChat.destroy()
         }, 5000);
     }
+
+    sendChatEmoji(emoji) {
+        if(this.currentChat != null) {
+            this.currentChat.destroy();
+        }
+
+        this.interface_top_chat_png = this.scene.add.sprite(10, -120.8, "interface", "interface_top_chat.png");
+        this.interface_top_chat_png.scaleX = 0.5068804733866763;
+		this.interface_top_chat_png.scaleY = 0.7564117604157102;
+
+        this.interface_bottom_chat_png = this.scene.add.sprite(10, -72, "interface", "interface_bottom_chat.png");
+        this.interface_bottom_chat_png.scaleX = 0.5068805129470548;
+		this.interface_bottom_chat_png.scaleY = 0.8905622635411576;
+
+        const emojiData = this.sceneManager.getCurrentScene().cache.json.get("emoji-json");
+        this.emoji = this.scene.add.sprite(10, -117, emojiData[emoji].texture_key, emojiData[emoji].texture_frame);
+
+        this.currentChat = this.scene.add.container(0, 0, [this.interface_top_chat_png, this.interface_bottom_chat_png, this.emoji]);
+        this.penguinContainer.add(this.currentChat);
+
+        setTimeout(() => {
+            this.currentChat.destroy()
+        }, 5000);
+    }
  
     getId() {
         return this.id;

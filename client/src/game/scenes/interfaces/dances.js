@@ -1,3 +1,6 @@
+import { PENGUIN_DANCE_DEFAULT, PENGUIN_DANCE_WAVE, PENGUIN_IDLE_LOOK_BOTTOM_LEFT, PENGUIN_IDLE_LOOK_BOTTOM_RIGHT, PENGUIN_SITTING_LOOK_BOTTOM_LEFT, PENGUIN_SITTING_LOOK_BOTTOM_RIGHT, PENGUIN_SITTING_LOOK_TOP_LEFT, PENGUIN_SITTING_LOOK_TOP_RIGHT } from "../../../animations/animationKeys";
+import { getAnimation } from "../../../animations/animations";
+import { ClientPenguin } from "../../penguin/clientPenguin";
 import { BaseScene } from "../baseScene";
 import { SCENE_INTERFACE, SCENE_INTERFACE_DANCE } from "../sceneNames";
 
@@ -88,6 +91,10 @@ export class InterfaceDanceScene extends BaseScene {
         });
 
         interface_emoji_button_sitting_down_bottom_right_hover.on("pointerdown", () => {   
+            const client = ClientPenguin.getClient();
+            const animation = getAnimation(PENGUIN_SITTING_LOOK_BOTTOM_RIGHT);
+            client.playAnimation(PENGUIN_SITTING_LOOK_BOTTOM_RIGHT, animation[0], animation[1]);
+            this.sceneManager.stop(SCENE_INTERFACE_DANCE);
         });
 
         interface_emoji_button_sitting_down_bottom_left.on("pointerover", () => {
@@ -101,6 +108,10 @@ export class InterfaceDanceScene extends BaseScene {
         });
 
         interface_emoji_button_sitting_down_bottom_left_hover.on("pointerdown", () => {   
+            const client = ClientPenguin.getClient();
+            const animation = getAnimation(PENGUIN_SITTING_LOOK_BOTTOM_LEFT);
+            client.playAnimation(PENGUIN_SITTING_LOOK_BOTTOM_LEFT, animation[0], animation[1]);
+            this.sceneManager.stop(SCENE_INTERFACE_DANCE);
         });
 
         interface_emoji_button_sitting_down_top_right.on("pointerover", () => {
@@ -114,6 +125,10 @@ export class InterfaceDanceScene extends BaseScene {
         });
 
         interface_emoji_button_sitting_down_top_right_hover.on("pointerdown", () => {   
+            const client = ClientPenguin.getClient();
+            const animation = getAnimation(PENGUIN_SITTING_LOOK_TOP_RIGHT);
+            client.playAnimation(PENGUIN_SITTING_LOOK_TOP_RIGHT, animation[0], animation[1]);
+            this.sceneManager.stop(SCENE_INTERFACE_DANCE);
         });
 
         interface_emoji_button_sitting_down_top_left.on("pointerover", () => {
@@ -127,6 +142,10 @@ export class InterfaceDanceScene extends BaseScene {
         });
 
         interface_emoji_button_sitting_down_top_left_hover.on("pointerdown", () => {   
+            const client = ClientPenguin.getClient();
+            const animation = getAnimation(PENGUIN_SITTING_LOOK_TOP_LEFT);
+            client.playAnimation(PENGUIN_SITTING_LOOK_TOP_LEFT, animation[0], animation[1]);
+            this.sceneManager.stop(SCENE_INTERFACE_DANCE);
         });
 
         interface_emoji_button_penguin_wave.on("pointerover", () => {
@@ -140,6 +159,10 @@ export class InterfaceDanceScene extends BaseScene {
         });
 
         interface_emoji_button_penguin_wave_hover.on("pointerdown", () => {   
+            const client = ClientPenguin.getClient();
+            const animation = getAnimation(PENGUIN_DANCE_WAVE);
+            client.playAnimation(PENGUIN_DANCE_WAVE, animation[0], animation[1]);
+            this.sceneManager.stop(SCENE_INTERFACE_DANCE);
         });
 
         interface_emoji_button_penguin_default_dance.on("pointerover", () => {
@@ -153,7 +176,12 @@ export class InterfaceDanceScene extends BaseScene {
         });
 
         interface_emoji_button_penguin_default_dance_hover.on("pointerdown", () => {   
+            const client = ClientPenguin.getClient();
+            const animation = getAnimation(PENGUIN_DANCE_DEFAULT);
+            client.playAnimation(PENGUIN_DANCE_DEFAULT, animation[0], animation[1]);
+            this.sceneManager.stop(SCENE_INTERFACE_DANCE);
         });
+        // All interactive events end here
 
         // input events start here
         this.input.on("pointermove", (pointer) => {
@@ -185,7 +213,6 @@ export class InterfaceDanceScene extends BaseScene {
             }
         });
         // input events end here
-        // All interactive events end here
 
         this.sceneManager.sendToTop(SCENE_INTERFACE_DANCE);
     }
