@@ -22,6 +22,8 @@ public class LoginController {
         String username = (String) body.get("username");
         String password = (String) body.get("password");
 
+        System.out.println(password);
+
         PenguinData penguinData = PenguinOperations.getPenguinByUsername(username);
         if(penguinData == null) {
             ApiResponse apiResponse = new ApiResponse("No penguin found with this username", HttpStatus.BAD_REQUEST);

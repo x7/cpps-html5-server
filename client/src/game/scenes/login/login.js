@@ -34,7 +34,7 @@ export class LoginScene extends BaseScene {
 	}
 
 	async createContent() {
-// login_forgot_password_hover
+		// login_forgot_password_hover
 		const login_forgot_password_hover = this.add.image(588, 610, "login", "login-screen/background");
 		login_forgot_password_hover.scaleX = 0.2113536761173771;
 		login_forgot_password_hover.scaleY = 0.06486862419527441;
@@ -269,6 +269,13 @@ export class LoginScene extends BaseScene {
 		this.hiddenPassword = "";
 		this.passwordInput.node.addEventListener("input", (event) => {
 			const input = event.target.value;
+			if(input.length > 1) {
+				const lastCharacter = input.split('')[input.length - 1];
+				this.password = this.password + lastCharacter;
+			} else {
+				this.password = input;
+			}
+
 			if(input.length < this.hiddenPassword.length) {
 				this.hiddenPassword = this.hiddenPassword.slice(0, input.length);
 			}
@@ -277,7 +284,6 @@ export class LoginScene extends BaseScene {
 				this.hiddenPassword += "*".repeat(input.length - this.hiddenPassword.length);
 			}
 
-			this.password = input;
 			this.passwordInput.node.value = this.hiddenPassword;
 		});
 		// Dom elements events end here

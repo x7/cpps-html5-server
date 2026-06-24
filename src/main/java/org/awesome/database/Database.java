@@ -10,7 +10,6 @@ import java.lang.reflect.Modifier;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-// TODO: Add a test sql to see if the database is responding ok
 public class Database {
     private static Connection database;
 

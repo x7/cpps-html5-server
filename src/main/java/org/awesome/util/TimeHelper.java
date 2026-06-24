@@ -8,7 +8,6 @@ public class TimeHelper {
     public static Date getDate(long time) {
         long dayInMs = 86_400_400;
 
-
         return null;
     }
 

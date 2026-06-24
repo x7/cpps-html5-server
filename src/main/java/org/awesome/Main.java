@@ -7,13 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.nio.file.Path;
 
-/*
-    room manager is setup
-    disconnect websockets (server sided) is setup
-    verification packet before routing to smthing else is setup
-*/
-
-// aaaaaaaaaaaaaaaa this is rushed clean it up tomorrow
 @SpringBootApplication
 public class Main {
     public static Path root = Path.of("").toAbsolutePath().resolve("src").resolve("main").resolve("java").resolve("org").resolve("awesome");
