@@ -36,7 +36,6 @@ export async function login({ username, password, scene }) {
 
         const response = await request.json();
 
-        console.log(response)
         if(request.status !== 200) {
             removeLoading({
                 "currentScene": SCENE_LOGIN,
@@ -49,7 +48,6 @@ export async function login({ username, password, scene }) {
             return;
         }
 
-        console.log(response);
         const token = response.data.access_token;
         const refreshToken = response.data.refresh_token;
         const expirationDate = response.data.expire_data;
@@ -72,7 +70,6 @@ export async function login({ username, password, scene }) {
         });
 
     } catch (error) {
-        console.log(error.errorReason)
         removeLoading({
             "currentScene": SCENE_LOGIN,
             "goToScene": null,

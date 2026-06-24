@@ -269,9 +269,20 @@ export class LoginScene extends BaseScene {
 		this.hiddenPassword = "";
 		this.passwordInput.node.addEventListener("input", (event) => {
 			const input = event.target.value;
+			const inputType = event.inputType;
+
+			if(input.length == 0) {
+				this.password = "";
+				return;
+			}
+			
 			if(input.length > 1) {
-				const lastCharacter = input.split('')[input.length - 1];
-				this.password = this.password + lastCharacter;
+				if(inputType == "insertText") {
+					const lastCharacter = input.split('')[input.length - 1];
+					this.password = this.password + lastCharacter;
+				} else {
+					this.password = this.password.slice(0, -1)
+				}
 			} else {
 				this.password = input;
 			}
