@@ -26,6 +26,7 @@ export class Penguin {
         this.chat = null;
         this.currentAnimation = null;
         this.currentChat = null;
+        this.destroyChatInterval = null;
     }
 
     createPenguin(scene, x, y) {
@@ -141,14 +142,13 @@ export class Penguin {
         this.currentChat = this.scene.add.container(0, 0, [this.interface_top_chat_png, this.interface_bottom_chat_png, this.chat]);
         this.penguinContainer.add(this.currentChat);
 
-        setTimeout(() => {
-            this.currentChat.destroy()
-        }, 5000);
+        this.destroyChat(5000);
     }
 
     sendChatEmoji(emoji) {
         if(this.currentChat != null) {
             this.currentChat.destroy();
+            clearTimeout(this.destroyChatInterval);
         }
 
         this.interface_top_chat_png = this.scene.add.sprite(10, -120.8, "interface", "interface_top_chat.png");
@@ -165,9 +165,18 @@ export class Penguin {
         this.currentChat = this.scene.add.container(0, 0, [this.interface_top_chat_png, this.interface_bottom_chat_png, this.emoji]);
         this.penguinContainer.add(this.currentChat);
 
-        setTimeout(() => {
+        this.destroyChat(5000);
+    }
+
+    destroyChat(time) {
+        if(typeof time != Number) {
+            console.log("Invalid number provided setting default to 5 seconds (5000)");
+            time = 5000; // set default
+        }
+
+        this.destroyChatInterval = setTimeout(() => {
             this.currentChat.destroy()
-        }, 5000);
+        }, time);
     }
  
     getId() {

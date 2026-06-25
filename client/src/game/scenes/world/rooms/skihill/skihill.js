@@ -116,13 +116,13 @@ export class SkihillScene extends RoomScene {
 		// Setting arcade physics sprites ends here
 
 		// Setting triggers starts here
-		// this.triggers.push([lighthouse_walk_trigger, () => {
+		// this.triggers.push([ski_hill, () => {
 		// 	onWalkingTrigger(this);
 		// }]);
 
-		this.triggers.push([ski_hill_ski_village_trigger, () => {
-			onJoinRoomTrigger(SCENE_ROOM_SKI_VILLAGE);
-		}]);
+		// this.triggers.push([ski_hill_ski_village_trigger, () => {
+		// 	onJoinRoomTrigger(SCENE_ROOM_SKI_VILLAGE);
+		// }]);
 		// Setting triggers ends here
 
 		this.audioManager.play(SKI_HILL_ROOM_MUSIC);

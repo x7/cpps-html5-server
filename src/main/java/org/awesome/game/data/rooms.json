@@ -113,7 +113,7 @@
   },
   "SkiHillScene": {
     "display_name": "Ski Hill",
-    "available": false,
+    "available": true,
     "max_players": 60,
     "spawn_x": 800,
     "spawn_y": 400

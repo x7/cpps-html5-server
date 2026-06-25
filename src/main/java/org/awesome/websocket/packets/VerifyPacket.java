@@ -26,14 +26,14 @@ public class VerifyPacket {
     @MessageMapping("/gateway")
     public void onGatewayReceive(@Payload Map<String, Object> packet) {
         Map<String, Object> packetData = (Map<String, Object>) packet.get("data");
-        String jwt = packetData.get("token").toString();
-
-        boolean validJwt = validateCredentials(jwt);
-        if(!validJwt) {
-            System.out.println("PACKET FAILED");
-            return;
-        }
-
+//        String jwt = packetData.get("token").toString();
+//
+//        boolean validJwt = validateCredentials(jwt);
+//        if(!validJwt) {
+//            System.out.println("PACKET FAILED");
+//            return;
+//        }
+//
         String packetType = packetData.get("packet_type").toString();
         if(packetType == null || packetType.isBlank()) {
             System.out.println("PAKCET FAILED " + packetType);

@@ -12,6 +12,7 @@ export class ClientPenguin extends Penguin {
         }
 
         this.client = this;
+        this.currentRoom = null;
 
         // JWT Token
         this.token = null;
@@ -56,6 +57,14 @@ export class ClientPenguin extends Penguin {
         }
 
         return "unknown_pose";
+    }
+
+    getCurrentRoom() {
+        return this.currentRoom;
+    }
+
+    setCurrentRoom(newRoom) {
+        this.currentRoom = newRoom;
     }
 
     setToken(token) {

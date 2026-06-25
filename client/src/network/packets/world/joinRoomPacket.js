@@ -2,12 +2,13 @@ import { ClientPenguin } from "../../../game/penguin/clientPenguin";
 import ServerPenguin from "../../../game/penguin/serverPenguin";
 import { roomManager } from "../../../game/rooms/roomManager";
 import { displayLoading, removeLoading } from "../../../game/scenes/loading/loadingHelper";
-import { SCENE_ROOM_TOWN, SCENE_SERVER_SELECTION } from "../../../game/scenes/sceneNames";
+import { SCENE_MAP, SCENE_ROOM_TOWN, SCENE_SERVER_SELECTION } from "../../../game/scenes/sceneNames";
 import { getManager } from "../../network.js";
 import { SERVER_VERIFY_PACKET } from "../../topics.js";
 import { PACKET_JOIN_ROOM, PACKET_LEAVE_ROOM } from "../../types/packetTypes.js";
 import { parsePacket } from "../packetUtil.js";
 import eventEmitter from "../../../util/eventEmitter.js";
+import { SceneManager } from "../../../game/scenes/sceneManager.js";
 import { getSceneManager } from "../../../main.js";
 
 export function receiveJoinRoomPacket(response) {
@@ -35,8 +36,7 @@ export function receiveJoinRoomPacket(response) {
 
     roomManager.setRoom(roomName);
     const room = roomManager.getRoom();
-    console.log(room)
-    console.log(room.getRoomName())
+    penguin.setCurrentRoom(room.getRoomName());
 
     removeLoading({
         currentScene: getSceneManager().getCurrentScene(),
@@ -65,8 +65,21 @@ export function receiveJoinRoomPacket(response) {
 
 export function sendJoinRoomPacket(roomId) {
     const networkManager = getManager();
+    const client = ClientPenguin.getClient();
+
+    if(client.getCurrentRoom() == roomId) {
+        const sceneManager = getSceneManager();
+        sceneManager.getLaunchedScenes().forEach(scene => {
+            if(scene.scene.key == SCENE_MAP) {
+                sceneManager.stop(SCENE_MAP);
+                return;
+            }
+        });
+
+        return;
+    }
+
     const data = { "packet_type": PACKET_JOIN_ROOM, "room_id": roomId };
-    console.log(roomId)
     displayLoading(getSceneManager().getCurrentScene(), "Loading Room");
     networkManager.send(SERVER_VERIFY_PACKET, data);
     networkManager.send(SERVER_VERIFY_PACKET, { "packet_type": PACKET_LEAVE_ROOM, "room_id": getSceneManager().getCurrentScene().scene.key });
