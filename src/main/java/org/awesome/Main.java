@@ -2,6 +2,7 @@ package org.awesome;
 
 import org.awesome.preflight.ConfigCheck;
 import org.awesome.preflight.DatabaseCheck;
+import org.awesome.websocket.packets.PacketRegistry;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -23,6 +24,9 @@ public class Main {
 
         // start application
         startSpringApplication(args);
+
+        // Register packets
+        PacketRegistry.registerPackets();
     }
 
     public static void startSpringApplication(String[] args) {

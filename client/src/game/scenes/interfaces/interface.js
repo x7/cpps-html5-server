@@ -176,18 +176,19 @@ export class InterfaceScene extends BaseScene {
 		const paddingLeft = 45;
 		const paddingRight = 40;
 		const inputX = topLeft.x + paddingLeft;
-		const inputY = interface_bottom_bar_chat_input.y;  
+		const inputY = interface_bottom_bar_chat_input.y - 27;  
 		const inputWidth = interface_bottom_bar_chat_input.displayWidth - paddingLeft - paddingRight;
-		this.chatInput = this.add.dom(0, 0, 'input', {
+
+		this.chatInput = this.add.dom(inputX, inputY, 'input', {
 			position: 'absolute',
 			width: `${inputWidth}px`,
-			height: '30px',
+			height: '50px',
 			background: 'transparent',
 			border: 'none',
 			outline: 'none',
 			color: '#FFFFFF',
 			fontFamily: '"Arial Rounded MT Bold", Nunito, "Varela Round", sans-serif',
-			fontSize: '18px',
+			fontSize: '23px',
 			fontWeight: '700',
 			textAlign: 'left',
 			caretColor: '#FFFFFF',
@@ -208,7 +209,9 @@ export class InterfaceScene extends BaseScene {
 		this.chatInput.node.addEventListener('mousedown', () => {
 			this.chatInput.node.focus();
 		});
-        // Dom elements end here
+
+		this.sys.game.domContainer.style.display = 'block';
+		// Dom elements end here
 
         // Setting all interactives sprites starts here
 		interface_main_interface_bar_png.setInteractive({ useHandCursor: false });

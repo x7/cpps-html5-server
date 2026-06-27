@@ -46,7 +46,6 @@ export function removeLoading({ currentScene, goToScene = null, goToSceneText, g
     }
 
     sceneManager.stop(currentScene);
-    // sceneManager.add({ sceneKey: goToScene, scene: null, autoStart: false });
 
     if(goToSceneData != null) {
         setTimeout(() => {

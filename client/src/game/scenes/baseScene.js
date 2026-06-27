@@ -49,4 +49,5 @@ export class BaseScene extends Phaser.Scene {
         this.events.emit("scene-awake");
         this.events.emit("sceneReady");
     }
+
 }

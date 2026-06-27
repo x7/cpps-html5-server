@@ -1,14 +1,19 @@
 package org.awesome.websocket.packets.world;
 
+import org.awesome.annotations.PacketInfo;
+import org.awesome.annotations.RegisterPacket;
 import org.awesome.dto.Player;
 import org.awesome.game.world.Room;
 import org.awesome.game.world.RoomManager;
 import org.awesome.websocket.packets.PacketHandler;
+import org.awesome.websocket.packets.PacketTypes;
 import org.awesome.websocket.packets.VerifyPacket;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 
 import java.util.*;
 
+@RegisterPacket
+@PacketInfo(packetType = PacketTypes.JOIN_ROOM)
 public class JoinRoomPacket implements PacketHandler {
     @Override
     public void handle(Map<String, Object> packet, SimpMessagingTemplate messagingTemplate) {

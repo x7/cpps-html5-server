@@ -70,12 +70,13 @@ export async function login({ username, password, scene }) {
         });
 
     } catch (error) {
+        console.log(error)
         removeLoading({
             "currentScene": SCENE_LOGIN,
             "goToScene": null,
             "goToSceneText": null,
             "callback": () => {
-                displayError({ errorMessage: response.errorReason });
+                displayError({ errorMessage: error.errorReason });
             }
         });
     }

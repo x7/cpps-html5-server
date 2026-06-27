@@ -1,18 +1,22 @@
 package org.awesome.websocket.packets.world;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import org.awesome.annotations.PacketInfo;
+import org.awesome.annotations.RegisterPacket;
 import org.awesome.dto.Player;
 import org.awesome.game.world.EmojiManager;
 import org.awesome.game.world.RoomManager;
 import org.awesome.websocket.packets.PacketHandler;
+import org.awesome.websocket.packets.PacketTypes;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
-import org.springframework.messaging.simp.user.SimpUserRegistry;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+@RegisterPacket
+@PacketInfo(packetType = PacketTypes.PLAYER_CHAT)
 public class PlayerChatPacket implements PacketHandler {
     @Override
     public void handle(Map<String, Object> packet, SimpMessagingTemplate messagingTemplate) {

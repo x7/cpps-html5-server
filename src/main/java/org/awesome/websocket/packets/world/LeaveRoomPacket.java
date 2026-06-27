@@ -1,9 +1,12 @@
 package org.awesome.websocket.packets.world;
 
+import org.awesome.annotations.PacketInfo;
+import org.awesome.annotations.RegisterPacket;
 import org.awesome.dto.Player;
 import org.awesome.game.world.Room;
 import org.awesome.game.world.RoomManager;
 import org.awesome.websocket.packets.PacketHandler;
+import org.awesome.websocket.packets.PacketTypes;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.messaging.simp.user.SimpUserRegistry;
 
@@ -12,6 +15,8 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
+@RegisterPacket
+@PacketInfo(packetType = PacketTypes.LEAVE_ROOM)
 public class LeaveRoomPacket implements PacketHandler {
     @Override
     public void handle(Map<String, Object> packet, SimpMessagingTemplate messagingTemplate) {

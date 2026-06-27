@@ -1,8 +1,11 @@
 package org.awesome.websocket.packets.player;
 
+import org.awesome.annotations.PacketInfo;
+import org.awesome.annotations.RegisterPacket;
 import org.awesome.dto.Player;
 import org.awesome.game.world.RoomManager;
 import org.awesome.websocket.packets.PacketHandler;
+import org.awesome.websocket.packets.PacketTypes;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.messaging.simp.user.SimpUserRegistry;
 
@@ -10,6 +13,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
+@RegisterPacket
+@PacketInfo(packetType = PacketTypes.MOVEMENT)
 public class MovementPacket implements PacketHandler {
     @Override
     public void handle(Map<String, Object> packet, SimpMessagingTemplate messagingTemplate) {
@@ -31,6 +36,7 @@ public class MovementPacket implements PacketHandler {
         returnData.put("pose", pose);
         returnData.put("penguin", penguinData);
 
+        System.out.println("received packet");
         messagingTemplate.convertAndSend("/client/player_movement", Optional.of(returnData));
     }
 }

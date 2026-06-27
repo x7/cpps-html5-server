@@ -2,6 +2,11 @@ import { ClientPenguin } from "../../../game/penguin/clientPenguin";
 import { roomManager } from "../../../game/rooms/roomManager";
 import { CLIENT_PLAY_ANIMATION } from "../../topics";
 
+// ok bro
+// client receives this packet
+// packet should contain the new players animation (the penguin var is the penguin whos animation was played)
+// then play it for this penguin on this client
+// ok all above useless :thumbsup:
 export function receivePlayAnimationPacket(response) {
     const packet = JSON.parse(response.body);
     const animationKey = packet.animationKey;
@@ -27,6 +32,7 @@ export function receivePlayAnimationPacket(response) {
         return;
     }
 
+    console.log(`setting animation for ${penguin.username}`)
     player.playAnimation(animationKey, body, overlay, null)
 }
 

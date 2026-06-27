@@ -13,7 +13,7 @@ export default class MovementManager {
         this.pose = null;
         this.x = null;
         this.y = null;
-        this.speed = 1.5;
+        this.speed = 3;
         this.threshold = 1;
         this.xSpeed = null;
         this.ySpeed = null;

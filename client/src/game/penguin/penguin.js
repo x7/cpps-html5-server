@@ -1,10 +1,11 @@
 import { getAnimation } from "../../animations/animations";
 import { animationExist } from "../../animations/animations";
 import * as animationKeys from "../../animations/animationKeys";
-import { getSceneManager } from "../../main";
+import { getGameManager, getSceneManager } from "../../main";
 import { getManager } from "../../network/network";
 import { CLIENT_PLAY_ANIMATION, CLIENT_STOP_ANIMATION, SERVER_VERIFY_PACKET } from "../../network/topics";
 import { PACKET_PLAY_ANIMATION, PACKET_PLAYER_CHAT, PACKET_PLAYER_MOVEMENT, PACKET_STOP_ANIMATION } from "../../network/types/packetTypes";
+import { StompConfig } from "@stomp/stompjs";
 
 /*
     this is the defult penguin class
@@ -88,7 +89,7 @@ export class Penguin {
 
         const canvas = document.createElement('canvas');
         const context = canvas.getContext('2d');
-        context.font = '16px Arial';
+        context.font = 'bold 18px "Arial Rounded MT Bold", Nunito, "Varela Round", sans-serif';
 
         const stringArray = [];
         let stringIndex = 0;
@@ -104,7 +105,7 @@ export class Penguin {
 
             const width = context.measureText(currentString).width;
 
-            if(width <= 160) {
+            if(width <= 200) {
                 continue;
             }
 
@@ -114,12 +115,12 @@ export class Penguin {
         }
 
         this.interface_top_chat_png = this.scene.add.sprite(10, -91.5, "interface", "interface_top_chat.png");
-        this.interface_top_chat_png.scaleX = 0.7668804733866763;
-		this.interface_top_chat_png.scaleY = 0.3364117604157102;
+        this.interface_top_chat_png.scaleX = 0.8668804733866763;
+		this.interface_top_chat_png.scaleY = 0.4364117604157102;
 
         this.interface_bottom_chat_png = this.scene.add.sprite(10, -60, "interface", "interface_bottom_chat.png");
-        this.interface_bottom_chat_png.scaleX = 0.7668805129470548;
-		this.interface_bottom_chat_png.scaleY = 0.8905622635411576;
+        this.interface_bottom_chat_png.scaleX = 0.8668805129470548;
+		this.interface_bottom_chat_png.scaleY = 0.9905622635411576;
 
         let messageY = -85
         let message = "";
@@ -134,8 +135,8 @@ export class Penguin {
 
         this.chat = this.scene.add.text(10, messageY, text)
         this.chat.text = (message === "" ? text : message);
-        this.chat.setFontFamily("Arial");
-        this.chat.setFontSize(16);
+        this.chat.setFontFamily('"Arial Rounded MT Bold", Nunito, "Varela Round", sans-serif');
+        this.chat.setFontSize(18);
         this.chat.setColor("#000000");
         this.chat.setOrigin(0.5, 0.5);
 
@@ -318,8 +319,6 @@ export class Penguin {
                 break;
             }
         }
-
-        networkManager.send(SERVER_VERIFY_PACKET, { "packet_type": PACKET_PLAY_ANIMATION, "animationKey": animationKey, "body": bodyKey, "overlay": overlayKey });
     }
 
     playAnimation(phaserAnimationKey, bodyAnimationKey, overlayAnimationKey, penguinState) {
@@ -334,6 +333,7 @@ export class Penguin {
         }
 
         if(this.connection != null) {
+            console.log(`sending packet for ${this.username}`)
             const networkManger = getManager();
             networkManger.send(SERVER_VERIFY_PACKET, { "packet_type": PACKET_PLAY_ANIMATION, "animationKey": phaserAnimationKey, "body": bodyAnimationKey, "overlay": overlayAnimationKey });
         }
@@ -341,7 +341,14 @@ export class Penguin {
         this.body.play(bodyAnimationKey);
         this.overlay.play(overlayAnimationKey);
         this.setCurrentAnimation(phaserAnimationKey);
-        // this.state = penguinState;
+
+        const repeatDance = this.scene.anims.anims.entries[bodyAnimationKey]?.repeat;
+        if(repeatDance == 0) {
+            this.body.once("animationcomplete", () => {
+                this.stopAnimation();
+                this.setPose("down", false, true);
+            });
+        }
     }
 
     stopAnimation() {
